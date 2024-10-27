@@ -215,7 +215,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGI_AXE = REGISTRY.register("engi_axe", () -> new EngiAxeItem());
 	public static final RegistryObject<Item> ENGI_PICKAXE = REGISTRY.register("engi_pickaxe", () -> new EngiPickaxeItem());
 	public static final RegistryObject<Item> ENGI_SHOVEL = REGISTRY.register("engi_shovel", () -> new EngiShovelItem());
-	public static final RegistryObject<Item> THANKS_FOR_PLAYING = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> THANKS_FOR_PLAYING = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING, null);
 	public static final RegistryObject<Item> ENGIES_SCYTHE = REGISTRY.register("engies_scythe", () -> new EngiesScytheItem());
 	public static final RegistryObject<Item> DOUGH = REGISTRY.register("dough", () -> new DoughItem());
 	public static final RegistryObject<Item> DOUGH_WITH_SAUCE = REGISTRY.register("dough_with_sauce", () -> new DoughWithSauceItem());
@@ -515,8 +515,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CYBER_INGOT = REGISTRY.register("cyber_ingot", () -> new CyberIngotItem());
 	public static final RegistryObject<Item> CYBERBLOOD_INGOT = REGISTRY.register("cyberblood_ingot", () -> new CyberbloodIngotItem());
 	public static final RegistryObject<Item> PROTOGEN_SPAWN_EGG = REGISTRY.register("protogen_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.PROTOGEN, -16737793, -16750951, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> BLOODY_ENGIE_SPAWN_EGG = REGISTRY.register("bloody_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BLOODY_ENGIE, -6750208, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> CYBER_HELMET = REGISTRY.register("cyber_helmet", () -> new CyberItem.Helmet());
 	public static final RegistryObject<Item> CYBER_CHESTPLATE = REGISTRY.register("cyber_chestplate", () -> new CyberItem.Chestplate());
 	public static final RegistryObject<Item> CYBER_LEGGINGS = REGISTRY.register("cyber_leggings", () -> new CyberItem.Leggings());
@@ -538,8 +536,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CYBER_BLOCK = block(AllaboutengieModBlocks.CYBER_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> BLOOD_BLOCK = block(AllaboutengieModBlocks.BLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> CYBERBLOOD_BLOCK = block(AllaboutengieModBlocks.CYBERBLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
-	public static final RegistryObject<Item> THANKS_FOR_PLAYING_2 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_2, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
-	public static final RegistryObject<Item> THANKS_FOR_PLAYING_3 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_3, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> THANKS_FOR_PLAYING_2 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_2, null);
+	public static final RegistryObject<Item> THANKS_FOR_PLAYING_3 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_3, null);
 	public static final RegistryObject<Item> QUIZZET_SPAWN_EGG = REGISTRY.register("quizzet_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.QUIZZET, -1, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

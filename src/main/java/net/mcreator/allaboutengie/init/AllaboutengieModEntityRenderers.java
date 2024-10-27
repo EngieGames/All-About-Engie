@@ -63,7 +63,6 @@ import net.mcreator.allaboutengie.client.renderer.CommonEngieRenderer;
 import net.mcreator.allaboutengie.client.renderer.BlueEnragedSpeedRenderer;
 import net.mcreator.allaboutengie.client.renderer.BlueEnragedNormalRenderer;
 import net.mcreator.allaboutengie.client.renderer.BlueEnragedBoomRenderer;
-import net.mcreator.allaboutengie.client.renderer.BloodyEngieRenderer;
 import net.mcreator.allaboutengie.client.renderer.BigSharkoRenderer;
 import net.mcreator.allaboutengie.client.renderer.BigRareSharkoRenderer;
 import net.mcreator.allaboutengie.client.renderer.BigRareEngieSharkoRenderer;
@@ -150,7 +149,6 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.MYTHIC_ENGIE.get(), MythicEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_ENGIE.get(), ExoticEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.PROTOGEN.get(), ProtogenRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BLOODY_ENGIE.get(), BloodyEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.QUIZZET.get(), QuizzetRenderer::new);
 	}
 }

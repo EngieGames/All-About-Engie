@@ -70,7 +70,6 @@ import net.mcreator.allaboutengie.entity.CommonEngieEntity;
 import net.mcreator.allaboutengie.entity.BlueEnragedSpeedEntity;
 import net.mcreator.allaboutengie.entity.BlueEnragedNormalEntity;
 import net.mcreator.allaboutengie.entity.BlueEnragedBoomEntity;
-import net.mcreator.allaboutengie.entity.BloodyEngieEntity;
 import net.mcreator.allaboutengie.entity.BigSharkoEntity;
 import net.mcreator.allaboutengie.entity.BigRareSharkoEntity;
 import net.mcreator.allaboutengie.entity.BigRareEngieSharkoEntity;
@@ -359,10 +358,6 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<ProtogenEntity>of(ProtogenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ProtogenEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<BloodyEngieEntity>> BLOODY_ENGIE = register("bloody_engie",
-			EntityType.Builder.<BloodyEngieEntity>of(BloodyEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BloodyEngieEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<QuizzetEntity>> QUIZZET = register("quizzet",
 			EntityType.Builder.<QuizzetEntity>of(QuizzetEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(QuizzetEntity::new)
 
@@ -442,7 +437,6 @@ public class AllaboutengieModEntities {
 			MythicEngieEntity.init();
 			ExoticEngieEntity.init();
 			ProtogenEntity.init();
-			BloodyEngieEntity.init();
 			QuizzetEntity.init();
 		});
 	}
@@ -516,7 +510,6 @@ public class AllaboutengieModEntities {
 		event.put(MYTHIC_ENGIE.get(), MythicEngieEntity.createAttributes().build());
 		event.put(EXOTIC_ENGIE.get(), ExoticEngieEntity.createAttributes().build());
 		event.put(PROTOGEN.get(), ProtogenEntity.createAttributes().build());
-		event.put(BLOODY_ENGIE.get(), BloodyEngieEntity.createAttributes().build());
 		event.put(QUIZZET.get(), QuizzetEntity.createAttributes().build());
 	}
 }

@@ -8598,23 +8598,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "BloodyEngie",
-      "type": "livingentity",
-      "sortid": 547,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloody_engie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/bloody_engie_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/bloody_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BloodyEngieRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/BloodyEngieEntity.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
       "name": "Cyber",
       "type": "armor",
       "sortid": 548,
@@ -9391,6 +9374,26 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Scoreboard",
+      "type": "procedure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoreboard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ScoreboardProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -9496,7 +9499,6 @@
       "item.aae_items.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
       "item.allaboutengie.mythic_hoe": "Mythic Hoe",
       "item.aae_items.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.allaboutengie.bloody_engie_spawn_egg": "Bloody Engie Spawn Egg",
       "item.aae_items.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_battle_axe": "Cyberblood Battle Axe",
       "block.allaboutengie.metal_chest_birch": "Birch Metal Chest",
@@ -9527,7 +9529,6 @@
       "entity.allaboutengie.mythic_sharko_lay": "Mythic Sharko [Laying]",
       "advancements.big_ban_hammer_obtained.title": "A lot bigger than the normal one..",
       "item.allaboutengie.engie_hoe": "Engie Hoe",
-      "entity.allaboutengie.bloody_engie": "Bloody Engie",
       "item.allaboutengie.engie_sharko_rare_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
       "advancements.found_engie.descr": "Find Engie and interact with him.",
       "advancements.engies_scythe_obtained.descr": "Obtain Engie\u0027s Scythe.",
