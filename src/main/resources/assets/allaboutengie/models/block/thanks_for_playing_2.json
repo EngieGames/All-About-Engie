@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "allaboutengie:blocks/thanksforplaying",
+    "up": "allaboutengie:blocks/thanksforplaying",
+    "north": "allaboutengie:blocks/thanksforplaying",
+    "east": "allaboutengie:blocks/thanksforplaying",
+    "south": "allaboutengie:blocks/thanksforplaying",
+    "west": "allaboutengie:blocks/thanksforplaying",
+    "particle": "allaboutengie:blocks/thanksforplaying"
+  },
+  "render_type": "solid"
+}

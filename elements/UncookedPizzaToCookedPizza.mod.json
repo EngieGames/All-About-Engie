@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "smelting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 25.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UncookedPizza"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedPizza"
+    },
+    "name": "uncooked_pizza_to_cooked_pizza",
+    "namespace": "mod"
+  }
+}

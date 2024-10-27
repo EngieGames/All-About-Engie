@@ -1,0 +1,76 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "enragedengiearmor",
+    "enableBody": true,
+    "textureBody": "enragedengiearmor",
+    "enableLeggings": true,
+    "textureLeggings": "enragedengiearmor",
+    "enableBoots": true,
+    "textureBoots": "enragedengiearmor",
+    "onBodyTick": {
+      "name": "EEChestplate"
+    },
+    "onBootsTick": {
+      "name": "EEBoots"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsArmor"
+    },
+    "armorTextureFile": "enraged_",
+    "helmetName": "Enraged Engie Helmet",
+    "bodyName": "Enraged Engie Chestplate",
+    "leggingsName": "Enraged Engie Leggings",
+    "bootsName": "Enraged Engie Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 750,
+    "damageValueHelmet": 750,
+    "damageValueBody": 750,
+    "damageValueLeggings": 750,
+    "damageValueBoots": 750,
+    "enchantability": 15,
+    "toughness": 4.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnragedEngieEssence"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "ocean",
+    "river"
+  ],
+  "spawners": {
+    "type": "allaboutengie:blue_enraged_speed",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

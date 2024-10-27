@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "enraged_zombies_logo"
+      },
+      "name": "default"
+    }
+  }
+}

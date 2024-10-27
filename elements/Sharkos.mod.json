@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Sharkos",
+    "icon": {
+      "value": "Items.COOKIE"
+    },
+    "showSearch": false
+  }
+}

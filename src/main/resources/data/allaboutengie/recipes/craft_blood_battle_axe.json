@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "1": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "2": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "3": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:blood_battle_axe",
+    "count": 1
+  }
+}

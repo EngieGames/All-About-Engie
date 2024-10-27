@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EngieBlock"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:EngieBlock"
+      },
+      {
+        "value": "CUSTOM:AngryEngieBlock"
+      },
+      {
+        "value": "CUSTOM:MiniBanHammer"
+      },
+      {
+        "value": "CUSTOM:AngryEngieBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BanHammer"
+    },
+    "name": "ban_hammer_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allaboutengie:cracker_dust"
+    },
+    {
+      "item": "allaboutengie:cracker_dust"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "allaboutengie:cracker_dust"
+    }
+  ],
+  "result": {
+    "item": "allaboutengie:crackers_in_bowl",
+    "count": 1
+  }
+}

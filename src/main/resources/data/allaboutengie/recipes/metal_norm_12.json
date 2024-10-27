@@ -1,0 +1,20 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:metal_chest"
+    },
+    "1": {
+      "item": "minecraft:warped_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:metal_chest_warped",
+    "count": 1
+  }
+}

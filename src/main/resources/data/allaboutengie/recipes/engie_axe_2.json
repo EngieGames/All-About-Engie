@@ -1,0 +1,30 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "1": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:engie_axe",
+    "count": 1
+  }
+}

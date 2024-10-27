@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:MythicSharkoCloth"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MythicShark.helmet"
+    },
+    "name": "m_shark_1",
+    "namespace": "mod"
+  }
+}

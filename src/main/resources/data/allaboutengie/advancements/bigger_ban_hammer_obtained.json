@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:bigger_ban_hammer_pixel"
+    },
+    "title": {
+      "translate": "advancements.bigger_ban_hammer_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.bigger_ban_hammer_obtained.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bigger_ban_hammer_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:bigger_ban_hammer"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "allaboutengie:big_ban_hammer_obtained"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/aaedimensionsplaque",
+  "textures": {
+    "0": "allaboutengie:blocks/aae_dimensions_logo",
+    "particle": "allaboutengie:items/backuptext"
+  }
+}

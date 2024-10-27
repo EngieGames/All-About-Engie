@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "painting",
+  "definition": {
+    "texture": "tshark.png",
+    "width": 32,
+    "height": 32,
+    "title": "Tiger Shark",
+    "author": "EngieGames"
+  }
+}

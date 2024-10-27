@@ -1,0 +1,29 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "banhammerpixel",
+    "customModelName": "ban_hammer_bigger_pixel:default",
+    "name": "Bigger Ban Hammer Pixel",
+    "specialInfo": [
+      "Reducing Model Lag. Also an easter egg by the way. ;)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsPixelHammers"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.5,
+    "enchantability": 128000,
+    "damageVsEntity": 2500.0,
+    "usageCount": 6000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

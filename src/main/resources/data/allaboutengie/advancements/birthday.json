@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:aae_engie"
+    },
+    "title": {
+      "translate": "advancements.birthday.title"
+    },
+    "description": {
+      "translate": "advancements.birthday.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "birthday": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "allaboutengie:deleted_mod_element"
+}

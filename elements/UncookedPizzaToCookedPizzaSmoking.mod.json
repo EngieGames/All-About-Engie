@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "smoking",
+    "cookingBookCategory": "MISC",
+    "xpReward": 25.0,
+    "cookingTime": 50,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:UncookedPizza"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedPizza"
+    },
+    "name": "uncooked_pizza_to_cooked_pizza_smoking",
+    "namespace": "mod"
+  }
+}

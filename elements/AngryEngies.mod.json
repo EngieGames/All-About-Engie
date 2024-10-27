@@ -1,0 +1,73 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "angryengiearmor",
+    "enableBody": true,
+    "textureBody": "angryengiearmor",
+    "enableLeggings": true,
+    "textureLeggings": "angryengiearmor",
+    "enableBoots": true,
+    "textureBoots": "angryengiearmor",
+    "onBootsTick": {
+      "name": "AEBoots"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsArmor"
+    },
+    "armorTextureFile": "angryengi_",
+    "helmetName": "Angry Engie Helmet",
+    "bodyName": "Angry Engie Chestplate",
+    "leggingsName": "Angry Engie Leggings",
+    "bootsName": "Angry Engie Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 500,
+    "damageValueHelmet": 500,
+    "damageValueBody": 500,
+    "damageValueLeggings": 500,
+    "damageValueBoots": 500,
+    "enchantability": 10,
+    "toughness": 3.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AngryEngieEssence"
+      }
+    ]
+  }
+}

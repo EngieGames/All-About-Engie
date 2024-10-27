@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "allaboutengie:blocks/engiblock",
+    "up": "allaboutengie:blocks/engiblock",
+    "north": "allaboutengie:blocks/engiblock",
+    "east": "allaboutengie:blocks/engiblock",
+    "south": "allaboutengie:blocks/engiblock",
+    "west": "allaboutengie:blocks/engiblock",
+    "particle": "allaboutengie:blocks/engiblock"
+  },
+  "render_type": "solid"
+}

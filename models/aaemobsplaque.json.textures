@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "aae_mobs_logo"
+      },
+      "name": "default"
+    }
+  }
+}

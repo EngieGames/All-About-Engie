@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "aae_dimensions_logo"
+      },
+      "name": "default"
+    }
+  }
+}

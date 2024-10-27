@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:aae_engie"
+    },
+    "title": {
+      "translate": "advancements.found_engie.title"
+    },
+    "description": {
+      "translate": "advancements.found_engie.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found_engie": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "allaboutengie:new_world_new_problem"
+}

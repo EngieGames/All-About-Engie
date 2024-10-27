@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/aaesharkosplaque",
+  "textures": {
+    "0": "allaboutengie:blocks/aae_sharkos_logo",
+    "particle": "allaboutengie:items/backuptext"
+  }
+}

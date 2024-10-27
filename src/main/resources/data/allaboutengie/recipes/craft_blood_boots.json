@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "2": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "3": {
+      "item": "allaboutengie:blood_ingot"
+    },
+    "5": {
+      "item": "allaboutengie:blood_ingot"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:blood_boots",
+    "count": 1
+  }
+}

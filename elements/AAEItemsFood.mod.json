@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Food",
+    "icon": {
+      "value": "CUSTOM:CookedPizza"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:exotic_sword"
+    },
+    "title": {
+      "translate": "advancements.exotic_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.exotic_obtained.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exotic_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "allaboutengie:mythic_obtained"
+}
