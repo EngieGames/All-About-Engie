@@ -34,4 +34,5 @@ public class AllaboutengieModPaintings {
 	public static final RegistryObject<PaintingVariant> AAE_ITEMS_LOGO_2 = REGISTRY.register("aae_items_logo_2", () -> new PaintingVariant(32, 32));
 	public static final RegistryObject<PaintingVariant> AAE_ITEMS_LOGO_3 = REGISTRY.register("aae_items_logo_3", () -> new PaintingVariant(48, 48));
 	public static final RegistryObject<PaintingVariant> AAE_ITEMS_LOGO_4 = REGISTRY.register("aae_items_logo_4", () -> new PaintingVariant(64, 64));
+	public static final RegistryObject<PaintingVariant> ECH = REGISTRY.register("ech", () -> new PaintingVariant(16, 16));
 }

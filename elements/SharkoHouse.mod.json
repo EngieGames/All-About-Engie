@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "structure",
   "definition": {
-    "structure": "cyberhouse",
+    "structure": "sharkohouse",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
     "spawnProbability": 0,
