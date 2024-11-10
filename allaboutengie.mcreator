@@ -9588,6 +9588,36 @@
         "files": []
       },
       "path": "~/Paintings"
+    },
+    {
+      "name": "CrucifixPixel",
+      "type": "item",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucifix_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/item/CrucifixPixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/crucifix_pixel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EngiesScythePixel",
+      "type": "tool",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_scythe_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/item/EngiesScythePixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engies_scythe_pixel.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -9764,6 +9794,7 @@
       "advancements.enraged_engie_tool_obtained.descr": "Obtain one of the Enraged Engie tools.",
       "item.allaboutengie.operators_chestplate": "Operators Chestplate",
       "entity.allaboutengie.big_rare_engie_sharko": "Big Engie Sharko",
+      "item.allaboutengie.engies_scythe_pixel": "Pixel Engie\u0027s Scythe",
       "block.allaboutengie.metal_chest_spruce": "Spruce Metal Chest",
       "advancements.no_rulebreaking.title": "Remember lad, NO RULEBREAKING.",
       "item.allaboutengie.orange_enraged_speed_spawn_egg": "Orange Enraged Speed Spawn Egg",
@@ -9938,6 +9969,7 @@
       "advancements.engie_gem_obtained.title": "Who trapped bro in there?",
       "advancements.found_engie.title": "That took quite long.",
       "item.allaboutengie.bigger_ban_hammer_pixel": "Bigger Ban Hammer Pixel",
+      "item.allaboutengie.crucifix_pixel": "Pixel Crucifix",
       "item.allaboutengie.angry_engies_chestplate": "Angry Engie Chestplate",
       "entity.allaboutengie.big_legendary_sharko": "Big Legendary Sharko",
       "item.allaboutengie.unobtainium_leggings": "Unobtainium Leggings",
@@ -10095,7 +10127,7 @@
       "item.allaboutengie.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
       "item.allaboutengie.engi_fr_spawn_egg": "EngiFR Spawn Egg",
       "item.allaboutengie.mythic_engie_spawn_egg": "Mythic Engie Spawn Egg",
-      "itemGroup.tabaae_items_pixel_hammers": "Pixel Hammers",
+      "itemGroup.tabaae_items_pixel_hammers": "Pixel Items",
       "item.allaboutengie.angry_engie_essence": "Angry Engie Essence",
       "item.allaboutengie.rare_shark_chestplate": "Rare Sharko Chestplate",
       "item.allaboutengie.blue_enraged_boom_spawn_egg": "Blue Enraged Boom Spawn Egg",
@@ -10273,7 +10305,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "11.3.24.2",
+    "version": "11.10.24",
     "description": "Made with MCreator.",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",

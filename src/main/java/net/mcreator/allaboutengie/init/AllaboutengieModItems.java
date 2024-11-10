@@ -97,6 +97,7 @@ import net.mcreator.allaboutengie.item.EnragedEngieHoeItem;
 import net.mcreator.allaboutengie.item.EnragedEngieEssenceItem;
 import net.mcreator.allaboutengie.item.EnragedEngieAxeItem;
 import net.mcreator.allaboutengie.item.EnragedCoinItem;
+import net.mcreator.allaboutengie.item.EngiesScythePixelItem;
 import net.mcreator.allaboutengie.item.EngiesScytheItem;
 import net.mcreator.allaboutengie.item.EngiesItem;
 import net.mcreator.allaboutengie.item.EngieShovelItem;
@@ -127,6 +128,7 @@ import net.mcreator.allaboutengie.item.CyberbloodBattleAxeItem;
 import net.mcreator.allaboutengie.item.CyberKatanaItem;
 import net.mcreator.allaboutengie.item.CyberItem;
 import net.mcreator.allaboutengie.item.CyberIngotItem;
+import net.mcreator.allaboutengie.item.CrucifixPixelItem;
 import net.mcreator.allaboutengie.item.CrucifixItem;
 import net.mcreator.allaboutengie.item.CrackersInBowlItem;
 import net.mcreator.allaboutengie.item.CrackerDustItem;
@@ -539,6 +541,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_2 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_2, null);
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_3 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_3, null);
 	public static final RegistryObject<Item> QUIZZET_SPAWN_EGG = REGISTRY.register("quizzet_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.QUIZZET, -1, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> CRUCIFIX_PIXEL = REGISTRY.register("crucifix_pixel", () -> new CrucifixPixelItem());
+	public static final RegistryObject<Item> ENGIES_SCYTHE_PIXEL = REGISTRY.register("engies_scythe_pixel", () -> new EngiesScythePixelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

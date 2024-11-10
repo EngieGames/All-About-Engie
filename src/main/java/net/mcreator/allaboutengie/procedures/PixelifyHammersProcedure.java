@@ -43,8 +43,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.MINI_BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BAN_HAMMER.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BAN_HAMMER.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.BAN_HAMMER_PIXEL.get());
 					_setstack.setCount(1);
@@ -54,8 +53,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIG_BAN_HAMMER.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIG_BAN_HAMMER.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.BIG_BAN_HAMMER_PIXEL.get());
 					_setstack.setCount(1);
@@ -65,8 +63,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.BIG_BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIGGER_BAN_HAMMER.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIGGER_BAN_HAMMER.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.BIGGER_BAN_HAMMER_PIXEL.get());
 					_setstack.setCount(1);
@@ -76,8 +73,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.BIGGER_BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIGGEST_BAN_HAMMER.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIGGEST_BAN_HAMMER.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.BIGGEST_BAN_HAMMER_PIXEL.get());
 					_setstack.setCount(1);
@@ -87,8 +83,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.BIGGEST_BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER_NCMD.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER_NCMD.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER_NCMD_PIXEL.get());
 					_setstack.setCount(1);
@@ -98,8 +93,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER_NCMD.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER_PIXEL.get());
 					_setstack.setCount(1);
@@ -109,8 +103,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.TRUE_BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.KICK_BAN_HAMMER.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.KICK_BAN_HAMMER.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.KICK_BAN_HAMMER_PIXEL.get());
 					_setstack.setCount(1);
@@ -120,8 +113,7 @@ public class PixelifyHammersProcedure {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.KICK_BAN_HAMMER.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
-			}
-			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.ECHDEATH.get())) : false) {
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.ECHDEATH.get())) : false) {
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(AllaboutengieModItems.ECHDEATH_PIXEL.get());
 					_setstack.setCount(1);
@@ -129,6 +121,26 @@ public class PixelifyHammersProcedure {
 				}
 				if (entity instanceof Player _player) {
 					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.ECHDEATH.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.ENGIES_SCYTHE.get())) : false) {
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = new ItemStack(AllaboutengieModItems.ENGIES_SCYTHE_PIXEL.get());
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+				}
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.ENGIES_SCYTHE.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+			} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.CRUCIFIX.get())) : false) {
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = new ItemStack(AllaboutengieModItems.CRUCIFIX_PIXEL.get());
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+				}
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(AllaboutengieModItems.CRUCIFIX.get());
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
 			}
