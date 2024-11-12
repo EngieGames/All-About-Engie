@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Engie.legs"
+      "value": "CUSTOM:Engies.legs"
     },
     "name": "engie_leggings_1",
     "namespace": "mod"

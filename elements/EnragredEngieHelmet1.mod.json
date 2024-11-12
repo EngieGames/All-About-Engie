@@ -15,7 +15,7 @@
         "value": "CUSTOM:EnragedEngieEssence"
       },
       {
-        "value": "CUSTOM:EnragedEngieEssence"
+        "value": ""
       },
       {
         "value": "CUSTOM:EnragedEngieEssence"
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EnragedEngie.helmet"
+      "value": "CUSTOM:EnragedEngies.helmet"
     },
     "name": "enragred_engie_helmet_1",
     "namespace": "mod"

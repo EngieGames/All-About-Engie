@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Engie.helmet"
+      "value": "CUSTOM:Engies.helmet"
     },
     "name": "engie_helmet_1",
     "namespace": "mod"

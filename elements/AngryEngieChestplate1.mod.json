@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AngryEngie.body"
+      "value": "CUSTOM:AngryEngies.body"
     },
     "name": "angry_engie_chestplate_1",
     "namespace": "mod"

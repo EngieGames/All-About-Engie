@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Engie.body"
+      "value": "CUSTOM:Engies.body"
     },
     "name": "engie_chestplate_1",
     "namespace": "mod"

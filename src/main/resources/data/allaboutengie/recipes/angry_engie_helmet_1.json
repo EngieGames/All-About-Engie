@@ -2,14 +2,11 @@
   "group": "crafting",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    "0 2",
     "345"
   ],
   "key": {
     "0": {
-      "item": "allaboutengie:angry_engie_essence"
-    },
-    "1": {
       "item": "allaboutengie:angry_engie_essence"
     },
     "2": {
@@ -26,7 +23,7 @@
     }
   },
   "result": {
-    "item": "allaboutengie:angry_engie_helmet",
+    "item": "allaboutengie:angry_engies_helmet",
     "count": 1
   }
 }

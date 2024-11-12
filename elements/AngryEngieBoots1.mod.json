@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AngryEngie.boots"
+      "value": "CUSTOM:AngryEngies.boots"
     },
     "name": "angry_engie_boots_1",
     "namespace": "mod"

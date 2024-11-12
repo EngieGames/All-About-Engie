@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Engie.boots"
+      "value": "CUSTOM:Engies.boots"
     },
     "name": "engie_boots_1",
     "namespace": "mod"

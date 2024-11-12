@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 1,
-    "texture": "him",
+    "texture": "image",
     "customModelName": "engi_scythe:default",
     "name": "Engie's Scythe",
     "specialInfo": [
