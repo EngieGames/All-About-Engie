@@ -11,13 +11,13 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.commands.Commands;
 
-import net.mcreator.allaboutengie.procedures.IdeaGiverCommandProProcedure;
+import net.mcreator.allaboutengie.procedures.CommandstarteritemsProcedure;
 
 @Mod.EventBusSubscriber
-public class IdeaGiverCommand {
+public class StarterItemsCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("ideagiveritems")
+		event.getDispatcher().register(Commands.literal("starteritems")
 
 				.executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
@@ -29,7 +29,7 @@ public class IdeaGiverCommand {
 						entity = FakePlayerFactory.getMinecraft(world);
 					Direction direction = entity.getDirection();
 
-					IdeaGiverCommandProProcedure.execute(world, entity);
+					CommandstarteritemsProcedure.execute(world, entity);
 					return 0;
 				}));
 	}

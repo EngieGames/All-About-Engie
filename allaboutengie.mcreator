@@ -9627,6 +9627,20 @@
       "locked_code": false,
       "registry_name": "eh",
       "path": "~/Procedures"
+    },
+    {
+      "name": "StarterItems",
+      "type": "command",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starter_items",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/command/StarterItemsCommand.java"
+        ]
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [
@@ -10314,7 +10328,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "11.10.24",
+    "version": "11.13.24",
     "description": "Made with MCreator.",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",

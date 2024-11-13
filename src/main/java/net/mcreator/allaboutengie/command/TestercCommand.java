@@ -17,7 +17,7 @@ import net.mcreator.allaboutengie.procedures.TesterGiverCommandProProcedure;
 public class TestercCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("TesterItems")
+		event.getDispatcher().register(Commands.literal("testeritems")
 
 				.executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();

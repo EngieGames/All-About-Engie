@@ -17,7 +17,7 @@ import net.mcreator.allaboutengie.procedures.DeveloperCommandProProcedure;
 public class DevECommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("DeveloperItems")
+		event.getDispatcher().register(Commands.literal("devitems")
 
 				.executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
