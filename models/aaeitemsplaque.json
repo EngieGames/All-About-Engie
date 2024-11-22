@@ -1,33 +1,33 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "Desktop/Mcreator modding/I Develop Mods/logo and paintings/AAE Items Logo",
-		"particle": "Desktop/Mcreator modding/I Develop Mods/logo and paintings/AAE Items Logo"
+		"0": "logo and paintings/AAE Items Logo",
+		"particle": "logo and paintings/AAE Items Logo"
 	},
 	"elements": [
 		{
 			"from": [2, 0, 2],
 			"to": [14, 1, 14],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0.5, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"east": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"west": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 1080, 1080], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 0.73333], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 0.73333], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.73333], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 0.73333], "texture": "#0"},
+				"up": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#0"}
 			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
-			"translation": [0, 0, 4.5],
+			"translation": [-1, 2, 4.5],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [90, 0, 0],
-			"translation": [0, 0, 4.5],
+			"translation": [-1, 2, 4.5],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {

@@ -9,6 +9,8 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
@@ -33,7 +35,7 @@ public class GoodLuckProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() == 0.000001) {
+		if (Mth.nextDouble(RandomSource.create(), 1, 1000000) == 1) {
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.ALL_ABOUT_ENGIE_PLAQUE.get())) : false) {
 				{
 					Entity _ent = entity;
