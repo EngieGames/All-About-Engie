@@ -112,7 +112,7 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 40,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],

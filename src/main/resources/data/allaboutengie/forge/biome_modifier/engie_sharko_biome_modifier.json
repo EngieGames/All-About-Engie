@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "allaboutengie:engie_sharko",
-    "weight": 1,
+    "weight": 3,
     "minCount": 1,
     "maxCount": 8
   }

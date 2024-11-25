@@ -243,39 +243,39 @@ public class AllaboutengieModEntities {
 
 					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<BigSharkoEntity>> BIG_SHARKO = register("big_sharko",
-			EntityType.Builder.<BigSharkoEntity>of(BigSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSharkoEntity::new)
+			EntityType.Builder.<BigSharkoEntity>of(BigSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigAlbinoSharkoEntity>> BIG_ALBINO_SHARKO = register("big_albino_sharko",
-			EntityType.Builder.<BigAlbinoSharkoEntity>of(BigAlbinoSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigAlbinoSharkoEntity::new)
+			EntityType.Builder.<BigAlbinoSharkoEntity>of(BigAlbinoSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigAlbinoSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigRareSharkoEntity>> BIG_RARE_SHARKO = register("big_rare_sharko",
-			EntityType.Builder.<BigRareSharkoEntity>of(BigRareSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoEntity::new)
+			EntityType.Builder.<BigRareSharkoEntity>of(BigRareSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigLegendarySharkoEntity>> BIG_LEGENDARY_SHARKO = register("big_legendary_sharko",
-			EntityType.Builder.<BigLegendarySharkoEntity>of(BigLegendarySharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigLegendarySharkoEntity::new)
+			EntityType.Builder.<BigLegendarySharkoEntity>of(BigLegendarySharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigLegendarySharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigMythicSharkoEntity>> BIG_MYTHIC_SHARKO = register("big_mythic_sharko",
-			EntityType.Builder.<BigMythicSharkoEntity>of(BigMythicSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigMythicSharkoEntity::new)
+			EntityType.Builder.<BigMythicSharkoEntity>of(BigMythicSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigMythicSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigExoticSharkoEntity>> BIG_EXOTIC_SHARKO = register("big_exotic_sharko",
-			EntityType.Builder.<BigExoticSharkoEntity>of(BigExoticSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigExoticSharkoEntity::new)
+			EntityType.Builder.<BigExoticSharkoEntity>of(BigExoticSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigExoticSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigEngieSharkoEntity>> BIG_ENGIE_SHARKO = register("big_engie_sharko",
-			EntityType.Builder.<BigEngieSharkoEntity>of(BigEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoEntity::new)
+			EntityType.Builder.<BigEngieSharkoEntity>of(BigEngieSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigRareEngieSharkoEntity>> BIG_RARE_ENGIE_SHARKO = register("big_rare_engie_sharko",
-			EntityType.Builder.<BigRareEngieSharkoEntity>of(BigRareEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareEngieSharkoEntity::new)
+			EntityType.Builder.<BigRareEngieSharkoEntity>of(BigRareEngieSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareEngieSharkoEntity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigRareEngieSharko2Entity>> BIG_RARE_ENGIE_SHARKO_2 = register("big_rare_engie_sharko_2",
-			EntityType.Builder.<BigRareEngieSharko2Entity>of(BigRareEngieSharko2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareEngieSharko2Entity::new)
+			EntityType.Builder.<BigRareEngieSharko2Entity>of(BigRareEngieSharko2Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareEngieSharko2Entity::new)
 
 					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<EnragedNormalEntity>> ENRAGED_NORMAL = register("enraged_normal",
