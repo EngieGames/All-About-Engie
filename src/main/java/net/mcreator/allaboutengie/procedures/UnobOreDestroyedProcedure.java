@@ -1,72 +1,87 @@
 package net.mcreator.allaboutengie.procedures;
 
-import net.minecraftforge.items.ItemHandlerHelper;
-
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
-
-import net.mcreator.allaboutengie.init.AllaboutengieModItems;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 public class UnobOreDestroyedProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (Mth.nextInt(RandomSource.create(), 1, 9) == 1) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_HELMET.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		if (Mth.nextDouble(RandomSource.create(), 1, 9) == 1) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_helmet");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 2) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_CHESTPLATE.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 2) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_chestplate");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 3) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_LEGGINGS.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 3) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_leggings");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 4) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_BOOTS.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 4) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_boots");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 5) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_SWORD.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 5) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_sword");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 6) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_PICKAXE.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 6) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_pickaxe");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 7) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_AXE.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 7) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_axe");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 8) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_SHOVEL.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 8) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_shovel");
+				}
 			}
-		} else if (Mth.nextInt(RandomSource.create(), 1, 9) == 9) {
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(AllaboutengieModItems.UNOBTAINIUM_HOE.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		} else if (Mth.nextDouble(RandomSource.create(), 1, 9) == 9) {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @s allaboutengie:unobtainium_hoe");
+				}
 			}
 		}
 	}

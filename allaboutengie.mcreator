@@ -9620,15 +9620,6 @@
       "path": "~/Items"
     },
     {
-      "name": "Eh",
-      "type": "procedure",
-      "sortid": 612,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eh",
-      "path": "~/Procedures"
-    },
-    {
       "name": "StarterItems",
       "type": "command",
       "sortid": 613,
@@ -9641,6 +9632,50 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "ModeCheck",
+      "type": "procedure",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mode_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ModeCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RespawnCheck",
+      "type": "procedure",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respawn_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RespawnCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -10328,7 +10363,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "11.25.24",
+    "version": "12.1.24",
     "description": "Made with MCreator.",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",
