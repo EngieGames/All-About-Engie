@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Unobtainium Ore",
+    "name": "Deepslate Unobtainium Ore",
     "specialInfo": [],
     "hardness": 7.0,
     "resistance": 1200.0,
@@ -47,7 +47,7 @@
       "value": "Blocks.AIR"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "UnobOreDestroyed"
-    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -133,8 +130,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 12,
-    "frequencyOnChunk": 6,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 0
   }

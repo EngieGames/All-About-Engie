@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "That took quite long.",
-    "achievementDescription": "Find Engie and interact with him.",
+    "achievementDescription": "Have a chat with Engie. GG.",
     "achievementIcon": {
       "value": "CUSTOM:AAEEngie"
     },

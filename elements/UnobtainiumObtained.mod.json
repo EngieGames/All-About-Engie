@@ -15,7 +15,7 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 30,
+    "rewardXP": 25,
     "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:ExoticObtained"

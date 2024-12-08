@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "loottable",
   "definition": {
-    "type": "Chest",
+    "type": "Block",
     "pools": [
       {
         "minrolls": 1,
@@ -14,11 +14,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Dough"
+              "value": "CUSTOM:Unobtainium.helmet"
             },
-            "weight": 100,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -28,11 +28,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:DoughWithSauce"
+              "value": "CUSTOM:Unobtainium.body"
             },
-            "weight": 100,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -42,11 +42,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:UncookedPizza"
+              "value": "CUSTOM:Unobtainium.legs"
             },
-            "weight": 25,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -56,11 +56,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:CookedPizza"
+              "value": "CUSTOM:Unobtainium.boots"
             },
-            "weight": 25,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -70,11 +70,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:PizzaSlice"
+              "value": "CUSTOM:UnobtainiumSword"
             },
-            "weight": 100,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -84,11 +84,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Cheese"
+              "value": "CUSTOM:UnobtainiumPickaxe"
             },
-            "weight": 100,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -98,11 +98,39 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:CrackersInBowl"
+              "value": "CUSTOM:UnobtainiumAxe"
             },
-            "weight": 100,
+            "weight": 1,
             "minCount": 1,
-            "maxCount": 16,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:UnobtainiumShovel"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:UnobtainiumHoe"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -112,7 +140,7 @@
         ]
       }
     ],
-    "name": "chests/village_main",
-    "namespace": "minecraft"
+    "name": "blocks/deepslate_unobtainium",
+    "namespace": "mod"
   }
 }

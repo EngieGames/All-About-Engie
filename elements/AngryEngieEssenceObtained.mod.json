@@ -13,10 +13,23 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "AngryEngieAxe1",
+      "AngryEngieAxe2",
+      "AngryEngiePickaxe1",
+      "AngryEngieShovel1",
+      "AngryEngieHoe1",
+      "AngryEngieHoe2",
+      "AngryEngieHelmet1",
+      "AngryEngieChestplate1",
+      "AngryEngieLeggings1",
+      "AngryEngieBoots1",
+      "AngryEngieBlock1",
+      "AngryEngieEssence9items"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 20,
-    "achievementType": "task",
+    "achievementType": "goal",
     "parent": {
       "value": "CUSTOM:EngieGemObtained"
     },

@@ -13,10 +13,23 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "EnragedEngieAxe1",
+      "EnragedEngieAxe2",
+      "EnragedEngiePickaxe1",
+      "EnragedEngieShovel1",
+      "EnragedEngieHoe1",
+      "EnragedEngieHoe2",
+      "EnragredEngieHelmet1",
+      "EnragedEngieChestplate1",
+      "EnragedEngieLeggings1",
+      "EnragedEngieBoots1",
+      "EnragedEngieBlock1",
+      "EnragedEngieEssence9items"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 30,
-    "achievementType": "task",
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:AngryEngieEssenceObtained"
     },

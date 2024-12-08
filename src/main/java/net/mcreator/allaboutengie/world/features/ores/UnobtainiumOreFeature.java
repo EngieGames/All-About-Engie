@@ -37,7 +37,7 @@ public class UnobtainiumOreFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), AllaboutengieModBlocks.UNOBTAINIUM_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), AllaboutengieModBlocks.UNOBTAINIUM_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), AllaboutengieModBlocks.UNOBTAINIUM_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), AllaboutengieModBlocks.UNOBTAINIUM_ORE.get().defaultBlockState())), 4));
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), AllaboutengieModBlocks.UNOBTAINIUM_ORE.get().defaultBlockState())), 6));
 		PLACED_FEATURE = PlacementUtils.register("allaboutengie:unobtainium_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)), BiomeFilter.biome()));
 		return FEATURE;

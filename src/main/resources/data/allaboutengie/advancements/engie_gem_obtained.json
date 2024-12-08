@@ -33,7 +33,26 @@
     }
   },
   "rewards": {
-    "experience": 10
+    "experience": 10,
+    "recipes": [
+      "allaboutengie:engie_axe_1",
+      "allaboutengie:engie_axe_2",
+      "allaboutengie:engie_pickaxe_1",
+      "allaboutengie:engie_shovel_1",
+      "allaboutengie:engie_hoe_1",
+      "allaboutengie:engie_hoe_2",
+      "allaboutengie:mini_ban_hammer_craft",
+      "allaboutengie:ban_hammer_craft",
+      "allaboutengie:big_ban_hammer_craft",
+      "allaboutengie:bigger_ban_hammer_craft",
+      "allaboutengie:biggest_ban_hammer_craft",
+      "allaboutengie:engie_helmet_1",
+      "allaboutengie:engie_chestplate_1",
+      "allaboutengie:engie_leggings_1",
+      "allaboutengie:engie_boots_1",
+      "allaboutengie:engie_block_1",
+      "allaboutengie:engie_gem_9items"
+    ]
   },
   "parent": "allaboutengie:new_world"
 }
