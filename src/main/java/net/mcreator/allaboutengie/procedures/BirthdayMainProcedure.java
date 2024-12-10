@@ -63,7 +63,7 @@ public class BirthdayMainProcedure {
 				if (Calendar.getInstance().get(Calendar.DAY_OF_MONTH) == 25) {
 					if (entity instanceof Player) {
 						if (entity instanceof ServerPlayer _player) {
-							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:golden_birthday"));
+							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:deleted_mod_element"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 							if (!_ap.isDone()) {
 								Iterator _iterator = _ap.getRemainingCriteria().iterator();
@@ -74,7 +74,7 @@ public class BirthdayMainProcedure {
 					}
 					if (entity instanceof ServerPlayer) {
 						if (entity instanceof ServerPlayer _player) {
-							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:golden_birthday"));
+							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:deleted_mod_element"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 							if (!_ap.isDone()) {
 								Iterator _iterator = _ap.getRemainingCriteria().iterator();
