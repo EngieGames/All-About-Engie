@@ -1,5 +1,6 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "allaboutengie:aae_engie"
     },
@@ -10,14 +11,13 @@
       "translate": "advancements.new_world_new_problem.descr"
     },
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {
     "new_world_new_problem": {
       "trigger": "minecraft:impossible"
     }
-  },
-  "parent": "allaboutengie:new_world"
+  }
 }

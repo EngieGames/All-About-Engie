@@ -2,15 +2,15 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "This is not right for sure.",
-    "achievementDescription": "Create a world with the new gamerule.",
+    "achievementName": "All About Engie: Detective mode edition.",
+    "achievementDescription": "Create a world with the new All About Engie gamerule.",
     "achievementIcon": {
       "value": "CUSTOM:AAEEngie"
     },
     "background": "Default",
     "disableDisplay": false,
-    "showPopup": true,
-    "announceToChat": true,
+    "showPopup": false,
+    "announceToChat": false,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
@@ -18,7 +18,7 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:NewWorld"
+      "value": "No parent: root"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"56\" y=\"94\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
