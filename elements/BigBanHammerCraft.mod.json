@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BanHammer"
+      "value": "CUSTOM:BigBanHammer"
     },
     "name": "big_ban_hammer_craft",
     "namespace": "mod"
