@@ -90,47 +90,47 @@ import net.mcreator.allaboutengie.AllaboutengieMod;
 public class AllaboutengieModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AllaboutengieMod.MODID);
 	public static final RegistryObject<EntityType<EngieGamesGUIEntity>> ENGIE_GAMES_GUI = register("engie_games_gui", EntityType.Builder.<EngieGamesGUIEntity>of(EngieGamesGUIEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(1024).setUpdateInterval(3).setCustomClientFactory(EngieGamesGUIEntity::new).fireImmune().sized(0.6f, 1.8f));
+			.setTrackingRange(1024).setUpdateInterval(3).setCustomClientFactory(EngieGamesGUIEntity::new).fireImmune().sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EngiEntity>> ENGIE = register("engie",
 			EntityType.Builder.<EngiEntity>of(EngiEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngiEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<MadEngieEntity>> MAD_ENGIE = register("mad_engie",
 			EntityType.Builder.<MadEngieEntity>of(MadEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MadEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<AngryEngieEntity>> ANGRY_ENGIE = register("angry_engie",
 			EntityType.Builder.<AngryEngieEntity>of(AngryEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EnragedEngieEntity>> ENRAGED_ENGIE = register("enraged_engie",
 			EntityType.Builder.<EnragedEngieEntity>of(EnragedEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<AngryCreatorEntity>> ANGRY_CREATOR = register("angry_creator",
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<AngryCreatorEntity>> OUTRAGED_ENGIE = register("outraged_engie",
 			EntityType.Builder.<AngryCreatorEntity>of(AngryCreatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryCreatorEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<PunisherEntity>> PUNISHER = register("punisher",
 			EntityType.Builder.<PunisherEntity>of(PunisherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PunisherEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<HelperEntity>> HELPER = register("helper",
 			EntityType.Builder.<HelperEntity>of(HelperEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HelperEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EngiFREntity>> ENGI_FR = register("engi_fr",
 			EntityType.Builder.<EngiFREntity>of(EngiFREntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngiFREntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<CreatorEntity>> CREATOR = register("creator",
 			EntityType.Builder.<CreatorEntity>of(CreatorEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CreatorEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
 			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<SharkoEntity>> SHARKO = register("sharko",
 			EntityType.Builder.<SharkoEntity>of(SharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoEntity::new)
 
@@ -281,23 +281,23 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<EnragedNormalEntity>> ENRAGED_NORMAL = register("enraged_normal",
 			EntityType.Builder.<EnragedNormalEntity>of(EnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedNormalEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<BlueEnragedNormalEntity>> BLUE_ENRAGED_NORMAL = register("blue_enraged_normal",
 			EntityType.Builder.<BlueEnragedNormalEntity>of(BlueEnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueEnragedNormalEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<PurpleEnragedNormalEntity>> PURPLE_ENRAGED_NORMAL = register("purple_enraged_normal",
 			EntityType.Builder.<PurpleEnragedNormalEntity>of(PurpleEnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PurpleEnragedNormalEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<OrangeEnragedNormalEntity>> ORANGE_ENRAGED_NORMAL = register("orange_enraged_normal",
 			EntityType.Builder.<OrangeEnragedNormalEntity>of(OrangeEnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrangeEnragedNormalEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EnragedBoomEntity>> ENRAGED_BOOM = register("enraged_boom",
 			EntityType.Builder.<EnragedBoomEntity>of(EnragedBoomEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedBoomEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<BlueEnragedBoomEntity>> BLUE_ENRAGED_BOOM = register("blue_enraged_boom",
 			EntityType.Builder.<BlueEnragedBoomEntity>of(BlueEnragedBoomEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueEnragedBoomEntity::new)
 
@@ -305,63 +305,63 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<PurpleEnragedBoomEntity>> PURPLE_ENRAGED_BOOM = register("purple_enraged_boom",
 			EntityType.Builder.<PurpleEnragedBoomEntity>of(PurpleEnragedBoomEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PurpleEnragedBoomEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<OrangeEnragedBoomEntity>> ORANGE_ENRAGED_BOOM = register("orange_enraged_boom",
 			EntityType.Builder.<OrangeEnragedBoomEntity>of(OrangeEnragedBoomEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrangeEnragedBoomEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EnragedSpeedEntity>> ENRAGED_SPEED = register("enraged_speed",
 			EntityType.Builder.<EnragedSpeedEntity>of(EnragedSpeedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedSpeedEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<BlueEnragedSpeedEntity>> BLUE_ENRAGED_SPEED = register("blue_enraged_speed",
 			EntityType.Builder.<BlueEnragedSpeedEntity>of(BlueEnragedSpeedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueEnragedSpeedEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<PurpleEnragedSpeedEntity>> PURPLE_ENRAGED_SPEED = register("purple_enraged_speed",
 			EntityType.Builder.<PurpleEnragedSpeedEntity>of(PurpleEnragedSpeedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PurpleEnragedSpeedEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<OrangeEnragedSpeedEntity>> ORANGE_ENRAGED_SPEED = register("orange_enraged_speed",
 			EntityType.Builder.<OrangeEnragedSpeedEntity>of(OrangeEnragedSpeedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrangeEnragedSpeedEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<CommonEngieEntity>> COMMON_ENGIE = register("common_engie",
 			EntityType.Builder.<CommonEngieEntity>of(CommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CommonEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<UncommonEngieEntity>> UNCOMMON_ENGIE = register("uncommon_engie",
 			EntityType.Builder.<UncommonEngieEntity>of(UncommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UncommonEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<RareEngieEntity>> RARE_ENGIE = register("rare_engie",
 			EntityType.Builder.<RareEngieEntity>of(RareEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RareEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EpicEngieEntity>> EPIC_ENGIE = register("epic_engie",
 			EntityType.Builder.<EpicEngieEntity>of(EpicEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<LegendaryEngieEntity>> LEGENDARY_ENGIE = register("legendary_engie",
 			EntityType.Builder.<LegendaryEngieEntity>of(LegendaryEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LegendaryEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<MythicEngieEntity>> MYTHIC_ENGIE = register("mythic_engie",
 			EntityType.Builder.<MythicEngieEntity>of(MythicEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MythicEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<ExoticEngieEntity>> EXOTIC_ENGIE = register("exotic_engie",
 			EntityType.Builder.<ExoticEngieEntity>of(ExoticEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ExoticEngieEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<ProtogenEntity>> PROTOGEN = register("protogen",
 			EntityType.Builder.<ProtogenEntity>of(ProtogenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ProtogenEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<QuizzetEntity>> QUIZZET = register("quizzet",
 			EntityType.Builder.<QuizzetEntity>of(QuizzetEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(QuizzetEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -448,7 +448,7 @@ public class AllaboutengieModEntities {
 		event.put(MAD_ENGIE.get(), MadEngieEntity.createAttributes().build());
 		event.put(ANGRY_ENGIE.get(), AngryEngieEntity.createAttributes().build());
 		event.put(ENRAGED_ENGIE.get(), EnragedEngieEntity.createAttributes().build());
-		event.put(ANGRY_CREATOR.get(), AngryCreatorEntity.createAttributes().build());
+		event.put(OUTRAGED_ENGIE.get(), AngryCreatorEntity.createAttributes().build());
 		event.put(PUNISHER.get(), PunisherEntity.createAttributes().build());
 		event.put(HELPER.get(), HelperEntity.createAttributes().build());
 		event.put(ENGI_FR.get(), EngiFREntity.createAttributes().build());

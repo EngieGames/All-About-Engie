@@ -87,7 +87,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.MAD_ENGIE.get(), MadEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_ENGIE.get(), AngryEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_ENGIE.get(), EnragedEngieRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_CREATOR.get(), AngryCreatorRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.OUTRAGED_ENGIE.get(), AngryCreatorRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.PUNISHER.get(), PunisherRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.HELPER.get(), HelperRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGI_FR.get(), EngiFRRenderer::new);

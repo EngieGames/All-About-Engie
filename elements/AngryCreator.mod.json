@@ -2,16 +2,16 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Angry Creator",
+    "mobName": "Outraged Engie",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "angrycreator.png",
-    "mobModelGlowTexture": "",
+    "mobModelName": "Modeloutraged_new",
+    "mobModelTexture": "outragednew.png",
+    "mobModelGlowTexture": "outragednew_g.png",
     "solidBoundingBox": {
       "fixedValue": false
     },
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 1.95,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -20,7 +20,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -6723841,
+      "value": -9502465,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -57,7 +57,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 150,
+    "health": 450,
     "xpAmount": 35,
     "waterMob": false,
     "flyingMob": false,

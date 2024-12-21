@@ -2,22 +2,27 @@
 package net.mcreator.allaboutengie.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.layers.EyesLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.renderer.RenderType;
 
 import net.mcreator.allaboutengie.entity.AngryCreatorEntity;
+import net.mcreator.allaboutengie.client.model.Modeloutraged_new;
 
-public class AngryCreatorRenderer extends HumanoidMobRenderer<AngryCreatorEntity, HumanoidModel<AngryCreatorEntity>> {
+public class AngryCreatorRenderer extends MobRenderer<AngryCreatorEntity, Modeloutraged_new<AngryCreatorEntity>> {
 	public AngryCreatorRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR))));
+		super(context, new Modeloutraged_new(context.bakeLayer(Modeloutraged_new.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new EyesLayer<AngryCreatorEntity, Modeloutraged_new<AngryCreatorEntity>>(this) {
+			@Override
+			public RenderType renderType() {
+				return RenderType.eyes(new ResourceLocation("allaboutengie:textures/entities/outragednew_g.png"));
+			}
+		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(AngryCreatorEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/angrycreator.png");
+		return new ResourceLocation("allaboutengie:textures/entities/outragednew.png");
 	}
 }

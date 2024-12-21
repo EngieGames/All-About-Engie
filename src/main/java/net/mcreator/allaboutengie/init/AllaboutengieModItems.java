@@ -275,8 +275,8 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENRAGED_ENGIE_SPAWN_EGG = REGISTRY.register("enraged_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> ANGRY_CREATOR_SPAWN_EGG = REGISTRY.register("angry_creator_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_CREATOR, -16777216, -6723841, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> OUTRAGED_ENGIE_SPAWN_EGG = REGISTRY.register("outraged_engie_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> PUNISHER_SPAWN_EGG = REGISTRY.register("punisher_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.PUNISHER, -16777216, -6015354, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> HELPER_SPAWN_EGG = REGISTRY.register("helper_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.HELPER, -16777216, -6015354, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PUNISHERS_GOGGLES = REGISTRY.register("punishers_goggles", () -> new PunishersGogglesItem());

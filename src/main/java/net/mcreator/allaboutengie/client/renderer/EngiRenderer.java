@@ -2,22 +2,19 @@
 package net.mcreator.allaboutengie.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.allaboutengie.entity.EngiEntity;
+import net.mcreator.allaboutengie.client.model.ModelEngie;
 
-public class EngiRenderer extends HumanoidMobRenderer<EngiEntity, HumanoidModel<EngiEntity>> {
+public class EngiRenderer extends MobRenderer<EngiEntity, ModelEngie<EngiEntity>> {
 	public EngiRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR))));
+		super(context, new ModelEngie(context.bakeLayer(ModelEngie.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(EngiEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/engie.png");
+		return new ResourceLocation("allaboutengie:textures/entities/engienew.png");
 	}
 }

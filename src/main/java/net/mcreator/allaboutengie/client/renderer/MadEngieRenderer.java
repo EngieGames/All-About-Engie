@@ -2,22 +2,19 @@
 package net.mcreator.allaboutengie.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.allaboutengie.entity.MadEngieEntity;
+import net.mcreator.allaboutengie.client.model.ModelMadEngie;
 
-public class MadEngieRenderer extends HumanoidMobRenderer<MadEngieEntity, HumanoidModel<MadEngieEntity>> {
+public class MadEngieRenderer extends MobRenderer<MadEngieEntity, ModelMadEngie<MadEngieEntity>> {
 	public MadEngieRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR))));
+		super(context, new ModelMadEngie(context.bakeLayer(ModelMadEngie.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(MadEngieEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/madengie.png");
+		return new ResourceLocation("allaboutengie:textures/entities/madengienew.png");
 	}
 }

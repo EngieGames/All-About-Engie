@@ -34,7 +34,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class AngryCreatorEntity extends Monster {
 	public AngryCreatorEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.ANGRY_CREATOR.get(), world);
+		this(AllaboutengieModEntities.OUTRAGED_ENGIE.get(), world);
 	}
 
 	public AngryCreatorEntity(EntityType<AngryCreatorEntity> type, Level world) {
@@ -74,11 +74,6 @@ public class AngryCreatorEntity extends Monster {
 	}
 
 	@Override
-	public double getMyRidingOffset() {
-		return -0.35D;
-	}
-
-	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
@@ -89,14 +84,14 @@ public class AngryCreatorEntity extends Monster {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(AllaboutengieModEntities.ANGRY_CREATOR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(AllaboutengieModEntities.OUTRAGED_ENGIE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.7);
-		builder = builder.add(Attributes.MAX_HEALTH, 150);
+		builder = builder.add(Attributes.MAX_HEALTH, 450);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 35);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
