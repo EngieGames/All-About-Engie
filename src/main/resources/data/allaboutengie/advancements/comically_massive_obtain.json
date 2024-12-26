@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:aae_engie"
+    },
+    "title": {
+      "translate": "advancements.comically_massive_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.comically_massive_obtain.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "comically_massive_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "allaboutengie:new_world"
+}

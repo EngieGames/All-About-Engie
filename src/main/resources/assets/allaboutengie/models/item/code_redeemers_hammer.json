@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/ban_hammer_redeem",
+  "textures": {
+    "0": "allaboutengie:blocks/redeem",
+    "particle": "allaboutengie:items/redeempixel"
+  }
+}

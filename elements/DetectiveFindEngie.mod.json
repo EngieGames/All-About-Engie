@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Detective Mode (Find out)",
+    "description": "Sets day to 100, different beginning to the world.",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

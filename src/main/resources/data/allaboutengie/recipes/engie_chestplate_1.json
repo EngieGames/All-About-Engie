@@ -1,0 +1,39 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "2": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "3": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "4": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "5": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "6": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "7": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "8": {
+      "item": "allaboutengie:engie_gem"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:engies_chestplate",
+    "count": 1
+  }
+}

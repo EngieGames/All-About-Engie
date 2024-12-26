@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="allaboutengie"
+version="12.26.24"
+displayName="All About Engie"
+credits="yuh"
+displayURL="https://www.twitch.tv/engiegames"
+logoFile="logo.png"
+authors="EngieGames"
+description="Made with MCreator."
+
+[[dependencies.allaboutengie]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

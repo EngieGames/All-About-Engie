@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "texture": "operatorshovel",
+    "customModelName": "Normal",
+    "name": "Operators Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 128000,
+    "efficiency": 128000.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 128000.0,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

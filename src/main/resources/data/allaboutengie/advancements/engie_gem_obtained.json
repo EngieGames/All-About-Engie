@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "title": {
+      "translate": "advancements.engie_gem_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.engie_gem_obtained.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "engie_gem_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:engie_gem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "allaboutengie:engie_axe_1",
+      "allaboutengie:engie_axe_2",
+      "allaboutengie:engie_pickaxe_1",
+      "allaboutengie:engie_shovel_1",
+      "allaboutengie:engie_hoe_1",
+      "allaboutengie:engie_hoe_2",
+      "allaboutengie:deleted_mod_element",
+      "allaboutengie:deleted_mod_element",
+      "allaboutengie:deleted_mod_element",
+      "allaboutengie:engie_helmet_1",
+      "allaboutengie:engie_chestplate_1",
+      "allaboutengie:engie_leggings_1",
+      "allaboutengie:engie_boots_1",
+      "allaboutengie:engie_block_1",
+      "allaboutengie:engie_gem_9items",
+      "allaboutengie:mini_ban_craft",
+      "allaboutengie:ban_craft",
+      "allaboutengie:big_ban_craft",
+      "allaboutengie:large_ban_craft"
+    ]
+  },
+  "parent": "allaboutengie:new_world"
+}

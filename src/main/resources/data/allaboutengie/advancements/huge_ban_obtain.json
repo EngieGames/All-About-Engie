@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:mini_ban_hammer"
+    },
+    "title": {
+      "translate": "advancements.huge_ban_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.huge_ban_obtain.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "huge_ban_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "allaboutengie:new_world"
+}

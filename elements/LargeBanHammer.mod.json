@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "banhammerpixel",
+    "customModelName": "ban_hammer_large:default",
+    "name": "Large Ban Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BanHammers"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 128000,
+    "damageVsEntity": 600.0,
+    "usageCount": 6000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

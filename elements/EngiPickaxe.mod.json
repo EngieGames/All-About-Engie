@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "oldengipickaxe",
+    "customModelName": "Normal",
+    "name": "Engi Pickaxe",
+    "specialInfo": [
+      "Easter Egg"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 3,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 15.0,
+    "usageCount": 750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngieGem"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

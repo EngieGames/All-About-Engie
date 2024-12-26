@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:epic_sword"
+    },
+    "title": {
+      "translate": "advancements.epic_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.epic_obtained.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "epic_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "allaboutengie:rare_obtained"
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "enragedengiepickaxe",
+    "customModelName": "Normal",
+    "name": "Enraged Engie Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 9,
+    "efficiency": 19.0,
+    "attackSpeed": 1.7999999999999998,
+    "enchantability": 19,
+    "damageVsEntity": 50.0,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnragedEngieEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

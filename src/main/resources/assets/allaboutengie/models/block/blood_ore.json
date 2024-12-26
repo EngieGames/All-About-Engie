@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "allaboutengie:blocks/bloodore",
+    "up": "allaboutengie:blocks/bloodore",
+    "north": "allaboutengie:blocks/bloodore",
+    "east": "allaboutengie:blocks/bloodore",
+    "south": "allaboutengie:blocks/bloodore",
+    "west": "allaboutengie:blocks/bloodore",
+    "particle": "allaboutengie:blocks/bloodore"
+  },
+  "render_type": "solid"
+}

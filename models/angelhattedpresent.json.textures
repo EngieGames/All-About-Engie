@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "presenttext",
+        "1": "angelhatpresenttext",
+        "2": "boxengiesface",
+        "3": "boxedengie",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

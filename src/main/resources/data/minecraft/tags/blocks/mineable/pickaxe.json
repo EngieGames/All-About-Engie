@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "allaboutengie:engie_block",
+    "allaboutengie:angry_engie_block",
+    "allaboutengie:enraged_engie_block",
+    "allaboutengie:engie_ore",
+    "allaboutengie:deepslate_engie_ore",
+    "allaboutengie:metal_table",
+    "allaboutengie:old_engie_ore",
+    "allaboutengie:old_deepslate_engie_ore",
+    "allaboutengie:metal_chest",
+    "allaboutengie:metal_chest_oak",
+    "allaboutengie:metal_chest_dark_oak",
+    "allaboutengie:metal_chest_spruce",
+    "allaboutengie:metal_chest_acacia",
+    "allaboutengie:metal_chest_birch",
+    "allaboutengie:metal_chest_warped",
+    "allaboutengie:metal_chest_crimson",
+    "allaboutengie:metal_chest_jungle",
+    "allaboutengie:unobtainium_ore",
+    "allaboutengie:deepslate_unobtainium",
+    "allaboutengie:cyber_ore",
+    "allaboutengie:blood_ore",
+    "allaboutengie:cyber_block",
+    "allaboutengie:blood_block",
+    "allaboutengie:cyberblood_block",
+    "allaboutengie:outraged_engie_block"
+  ]
+}

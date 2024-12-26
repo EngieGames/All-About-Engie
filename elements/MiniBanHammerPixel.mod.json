@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "banhammerpixel",
+    "customModelName": "ban_hammer_mini_pixel:default",
+    "name": "Pixelized Mini Ban Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BanHammers"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.25,
+    "enchantability": 128000,
+    "damageVsEntity": 150.0,
+    "usageCount": 1500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:enraged_engie_block"
+    },
+    "1": {
+      "item": "allaboutengie:angry_engie_block"
+    },
+    "2": {
+      "item": "allaboutengie:enraged_engie_block"
+    },
+    "3": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:huge_ban_hammer"
+    },
+    "5": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:enormous_ban_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:engies_scythe"
+    },
+    "title": {
+      "translate": "advancements.engies_scythe_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.engies_scythe_obtained.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "engies_scythe_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:engies_scythe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "allaboutengie:new_world"
+}

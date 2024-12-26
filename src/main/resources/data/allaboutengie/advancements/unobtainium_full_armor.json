@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:unobtainium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.unobtainium_full_armor.title"
+    },
+    "description": {
+      "translate": "advancements.unobtainium_full_armor.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unobtainium_full_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "allaboutengie:unobtainium_obtained"
+}

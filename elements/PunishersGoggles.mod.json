@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "texture": "punishergogglesitem",
+    "customModelName": "bloody_goggles:default",
+    "name": "Punishers Goggles",
+    "specialInfo": [
+      "?ymmud",
+      "ya rof tuo nrut nalp taht d'woH"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 1,
+    "efficiency": 128000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 128000,
+    "damageVsEntity": 800.0,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

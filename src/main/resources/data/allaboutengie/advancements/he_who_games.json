@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:aae_engie"
+    },
+    "title": {
+      "translate": "advancements.he_who_games.title"
+    },
+    "description": {
+      "translate": "advancements.he_who_games.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "he_who_games": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "allaboutengie:new_world"
+}

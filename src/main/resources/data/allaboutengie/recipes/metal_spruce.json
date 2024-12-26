@@ -1,0 +1,39 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "6": {
+      "item": "minecraft:spruce_planks"
+    },
+    "7": {
+      "item": "minecraft:spruce_planks"
+    },
+    "8": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:metal_chest_spruce",
+    "count": 1
+  }
+}

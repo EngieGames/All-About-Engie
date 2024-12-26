@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Ban Hammers",
+    "icon": {
+      "value": "CUSTOM:BanHammer"
+    },
+    "showSearch": false
+  }
+}

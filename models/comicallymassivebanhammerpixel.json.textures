@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "banhammerpixel",
+        "1": "signatures"
+      },
+      "name": "default"
+    }
+  }
+}

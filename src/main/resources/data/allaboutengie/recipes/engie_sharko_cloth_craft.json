@@ -1,0 +1,22 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allaboutengie:exotic_sharko_cloth"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "allaboutengie:engie_sharko_cloth",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "1": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "6": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "7": {
+      "item": "allaboutengie:outraged_engie_essence"
+    },
+    "8": {
+      "item": "allaboutengie:outraged_engie_essence"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:outraged_engie_block",
+    "count": 1
+  }
+}

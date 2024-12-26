@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:enraged_engie_essence"
+    },
+    "title": {
+      "translate": "advancements.enraged_engie_essence_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.enraged_engie_essence_obtained.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enraged_engie_essence_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:enraged_engie_essence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "allaboutengie:enraged_engie_axe_1",
+      "allaboutengie:enraged_engie_axe_2",
+      "allaboutengie:enraged_engie_pickaxe_1",
+      "allaboutengie:enraged_engie_shovel_1",
+      "allaboutengie:enraged_engie_hoe_1",
+      "allaboutengie:enraged_engie_hoe_2",
+      "allaboutengie:enragred_engie_helmet_1",
+      "allaboutengie:enraged_engie_chestplate_1",
+      "allaboutengie:enraged_engie_leggings_1",
+      "allaboutengie:enraged_engie_boots_1",
+      "allaboutengie:enraged_engie_block_1",
+      "allaboutengie:enraged_engie_essence_9items",
+      "allaboutengie:big_ban_craft",
+      "allaboutengie:large_ban_craft",
+      "allaboutengie:huge_ban_craft",
+      "allaboutengie:enormous_ban_craft"
+    ]
+  },
+  "parent": "allaboutengie:angry_engie_essence_obtained"
+}

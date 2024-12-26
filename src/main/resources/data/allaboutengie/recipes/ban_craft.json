@@ -1,0 +1,36 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "3": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:mini_ban_hammer"
+    },
+    "5": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:ban_hammer",
+    "count": 1
+  }
+}

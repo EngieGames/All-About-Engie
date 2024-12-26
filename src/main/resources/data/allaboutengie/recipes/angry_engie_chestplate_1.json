@@ -1,0 +1,39 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "6": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "7": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "8": {
+      "item": "allaboutengie:angry_engie_essence"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:angry_engies_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "allaboutengie:custom/metal_chest_birch",
+  "textures": {
+    "all": "allaboutengie:blocks/metalchest",
+    "particle": "allaboutengie:blocks/oldchest",
+    "0": "allaboutengie:blocks/metalchest",
+    "1": "allaboutengie:blocks/birch"
+  },
+  "render_type": "solid"
+}

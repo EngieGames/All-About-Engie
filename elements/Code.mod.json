@@ -1,0 +1,92 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 160,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_10000101011101101001111010010110",
+          "text": {
+            "fixedValue": "10000101011101101001111010010110101110000101011110010010000-"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 37,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_11011110001000000111000010001101",
+          "text": {
+            "fixedValue": "1101111000100000011100001000110111100101010011"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 74,
+          "y": 48
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "codeTextBox",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_insert_code_in_text_box",
+          "text": {
+            "fixedValue": "Insert code in text box."
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 151,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_submit",
+          "text": "Submit",
+          "onClick": {
+            "name": "Submitbuttonclicked"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 135
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

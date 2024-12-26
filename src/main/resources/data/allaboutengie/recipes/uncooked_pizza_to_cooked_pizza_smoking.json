@@ -1,0 +1,10 @@
+{
+  "group": "smoking",
+  "type": "minecraft:smoking",
+  "experience": 25,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "allaboutengie:uncooked_pizza"
+  },
+  "result": "allaboutengie:cooked_pizza"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allaboutengie:rare_sharko_cloth"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "allaboutengie:legendary_sharko_cloth",
+    "count": 1
+  }
+}

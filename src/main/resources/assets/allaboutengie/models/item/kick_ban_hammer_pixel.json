@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/ban_hammer_kick_pixel",
+  "textures": {
+    "0": "allaboutengie:blocks/kickpixel",
+    "particle": "allaboutengie:items/kickpixel"
+  }
+}

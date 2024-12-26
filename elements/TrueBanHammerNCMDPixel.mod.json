@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "truebanpixel",
+    "customModelName": "ban_hammer_ban_pixel:default",
+    "name": "True Ban Hammer Pixel (NO COMMAND)",
+    "specialInfo": [
+      "Just a no command varient",
+      "just take a chill pill. Reducing Model Lag. Also an easter egg by the way. ;)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:PixelItems"
+    },
+    "harvestLevel": 128000,
+    "efficiency": 128000.0,
+    "attackSpeed": 1.0,
+    "enchantability": 128000,
+    "damageVsEntity": 128000.0,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

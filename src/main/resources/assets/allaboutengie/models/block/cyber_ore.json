@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "allaboutengie:blocks/cyberore",
+    "up": "allaboutengie:blocks/cyberore",
+    "north": "allaboutengie:blocks/cyberore",
+    "east": "allaboutengie:blocks/cyberore",
+    "south": "allaboutengie:blocks/cyberore",
+    "west": "allaboutengie:blocks/cyberore",
+    "particle": "allaboutengie:blocks/cyberore"
+  },
+  "render_type": "solid"
+}

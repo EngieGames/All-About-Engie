@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OutragedEngies.body"
+    },
+    "name": "outraged_engie_chestplate_1",
+    "namespace": "mod"
+  }
+}

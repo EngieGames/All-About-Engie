@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:RareSharkoCloth"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RareShark.body"
+    },
+    "name": "ra_shark_2",
+    "namespace": "mod"
+  }
+}

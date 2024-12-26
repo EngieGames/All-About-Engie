@@ -1,0 +1,42 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "MAKE IT STOP LOOKING AT ME PLEASE!?!?!",
+    "achievementDescription": "Obtain an Enraged Engie Essence for the first time.",
+    "achievementIcon": {
+      "value": "CUSTOM:EnragedEngieEssence"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "EnragedEngieAxe1",
+      "EnragedEngieAxe2",
+      "EnragedEngiePickaxe1",
+      "EnragedEngieShovel1",
+      "EnragedEngieHoe1",
+      "EnragedEngieHoe2",
+      "EnragredEngieHelmet1",
+      "EnragedEngieChestplate1",
+      "EnragedEngieLeggings1",
+      "EnragedEngieBoots1",
+      "EnragedEngieBlock1",
+      "EnragedEngieEssence9items",
+      "BigBanCraft",
+      "LargeBanCraft",
+      "HugeBanCraft",
+      "EnormousBanCraft"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 30,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:AngryEngieEssenceObtained"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"62\" y=\"27\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:EnragedEngieEssence</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,166 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Items/bloody_goggles_tex",
+		"particle": "Items/bloody_goggles_tex"
+	},
+	"elements": [
+		{
+			"from": [9, 7, 4],
+			"to": [11, 8, 5],
+			"faces": {
+				"north": {"uv": [12, 11, 14, 12], "texture": "#0"},
+				"east": {"uv": [15, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [12, 12, 14, 13], "texture": "#0"},
+				"west": {"uv": [15, 1, 16, 2], "texture": "#0"},
+				"up": {"uv": [2, 14, 0, 13], "texture": "#0"},
+				"down": {"uv": [4, 13, 2, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 7, 4],
+			"to": [7, 8, 5],
+			"faces": {
+				"north": {"uv": [4, 13, 6, 14], "texture": "#0"},
+				"east": {"uv": [3, 15, 4, 16], "texture": "#0"},
+				"south": {"uv": [10, 13, 12, 14], "texture": "#0"},
+				"west": {"uv": [4, 15, 5, 16], "texture": "#0"},
+				"up": {"uv": [14, 14, 12, 13], "texture": "#0"},
+				"down": {"uv": [2, 14, 0, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5, 4],
+			"to": [9, 7, 5],
+			"faces": {
+				"north": {"uv": [2, 11, 4, 13], "texture": "#0"},
+				"east": {"uv": [14, 0, 15, 2], "texture": "#0"},
+				"south": {"uv": [4, 11, 6, 13], "texture": "#0"},
+				"west": {"uv": [2, 14, 3, 16], "texture": "#0"},
+				"up": {"uv": [5, 15, 3, 14], "texture": "#0"},
+				"down": {"uv": [16, 3, 14, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 5, 4],
+			"to": [5, 7, 12],
+			"faces": {
+				"north": {"uv": [14, 4, 15, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 2], "texture": "#0"},
+				"south": {"uv": [5, 14, 6, 16], "texture": "#0"},
+				"west": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"up": {"uv": [9, 10, 8, 2], "texture": "#0"},
+				"down": {"uv": [7, 8, 6, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11, 5, 4],
+			"to": [12, 7, 12],
+			"faces": {
+				"north": {"uv": [14, 6, 15, 8], "texture": "#0"},
+				"east": {"uv": [0, 4, 8, 6], "texture": "#0"},
+				"south": {"uv": [8, 14, 9, 16], "texture": "#0"},
+				"west": {"uv": [0, 6, 8, 8], "texture": "#0"},
+				"up": {"uv": [8, 16, 7, 8], "texture": "#0"},
+				"down": {"uv": [10, 2, 9, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 5, 11],
+			"to": [11, 7, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 10], "texture": "#0"},
+				"east": {"uv": [14, 8, 15, 10], "texture": "#0"},
+				"south": {"uv": [8, 0, 14, 2], "texture": "#0"},
+				"west": {"uv": [9, 14, 10, 16], "texture": "#0"},
+				"up": {"uv": [6, 11, 0, 10], "texture": "#0"},
+				"down": {"uv": [16, 2, 10, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 4, 4],
+			"to": [7, 5, 5],
+			"faces": {
+				"north": {"uv": [10, 14, 12, 15], "texture": "#0"},
+				"east": {"uv": [15, 4, 16, 5], "texture": "#0"},
+				"south": {"uv": [14, 10, 16, 11], "texture": "#0"},
+				"west": {"uv": [15, 5, 16, 6], "texture": "#0"},
+				"up": {"uv": [16, 12, 14, 11], "texture": "#0"},
+				"down": {"uv": [14, 14, 12, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 4, 4],
+			"to": [11, 5, 5],
+			"faces": {
+				"north": {"uv": [14, 12, 16, 13], "texture": "#0"},
+				"east": {"uv": [15, 6, 16, 7], "texture": "#0"},
+				"south": {"uv": [14, 13, 16, 14], "texture": "#0"},
+				"west": {"uv": [15, 7, 16, 8], "texture": "#0"},
+				"up": {"uv": [16, 15, 14, 14], "texture": "#0"},
+				"down": {"uv": [2, 15, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 5, 3],
+			"to": [7, 7, 5],
+			"faces": {
+				"north": {"uv": [10, 11, 12, 13], "texture": "#0"},
+				"east": {"uv": [12, 3, 14, 5], "texture": "#0"},
+				"south": {"uv": [12, 5, 14, 7], "texture": "#0"},
+				"west": {"uv": [12, 7, 14, 9], "texture": "#0"},
+				"up": {"uv": [10, 14, 8, 12], "texture": "#0"},
+				"down": {"uv": [14, 9, 12, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 5, 3],
+			"to": [11, 7, 5],
+			"faces": {
+				"north": {"uv": [10, 3, 12, 5], "texture": "#0"},
+				"east": {"uv": [10, 5, 12, 7], "texture": "#0"},
+				"south": {"uv": [10, 7, 12, 9], "texture": "#0"},
+				"west": {"uv": [8, 10, 10, 12], "texture": "#0"},
+				"up": {"uv": [12, 11, 10, 9], "texture": "#0"},
+				"down": {"uv": [2, 11, 0, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -90],
+			"translation": [1.25, 0, -2.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 90],
+			"translation": [-2.75, 0, -2.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [28, 0, 0],
+			"translation": [-1.5, 5.25, 4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [28, 0, 0],
+			"translation": [-1.75, 5.25, 4]
+		},
+		"gui": {
+			"rotation": [47, 131, -7]
+		},
+		"head": {
+			"translation": [0, 1.5, -0.25],
+			"scale": [1.69, 1.69, 1.84]
+		},
+		"fixed": {
+			"rotation": [-90, 180, 0],
+			"translation": [0, 0, -2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Blood Goggles",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+		}
+	]
+}

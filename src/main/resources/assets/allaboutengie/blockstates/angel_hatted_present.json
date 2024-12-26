@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "allaboutengie:block/angel_hatted_present"
+    },
+    "facing=east": {
+      "model": "allaboutengie:block/angel_hatted_present",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "allaboutengie:block/angel_hatted_present",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "allaboutengie:block/angel_hatted_present",
+      "y": 270
+    }
+  }
+}

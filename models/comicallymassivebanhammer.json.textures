@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "regular",
+        "1": "signatures"
+      },
+      "name": "default"
+    }
+  }
+}

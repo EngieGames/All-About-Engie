@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "allaboutengie:old_engie_ore"
+  },
+  "result": "allaboutengie:engie_gem"
+}

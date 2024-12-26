@@ -1,0 +1,32 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "truebanpixel",
+    "customModelName": "ban_hammer_ban_pixel:default",
+    "name": "True Ban Hammer Pixel (COMMAND)",
+    "specialInfo": [
+      "\"You have been banned by an operator using the True Ban Hammer Pixel.\" Reducing Model Lag. Also an easter egg by the way. ;)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:PixelItems"
+    },
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.0,
+    "enchantability": 128000,
+    "damageVsEntity": 0.0,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BanFromTrueBanHammerPixel"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "painting",
+  "definition": {
+    "texture": "ech_painting.png",
+    "width": 16,
+    "height": 16,
+    "title": "Ech",
+    "author": "Fargo's Souls, Imported by EngieGames"
+  }
+}

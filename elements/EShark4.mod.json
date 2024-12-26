@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EngieSharkoCloth"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EngieShark.boots"
+    },
+    "name": "e_shark_4",
+    "namespace": "mod"
+  }
+}

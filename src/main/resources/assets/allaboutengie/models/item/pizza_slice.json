@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/pizza_slice",
+  "textures": {
+    "0": "allaboutengie:blocks/pizzaslice",
+    "particle": "allaboutengie:items/pizzaitem"
+  }
+}

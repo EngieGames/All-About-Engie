@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:legendary_sharko_cloth"
+  },
+  "addition": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "item": "allaboutengie:mythic_sharko_cloth"
+  }
+}

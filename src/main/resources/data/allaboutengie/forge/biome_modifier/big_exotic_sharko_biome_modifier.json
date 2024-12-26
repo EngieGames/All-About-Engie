@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "allaboutengie:big_exotic_sharko",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:angry_engie_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.angry_engie_tool_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.angry_engie_tool_obtained.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "angry_engie_tool_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "allaboutengie:angry_engie_essence_obtained"
+}

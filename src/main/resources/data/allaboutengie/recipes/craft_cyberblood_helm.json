@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:cyberblood_ingot"
+    },
+    "1": {
+      "item": "allaboutengie:cyberblood_ingot"
+    },
+    "2": {
+      "item": "allaboutengie:cyberblood_ingot"
+    },
+    "3": {
+      "item": "allaboutengie:cyberblood_ingot"
+    },
+    "5": {
+      "item": "allaboutengie:cyberblood_ingot"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:cyberblood_helmet",
+    "count": 1
+  }
+}

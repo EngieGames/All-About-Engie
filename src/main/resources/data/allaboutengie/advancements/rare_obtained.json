@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:rare_sword"
+    },
+    "title": {
+      "translate": "advancements.rare_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.rare_obtained.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rare_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "allaboutengie:uncommon_obtained"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:mythic_sharko_cloth"
+    },
+    "2": {
+      "item": "allaboutengie:mythic_sharko_cloth"
+    },
+    "3": {
+      "item": "allaboutengie:mythic_sharko_cloth"
+    },
+    "5": {
+      "item": "allaboutengie:mythic_sharko_cloth"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:mythic_shark_boots",
+    "count": 1
+  }
+}

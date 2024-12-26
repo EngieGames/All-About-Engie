@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Pixel Items",
+    "icon": {
+      "value": "CUSTOM:CrucifixPixel"
+    },
+    "showSearch": false
+  }
+}
