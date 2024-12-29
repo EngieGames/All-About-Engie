@@ -21,7 +21,7 @@ public class EGMSProProcedure {
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("egmc, egmsp, egma for other modes"), true);
-		} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] DevEngie")) {
+		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] DevEngie")) {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -41,7 +41,7 @@ public class EGMSProProcedure {
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("egmc, egmsp, egma for other modes"), true);
-		} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] Dev")) {
+		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] Dev")) {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {

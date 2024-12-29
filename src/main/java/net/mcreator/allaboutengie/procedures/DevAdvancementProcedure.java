@@ -36,7 +36,7 @@ public class DevAdvancementProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:he_who_games");
 				}
 			}
-		} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] Dev")) {
+		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] Dev")) {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -52,7 +52,7 @@ public class DevAdvancementProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:he_who_games");
 				}
 			}
-		} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] DevEngie")) {
+		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] DevEngie")) {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
