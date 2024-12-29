@@ -218,8 +218,8 @@
       "registry_name": "engie_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/engie_block.json",
           "src/main/resources/assets/allaboutengie/models/item/engie_block.json",
+          "src/main/resources/assets/allaboutengie/blockstates/engie_block.json",
           "src/main/java/net/mcreator/allaboutengie/block/EngieBlockBlock.java",
           "src/main/resources/assets/allaboutengie/models/block/engie_block.json"
         ]
@@ -235,10 +235,10 @@
       "registry_name": "angry_engie_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/angry_engie_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/AngryEngieBlockBlock.java",
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_block.json",
-          "src/main/resources/assets/allaboutengie/models/block/angry_engie_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/AngryEngieBlockBlock.java"
+          "src/main/resources/assets/allaboutengie/blockstates/angry_engie_block.json",
+          "src/main/resources/assets/allaboutengie/models/block/angry_engie_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -252,10 +252,10 @@
       "registry_name": "enraged_engie_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/block/enraged_engie_block.json",
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/EnragedEngieBlockBlock.java",
-          "src/main/resources/assets/allaboutengie/blockstates/enraged_engie_block.json"
+          "src/main/resources/assets/allaboutengie/models/block/enraged_engie_block.json",
+          "src/main/resources/assets/allaboutengie/blockstates/enraged_engie_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/EnragedEngieBlockBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -284,11 +284,11 @@
       "registry_name": "engie_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/EngieOreFeature.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_ore.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/block/EngieOreBlock.java",
           "src/main/resources/assets/allaboutengie/blockstates/engie_ore.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/world/features/ores/EngieOreFeature.java",
           "src/main/resources/assets/allaboutengie/models/block/engie_ore.json"
         ]
       },
@@ -303,12 +303,12 @@
       "registry_name": "deepslate_engie_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateEngieOreFeature.java",
-          "src/main/resources/assets/allaboutengie/models/item/deepslate_engie_ore.json",
-          "src/main/resources/assets/allaboutengie/blockstates/deepslate_engie_ore.json",
           "src/main/java/net/mcreator/allaboutengie/block/DeepslateEngieOreBlock.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_engie_ore_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/blockstates/deepslate_engie_ore.json",
+          "src/main/resources/assets/allaboutengie/models/item/deepslate_engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/block/deepslate_engie_ore.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_engie_ore_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateEngieOreFeature.java"
         ]
       },
       "path": "~/Blocks"
@@ -322,11 +322,11 @@
       "registry_name": "metal_table",
       "metadata": {
         "files": [
+          "src/main/resources/assets/allaboutengie/blockstates/metal_table.json",
           "src/main/resources/assets/allaboutengie/models/block/metal_table.json",
           "src/main/java/net/mcreator/allaboutengie/block/MetalTableBlock.java",
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalTableBlockEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/metal_table.json",
-          "src/main/resources/assets/allaboutengie/blockstates/metal_table.json"
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalTableBlockEntity.java"
         ]
       },
       "path": "~/Blocks"
@@ -340,9 +340,9 @@
       "registry_name": "old_engie_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/block/old_engie_ore.json",
-          "src/main/resources/assets/allaboutengie/blockstates/old_engie_ore.json",
           "src/main/java/net/mcreator/allaboutengie/block/OldEngieOreBlock.java",
+          "src/main/resources/assets/allaboutengie/blockstates/old_engie_ore.json",
+          "src/main/resources/assets/allaboutengie/models/block/old_engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/old_engie_ore.json"
         ]
       },
@@ -358,9 +358,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/old_deepslate_engie_ore.json",
-          "src/main/resources/assets/allaboutengie/blockstates/old_deepslate_engie_ore.json",
+          "src/main/resources/assets/allaboutengie/models/block/old_deepslate_engie_ore.json",
           "src/main/java/net/mcreator/allaboutengie/block/OldDeepslateEngieOreBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/old_deepslate_engie_ore.json"
+          "src/main/resources/assets/allaboutengie/blockstates/old_deepslate_engie_ore.json"
         ]
       },
       "path": "~/Blocks"
@@ -540,8 +540,8 @@
       "registry_name": "true_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/TrueBanHammerPixelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/true_ban_hammer_pixel.json"
+          "src/main/resources/assets/allaboutengie/models/item/true_ban_hammer_pixel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/TrueBanHammerPixelItem.java"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -625,8 +625,8 @@
       "registry_name": "engie_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/engie_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EngieAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EngieAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -655,8 +655,8 @@
       "registry_name": "engie_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/engie_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EngieShovelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EngieShovelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_shovel.json"
         ]
       },
       "path": "~/Tools"
@@ -670,8 +670,8 @@
       "registry_name": "engie_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/engie_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EngieHoeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EngieHoeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -715,8 +715,8 @@
       "registry_name": "angry_engie_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/AngryEngieShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/angry_engie_shovel.json"
+          "src/main/resources/assets/allaboutengie/models/item/angry_engie_shovel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/AngryEngieShovelItem.java"
         ]
       },
       "path": "~/Tools"
@@ -745,10 +745,10 @@
       "registry_name": "operators",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/OperatorsItem.java",
           "src/main/resources/assets/allaboutengie/models/item/operators_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/operators_leggings.json",
           "src/main/resources/assets/allaboutengie/models/item/operators_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/operators_leggings.json",
+          "src/main/java/net/mcreator/allaboutengie/item/OperatorsItem.java",
           "src/main/resources/assets/allaboutengie/models/item/operators_helmet.json"
         ]
       },
@@ -787,8 +787,8 @@
       "registry_name": "enraged_engie_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -802,8 +802,8 @@
       "registry_name": "enraged_engie_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngiePickaxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngiePickaxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_pickaxe.json"
         ]
       },
       "path": "~/Tools"
@@ -817,8 +817,8 @@
       "registry_name": "enraged_engie_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieShovelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieShovelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_shovel.json"
         ]
       },
       "path": "~/Tools"
@@ -832,8 +832,8 @@
       "registry_name": "enraged_engie_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieHoeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieHoeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -906,10 +906,10 @@
       "registry_name": "thanks_for_playing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/block/ThanksForPlayingBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing.json",
+          "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing.json",
           "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing.json",
-          "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing.json"
+          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing.json",
+          "src/main/java/net/mcreator/allaboutengie/block/ThanksForPlayingBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -923,8 +923,8 @@
       "registry_name": "nothing",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/world/features/NothingFeature.java"
+          "src/main/java/net/mcreator/allaboutengie/world/features/NothingFeature.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_biome_modifier.json"
         ]
       },
       "path": "~/Structures"
@@ -1002,8 +1002,8 @@
       "registry_name": "item_house",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseFeature.java"
+          "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseFeature.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_biome_modifier.json"
         ]
       },
       "path": "~/Structures"
@@ -1017,8 +1017,8 @@
       "registry_name": "engies_scythe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EngiesScytheItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/engies_scythe.json"
+          "src/main/resources/assets/allaboutengie/models/item/engies_scythe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EngiesScytheItem.java"
         ]
       },
       "path": "~/Items"
@@ -1032,8 +1032,8 @@
       "registry_name": "dough",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/dough.json",
-          "src/main/java/net/mcreator/allaboutengie/item/DoughItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/DoughItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/dough.json"
         ]
       },
       "path": "~/Food"
@@ -1047,8 +1047,8 @@
       "registry_name": "dough_with_sauce",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/dough_with_sauce.json",
-          "src/main/java/net/mcreator/allaboutengie/item/DoughWithSauceItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/DoughWithSauceItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/dough_with_sauce.json"
         ]
       },
       "path": "~/Food"
@@ -1659,8 +1659,8 @@
       "registry_name": "cheese",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CheeseItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/cheese.json"
+          "src/main/resources/assets/allaboutengie/models/item/cheese.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CheeseItem.java"
         ]
       },
       "path": "~/Food"
@@ -2066,8 +2066,8 @@
       "registry_name": "crackers_in_bowl",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/crackers_in_bowl.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CrackersInBowlItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/CrackersInBowlItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/crackers_in_bowl.json"
         ]
       },
       "path": "~/Food"
@@ -2157,8 +2157,8 @@
       "registry_name": "operators_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/OperatorsPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/operators_pickaxe.json"
+          "src/main/resources/assets/allaboutengie/models/item/operators_pickaxe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/OperatorsPickaxeItem.java"
         ]
       },
       "path": "~/Operator Stuff"
@@ -2172,8 +2172,8 @@
       "registry_name": "operators_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/OperatorsShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/operators_shovel.json"
+          "src/main/resources/assets/allaboutengie/models/item/operators_shovel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/OperatorsShovelItem.java"
         ]
       },
       "path": "~/Operator Stuff"
@@ -2202,8 +2202,8 @@
       "registry_name": "cheese_puffs_unopened",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CheesePuffsUnopenedItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/cheese_puffs_unopened.json"
+          "src/main/resources/assets/allaboutengie/models/item/cheese_puffs_unopened.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CheesePuffsUnopenedItem.java"
         ]
       },
       "path": "~/Food"
@@ -2232,8 +2232,8 @@
       "registry_name": "cheese_puffs_opened",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CheesePuffsOpenedItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/cheese_puffs_opened.json"
+          "src/main/resources/assets/allaboutengie/models/item/cheese_puffs_opened.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CheesePuffsOpenedItem.java"
         ]
       },
       "path": "~/Food"
@@ -2437,11 +2437,11 @@
       "registry_name": "metal_chest",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/block/MetalChestBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/metal_chest.json",
-          "src/main/resources/assets/allaboutengie/blockstates/metal_chest.json",
           "src/main/resources/assets/allaboutengie/models/item/metal_chest.json",
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestBlockEntity.java"
+          "src/main/resources/assets/allaboutengie/models/block/metal_chest.json",
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestBlockEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/block/MetalChestBlock.java",
+          "src/main/resources/assets/allaboutengie/blockstates/metal_chest.json"
         ]
       },
       "path": "~/Blocks"
@@ -2456,9 +2456,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/metal_chest_oak.json",
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestOakBlockEntity.java",
           "src/main/java/net/mcreator/allaboutengie/block/MetalChestOakBlock.java",
           "src/main/resources/assets/allaboutengie/blockstates/metal_chest_oak.json",
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestOakBlockEntity.java",
           "src/main/resources/assets/allaboutengie/models/block/metal_chest_oak.json"
         ]
       },
@@ -2637,11 +2637,11 @@
       "registry_name": "developer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/developer_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/developer_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/developer_helmet.json",
           "src/main/java/net/mcreator/allaboutengie/item/DeveloperItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/developer_chestplate.json"
+          "src/main/resources/assets/allaboutengie/models/item/developer_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/developer_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/developer_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/developer_helmet.json"
         ]
       },
       "path": "~/Armor"
@@ -2655,11 +2655,11 @@
       "registry_name": "ideagiver",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/allaboutengie/item/ContributorItem.java",
           "src/main/resources/assets/allaboutengie/models/item/ideagiver_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/ideagiver_leggings.json",
           "src/main/resources/assets/allaboutengie/models/item/ideagiver_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/ideagiver_chestplate.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ContributorItem.java"
+          "src/main/resources/assets/allaboutengie/models/item/ideagiver_leggings.json"
         ]
       },
       "path": "~/Armor"
@@ -2760,9 +2760,9 @@
       "registry_name": "engie_games_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieGamesGUIEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesGUIRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_games_gui_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesGUIRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieGamesGUIEntity.java"
         ]
       },
       "path": "~/GUIMob"
@@ -2819,10 +2819,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/block/MetalChestDarkOakBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/metal_chest_dark_oak.json",
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestDarkOakBlockEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/metal_chest_dark_oak.json",
-          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_dark_oak.json",
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestDarkOakBlockEntity.java"
+          "src/main/resources/assets/allaboutengie/models/block/metal_chest_dark_oak.json",
+          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_dark_oak.json"
         ]
       },
       "path": "~/Blocks"
@@ -2836,11 +2836,11 @@
       "registry_name": "metal_chest_spruce",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_spruce.json",
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestSpruceBlockEntity.java",
           "src/main/resources/assets/allaboutengie/models/block/metal_chest_spruce.json",
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestSpruceBlockEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/metal_chest_spruce.json",
           "src/main/java/net/mcreator/allaboutengie/block/MetalChestSpruceBlock.java",
-          "src/main/resources/assets/allaboutengie/models/item/metal_chest_spruce.json"
+          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_spruce.json"
         ]
       },
       "path": "~/Blocks"
@@ -2854,10 +2854,10 @@
       "registry_name": "metal_chest_acacia",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/metal_chest_acacia.json",
-          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_acacia.json",
-          "src/main/java/net/mcreator/allaboutengie/block/MetalChestAcaciaBlock.java",
           "src/main/resources/assets/allaboutengie/models/block/metal_chest_acacia.json",
+          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_acacia.json",
+          "src/main/resources/assets/allaboutengie/models/item/metal_chest_acacia.json",
+          "src/main/java/net/mcreator/allaboutengie/block/MetalChestAcaciaBlock.java",
           "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestAcaciaBlockEntity.java"
         ]
       },
@@ -2872,11 +2872,11 @@
       "registry_name": "metal_chest_birch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_birch.json",
-          "src/main/resources/assets/allaboutengie/models/block/metal_chest_birch.json",
           "src/main/java/net/mcreator/allaboutengie/block/MetalChestBirchBlock.java",
+          "src/main/resources/assets/allaboutengie/models/item/metal_chest_birch.json",
           "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestBirchBlockEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/metal_chest_birch.json"
+          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_birch.json",
+          "src/main/resources/assets/allaboutengie/models/block/metal_chest_birch.json"
         ]
       },
       "path": "~/Blocks"
@@ -2890,11 +2890,11 @@
       "registry_name": "metal_chest_warped",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestWarpedBlockEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/metal_chest_warped.json",
-          "src/main/java/net/mcreator/allaboutengie/block/MetalChestWarpedBlock.java",
+          "src/main/resources/assets/allaboutengie/models/block/metal_chest_warped.json",
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestWarpedBlockEntity.java",
           "src/main/resources/assets/allaboutengie/blockstates/metal_chest_warped.json",
-          "src/main/resources/assets/allaboutengie/models/block/metal_chest_warped.json"
+          "src/main/java/net/mcreator/allaboutengie/block/MetalChestWarpedBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -2909,10 +2909,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/block/MetalChestCrimsonBlock.java",
-          "src/main/resources/assets/allaboutengie/models/item/metal_chest_crimson.json",
+          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestCrimsonBlockEntity.java",
           "src/main/resources/assets/allaboutengie/blockstates/metal_chest_crimson.json",
-          "src/main/resources/assets/allaboutengie/models/block/metal_chest_crimson.json",
-          "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestCrimsonBlockEntity.java"
+          "src/main/resources/assets/allaboutengie/models/item/metal_chest_crimson.json",
+          "src/main/resources/assets/allaboutengie/models/block/metal_chest_crimson.json"
         ]
       },
       "path": "~/Blocks"
@@ -2926,11 +2926,11 @@
       "registry_name": "metal_chest_jungle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/block/MetalChestJungleBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/metal_chest_jungle.json",
-          "src/main/resources/assets/allaboutengie/models/item/metal_chest_jungle.json",
+          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_jungle.json",
           "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestJungleBlockEntity.java",
-          "src/main/resources/assets/allaboutengie/blockstates/metal_chest_jungle.json"
+          "src/main/resources/assets/allaboutengie/models/item/metal_chest_jungle.json",
+          "src/main/java/net/mcreator/allaboutengie/block/MetalChestJungleBlock.java",
+          "src/main/resources/assets/allaboutengie/models/block/metal_chest_jungle.json"
         ]
       },
       "path": "~/Blocks"
@@ -2988,11 +2988,11 @@
       "registry_name": "tester",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/tester_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/tester_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/tester_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/tester_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/tester_helmet.json",
           "src/main/java/net/mcreator/allaboutengie/item/TesterItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/tester_chestplate.json"
+          "src/main/resources/assets/allaboutengie/models/item/tester_boots.json"
         ]
       },
       "path": "~/Armor"
@@ -3552,10 +3552,10 @@
       "registry_name": "engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngiEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngiRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngiRenderer.java"
+          "src/main/resources/assets/allaboutengie/models/item/engie_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngiEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -3569,10 +3569,10 @@
       "registry_name": "mad_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MadEngieRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/MadEngieEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/mad_engie_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/mad_engie_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/mad_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MadEngieRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/MadEngieEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -3587,10 +3587,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/engies_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/engies_helmet.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EngiesItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engies_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/engies_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/engies_chestplate.json"
+          "src/main/resources/assets/allaboutengie/models/item/engies_helmet.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EngiesItem.java"
         ]
       },
       "path": "~/Armor"
@@ -3606,9 +3606,9 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/item/AngryEngiesItem.java",
           "src/main/resources/assets/allaboutengie/models/item/angry_engies_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/angry_engies_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/angry_engies_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/angry_engies_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/angry_engies_helmet.json"
+          "src/main/resources/assets/allaboutengie/models/item/angry_engies_chestplate.json"
         ]
       },
       "path": "~/Armor"
@@ -3622,11 +3622,11 @@
       "registry_name": "enraged_engies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engies_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engies_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_engies_boots.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngiesItem.java",
           "src/main/resources/assets/allaboutengie/models/item/enraged_engies_leggings.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedEngiesItem.java"
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engies_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engies_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engies_chestplate.json"
         ]
       },
       "path": "~/Armor"
@@ -3640,10 +3640,10 @@
       "registry_name": "angry_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/AngryEngieEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/AngryEngieRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/angry_engie_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/AngryEngieEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/angry_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AngryEngieRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -3657,10 +3657,10 @@
       "registry_name": "enraged_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EnragedEngieEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_engie_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedEngieRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedEngieRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/EnragedEngieEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -3674,10 +3674,10 @@
       "registry_name": "outraged_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/outraged_engie_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AngryCreatorRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/AngryCreatorEntity.java"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/outraged_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/AngryCreatorEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -3708,10 +3708,10 @@
       "registry_name": "helper",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/HelperRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/helper_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/HelperEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/helper_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/helper_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/helper_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/HelperRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -3740,9 +3740,9 @@
       "registry_name": "engi_fr",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engi_fr_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngiFREntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngiFRRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngiFREntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engi_fr_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/engi_fr_spawn_egg.json"
         ]
       },
@@ -3758,9 +3758,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CreatorRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/CreatorEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/creator_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/creator_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/creator_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/CreatorEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -3775,9 +3775,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/engie_games_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_games_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieGamesEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_games_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -3841,10 +3841,10 @@
       "registry_name": "sharko",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/SharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/sharko_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3858,10 +3858,10 @@
       "registry_name": "albino_sharko",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/albino_sharko_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/albino_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoEntity.java"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/albino_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3875,9 +3875,9 @@
       "registry_name": "rare_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_sharko_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/rare_sharko_spawn_egg.json"
         ]
       },
@@ -3893,8 +3893,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/legendary_sharko_biome_modifier.json"
         ]
       },
@@ -3910,8 +3910,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/mythic_sharko_biome_modifier.json"
         ]
       },
@@ -3926,10 +3926,10 @@
       "registry_name": "exotic_sharko",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoEntity.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/exotic_sharko_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3943,10 +3943,10 @@
       "registry_name": "engie_sharko",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3960,10 +3960,10 @@
       "registry_name": "engie_sharko_rare",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareEntity.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3977,10 +3977,10 @@
       "registry_name": "engie_sharko_rare_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2Entity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2Renderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2Entity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3994,8 +3994,8 @@
       "registry_name": "sharko_tamed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/SharkTamedEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkTamedRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkTamedEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/sharko_tamed_spawn_egg.json"
         ]
       },
@@ -4027,8 +4027,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoTamedEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoTamedRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/rare_sharko_tamed_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/rare_sharko_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoTamedRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4058,9 +4058,9 @@
       "registry_name": "mythic_sharko_tamed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoTamedEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_tamed_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoTamedRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_tamed_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoTamedEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4074,8 +4074,8 @@
       "registry_name": "exotic_sharko_tamed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoTamedRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoTamedRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoTamedEntity.java"
         ]
       },
@@ -4090,9 +4090,9 @@
       "registry_name": "engie_sharko_tamed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoTamedRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoTamedEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_tamed_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_tamed_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoTamedRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4107,8 +4107,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareTamedEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_tamed_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareTamedRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareTamedRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_tamed_spawn_egg.json"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4122,8 +4122,8 @@
       "registry_name": "engie_sharko_rare_2_tamed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2TamedEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2TamedRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2TamedEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_tamed_spawn_egg.json"
         ]
       },
@@ -4139,8 +4139,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoLayRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/sharko_lay_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/SharkoLayEntity.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoLayEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/sharko_lay_spawn_egg.json"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4154,9 +4154,9 @@
       "registry_name": "albino_sharko_lay",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoLayEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoLayRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/albino_sharko_lay_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoLayRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoLayEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4186,9 +4186,9 @@
       "registry_name": "legendary_sharko_lay",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_lay_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoLayRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoLayEntity.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoLayEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_lay_spawn_egg.json"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4202,8 +4202,8 @@
       "registry_name": "mythic_sharko_lay",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoLayEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoLayRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoLayEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_lay_spawn_egg.json"
         ]
       },
@@ -4218,8 +4218,8 @@
       "registry_name": "exotic_sharko_lay",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoLayRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoLayEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoLayRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_lay_spawn_egg.json"
         ]
       },
@@ -4234,8 +4234,8 @@
       "registry_name": "engie_sharko_lay",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoLayEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoLayRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoLayEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_lay_spawn_egg.json"
         ]
       },
@@ -4266,9 +4266,9 @@
       "registry_name": "engie_sharko_rare_2_lay",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2LayRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2LayEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_lay_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_lay_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2LayRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -4842,8 +4842,8 @@
       "registry_name": "golden_cookie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/GoldenCookieItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/golden_cookie.json"
+          "src/main/resources/assets/allaboutengie/models/item/golden_cookie.json",
+          "src/main/java/net/mcreator/allaboutengie/item/GoldenCookieItem.java"
         ]
       },
       "path": "~/Food"
@@ -4857,8 +4857,8 @@
       "registry_name": "enchanted_golden_cookie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enchanted_golden_cookie.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnchantedGoldenCookieItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/EnchantedGoldenCookieItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/enchanted_golden_cookie.json"
         ]
       },
       "path": "~/Food"
@@ -4872,8 +4872,8 @@
       "registry_name": "exotic_cookie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_cookie.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticCookieItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticCookieItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_cookie.json"
         ]
       },
       "path": "~/Food"
@@ -4887,8 +4887,8 @@
       "registry_name": "enchanted_exotic_cookie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EnchantedExoticCookieItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/enchanted_exotic_cookie.json"
+          "src/main/resources/assets/allaboutengie/models/item/enchanted_exotic_cookie.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EnchantedExoticCookieItem.java"
         ]
       },
       "path": "~/Food"
@@ -5022,8 +5022,8 @@
       "registry_name": "engie_cookie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EngieCookieItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_cookie.json"
+          "src/main/resources/assets/allaboutengie/models/item/engie_cookie.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EngieCookieItem.java"
         ]
       },
       "path": "~/Food"
@@ -5037,8 +5037,8 @@
       "registry_name": "enchanted_engie_cookie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EnchantedEngieCookieItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/enchanted_engie_cookie.json"
+          "src/main/resources/assets/allaboutengie/models/item/enchanted_engie_cookie.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EnchantedEngieCookieItem.java"
         ]
       },
       "path": "~/Food"
@@ -5500,10 +5500,10 @@
       "registry_name": "big_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigSharkoRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/BigSharkoEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_sharko_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/big_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigSharkoRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_sharko_biome_modifier.json"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5518,9 +5518,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/big_albino_sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_albino_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/BigAlbinoSharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigAlbinoSharkoRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigAlbinoSharkoRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_albino_sharko_biome_modifier.json"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5535,9 +5535,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_sharko_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/big_rare_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/BigRareSharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareSharkoRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_rare_sharko_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareSharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5551,10 +5551,10 @@
       "registry_name": "big_legendary_sharko",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigLegendarySharkoRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/BigLegendarySharkoEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_legendary_sharko_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/big_legendary_sharko_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigLegendarySharkoRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/big_legendary_sharko_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_legendary_sharko_biome_modifier.json"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5568,10 +5568,10 @@
       "registry_name": "big_mythic_sharko",
       "metadata": {
         "files": [
+          "src/main/resources/assets/allaboutengie/models/item/big_mythic_sharko_spawn_egg.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/big_mythic_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigMythicSharkoEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BigMythicSharkoRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_mythic_sharko_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/BigMythicSharkoEntity.java"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5586,9 +5586,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/big_exotic_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigExoticSharkoRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/big_exotic_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigExoticSharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigExoticSharkoRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/BigExoticSharkoEntity.java"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5603,9 +5603,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/BigEngieSharkoEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_engie_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BigEngieSharkoRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_engie_sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_engie_sharko_biome_modifier.json"
+          "src/main/resources/assets/allaboutengie/models/item/big_engie_sharko_spawn_egg.json"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5621,8 +5621,8 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareEngieSharkoRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_engie_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigRareEngieSharkoEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_rare_engie_sharko_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/big_rare_engie_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/BigRareEngieSharkoEntity.java"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5636,10 +5636,10 @@
       "registry_name": "big_rare_engie_sharko_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_engie_sharko_2_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/BigRareEngieSharko2Entity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareEngieSharko2Renderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_rare_engie_sharko_2_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/big_rare_engie_sharko_2_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_engie_sharko_2_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareEngieSharko2Renderer.java"
         ]
       },
       "path": "~/Sharkos/Big"
@@ -5713,8 +5713,8 @@
       "registry_name": "mythic_sharko_cloth",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_cloth.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MythicSharkoClothItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/MythicSharkoClothItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_cloth.json"
         ]
       },
       "path": "~/Items"
@@ -5728,8 +5728,8 @@
       "registry_name": "exotic_sharko_cloth",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_cloth.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticSharkoClothItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticSharkoClothItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_cloth.json"
         ]
       },
       "path": "~/Items"
@@ -5743,8 +5743,8 @@
       "registry_name": "engie_sharko_cloth",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EngieSharkoClothItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_cloth.json"
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_cloth.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EngieSharkoClothItem.java"
         ]
       },
       "path": "~/Items"
@@ -5758,11 +5758,11 @@
       "registry_name": "shark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/shark_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/shark_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/SharkItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/shark_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/shark_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/shark_helmet.json"
+          "src/main/java/net/mcreator/allaboutengie/item/SharkItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/shark_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/shark_boots.json"
         ]
       },
       "path": "~/Armor"
@@ -5776,11 +5776,11 @@
       "registry_name": "albino_shark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/albino_shark_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/albino_shark_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/AlbinoSharkItem.java",
           "src/main/resources/assets/allaboutengie/models/item/albino_shark_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/albino_shark_chestplate.json"
+          "src/main/resources/assets/allaboutengie/models/item/albino_shark_leggings.json",
+          "src/main/java/net/mcreator/allaboutengie/item/AlbinoSharkItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/albino_shark_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/albino_shark_boots.json"
         ]
       },
       "path": "~/Armor"
@@ -5794,11 +5794,11 @@
       "registry_name": "rare_shark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_shark_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_shark_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_shark_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/rare_shark_chestplate.json",
-          "src/main/java/net/mcreator/allaboutengie/item/RareSharkItem.java"
+          "src/main/resources/assets/allaboutengie/models/item/rare_shark_leggings.json",
+          "src/main/java/net/mcreator/allaboutengie/item/RareSharkItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/rare_shark_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/rare_shark_helmet.json"
         ]
       },
       "path": "~/Armor"
@@ -5812,11 +5812,11 @@
       "registry_name": "legendary_shark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_shark_chestplate.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendarySharkItem.java",
           "src/main/resources/assets/allaboutengie/models/item/legendary_shark_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_shark_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_shark_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/legendary_shark_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_shark_boots.json"
+          "src/main/java/net/mcreator/allaboutengie/item/LegendarySharkItem.java"
         ]
       },
       "path": "~/Armor"
@@ -5830,11 +5830,11 @@
       "registry_name": "mythic_shark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_shark_helmet.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MythicSharkItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_shark_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_shark_boots.json",
           "src/main/resources/assets/allaboutengie/models/item/mythic_shark_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_shark_boots.json"
+          "src/main/resources/assets/allaboutengie/models/item/mythic_shark_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_shark_helmet.json",
+          "src/main/java/net/mcreator/allaboutengie/item/MythicSharkItem.java"
         ]
       },
       "path": "~/Armor"
@@ -5848,11 +5848,11 @@
       "registry_name": "exotic_shark",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticSharkItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_shark_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/exotic_shark_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_shark_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_shark_boots.json"
+          "src/main/resources/assets/allaboutengie/models/item/exotic_shark_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_shark_chestplate.json",
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticSharkItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_shark_leggings.json"
         ]
       },
       "path": "~/Armor"
@@ -5866,10 +5866,10 @@
       "registry_name": "engie_shark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/engie_shark_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/engie_shark_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/engie_shark_chestplate.json",
           "src/main/java/net/mcreator/allaboutengie/item/EngieSharkItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_shark_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/engie_shark_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/engie_shark_leggings.json"
         ]
       },
@@ -6276,8 +6276,8 @@
       "registry_name": "items_plaque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ItemsPlaqueItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/items_plaque.json"
+          "src/main/resources/assets/allaboutengie/models/item/items_plaque.json",
+          "src/main/java/net/mcreator/allaboutengie/item/ItemsPlaqueItem.java"
         ]
       },
       "path": "~/Items"
@@ -6291,8 +6291,8 @@
       "registry_name": "mobs_plaque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/MobsPlaqueItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mobs_plaque.json"
+          "src/main/resources/assets/allaboutengie/models/item/mobs_plaque.json",
+          "src/main/java/net/mcreator/allaboutengie/item/MobsPlaqueItem.java"
         ]
       },
       "path": "~/Items"
@@ -6306,8 +6306,8 @@
       "registry_name": "extras_plaque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExtrasPlaqueItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/extras_plaque.json"
+          "src/main/resources/assets/allaboutengie/models/item/extras_plaque.json",
+          "src/main/java/net/mcreator/allaboutengie/item/ExtrasPlaqueItem.java"
         ]
       },
       "path": "~/Items"
@@ -6321,8 +6321,8 @@
       "registry_name": "sharkos_plaque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/SharkosPlaqueItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/sharkos_plaque.json"
+          "src/main/resources/assets/allaboutengie/models/item/sharkos_plaque.json",
+          "src/main/java/net/mcreator/allaboutengie/item/SharkosPlaqueItem.java"
         ]
       },
       "path": "~/Items"
@@ -6336,8 +6336,8 @@
       "registry_name": "dimensions_plaque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/DimensionsPlaqueItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/dimensions_plaque.json"
+          "src/main/resources/assets/allaboutengie/models/item/dimensions_plaque.json",
+          "src/main/java/net/mcreator/allaboutengie/item/DimensionsPlaqueItem.java"
         ]
       },
       "path": "~/Items"
@@ -6351,8 +6351,8 @@
       "registry_name": "enraged_zombies_plaque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedZombiesPlaqueItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_zombies_plaque.json"
+          "src/main/resources/assets/allaboutengie/models/item/enraged_zombies_plaque.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedZombiesPlaqueItem.java"
         ]
       },
       "path": "~/Items"
@@ -6393,8 +6393,8 @@
       "registry_name": "enraged_coin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedCoinItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_coin.json"
+          "src/main/resources/assets/allaboutengie/models/item/enraged_coin.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EnragedCoinItem.java"
         ]
       },
       "path": "~/Items"
@@ -6408,10 +6408,10 @@
       "registry_name": "enraged_normal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormalRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_normal_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_normal_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedNormalEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_normal_biome_modifier.json"
+          "src/main/resources/assets/allaboutengie/models/item/enraged_normal_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormalRenderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -6427,8 +6427,8 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedNormalRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/blue_enraged_normal_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_normal_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedNormalEntity.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedNormalEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_normal_biome_modifier.json"
         ]
       },
       "path": "~/Zombies"
@@ -6442,10 +6442,10 @@
       "registry_name": "purple_enraged_normal",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_normal_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedNormalRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedNormalEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_normal_spawn_egg.json"
+          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_normal_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_normal_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedNormalEntity.java"
         ]
       },
       "path": "~/Zombies"
@@ -6459,10 +6459,10 @@
       "registry_name": "orange_enraged_normal",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedNormalRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_normal_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/orange_enraged_normal_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedNormalEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedNormalRenderer.java"
+          "src/main/resources/assets/allaboutengie/models/item/orange_enraged_normal_spawn_egg.json"
         ]
       },
       "path": "~/Zombies"
@@ -6497,9 +6497,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedBoomRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/EnragedBoomEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_boom_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/enraged_boom_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_boom_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/EnragedBoomEntity.java"
         ]
       },
       "path": "~/Zombies"
@@ -6513,10 +6513,10 @@
       "registry_name": "blue_enraged_boom",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_boom_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/blue_enraged_boom_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedBoomRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedBoomEntity.java"
+          "src/main/resources/assets/allaboutengie/models/item/blue_enraged_boom_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedBoomEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_boom_biome_modifier.json"
         ]
       },
       "path": "~/Zombies"
@@ -6530,10 +6530,10 @@
       "registry_name": "purple_enraged_boom",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedBoomRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedBoomEntity.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_boom_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_boom_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedBoomEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_boom_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedBoomRenderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -6549,8 +6549,8 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/orange_enraged_boom_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedBoomRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_boom_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedBoomEntity.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedBoomEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_boom_biome_modifier.json"
         ]
       },
       "path": "~/Zombies"
@@ -6564,10 +6564,10 @@
       "registry_name": "enraged_speed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedSpeedRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeedEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/enraged_speed_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_speed_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeedEntity.java"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedSpeedRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_speed_biome_modifier.json"
         ]
       },
       "path": "~/Zombies"
@@ -6581,10 +6581,10 @@
       "registry_name": "blue_enraged_speed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedSpeedEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_speed_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedSpeedRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/blue_enraged_speed_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedSpeedRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedSpeedEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_speed_biome_modifier.json"
         ]
       },
       "path": "~/Zombies"
@@ -6598,10 +6598,10 @@
       "registry_name": "purple_enraged_speed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedSpeedRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_speed_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedSpeedEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_speed_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedSpeedRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_speed_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedSpeedEntity.java"
         ]
       },
       "path": "~/Zombies"
@@ -6615,10 +6615,10 @@
       "registry_name": "orange_enraged_speed",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedSpeedRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/orange_enraged_speed_spawn_egg.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_speed_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedSpeedEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedSpeedRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedSpeedEntity.java"
         ]
       },
       "path": "~/Zombies"
@@ -6632,8 +6632,8 @@
       "registry_name": "common",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/common_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/common_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/common_boots.json",
           "src/main/java/net/mcreator/allaboutengie/item/CommonItem.java",
           "src/main/resources/assets/allaboutengie/models/item/common_leggings.json"
@@ -6650,11 +6650,11 @@
       "registry_name": "uncommon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_chestplate.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonItem.java",
           "src/main/resources/assets/allaboutengie/models/item/uncommon_boots.json",
+          "src/main/java/net/mcreator/allaboutengie/item/UncommonItem.java",
           "src/main/resources/assets/allaboutengie/models/item/uncommon_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_helmet.json"
+          "src/main/resources/assets/allaboutengie/models/item/uncommon_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/uncommon_chestplate.json"
         ]
       },
       "path": "~/Armor"
@@ -6668,11 +6668,11 @@
       "registry_name": "rare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_leggings.json",
           "src/main/java/net/mcreator/allaboutengie/item/RareItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/rare_boots.json",
           "src/main/resources/assets/allaboutengie/models/item/rare_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_chestplate.json"
+          "src/main/resources/assets/allaboutengie/models/item/rare_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/rare_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/rare_leggings.json"
         ]
       },
       "path": "~/Armor"
@@ -6686,11 +6686,11 @@
       "registry_name": "epic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/epic_boots.json",
           "src/main/resources/assets/allaboutengie/models/item/epic_leggings.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EpicItem.java",
           "src/main/resources/assets/allaboutengie/models/item/epic_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/epic_helmet.json"
+          "src/main/resources/assets/allaboutengie/models/item/epic_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/epic_helmet.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EpicItem.java"
         ]
       },
       "path": "~/Armor"
@@ -6704,11 +6704,11 @@
       "registry_name": "legendary",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryItem.java",
           "src/main/resources/assets/allaboutengie/models/item/legendary_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/legendary_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_leggings.json"
+          "src/main/java/net/mcreator/allaboutengie/item/LegendaryItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_boots.json"
         ]
       },
       "path": "~/Armor"
@@ -6723,10 +6723,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/mythic_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_helmet.json",
           "src/main/java/net/mcreator/allaboutengie/item/MythicItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_boots.json"
+          "src/main/resources/assets/allaboutengie/models/item/mythic_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_chestplate.json"
         ]
       },
       "path": "~/Armor"
@@ -6741,10 +6741,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/item/ExoticItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_boots.json",
           "src/main/resources/assets/allaboutengie/models/item/exotic_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/exotic_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_boots.json"
+          "src/main/resources/assets/allaboutengie/models/item/exotic_chestplate.json"
         ]
       },
       "path": "~/Armor"
@@ -6758,11 +6758,11 @@
       "registry_name": "unobtainium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_helmet.json",
           "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_helmet.json"
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_leggings.json",
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_boots.json"
         ]
       },
       "path": "~/Armor"
@@ -6776,10 +6776,10 @@
       "registry_name": "common_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/CommonEngieEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CommonEngieRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/common_engie_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/common_engie_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/common_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/CommonEngieEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -6793,8 +6793,8 @@
       "registry_name": "common_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CommonSwordItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/common_sword.json"
+          "src/main/resources/assets/allaboutengie/models/item/common_sword.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CommonSwordItem.java"
         ]
       },
       "path": "~/Tools"
@@ -6808,8 +6808,8 @@
       "registry_name": "common_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CommonPickaxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/CommonPickaxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/common_pickaxe.json"
         ]
       },
       "path": "~/Tools"
@@ -6823,8 +6823,8 @@
       "registry_name": "common_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CommonAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/CommonAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/common_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -6838,8 +6838,8 @@
       "registry_name": "common_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CommonShovelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/CommonShovelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/common_shovel.json"
         ]
       },
       "path": "~/Tools"
@@ -6883,8 +6883,8 @@
       "registry_name": "uncommon_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_pickaxe.json"
+          "src/main/resources/assets/allaboutengie/models/item/uncommon_pickaxe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/UncommonPickaxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -6943,8 +6943,8 @@
       "registry_name": "rare_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/RareSwordItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/RareSwordItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/rare_sword.json"
         ]
       },
       "path": "~/Tools"
@@ -7063,8 +7063,8 @@
       "registry_name": "epic_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EpicShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/epic_shovel.json"
+          "src/main/resources/assets/allaboutengie/models/item/epic_shovel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EpicShovelItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7108,8 +7108,8 @@
       "registry_name": "legendary_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_pickaxe.json"
+          "src/main/resources/assets/allaboutengie/models/item/legendary_pickaxe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/LegendaryPickaxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7123,8 +7123,8 @@
       "registry_name": "legendary_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_axe.json"
+          "src/main/resources/assets/allaboutengie/models/item/legendary_axe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/LegendaryAxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7153,8 +7153,8 @@
       "registry_name": "legendary_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryHoeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_hoe.json"
+          "src/main/resources/assets/allaboutengie/models/item/legendary_hoe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/LegendaryHoeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7168,8 +7168,8 @@
       "registry_name": "mythic_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MythicSwordItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/MythicSwordItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_sword.json"
         ]
       },
       "path": "~/Tools"
@@ -7183,8 +7183,8 @@
       "registry_name": "mythic_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MythicPickaxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/MythicPickaxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_pickaxe.json"
         ]
       },
       "path": "~/Tools"
@@ -7213,8 +7213,8 @@
       "registry_name": "mythic_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/MythicShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_shovel.json"
+          "src/main/resources/assets/allaboutengie/models/item/mythic_shovel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/MythicShovelItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7243,8 +7243,8 @@
       "registry_name": "exotic_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticSwordItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticSwordItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_sword.json"
         ]
       },
       "path": "~/Tools"
@@ -7258,8 +7258,8 @@
       "registry_name": "exotic_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_pickaxe.json"
+          "src/main/resources/assets/allaboutengie/models/item/exotic_pickaxe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticPickaxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7273,8 +7273,8 @@
       "registry_name": "exotic_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -7288,8 +7288,8 @@
       "registry_name": "exotic_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_shovel.json"
+          "src/main/resources/assets/allaboutengie/models/item/exotic_shovel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticShovelItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7303,8 +7303,8 @@
       "registry_name": "exotic_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticHoeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/ExoticHoeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -7333,8 +7333,8 @@
       "registry_name": "unobtainium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_pickaxe.json"
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_pickaxe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumPickaxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -7348,8 +7348,8 @@
       "registry_name": "unobtainium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -7378,8 +7378,8 @@
       "registry_name": "unobtainium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumHoeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumHoeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/unobtainium_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -7393,10 +7393,10 @@
       "registry_name": "unobtainium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/block/unobtainium_ore.json",
-          "src/main/resources/assets/allaboutengie/blockstates/unobtainium_ore.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/UnobtainiumOreFeature.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/blockstates/unobtainium_ore.json",
+          "src/main/resources/assets/allaboutengie/models/block/unobtainium_ore.json",
           "src/main/java/net/mcreator/allaboutengie/block/UnobtainiumOreBlock.java",
           "src/main/resources/assets/allaboutengie/models/item/unobtainium_ore.json"
         ]
@@ -7412,12 +7412,12 @@
       "registry_name": "deepslate_unobtainium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/deepslate_unobtainium.json",
-          "src/main/resources/assets/allaboutengie/models/item/deepslate_unobtainium.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_unobtainium_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateUnobtainiumFeature.java",
+          "src/main/resources/assets/allaboutengie/models/item/deepslate_unobtainium.json",
           "src/main/resources/assets/allaboutengie/models/block/deepslate_unobtainium.json",
-          "src/main/java/net/mcreator/allaboutengie/block/DeepslateUnobtainiumBlock.java"
+          "src/main/resources/assets/allaboutengie/blockstates/deepslate_unobtainium.json",
+          "src/main/java/net/mcreator/allaboutengie/block/DeepslateUnobtainiumBlock.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_unobtainium_biome_modifier.json"
         ]
       },
       "path": "~/Blocks"
@@ -7673,10 +7673,10 @@
       "registry_name": "uncommon_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/UncommonEngieEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_engie_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/uncommon_engie_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/UncommonEngieRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/uncommon_engie_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/UncommonEngieEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/uncommon_engie_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -7690,10 +7690,10 @@
       "registry_name": "rare_engie",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_engie_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareEngieRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/RareEngieEntity.java"
+          "src/main/resources/assets/allaboutengie/models/item/rare_engie_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/RareEngieEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_engie_biome_modifier.json"
         ]
       },
       "path": "~/Mobs"
@@ -7708,8 +7708,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/allaboutengie/forge/biome_modifier/epic_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicEngieRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/EpicEngieEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicEngieRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/epic_engie_spawn_egg.json"
         ]
       },
@@ -7724,10 +7724,10 @@
       "registry_name": "legendary_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/LegendaryEngieEntity.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/legendary_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendaryEngieRenderer.java"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendaryEngieRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_engie_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -7741,9 +7741,9 @@
       "registry_name": "mythic_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicEngieRenderer.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/mythic_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicEngieRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/mythic_engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/MythicEngieEntity.java"
         ]
       },
@@ -7758,10 +7758,10 @@
       "registry_name": "exotic_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticEngieEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/exotic_engie_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/exotic_engie_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticEngieRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_engie_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -8086,8 +8086,8 @@
       "registry_name": "cyber_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CyberIngotItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_ingot.json"
+          "src/main/resources/assets/allaboutengie/models/item/cyber_ingot.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CyberIngotItem.java"
         ]
       },
       "path": "~/Items"
@@ -8116,10 +8116,10 @@
       "registry_name": "protogen",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ProtogenRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/protogen_spawn_egg.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/protogen_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/ProtogenEntity.java"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ProtogenRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/ProtogenEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/protogen_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -8133,11 +8133,11 @@
       "registry_name": "cyber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/cyber_leggings.json",
           "src/main/resources/assets/allaboutengie/models/item/cyber_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CyberItem.java",
           "src/main/resources/assets/allaboutengie/models/item/cyber_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_chestplate.json"
+          "src/main/resources/assets/allaboutengie/models/item/cyber_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/cyber_leggings.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CyberItem.java"
         ]
       },
       "path": "~/Armor"
@@ -8151,11 +8151,11 @@
       "registry_name": "blood",
       "metadata": {
         "files": [
+          "src/main/resources/assets/allaboutengie/models/item/blood_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/blood_leggings.json",
           "src/main/resources/assets/allaboutengie/models/item/blood_chestplate.json",
           "src/main/java/net/mcreator/allaboutengie/item/BloodItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/blood_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_helmet.json"
+          "src/main/resources/assets/allaboutengie/models/item/blood_boots.json"
         ]
       },
       "path": "~/Armor"
@@ -8170,10 +8170,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/cyberblood_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/cyberblood_helmet.json",
           "src/main/resources/assets/allaboutengie/models/item/cyberblood_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/cyberblood_leggings.json",
           "src/main/java/net/mcreator/allaboutengie/item/CyberbloodItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/cyberblood_leggings.json"
+          "src/main/resources/assets/allaboutengie/models/item/cyberblood_helmet.json"
         ]
       },
       "path": "~/Armor"
@@ -8187,12 +8187,12 @@
       "registry_name": "cyber_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/block/CyberOreBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/cyber_ore.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_ore_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/cyber_ore.json",
           "src/main/resources/assets/allaboutengie/blockstates/cyber_ore.json",
+          "src/main/resources/assets/allaboutengie/models/block/cyber_ore.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/CyberOreFeature.java",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_ore.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/block/CyberOreBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -8206,12 +8206,12 @@
       "registry_name": "blood_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/BloodOreFeature.java",
+          "src/main/resources/assets/allaboutengie/models/block/blood_ore.json",
+          "src/main/resources/assets/allaboutengie/models/item/blood_ore.json",
           "src/main/resources/assets/allaboutengie/blockstates/blood_ore.json",
           "src/main/java/net/mcreator/allaboutengie/block/BloodOreBlock.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/blood_ore_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/block/blood_ore.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_ore.json"
+          "src/main/java/net/mcreator/allaboutengie/world/features/ores/BloodOreFeature.java"
         ]
       },
       "path": "~/Blocks"
@@ -8281,8 +8281,8 @@
       "registry_name": "cyber_katana",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CyberKatanaItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_katana.json"
+          "src/main/resources/assets/allaboutengie/models/item/cyber_katana.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CyberKatanaItem.java"
         ]
       },
       "path": "~/Items"
@@ -8296,8 +8296,8 @@
       "registry_name": "blood_battle_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/BloodBattleAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/blood_battle_axe.json"
+          "src/main/resources/assets/allaboutengie/models/item/blood_battle_axe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/BloodBattleAxeItem.java"
         ]
       },
       "path": "~/Items"
@@ -8326,8 +8326,8 @@
       "registry_name": "cyberblood_battle_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/cyberblood_battle_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CyberbloodBattleAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/CyberbloodBattleAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/cyberblood_battle_axe.json"
         ]
       },
       "path": "~/Items"
@@ -8551,10 +8551,10 @@
       "registry_name": "cyber_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/block/cyber_block.json",
           "src/main/resources/assets/allaboutengie/blockstates/cyber_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/CyberBlockBlock.java",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_block.json"
+          "src/main/resources/assets/allaboutengie/models/item/cyber_block.json",
+          "src/main/resources/assets/allaboutengie/models/block/cyber_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/CyberBlockBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -8568,10 +8568,10 @@
       "registry_name": "blood_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/blood_block.json",
           "src/main/resources/assets/allaboutengie/models/block/blood_block.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/BloodBlockBlock.java"
+          "src/main/resources/assets/allaboutengie/blockstates/blood_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/BloodBlockBlock.java",
+          "src/main/resources/assets/allaboutengie/models/item/blood_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -8587,8 +8587,8 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/cyberblood_block.json",
           "src/main/resources/assets/allaboutengie/blockstates/cyberblood_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/CyberbloodBlockBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/cyberblood_block.json"
+          "src/main/resources/assets/allaboutengie/models/block/cyberblood_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/CyberbloodBlockBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -8801,9 +8801,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing_2.json",
+          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_2.json",
           "src/main/java/net/mcreator/allaboutengie/block/ThanksForPlaying2Block.java",
-          "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing_2.json",
-          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_2.json"
+          "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing_2.json"
         ]
       },
       "path": "~/Blocks"
@@ -8817,10 +8817,10 @@
       "registry_name": "thanks_for_playing_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_3.json",
-          "src/main/java/net/mcreator/allaboutengie/block/ThanksForPlaying3Block.java",
           "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing_3.json",
-          "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing_3.json"
+          "src/main/java/net/mcreator/allaboutengie/block/ThanksForPlaying3Block.java",
+          "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing_3.json",
+          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_3.json"
         ]
       },
       "path": "~/Blocks"
@@ -8864,8 +8864,8 @@
       "registry_name": "nothing_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_3_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/world/features/Nothing3Feature.java"
+          "src/main/java/net/mcreator/allaboutengie/world/features/Nothing3Feature.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_3_biome_modifier.json"
         ]
       },
       "path": "~/Structures"
@@ -8894,10 +8894,10 @@
       "registry_name": "quizzet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/quizzet_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/QuizzetRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/QuizzetEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/quizzet_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/quizzet_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/QuizzetRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/quizzet_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -9308,8 +9308,8 @@
       "registry_name": "ban_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/BanHammerItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/ban_hammer.json"
+          "src/main/resources/assets/allaboutengie/models/item/ban_hammer.json",
+          "src/main/java/net/mcreator/allaboutengie/item/BanHammerItem.java"
         ]
       },
       "path": "~/Ban Hammers"
@@ -9323,8 +9323,8 @@
       "registry_name": "big_ban_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/BigBanHammerItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_ban_hammer.json"
+          "src/main/resources/assets/allaboutengie/models/item/big_ban_hammer.json",
+          "src/main/java/net/mcreator/allaboutengie/item/BigBanHammerItem.java"
         ]
       },
       "path": "~/Ban Hammers"
@@ -9353,8 +9353,8 @@
       "registry_name": "huge_ban_hammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/huge_ban_hammer.json",
-          "src/main/java/net/mcreator/allaboutengie/item/HugeBanHammerItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/HugeBanHammerItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/huge_ban_hammer.json"
         ]
       },
       "path": "~/Ban Hammers"
@@ -9380,8 +9380,8 @@
       "registry_name": "mini_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mini_ban_hammer_pixel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MiniBanHammerPixelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/MiniBanHammerPixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/mini_ban_hammer_pixel.json"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -9452,8 +9452,8 @@
       "registry_name": "ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/BanHammerPixelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/ban_hammer_pixel.json"
+          "src/main/resources/assets/allaboutengie/models/item/ban_hammer_pixel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/BanHammerPixelItem.java"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -9482,8 +9482,8 @@
       "registry_name": "large_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/LargeBanHammerPixelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/large_ban_hammer_pixel.json"
+          "src/main/resources/assets/allaboutengie/models/item/large_ban_hammer_pixel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/LargeBanHammerPixelItem.java"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -9497,8 +9497,8 @@
       "registry_name": "huge_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/huge_ban_hammer_pixel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/HugeBanHammerPixelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/HugeBanHammerPixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/huge_ban_hammer_pixel.json"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -9512,8 +9512,8 @@
       "registry_name": "enormous_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EnormousBanHammerPixelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/enormous_ban_hammer_pixel.json"
+          "src/main/resources/assets/allaboutengie/models/item/enormous_ban_hammer_pixel.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EnormousBanHammerPixelItem.java"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -9527,8 +9527,8 @@
       "registry_name": "gigantic_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/gigantic_ban_hammer_pixel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/GiganticBanHammerPixelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/GiganticBanHammerPixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/gigantic_ban_hammer_pixel.json"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
@@ -9572,91 +9572,11 @@
       "registry_name": "comically_massive_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/comically_massive_ban_hammer_pixel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ComicallyMassiveBanHammerPixelItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/ComicallyMassiveBanHammerPixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/comically_massive_ban_hammer_pixel.json"
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
-    },
-    {
-      "name": "Code",
-      "type": "gui",
-      "sortid": 573,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "code",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/gui/CodeScreen.java",
-          "src/main/java/net/mcreator/allaboutengie/network/CodeButtonMessage.java",
-          "src/main/java/net/mcreator/allaboutengie/world/inventory/CodeMenu.java"
-        ]
-      },
-      "path": "~/GUI"
-    },
-    {
-      "name": "Opencodegui",
-      "type": "procedure",
-      "sortid": 574,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "opencodegui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/OpencodeguiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "Submitbuttonclicked",
-      "type": "procedure",
-      "sortid": 575,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "submitbuttonclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/SubmitbuttonclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
     },
     {
       "name": "CodeRedeemersHammer",
@@ -9667,8 +9587,8 @@
       "registry_name": "code_redeemers_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CodeRedeemersHammerItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_hammer.json"
+          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_hammer.json",
+          "src/main/java/net/mcreator/allaboutengie/item/CodeRedeemersHammerItem.java"
         ]
       },
       "path": "~/Ban Hammers"
@@ -9697,28 +9617,14 @@
       "registry_name": "code_redeemers",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_leggings.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CodeRedeemersItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/code_redeemers_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_chestplate.json"
+          "src/main/java/net/mcreator/allaboutengie/item/CodeRedeemersItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/code_redeemers_leggings.json"
         ]
       },
       "path": "~/Armor"
-    },
-    {
-      "name": "Codegui",
-      "type": "command",
-      "sortid": 579,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "codegui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/command/CodeguiCommand.java"
-        ]
-      },
-      "path": "~/Commands"
     },
     {
       "name": "MiniBanObtain",
@@ -9855,8 +9761,8 @@
       "registry_name": "outraged_engie_essence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_essence.json",
-          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieEssenceItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieEssenceItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_essence.json"
         ]
       },
       "path": "~/Items"
@@ -9884,11 +9790,11 @@
       "registry_name": "outraged_engies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engies_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engies_leggings.json",
           "src/main/resources/assets/allaboutengie/models/item/outraged_engies_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngiesItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engies_chestplate.json",
           "src/main/resources/assets/allaboutengie/models/item/outraged_engies_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engies_leggings.json"
+          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngiesItem.java"
         ]
       },
       "path": "~/Armor"
@@ -9942,8 +9848,8 @@
       "registry_name": "outraged_engie_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieAxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieAxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -9957,8 +9863,8 @@
       "registry_name": "outraged_engie_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngiePickaxeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngiePickaxeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_pickaxe.json"
         ]
       },
       "path": "~/Tools"
@@ -9987,8 +9893,8 @@
       "registry_name": "outraged_engie_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieHoeItem.java"
+          "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieHoeItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -10002,10 +9908,10 @@
       "registry_name": "outraged_engie_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/block/outraged_engie_block.json",
-          "src/main/resources/assets/allaboutengie/blockstates/outraged_engie_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/OutragedEngieBlockBlock.java",
           "src/main/resources/assets/allaboutengie/models/item/outraged_engie_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/OutragedEngieBlockBlock.java"
+          "src/main/resources/assets/allaboutengie/models/block/outraged_engie_block.json",
+          "src/main/resources/assets/allaboutengie/blockstates/outraged_engie_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -10174,9 +10080,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/angel_hatted_present.json",
+          "src/main/resources/assets/allaboutengie/blockstates/angel_hatted_present.json",
           "src/main/java/net/mcreator/allaboutengie/block/AngelHattedPresentBlock.java",
-          "src/main/resources/assets/allaboutengie/models/block/angel_hatted_present.json",
-          "src/main/resources/assets/allaboutengie/blockstates/angel_hatted_present.json"
+          "src/main/resources/assets/allaboutengie/models/block/angel_hatted_present.json"
         ]
       },
       "path": "~/Blocks"
@@ -10368,6 +10274,48 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "CodeRedeemPro",
+      "type": "procedure",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "code_redeem_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/CodeRedeemProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Code",
+      "type": "command",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "code",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/command/CodeCommand.java"
+        ]
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [
@@ -10441,8 +10389,8 @@
       "item.allaboutengie.common_chestplate": "Common Chestplate",
       "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.aae_items.echdeath": "ECHDEATH",
-      "entity.allaboutengie.blue_enraged_speed": "Blue Enraged Speed",
       "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
+      "entity.allaboutengie.blue_enraged_speed": "Blue Enraged Speed",
       "entity.allaboutengie.blue_enraged_boom": "Blue Enraged Boom",
       "item.allaboutengie.shark_leggings": "Sharko Leggings",
       "item.allaboutengie.albino_sharko_lay_spawn_egg": "Albino Sharko [Laying] Spawn Egg",
@@ -10453,19 +10401,19 @@
       "itemGroup.tabaae_items_food": "Food",
       "item.allaboutengie.engie_shovel": "Engie Shovel",
       "item.allaboutengie.uncommon_chestplate": "Uncommon Chestplate",
-      "advancements.huge_ban_obtain.descr": "Obtain a Huge Ban Hammer",
-      "item.allaboutengie.common_helmet": "Common Helmet",
       "advancements.angry_engie_essence_obtained.descr": "Obtain an Angry Engie Essence for the first time.",
+      "item.allaboutengie.common_helmet": "Common Helmet",
+      "advancements.huge_ban_obtain.descr": "Obtain a Huge Ban Hammer",
       "item.allaboutengie.blood_helmet": "Blood Helmet",
       "advancements.unobtainium_everything.title": "You sure you\u0027re not sugarcoating it? Take a chill pill.",
-      "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
       "item.allaboutengie.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
+      "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
       "item.allaboutengie.legendary_sharko_tamed_spawn_egg": "Legendary Sharko [Tamed] Spawn Egg",
       "item.allaboutengie.albino_shark_helmet": "Albino Sharko Helmet",
       "advancements.massive_ban_obtain.descr": "Obtain a Massive Ban Hammer",
       "item.allaboutengie.enraged_engie_essence": "Enraged Engie Essence",
-      "advancements.large_ban_obtain.title": "Now THIS is a good Ban Hammer choice.",
       "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
+      "advancements.large_ban_obtain.title": "Now THIS is a good Ban Hammer choice.",
       "item.aae_items.ban_hammer": "Ban Hammer",
       "advancements.new_world.descr": "Create a new world with the All About Engie mod installed.",
       "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
@@ -10477,11 +10425,11 @@
       "block.aae_items.metal_chest_warped": "Warped Metal Chest",
       "advancements.enormous_ban_obtain.descr": "Obtain a Enormous Ban Hammer",
       "entity.allaboutengie.big_mythic_sharko": "Big Mythic Sharko",
-      "item.allaboutengie.mini_ban_hammer": "Mini Ban Hammer",
-      "item.allaboutengie.big_albino_sharko_spawn_egg": "Big Albino Sharko Spawn Egg",
       "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
-      "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "item.allaboutengie.big_albino_sharko_spawn_egg": "Big Albino Sharko Spawn Egg",
+      "item.allaboutengie.mini_ban_hammer": "Mini Ban Hammer",
       "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
+      "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.common_engie_spawn_egg": "Common Engie Spawn Egg",
       "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
       "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
@@ -10499,8 +10447,8 @@
       "item.allaboutengie.legendary_axe": "Legendary Axe",
       "item.allaboutengie.enraged_engies_boots": "Enraged Engie Boots",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
-      "entity.allaboutengie.exotic_sharko_lay": "Exotic Sharko [Laying]",
       "entity.allaboutengie.engie_sharko_rare_lay": "Engie Sharko [Laying]",
+      "entity.allaboutengie.exotic_sharko_lay": "Exotic Sharko [Laying]",
       "item.allaboutengie.rare_sword": "Rare Sword",
       "block.allaboutengie.deepslate_unobtainium": "Deepslate Unobtainium Ore",
       "item.allaboutengie.epic_shovel": "Epic Shovel",
@@ -10661,7 +10609,6 @@
       "item.allaboutengie.quizzet_spawn_egg": "Quizzet Spawn Egg",
       "item.aae_items.engie_shovel": "Engie Shovel",
       "item.allaboutengie.mythic_axe": "Mythic Axe",
-      "gui.allaboutengie.code.codeTextBox": "",
       "block.allaboutengie.angry_engie_block": "Angry Engie Block",
       "item.allaboutengie.epic_chestplate": "Epic Chestplate",
       "item.allaboutengie.enchanted_exotic_cookie": "Golden Cookie",
@@ -10741,7 +10688,6 @@
       "item.allaboutengie.true_ban_hammer": "True Ban Hammer (COMMAND)",
       "item.allaboutengie.cheese": "Cheese",
       "item.allaboutengie.mythic_chestplate": "Mythic Chestplate",
-      "gui.allaboutengie.code.label_11011110001000000111000010001101": "1101111000100000011100001000110111100101010011",
       "block.allaboutengie.thanks_for_playing_2": "Thanks for playing!",
       "item.allaboutengie.blue_enraged_speed_spawn_egg": "Blue Enraged Speed Spawn Egg",
       "block.allaboutengie.thanks_for_playing_3": "Thanks for playing!",
@@ -10870,7 +10816,6 @@
       "item.allaboutengie.massive_ban_hammer_pixel": "Pixelized Massive Ban Hammer",
       "item.aae_items.biggest_ban_hammer_pixel": "Biggest Ban Hammer Pixel",
       "item.allaboutengie.enraged_coin": "Enraged Coin",
-      "gui.allaboutengie.code.label_10000101011101101001111010010110": "10000101011101101001111010010110101110000101011110010010000-",
       "item.allaboutengie.enraged_speed_spawn_egg": "Enraged Speed Spawn Egg",
       "entity.allaboutengie.orange_enraged_normal": "Orange Enraged Normal",
       "item.allaboutengie.purple_enraged_speed_spawn_egg": "Purple Enraged Speed Spawn Egg",
@@ -10883,7 +10828,6 @@
       "item.aae_items.engie_hoe": "Engie Hoe",
       "item.aae_items.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
       "block.aae_items.thanks_for_playing": "Thanks for playing!",
-      "gui.allaboutengie.code.button_submit": "Submit",
       "entity.allaboutengie.blue_enraged_normal": "Blue Enraged Normal",
       "advancements.angry_engie_tool_obtained.title": "I\u0027m mildly disturbed now having this..",
       "item.allaboutengie.enraged_engie_hoe": "Enraged Engie Hoe",
@@ -10993,7 +10937,6 @@
       "advancements.new_world_new_problem.title": "All About Engie: Detective mode edition.",
       "advancements.unobtainium_full_armor.title": "Not gonna sugarcoat it.",
       "item.allaboutengie.sharko_cloth": "Sharko Cloth",
-      "gui.allaboutengie.code.label_insert_code_in_text_box": "Insert code in text box.",
       "item.allaboutengie.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
       "advancements.mythic_obtained.title": "Mythic Obtained",
       "item.allaboutengie.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
@@ -11144,7 +11087,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "12.26.24",
+    "version": "12.28.24",
     "description": "Made with MCreator.",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",

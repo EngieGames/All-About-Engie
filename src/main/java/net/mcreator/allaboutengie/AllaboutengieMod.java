@@ -62,7 +62,6 @@ public class AllaboutengieMod {
 		AllaboutengieModEntities.REGISTRY.register(bus);
 		AllaboutengieModBlockEntities.REGISTRY.register(bus);
 		AllaboutengieModFeatures.REGISTRY.register(bus);
-
 		AllaboutengieModPaintings.REGISTRY.register(bus);
 
 		AllaboutengieModMenus.REGISTRY.register(bus);
