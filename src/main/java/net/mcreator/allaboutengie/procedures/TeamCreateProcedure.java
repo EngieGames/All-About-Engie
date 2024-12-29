@@ -69,7 +69,7 @@ public class TeamCreateProcedure {
 					"team modify AAE_CC color gold");
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"team modify AAE_CC prefix \"[AAE Content Creator] \"");
+					"team modify AAE_CC prefix \"[All About Engie Content Creator] \"");
 		AllaboutengieMod.queueServerWork(2, () -> {
 			if ((entity.getDisplayName().getString()).equals("Dev")) {
 				if (world instanceof ServerLevel _level)
@@ -94,7 +94,7 @@ public class TeamCreateProcedure {
 			if ((entity.getDisplayName().getString()).equals("GremilingPlayz")) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							"team join AAE_Tester GremilingPlayz");
+							"team join AAE_IdeaGiver GremilingPlayz");
 			}
 			if ((entity.getDisplayName().getString()).equals("Dragons23")) {
 				if (world instanceof ServerLevel _level)
