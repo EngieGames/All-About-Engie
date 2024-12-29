@@ -28,7 +28,6 @@ import net.mcreator.allaboutengie.entity.QuizzetEntity;
 import net.mcreator.allaboutengie.entity.PurpleEnragedSpeedEntity;
 import net.mcreator.allaboutengie.entity.PurpleEnragedNormalEntity;
 import net.mcreator.allaboutengie.entity.PurpleEnragedBoomEntity;
-import net.mcreator.allaboutengie.entity.PunisherEntity;
 import net.mcreator.allaboutengie.entity.ProtogenEntity;
 import net.mcreator.allaboutengie.entity.OrangeEnragedSpeedEntity;
 import net.mcreator.allaboutengie.entity.OrangeEnragedNormalEntity;
@@ -42,7 +41,6 @@ import net.mcreator.allaboutengie.entity.LegendarySharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoLayEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoEntity;
 import net.mcreator.allaboutengie.entity.LegendaryEngieEntity;
-import net.mcreator.allaboutengie.entity.HelperEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoEntity;
@@ -315,14 +313,6 @@ public class AllaboutengieModEntities {
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EngieGamesGUIEntity>> ENGIE_GAMES_GUI = register("engie_games_gui", EntityType.Builder.<EngieGamesGUIEntity>of(EngieGamesGUIEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(1024).setUpdateInterval(3).setCustomClientFactory(EngieGamesGUIEntity::new).fireImmune().sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<PunisherEntity>> PUNISHER = register("punisher",
-			EntityType.Builder.<PunisherEntity>of(PunisherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PunisherEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<HelperEntity>> HELPER = register("helper",
-			EntityType.Builder.<HelperEntity>of(HelperEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HelperEntity::new)
-
-					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<SharkTamedEntity>> SHARKO_TAMED = register("sharko_tamed",
 			EntityType.Builder.<SharkTamedEntity>of(SharkTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkTamedEntity::new)
 
@@ -427,8 +417,6 @@ public class AllaboutengieModEntities {
 			PurpleEnragedSpeedEntity.init();
 			OrangeEnragedSpeedEntity.init();
 			EngieGamesGUIEntity.init();
-			PunisherEntity.init();
-			HelperEntity.init();
 			SharkTamedEntity.init();
 			AlbinoSharkoTamedEntity.init();
 			RareSharkoTamedEntity.init();
@@ -500,8 +488,6 @@ public class AllaboutengieModEntities {
 		event.put(PURPLE_ENRAGED_SPEED.get(), PurpleEnragedSpeedEntity.createAttributes().build());
 		event.put(ORANGE_ENRAGED_SPEED.get(), OrangeEnragedSpeedEntity.createAttributes().build());
 		event.put(ENGIE_GAMES_GUI.get(), EngieGamesGUIEntity.createAttributes().build());
-		event.put(PUNISHER.get(), PunisherEntity.createAttributes().build());
-		event.put(HELPER.get(), HelperEntity.createAttributes().build());
 		event.put(SHARKO_TAMED.get(), SharkTamedEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_TAMED.get(), AlbinoSharkoTamedEntity.createAttributes().build());
 		event.put(RARE_SHARKO_TAMED.get(), RareSharkoTamedEntity.createAttributes().build());

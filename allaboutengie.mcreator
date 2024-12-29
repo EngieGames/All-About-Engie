@@ -3683,40 +3683,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "Punisher",
-      "type": "livingentity",
-      "sortid": 397,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "punisher",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/PunisherRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/punisher_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/PunisherEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/punisher_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "Helper",
-      "type": "livingentity",
-      "sortid": 398,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "helper",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/HelperEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/helper_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/helper_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/HelperRenderer.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
       "name": "PunishersGoggles",
       "type": "tool",
       "sortid": 399,
@@ -10394,7 +10360,6 @@
       "entity.allaboutengie.blue_enraged_boom": "Blue Enraged Boom",
       "item.allaboutengie.shark_leggings": "Sharko Leggings",
       "item.allaboutengie.albino_sharko_lay_spawn_egg": "Albino Sharko [Laying] Spawn Egg",
-      "entity.allaboutengie.helper": "Helper",
       "item.aae_items.angry_engie_axe": "Angry Engie Axe",
       "item.allaboutengie.common_axe": "Common Axe",
       "advancements.unobtainium_full_armor.descr": "Collect all Unobtainium armor pieces.",
@@ -10741,7 +10706,6 @@
       "item.aae_items.cracker_dust": "Cracker Dust",
       "item.allaboutengie.big_rare_sharko_spawn_egg": "Big Rare Sharko Spawn Egg",
       "item.allaboutengie.operators_boots": "Operators Boots",
-      "item.allaboutengie.punisher_spawn_egg": "Punisher Spawn Egg",
       "item.allaboutengie.pizza_slice": "Pizza Slice",
       "item.allaboutengie.engi_shovel": "Engi Shovel",
       "entity.allaboutengie.exotic_sharko": "Exotic Sharko",
@@ -10842,7 +10806,6 @@
       "item.allaboutengie.epic_boots": "Epic Boots",
       "block.aae_items.metal_chest_birch": "Birch Metal Chest",
       "item.aae_items.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
-      "entity.allaboutengie.punisher": "Punisher",
       "item.allaboutengie.angry_engie_hoe": "Angry Engie Hoe",
       "itemGroup.tabmobs": "Mobs",
       "advancements.unobtainium_obtained.title": "Unobtainium Obtained",
@@ -10952,7 +10915,6 @@
       "item.aae_items.operators_shovel": "Operators Shovel",
       "advancements.engie_tool_obtained.descr": "Obtain one of the Engie tools.",
       "item.allaboutengie.enormous_ban_hammer_pixel": "Pixelized Enormous Ban Hammer",
-      "item.allaboutengie.helper_spawn_egg": "Helper Spawn Egg",
       "item.allaboutengie.common_leggings": "Common Leggings",
       "advancements.epic_obtained.title": "Epic Obtained",
       "entity.allaboutengie.rare_sharko_tamed": "Rare Sharko [Tamed]",

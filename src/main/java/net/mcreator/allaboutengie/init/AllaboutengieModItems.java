@@ -550,8 +550,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TESTER_CHESTPLATE = REGISTRY.register("tester_chestplate", () -> new TesterItem.Chestplate());
 	public static final RegistryObject<Item> TESTER_LEGGINGS = REGISTRY.register("tester_leggings", () -> new TesterItem.Leggings());
 	public static final RegistryObject<Item> TESTER_BOOTS = REGISTRY.register("tester_boots", () -> new TesterItem.Boots());
-	public static final RegistryObject<Item> PUNISHER_SPAWN_EGG = REGISTRY.register("punisher_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.PUNISHER, -16777216, -6015354, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> HELPER_SPAWN_EGG = REGISTRY.register("helper_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.HELPER, -16777216, -6015354, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PUNISHERS_GOGGLES = REGISTRY.register("punishers_goggles", () -> new PunishersGogglesItem());
 	public static final RegistryObject<Item> SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("sharko_tamed_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO_TAMED, -12420148, -1, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ALBINO_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("albino_sharko_tamed_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO_TAMED, -1644826, -1, new Item.Properties().tab(null)));
