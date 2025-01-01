@@ -15,6 +15,6 @@ public class SharkTamedRenderer extends MobRenderer<SharkTamedEntity, Modelboyo<
 
 	@Override
 	public ResourceLocation getTextureLocation(SharkTamedEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyot.png");
+		return new ResourceLocation("allaboutengie:textures/entities/sharkonewtamed.png");
 	}
 }

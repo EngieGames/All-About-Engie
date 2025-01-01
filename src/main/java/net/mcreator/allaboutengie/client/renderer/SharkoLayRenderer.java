@@ -15,6 +15,6 @@ public class SharkoLayRenderer extends MobRenderer<SharkoLayEntity, Modelboyosit
 
 	@Override
 	public ResourceLocation getTextureLocation(SharkoLayEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyot.png");
+		return new ResourceLocation("allaboutengie:textures/entities/sharkonewtamed.png");
 	}
 }

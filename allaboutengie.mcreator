@@ -3189,84 +3189,12 @@
       "path": "~/Paintings"
     },
     {
-      "name": "DeveloperEngie2",
-      "type": "painting",
-      "sortid": 371,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "developer_engie_2",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "DeveloperEngie3",
-      "type": "painting",
-      "sortid": 372,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "developer_engie_3",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "DeveloperEngie4",
-      "type": "painting",
-      "sortid": 373,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "developer_engie_4",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
       "name": "IdeaGiverBlood",
       "type": "painting",
       "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idea_giver_blood",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "IdeaGiverBlood2",
-      "type": "painting",
-      "sortid": 375,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "idea_giver_blood_2",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "IdeaGiverBlood3",
-      "type": "painting",
-      "sortid": 376,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "idea_giver_blood_3",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "IdeaGiverBlood4",
-      "type": "painting",
-      "sortid": 377,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "idea_giver_blood_4",
       "metadata": {
         "files": []
       },
@@ -3285,42 +3213,6 @@
       "path": "~/Paintings"
     },
     {
-      "name": "TigerShark2",
-      "type": "painting",
-      "sortid": 379,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiger_shark_2",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "TigerShark3",
-      "type": "painting",
-      "sortid": 380,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiger_shark_3",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "TigerShark4",
-      "type": "painting",
-      "sortid": 381,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiger_shark_4",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
       "name": "TigerSharkCatOnsie",
       "type": "painting",
       "sortid": 382,
@@ -3333,84 +3225,12 @@
       "path": "~/Paintings"
     },
     {
-      "name": "TigerSharkCatOnsie2",
-      "type": "painting",
-      "sortid": 383,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiger_shark_cat_onsie_2",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "TigerSharkCatOnsie3",
-      "type": "painting",
-      "sortid": 384,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiger_shark_cat_onsie_3",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "TigerSharkCatOnsie4",
-      "type": "painting",
-      "sortid": 385,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiger_shark_cat_onsie_4",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
       "name": "AAEItemsLogo",
       "type": "painting",
       "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aae_items_logo",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "AAEItemsLogo2",
-      "type": "painting",
-      "sortid": 387,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aae_items_logo_2",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "AAEItemsLogo3",
-      "type": "painting",
-      "sortid": 388,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aae_items_logo_3",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Paintings"
-    },
-    {
-      "name": "AAEItemsLogo4",
-      "type": "painting",
-      "sortid": 389,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aae_items_logo_4",
       "metadata": {
         "files": []
       },
@@ -5456,159 +5276,6 @@
         ]
       },
       "path": "~/Procedures"
-    },
-    {
-      "name": "BigSharko",
-      "type": "livingentity",
-      "sortid": 192,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_sharko",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/BigSharkoEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_sharko_biome_modifier.json"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigAlbinoSharko",
-      "type": "livingentity",
-      "sortid": 193,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_albino_sharko",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/big_albino_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigAlbinoSharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigAlbinoSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_albino_sharko_biome_modifier.json"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigRareSharko",
-      "type": "livingentity",
-      "sortid": 194,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_rare_sharko",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_sharko_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/big_rare_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigRareSharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareSharkoRenderer.java"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigLegendarySharko",
-      "type": "livingentity",
-      "sortid": 195,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_legendary_sharko",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/BigLegendarySharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigLegendarySharkoRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_legendary_sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_legendary_sharko_biome_modifier.json"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigMythicSharko",
-      "type": "livingentity",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_mythic_sharko",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/big_mythic_sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_mythic_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigMythicSharkoRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigMythicSharkoEntity.java"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigExoticSharko",
-      "type": "livingentity",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_exotic_sharko",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/big_exotic_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigExoticSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_exotic_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigExoticSharkoEntity.java"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigEngieSharko",
-      "type": "livingentity",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_engie_sharko",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/BigEngieSharkoEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_engie_sharko_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigEngieSharkoRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_engie_sharko_spawn_egg.json"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigRareEngieSharko",
-      "type": "livingentity",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_rare_engie_sharko",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareEngieSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_engie_sharko_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/big_rare_engie_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BigRareEngieSharkoEntity.java"
-        ]
-      },
-      "path": "~/Sharkos/Big"
-    },
-    {
-      "name": "BigRareEngieSharko2",
-      "type": "livingentity",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_rare_engie_sharko_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/BigRareEngieSharko2Entity.java",
-          "src/main/resources/assets/allaboutengie/models/item/big_rare_engie_sharko_2_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/big_rare_engie_sharko_2_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BigRareEngieSharko2Renderer.java"
-        ]
-      },
-      "path": "~/Sharkos/Big"
     },
     {
       "name": "SharkoCloth",
@@ -7757,86 +7424,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "GMCPro",
-      "type": "procedure",
-      "sortid": 496,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gmc_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/GMCProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "GMSPro",
-      "type": "procedure",
-      "sortid": 497,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gms_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/GMSProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "GMAPro",
-      "type": "procedure",
-      "sortid": 498,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gma_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/GMAProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "GMSPPro",
-      "type": "procedure",
-      "sortid": 499,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gmsp_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/GMSPProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "EGMCPro",
       "type": "procedure",
       "sortid": 500,
@@ -7915,62 +7502,6 @@
         ]
       },
       "path": "~/Procedures"
-    },
-    {
-      "name": "Gmc",
-      "type": "command",
-      "sortid": 504,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gmc",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/command/GmcCommand.java"
-        ]
-      },
-      "path": "~/Commands"
-    },
-    {
-      "name": "Gms",
-      "type": "command",
-      "sortid": 505,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gms",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/command/GmsCommand.java"
-        ]
-      },
-      "path": "~/Commands"
-    },
-    {
-      "name": "Gma",
-      "type": "command",
-      "sortid": 506,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gma",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/command/GmaCommand.java"
-        ]
-      },
-      "path": "~/Commands"
-    },
-    {
-      "name": "Gmsp",
-      "type": "command",
-      "sortid": 507,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gmsp",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/command/GmspCommand.java"
-        ]
-      },
-      "path": "~/Commands"
     },
     {
       "name": "Egmc",
@@ -10389,22 +9920,18 @@
       "item.allaboutengie.outraged_engie_essence": "Outraged Engie Essence",
       "block.aae_items.metal_chest_warped": "Warped Metal Chest",
       "advancements.enormous_ban_obtain.descr": "Obtain a Enormous Ban Hammer",
-      "entity.allaboutengie.big_mythic_sharko": "Big Mythic Sharko",
       "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
-      "item.allaboutengie.big_albino_sharko_spawn_egg": "Big Albino Sharko Spawn Egg",
       "item.allaboutengie.mini_ban_hammer": "Mini Ban Hammer",
       "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
       "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.common_engie_spawn_egg": "Common Engie Spawn Egg",
       "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
       "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "entity.allaboutengie.big_engie_sharko": "Big Engie Sharko",
       "block.allaboutengie.metal_table": "Metal Chest",
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_helmet": "Cyberblood Helmet",
       "item.allaboutengie.legendary_helmet": "Legendary Helmet",
       "entity.allaboutengie.engie_sharko_rare_2": "Engie Sharko",
-      "item.allaboutengie.big_rare_engie_sharko_2_spawn_egg": "Big Engie Sharko Spawn Egg",
       "item.allaboutengie.mythic_boots": "Mythic Boots",
       "advancements.rare_obtained.descr": "Get yourself some rare tools.",
       "item.allaboutengie.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
@@ -10422,7 +9949,6 @@
       "advancements.legendary_obtained.title": "Legendary Obtained",
       "item.aae_items.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.code_redeemers_chestplate": "Code Redeemers Chestplate",
-      "entity.allaboutengie.big_albino_sharko": "Big Albino Sharko",
       "entity.allaboutengie.protogen": "Protogen",
       "block.aae_items.enraged_engie_block": "Enraged Engie Block",
       "advancements.exotic_obtained.descr": "Get yourself some exotic tools.",
@@ -10431,7 +9957,6 @@
       "item.allaboutengie.enraged_engies_helmet": "Enraged Engie Helmet",
       "item.allaboutengie.unobtainium_shovel": "Unobtainium Shovel",
       "item.allaboutengie.code_redeemers_hammer_pixel": "Pixelized Code Redeemers Hammer",
-      "item.allaboutengie.big_legendary_sharko_spawn_egg": "Big Legendary Sharko Spawn Egg",
       "entity.allaboutengie.engie_games": "EngieGames",
       "item.allaboutengie.legendary_sharko_cloth": "Legendary Sharko Cloth",
       "item.allaboutengie.huge_ban_hammer": "Huge Ban Hammer",
@@ -10439,7 +9964,6 @@
       "item.allaboutengie.engie_sharko_spawn_egg": "Engie Sharko Spawn Egg",
       "item.allaboutengie.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
       "item.allaboutengie.cyber_katana": "Cyber Katana",
-      "entity.allaboutengie.big_rare_sharko": "Big Rare Sharko",
       "item.allaboutengie.gigantic_ban_hammer_pixel": "Pixelized Gigantic Ban Hammer",
       "entity.allaboutengie.legendary_engie": "Legendary Engie",
       "item.aae_items.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
@@ -10459,7 +9983,6 @@
       "block.allaboutengie.metal_chest_acacia": "Acacia Metal Chest",
       "item.allaboutengie.dough_with_sauce": "Dough With Sauce",
       "item.allaboutengie.common_boots": "Common Boots",
-      "item.allaboutengie.big_mythic_sharko_spawn_egg": "Big Mythic Sharko Spawn Egg",
       "item.allaboutengie.cheese_puffs_opened": "Cheese Puffs Opened",
       "item.aae_items.true_ban_hammer": "True Ban Hammer (COMMAND)",
       "item.allaboutengie.cyber_leggings": "Cyber Leggings",
@@ -10477,7 +10000,6 @@
       "advancements.found_engie.descr": "Have a chat with Engie. GG.",
       "advancements.engies_scythe_obtained.descr": "Obtain Engie\u0027s Scythe.",
       "item.aae_items.dough_with_sauce": "Dough With Sauce",
-      "item.allaboutengie.big_engie_sharko_spawn_egg": "Big Engie Sharko Spawn Egg",
       "entity.allaboutengie.quizzet": "Quizzet",
       "item.aae_items.angry_engie_shovel": "Angry Engie Shovel",
       "item.aae_items.engies_scythe": "Engie\u0027s Scythe",
@@ -10514,7 +10036,6 @@
       "item.allaboutengie.engie_sharko_rare_spawn_egg": "Engie Sharko Spawn Egg",
       "advancements.enraged_engie_tool_obtained.descr": "Obtain one of the Enraged Engie tools.",
       "item.allaboutengie.operators_chestplate": "Operators Chestplate",
-      "entity.allaboutengie.big_rare_engie_sharko": "Big Engie Sharko",
       "item.allaboutengie.engies_scythe_pixel": "Pixel Engie\u0027s Scythe",
       "block.allaboutengie.metal_chest_spruce": "Spruce Metal Chest",
       "item.allaboutengie.orange_enraged_speed_spawn_egg": "Orange Enraged Speed Spawn Egg",
@@ -10537,7 +10058,6 @@
       "item.allaboutengie.outraged_engies_helmet": "Outraged Engie Helmet",
       "block.aae_items.old_deepslate_engie_ore": "Engie Ore",
       "item.allaboutengie.uncommon_axe": "Uncommon Axe",
-      "item.allaboutengie.big_sharko_spawn_egg": "Big Sharko Spawn Egg",
       "entity.allaboutengie.mythic_engie": "Mythic Engie",
       "item.allaboutengie.exotic_shark_helmet": "Exotic Sharko Helmet",
       "item.aae_items.angry_engie_chestplate": "Angry Engie Chestplate",
@@ -10700,11 +10220,9 @@
       "advancements.found_engie.title": "That took quite long.",
       "item.allaboutengie.crucifix_pixel": "Pixel Crucifix",
       "item.allaboutengie.angry_engies_chestplate": "Angry Engie Chestplate",
-      "entity.allaboutengie.big_legendary_sharko": "Big Legendary Sharko",
       "item.allaboutengie.unobtainium_leggings": "Unobtainium Leggings",
       "item.allaboutengie.echdeath_pixel": "PIXEL ECHDEATH",
       "item.aae_items.cracker_dust": "Cracker Dust",
-      "item.allaboutengie.big_rare_sharko_spawn_egg": "Big Rare Sharko Spawn Egg",
       "item.allaboutengie.operators_boots": "Operators Boots",
       "item.allaboutengie.pizza_slice": "Pizza Slice",
       "item.allaboutengie.engi_shovel": "Engi Shovel",
@@ -10758,7 +10276,6 @@
       "item.allaboutengie.rare_axe": "Rare Axe",
       "advancements.enormous_ban_obtain.title": "Holy crap these get big...",
       "advancements.comically_massive_obtain.descr": "Redeem DevEngies secret code. ;)",
-      "entity.allaboutengie.big_sharko": "Big Sharko",
       "item.allaboutengie.exotic_engie_spawn_egg": "Exotic Engie Spawn Egg",
       "item.aae_items.engie_pickaxe": "Engie Pickaxe",
       "item.aae_items.crackers_in_bowl": "Crackers In Bowl",
@@ -10767,7 +10284,6 @@
       "item.allaboutengie.albino_shark_leggings": "Albino Sharko Leggings",
       "entity.allaboutengie.creator": "Creator",
       "item.allaboutengie.outraged_engie_pickaxe": "Outraged Engie Pickaxe",
-      "entity.allaboutengie.big_rare_engie_sharko_2": "Big Engie Sharko",
       "entity.allaboutengie.engie_sharko": "Engie Sharko",
       "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
       "item.aae_items.engie_helmet": "Engie Helmet",
@@ -10842,7 +10358,6 @@
       "item.allaboutengie.common_hoe": "Common Hoe",
       "item.allaboutengie.exotic_shark_chestplate": "Exotic Sharko Chestplate",
       "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
-      "item.allaboutengie.big_rare_engie_sharko_spawn_egg": "Big Engie Sharko Spawn Egg",
       "itemGroup.tabpixel_items": "Pixel Items",
       "entity.allaboutengie.epic_engie": "Epic Engie",
       "item.allaboutengie.purple_enraged_normal_spawn_egg": "Purple Enraged Normal Spawn Egg",
@@ -10895,7 +10410,6 @@
       "item.allaboutengie.engi_pickaxe": "Engi Pickaxe",
       "block.allaboutengie.blood_ore": "Blood Ore",
       "item.aae_items.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
-      "item.allaboutengie.big_exotic_sharko_spawn_egg": "Big Exotic Sharko Spawn Egg",
       "item.allaboutengie.code_redeemers_hammer": "Code Redeemers Ban Hammer",
       "advancements.new_world_new_problem.title": "All About Engie: Detective mode edition.",
       "advancements.unobtainium_full_armor.title": "Not gonna sugarcoat it.",
@@ -10903,7 +10417,6 @@
       "item.allaboutengie.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
       "advancements.mythic_obtained.title": "Mythic Obtained",
       "item.allaboutengie.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
-      "entity.allaboutengie.big_exotic_sharko": "Big Exotic Sharko",
       "item.allaboutengie.engie_sharko_rare_2_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
       "item.allaboutengie.unobtainium_hoe": "Unobtainium Hoe",
       "item.allaboutengie.ban_hammer": "Ban Hammer",
@@ -11037,10 +10550,6 @@
           {
             "name": "Regular",
             "children": []
-          },
-          {
-            "name": "Big",
-            "children": []
           }
         ]
       }
@@ -11049,7 +10558,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "12.29.24",
+    "version": "1.1.25",
     "description": "Made with MCreator.",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",

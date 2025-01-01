@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Engie Sharko [Laying]",
     "mobLabel": "",
-    "mobModelName": "Modelboyo",
-    "mobModelTexture": "re2boyo.png",
+    "mobModelName": "Modelboyosit",
+    "mobModelTexture": "rareengiesharko2newtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

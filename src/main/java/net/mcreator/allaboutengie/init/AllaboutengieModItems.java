@@ -470,24 +470,6 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_LAY, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_LAY_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_lay_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_LAY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_SHARKO_SPAWN_EGG = REGISTRY.register("big_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_SHARKO, -12420148, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_ALBINO_SHARKO_SPAWN_EGG = REGISTRY.register("big_albino_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_ALBINO_SHARKO, -1644826, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_RARE_SHARKO_SPAWN_EGG = REGISTRY.register("big_rare_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_RARE_SHARKO, -1644826, -10450, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_LEGENDARY_SHARKO_SPAWN_EGG = REGISTRY.register("big_legendary_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_LEGENDARY_SHARKO, -12544, -7680, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_MYTHIC_SHARKO_SPAWN_EGG = REGISTRY.register("big_mythic_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_MYTHIC_SHARKO, -1512448, -196864, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_EXOTIC_SHARKO_SPAWN_EGG = REGISTRY.register("big_exotic_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_EXOTIC_SHARKO, -16714511, -12845059, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("big_engie_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_ENGIE_SHARKO, -16250872, -7271155, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_RARE_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("big_rare_engie_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_RARE_ENGIE_SHARKO, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> BIG_RARE_ENGIE_SHARKO_2_SPAWN_EGG = REGISTRY.register("big_rare_engie_sharko_2_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BIG_RARE_ENGIE_SHARKO_2, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("enraged_normal_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_NORMAL, -10682368, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
 	public static final RegistryObject<Item> BLUE_ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("blue_enraged_normal_spawn_egg",

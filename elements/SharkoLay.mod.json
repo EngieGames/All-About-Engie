@@ -5,7 +5,7 @@
     "mobName": "Sharko [Laying]",
     "mobLabel": "",
     "mobModelName": "Modelboyosit",
-    "mobModelTexture": "boyot.png",
+    "mobModelTexture": "sharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

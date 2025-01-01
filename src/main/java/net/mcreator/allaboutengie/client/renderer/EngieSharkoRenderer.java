@@ -15,6 +15,6 @@ public class EngieSharkoRenderer extends MobRenderer<EngieSharkoEntity, Modelboy
 
 	@Override
 	public ResourceLocation getTextureLocation(EngieSharkoEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyoe.png");
+		return new ResourceLocation("allaboutengie:textures/entities/engiesharkonew.png");
 	}
 }

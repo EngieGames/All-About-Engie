@@ -5,7 +5,7 @@
     "mobName": "Rare Sharko",
     "mobLabel": "",
     "mobModelName": "Modelboyo",
-    "mobModelTexture": "boyora.png",
+    "mobModelTexture": "raresharkonew.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

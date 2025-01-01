@@ -5,7 +5,7 @@
     "mobName": "Engie Sharko [Laying]",
     "mobLabel": "",
     "mobModelName": "Modelboyosit",
-    "mobModelTexture": "boyoet.png",
+    "mobModelTexture": "engiesharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

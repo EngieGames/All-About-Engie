@@ -6,15 +6,15 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.EngieSharkoRare2LayEntity;
-import net.mcreator.allaboutengie.client.model.Modelboyo;
+import net.mcreator.allaboutengie.client.model.Modelboyosit;
 
-public class EngieSharkoRare2LayRenderer extends MobRenderer<EngieSharkoRare2LayEntity, Modelboyo<EngieSharkoRare2LayEntity>> {
+public class EngieSharkoRare2LayRenderer extends MobRenderer<EngieSharkoRare2LayEntity, Modelboyosit<EngieSharkoRare2LayEntity>> {
 	public EngieSharkoRare2LayRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelboyo(context.bakeLayer(Modelboyo.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelboyosit(context.bakeLayer(Modelboyosit.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(EngieSharkoRare2LayEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/re2boyo.png");
+		return new ResourceLocation("allaboutengie:textures/entities/rareengiesharko2newtamed.png");
 	}
 }

@@ -5,7 +5,7 @@
     "mobName": "Legendary Sharko [Tamed]",
     "mobLabel": "",
     "mobModelName": "Modelboyo",
-    "mobModelTexture": "boyolegt.png",
+    "mobModelTexture": "legendarysharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

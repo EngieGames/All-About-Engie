@@ -5,7 +5,7 @@
     "mobName": "Rare Sharko [Laying]",
     "mobLabel": "",
     "mobModelName": "Modelboyosit",
-    "mobModelTexture": "boyorat.png",
+    "mobModelTexture": "raresharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

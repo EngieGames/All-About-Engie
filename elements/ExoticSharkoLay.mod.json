@@ -5,7 +5,7 @@
     "mobName": "Exotic Sharko [Laying]",
     "mobLabel": "",
     "mobModelName": "Modelboyosit",
-    "mobModelTexture": "boyoext.png",
+    "mobModelTexture": "exoticsharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

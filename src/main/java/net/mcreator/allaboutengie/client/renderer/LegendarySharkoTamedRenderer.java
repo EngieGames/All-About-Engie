@@ -15,6 +15,6 @@ public class LegendarySharkoTamedRenderer extends MobRenderer<LegendarySharkoTam
 
 	@Override
 	public ResourceLocation getTextureLocation(LegendarySharkoTamedEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyolegt.png");
+		return new ResourceLocation("allaboutengie:textures/entities/legendarysharkonewtamed.png");
 	}
 }

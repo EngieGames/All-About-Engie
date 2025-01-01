@@ -5,7 +5,7 @@
     "mobName": "Albino Sharko [Tamed]",
     "mobLabel": "",
     "mobModelName": "Modelboyo",
-    "mobModelTexture": "boyoat.png",
+    "mobModelTexture": "albinosharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

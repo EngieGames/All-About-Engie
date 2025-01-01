@@ -5,7 +5,7 @@
     "mobName": "Mythic Sharko [Laying]",
     "mobLabel": "",
     "mobModelName": "Modelboyosit",
-    "mobModelTexture": "boyomyt.png",
+    "mobModelTexture": "mythicsharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

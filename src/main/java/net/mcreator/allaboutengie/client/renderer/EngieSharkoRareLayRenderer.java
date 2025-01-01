@@ -15,6 +15,6 @@ public class EngieSharkoRareLayRenderer extends MobRenderer<EngieSharkoRareLayEn
 
 	@Override
 	public ResourceLocation getTextureLocation(EngieSharkoRareLayEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/reboyot.png");
+		return new ResourceLocation("allaboutengie:textures/entities/rareengiesharkonewtamed.png");
 	}
 }

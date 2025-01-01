@@ -15,7 +15,6 @@ import net.mcreator.allaboutengie.client.model.Modelenraged_new;
 import net.mcreator.allaboutengie.client.model.Modelenraged_boom;
 import net.mcreator.allaboutengie.client.model.Modelboyosit;
 import net.mcreator.allaboutengie.client.model.Modelboyo;
-import net.mcreator.allaboutengie.client.model.Modelbboyo;
 import net.mcreator.allaboutengie.client.model.Modelangry_new;
 import net.mcreator.allaboutengie.client.model.ModelMadEngie;
 import net.mcreator.allaboutengie.client.model.ModelEngieGames;
@@ -32,7 +31,6 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modelboyosit.LAYER_LOCATION, Modelboyosit::createBodyLayer);
 		event.registerLayerDefinition(ModelMadEngie.LAYER_LOCATION, ModelMadEngie::createBodyLayer);
 		event.registerLayerDefinition(Modeloldboyo.LAYER_LOCATION, Modeloldboyo::createBodyLayer);
-		event.registerLayerDefinition(Modelbboyo.LAYER_LOCATION, Modelbboyo::createBodyLayer);
 		event.registerLayerDefinition(ModelEngie.LAYER_LOCATION, ModelEngie::createBodyLayer);
 		event.registerLayerDefinition(Modeloutraged_new.LAYER_LOCATION, Modeloutraged_new::createBodyLayer);
 		event.registerLayerDefinition(Modelenraged_new.LAYER_LOCATION, Modelenraged_new::createBodyLayer);

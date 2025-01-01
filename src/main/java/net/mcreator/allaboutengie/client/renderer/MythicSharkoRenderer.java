@@ -15,6 +15,6 @@ public class MythicSharkoRenderer extends MobRenderer<MythicSharkoEntity, Modelb
 
 	@Override
 	public ResourceLocation getTextureLocation(MythicSharkoEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyomy.png");
+		return new ResourceLocation("allaboutengie:textures/entities/mythicsharkonew.png");
 	}
 }

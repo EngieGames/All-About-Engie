@@ -15,6 +15,6 @@ public class RareSharkoRenderer extends MobRenderer<RareSharkoEntity, Modelboyo<
 
 	@Override
 	public ResourceLocation getTextureLocation(RareSharkoEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyora.png");
+		return new ResourceLocation("allaboutengie:textures/entities/raresharkonew.png");
 	}
 }

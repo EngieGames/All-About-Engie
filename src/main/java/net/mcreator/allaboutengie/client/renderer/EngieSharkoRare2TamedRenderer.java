@@ -15,6 +15,6 @@ public class EngieSharkoRare2TamedRenderer extends MobRenderer<EngieSharkoRare2T
 
 	@Override
 	public ResourceLocation getTextureLocation(EngieSharkoRare2TamedEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/re2boyot.png");
+		return new ResourceLocation("allaboutengie:textures/entities/rareengiesharko2newtamed.png");
 	}
 }

@@ -15,6 +15,6 @@ public class ExoticSharkoLayRenderer extends MobRenderer<ExoticSharkoLayEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(ExoticSharkoLayEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/boyoext.png");
+		return new ResourceLocation("allaboutengie:textures/entities/exoticsharkonewtamed.png");
 	}
 }
