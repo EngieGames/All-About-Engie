@@ -565,6 +565,9 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CODE_REDEEMERS_CHESTPLATE = REGISTRY.register("code_redeemers_chestplate", () -> new CodeRedeemersItem.Chestplate());
 	public static final RegistryObject<Item> CODE_REDEEMERS_LEGGINGS = REGISTRY.register("code_redeemers_leggings", () -> new CodeRedeemersItem.Leggings());
 	public static final RegistryObject<Item> CODE_REDEEMERS_BOOTS = REGISTRY.register("code_redeemers_boots", () -> new CodeRedeemersItem.Boots());
+	public static final RegistryObject<Item> TOBY_SPAWN_EGG = REGISTRY.register("toby_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.TOBY, -5329997, -13551280, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TOBY_LAY_SPAWN_EGG = REGISTRY.register("toby_lay_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.TOBY_LAY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

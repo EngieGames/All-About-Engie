@@ -8,6 +8,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -31,6 +32,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.allaboutengie.procedures.RareEngieTameTickProcedure;
 import net.mcreator.allaboutengie.procedures.EngieRare2TameRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -62,13 +64,12 @@ public class EngieSharkoRare2TamedEntity extends PathfinderMob {
 			}
 		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayer.class, false, false));
-		this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, (float) 6));
-		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
-		this.targetSelector.addGoal(7, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(9, new FloatGoal(this));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Monster.class, false, false));
+		this.goalSelector.addGoal(4, new LookAtPlayerGoal(this, Player.class, (float) 6));
+		this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
+		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(8, new FloatGoal(this));
 	}
 
 	@Override
@@ -115,6 +116,12 @@ public class EngieSharkoRare2TamedEntity extends PathfinderMob {
 
 		EngieRare2TameRCProcedure.execute(world, x, y, z, entity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		RareEngieTameTickProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

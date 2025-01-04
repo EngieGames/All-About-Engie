@@ -9813,6 +9813,218 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "Toby",
+      "type": "livingentity",
+      "sortid": 617,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/TobyEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/toby_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/TobyRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "TobyLay",
+      "type": "livingentity",
+      "sortid": 618,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toby_lay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/toby_lay_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/TobyLayRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/TobyLayEntity.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "SharkTamedOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 619,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark_tamed_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkTamedOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TobyRC",
+      "type": "procedure",
+      "sortid": 620,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toby_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TobyRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TobyLayRC",
+      "type": "procedure",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toby_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TobyLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RareEngieTameTick",
+      "type": "procedure",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_engie_tame_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RareEngieTameTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RareEngieTameLayTick",
+      "type": "procedure",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_engie_tame_lay_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RareEngieTameLayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -9886,8 +10098,8 @@
       "item.allaboutengie.common_chestplate": "Common Chestplate",
       "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.aae_items.echdeath": "ECHDEATH",
-      "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
       "entity.allaboutengie.blue_enraged_speed": "Blue Enraged Speed",
+      "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
       "entity.allaboutengie.blue_enraged_boom": "Blue Enraged Boom",
       "item.allaboutengie.shark_leggings": "Sharko Leggings",
       "item.allaboutengie.albino_sharko_lay_spawn_egg": "Albino Sharko [Laying] Spawn Egg",
@@ -9908,20 +10120,21 @@
       "item.allaboutengie.albino_shark_helmet": "Albino Sharko Helmet",
       "advancements.massive_ban_obtain.descr": "Obtain a Massive Ban Hammer",
       "item.allaboutengie.enraged_engie_essence": "Enraged Engie Essence",
-      "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
       "advancements.large_ban_obtain.title": "Now THIS is a good Ban Hammer choice.",
+      "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
       "item.aae_items.ban_hammer": "Ban Hammer",
       "advancements.new_world.descr": "Create a new world with the All About Engie mod installed.",
       "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
       "advancements.mini_ban_obtain.title": "This really could\u0027ve been a toy...",
       "item.allaboutengie.epic_axe": "Epic Axe",
-      "entity.allaboutengie.enraged_normal": "Enraged Normal",
       "item.allaboutengie.mythic_shark_boots": "Mythic Sharko Boots",
+      "entity.allaboutengie.enraged_normal": "Enraged Normal",
+      "entity.allaboutengie.toby_lay": "Toby [Laying]",
       "item.allaboutengie.outraged_engie_essence": "Outraged Engie Essence",
       "block.aae_items.metal_chest_warped": "Warped Metal Chest",
       "advancements.enormous_ban_obtain.descr": "Obtain a Enormous Ban Hammer",
-      "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
       "item.allaboutengie.mini_ban_hammer": "Mini Ban Hammer",
+      "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
       "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
       "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.common_engie_spawn_egg": "Common Engie Spawn Egg",
@@ -9930,6 +10143,7 @@
       "block.allaboutengie.metal_table": "Metal Chest",
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_helmet": "Cyberblood Helmet",
+      "entity.allaboutengie.toby": "Toby",
       "item.allaboutengie.legendary_helmet": "Legendary Helmet",
       "entity.allaboutengie.engie_sharko_rare_2": "Engie Sharko",
       "item.allaboutengie.mythic_boots": "Mythic Boots",
@@ -9939,15 +10153,15 @@
       "item.allaboutengie.legendary_axe": "Legendary Axe",
       "item.allaboutengie.enraged_engies_boots": "Enraged Engie Boots",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
-      "entity.allaboutengie.engie_sharko_rare_lay": "Engie Sharko [Laying]",
       "entity.allaboutengie.exotic_sharko_lay": "Exotic Sharko [Laying]",
+      "entity.allaboutengie.engie_sharko_rare_lay": "Engie Sharko [Laying]",
       "item.allaboutengie.rare_sword": "Rare Sword",
       "block.allaboutengie.deepslate_unobtainium": "Deepslate Unobtainium Ore",
       "item.allaboutengie.epic_shovel": "Epic Shovel",
       "item.allaboutengie.uncommon_hoe": "Uncommon Hoe",
       "block.allaboutengie.outraged_engie_block": "Outraged Engie Block",
-      "advancements.legendary_obtained.title": "Legendary Obtained",
       "item.aae_items.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "advancements.legendary_obtained.title": "Legendary Obtained",
       "item.allaboutengie.code_redeemers_chestplate": "Code Redeemers Chestplate",
       "entity.allaboutengie.protogen": "Protogen",
       "block.aae_items.enraged_engie_block": "Enraged Engie Block",
@@ -10029,6 +10243,7 @@
       "item.allaboutengie.golden_cookie": "Golden Cookie",
       "entity.allaboutengie.rare_sharko": "Rare Sharko",
       "item.allaboutengie.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.allaboutengie.toby_spawn_egg": "Toby Spawn Egg",
       "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
       "block.allaboutengie.cyberblood_block": "Cyberblood Block",
       "item.aae_items.engi_pickaxe": "Engi Pickaxe",
@@ -10247,6 +10462,7 @@
       "item.allaboutengie.operators_leggings": "Operators Leggings",
       "item.aae_items.operators_hoe": "Operators Hoe",
       "item.allaboutengie.exotic_chestplate": "Exotic Chestplate",
+      "item.allaboutengie.toby_lay_spawn_egg": "Toby [Laying] Spawn Egg",
       "item.allaboutengie.enchanted_engie_cookie": "Golden Cookie",
       "item.allaboutengie.sharko_lay_spawn_egg": "Sharko [Laying] Spawn Egg",
       "item.allaboutengie.exotic_shovel": "Exotic Shovel",
@@ -10558,9 +10774,9 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "1.1.25",
+    "version": "1.4.25",
     "description": "Made with MCreator.",
-    "author": "EngieGames",
+    "author": "[Dev]Engie(Games)",
     "websiteURL": "https://www.twitch.tv/engiegames",
     "license": "MIT License",
     "disableForgeVersionCheck": true,

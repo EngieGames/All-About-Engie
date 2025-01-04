@@ -117,7 +117,7 @@ public class EngieSharkoRareEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
 		builder = builder.add(Attributes.MAX_HEALTH, 1024);
 		builder = builder.add(Attributes.ARMOR, 100);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 72);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 36);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}

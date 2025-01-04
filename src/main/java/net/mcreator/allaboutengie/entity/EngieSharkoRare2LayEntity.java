@@ -25,6 +25,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.allaboutengie.procedures.RareEngieTameLayTickProcedure;
 import net.mcreator.allaboutengie.procedures.EngieRare2LayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -100,6 +101,12 @@ public class EngieSharkoRare2LayEntity extends PathfinderMob {
 		return retval;
 	}
 
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		RareEngieTameLayTickProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+	}
+
 	public static void init() {
 	}
 
@@ -108,7 +115,7 @@ public class EngieSharkoRare2LayEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
 		builder = builder.add(Attributes.MAX_HEALTH, 1024);
 		builder = builder.add(Attributes.ARMOR, 100);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 72);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}

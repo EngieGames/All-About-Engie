@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.entity.UncommonEngieEntity;
+import net.mcreator.allaboutengie.entity.TobyLayEntity;
+import net.mcreator.allaboutengie.entity.TobyEntity;
 import net.mcreator.allaboutengie.entity.SharkoLayEntity;
 import net.mcreator.allaboutengie.entity.SharkoEntity;
 import net.mcreator.allaboutengie.entity.SharkTamedEntity;
@@ -307,6 +309,14 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRare2TamedEntity::new)
 
 					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<TobyEntity>> TOBY = register("toby",
+			EntityType.Builder.<TobyEntity>of(TobyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TobyEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<TobyLayEntity>> TOBY_LAY = register("toby_lay",
+			EntityType.Builder.<TobyLayEntity>of(TobyLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TobyLayEntity::new)
+
+					.sized(0.7f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -372,6 +382,8 @@ public class AllaboutengieModEntities {
 			EngieSharkoTamedEntity.init();
 			EngieSharkoRareTamedEntity.init();
 			EngieSharkoRare2TamedEntity.init();
+			TobyEntity.init();
+			TobyLayEntity.init();
 		});
 	}
 
@@ -434,5 +446,7 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO_TAMED.get(), EngieSharkoTamedEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED.get(), EngieSharkoRareTamedEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2_TAMED.get(), EngieSharkoRare2TamedEntity.createAttributes().build());
+		event.put(TOBY.get(), TobyEntity.createAttributes().build());
+		event.put(TOBY_LAY.get(), TobyLayEntity.createAttributes().build());
 	}
 }

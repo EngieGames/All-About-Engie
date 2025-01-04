@@ -275,5 +275,221 @@ public class ItemAdvancementsProcedure {
 				}
 			}
 		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.MINI_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr55 && _plr55.level instanceof ServerLevel
+					&& _plr55.getAdvancements().getOrStartProgress(_plr55.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:mini_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:mini_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.MINI_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr58 && _plr58.level instanceof ServerLevel
+					&& _plr58.getAdvancements().getOrStartProgress(_plr58.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:mini_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:mini_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr61 && _plr61.level instanceof ServerLevel
+					&& _plr61.getAdvancements().getOrStartProgress(_plr61.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr64 && _plr64.level instanceof ServerLevel
+					&& _plr64.getAdvancements().getOrStartProgress(_plr64.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIG_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr67 && _plr67.level instanceof ServerLevel
+					&& _plr67.getAdvancements().getOrStartProgress(_plr67.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:big_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:big_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.BIG_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr70 && _plr70.level instanceof ServerLevel
+					&& _plr70.getAdvancements().getOrStartProgress(_plr70.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:big_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:big_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.LARGE_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr73 && _plr73.level instanceof ServerLevel
+					&& _plr73.getAdvancements().getOrStartProgress(_plr73.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:large_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:large_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.LARGE_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr76 && _plr76.level instanceof ServerLevel
+					&& _plr76.getAdvancements().getOrStartProgress(_plr76.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:large_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:large_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.HUGE_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr79 && _plr79.level instanceof ServerLevel
+					&& _plr79.getAdvancements().getOrStartProgress(_plr79.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:huge_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:huge_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.HUGE_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr82 && _plr82.level instanceof ServerLevel
+					&& _plr82.getAdvancements().getOrStartProgress(_plr82.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:huge_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:huge_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.ENORMOUS_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr85 && _plr85.level instanceof ServerLevel
+					&& _plr85.getAdvancements().getOrStartProgress(_plr85.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:enormous_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:enormous_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.ENORMOUS_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr88 && _plr88.level instanceof ServerLevel
+					&& _plr88.getAdvancements().getOrStartProgress(_plr88.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:enormous_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:enormous_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.GIGANTIC_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr91 && _plr91.level instanceof ServerLevel
+					&& _plr91.getAdvancements().getOrStartProgress(_plr91.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:gigantic_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:gigantic_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.GIGANTIC_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr94 && _plr94.level instanceof ServerLevel
+					&& _plr94.getAdvancements().getOrStartProgress(_plr94.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:gigantic_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:gigantic_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.MASSIVE_BAN_HAMMER.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr97 && _plr97.level instanceof ServerLevel
+					&& _plr97.getAdvancements().getOrStartProgress(_plr97.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:massive_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:massive_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		} else if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(AllaboutengieModItems.MASSIVE_BAN_HAMMER_PIXEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr100 && _plr100.level instanceof ServerLevel
+					&& _plr100.getAdvancements().getOrStartProgress(_plr100.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:massive_ban_obtain"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:massive_ban_obtain"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
 	}
 }

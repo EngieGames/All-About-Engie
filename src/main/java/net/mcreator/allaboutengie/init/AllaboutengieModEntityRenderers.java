@@ -10,6 +10,8 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.allaboutengie.client.renderer.UncommonEngieRenderer;
+import net.mcreator.allaboutengie.client.renderer.TobyRenderer;
+import net.mcreator.allaboutengie.client.renderer.TobyLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkTamedRenderer;
@@ -128,5 +130,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_TAMED.get(), EngieSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED.get(), EngieSharkoRareTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), EngieSharkoRare2TamedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TOBY.get(), TobyRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TOBY_LAY.get(), TobyLayRenderer::new);
 	}
 }

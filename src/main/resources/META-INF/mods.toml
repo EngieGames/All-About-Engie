@@ -4,12 +4,12 @@ license="MIT License"
 
 [[mods]]
 modId="allaboutengie"
-version="1.1.25"
+version="1.4.25"
 displayName="All About Engie"
 credits="yuh"
 displayURL="https://www.twitch.tv/engiegames"
 logoFile="logo.png"
-authors="EngieGames"
+authors="[Dev]Engie(Games)"
 description="Made with MCreator."
 
 [[dependencies.allaboutengie]]

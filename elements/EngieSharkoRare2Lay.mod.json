@@ -49,7 +49,7 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 72,
+    "attackStrength": 0,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.5,
@@ -98,6 +98,9 @@
     },
     "onRightClickedOn": {
       "name": "EngieRare2LayRC"
+    },
+    "onMobTickUpdate": {
+      "name": "RareEngieTameLayTick"
     },
     "hasAI": true,
     "aiBase": "(none)",

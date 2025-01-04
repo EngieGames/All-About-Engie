@@ -126,83 +126,88 @@ public class Modelboyosit<T extends Entity> extends EntityModel<T> {
 				PartPose.offsetAndRotation(-3.0F, -5.0F, -3.0F, -1.0263F, -0.733F, -2.1817F));
 
 		PartDefinition leg1 = partdefinition.addOrReplaceChild("leg1",
-				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -4.45F, 4.0F, 2.0F, 4.0F,
-						new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -4.475F, 4.0F, 2.0F, 4.0F,
+						new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(-3.0F, 18.0F, 7.0F, 0.0F, 0.5585F, 0.0F));
 
 		PartDefinition Toe_r1 = leg1.addOrReplaceChild("Toe_r1",
 				CubeListBuilder.create().texOffs(30, 30)
-						.addBox(1.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-0.5F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-2.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.45F, 0.0F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)),
+				PartPose.offsetAndRotation(1.55F, 5.5F, -4.475F, 0.0F, 0.0F, 0.0F));
 
 		PartDefinition Toe_r2 = leg1.addOrReplaceChild("Toe_r2",
 				CubeListBuilder.create().texOffs(36, 29)
-						.addBox(1.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-0.5F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-2.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.45F, -0.6109F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
+				PartPose.offsetAndRotation(1.55F, 4.8772F, -4.2786F, -0.6109F, 0.0F, 0.0F));
 
 		PartDefinition leg2 = partdefinition.addOrReplaceChild("leg2",
-				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -4.45F, 4.0F, 2.0F, 4.0F,
-						new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -4.475F, 4.0F, 2.0F, 4.0F,
+						new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(3.0F, 18.0F, 7.0F, 0.0F, -0.5585F, 0.0F));
 
 		PartDefinition Toe_r3 = leg2.addOrReplaceChild("Toe_r3",
 				CubeListBuilder.create().texOffs(30, 30)
-						.addBox(1.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-0.5F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-2.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.45F, 0.0F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)),
+				PartPose.offsetAndRotation(1.55F, 5.5F, -4.475F, 0.0F, 0.0F, 0.0F));
 
 		PartDefinition Toe_r4 = leg2.addOrReplaceChild("Toe_r4",
 				CubeListBuilder.create().texOffs(36, 29)
-						.addBox(1.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-0.5F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-2.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.45F, -0.6109F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
+				PartPose.offsetAndRotation(1.55F, 4.8772F, -4.2786F, -0.6109F, 0.0F, 0.0F));
 
 		PartDefinition leg3 = partdefinition.addOrReplaceChild("leg3",
-				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -4.25F, 4.0F, 2.0F, 4.0F,
-						new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(-3.0F, 18.0F, -5.9F, 0.0F, 0.5585F, 0.0F));
+				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -3.35F, 4.0F, 2.0F, 4.0F,
+						new CubeDeformation(0.0081F)),
+				PartPose.offsetAndRotation(-2.925F, 18.0F, -5.9F, 0.0F, 0.5585F, 0.0F));
 
 		PartDefinition Toe_r5 = leg3.addOrReplaceChild("Toe_r5",
 				CubeListBuilder.create().texOffs(30, 30)
-						.addBox(1.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-0.5F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-2.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.25F, 0.0F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)),
+				PartPose.offsetAndRotation(1.55F, 5.5F, -3.35F, 0.0F, 0.0F, 0.0F));
 
 		PartDefinition Toe_r6 = leg3.addOrReplaceChild("Toe_r6",
 				CubeListBuilder.create().texOffs(36, 29)
-						.addBox(1.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-0.5F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-2.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.25F, -0.6109F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
+				PartPose.offsetAndRotation(1.55F, 4.8772F, -3.1536F, -0.6109F, 0.0F, 0.0F));
 
-		PartDefinition leg4 = partdefinition.addOrReplaceChild("leg4", CubeListBuilder.create(),
+		PartDefinition leg4 = partdefinition.addOrReplaceChild("leg4",
+				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, 4.0F, -3.25F, 4.0F, 2.0F, 4.0F,
+						new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(3.0F, 18.0F, -6.0F, 0.0F, -0.5585F, 0.0F));
 
 		PartDefinition Toe_r7 = leg4.addOrReplaceChild("Toe_r7",
 				CubeListBuilder.create().texOffs(30, 30)
-						.addBox(1.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-0.5F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)).texOffs(30, 30)
-						.addBox(-2.0F, -0.1886F, -1.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.001F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.25F, 0.0F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)).texOffs(30, 30)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0082F)),
+				PartPose.offsetAndRotation(1.55F, 5.5F, -3.25F, 0.0F, 0.0F, 0.0F));
 
 		PartDefinition Toe_r8 = leg4.addOrReplaceChild("Toe_r8",
 				CubeListBuilder.create().texOffs(36, 29)
-						.addBox(1.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-0.5F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(36, 29)
-						.addBox(-2.0F, -0.2941F, -1.3369F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.25F, -0.6109F, 0.0F, 0.0F));
-
-		PartDefinition Foot_r1 = leg4.addOrReplaceChild("Foot_r1",
-				CubeListBuilder.create().texOffs(56, 9).addBox(-2.0F, -1.1886F, -1.0F, 4.0F, 2.0F, 4.0F,
-						new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 5.1886F, -3.25F, 0.0F, 0.0F, 0.0F));
+						.addBox(-0.5125F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-1.5375F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-2.5625F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)).texOffs(36, 29)
+						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
+				PartPose.offsetAndRotation(1.55F, 4.8772F, -3.0536F, -0.6109F, 0.0F, 0.0F));
 
 		return LayerDefinition.create(meshdefinition, 96, 96);
 	}
