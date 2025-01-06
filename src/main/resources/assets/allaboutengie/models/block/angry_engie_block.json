@@ -8,6 +8,5 @@
     "south": "allaboutengie:blocks/aeblock",
     "west": "allaboutengie:blocks/aeblock",
     "particle": "allaboutengie:blocks/aeblock"
-  },
-  "render_type": "solid"
+  }
 }

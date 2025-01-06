@@ -2025,32 +2025,6 @@
           "x": 340,
           "y": 123
         }
-      },
-      {
-        "type": "entitymodel",
-        "data": {
-          "entityModel": {
-            "name": "GUIRender"
-          },
-          "scale": 30,
-          "rotationX": 0,
-          "followMouseMovement": true,
-          "x": 315,
-          "y": 192
-        }
-      },
-      {
-        "type": "entitymodel",
-        "data": {
-          "entityModel": {
-            "name": "GUIRender2"
-          },
-          "scale": 30,
-          "rotationX": 0,
-          "followMouseMovement": true,
-          "x": 91,
-          "y": 192
-        }
       }
     ],
     "gridSettings": {

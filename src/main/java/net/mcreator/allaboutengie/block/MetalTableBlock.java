@@ -2,6 +2,8 @@
 package net.mcreator.allaboutengie.block;
 
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -28,11 +30,15 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.allaboutengie.world.inventory.MetalChestUIMenu;
+import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 import net.mcreator.allaboutengie.block.entity.MetalTableBlockEntity;
 
 import java.util.List;
@@ -48,7 +54,7 @@ public class MetalTableBlock extends Block implements EntityBlock {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Easter Egg"));
+		list.add(new TextComponent("Easter Egg"));
 	}
 
 	@Override
@@ -85,10 +91,10 @@ public class MetalTableBlock extends Block implements EntityBlock {
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
 		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openScreen(player, new MenuProvider() {
+			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Metal Chest");
+					return new TextComponent("Metal Chest");
 				}
 
 				@Override
@@ -142,5 +148,10 @@ public class MetalTableBlock extends Block implements EntityBlock {
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(AllaboutengieModBlocks.METAL_TABLE.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

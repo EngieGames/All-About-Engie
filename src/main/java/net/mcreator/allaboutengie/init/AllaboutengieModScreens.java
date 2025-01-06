@@ -1,6 +1,6 @@
 
 /*
- *	MCreator note: This file will be REGENERATED on each build.
+ *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.mcreator.allaboutengie.init;
 
@@ -18,7 +18,7 @@ public class AllaboutengieModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(AllaboutengieModMenus.METAL_CHEST_UI.get(), MetalChestUIScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.METAL_CHEST_UI, MetalChestUIScreen::new);
 		});
 	}
 }

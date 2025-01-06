@@ -2,6 +2,8 @@
 package net.mcreator.allaboutengie.block;
 
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -27,11 +29,15 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.allaboutengie.world.inventory.MetalChestUIMenu;
+import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 import net.mcreator.allaboutengie.block.entity.MetalChestBirchBlockEntity;
 
 import java.util.List;
@@ -83,10 +89,10 @@ public class MetalChestBirchBlock extends Block implements EntityBlock {
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
 		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openScreen(player, new MenuProvider() {
+			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Birch Metal Chest");
+					return new TextComponent("Birch Metal Chest");
 				}
 
 				@Override
@@ -140,5 +146,10 @@ public class MetalChestBirchBlock extends Block implements EntityBlock {
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(AllaboutengieModBlocks.METAL_CHEST_BIRCH.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

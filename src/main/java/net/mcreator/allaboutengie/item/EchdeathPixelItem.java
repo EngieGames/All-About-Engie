@@ -8,6 +8,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
@@ -46,6 +47,6 @@ public class EchdeathPixelItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal(":pixel_echdeath: :pixel_echdeath: :pixel_echdeath: :pixel_echdeath: :pixel_echdeath: :pixel_echdeath:"));
+		list.add(new TextComponent(":pixel_echdeath: :pixel_echdeath: :pixel_echdeath: :pixel_echdeath: :pixel_echdeath: :pixel_echdeath:"));
 	}
 }

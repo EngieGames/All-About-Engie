@@ -1,18 +1,15 @@
+
 package net.mcreator.allaboutengie.client.gui;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.allaboutengie.world.inventory.MetalChestUIMenu;
-import net.mcreator.allaboutengie.procedures.GUIRenderProcedure;
-import net.mcreator.allaboutengie.procedures.GUIRender2Procedure;
 
 import java.util.HashMap;
 
@@ -42,12 +39,6 @@ public class MetalChestUIScreen extends AbstractContainerScreen<MetalChestUIMenu
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
-		if (GUIRenderProcedure.execute(world) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryRaw(this.leftPos + 260, this.topPos + 203, 30, 0f + (float) Math.atan((this.leftPos + 260 - mouseX) / 40.0), (float) Math.atan((this.topPos + 153 - mouseY) / 40.0), livingEntity);
-		}
-		if (GUIRender2Procedure.execute(entity) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryRaw(this.leftPos + 36, this.topPos + 203, 30, 0f + (float) Math.atan((this.leftPos + 36 - mouseX) / 40.0), (float) Math.atan((this.topPos + 153 - mouseY) / 40.0), livingEntity);
-		}
 		this.renderTooltip(ms, mouseX, mouseY);
 	}
 

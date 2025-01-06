@@ -4,6 +4,9 @@
  */
 package net.mcreator.allaboutengie.init;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,7 +28,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.ENGIE_GEM.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -36,7 +39,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.ENGIES_HELMET.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -47,7 +50,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.COOKED_PIZZA.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -58,7 +61,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.AAE_ENGIE.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -69,7 +72,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(Items.COOKIE);
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -80,7 +83,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.ENRAGED_ZOMBIES_PLAQUE.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -91,7 +94,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.CRUCIFIX_PIXEL.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -102,7 +105,7 @@ public class AllaboutengieModTabs {
 				return new ItemStack(AllaboutengieModItems.BAN_HAMMER.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}

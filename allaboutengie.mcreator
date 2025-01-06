@@ -287,7 +287,6 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_ore.json",
           "src/main/java/net/mcreator/allaboutengie/block/EngieOreBlock.java",
           "src/main/resources/assets/allaboutengie/blockstates/engie_ore.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/EngieOreFeature.java",
           "src/main/resources/assets/allaboutengie/models/block/engie_ore.json"
         ]
@@ -304,7 +303,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/block/DeepslateEngieOreBlock.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_engie_ore_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/blockstates/deepslate_engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/deepslate_engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/block/deepslate_engie_ore.json",
@@ -923,8 +921,7 @@
       "registry_name": "nothing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/NothingFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/world/features/NothingFeature.java"
         ]
       },
       "path": "~/Structures"
@@ -1002,8 +999,7 @@
       "registry_name": "item_house",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseFeature.java"
         ]
       },
       "path": "~/Structures"
@@ -2752,64 +2748,6 @@
       "path": "~/Commands"
     },
     {
-      "name": "EngieGamesGUI",
-      "type": "livingentity",
-      "sortid": 353,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_games_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesGUIRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_games_gui_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieGamesGUIEntity.java"
-        ]
-      },
-      "path": "~/GUIMob"
-    },
-    {
-      "name": "GUIRender",
-      "type": "procedure",
-      "sortid": 354,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gui_render",
-      "metadata": {
-        "return_type": "entity",
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/GUIRenderProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "GUIRender2",
-      "type": "procedure",
-      "sortid": 355,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gui_render_2",
-      "metadata": {
-        "return_type": "entity",
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/GUIRender2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "MetalChestDarkOak",
       "type": "block",
       "sortid": 36,
@@ -3373,7 +3311,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngiRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EngiEntity.java"
         ]
@@ -3390,7 +3327,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/mad_engie_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/mad_engie_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MadEngieRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/MadEngieEntity.java"
         ]
@@ -3462,7 +3398,6 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/AngryEngieEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/angry_engie_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AngryEngieRenderer.java"
         ]
       },
@@ -3479,7 +3414,6 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedEngieRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_engie_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedEngieEntity.java"
         ]
       },
@@ -3495,7 +3429,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AngryCreatorRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/outraged_engie_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/AngryCreatorEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/outraged_engie_spawn_egg.json"
         ]
@@ -3528,7 +3461,6 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngiFRRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/EngiFREntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engi_fr_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/engi_fr_spawn_egg.json"
         ]
       },
@@ -3545,7 +3477,6 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CreatorRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/creator_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/creator_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/CreatorEntity.java"
         ]
       },
@@ -3561,7 +3492,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/engie_games_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_games_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieGamesEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesRenderer.java"
         ]
@@ -3629,7 +3559,6 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/sharko_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/SharkoEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoRenderer.java"
         ]
       },
@@ -3645,7 +3574,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/albino_sharko_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/albino_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoRenderer.java"
         ]
@@ -3663,7 +3591,6 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_sharko_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/rare_sharko_spawn_egg.json"
         ]
       },
@@ -3680,8 +3607,7 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/legendary_sharko_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3697,8 +3623,7 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/mythic_sharko_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3712,7 +3637,6 @@
       "registry_name": "exotic_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/exotic_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoRenderer.java"
@@ -3729,7 +3653,6 @@
       "registry_name": "engie_sharko",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoEntity.java"
@@ -3746,7 +3669,6 @@
       "registry_name": "engie_sharko_rare",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_biome_modifier.json",
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareRenderer.java"
@@ -3765,8 +3687,7 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2Renderer.java",
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2Entity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2Entity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -6018,1412 +5939,6 @@
       "path": "~/Tabs"
     },
     {
-      "name": "EnragedCoin",
-      "type": "item",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enraged_coin",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/enraged_coin.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EnragedCoinItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "EnragedNormal",
-      "type": "livingentity",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enraged_normal",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_normal_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EnragedNormalEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_normal_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormalRenderer.java"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "BlueEnragedNormal",
-      "type": "livingentity",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_enraged_normal",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedNormalRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/blue_enraged_normal_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedNormalEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_normal_biome_modifier.json"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "PurpleEnragedNormal",
-      "type": "livingentity",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purple_enraged_normal",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedNormalRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_normal_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_normal_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedNormalEntity.java"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "OrangeEnragedNormal",
-      "type": "livingentity",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orange_enraged_normal",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedNormalRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_normal_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedNormalEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/orange_enraged_normal_spawn_egg.json"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "BoomDeath",
-      "type": "procedure",
-      "sortid": 481,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "boom_death",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/BoomDeathProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "EnragedBoom",
-      "type": "livingentity",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enraged_boom",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedBoomRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_boom_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_boom_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EnragedBoomEntity.java"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "BlueEnragedBoom",
-      "type": "livingentity",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_enraged_boom",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedBoomRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/blue_enraged_boom_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedBoomEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_boom_biome_modifier.json"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "PurpleEnragedBoom",
-      "type": "livingentity",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purple_enraged_boom",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_boom_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedBoomEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_boom_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedBoomRenderer.java"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "OrangeEnragedBoom",
-      "type": "livingentity",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orange_enraged_boom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/orange_enraged_boom_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedBoomRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedBoomEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_boom_biome_modifier.json"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "EnragedSpeed",
-      "type": "livingentity",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enraged_speed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeedEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/enraged_speed_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedSpeedRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_speed_biome_modifier.json"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "BlueEnragedSpeed",
-      "type": "livingentity",
-      "sortid": 210,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_enraged_speed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueEnragedSpeedRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/blue_enraged_speed_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/BlueEnragedSpeedEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blue_enraged_speed_biome_modifier.json"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "PurpleEnragedSpeed",
-      "type": "livingentity",
-      "sortid": 211,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purple_enraged_speed",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/purple_enraged_speed_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/PurpleEnragedSpeedRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/purple_enraged_speed_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/PurpleEnragedSpeedEntity.java"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "OrangeEnragedSpeed",
-      "type": "livingentity",
-      "sortid": 212,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orange_enraged_speed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/OrangeEnragedSpeedRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/orange_enraged_speed_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/orange_enraged_speed_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/OrangeEnragedSpeedEntity.java"
-        ]
-      },
-      "path": "~/Zombies"
-    },
-    {
-      "name": "Common",
-      "type": "armor",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/common_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/common_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CommonItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/common_leggings.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Uncommon",
-      "type": "armor",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_boots.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_chestplate.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Rare",
-      "type": "armor",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/RareItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/rare_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/rare_leggings.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Epic",
-      "type": "armor",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/epic_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/epic_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/epic_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/epic_helmet.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EpicItem.java"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Legendary",
-      "type": "armor",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_helmet.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_boots.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Mythic",
-      "type": "armor",
-      "sortid": 167,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_leggings.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MythicItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_chestplate.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Exotic",
-      "type": "armor",
-      "sortid": 168,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_chestplate.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Unobtainium",
-      "type": "armor",
-      "sortid": 169,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_helmet.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_boots.json"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "CommonEngie",
-      "type": "livingentity",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common_engie",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/CommonEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/common_engie_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/common_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/CommonEngieEntity.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "CommonSword",
-      "type": "tool",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CommonSwordItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "CommonPickaxe",
-      "type": "tool",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CommonPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/common_pickaxe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "CommonAxe",
-      "type": "tool",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CommonAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/common_axe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "CommonShovel",
-      "type": "tool",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/CommonShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/common_shovel.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "CommonHoe",
-      "type": "tool",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "common_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/common_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CommonHoeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UncommonSword",
-      "type": "tool",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonSwordItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UncommonPickaxe",
-      "type": "tool",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonPickaxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UncommonAxe",
-      "type": "tool",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_axe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UncommonShovel",
-      "type": "tool",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_shovel.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UncommonHoe",
-      "type": "tool",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UncommonHoeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_hoe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "RareSword",
-      "type": "tool",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/RareSwordItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/rare_sword.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "RarePickaxe",
-      "type": "tool",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/RarePickaxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "RareAxe",
-      "type": "tool",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/RareAxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "RareShovel",
-      "type": "tool",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/RareShovelItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "RareHoe",
-      "type": "tool",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/RareHoeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "EpicSword",
-      "type": "tool",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/epic_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EpicSwordItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "EpicPickaxe",
-      "type": "tool",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/EpicPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/epic_pickaxe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "EpicAxe",
-      "type": "tool",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/epic_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EpicAxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "EpicShovel",
-      "type": "tool",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/epic_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EpicShovelItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "EpicHoe",
-      "type": "tool",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/epic_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/EpicHoeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "LegendarySword",
-      "type": "tool",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendarySwordItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "LegendaryPickaxe",
-      "type": "tool",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryPickaxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "LegendaryAxe",
-      "type": "tool",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_axe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryAxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "LegendaryShovel",
-      "type": "tool",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryShovelItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "LegendaryHoe",
-      "type": "tool",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/legendary_hoe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/LegendaryHoeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "MythicSword",
-      "type": "tool",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/MythicSwordItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_sword.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "MythicPickaxe",
-      "type": "tool",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/MythicPickaxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_pickaxe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "MythicAxe",
-      "type": "tool",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/MythicAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_axe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "MythicShovel",
-      "type": "tool",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mythic_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MythicShovelItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "MythicHoe",
-      "type": "tool",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/MythicHoeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_hoe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "ExoticSword",
-      "type": "tool",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticSwordItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_sword.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "ExoticPickaxe",
-      "type": "tool",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticPickaxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "ExoticAxe",
-      "type": "tool",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_axe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "ExoticShovel",
-      "type": "tool",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/exotic_shovel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticShovelItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "ExoticHoe",
-      "type": "tool",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ExoticHoeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_hoe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UnobtainiumSword",
-      "type": "tool",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_sword.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumSwordItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UnobtainiumPickaxe",
-      "type": "tool",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_pickaxe.json",
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumPickaxeItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UnobtainiumAxe",
-      "type": "tool",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumAxeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_axe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UnobtainiumShovel",
-      "type": "tool",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumShovelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_shovel.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UnobtainiumHoe",
-      "type": "tool",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumHoeItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_hoe.json"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
-      "name": "UnobtainiumOre",
-      "type": "block",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_ore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/UnobtainiumOreFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
-          "src/main/resources/assets/allaboutengie/blockstates/unobtainium_ore.json",
-          "src/main/resources/assets/allaboutengie/models/block/unobtainium_ore.json",
-          "src/main/java/net/mcreator/allaboutengie/block/UnobtainiumOreBlock.java",
-          "src/main/resources/assets/allaboutengie/models/item/unobtainium_ore.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "DeepslateUnobtainium",
-      "type": "block",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "deepslate_unobtainium",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateUnobtainiumFeature.java",
-          "src/main/resources/assets/allaboutengie/models/item/deepslate_unobtainium.json",
-          "src/main/resources/assets/allaboutengie/models/block/deepslate_unobtainium.json",
-          "src/main/resources/assets/allaboutengie/blockstates/deepslate_unobtainium.json",
-          "src/main/java/net/mcreator/allaboutengie/block/DeepslateUnobtainiumBlock.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_unobtainium_biome_modifier.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "UncommonObtained",
-      "type": "achievement",
-      "sortid": 482,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/uncommon_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "RareObtained",
-      "type": "achievement",
-      "sortid": 483,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/rare_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "EpicObtained",
-      "type": "achievement",
-      "sortid": 484,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/epic_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "LegendaryObtained",
-      "type": "achievement",
-      "sortid": 485,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/legendary_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "MythicObtained",
-      "type": "achievement",
-      "sortid": 486,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/mythic_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "ExoticObtained",
-      "type": "achievement",
-      "sortid": 487,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/exotic_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "UnobtainiumObtained",
-      "type": "achievement",
-      "sortid": 488,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_obtained",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/unobtainium_obtained.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "UncommonPro",
-      "type": "procedure",
-      "sortid": 489,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/UncommonProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "RarePro",
-      "type": "procedure",
-      "sortid": 490,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/RareProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "EpicPro",
-      "type": "procedure",
-      "sortid": 491,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/EpicProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "LegendaryPro",
-      "type": "procedure",
-      "sortid": 492,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/LegendaryProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "MythicPro",
-      "type": "procedure",
-      "sortid": 493,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/MythicProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "ExoticPro",
-      "type": "procedure",
-      "sortid": 494,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_pro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/ExoticProProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "UncommonEngie",
-      "type": "livingentity",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncommon_engie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/uncommon_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/UncommonEngieRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/UncommonEngieEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/uncommon_engie_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "RareEngie",
-      "type": "livingentity",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_engie",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/rare_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/RareEngieEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_engie_biome_modifier.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "EpicEngie",
-      "type": "livingentity",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_engie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/epic_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EpicEngieEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/epic_engie_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "LegendaryEngie",
-      "type": "livingentity",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_engie",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/LegendaryEngieEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/legendary_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendaryEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_engie_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "MythicEngie",
-      "type": "livingentity",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_engie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/mythic_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/MythicEngieEntity.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "ExoticEngie",
-      "type": "livingentity",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_engie",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/ExoticEngieEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/exotic_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticEngieRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_engie_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "Commandstarteritems",
-      "type": "procedure",
-      "sortid": 495,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "commandstarteritems",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/CommandstarteritemsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "EGMCPro",
       "type": "procedure",
       "sortid": 500,
@@ -7613,49 +6128,12 @@
       "registry_name": "protogen",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/protogen_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ProtogenRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/ProtogenEntity.java",
           "src/main/resources/assets/allaboutengie/models/item/protogen_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Cyber",
-      "type": "armor",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cyber",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/cyber_boots.json",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_chestplate.json",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_leggings.json",
-          "src/main/java/net/mcreator/allaboutengie/item/CyberItem.java"
-        ]
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "Blood",
-      "type": "armor",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/blood_helmet.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_leggings.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_chestplate.json",
-          "src/main/java/net/mcreator/allaboutengie/item/BloodItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/blood_boots.json"
-        ]
-      },
-      "path": "~/Armor"
     },
     {
       "name": "Cyberblood",
@@ -7674,44 +6152,6 @@
         ]
       },
       "path": "~/Armor"
-    },
-    {
-      "name": "CyberOre",
-      "type": "block",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cyber_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/cyber_ore.json",
-          "src/main/resources/assets/allaboutengie/blockstates/cyber_ore.json",
-          "src/main/resources/assets/allaboutengie/models/block/cyber_ore.json",
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/CyberOreFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/block/CyberOreBlock.java"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "BloodOre",
-      "type": "block",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/block/blood_ore.json",
-          "src/main/resources/assets/allaboutengie/models/item/blood_ore.json",
-          "src/main/resources/assets/allaboutengie/blockstates/blood_ore.json",
-          "src/main/java/net/mcreator/allaboutengie/block/BloodOreBlock.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/blood_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/BloodOreFeature.java"
-        ]
-      },
-      "path": "~/Blocks"
     },
     {
       "name": "SmeltCyber",
@@ -8040,57 +6480,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "CyberBlock",
-      "type": "block",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cyber_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/blockstates/cyber_block.json",
-          "src/main/resources/assets/allaboutengie/models/item/cyber_block.json",
-          "src/main/resources/assets/allaboutengie/models/block/cyber_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/CyberBlockBlock.java"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "BloodBlock",
-      "type": "block",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/block/blood_block.json",
-          "src/main/resources/assets/allaboutengie/blockstates/blood_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/BloodBlockBlock.java",
-          "src/main/resources/assets/allaboutengie/models/item/blood_block.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "CyberbloodBlock",
-      "type": "block",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cyberblood_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/cyberblood_block.json",
-          "src/main/resources/assets/allaboutengie/blockstates/cyberblood_block.json",
-          "src/main/resources/assets/allaboutengie/models/block/cyberblood_block.json",
-          "src/main/java/net/mcreator/allaboutengie/block/CyberbloodBlockBlock.java"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "CraftCyberbloodBlock",
       "type": "recipe",
       "sortid": 531,
@@ -8306,23 +6695,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "ThanksForPlaying3",
-      "type": "block",
-      "sortid": 541,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thanks_for_playing_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing_3.json",
-          "src/main/java/net/mcreator/allaboutengie/block/ThanksForPlaying3Block.java",
-          "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing_3.json",
-          "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_3.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "Nothing2",
       "type": "structure",
       "sortid": 542,
@@ -8331,38 +6703,7 @@
       "registry_name": "nothing_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_2_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/Nothing2Feature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "CyberHouse",
-      "type": "structure",
-      "sortid": 543,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cyber_house",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/CyberHouseFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_house_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Nothing3",
-      "type": "structure",
-      "sortid": 544,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nothing_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/Nothing3Feature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_3_biome_modifier.json"
         ]
       },
       "path": "~/Structures"
@@ -8376,8 +6717,7 @@
       "registry_name": "sharko_house",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/world/features/SharkoHouseFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/sharko_house_biome_modifier.json"
+          "src/main/java/net/mcreator/allaboutengie/world/features/SharkoHouseFeature.java"
         ]
       },
       "path": "~/Structures"
@@ -8392,32 +6732,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/QuizzetEntity.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/quizzet_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/QuizzetRenderer.java",
           "src/main/resources/assets/allaboutengie/models/item/quizzet_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Scoreboard",
-      "type": "procedure",
-      "sortid": 546,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scoreboard",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/ScoreboardProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
     },
     {
       "name": "SharkoClothCraft",
@@ -8644,20 +6963,6 @@
       "path": "~/Items"
     },
     {
-      "name": "StarterItems",
-      "type": "command",
-      "sortid": 561,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "starter_items",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/command/StarterItemsCommand.java"
-        ]
-      },
-      "path": "~/Commands"
-    },
-    {
       "name": "ModeCheck",
       "type": "procedure",
       "sortid": 562,
@@ -8700,82 +7005,6 @@
           {
             "name": "world",
             "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "Blocksunobtainiumore",
-      "type": "loottable",
-      "sortid": 564,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blocksunobtainiumore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/loot_tables/blocks/unobtainium_ore.json"
-        ]
-      },
-      "path": "~/Loot Table"
-    },
-    {
-      "name": "Blocksdeepslateunobtainium",
-      "type": "loottable",
-      "sortid": 565,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blocksdeepslateunobtainium",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/loot_tables/blocks/deepslate_unobtainium.json"
-        ]
-      },
-      "path": "~/Loot Table"
-    },
-    {
-      "name": "UnobtainiumFullArmor",
-      "type": "achievement",
-      "sortid": 566,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_full_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/unobtainium_full_armor.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "UnobtainiumEverything",
-      "type": "achievement",
-      "sortid": 567,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_everything",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/unobtainium_everything.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "Unobadvancements",
-      "type": "procedure",
-      "sortid": 568,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobadvancements",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/UnobadvancementsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
           }
         ]
       },
@@ -10025,6 +8254,42 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "CyberOre",
+      "type": "block",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/cyber_ore.json",
+          "src/main/resources/assets/allaboutengie/blockstates/cyber_ore.json",
+          "src/main/resources/assets/allaboutengie/models/block/cyber_ore.json",
+          "src/main/java/net/mcreator/allaboutengie/world/features/ores/CyberOreFeature.java",
+          "src/main/java/net/mcreator/allaboutengie/block/CyberOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BloodOre",
+      "type": "block",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/block/blood_ore.json",
+          "src/main/resources/assets/allaboutengie/models/item/blood_ore.json",
+          "src/main/resources/assets/allaboutengie/blockstates/blood_ore.json",
+          "src/main/java/net/mcreator/allaboutengie/block/BloodOreBlock.java",
+          "src/main/java/net/mcreator/allaboutengie/world/features/ores/BloodOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -10095,26 +8360,16 @@
       "item.allaboutengie.engie_sharko_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
       "item.aae_items.operators_boots": "Operators Boots",
       "item.allaboutengie.enraged_engies_leggings": "Enraged Engie Leggings",
-      "item.allaboutengie.common_chestplate": "Common Chestplate",
       "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.aae_items.echdeath": "ECHDEATH",
-      "entity.allaboutengie.blue_enraged_speed": "Blue Enraged Speed",
       "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
-      "entity.allaboutengie.blue_enraged_boom": "Blue Enraged Boom",
       "item.allaboutengie.shark_leggings": "Sharko Leggings",
       "item.allaboutengie.albino_sharko_lay_spawn_egg": "Albino Sharko [Laying] Spawn Egg",
       "item.aae_items.angry_engie_axe": "Angry Engie Axe",
-      "item.allaboutengie.common_axe": "Common Axe",
-      "advancements.unobtainium_full_armor.descr": "Collect all Unobtainium armor pieces.",
       "itemGroup.tabaae_items_food": "Food",
       "item.allaboutengie.engie_shovel": "Engie Shovel",
-      "item.allaboutengie.uncommon_chestplate": "Uncommon Chestplate",
       "advancements.angry_engie_essence_obtained.descr": "Obtain an Angry Engie Essence for the first time.",
-      "item.allaboutengie.common_helmet": "Common Helmet",
       "advancements.huge_ban_obtain.descr": "Obtain a Huge Ban Hammer",
-      "item.allaboutengie.blood_helmet": "Blood Helmet",
-      "advancements.unobtainium_everything.title": "You sure you\u0027re not sugarcoating it? Take a chill pill.",
-      "item.allaboutengie.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
       "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
       "item.allaboutengie.legendary_sharko_tamed_spawn_egg": "Legendary Sharko [Tamed] Spawn Egg",
       "item.allaboutengie.albino_shark_helmet": "Albino Sharko Helmet",
@@ -10126,9 +8381,7 @@
       "advancements.new_world.descr": "Create a new world with the All About Engie mod installed.",
       "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
       "advancements.mini_ban_obtain.title": "This really could\u0027ve been a toy...",
-      "item.allaboutengie.epic_axe": "Epic Axe",
       "item.allaboutengie.mythic_shark_boots": "Mythic Sharko Boots",
-      "entity.allaboutengie.enraged_normal": "Enraged Normal",
       "entity.allaboutengie.toby_lay": "Toby [Laying]",
       "item.allaboutengie.outraged_engie_essence": "Outraged Engie Essence",
       "block.aae_items.metal_chest_warped": "Warped Metal Chest",
@@ -10137,39 +8390,27 @@
       "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
       "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
       "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "item.allaboutengie.common_engie_spawn_egg": "Common Engie Spawn Egg",
       "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
       "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "block.allaboutengie.metal_table": "Metal Chest",
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_helmet": "Cyberblood Helmet",
       "entity.allaboutengie.toby": "Toby",
-      "item.allaboutengie.legendary_helmet": "Legendary Helmet",
       "entity.allaboutengie.engie_sharko_rare_2": "Engie Sharko",
-      "item.allaboutengie.mythic_boots": "Mythic Boots",
-      "advancements.rare_obtained.descr": "Get yourself some rare tools.",
       "item.allaboutengie.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "block.aae_items.metal_chest_acacia": "Acacia Metal Chest",
-      "item.allaboutengie.legendary_axe": "Legendary Axe",
       "item.allaboutengie.enraged_engies_boots": "Enraged Engie Boots",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
       "entity.allaboutengie.exotic_sharko_lay": "Exotic Sharko [Laying]",
       "entity.allaboutengie.engie_sharko_rare_lay": "Engie Sharko [Laying]",
-      "item.allaboutengie.rare_sword": "Rare Sword",
-      "block.allaboutengie.deepslate_unobtainium": "Deepslate Unobtainium Ore",
-      "item.allaboutengie.epic_shovel": "Epic Shovel",
-      "item.allaboutengie.uncommon_hoe": "Uncommon Hoe",
       "block.allaboutengie.outraged_engie_block": "Outraged Engie Block",
       "item.aae_items.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "advancements.legendary_obtained.title": "Legendary Obtained",
       "item.allaboutengie.code_redeemers_chestplate": "Code Redeemers Chestplate",
       "entity.allaboutengie.protogen": "Protogen",
       "block.aae_items.enraged_engie_block": "Enraged Engie Block",
-      "advancements.exotic_obtained.descr": "Get yourself some exotic tools.",
       "entity.aae_items.engie_games_gui": "EngieGames",
       "item.allaboutengie.engies_boots": "Engie Boots",
       "item.allaboutengie.enraged_engies_helmet": "Enraged Engie Helmet",
-      "item.allaboutengie.unobtainium_shovel": "Unobtainium Shovel",
       "item.allaboutengie.code_redeemers_hammer_pixel": "Pixelized Code Redeemers Hammer",
       "entity.allaboutengie.engie_games": "EngieGames",
       "item.allaboutengie.legendary_sharko_cloth": "Legendary Sharko Cloth",
@@ -10179,33 +8420,22 @@
       "item.allaboutengie.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
       "item.allaboutengie.cyber_katana": "Cyber Katana",
       "item.allaboutengie.gigantic_ban_hammer_pixel": "Pixelized Gigantic Ban Hammer",
-      "entity.allaboutengie.legendary_engie": "Legendary Engie",
       "item.aae_items.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
-      "item.allaboutengie.mythic_hoe": "Mythic Hoe",
       "item.aae_items.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.aae_items.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_battle_axe": "Cyberblood Battle Axe",
       "block.allaboutengie.metal_chest_birch": "Birch Metal Chest",
       "item.allaboutengie.legendary_shark_leggings": "Legendary Sharko Leggings",
-      "item.allaboutengie.blood_leggings": "Blood Leggings",
       "item.allaboutengie.engie_sharko_rare_tamed_spawn_egg": "Engie Sharko [Tamed] Spawn Egg",
-      "item.allaboutengie.uncommon_leggings": "Uncommon Leggings",
       "item.allaboutengie.operators_helmet": "Operators Helmet",
-      "advancements.mythic_obtained.descr": "Get yourself some mythic tools.",
-      "item.allaboutengie.uncommon_helmet": "Uncommon Helmet",
       "entity.allaboutengie.engie_sharko_rare_2_lay": "Engie Sharko [Laying]",
       "block.allaboutengie.metal_chest_acacia": "Acacia Metal Chest",
       "item.allaboutengie.dough_with_sauce": "Dough With Sauce",
-      "item.allaboutengie.common_boots": "Common Boots",
       "item.allaboutengie.cheese_puffs_opened": "Cheese Puffs Opened",
       "item.aae_items.true_ban_hammer": "True Ban Hammer (COMMAND)",
-      "item.allaboutengie.cyber_leggings": "Cyber Leggings",
-      "item.allaboutengie.legendary_boots": "Legendary Boots",
       "advancements.engie_armor_made.title": "\"What was noise?\"",
-      "entity.allaboutengie.rare_engie": "Rare Engie",
       "advancements.enraged_engie_armor_made.descr": "Obtain Enraged Engie Armor for the first time.",
       "advancements.outraged_engie_essence_obtained.descr": "Obtain an Outraged Engie Essence for the first time.",
-      "item.allaboutengie.legendary_leggings": "Legendary Leggings",
       "item.allaboutengie.rare_sharko_lay_spawn_egg": "Rare Sharko [Laying] Spawn Egg",
       "item.aae_items.big_ban_hammer_pixel": "Big Ban Hammer Pixel",
       "entity.allaboutengie.mythic_sharko_lay": "Mythic Sharko [Laying]",
@@ -10217,17 +8447,13 @@
       "entity.allaboutengie.quizzet": "Quizzet",
       "item.aae_items.angry_engie_shovel": "Angry Engie Shovel",
       "item.aae_items.engies_scythe": "Engie\u0027s Scythe",
-      "item.allaboutengie.legendary_pickaxe": "Legendary Pickaxe",
       "item.allaboutengie.massive_ban_hammer": "Massive Ban Hammer",
       "item.allaboutengie.engies_leggings": "Engie Leggings",
       "block.allaboutengie.metal_chest_oak": "Oak Metal Chest",
-      "entity.allaboutengie.orange_enraged_boom": "Orange Enraged Boom",
       "item.allaboutengie.engie_sharko_rare_2_spawn_egg": "Engie Sharko Spawn Egg",
       "item.allaboutengie.code_redeemers_helmet": "Code Redeemers Helmet",
       "item.allaboutengie.albino_shark_chestplate": "Albino Sharko Chestplate",
-      "item.allaboutengie.epic_leggings": "Epic Leggings",
       "block.aae_items.old_engie_ore": "Engie Ore",
-      "item.allaboutengie.epic_hoe": "Epic Hoe",
       "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
       "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.mythic_sharko_lay_spawn_egg": "Mythic Sharko [Laying] Spawn Egg",
@@ -10245,7 +8471,6 @@
       "item.allaboutengie.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
       "item.allaboutengie.toby_spawn_egg": "Toby Spawn Egg",
       "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "block.allaboutengie.cyberblood_block": "Cyberblood Block",
       "item.aae_items.engi_pickaxe": "Engi Pickaxe",
       "item.aae_items.dough": "Dough",
       "item.allaboutengie.engie_sharko_rare_spawn_egg": "Engie Sharko Spawn Egg",
@@ -10253,27 +8478,20 @@
       "item.allaboutengie.operators_chestplate": "Operators Chestplate",
       "item.allaboutengie.engies_scythe_pixel": "Pixel Engie\u0027s Scythe",
       "block.allaboutengie.metal_chest_spruce": "Spruce Metal Chest",
-      "item.allaboutengie.orange_enraged_speed_spawn_egg": "Orange Enraged Speed Spawn Egg",
       "item.allaboutengie.true_ban_hammer_ncmd": "True Ban Hammer (NO COMMAND)",
       "entity.allaboutengie.engie_sharko_rare_tamed": "Engie Sharko [Tamed]",
-      "advancements.uncommon_obtained.title": "Uncommon Obtained",
       "item.aae_items.cheese_puffs_opened": "Cheese Puffs Opened",
       "block.aae_items.metal_chest_jungle": "Jungle Metal Chest",
       "item.allaboutengie.large_ban_hammer": "Large Ban Hammer",
       "block.allaboutengie.angel_hatted_present": "Angel Hatted Present",
-      "item.allaboutengie.exotic_helmet": "Exotic Helmet",
       "entity.allaboutengie.angry_engie": "Angry Engie",
-      "item.allaboutengie.mythic_sword": "Mythic Sword",
       "block.allaboutengie.deepslate_engie_ore": "Engie Ore",
-      "item.allaboutengie.unobtainium_sword": "Unobtainium Sword",
       "item.allaboutengie.code_redeemers_boots": "Code Redeemers Boots",
       "item.aae_items.crucifix": "Crucifix",
       "item.aae_items.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.outraged_engies_helmet": "Outraged Engie Helmet",
       "block.aae_items.old_deepslate_engie_ore": "Engie Ore",
-      "item.allaboutengie.uncommon_axe": "Uncommon Axe",
-      "entity.allaboutengie.mythic_engie": "Mythic Engie",
       "item.allaboutengie.exotic_shark_helmet": "Exotic Sharko Helmet",
       "item.aae_items.angry_engie_chestplate": "Angry Engie Chestplate",
       "advancements.angry_engie_armor_made.title": "Well that was a waste of time.",
@@ -10287,14 +8505,11 @@
       "item.aae_items.bigger_ban_hammer": "Bigger Ban Hammer",
       "block.allaboutengie.thanks_for_playing": "Thanks for playing!",
       "item.allaboutengie.sharko_tamed_spawn_egg": "Sharko [Tamed] Spawn Egg",
-      "item.allaboutengie.blue_enraged_normal_spawn_egg": "Blue Enraged Normal Spawn Egg",
       "item.allaboutengie.uncooked_pizza": "Uncooked Pizza",
       "item.allaboutengie.engies_helmet": "Engie Helmet",
       "item.allaboutengie.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.allaboutengie.unobtainium_chestplate": "Unobtainium Chestplate",
       "item.aae_items.engie_chestplate": "Engie Chestplate",
       "gamerule.detectiveFindEngie": "Detective Mode (Find out)",
-      "item.allaboutengie.enraged_boom_spawn_egg": "Enraged Boom Spawn Egg",
       "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
       "advancements.massive_ban_obtain.title": "Remember lads: NO RULEBREAKING.",
       "item.allaboutengie.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
@@ -10308,14 +8523,9 @@
       "advancements.enraged_engie_essence_obtained.title": "MAKE IT STOP LOOKING AT ME PLEASE!?!?!",
       "item.allaboutengie.quizzet_spawn_egg": "Quizzet Spawn Egg",
       "item.aae_items.engie_shovel": "Engie Shovel",
-      "item.allaboutengie.mythic_axe": "Mythic Axe",
       "block.allaboutengie.angry_engie_block": "Angry Engie Block",
-      "item.allaboutengie.epic_chestplate": "Epic Chestplate",
       "item.allaboutengie.enchanted_exotic_cookie": "Golden Cookie",
-      "item.allaboutengie.epic_pickaxe": "Epic Pickaxe",
       "advancements.engies_scythe_obtained.title": "\"One of many\"... Hm...",
-      "item.allaboutengie.rare_helmet": "Rare Helmet",
-      "item.allaboutengie.cyber_boots": "Cyber Boots",
       "item.allaboutengie.big_ban_hammer": "Big Ban Hammer",
       "item.allaboutengie.dough": "Dough",
       "item.aae_items.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
@@ -10324,31 +8534,20 @@
       "item.aae_items.cheese": "Cheese",
       "item.allaboutengie.cheese_puffs_unopened": "Cheese Puffs Unopened",
       "item.allaboutengie.exotic_sharko_cloth": "Exotic Sharko Cloth",
-      "item.allaboutengie.uncommon_boots": "Uncommon Boots",
-      "entity.allaboutengie.engie_games_gui": "EngieGames",
       "item.allaboutengie.engie_shark_boots": "Engie Sharko Boots",
       "item.allaboutengie.blood_ingot": "Blood Ingot",
       "advancements.he_who_games.title": "IS THAT DEVENGIE!?!?!?!?!?",
       "advancements.outraged_engie_essence_obtained.title": "Dude... I don\u0027t want to try that again.",
       "item.aae_items.mini_ban_hammer": "Mini Ban Hammer",
-      "item.allaboutengie.legendary_chestplate": "Legendary Chestplate",
       "item.allaboutengie.enraged_engie_axe": "Enraged Engie Axe",
-      "entity.allaboutengie.enraged_speed": "Enraged Speed",
       "entity.allaboutengie.engie": "Engie",
       "item.allaboutengie.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
       "item.allaboutengie.mini_ban_hammer_pixel": "Pixelized Mini Ban Hammer",
       "advancements.gigantic_ban_obtain.title": "DevEngie approved. :D",
       "item.allaboutengie.echdeath": "ECHDEATH",
-      "item.allaboutengie.legendary_sword": "Legendary Sword",
-      "item.allaboutengie.exotic_hoe": "Exotic Hoe",
-      "item.allaboutengie.uncommon_shovel": "Uncommon Shovel",
       "item.allaboutengie.outraged_engie_spawn_egg": "Outraged Engie Spawn Egg",
       "item.aae_items.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
-      "item.allaboutengie.epic_sword": "Epic Sword",
-      "block.allaboutengie.blood_block": "Blood Block",
       "item.allaboutengie.outraged_engie_hoe": "Outraged Engie Hoe",
-      "block.allaboutengie.unobtainium_ore": "Unobtainium Ore",
-      "item.allaboutengie.rare_hoe": "Rare Hoe",
       "item.aae_items.cheese_puffs_unopened": "Cheese Puffs Unopened",
       "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
       "block.allaboutengie.metal_chest_jungle": "Jungle Metal Chest",
@@ -10361,14 +8560,11 @@
       "item.aae_items.enraged_engie_chestplate": "Enraged Engie Chestplate",
       "item.allaboutengie.punishers_goggles": "Punishers Goggles",
       "item.aae_items.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
-      "entity.allaboutengie.purple_enraged_normal": "Purple Enraged Normal",
       "item.allaboutengie.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.shark_boots": "Sharko Boots",
       "item.aae_items.engie_axe": "Engie Axe",
-      "item.allaboutengie.exotic_pickaxe": "Exotic Pickaxe",
       "item.aae_items.angry_engie_helmet": "Angry Engie Helmet",
       "block.aae_items.metal_chest_spruce": "Spruce Metal Chest",
-      "item.allaboutengie.rare_chestplate": "Rare Chestplate",
       "block.allaboutengie.metal_chest_dark_oak": "Dark Oak Metal Chest",
       "advancements.angry_engie_essence_obtained.title": "Why is it staring at me.",
       "item.allaboutengie.rare_sharko_cloth": "Rare Sharko Cloth",
@@ -10377,8 +8573,6 @@
       "item.allaboutengie.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
       "item.allaboutengie.cracker_dust": "Cracker Dust",
       "item.allaboutengie.outraged_engies_leggings": "Outraged Engie Leggings",
-      "item.allaboutengie.rare_engie_spawn_egg": "Rare Engie Spawn Egg",
-      "item.allaboutengie.unobtainium_helmet": "Unobtainium Helmet",
       "entity.allaboutengie.albino_sharko": "Albino Sharko",
       "item.allaboutengie.albino_sharko_cloth": "Albino Sharko Cloth",
       "block.aae_items.metal_table": "Metal Chest",
@@ -10387,55 +8581,35 @@
       "item.allaboutengie.cyberblood_katana": "Cyberblood Katana",
       "item.allaboutengie.true_ban_hammer": "True Ban Hammer (COMMAND)",
       "item.allaboutengie.cheese": "Cheese",
-      "item.allaboutengie.mythic_chestplate": "Mythic Chestplate",
       "block.allaboutengie.thanks_for_playing_2": "Thanks for playing!",
-      "item.allaboutengie.blue_enraged_speed_spawn_egg": "Blue Enraged Speed Spawn Egg",
-      "block.allaboutengie.thanks_for_playing_3": "Thanks for playing!",
       "item.allaboutengie.mythic_shark_leggings": "Mythic Sharko Leggings",
       "item.allaboutengie.operators_axe": "Operators Axe",
-      "item.allaboutengie.uncommon_pickaxe": "Uncommon Pickaxe",
       "advancements.he_who_games.descr": "Have the man himself join your world/server.",
-      "item.allaboutengie.unobtainium_boots": "Unobtainium Boots",
-      "entity.allaboutengie.exotic_engie": "Exotic Engie",
       "item.aae_items.engie_gem": "Engie Gem",
       "item.allaboutengie.engi_axe": "Engi Axe",
       "item.aae_items.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "advancements.legendary_obtained.descr": "Get yourself some legendary tools.",
       "item.aae_items.operators_pickaxe": "Operators Pickaxe",
-      "item.allaboutengie.common_pickaxe": "Common Pickaxe",
-      "item.allaboutengie.mythic_helmet": "Mythic Helmet",
-      "entity.allaboutengie.purple_enraged_boom": "Purple Enraged Boom",
       "item.allaboutengie.engies_scythe": "Engie\u0027s Scythe",
       "entity.allaboutengie.mad_engie": "Mad Engie",
       "item.aae_items.pizza_slice": "Pizza Slice",
       "item.allaboutengie.enraged_engie_spawn_egg": "Enraged Engie Spawn Egg",
       "item.allaboutengie.crackers_in_bowl": "Crackers In Bowl",
-      "advancements.rare_obtained.title": "Rare Obtained",
       "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
       "entity.allaboutengie.sharko_tamed": "Sharko [Tamed]",
       "item.allaboutengie.albino_shark_boots": "Albino Sharko Boots",
-      "item.allaboutengie.rare_shovel": "Rare Shovel",
-      "item.allaboutengie.orange_enraged_boom_spawn_egg": "Orange Enraged Boom Spawn Egg",
       "item.allaboutengie.sharkos_plaque": "All About Engie (Sharkos) Plaque",
-      "item.allaboutengie.exotic_leggings": "Exotic Leggings",
-      "item.allaboutengie.purple_enraged_boom_spawn_egg": "Purple Enraged Boom Spawn Egg",
-      "item.allaboutengie.uncommon_engie_spawn_egg": "Uncommon Engie Spawn Egg",
       "item.allaboutengie.engie_spawn_egg": "Engie Spawn Egg",
       "item.aae_items.aae_engie": "EngieGames",
       "item.allaboutengie.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.allaboutengie.enraged_normal_spawn_egg": "Enraged Normal Spawn Egg",
       "item.allaboutengie.code_redeemers_leggings": "Code Redeemers Leggings",
-      "item.allaboutengie.epic_engie_spawn_egg": "Epic Engie Spawn Egg",
       "item.allaboutengie.exotic_shark_boots": "Exotic Sharko Boots",
-      "item.allaboutengie.epic_helmet": "Epic Helmet",
       "advancements.engie_gem_obtained.title": "Who trapped bro in there?",
       "advancements.ban_obtain.title": "Normal size? I want bigger.",
       "item.allaboutengie.outraged_engies_chestplate": "Outraged Engie Chestplate",
       "advancements.found_engie.title": "That took quite long.",
       "item.allaboutengie.crucifix_pixel": "Pixel Crucifix",
       "item.allaboutengie.angry_engies_chestplate": "Angry Engie Chestplate",
-      "item.allaboutengie.unobtainium_leggings": "Unobtainium Leggings",
       "item.allaboutengie.echdeath_pixel": "PIXEL ECHDEATH",
       "item.aae_items.cracker_dust": "Cracker Dust",
       "item.allaboutengie.operators_boots": "Operators Boots",
@@ -10452,8 +8626,6 @@
       "item.allaboutengie.mythic_shark_helmet": "Mythic Sharko Helmet",
       "entity.allaboutengie.legendary_sharko": "Legendary Sharko",
       "item.allaboutengie.albino_sharko_tamed_spawn_egg": "Albino Sharko [Tamed] Spawn Egg",
-      "advancements.epic_obtained.descr": "Get yourself some epic tools.",
-      "advancements.uncommon_obtained.descr": "Get yourself some uncommon tools.",
       "item.aae_items.ban_hammer_pixel": "Ban Hammer Pixel",
       "item.aae_items.enraged_engie_leggings": "Enraged Engie Leggings",
       "advancements.gigantic_ban_obtain.descr": "Obtain a Gigantic Ban Hammer",
@@ -10461,24 +8633,17 @@
       "item.allaboutengie.outraged_engie_shovel": "Outraged Engie Shovel",
       "item.allaboutengie.operators_leggings": "Operators Leggings",
       "item.aae_items.operators_hoe": "Operators Hoe",
-      "item.allaboutengie.exotic_chestplate": "Exotic Chestplate",
       "item.allaboutengie.toby_lay_spawn_egg": "Toby [Laying] Spawn Egg",
       "item.allaboutengie.enchanted_engie_cookie": "Golden Cookie",
       "item.allaboutengie.sharko_lay_spawn_egg": "Sharko [Laying] Spawn Egg",
-      "item.allaboutengie.exotic_shovel": "Exotic Shovel",
       "block.allaboutengie.engie_block": "Engie Block",
       "advancements.big_ban_obtain.title": "Eh, could be a bit bigger. I don\u0027t mind it.",
-      "item.allaboutengie.cyber_helmet": "Cyber Helmet",
       "entity.allaboutengie.albino_sharko_tamed": "Albino Sharko [Tamed]",
       "item.aae_items.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
-      "item.allaboutengie.exotic_sword": "Exotic Sword",
       "item.allaboutengie.engies_chestplate": "Engie Chestplate",
       "item.allaboutengie.engie_sharko_rare_2_tamed_spawn_egg": "Engie Sharko [Tamed] Spawn Egg",
       "item.allaboutengie.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.aae_items.engi_shovel": "Engi Shovel",
-      "advancements.unobtainium_everything.descr": "Collect all Unobtainium armor and tools. GG.",
-      "advancements.unobtainium_obtained.descr": "Obtain your first unobtainium item.",
-      "item.allaboutengie.rare_boots": "Rare Boots",
       "item.aae_items.enraged_engie_boots": "Enraged Engie Boots",
       "item.allaboutengie.enraged_zombies_plaque": "All About Engie (Enraged Zombies) Plaque",
       "item.allaboutengie.exotic_sharko_lay_spawn_egg": "Exotic Sharko [Laying] Spawn Egg",
@@ -10487,12 +8652,9 @@
       "item.allaboutengie.angry_engies_helmet": "Angry Engie Helmet",
       "item.allaboutengie.outraged_engie_axe": "Outraged Engie Axe",
       "item.aae_items.bigger_ban_hammer_pixel": "Bigger Ban Hammer Pixel",
-      "item.allaboutengie.uncommon_sword": "Uncommon Sword",
       "gamerule.detectiveFindEngie.description": "Sets day to 100, different beginning to the world.",
-      "item.allaboutengie.rare_axe": "Rare Axe",
       "advancements.enormous_ban_obtain.title": "Holy crap these get big...",
       "advancements.comically_massive_obtain.descr": "Redeem DevEngies secret code. ;)",
-      "item.allaboutengie.exotic_engie_spawn_egg": "Exotic Engie Spawn Egg",
       "item.aae_items.engie_pickaxe": "Engie Pickaxe",
       "item.aae_items.crackers_in_bowl": "Crackers In Bowl",
       "item.allaboutengie.crucifix": "Crucifix",
@@ -10503,80 +8665,56 @@
       "entity.allaboutengie.engie_sharko": "Engie Sharko",
       "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
       "item.aae_items.engie_helmet": "Engie Helmet",
-      "item.allaboutengie.blood_chestplate": "Blood Chestplate",
       "advancements.large_ban_obtain.descr": "Obtain a Large Ban Hammer",
       "item.allaboutengie.exotic_sharko_spawn_egg": "Exotic Sharko Spawn Egg",
       "item.allaboutengie.exotic_sharko_tamed_spawn_egg": "Exotic Sharko [Tamed] Spawn Egg",
       "item.allaboutengie.angry_engie_pickaxe": "Angry Engie Pickaxe",
-      "item.allaboutengie.rare_leggings": "Rare Leggings",
       "item.allaboutengie.massive_ban_hammer_pixel": "Pixelized Massive Ban Hammer",
       "item.aae_items.biggest_ban_hammer_pixel": "Biggest Ban Hammer Pixel",
-      "item.allaboutengie.enraged_coin": "Enraged Coin",
-      "item.allaboutengie.enraged_speed_spawn_egg": "Enraged Speed Spawn Egg",
-      "entity.allaboutengie.orange_enraged_normal": "Orange Enraged Normal",
-      "item.allaboutengie.purple_enraged_speed_spawn_egg": "Purple Enraged Speed Spawn Egg",
       "item.aae_items.angry_engie_hoe": "Angry Engie Hoe",
       "entity.allaboutengie.mythic_sharko": "Mythic Sharko",
-      "item.allaboutengie.unobtainium_axe": "Unobtainium Axe",
       "item.allaboutengie.exotic_shark_leggings": "Exotic Sharko Leggings",
       "entity.allaboutengie.sharko": "Sharko",
-      "item.allaboutengie.exotic_axe": "Exotic Axe",
       "item.aae_items.engie_hoe": "Engie Hoe",
       "item.aae_items.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
       "block.aae_items.thanks_for_playing": "Thanks for playing!",
-      "entity.allaboutengie.blue_enraged_normal": "Blue Enraged Normal",
       "advancements.angry_engie_tool_obtained.title": "I\u0027m mildly disturbed now having this..",
       "item.allaboutengie.enraged_engie_hoe": "Enraged Engie Hoe",
       "item.allaboutengie.engie_pickaxe": "Engie Pickaxe",
       "item.aae_items.operators_helmet": "Operators Helmet",
       "advancements.angry_engie_tool_obtained.descr": "Obtain one of the Angry Engie tools.",
-      "item.allaboutengie.legendary_hoe": "Legendary Hoe",
+      "gui.allaboutengie.enragedcoin_overlay.label_01": "0",
       "block.aae_items.angry_engie_block": "Angry Engie Block",
       "entity.allaboutengie.engie_sharko_tamed": "Engie Sharko [Tamed]",
-      "entity.allaboutengie.purple_enraged_speed": "Purple Enraged Speed",
-      "item.allaboutengie.mythic_leggings": "Mythic Leggings",
-      "item.allaboutengie.epic_boots": "Epic Boots",
       "block.aae_items.metal_chest_birch": "Birch Metal Chest",
       "item.aae_items.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
       "item.allaboutengie.angry_engie_hoe": "Angry Engie Hoe",
       "itemGroup.tabmobs": "Mobs",
-      "advancements.unobtainium_obtained.title": "Unobtainium Obtained",
       "item.allaboutengie.engie_axe": "Engie Axe",
       "block.aae_items.deepslate_engie_ore": "Engie Ore",
       "item.allaboutengie.legendary_sharko_lay_spawn_egg": "Legendary Sharko [Laying] Spawn Egg",
       "block.aae_items.metal_chest_crimson": "Crimson Metal Chest",
       "item.allaboutengie.engie_shark_leggings": "Engie Sharko Leggings",
-      "entity.allaboutengie.enraged_boom": "Enraged Boom",
       "item.allaboutengie.legendary_shark_boots": "Legendary Sharko Boots",
       "entity.allaboutengie.legendary_sharko_lay": "Legendary Sharko [Laying]",
       "advancements.new_world_new_problem.descr": "Create a world with the new All About Engie gamerule enabled.",
-      "item.allaboutengie.mythic_pickaxe": "Mythic Pickaxe",
-      "entity.allaboutengie.common_engie": "Common Engie",
-      "block.allaboutengie.cyber_block": "Cyber Block",
       "item.allaboutengie.comically_massive_ban_hammer_pixel": "Pixelized Comically Massive Ban Hammer",
       "item.allaboutengie.engie_sharko_cloth": "Engie Sharko Cloth",
-      "advancements.exotic_obtained.title": "Exotic Obtained",
       "item.aae_items.operators_axe": "Operators Axe",
       "item.allaboutengie.operators_hoe": "Operators Hoe",
       "item.allaboutengie.extras_plaque": "All About Engie (Extras) Plaque",
       "itemGroup.tabban_hammers": "Ban Hammers",
       "item.allaboutengie.enraged_engies_chestplate": "Enraged Engie Chestplate",
       "item.allaboutengie.all_about_engie_plaque": "All About Engie Plaque",
-      "entity.allaboutengie.uncommon_engie": "Uncommon Engie",
       "item.allaboutengie.engie_games_spawn_egg": "EngieGames Spawn Egg",
       "item.allaboutengie.cyberblood_chestplate": "Cyberblood Chestplate",
       "entity.allaboutengie.legendary_sharko_tamed": "Legendary Sharko [Tamed]",
       "item.allaboutengie.operators_pickaxe": "Operators Pickaxe",
       "item.allaboutengie.exotic_cookie": "Golden Cookie",
-      "item.allaboutengie.cyber_chestplate": "Cyber Chestplate",
-      "item.allaboutengie.exotic_boots": "Exotic Boots",
       "block.aae_items.metal_chest": "Metal Chest",
-      "item.allaboutengie.common_hoe": "Common Hoe",
       "item.allaboutengie.exotic_shark_chestplate": "Exotic Sharko Chestplate",
       "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
       "itemGroup.tabpixel_items": "Pixel Items",
-      "entity.allaboutengie.epic_engie": "Epic Engie",
-      "item.allaboutengie.purple_enraged_normal_spawn_egg": "Purple Enraged Normal Spawn Egg",
       "block.aae_items.engie_block": "Engie Block",
       "entity.allaboutengie.exotic_sharko_tamed": "Exotic Sharko [Tamed]",
       "item.aae_items.engie_boots": "Engie Boots",
@@ -10584,13 +8722,10 @@
       "item.allaboutengie.angry_engies_boots": "Angry Engie Boots",
       "advancements.huge_ban_obtain.title": "Uhm... I guess this is cooler than the large one..?",
       "item.aae_items.enraged_engie_essence": "Enraged Engie Essence",
-      "item.allaboutengie.legendary_shovel": "Legendary Shovel",
       "item.allaboutengie.cyberblood_leggings": "Cyberblood Leggings",
       "item.allaboutengie.angry_engie_shovel": "Angry Engie Shovel",
       "item.allaboutengie.mad_engie_spawn_egg": "Mad Engie Spawn Egg",
       "item.allaboutengie.rare_shark_boots": "Rare Sharko Boots",
-      "item.allaboutengie.rare_pickaxe": "Rare Pickaxe",
-      "item.allaboutengie.mythic_shovel": "Mythic Shovel",
       "item.aae_items.angry_engie_essence": "Angry Engie Essence",
       "item.allaboutengie.engie_cookie": "Golden Cookie",
       "itemGroup.tabaae_items_armor": "Armor",
@@ -10600,10 +8735,8 @@
       "block.allaboutengie.old_engie_ore": "Engie Ore",
       "item.allaboutengie.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
       "item.allaboutengie.engi_fr_spawn_egg": "EngiFR Spawn Egg",
-      "item.allaboutengie.mythic_engie_spawn_egg": "Mythic Engie Spawn Egg",
       "item.allaboutengie.angry_engie_essence": "Angry Engie Essence",
       "item.allaboutengie.rare_shark_chestplate": "Rare Sharko Chestplate",
-      "item.allaboutengie.blue_enraged_boom_spawn_egg": "Blue Enraged Boom Spawn Egg",
       "itemGroup.tabaae_items_items": "Items",
       "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
       "item.allaboutengie.enchanted_golden_cookie": "Golden Cookie",
@@ -10616,25 +8749,18 @@
       "item.aae_items.big_ban_hammer": "Big Ban Hammer",
       "item.allaboutengie.mythic_shark_chestplate": "Mythic Sharko Chestplate",
       "item.allaboutengie.albino_sharko_spawn_egg": "Albino Sharko Spawn Egg",
-      "entity.allaboutengie.orange_enraged_speed": "Orange Enraged Speed",
-      "item.allaboutengie.common_sword": "Common Sword",
       "block.allaboutengie.metal_chest_warped": "Warped Metal Chest",
-      "item.allaboutengie.orange_enraged_normal_spawn_egg": "Orange Enraged Normal Spawn Egg",
       "entity.allaboutengie.enraged_engie": "Enraged Engie",
-      "item.allaboutengie.unobtainium_pickaxe": "Unobtainium Pickaxe",
       "item.allaboutengie.creator_spawn_egg": "Creator Spawn Egg",
       "item.allaboutengie.engi_pickaxe": "Engi Pickaxe",
-      "block.allaboutengie.blood_ore": "Blood Ore",
+      "block.allaboutengie.blood_ore": "Cyber Ore",
       "item.aae_items.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
       "item.allaboutengie.code_redeemers_hammer": "Code Redeemers Ban Hammer",
       "advancements.new_world_new_problem.title": "All About Engie: Detective mode edition.",
-      "advancements.unobtainium_full_armor.title": "Not gonna sugarcoat it.",
       "item.allaboutengie.sharko_cloth": "Sharko Cloth",
       "item.allaboutengie.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
-      "advancements.mythic_obtained.title": "Mythic Obtained",
       "item.allaboutengie.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
       "item.allaboutengie.engie_sharko_rare_2_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
-      "item.allaboutengie.unobtainium_hoe": "Unobtainium Hoe",
       "item.allaboutengie.ban_hammer": "Ban Hammer",
       "item.allaboutengie.enraged_engie_shovel": "Enraged Engie Shovel",
       "item.allaboutengie.rare_shark_leggings": "Rare Sharko Leggings",
@@ -10644,13 +8770,10 @@
       "item.aae_items.operators_shovel": "Operators Shovel",
       "advancements.engie_tool_obtained.descr": "Obtain one of the Engie tools.",
       "item.allaboutengie.enormous_ban_hammer_pixel": "Pixelized Enormous Ban Hammer",
-      "item.allaboutengie.common_leggings": "Common Leggings",
-      "advancements.epic_obtained.title": "Epic Obtained",
       "entity.allaboutengie.rare_sharko_tamed": "Rare Sharko [Tamed]",
       "block.aae_items.metal_chest_oak": "Oak Metal Chest",
       "item.allaboutengie.engie_gem": "Engie Gem",
       "entity.allaboutengie.engie_sharko_rare": "Engie Sharko",
-      "item.allaboutengie.legendary_engie_spawn_egg": "Legendary Engie Spawn Egg",
       "entity.allaboutengie.rare_sharko_lay": "Rare Sharko [Laying]",
       "item.aae_items.angry_engie_boots": "Angry Engie Boots",
       "block.allaboutengie.old_deepslate_engie_ore": "Engie Ore",
@@ -10659,9 +8782,7 @@
       "item.allaboutengie.cyber_ingot": "Cyber Ingot",
       "entity.allaboutengie.engie_sharko_lay": "Engie Sharko [Laying]",
       "advancements.comically_massive_obtain.title": "DevEngies little secret. ;)",
-      "item.allaboutengie.common_shovel": "Common Shovel",
       "item.allaboutengie.shark_helmet": "Sharko Helmet",
-      "item.allaboutengie.blood_boots": "Blood Boots",
       "entity.allaboutengie.engie_sharko_rare_2_tamed": "Engie Sharko [Tamed]",
       "advancements.big_ban_obtain.descr": "Obtain a Big Ban Hammer",
       "item.allaboutengie.engie_shark_helmet": "Engie Sharko Helmet"
@@ -10745,10 +8866,6 @@
         "children": []
       },
       {
-        "name": "GUIMob",
-        "children": []
-      },
-      {
         "name": "Gamerule",
         "children": []
       },
@@ -10786,7 +8903,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.18.2",
     "credits": "yuh",
     "modElementsPackage": "net.mcreator.allaboutengie",
     "lockBaseModFiles": false

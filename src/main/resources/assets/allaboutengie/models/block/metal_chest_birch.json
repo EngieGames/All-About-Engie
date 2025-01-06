@@ -5,6 +5,5 @@
     "particle": "allaboutengie:blocks/oldchest",
     "0": "allaboutengie:blocks/metalchest",
     "1": "allaboutengie:blocks/birch"
-  },
-  "render_type": "solid"
+  }
 }

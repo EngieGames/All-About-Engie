@@ -8,6 +8,5 @@
     "south": "allaboutengie:blocks/oldengiore",
     "west": "allaboutengie:blocks/oldengiore",
     "particle": "allaboutengie:blocks/oldengiore"
-  },
-  "render_type": "solid"
+  }
 }

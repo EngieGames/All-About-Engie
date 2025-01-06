@@ -14,19 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.allaboutengie.item.UnobtainiumSwordItem;
-import net.mcreator.allaboutengie.item.UnobtainiumShovelItem;
-import net.mcreator.allaboutengie.item.UnobtainiumPickaxeItem;
-import net.mcreator.allaboutengie.item.UnobtainiumItem;
-import net.mcreator.allaboutengie.item.UnobtainiumHoeItem;
-import net.mcreator.allaboutengie.item.UnobtainiumAxeItem;
 import net.mcreator.allaboutengie.item.UncookedPizzaItem;
-import net.mcreator.allaboutengie.item.UncommonSwordItem;
-import net.mcreator.allaboutengie.item.UncommonShovelItem;
-import net.mcreator.allaboutengie.item.UncommonPickaxeItem;
-import net.mcreator.allaboutengie.item.UncommonItem;
-import net.mcreator.allaboutengie.item.UncommonHoeItem;
-import net.mcreator.allaboutengie.item.UncommonAxeItem;
 import net.mcreator.allaboutengie.item.TrueBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.TrueBanHammerNCMDPixelItem;
 import net.mcreator.allaboutengie.item.TrueBanHammerNCMDItem;
@@ -35,14 +23,8 @@ import net.mcreator.allaboutengie.item.TesterItem;
 import net.mcreator.allaboutengie.item.SharkosPlaqueItem;
 import net.mcreator.allaboutengie.item.SharkoClothItem;
 import net.mcreator.allaboutengie.item.SharkItem;
-import net.mcreator.allaboutengie.item.RareSwordItem;
-import net.mcreator.allaboutengie.item.RareShovelItem;
 import net.mcreator.allaboutengie.item.RareSharkoClothItem;
 import net.mcreator.allaboutengie.item.RareSharkItem;
-import net.mcreator.allaboutengie.item.RarePickaxeItem;
-import net.mcreator.allaboutengie.item.RareItem;
-import net.mcreator.allaboutengie.item.RareHoeItem;
-import net.mcreator.allaboutengie.item.RareAxeItem;
 import net.mcreator.allaboutengie.item.PunishersGogglesItem;
 import net.mcreator.allaboutengie.item.PizzaSliceItem;
 import net.mcreator.allaboutengie.item.OutragedEngiesItem;
@@ -56,27 +38,15 @@ import net.mcreator.allaboutengie.item.OperatorsPickaxeItem;
 import net.mcreator.allaboutengie.item.OperatorsItem;
 import net.mcreator.allaboutengie.item.OperatorsHoeItem;
 import net.mcreator.allaboutengie.item.OperatorsAxeItem;
-import net.mcreator.allaboutengie.item.MythicSwordItem;
-import net.mcreator.allaboutengie.item.MythicShovelItem;
 import net.mcreator.allaboutengie.item.MythicSharkoClothItem;
 import net.mcreator.allaboutengie.item.MythicSharkItem;
-import net.mcreator.allaboutengie.item.MythicPickaxeItem;
-import net.mcreator.allaboutengie.item.MythicItem;
-import net.mcreator.allaboutengie.item.MythicHoeItem;
-import net.mcreator.allaboutengie.item.MythicAxeItem;
 import net.mcreator.allaboutengie.item.MobsPlaqueItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerItem;
-import net.mcreator.allaboutengie.item.LegendarySwordItem;
-import net.mcreator.allaboutengie.item.LegendaryShovelItem;
 import net.mcreator.allaboutengie.item.LegendarySharkoClothItem;
 import net.mcreator.allaboutengie.item.LegendarySharkItem;
-import net.mcreator.allaboutengie.item.LegendaryPickaxeItem;
-import net.mcreator.allaboutengie.item.LegendaryItem;
-import net.mcreator.allaboutengie.item.LegendaryHoeItem;
-import net.mcreator.allaboutengie.item.LegendaryAxeItem;
 import net.mcreator.allaboutengie.item.LargeBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.LargeBanHammerItem;
 import net.mcreator.allaboutengie.item.KickBanHammerPixelItem;
@@ -88,21 +58,9 @@ import net.mcreator.allaboutengie.item.GoldenCookieItem;
 import net.mcreator.allaboutengie.item.GiganticBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.GiganticBanHammerItem;
 import net.mcreator.allaboutengie.item.ExtrasPlaqueItem;
-import net.mcreator.allaboutengie.item.ExoticSwordItem;
-import net.mcreator.allaboutengie.item.ExoticShovelItem;
 import net.mcreator.allaboutengie.item.ExoticSharkoClothItem;
 import net.mcreator.allaboutengie.item.ExoticSharkItem;
-import net.mcreator.allaboutengie.item.ExoticPickaxeItem;
-import net.mcreator.allaboutengie.item.ExoticItem;
-import net.mcreator.allaboutengie.item.ExoticHoeItem;
 import net.mcreator.allaboutengie.item.ExoticCookieItem;
-import net.mcreator.allaboutengie.item.ExoticAxeItem;
-import net.mcreator.allaboutengie.item.EpicSwordItem;
-import net.mcreator.allaboutengie.item.EpicShovelItem;
-import net.mcreator.allaboutengie.item.EpicPickaxeItem;
-import net.mcreator.allaboutengie.item.EpicItem;
-import net.mcreator.allaboutengie.item.EpicHoeItem;
-import net.mcreator.allaboutengie.item.EpicAxeItem;
 import net.mcreator.allaboutengie.item.EnragedZombiesPlaqueItem;
 import net.mcreator.allaboutengie.item.EnragedEngiesItem;
 import net.mcreator.allaboutengie.item.EnragedEngieShovelItem;
@@ -110,7 +68,6 @@ import net.mcreator.allaboutengie.item.EnragedEngiePickaxeItem;
 import net.mcreator.allaboutengie.item.EnragedEngieHoeItem;
 import net.mcreator.allaboutengie.item.EnragedEngieEssenceItem;
 import net.mcreator.allaboutengie.item.EnragedEngieAxeItem;
-import net.mcreator.allaboutengie.item.EnragedCoinItem;
 import net.mcreator.allaboutengie.item.EnormousBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.EnormousBanHammerItem;
 import net.mcreator.allaboutengie.item.EngiesScythePixelItem;
@@ -142,7 +99,6 @@ import net.mcreator.allaboutengie.item.CyberbloodItem;
 import net.mcreator.allaboutengie.item.CyberbloodIngotItem;
 import net.mcreator.allaboutengie.item.CyberbloodBattleAxeItem;
 import net.mcreator.allaboutengie.item.CyberKatanaItem;
-import net.mcreator.allaboutengie.item.CyberItem;
 import net.mcreator.allaboutengie.item.CyberIngotItem;
 import net.mcreator.allaboutengie.item.CrucifixPixelItem;
 import net.mcreator.allaboutengie.item.CrucifixItem;
@@ -150,12 +106,6 @@ import net.mcreator.allaboutengie.item.CrackersInBowlItem;
 import net.mcreator.allaboutengie.item.CrackerDustItem;
 import net.mcreator.allaboutengie.item.CookedPizzaItem;
 import net.mcreator.allaboutengie.item.ContributorItem;
-import net.mcreator.allaboutengie.item.CommonSwordItem;
-import net.mcreator.allaboutengie.item.CommonShovelItem;
-import net.mcreator.allaboutengie.item.CommonPickaxeItem;
-import net.mcreator.allaboutengie.item.CommonItem;
-import net.mcreator.allaboutengie.item.CommonHoeItem;
-import net.mcreator.allaboutengie.item.CommonAxeItem;
 import net.mcreator.allaboutengie.item.ComicallyMassiveBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.ComicallyMassiveBanHammerItem;
 import net.mcreator.allaboutengie.item.CodeRedeemersItem;
@@ -164,7 +114,6 @@ import net.mcreator.allaboutengie.item.CodeRedeemersHammerItem;
 import net.mcreator.allaboutengie.item.CheesePuffsUnopenedItem;
 import net.mcreator.allaboutengie.item.CheesePuffsOpenedItem;
 import net.mcreator.allaboutengie.item.CheeseItem;
-import net.mcreator.allaboutengie.item.BloodItem;
 import net.mcreator.allaboutengie.item.BloodIngotItem;
 import net.mcreator.allaboutengie.item.BloodBattleAxeItem;
 import net.mcreator.allaboutengie.item.BigBanHammerPixelItem;
@@ -235,61 +184,13 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MYTHIC_SHARKO_CLOTH = REGISTRY.register("mythic_sharko_cloth", () -> new MythicSharkoClothItem());
 	public static final RegistryObject<Item> EXOTIC_SHARKO_CLOTH = REGISTRY.register("exotic_sharko_cloth", () -> new ExoticSharkoClothItem());
 	public static final RegistryObject<Item> ENGIE_SHARKO_CLOTH = REGISTRY.register("engie_sharko_cloth", () -> new EngieSharkoClothItem());
-	public static final RegistryObject<Item> ENRAGED_COIN = REGISTRY.register("enraged_coin", () -> new EnragedCoinItem());
-	public static final RegistryObject<Item> COMMON_SWORD = REGISTRY.register("common_sword", () -> new CommonSwordItem());
-	public static final RegistryObject<Item> COMMON_PICKAXE = REGISTRY.register("common_pickaxe", () -> new CommonPickaxeItem());
-	public static final RegistryObject<Item> COMMON_AXE = REGISTRY.register("common_axe", () -> new CommonAxeItem());
-	public static final RegistryObject<Item> COMMON_SHOVEL = REGISTRY.register("common_shovel", () -> new CommonShovelItem());
-	public static final RegistryObject<Item> COMMON_HOE = REGISTRY.register("common_hoe", () -> new CommonHoeItem());
-	public static final RegistryObject<Item> UNCOMMON_SWORD = REGISTRY.register("uncommon_sword", () -> new UncommonSwordItem());
-	public static final RegistryObject<Item> UNCOMMON_PICKAXE = REGISTRY.register("uncommon_pickaxe", () -> new UncommonPickaxeItem());
-	public static final RegistryObject<Item> UNCOMMON_AXE = REGISTRY.register("uncommon_axe", () -> new UncommonAxeItem());
-	public static final RegistryObject<Item> UNCOMMON_SHOVEL = REGISTRY.register("uncommon_shovel", () -> new UncommonShovelItem());
-	public static final RegistryObject<Item> UNCOMMON_HOE = REGISTRY.register("uncommon_hoe", () -> new UncommonHoeItem());
-	public static final RegistryObject<Item> RARE_SWORD = REGISTRY.register("rare_sword", () -> new RareSwordItem());
-	public static final RegistryObject<Item> RARE_PICKAXE = REGISTRY.register("rare_pickaxe", () -> new RarePickaxeItem());
-	public static final RegistryObject<Item> RARE_AXE = REGISTRY.register("rare_axe", () -> new RareAxeItem());
-	public static final RegistryObject<Item> RARE_SHOVEL = REGISTRY.register("rare_shovel", () -> new RareShovelItem());
-	public static final RegistryObject<Item> RARE_HOE = REGISTRY.register("rare_hoe", () -> new RareHoeItem());
-	public static final RegistryObject<Item> EPIC_SWORD = REGISTRY.register("epic_sword", () -> new EpicSwordItem());
-	public static final RegistryObject<Item> EPIC_PICKAXE = REGISTRY.register("epic_pickaxe", () -> new EpicPickaxeItem());
-	public static final RegistryObject<Item> EPIC_AXE = REGISTRY.register("epic_axe", () -> new EpicAxeItem());
-	public static final RegistryObject<Item> EPIC_SHOVEL = REGISTRY.register("epic_shovel", () -> new EpicShovelItem());
-	public static final RegistryObject<Item> EPIC_HOE = REGISTRY.register("epic_hoe", () -> new EpicHoeItem());
-	public static final RegistryObject<Item> LEGENDARY_SWORD = REGISTRY.register("legendary_sword", () -> new LegendarySwordItem());
-	public static final RegistryObject<Item> LEGENDARY_PICKAXE = REGISTRY.register("legendary_pickaxe", () -> new LegendaryPickaxeItem());
-	public static final RegistryObject<Item> LEGENDARY_AXE = REGISTRY.register("legendary_axe", () -> new LegendaryAxeItem());
-	public static final RegistryObject<Item> LEGENDARY_SHOVEL = REGISTRY.register("legendary_shovel", () -> new LegendaryShovelItem());
-	public static final RegistryObject<Item> LEGENDARY_HOE = REGISTRY.register("legendary_hoe", () -> new LegendaryHoeItem());
-	public static final RegistryObject<Item> MYTHIC_SWORD = REGISTRY.register("mythic_sword", () -> new MythicSwordItem());
-	public static final RegistryObject<Item> MYTHIC_PICKAXE = REGISTRY.register("mythic_pickaxe", () -> new MythicPickaxeItem());
-	public static final RegistryObject<Item> MYTHIC_AXE = REGISTRY.register("mythic_axe", () -> new MythicAxeItem());
-	public static final RegistryObject<Item> MYTHIC_SHOVEL = REGISTRY.register("mythic_shovel", () -> new MythicShovelItem());
-	public static final RegistryObject<Item> MYTHIC_HOE = REGISTRY.register("mythic_hoe", () -> new MythicHoeItem());
-	public static final RegistryObject<Item> EXOTIC_SWORD = REGISTRY.register("exotic_sword", () -> new ExoticSwordItem());
-	public static final RegistryObject<Item> EXOTIC_PICKAXE = REGISTRY.register("exotic_pickaxe", () -> new ExoticPickaxeItem());
-	public static final RegistryObject<Item> EXOTIC_AXE = REGISTRY.register("exotic_axe", () -> new ExoticAxeItem());
-	public static final RegistryObject<Item> EXOTIC_SHOVEL = REGISTRY.register("exotic_shovel", () -> new ExoticShovelItem());
-	public static final RegistryObject<Item> EXOTIC_HOE = REGISTRY.register("exotic_hoe", () -> new ExoticHoeItem());
-	public static final RegistryObject<Item> UNOBTAINIUM_SWORD = REGISTRY.register("unobtainium_sword", () -> new UnobtainiumSwordItem());
-	public static final RegistryObject<Item> UNOBTAINIUM_PICKAXE = REGISTRY.register("unobtainium_pickaxe", () -> new UnobtainiumPickaxeItem());
-	public static final RegistryObject<Item> UNOBTAINIUM_AXE = REGISTRY.register("unobtainium_axe", () -> new UnobtainiumAxeItem());
-	public static final RegistryObject<Item> UNOBTAINIUM_SHOVEL = REGISTRY.register("unobtainium_shovel", () -> new UnobtainiumShovelItem());
-	public static final RegistryObject<Item> UNOBTAINIUM_HOE = REGISTRY.register("unobtainium_hoe", () -> new UnobtainiumHoeItem());
-	public static final RegistryObject<Item> UNOBTAINIUM_ORE = block(AllaboutengieModBlocks.UNOBTAINIUM_ORE, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
-	public static final RegistryObject<Item> DEEPSLATE_UNOBTAINIUM = block(AllaboutengieModBlocks.DEEPSLATE_UNOBTAINIUM, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> BLOOD_INGOT = REGISTRY.register("blood_ingot", () -> new BloodIngotItem());
 	public static final RegistryObject<Item> CYBER_INGOT = REGISTRY.register("cyber_ingot", () -> new CyberIngotItem());
 	public static final RegistryObject<Item> CYBERBLOOD_INGOT = REGISTRY.register("cyberblood_ingot", () -> new CyberbloodIngotItem());
-	public static final RegistryObject<Item> CYBER_ORE = block(AllaboutengieModBlocks.CYBER_ORE, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
-	public static final RegistryObject<Item> BLOOD_ORE = block(AllaboutengieModBlocks.BLOOD_ORE, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> CYBER_KATANA = REGISTRY.register("cyber_katana", () -> new CyberKatanaItem());
 	public static final RegistryObject<Item> BLOOD_BATTLE_AXE = REGISTRY.register("blood_battle_axe", () -> new BloodBattleAxeItem());
 	public static final RegistryObject<Item> CYBERBLOOD_KATANA = REGISTRY.register("cyberblood_katana", () -> new CyberbloodKatanaItem());
 	public static final RegistryObject<Item> CYBERBLOOD_BATTLE_AXE = REGISTRY.register("cyberblood_battle_axe", () -> new CyberbloodBattleAxeItem());
-	public static final RegistryObject<Item> CYBER_BLOCK = block(AllaboutengieModBlocks.CYBER_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
-	public static final RegistryObject<Item> BLOOD_BLOCK = block(AllaboutengieModBlocks.BLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
-	public static final RegistryObject<Item> CYBERBLOOD_BLOCK = block(AllaboutengieModBlocks.CYBERBLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> OUTRAGED_ENGIE_ESSENCE = REGISTRY.register("outraged_engie_essence", () -> new OutragedEngieEssenceItem());
 	public static final RegistryObject<Item> OUTRAGED_ENGIE_AXE = REGISTRY.register("outraged_engie_axe", () -> new OutragedEngieAxeItem());
 	public static final RegistryObject<Item> OUTRAGED_ENGIE_PICKAXE = REGISTRY.register("outraged_engie_pickaxe", () -> new OutragedEngiePickaxeItem());
@@ -331,20 +232,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CREATOR_SPAWN_EGG = REGISTRY.register("creator_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.CREATOR, -6723841, -154, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENGIE_GAMES_SPAWN_EGG = REGISTRY.register("engie_games_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_GAMES, -1559757, -12386431, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> COMMON_ENGIE_SPAWN_EGG = REGISTRY.register("common_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.COMMON_ENGIE, -7434610, -7697782, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> UNCOMMON_ENGIE_SPAWN_EGG = REGISTRY.register("uncommon_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.UNCOMMON_ENGIE, -12195515, -12982727, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> RARE_ENGIE_SPAWN_EGG = REGISTRY.register("rare_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_ENGIE, -12438807, -12767770, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> EPIC_ENGIE_SPAWN_EGG = REGISTRY.register("epic_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EPIC_ENGIE, -5295383, -5755418, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> LEGENDARY_ENGIE_SPAWN_EGG = REGISTRY.register("legendary_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.LEGENDARY_ENGIE, -1470926, -1668563, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> MYTHIC_ENGIE_SPAWN_EGG = REGISTRY.register("mythic_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MYTHIC_ENGIE, -2561742, -2693587, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> EXOTIC_ENGIE_SPAWN_EGG = REGISTRY.register("exotic_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_ENGIE, -13440535, -13768986, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> PROTOGEN_SPAWN_EGG = REGISTRY.register("protogen_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.PROTOGEN, -16737793, -16750951, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> QUIZZET_SPAWN_EGG = REGISTRY.register("quizzet_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.QUIZZET, -1, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENGIES_HELMET = REGISTRY.register("engies_helmet", () -> new EngiesItem.Helmet());
@@ -387,46 +274,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGIE_SHARK_CHESTPLATE = REGISTRY.register("engie_shark_chestplate", () -> new EngieSharkItem.Chestplate());
 	public static final RegistryObject<Item> ENGIE_SHARK_LEGGINGS = REGISTRY.register("engie_shark_leggings", () -> new EngieSharkItem.Leggings());
 	public static final RegistryObject<Item> ENGIE_SHARK_BOOTS = REGISTRY.register("engie_shark_boots", () -> new EngieSharkItem.Boots());
-	public static final RegistryObject<Item> COMMON_HELMET = REGISTRY.register("common_helmet", () -> new CommonItem.Helmet());
-	public static final RegistryObject<Item> COMMON_CHESTPLATE = REGISTRY.register("common_chestplate", () -> new CommonItem.Chestplate());
-	public static final RegistryObject<Item> COMMON_LEGGINGS = REGISTRY.register("common_leggings", () -> new CommonItem.Leggings());
-	public static final RegistryObject<Item> COMMON_BOOTS = REGISTRY.register("common_boots", () -> new CommonItem.Boots());
-	public static final RegistryObject<Item> UNCOMMON_HELMET = REGISTRY.register("uncommon_helmet", () -> new UncommonItem.Helmet());
-	public static final RegistryObject<Item> UNCOMMON_CHESTPLATE = REGISTRY.register("uncommon_chestplate", () -> new UncommonItem.Chestplate());
-	public static final RegistryObject<Item> UNCOMMON_LEGGINGS = REGISTRY.register("uncommon_leggings", () -> new UncommonItem.Leggings());
-	public static final RegistryObject<Item> UNCOMMON_BOOTS = REGISTRY.register("uncommon_boots", () -> new UncommonItem.Boots());
-	public static final RegistryObject<Item> RARE_HELMET = REGISTRY.register("rare_helmet", () -> new RareItem.Helmet());
-	public static final RegistryObject<Item> RARE_CHESTPLATE = REGISTRY.register("rare_chestplate", () -> new RareItem.Chestplate());
-	public static final RegistryObject<Item> RARE_LEGGINGS = REGISTRY.register("rare_leggings", () -> new RareItem.Leggings());
-	public static final RegistryObject<Item> RARE_BOOTS = REGISTRY.register("rare_boots", () -> new RareItem.Boots());
-	public static final RegistryObject<Item> EPIC_HELMET = REGISTRY.register("epic_helmet", () -> new EpicItem.Helmet());
-	public static final RegistryObject<Item> EPIC_CHESTPLATE = REGISTRY.register("epic_chestplate", () -> new EpicItem.Chestplate());
-	public static final RegistryObject<Item> EPIC_LEGGINGS = REGISTRY.register("epic_leggings", () -> new EpicItem.Leggings());
-	public static final RegistryObject<Item> EPIC_BOOTS = REGISTRY.register("epic_boots", () -> new EpicItem.Boots());
-	public static final RegistryObject<Item> LEGENDARY_HELMET = REGISTRY.register("legendary_helmet", () -> new LegendaryItem.Helmet());
-	public static final RegistryObject<Item> LEGENDARY_CHESTPLATE = REGISTRY.register("legendary_chestplate", () -> new LegendaryItem.Chestplate());
-	public static final RegistryObject<Item> LEGENDARY_LEGGINGS = REGISTRY.register("legendary_leggings", () -> new LegendaryItem.Leggings());
-	public static final RegistryObject<Item> LEGENDARY_BOOTS = REGISTRY.register("legendary_boots", () -> new LegendaryItem.Boots());
-	public static final RegistryObject<Item> MYTHIC_HELMET = REGISTRY.register("mythic_helmet", () -> new MythicItem.Helmet());
-	public static final RegistryObject<Item> MYTHIC_CHESTPLATE = REGISTRY.register("mythic_chestplate", () -> new MythicItem.Chestplate());
-	public static final RegistryObject<Item> MYTHIC_LEGGINGS = REGISTRY.register("mythic_leggings", () -> new MythicItem.Leggings());
-	public static final RegistryObject<Item> MYTHIC_BOOTS = REGISTRY.register("mythic_boots", () -> new MythicItem.Boots());
-	public static final RegistryObject<Item> EXOTIC_HELMET = REGISTRY.register("exotic_helmet", () -> new ExoticItem.Helmet());
-	public static final RegistryObject<Item> EXOTIC_CHESTPLATE = REGISTRY.register("exotic_chestplate", () -> new ExoticItem.Chestplate());
-	public static final RegistryObject<Item> EXOTIC_LEGGINGS = REGISTRY.register("exotic_leggings", () -> new ExoticItem.Leggings());
-	public static final RegistryObject<Item> EXOTIC_BOOTS = REGISTRY.register("exotic_boots", () -> new ExoticItem.Boots());
-	public static final RegistryObject<Item> UNOBTAINIUM_HELMET = REGISTRY.register("unobtainium_helmet", () -> new UnobtainiumItem.Helmet());
-	public static final RegistryObject<Item> UNOBTAINIUM_CHESTPLATE = REGISTRY.register("unobtainium_chestplate", () -> new UnobtainiumItem.Chestplate());
-	public static final RegistryObject<Item> UNOBTAINIUM_LEGGINGS = REGISTRY.register("unobtainium_leggings", () -> new UnobtainiumItem.Leggings());
-	public static final RegistryObject<Item> UNOBTAINIUM_BOOTS = REGISTRY.register("unobtainium_boots", () -> new UnobtainiumItem.Boots());
-	public static final RegistryObject<Item> CYBER_HELMET = REGISTRY.register("cyber_helmet", () -> new CyberItem.Helmet());
-	public static final RegistryObject<Item> CYBER_CHESTPLATE = REGISTRY.register("cyber_chestplate", () -> new CyberItem.Chestplate());
-	public static final RegistryObject<Item> CYBER_LEGGINGS = REGISTRY.register("cyber_leggings", () -> new CyberItem.Leggings());
-	public static final RegistryObject<Item> CYBER_BOOTS = REGISTRY.register("cyber_boots", () -> new CyberItem.Boots());
-	public static final RegistryObject<Item> BLOOD_HELMET = REGISTRY.register("blood_helmet", () -> new BloodItem.Helmet());
-	public static final RegistryObject<Item> BLOOD_CHESTPLATE = REGISTRY.register("blood_chestplate", () -> new BloodItem.Chestplate());
-	public static final RegistryObject<Item> BLOOD_LEGGINGS = REGISTRY.register("blood_leggings", () -> new BloodItem.Leggings());
-	public static final RegistryObject<Item> BLOOD_BOOTS = REGISTRY.register("blood_boots", () -> new BloodItem.Boots());
 	public static final RegistryObject<Item> CYBERBLOOD_HELMET = REGISTRY.register("cyberblood_helmet", () -> new CyberbloodItem.Helmet());
 	public static final RegistryObject<Item> CYBERBLOOD_CHESTPLATE = REGISTRY.register("cyberblood_chestplate", () -> new CyberbloodItem.Chestplate());
 	public static final RegistryObject<Item> CYBERBLOOD_LEGGINGS = REGISTRY.register("cyberblood_leggings", () -> new CyberbloodItem.Leggings());
@@ -470,30 +317,6 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_LAY, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_LAY_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_lay_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_LAY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("enraged_normal_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_NORMAL, -10682368, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> BLUE_ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("blue_enraged_normal_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BLUE_ENRAGED_NORMAL, -14933617, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> PURPLE_ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("purple_enraged_normal_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.PURPLE_ENRAGED_NORMAL, -13696931, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> ORANGE_ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("orange_enraged_normal_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ORANGE_ENRAGED_NORMAL, -16777216, -4627689, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> ENRAGED_BOOM_SPAWN_EGG = REGISTRY.register("enraged_boom_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_BOOM, -10682368, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> BLUE_ENRAGED_BOOM_SPAWN_EGG = REGISTRY.register("blue_enraged_boom_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BLUE_ENRAGED_BOOM, -14933617, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> PURPLE_ENRAGED_BOOM_SPAWN_EGG = REGISTRY.register("purple_enraged_boom_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.PURPLE_ENRAGED_BOOM, -13696931, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> ORANGE_ENRAGED_BOOM_SPAWN_EGG = REGISTRY.register("orange_enraged_boom_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ORANGE_ENRAGED_BOOM, -16777216, -4627689, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("enraged_speed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_SPEED, -10682368, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> BLUE_ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("blue_enraged_speed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.BLUE_ENRAGED_SPEED, -14933617, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> PURPLE_ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("purple_enraged_speed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.PURPLE_ENRAGED_SPEED, -13696931, -16777216, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> ORANGE_ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("orange_enraged_speed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ORANGE_ENRAGED_SPEED, -16777216, -4627689, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
 	public static final RegistryObject<Item> MINI_BAN_HAMMER = REGISTRY.register("mini_ban_hammer", () -> new MiniBanHammerItem());
 	public static final RegistryObject<Item> BAN_HAMMER = REGISTRY.register("ban_hammer", () -> new BanHammerItem());
 	public static final RegistryObject<Item> BIG_BAN_HAMMER = REGISTRY.register("big_ban_hammer", () -> new BigBanHammerItem());
@@ -527,7 +350,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> IDEAGIVER_CHESTPLATE = REGISTRY.register("ideagiver_chestplate", () -> new ContributorItem.Chestplate());
 	public static final RegistryObject<Item> IDEAGIVER_LEGGINGS = REGISTRY.register("ideagiver_leggings", () -> new ContributorItem.Leggings());
 	public static final RegistryObject<Item> IDEAGIVER_BOOTS = REGISTRY.register("ideagiver_boots", () -> new ContributorItem.Boots());
-	public static final RegistryObject<Item> ENGIE_GAMES_GUI_SPAWN_EGG = REGISTRY.register("engie_games_gui_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_GAMES_GUI, -10763008, -1194203, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> TESTER_HELMET = REGISTRY.register("tester_helmet", () -> new TesterItem.Helmet());
 	public static final RegistryObject<Item> TESTER_CHESTPLATE = REGISTRY.register("tester_chestplate", () -> new TesterItem.Chestplate());
 	public static final RegistryObject<Item> TESTER_LEGGINGS = REGISTRY.register("tester_leggings", () -> new TesterItem.Leggings());
@@ -556,7 +378,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENRAGED_ZOMBIES_PLAQUE = REGISTRY.register("enraged_zombies_plaque", () -> new EnragedZombiesPlaqueItem());
 	public static final RegistryObject<Item> ALL_ABOUT_ENGIE_PLAQUE = REGISTRY.register("all_about_engie_plaque", () -> new AllAboutEngiePlaqueItem());
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_2 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_2, null);
-	public static final RegistryObject<Item> THANKS_FOR_PLAYING_3 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_3, null);
 	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER = REGISTRY.register("comically_massive_ban_hammer", () -> new ComicallyMassiveBanHammerItem());
 	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER_PIXEL = REGISTRY.register("comically_massive_ban_hammer_pixel", () -> new ComicallyMassiveBanHammerPixelItem());
 	public static final RegistryObject<Item> CODE_REDEEMERS_HAMMER = REGISTRY.register("code_redeemers_hammer", () -> new CodeRedeemersHammerItem());
@@ -568,6 +389,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TOBY_SPAWN_EGG = REGISTRY.register("toby_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.TOBY, -5329997, -13551280, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> TOBY_LAY_SPAWN_EGG = REGISTRY.register("toby_lay_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.TOBY_LAY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> CYBER_ORE = block(AllaboutengieModBlocks.CYBER_ORE, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> BLOOD_ORE = block(AllaboutengieModBlocks.BLOOD_ORE, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

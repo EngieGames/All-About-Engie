@@ -14,6 +14,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
@@ -71,7 +72,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("\"Happy holidays!\" -DevEngie(Games)"));
+			list.add(new TextComponent("\"Happy holidays!\" -DevEngie(Games)"));
 		}
 
 		@Override
@@ -88,7 +89,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("\"Happy holidays!\" -DevEngie(Games)"));
+			list.add(new TextComponent("\"Happy holidays!\" -DevEngie(Games)"));
 		}
 
 		@Override
@@ -105,7 +106,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("\"Happy holidays!\" -DevEngie(Games)"));
+			list.add(new TextComponent("\"Happy holidays!\" -DevEngie(Games)"));
 		}
 
 		@Override
@@ -122,7 +123,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("\"Happy holidays!\" -DevEngie(Games)"));
+			list.add(new TextComponent("\"Happy holidays!\" -DevEngie(Games)"));
 		}
 
 		@Override

@@ -1,7 +1,0 @@
-{
-  "parent": "allaboutengie:custom/enragedcoin",
-  "textures": {
-    "0": "allaboutengie:blocks/cointexture",
-    "particle": "allaboutengie:items/enragedcoinitem"
-  }
-}

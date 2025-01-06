@@ -8,6 +8,5 @@
     "south": "allaboutengie:blocks/oldengitableside",
     "west": "allaboutengie:blocks/oldengitableside",
     "particle": "allaboutengie:blocks/oldengitablebottom"
-  },
-  "render_type": "solid"
+  }
 }

@@ -8,6 +8,5 @@
     "south": "allaboutengie:blocks/bloodore",
     "west": "allaboutengie:blocks/bloodore",
     "particle": "allaboutengie:blocks/bloodore"
-  },
-  "render_type": "solid"
+  }
 }

@@ -9,6 +9,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.allaboutengie.procedures.KickFromKickBanHammerProcedure;
@@ -55,6 +56,6 @@ public class KickBanHammerPixelItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\"You have been kicked by an operator using the Kick Ban Hammer Pixel.\" Reducing Model Lag. Also an easter egg by the way. ;)"));
+		list.add(new TextComponent("\"You have been kicked by an operator using the Kick Ban Hammer Pixel.\" Reducing Model Lag. Also an easter egg by the way. ;)"));
 	}
 }

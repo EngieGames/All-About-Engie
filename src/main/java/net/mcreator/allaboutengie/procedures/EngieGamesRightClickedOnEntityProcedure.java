@@ -1,18 +1,19 @@
 package net.mcreator.allaboutengie.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
-import net.mcreator.allaboutengie.AllaboutengieMod;
 
 import java.util.Iterator;
 
@@ -34,98 +35,203 @@ public class EngieGamesRightClickedOnEntityProcedure {
 				}
 				{
 					Entity _ent = entity;
-					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(
-								new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
-										_ent.level.getServer(), _ent),
+					if (!_ent.level.isClientSide() && _ent.getServer() != null)
+						_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
 								"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"obfuscated\":true,\"color\":\"red\"},{\"text\":\"> Hey, I've been waiting. You probably don't know who I am. Lets just put it this way.\"}]");
-					}
 				}
-				AllaboutengieMod.queueServerWork(200, () -> {
-					{
-						Entity _ent = entity;
-						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands()
-									.performPrefixedCommand(
-											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-													_ent.getDisplayName(), _ent.level.getServer(), _ent),
-											"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> I am Engie, also known as EngieGames or clippedbyengie.\"}]");
+				new Object() {
+					private int ticks = 0;
+					private float waitTicks;
+					private LevelAccessor world;
+
+					public void start(LevelAccessor world, int waitTicks) {
+						this.waitTicks = waitTicks;
+						MinecraftForge.EVENT_BUS.register(this);
+						this.world = world;
+					}
+
+					@SubscribeEvent
+					public void tick(TickEvent.ServerTickEvent event) {
+						if (event.phase == TickEvent.Phase.END) {
+							this.ticks += 1;
+							if (this.ticks >= this.waitTicks)
+								run();
 						}
 					}
-					AllaboutengieMod.queueServerWork(160, () -> {
+
+					private void run() {
 						{
 							Entity _ent = entity;
-							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(
-										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
-												_ent.level.getServer(), _ent),
-										"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> I'm impressed you found me, I ditched for quite the long time. The others.. You have no clue what happened to them.\"}]");
-							}
+							if (!_ent.level.isClientSide() && _ent.getServer() != null)
+								_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+										"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> I am Engie, also known as EngieGames or clippedbyengie.\"}]");
 						}
-						AllaboutengieMod.queueServerWork(200, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(
-											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-													_ent.getDisplayName(), _ent.level.getServer(), _ent),
-											"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> Let's just put it right here. They're... well... \"},{\"text\":\"dead\",\"underlined\":true},{\"text\":\".\"}]");
+						new Object() {
+							private int ticks = 0;
+							private float waitTicks;
+							private LevelAccessor world;
+
+							public void start(LevelAccessor world, int waitTicks) {
+								this.waitTicks = waitTicks;
+								MinecraftForge.EVENT_BUS.register(this);
+								this.world = world;
+							}
+
+							@SubscribeEvent
+							public void tick(TickEvent.ServerTickEvent event) {
+								if (event.phase == TickEvent.Phase.END) {
+									this.ticks += 1;
+									if (this.ticks >= this.waitTicks)
+										run();
 								}
 							}
-							AllaboutengieMod.queueServerWork(200, () -> {
+
+							private void run() {
 								{
 									Entity _ent = entity;
-									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-										_ent.getServer().getCommands().performPrefixedCommand(
-												new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-														_ent.getDisplayName(), _ent.level.getServer(), _ent),
-												"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> But hey, thanks for finding me. I'm still shook after the \"},{\"text\":\"incident\",\"bold\":true},{\"text\":\"...\"}]");
-									}
+									if (!_ent.level.isClientSide() && _ent.getServer() != null)
+										_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+												"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> I'm impressed you found me, I ditched for quite the long time. The others.. You have no clue what happened to them.\"}]");
 								}
-								AllaboutengieMod.queueServerWork(160, () -> {
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(
-													new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-															_ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"[AAE Developer] clippedbyengie\",\"color\":\"red\"},{\"text\":\"> And that's that! Thanks for playing the new mode! I'm now going to change the gamerule back to normal. Have fun!\"}]");
+								new Object() {
+									private int ticks = 0;
+									private float waitTicks;
+									private LevelAccessor world;
+
+									public void start(LevelAccessor world, int waitTicks) {
+										this.waitTicks = waitTicks;
+										MinecraftForge.EVENT_BUS.register(this);
+										this.world = world;
+									}
+
+									@SubscribeEvent
+									public void tick(TickEvent.ServerTickEvent event) {
+										if (event.phase == TickEvent.Phase.END) {
+											this.ticks += 1;
+											if (this.ticks >= this.waitTicks)
+												run();
 										}
 									}
-									AllaboutengieMod.queueServerWork(220, () -> {
+
+									private void run() {
 										{
 											Entity _ent = entity;
-											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-												_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-														_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-														"advancement grant @p only allaboutengie:found_engie");
-											}
+											if (!_ent.level.isClientSide() && _ent.getServer() != null)
+												_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+														"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> Let's just put it right here. They're... well... \"},{\"text\":\"dead\",\"underlined\":true},{\"text\":\".\"}]");
 										}
-										if (world instanceof Level _level)
-											_level.getGameRules().getRule(AllaboutengieModGameRules.DETECTIVE_FIND_ENGIE).set(false, _level.getServer());
-										{
-											Entity _ent = entity;
-											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-												_ent.getServer().getCommands().performPrefixedCommand(
-														new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-																_ent.getDisplayName(), _ent.level.getServer(), _ent),
-														"tellraw @p [\"\",{\"text\":\"clippedbyengie has changed the gamerule detectiveFindEngie\",\"italic\":true,\"color\":\"gray\"},{\"text\":\" to false\",\"italic\":true,\"color\":\"gray\"}]");
+										new Object() {
+											private int ticks = 0;
+											private float waitTicks;
+											private LevelAccessor world;
+
+											public void start(LevelAccessor world, int waitTicks) {
+												this.waitTicks = waitTicks;
+												MinecraftForge.EVENT_BUS.register(this);
+												this.world = world;
 											}
-										}
-									});
-								});
-							});
-						});
-					});
-				});
+
+											@SubscribeEvent
+											public void tick(TickEvent.ServerTickEvent event) {
+												if (event.phase == TickEvent.Phase.END) {
+													this.ticks += 1;
+													if (this.ticks >= this.waitTicks)
+														run();
+												}
+											}
+
+											private void run() {
+												{
+													Entity _ent = entity;
+													if (!_ent.level.isClientSide() && _ent.getServer() != null)
+														_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+																"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> But hey, thanks for finding me. I'm still shook after the \"},{\"text\":\"incident\",\"bold\":true},{\"text\":\"...\"}]");
+												}
+												new Object() {
+													private int ticks = 0;
+													private float waitTicks;
+													private LevelAccessor world;
+
+													public void start(LevelAccessor world, int waitTicks) {
+														this.waitTicks = waitTicks;
+														MinecraftForge.EVENT_BUS.register(this);
+														this.world = world;
+													}
+
+													@SubscribeEvent
+													public void tick(TickEvent.ServerTickEvent event) {
+														if (event.phase == TickEvent.Phase.END) {
+															this.ticks += 1;
+															if (this.ticks >= this.waitTicks)
+																run();
+														}
+													}
+
+													private void run() {
+														{
+															Entity _ent = entity;
+															if (!_ent.level.isClientSide() && _ent.getServer() != null)
+																_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+																		"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"[AAE Developer] clippedbyengie\",\"color\":\"red\"},{\"text\":\"> And that's that! Thanks for playing the new mode! I'm now going to change the gamerule back to normal. Have fun!\"}]");
+														}
+														new Object() {
+															private int ticks = 0;
+															private float waitTicks;
+															private LevelAccessor world;
+
+															public void start(LevelAccessor world, int waitTicks) {
+																this.waitTicks = waitTicks;
+																MinecraftForge.EVENT_BUS.register(this);
+																this.world = world;
+															}
+
+															@SubscribeEvent
+															public void tick(TickEvent.ServerTickEvent event) {
+																if (event.phase == TickEvent.Phase.END) {
+																	this.ticks += 1;
+																	if (this.ticks >= this.waitTicks)
+																		run();
+																}
+															}
+
+															private void run() {
+																{
+																	Entity _ent = entity;
+																	if (!_ent.level.isClientSide() && _ent.getServer() != null)
+																		_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "advancement grant @p only allaboutengie:found_engie");
+																}
+																if (world instanceof Level _level)
+																	_level.getGameRules().getRule(AllaboutengieModGameRules.DETECTIVE_FIND_ENGIE).set(false, _level.getServer());
+																{
+																	Entity _ent = entity;
+																	if (!_ent.level.isClientSide() && _ent.getServer() != null)
+																		_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+																				"tellraw @p [\"\",{\"text\":\"clippedbyengie has changed the gamerule detectiveFindEngie\",\"italic\":true,\"color\":\"gray\"},{\"text\":\" to false\",\"italic\":true,\"color\":\"gray\"}]");
+																}
+																MinecraftForge.EVENT_BUS.unregister(this);
+															}
+														}.start(world, 220);
+														MinecraftForge.EVENT_BUS.unregister(this);
+													}
+												}.start(world, 160);
+												MinecraftForge.EVENT_BUS.unregister(this);
+											}
+										}.start(world, 200);
+										MinecraftForge.EVENT_BUS.unregister(this);
+									}
+								}.start(world, 200);
+								MinecraftForge.EVENT_BUS.unregister(this);
+							}
+						}.start(world, 160);
+						MinecraftForge.EVENT_BUS.unregister(this);
+					}
+				}.start(world, 200);
 			}
 		} else {
 			{
 				Entity _ent = entity;
-				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Let the man be.\",\"bold\":true,\"color\":\"gold\"}");
-				}
+				if (!_ent.level.isClientSide() && _ent.getServer() != null)
+					_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "tellraw @p {\"text\":\"Let the man be.\",\"bold\":true,\"color\":\"gold\"}");
 			}
 		}
 	}

@@ -24,7 +24,7 @@ import net.mcreator.allaboutengie.block.entity.MetalChestAcaciaBlockEntity;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 public class AllaboutengieModBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, AllaboutengieMod.MODID);
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, AllaboutengieMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> METAL_TABLE = register("metal_table", AllaboutengieModBlocks.METAL_TABLE, MetalTableBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST = register("metal_chest", AllaboutengieModBlocks.METAL_CHEST, MetalChestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_OAK = register("metal_chest_oak", AllaboutengieModBlocks.METAL_CHEST_OAK, MetalChestOakBlockEntity::new);

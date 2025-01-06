@@ -13,7 +13,6 @@ import net.mcreator.allaboutengie.client.model.Modeltobysit;
 import net.mcreator.allaboutengie.client.model.Modeltoby;
 import net.mcreator.allaboutengie.client.model.Modeloutraged_new;
 import net.mcreator.allaboutengie.client.model.Modeloldboyo;
-import net.mcreator.allaboutengie.client.model.Modelenraged_new;
 import net.mcreator.allaboutengie.client.model.Modelenraged_boom;
 import net.mcreator.allaboutengie.client.model.Modelboyosit;
 import net.mcreator.allaboutengie.client.model.Modelboyo;
@@ -37,6 +36,5 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modeltoby.LAYER_LOCATION, Modeltoby::createBodyLayer);
 		event.registerLayerDefinition(ModelEngie.LAYER_LOCATION, ModelEngie::createBodyLayer);
 		event.registerLayerDefinition(Modeloutraged_new.LAYER_LOCATION, Modeloutraged_new::createBodyLayer);
-		event.registerLayerDefinition(Modelenraged_new.LAYER_LOCATION, Modelenraged_new::createBodyLayer);
 	}
 }
