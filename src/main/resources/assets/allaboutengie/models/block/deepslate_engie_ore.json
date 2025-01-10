@@ -8,5 +8,6 @@
     "south": "allaboutengie:blocks/deepslateengi",
     "west": "allaboutengie:blocks/deepslateengi",
     "particle": "allaboutengie:blocks/deepslateengi"
-  }
+  },
+  "render_type": "solid"
 }

@@ -8,5 +8,6 @@
     "south": "allaboutengie:blocks/thanksforplaying",
     "west": "allaboutengie:blocks/thanksforplaying",
     "particle": "allaboutengie:blocks/thanksforplaying"
-  }
+  },
+  "render_type": "solid"
 }

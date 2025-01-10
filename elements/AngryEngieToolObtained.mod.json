@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "I'm mildly disturbed now having this..",
-    "achievementDescription": "Obtain one of the Angry Engie tools.",
+    "achievementDescription": "Obtain your first Angry Engie tool.",
     "achievementIcon": {
       "value": "CUSTOM:AngryEngiePickaxe"
     },

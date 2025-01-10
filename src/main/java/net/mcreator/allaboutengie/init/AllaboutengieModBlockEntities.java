@@ -24,8 +24,7 @@ import net.mcreator.allaboutengie.block.entity.MetalChestAcaciaBlockEntity;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 public class AllaboutengieModBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, AllaboutengieMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> METAL_TABLE = register("metal_table", AllaboutengieModBlocks.METAL_TABLE, MetalTableBlockEntity::new);
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, AllaboutengieMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST = register("metal_chest", AllaboutengieModBlocks.METAL_CHEST, MetalChestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_OAK = register("metal_chest_oak", AllaboutengieModBlocks.METAL_CHEST_OAK, MetalChestOakBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_DARK_OAK = register("metal_chest_dark_oak", AllaboutengieModBlocks.METAL_CHEST_DARK_OAK, MetalChestDarkOakBlockEntity::new);
@@ -35,6 +34,7 @@ public class AllaboutengieModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_WARPED = register("metal_chest_warped", AllaboutengieModBlocks.METAL_CHEST_WARPED, MetalChestWarpedBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_CRIMSON = register("metal_chest_crimson", AllaboutengieModBlocks.METAL_CHEST_CRIMSON, MetalChestCrimsonBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_JUNGLE = register("metal_chest_jungle", AllaboutengieModBlocks.METAL_CHEST_JUNGLE, MetalChestJungleBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> METAL_TABLE = register("metal_table", AllaboutengieModBlocks.METAL_TABLE, MetalTableBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

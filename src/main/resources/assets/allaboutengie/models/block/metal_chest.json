@@ -4,5 +4,6 @@
     "all": "allaboutengie:blocks/metalchest",
     "particle": "allaboutengie:blocks/oldchest",
     "0": "allaboutengie:blocks/metalchest"
-  }
+  },
+  "render_type": "solid"
 }

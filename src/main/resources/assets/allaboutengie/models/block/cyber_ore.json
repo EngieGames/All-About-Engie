@@ -8,5 +8,6 @@
     "south": "allaboutengie:blocks/cyberore",
     "west": "allaboutengie:blocks/cyberore",
     "particle": "allaboutengie:blocks/cyberore"
-  }
+  },
+  "render_type": "solid"
 }

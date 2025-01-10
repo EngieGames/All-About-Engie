@@ -2,7 +2,10 @@ package net.mcreator.allaboutengie.procedures;
 
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 public class EGMSProProcedure {
 	public static void execute(Entity entity) {
@@ -11,38 +14,46 @@ public class EGMSProProcedure {
 		if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 			{
 				Entity _ent = entity;
-				if (!_ent.level.isClientSide() && _ent.getServer() != null)
-					_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "execute if entity DevEngie run gamemode survival");
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "execute if entity DevEngie run gamemode survival");
+				}
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("egmc, egmsp, egma for other modes"), true);
+				_player.displayClientMessage(Component.literal("egmc, egmsp, egma for other modes"), true);
 		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] DevEngie")) {
 			{
 				Entity _ent = entity;
-				if (!_ent.level.isClientSide() && _ent.getServer() != null)
-					_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "execute if entity DevEngie run gamemode survival");
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "execute if entity DevEngie run gamemode survival");
+				}
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("egmc, egmsp, egma for other modes"), true);
+				_player.displayClientMessage(Component.literal("egmc, egmsp, egma for other modes"), true);
 		} else if ((entity.getDisplayName().getString()).equals("Dev")) {
 			{
 				Entity _ent = entity;
-				if (!_ent.level.isClientSide() && _ent.getServer() != null)
-					_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "execute if entity Dev run gamemode survival");
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "execute if entity Dev run gamemode survival");
+				}
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("egmc, egmsp, egma for other modes"), true);
+				_player.displayClientMessage(Component.literal("egmc, egmsp, egma for other modes"), true);
 		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] Dev")) {
 			{
 				Entity _ent = entity;
-				if (!_ent.level.isClientSide() && _ent.getServer() != null)
-					_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4), "execute if entity Dev run gamemode survival");
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "execute if entity Dev run gamemode survival");
+				}
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("egmc, egmsp, egma for other modes"), true);
+				_player.displayClientMessage(Component.literal("egmc, egmsp, egma for other modes"), true);
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("Sorry! This command is limited to just DevEngie."), true);
+				_player.displayClientMessage(Component.literal("Sorry! This command is limited to just DevEngie."), true);
 		}
 	}
 }

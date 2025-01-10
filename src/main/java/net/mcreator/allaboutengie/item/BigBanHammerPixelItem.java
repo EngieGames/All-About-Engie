@@ -34,6 +34,6 @@ public class BigBanHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.25f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
+		}, 3, -2.25f, new Item.Properties().tab(AllaboutengieModTabs.TAB_PIXEL_ITEMS));
 	}
 }

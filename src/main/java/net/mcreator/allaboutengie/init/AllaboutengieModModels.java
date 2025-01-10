@@ -13,7 +13,7 @@ import net.mcreator.allaboutengie.client.model.Modeltobysit;
 import net.mcreator.allaboutengie.client.model.Modeltoby;
 import net.mcreator.allaboutengie.client.model.Modeloutraged_new;
 import net.mcreator.allaboutengie.client.model.Modeloldboyo;
-import net.mcreator.allaboutengie.client.model.Modelenraged_boom;
+import net.mcreator.allaboutengie.client.model.Modelenragedzombie;
 import net.mcreator.allaboutengie.client.model.Modelboyosit;
 import net.mcreator.allaboutengie.client.model.Modelboyo;
 import net.mcreator.allaboutengie.client.model.Modelangry_new;
@@ -27,11 +27,11 @@ public class AllaboutengieModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelEngieGames.LAYER_LOCATION, ModelEngieGames::createBodyLayer);
 		event.registerLayerDefinition(Modeltobysit.LAYER_LOCATION, Modeltobysit::createBodyLayer);
-		event.registerLayerDefinition(Modelenraged_boom.LAYER_LOCATION, Modelenraged_boom::createBodyLayer);
 		event.registerLayerDefinition(Modelangry_new.LAYER_LOCATION, Modelangry_new::createBodyLayer);
 		event.registerLayerDefinition(Modelboyo.LAYER_LOCATION, Modelboyo::createBodyLayer);
 		event.registerLayerDefinition(Modelboyosit.LAYER_LOCATION, Modelboyosit::createBodyLayer);
 		event.registerLayerDefinition(ModelMadEngie.LAYER_LOCATION, ModelMadEngie::createBodyLayer);
+		event.registerLayerDefinition(Modelenragedzombie.LAYER_LOCATION, Modelenragedzombie::createBodyLayer);
 		event.registerLayerDefinition(Modeloldboyo.LAYER_LOCATION, Modeloldboyo::createBodyLayer);
 		event.registerLayerDefinition(Modeltoby.LAYER_LOCATION, Modeltoby::createBodyLayer);
 		event.registerLayerDefinition(ModelEngie.LAYER_LOCATION, ModelEngie::createBodyLayer);

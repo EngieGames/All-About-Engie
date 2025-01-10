@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "exoticpickaxe",
+    "customModelName": "Normal",
+    "name": "Exotic Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 6,
+    "efficiency": 11.0,
+    "attackSpeed": 1.2,
+    "enchantability": 25,
+    "damageVsEntity": 8.0,
+    "usageCount": 4064,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

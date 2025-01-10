@@ -15,6 +15,6 @@ public class TobyLayRenderer extends MobRenderer<TobyLayEntity, Modelboyosit<Tob
 
 	@Override
 	public ResourceLocation getTextureLocation(TobyLayEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/rareengiesharko2newtamed.png");
+		return new ResourceLocation("allaboutengie:textures/entities/toby.png");
 	}
 }

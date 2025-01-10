@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "unobtainiumaxe",
+    "customModelName": "Normal",
+    "name": "Unobtainium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 30,
+    "damageVsEntity": 13.0,
+    "usageCount": 5080,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -57,20 +57,20 @@ public class AllaboutengieModVariables {
 	public static class EventBusVariableHandlers {
 		@SubscribeEvent
 		public static void onPlayerLoggedInSyncPlayerVariables(PlayerEvent.PlayerLoggedInEvent event) {
-			if (!event.getPlayer().level.isClientSide())
-				((PlayerVariables) event.getPlayer().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getPlayer());
+			if (!event.getEntity().level.isClientSide())
+				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
 		}
 
 		@SubscribeEvent
 		public static void onPlayerRespawnedSyncPlayerVariables(PlayerEvent.PlayerRespawnEvent event) {
-			if (!event.getPlayer().level.isClientSide())
-				((PlayerVariables) event.getPlayer().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getPlayer());
+			if (!event.getEntity().level.isClientSide())
+				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
 		}
 
 		@SubscribeEvent
 		public static void onPlayerChangedDimensionSyncPlayerVariables(PlayerEvent.PlayerChangedDimensionEvent event) {
-			if (!event.getPlayer().level.isClientSide())
-				((PlayerVariables) event.getPlayer().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getPlayer());
+			if (!event.getEntity().level.isClientSide())
+				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
 		}
 
 		@SubscribeEvent
@@ -80,6 +80,7 @@ public class AllaboutengieModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.detecstart = original.detecstart;
 			clone.coderedeemblock = original.coderedeemblock;
+			clone.coincount = original.coincount;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -87,22 +88,22 @@ public class AllaboutengieModVariables {
 
 		@SubscribeEvent
 		public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-			if (!event.getPlayer().level.isClientSide()) {
-				SavedData mapdata = MapVariables.get(event.getPlayer().level);
-				SavedData worlddata = WorldVariables.get(event.getPlayer().level);
+			if (!event.getEntity().level.isClientSide()) {
+				SavedData mapdata = MapVariables.get(event.getEntity().level);
+				SavedData worlddata = WorldVariables.get(event.getEntity().level);
 				if (mapdata != null)
-					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getPlayer()), new SavedDataSyncMessage(0, mapdata));
+					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(0, mapdata));
 				if (worlddata != null)
-					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getPlayer()), new SavedDataSyncMessage(1, worlddata));
+					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(1, worlddata));
 			}
 		}
 
 		@SubscribeEvent
 		public static void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
-			if (!event.getPlayer().level.isClientSide()) {
-				SavedData worlddata = WorldVariables.get(event.getPlayer().level);
+			if (!event.getEntity().level.isClientSide()) {
+				SavedData worlddata = WorldVariables.get(event.getEntity().level);
 				if (worlddata != null)
-					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getPlayer()), new SavedDataSyncMessage(1, worlddata));
+					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(1, worlddata));
 			}
 		}
 	}
@@ -252,6 +253,7 @@ public class AllaboutengieModVariables {
 		public boolean firstplay = false;
 		public boolean detecstart = false;
 		public boolean coderedeemblock = false;
+		public double coincount = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -263,6 +265,7 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("firstplay", firstplay);
 			nbt.putBoolean("detecstart", detecstart);
 			nbt.putBoolean("coderedeemblock", coderedeemblock);
+			nbt.putDouble("coincount", coincount);
 			return nbt;
 		}
 
@@ -271,6 +274,7 @@ public class AllaboutengieModVariables {
 			firstplay = nbt.getBoolean("firstplay");
 			detecstart = nbt.getBoolean("detecstart");
 			coderedeemblock = nbt.getBoolean("coderedeemblock");
+			coincount = nbt.getDouble("coincount");
 		}
 	}
 
@@ -298,6 +302,7 @@ public class AllaboutengieModVariables {
 					variables.firstplay = message.data.firstplay;
 					variables.detecstart = message.data.detecstart;
 					variables.coderedeemblock = message.data.coderedeemblock;
+					variables.coincount = message.data.coincount;
 				}
 			});
 			context.setPacketHandled(true);

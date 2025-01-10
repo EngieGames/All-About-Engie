@@ -5,7 +5,7 @@
     "mobName": "Toby [Laying]",
     "mobLabel": "Toby",
     "mobModelName": "Modelboyosit",
-    "mobModelTexture": "rareengiesharko2newtamed.png",
+    "mobModelTexture": "toby.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

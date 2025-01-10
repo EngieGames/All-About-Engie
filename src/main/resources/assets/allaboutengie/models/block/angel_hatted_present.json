@@ -8,5 +8,6 @@
     "2": "allaboutengie:blocks/boxengiesface",
     "3": "allaboutengie:blocks/boxedengie",
     "missing": "allaboutengie:blocks/"
-  }
+  },
+  "render_type": "translucent"
 }

@@ -24,7 +24,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.allaboutengie.procedures.TobyLayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
@@ -39,7 +39,7 @@ public class TobyLayEntity extends PathfinderMob {
 		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(new TextComponent("Toby"));
+		setCustomName(Component.literal("Toby"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 	}

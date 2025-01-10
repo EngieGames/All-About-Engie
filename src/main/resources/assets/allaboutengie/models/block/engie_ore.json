@@ -8,5 +8,6 @@
     "south": "allaboutengie:blocks/engiore",
     "west": "allaboutengie:blocks/engiore",
     "particle": "allaboutengie:blocks/engiore"
-  }
+  },
+  "render_type": "solid"
 }

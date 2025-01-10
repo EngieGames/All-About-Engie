@@ -4,11 +4,7 @@
     "allaboutengie:engie_block",
     "allaboutengie:angry_engie_block",
     "allaboutengie:enraged_engie_block",
-    "allaboutengie:engie_ore",
-    "allaboutengie:deepslate_engie_ore",
-    "allaboutengie:metal_table",
-    "allaboutengie:old_engie_ore",
-    "allaboutengie:old_deepslate_engie_ore",
+    "allaboutengie:outraged_engie_block",
     "allaboutengie:metal_chest",
     "allaboutengie:metal_chest_oak",
     "allaboutengie:metal_chest_dark_oak",
@@ -18,6 +14,12 @@
     "allaboutengie:metal_chest_warped",
     "allaboutengie:metal_chest_crimson",
     "allaboutengie:metal_chest_jungle",
-    "allaboutengie:outraged_engie_block"
+    "allaboutengie:metal_table",
+    "allaboutengie:deepslate_engie_ore",
+    "allaboutengie:engie_ore",
+    "allaboutengie:unobtainium_ore",
+    "allaboutengie:deepslate_unobtainium_ore",
+    "allaboutengie:old_engie_ore",
+    "allaboutengie:old_deepslate_engie_ore"
   ]
 }

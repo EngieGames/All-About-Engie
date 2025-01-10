@@ -4,7 +4,7 @@ package net.mcreator.allaboutengie.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -39,7 +39,7 @@ public class MetalChestUIMenu extends AbstractContainerMenu implements Supplier<
 	private BlockEntity boundBlockEntity = null;
 
 	public MetalChestUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(AllaboutengieModMenus.METAL_CHEST_UI, id);
+		super(AllaboutengieModMenus.METAL_CHEST_UI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(112);
@@ -56,7 +56,7 @@ public class MetalChestUIMenu extends AbstractContainerMenu implements Supplier<
 				byte hand = extraData.readByte();
 				ItemStack itemstack = hand == 0 ? this.entity.getMainHandItem() : this.entity.getOffhandItem();
 				this.boundItemMatcher = () -> itemstack == (hand == 0 ? this.entity.getMainHandItem() : this.entity.getOffhandItem());
-				itemstack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+				itemstack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 					this.internal = capability;
 					this.bound = true;
 				});
@@ -64,14 +64,14 @@ public class MetalChestUIMenu extends AbstractContainerMenu implements Supplier<
 				extraData.readByte(); // drop padding
 				boundEntity = world.getEntity(extraData.readVarInt());
 				if (boundEntity != null)
-					boundEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+					boundEntity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;
 						this.bound = true;
 					});
 			} else { // might be bound to block
 				boundBlockEntity = this.world.getBlockEntity(pos);
 				if (boundBlockEntity != null)
-					boundBlockEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+					boundBlockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;
 						this.bound = true;
 					});
@@ -441,30 +441,25 @@ public class MetalChestUIMenu extends AbstractContainerMenu implements Supplier<
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
 			if (index < 112) {
-				if (!this.moveItemStackTo(itemstack1, 112, this.slots.size(), true)) {
+				if (!this.moveItemStackTo(itemstack1, 112, this.slots.size(), true))
 					return ItemStack.EMPTY;
-				}
 				slot.onQuickCraft(itemstack1, itemstack);
 			} else if (!this.moveItemStackTo(itemstack1, 0, 112, false)) {
 				if (index < 112 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 112 + 27, this.slots.size(), true)) {
+					if (!this.moveItemStackTo(itemstack1, 112 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
-					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 112, 112 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 112, 112 + 27, false))
 						return ItemStack.EMPTY;
-					}
 				}
 				return ItemStack.EMPTY;
 			}
-			if (itemstack1.getCount() == 0) {
+			if (itemstack1.getCount() == 0)
 				slot.set(ItemStack.EMPTY);
-			} else {
+			else
 				slot.setChanged();
-			}
-			if (itemstack1.getCount() == itemstack.getCount()) {
+			if (itemstack1.getCount() == itemstack.getCount())
 				return ItemStack.EMPTY;
-			}
 			slot.onTake(playerIn, itemstack1);
 		}
 		return itemstack;

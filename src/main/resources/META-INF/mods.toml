@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="MIT License"
 
 [[mods]]
 modId="allaboutengie"
-version="1.4.25"
+version="1.10.25"
 displayName="All About Engie"
 credits="yuh"
 displayURL="https://www.twitch.tv/engiegames"
@@ -15,7 +15,7 @@ description="Made with MCreator."
 [[dependencies.allaboutengie]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 

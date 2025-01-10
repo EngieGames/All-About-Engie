@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Dude what the actual living hell is this..?",
-    "achievementDescription": "Obtain one of the Engie tools.",
+    "achievementDescription": "Obtain your first Engie tool.",
     "achievementIcon": {
       "value": "CUSTOM:EngiePickaxe"
     },

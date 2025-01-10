@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "texture": "unobtainiumhoe",
+    "customModelName": "Normal",
+    "name": "Unobtainium Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 4.0,
+    "enchantability": 30,
+    "damageVsEntity": 1.0,
+    "usageCount": 5080,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

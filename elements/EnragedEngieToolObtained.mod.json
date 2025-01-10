@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "I wasted time for this and I'm extremely disturbed by this now..",
-    "achievementDescription": "Obtain one of the Enraged Engie tools.",
+    "achievementDescription": "Obtain your first Enraged Engie tool.",
     "achievementIcon": {
       "value": "CUSTOM:EnragedEngiePickaxe"
     },
