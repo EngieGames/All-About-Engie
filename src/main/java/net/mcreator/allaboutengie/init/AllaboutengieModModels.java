@@ -14,6 +14,7 @@ import net.mcreator.allaboutengie.client.model.Modeltoby;
 import net.mcreator.allaboutengie.client.model.Modeloutraged_new;
 import net.mcreator.allaboutengie.client.model.Modeloldboyo;
 import net.mcreator.allaboutengie.client.model.Modelenragedzombie;
+import net.mcreator.allaboutengie.client.model.Modelenraged_new;
 import net.mcreator.allaboutengie.client.model.Modelboyosit;
 import net.mcreator.allaboutengie.client.model.Modelboyo;
 import net.mcreator.allaboutengie.client.model.Modelangry_new;
