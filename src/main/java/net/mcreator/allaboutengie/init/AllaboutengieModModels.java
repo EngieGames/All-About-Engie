@@ -36,5 +36,6 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modeltoby.LAYER_LOCATION, Modeltoby::createBodyLayer);
 		event.registerLayerDefinition(ModelEngie.LAYER_LOCATION, ModelEngie::createBodyLayer);
 		event.registerLayerDefinition(Modeloutraged_new.LAYER_LOCATION, Modeloutraged_new::createBodyLayer);
+		event.registerLayerDefinition(Modelenraged_new.LAYER_LOCATION, Modelenraged_new::createBodyLayer);
 	}
 }
