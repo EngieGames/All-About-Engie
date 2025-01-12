@@ -20,12 +20,12 @@ public abstract class EngieSharkItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 600;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 40;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{300, 300, 300, 300}[slot.getIndex()];
+				return new int[]{40, 40, 40, 40}[slot.getIndex()];
 			}
 
 			@Override

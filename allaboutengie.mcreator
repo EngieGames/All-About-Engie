@@ -10100,6 +10100,70 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "CyberBlock",
+      "type": "block",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/blockstates/cyber_block.json",
+          "src/main/resources/assets/allaboutengie/models/item/cyber_block.json",
+          "src/main/resources/assets/allaboutengie/models/block/cyber_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/CyberBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BloodBlock",
+      "type": "block",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/block/blood_block.json",
+          "src/main/resources/assets/allaboutengie/blockstates/blood_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/BloodBlockBlock.java",
+          "src/main/resources/assets/allaboutengie/models/item/blood_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CyberbloodBlock",
+      "type": "block",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberblood_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/cyberblood_block.json",
+          "src/main/resources/assets/allaboutengie/blockstates/cyberblood_block.json",
+          "src/main/resources/assets/allaboutengie/models/block/cyberblood_block.json",
+          "src/main/java/net/mcreator/allaboutengie/block/CyberbloodBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10317,6 +10381,7 @@
       "item.allaboutengie.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
       "item.allaboutengie.toby_spawn_egg": "Toby Spawn Egg",
       "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "block.allaboutengie.cyberblood_block": "Cyberblood Block",
       "item.aae_items.engi_pickaxe": "Engi Pickaxe",
       "item.aae_items.dough": "Dough",
       "item.allaboutengie.engie_sharko_rare_spawn_egg": "Engie Sharko Spawn Egg",
@@ -10420,6 +10485,7 @@
       "item.allaboutengie.uncommon_shovel": "Uncommon Shovel",
       "item.aae_items.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
       "item.allaboutengie.epic_sword": "Epic Sword",
+      "block.allaboutengie.blood_block": "Blood Block",
       "item.allaboutengie.outraged_engie_hoe": "Outraged Engie Hoe",
       "block.allaboutengie.unobtainium_ore": "Unobtainium Ore",
       "item.allaboutengie.rare_hoe": "Rare Hoe",
@@ -10620,6 +10686,7 @@
       "advancements.new_world_new_problem.descr": "Create a world with the new All About Engie gamerule enabled.",
       "item.allaboutengie.mythic_pickaxe": "Mythic Pickaxe",
       "entity.allaboutengie.common_engie": "Common Engie",
+      "block.allaboutengie.cyber_block": "Cyber Block",
       "item.allaboutengie.comically_massive_ban_hammer_pixel": "Pixelized Comically Massive Ban Hammer",
       "item.allaboutengie.engie_sharko_cloth": "Engie Sharko Cloth",
       "item.aae_items.operators_axe": "Operators Axe",

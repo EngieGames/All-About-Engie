@@ -25,7 +25,7 @@ public abstract class BloodItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{250, 250, 250, 250}[slot.getIndex()];
+				return new int[]{25, 25, 25, 25}[slot.getIndex()];
 			}
 
 			@Override

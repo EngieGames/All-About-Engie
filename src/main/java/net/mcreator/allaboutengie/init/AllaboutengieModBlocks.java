@@ -32,8 +32,11 @@ import net.mcreator.allaboutengie.block.EngieOreBlock;
 import net.mcreator.allaboutengie.block.EngieBlockBlock;
 import net.mcreator.allaboutengie.block.DeepslateUnobtainiumOreBlock;
 import net.mcreator.allaboutengie.block.DeepslateEngieOreBlock;
+import net.mcreator.allaboutengie.block.CyberbloodBlockBlock;
 import net.mcreator.allaboutengie.block.CyberOreBlock;
+import net.mcreator.allaboutengie.block.CyberBlockBlock;
 import net.mcreator.allaboutengie.block.BloodOreBlock;
+import net.mcreator.allaboutengie.block.BloodBlockBlock;
 import net.mcreator.allaboutengie.block.AngryEngieBlockBlock;
 import net.mcreator.allaboutengie.block.AngelHattedPresentBlock;
 import net.mcreator.allaboutengie.AllaboutengieMod;
@@ -66,4 +69,7 @@ public class AllaboutengieModBlocks {
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING = REGISTRY.register("thanks_for_playing", () -> new ThanksForPlayingBlock());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_2 = REGISTRY.register("thanks_for_playing_2", () -> new ThanksForPlaying2Block());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_3 = REGISTRY.register("thanks_for_playing_3", () -> new ThanksForPlaying3Block());
+	public static final RegistryObject<Block> CYBER_BLOCK = REGISTRY.register("cyber_block", () -> new CyberBlockBlock());
+	public static final RegistryObject<Block> BLOOD_BLOCK = REGISTRY.register("blood_block", () -> new BloodBlockBlock());
+	public static final RegistryObject<Block> CYBERBLOOD_BLOCK = REGISTRY.register("cyberblood_block", () -> new CyberbloodBlockBlock());
 }

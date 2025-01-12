@@ -1,4 +1,5 @@
 {
+  "group": "bloodhelmet",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",

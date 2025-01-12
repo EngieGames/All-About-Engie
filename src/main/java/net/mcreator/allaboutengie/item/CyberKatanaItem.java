@@ -20,7 +20,7 @@ public class CyberKatanaItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 248f;
+				return 23f;
 			}
 
 			public int getLevel() {
@@ -34,6 +34,6 @@ public class CyberKatanaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, 21f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 3, 1f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

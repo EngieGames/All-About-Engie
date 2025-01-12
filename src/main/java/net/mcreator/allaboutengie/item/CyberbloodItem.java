@@ -25,7 +25,7 @@ public abstract class CyberbloodItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{500, 500, 500, 500}[slot.getIndex()];
+				return new int[]{50, 50, 50, 50}[slot.getIndex()];
 			}
 
 			@Override

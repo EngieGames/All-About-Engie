@@ -20,12 +20,12 @@ public abstract class MythicSharkItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 400;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{200, 200, 200, 200}[slot.getIndex()];
+				return new int[]{20, 20, 20, 20}[slot.getIndex()];
 			}
 
 			@Override

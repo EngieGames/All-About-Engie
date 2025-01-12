@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "allaboutengie:exotic_sharko",
-    "weight": 15,
+    "weight": 5,
     "minCount": 1,
     "maxCount": 4
   }

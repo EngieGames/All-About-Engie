@@ -1,4 +1,5 @@
 {
+  "group": "food",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

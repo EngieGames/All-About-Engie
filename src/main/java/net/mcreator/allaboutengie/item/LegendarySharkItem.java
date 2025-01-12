@@ -20,12 +20,12 @@ public abstract class LegendarySharkItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 300;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{150, 150, 150, 150}[slot.getIndex()];
+				return new int[]{15, 15, 15, 15}[slot.getIndex()];
 			}
 
 			@Override

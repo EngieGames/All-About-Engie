@@ -20,12 +20,12 @@ public abstract class AlbinoSharkItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 100;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 5;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{50, 50, 50, 50}[slot.getIndex()];
+				return new int[]{5, 5, 5, 5}[slot.getIndex()];
 			}
 
 			@Override

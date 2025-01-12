@@ -546,6 +546,9 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CODE_REDEEMERS_LEGGINGS = REGISTRY.register("code_redeemers_leggings", () -> new CodeRedeemersItem.Leggings());
 	public static final RegistryObject<Item> CODE_REDEEMERS_BOOTS = REGISTRY.register("code_redeemers_boots", () -> new CodeRedeemersItem.Boots());
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_3 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_3, null);
+	public static final RegistryObject<Item> CYBER_BLOCK = block(AllaboutengieModBlocks.CYBER_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> BLOOD_BLOCK = block(AllaboutengieModBlocks.BLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> CYBERBLOOD_BLOCK = block(AllaboutengieModBlocks.CYBERBLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

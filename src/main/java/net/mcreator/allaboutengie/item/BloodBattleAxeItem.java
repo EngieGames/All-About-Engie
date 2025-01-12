@@ -20,7 +20,7 @@ public class BloodBattleAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 498f;
+				return 48f;
 			}
 
 			public int getLevel() {
@@ -34,6 +34,6 @@ public class BloodBattleAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, 8.5f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -3.5f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

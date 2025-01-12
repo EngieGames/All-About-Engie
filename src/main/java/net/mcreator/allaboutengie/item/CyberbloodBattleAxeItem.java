@@ -20,7 +20,7 @@ public class CyberbloodBattleAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 998f;
+				return 98f;
 			}
 
 			public int getLevel() {
@@ -34,6 +34,6 @@ public class CyberbloodBattleAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, 2.25f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }
