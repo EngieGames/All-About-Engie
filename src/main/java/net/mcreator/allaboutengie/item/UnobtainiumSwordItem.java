@@ -20,7 +20,7 @@ public class UnobtainiumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -1f;
+				return 9f;
 			}
 
 			public int getLevel() {
