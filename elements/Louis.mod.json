@@ -97,7 +97,7 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "TobyRC"
+      "name": "LouisRC"
     },
     "onMobTickUpdate": {
       "name": "SharkTamedOnEntityTickUpdate"

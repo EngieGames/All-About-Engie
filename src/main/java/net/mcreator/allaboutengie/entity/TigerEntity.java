@@ -33,7 +33,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.procedures.TobyRCProcedure;
+import net.mcreator.allaboutengie.procedures.TigerRCProcedure;
 import net.mcreator.allaboutengie.procedures.SharkTamedOnEntityTickUpdateProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -117,7 +117,7 @@ public class TigerEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TobyRCProcedure.execute(world, x, y, z, entity);
+		TigerRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 

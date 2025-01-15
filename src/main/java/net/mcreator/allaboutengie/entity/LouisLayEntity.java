@@ -26,7 +26,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.procedures.TobyLayRCProcedure;
+import net.mcreator.allaboutengie.procedures.LouisLayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class LouisLayEntity extends PathfinderMob {
@@ -99,7 +99,7 @@ public class LouisLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TobyLayRCProcedure.execute(world, x, y, z, entity);
+		LouisLayRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 
