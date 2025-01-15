@@ -465,7 +465,6 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> TOBY_SPAWN_EGG = REGISTRY.register("toby_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.TOBY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> SHARKO_LAY_SPAWN_EGG = REGISTRY.register("sharko_lay_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO_LAY, -12420148, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ALBINO_SHARKO_LAY_SPAWN_EGG = REGISTRY.register("albino_sharko_lay_spawn_egg",
@@ -484,8 +483,6 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_LAY, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_LAY_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_lay_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_LAY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> TOBY_LAY_SPAWN_EGG = REGISTRY.register("toby_lay_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.TOBY_LAY, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("enraged_normal_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_NORMAL, -16358652, -7405568, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
 	public static final RegistryObject<Item> ENRAGED_TNT_SPAWN_EGG = REGISTRY.register("enraged_tnt_spawn_egg",

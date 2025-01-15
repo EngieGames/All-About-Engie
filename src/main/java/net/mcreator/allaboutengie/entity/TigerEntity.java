@@ -37,17 +37,17 @@ import net.mcreator.allaboutengie.procedures.TobyRCProcedure;
 import net.mcreator.allaboutengie.procedures.SharkTamedOnEntityTickUpdateProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
-public class TobyEntity extends PathfinderMob {
-	public TobyEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.TOBY.get(), world);
+public class TigerEntity extends PathfinderMob {
+	public TigerEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(AllaboutengieModEntities.TIGER.get(), world);
 	}
 
-	public TobyEntity(EntityType<TobyEntity> type, Level world) {
+	public TigerEntity(EntityType<TigerEntity> type, Level world) {
 		super(type, world);
 		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(Component.literal("Toby"));
+		setCustomName(Component.literal("Tiger"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 	}

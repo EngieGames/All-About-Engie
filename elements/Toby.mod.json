@@ -14,7 +14,7 @@
     "modelHeight": 0.9,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -5329997,
       "falpha": 0.0
@@ -98,6 +98,9 @@
     },
     "onRightClickedOn": {
       "name": "TobyRC"
+    },
+    "onMobTickUpdate": {
+      "name": "SharkTamedOnEntityTickUpdate"
     },
     "hasAI": true,
     "aiBase": "(none)",

@@ -12,6 +12,9 @@ import net.minecraft.server.level.ServerLevel;
 
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 import net.mcreator.allaboutengie.entity.TobyEntity;
+import net.mcreator.allaboutengie.entity.TigerEntity;
+import net.mcreator.allaboutengie.entity.MarshalEntity;
+import net.mcreator.allaboutengie.entity.LouisEntity;
 
 import java.util.stream.Collectors;
 import java.util.List;
@@ -33,8 +36,44 @@ public class RareEngieTameTickProcedure {
 					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 				world.addFreshEntity(entityToSpawn);
 			}
+		} else if ((entity.getDisplayName().getString()).equals("Marshal")) {
+			if (!entity.level.isClientSide())
+				entity.discard();
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = new MarshalEntity(AllaboutengieModEntities.MARSHAL.get(), _level);
+				entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+				entityToSpawn.setYBodyRot(entity.getYRot());
+				entityToSpawn.setYHeadRot(entity.getYRot());
+				if (entityToSpawn instanceof Mob _mobToSpawn)
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+				world.addFreshEntity(entityToSpawn);
+			}
+		} else if ((entity.getDisplayName().getString()).equals("Tiger")) {
+			if (!entity.level.isClientSide())
+				entity.discard();
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = new TigerEntity(AllaboutengieModEntities.TIGER.get(), _level);
+				entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+				entityToSpawn.setYBodyRot(entity.getYRot());
+				entityToSpawn.setYHeadRot(entity.getYRot());
+				if (entityToSpawn instanceof Mob _mobToSpawn)
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+				world.addFreshEntity(entityToSpawn);
+			}
+		} else if ((entity.getDisplayName().getString()).equals("Louis")) {
+			if (!entity.level.isClientSide())
+				entity.discard();
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = new LouisEntity(AllaboutengieModEntities.LOUIS.get(), _level);
+				entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+				entityToSpawn.setYBodyRot(entity.getYRot());
+				entityToSpawn.setYHeadRot(entity.getYRot());
+				if (entityToSpawn instanceof Mob _mobToSpawn)
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+				world.addFreshEntity(entityToSpawn);
+			}
 		}
-		if (!(!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 25, 25, 25), e -> true).isEmpty())) {
+		if (!(!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 30, 30, 30), e -> true).isEmpty())) {
 			{
 				final Vec3 _center = new Vec3(x, y, z);
 				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
@@ -50,11 +89,11 @@ public class RareEngieTameTickProcedure {
 					}
 				}
 			}
-		} else if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 25, 25, 25), e -> true).isEmpty()) {
-			if (!(!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).isEmpty())) {
+		} else if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 30, 30, 30), e -> true).isEmpty()) {
+			if (!(!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 20, 20, 20), e -> true).isEmpty())) {
 				{
 					final Vec3 _center = new Vec3(x, y, z);
-					List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(12 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
+					List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(30 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
 							.collect(Collectors.toList());
 					for (Entity entityiterator : _entfound) {
 						if (entityiterator instanceof Player) {

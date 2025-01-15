@@ -8,12 +8,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -21,33 +16,30 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.procedures.TobyRCProcedure;
-import net.mcreator.allaboutengie.procedures.SharkTamedOnEntityTickUpdateProcedure;
+import net.mcreator.allaboutengie.procedures.TobyLayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
-public class TobyEntity extends PathfinderMob {
-	public TobyEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.TOBY.get(), world);
+public class LouisLayEntity extends PathfinderMob {
+	public LouisLayEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(AllaboutengieModEntities.LOUIS_LAY.get(), world);
 	}
 
-	public TobyEntity(EntityType<TobyEntity> type, Level world) {
+	public LouisLayEntity(EntityType<LouisLayEntity> type, Level world) {
 		super(type, world);
 		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(Component.literal("Toby"));
+		setCustomName(Component.literal("Louis"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 	}
@@ -60,19 +52,9 @@ public class TobyEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
-			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
-			}
-		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Monster.class, false, false));
-		this.goalSelector.addGoal(4, new LookAtPlayerGoal(this, Player.class, (float) 6));
-		this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
-		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(8, new FloatGoal(this));
+		this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, (float) 6));
+		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(3, new FloatGoal(this));
 	}
 
 	@Override
@@ -117,14 +99,8 @@ public class TobyEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TobyRCProcedure.execute(world, x, y, z, entity);
+		TobyLayRCProcedure.execute(world, x, y, z, entity);
 		return retval;
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		SharkTamedOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {
@@ -135,7 +111,7 @@ public class TobyEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
 		builder = builder.add(Attributes.MAX_HEALTH, 1024);
 		builder = builder.add(Attributes.ARMOR, 100);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 144);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}

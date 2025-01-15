@@ -2,10 +2,10 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Toby [Laying]",
-    "mobLabel": "Toby",
+    "mobName": "Louis [Laying]",
+    "mobLabel": "Louis",
     "mobModelName": "Modeltobysit",
-    "mobModelTexture": "toby.png",
+    "mobModelTexture": "louis.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

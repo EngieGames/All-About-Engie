@@ -7,14 +7,14 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
-import net.mcreator.allaboutengie.entity.TobyEntity;
+import net.mcreator.allaboutengie.entity.LouisLayEntity;
 
-public class TobyLayRCProcedure {
+public class LouisRCProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = new TobyEntity(AllaboutengieModEntities.TOBY.get(), _level);
+			Entity entityToSpawn = new LouisLayEntity(AllaboutengieModEntities.LOUIS_LAY.get(), _level);
 			entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
 			entityToSpawn.setYBodyRot(entity.getYRot());
 			entityToSpawn.setYHeadRot(entity.getYRot());

@@ -12,6 +12,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.allaboutengie.client.renderer.UncommonEngieRenderer;
 import net.mcreator.allaboutengie.client.renderer.TobyRenderer;
 import net.mcreator.allaboutengie.client.renderer.TobyLayRenderer;
+import net.mcreator.allaboutengie.client.renderer.TigerRenderer;
+import net.mcreator.allaboutengie.client.renderer.TigerLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkTamedRenderer;
@@ -25,7 +27,11 @@ import net.mcreator.allaboutengie.client.renderer.MythicSharkoTamedRenderer;
 import net.mcreator.allaboutengie.client.renderer.MythicSharkoRenderer;
 import net.mcreator.allaboutengie.client.renderer.MythicSharkoLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.MythicEngieRenderer;
+import net.mcreator.allaboutengie.client.renderer.MarshalRenderer;
+import net.mcreator.allaboutengie.client.renderer.MarshalLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.MadEngieRenderer;
+import net.mcreator.allaboutengie.client.renderer.LouisRenderer;
+import net.mcreator.allaboutengie.client.renderer.LouisLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.LegendarySharkoTamedRenderer;
 import net.mcreator.allaboutengie.client.renderer.LegendarySharkoRenderer;
 import net.mcreator.allaboutengie.client.renderer.LegendarySharkoLayRenderer;
@@ -160,5 +166,11 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_TAMED.get(), EngieSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED.get(), EngieSharkoRareTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), EngieSharkoRare2TamedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.MARSHAL.get(), MarshalRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.MARSHAL_LAY.get(), MarshalLayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER.get(), TigerRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_LAY.get(), TigerLayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.LOUIS.get(), LouisRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.LOUIS_LAY.get(), LouisLayRenderer::new);
 	}
 }

@@ -8078,7 +8078,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/TobyEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/toby_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TobyRenderer.java"
         ]
       },
@@ -8093,7 +8092,6 @@
       "registry_name": "toby_lay",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/toby_lay_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TobyLayRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/TobyLayEntity.java"
         ]
@@ -10164,6 +10162,312 @@
           "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
         ]
       }
+    },
+    {
+      "name": "Marshal",
+      "type": "livingentity",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marshal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/MarshalEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MarshalRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "MarshalLay",
+      "type": "livingentity",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marshal_lay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/MarshalLayEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MarshalLayRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "Tiger",
+      "type": "livingentity",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/TigerRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/TigerEntity.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "TigerLay",
+      "type": "livingentity",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_lay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/TigerLayEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/TigerLayRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "Louis",
+      "type": "livingentity",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "louis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/LouisEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LouisRenderer.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "LouisLay",
+      "type": "livingentity",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "louis_lay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LouisLayRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/LouisLayEntity.java"
+        ]
+      },
+      "path": "~/Sharkos/Regular"
+    },
+    {
+      "name": "MarshalRC",
+      "type": "procedure",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marshal_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MarshalRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MarshalLayRC",
+      "type": "procedure",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marshal_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MarshalLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TigerRC",
+      "type": "procedure",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TigerRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TigerLayRC",
+      "type": "procedure",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TigerLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LouisRC",
+      "type": "procedure",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "louis_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/LouisRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LouisLayRC",
+      "type": "procedure",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "louis_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/LouisLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -10379,7 +10683,6 @@
       "item.allaboutengie.golden_cookie": "Golden Cookie",
       "entity.allaboutengie.rare_sharko": "Rare Sharko",
       "item.allaboutengie.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
-      "item.allaboutengie.toby_spawn_egg": "Toby Spawn Egg",
       "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
       "block.allaboutengie.cyberblood_block": "Cyberblood Block",
       "item.aae_items.engi_pickaxe": "Engi Pickaxe",
@@ -10427,6 +10730,7 @@
       "item.allaboutengie.unobtainium_chestplate": "Unobtainium Chestplate",
       "item.aae_items.engie_chestplate": "Engie Chestplate",
       "gamerule.detectiveFindEngie": "Detective Mode (Find out)",
+      "entity.allaboutengie.tiger_lay": "Tiger [Laying]",
       "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
       "advancements.massive_ban_obtain.title": "Remember lads: NO RULEBREAKING.",
       "item.allaboutengie.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
@@ -10543,6 +10847,7 @@
       "advancements.he_who_games.descr": "Have the man himself join your world/server.",
       "item.allaboutengie.unobtainium_boots": "Unobtainium Boots",
       "entity.allaboutengie.exotic_engie": "Exotic Engie",
+      "entity.allaboutengie.tiger": "Tiger",
       "item.aae_items.engie_gem": "Engie Gem",
       "item.allaboutengie.engi_axe": "Engi Axe",
       "item.aae_items.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
@@ -10577,6 +10882,7 @@
       "item.allaboutengie.outraged_engies_chestplate": "Outraged Engie Chestplate",
       "advancements.found_engie.title": "That took quite long.",
       "item.allaboutengie.crucifix_pixel": "Pixel Crucifix",
+      "entity.allaboutengie.marshal_lay": "Marshal [Laying]",
       "item.allaboutengie.angry_engies_chestplate": "Angry Engie Chestplate",
       "item.allaboutengie.unobtainium_leggings": "Unobtainium Leggings",
       "item.allaboutengie.echdeath_pixel": "PIXEL ECHDEATH",
@@ -10603,7 +10909,6 @@
       "item.allaboutengie.operators_leggings": "Operators Leggings",
       "item.aae_items.operators_hoe": "Operators Hoe",
       "item.allaboutengie.exotic_chestplate": "Exotic Chestplate",
-      "item.allaboutengie.toby_lay_spawn_egg": "Toby [Laying] Spawn Egg",
       "item.allaboutengie.enchanted_engie_cookie": "Golden Cookie",
       "item.allaboutengie.sharko_lay_spawn_egg": "Sharko [Laying] Spawn Egg",
       "item.allaboutengie.exotic_shovel": "Exotic Shovel",
@@ -10615,6 +10920,7 @@
       "item.allaboutengie.exotic_sword": "Exotic Sword",
       "item.allaboutengie.engies_chestplate": "Engie Chestplate",
       "item.allaboutengie.engie_sharko_rare_2_tamed_spawn_egg": "Engie Sharko [Tamed] Spawn Egg",
+      "entity.allaboutengie.marshal": "Marshal",
       "item.allaboutengie.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.aae_items.engi_shovel": "Engi Shovel",
       "item.allaboutengie.rare_boots": "Rare Boots",
@@ -10782,12 +11088,14 @@
       "advancements.engie_tool_obtained.descr": "Obtain your first Engie tool.",
       "item.allaboutengie.enormous_ban_hammer_pixel": "Pixelized Enormous Ban Hammer",
       "item.allaboutengie.common_leggings": "Common Leggings",
+      "entity.allaboutengie.louis": "Louis",
       "entity.allaboutengie.rare_sharko_tamed": "Rare Sharko [Tamed]",
       "block.aae_items.metal_chest_oak": "Oak Metal Chest",
       "advancements.outraged_engie_armor_obtained.descr": "Obtain Outraged Engie Armor for the first time.",
       "item.allaboutengie.engie_gem": "Engie Gem",
       "entity.allaboutengie.engie_sharko_rare": "Engie Sharko",
       "item.allaboutengie.legendary_engie_spawn_egg": "Legendary Engie Spawn Egg",
+      "entity.allaboutengie.louis_lay": "Louis [Laying]",
       "entity.allaboutengie.rare_sharko_lay": "Rare Sharko [Laying]",
       "item.aae_items.angry_engie_boots": "Angry Engie Boots",
       "block.allaboutengie.old_deepslate_engie_ore": "Engie Ore",
@@ -10907,7 +11215,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "1.13.25",
+    "version": "1.15.25",
     "description": "Made with MCreator.",
     "author": "[Dev]Engie(Games)",
     "websiteURL": "https://www.twitch.tv/engiegames",

@@ -19,6 +19,8 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.allaboutengie.entity.UncommonEngieEntity;
 import net.mcreator.allaboutengie.entity.TobyLayEntity;
 import net.mcreator.allaboutengie.entity.TobyEntity;
+import net.mcreator.allaboutengie.entity.TigerLayEntity;
+import net.mcreator.allaboutengie.entity.TigerEntity;
 import net.mcreator.allaboutengie.entity.SharkoLayEntity;
 import net.mcreator.allaboutengie.entity.SharkoEntity;
 import net.mcreator.allaboutengie.entity.SharkTamedEntity;
@@ -32,7 +34,11 @@ import net.mcreator.allaboutengie.entity.MythicSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoEntity;
 import net.mcreator.allaboutengie.entity.MythicEngieEntity;
+import net.mcreator.allaboutengie.entity.MarshalLayEntity;
+import net.mcreator.allaboutengie.entity.MarshalEntity;
 import net.mcreator.allaboutengie.entity.MadEngieEntity;
+import net.mcreator.allaboutengie.entity.LouisLayEntity;
+import net.mcreator.allaboutengie.entity.LouisEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoLayEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoEntity;
@@ -389,6 +395,30 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRare2TamedEntity::new)
 
 					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<MarshalEntity>> MARSHAL = register("marshal",
+			EntityType.Builder.<MarshalEntity>of(MarshalEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MarshalEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<MarshalLayEntity>> MARSHAL_LAY = register("marshal_lay",
+			EntityType.Builder.<MarshalLayEntity>of(MarshalLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MarshalLayEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<TigerEntity>> TIGER = register("tiger",
+			EntityType.Builder.<TigerEntity>of(TigerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TigerEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<TigerLayEntity>> TIGER_LAY = register("tiger_lay",
+			EntityType.Builder.<TigerLayEntity>of(TigerLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TigerLayEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<LouisEntity>> LOUIS = register("louis",
+			EntityType.Builder.<LouisEntity>of(LouisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LouisEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<LouisLayEntity>> LOUIS_LAY = register("louis_lay",
+			EntityType.Builder.<LouisLayEntity>of(LouisLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LouisLayEntity::new)
+
+					.sized(0.7f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -470,6 +500,12 @@ public class AllaboutengieModEntities {
 			EngieSharkoTamedEntity.init();
 			EngieSharkoRareTamedEntity.init();
 			EngieSharkoRare2TamedEntity.init();
+			MarshalEntity.init();
+			MarshalLayEntity.init();
+			TigerEntity.init();
+			TigerLayEntity.init();
+			LouisEntity.init();
+			LouisLayEntity.init();
 		});
 	}
 
@@ -548,5 +584,11 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO_TAMED.get(), EngieSharkoTamedEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED.get(), EngieSharkoRareTamedEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2_TAMED.get(), EngieSharkoRare2TamedEntity.createAttributes().build());
+		event.put(MARSHAL.get(), MarshalEntity.createAttributes().build());
+		event.put(MARSHAL_LAY.get(), MarshalLayEntity.createAttributes().build());
+		event.put(TIGER.get(), TigerEntity.createAttributes().build());
+		event.put(TIGER_LAY.get(), TigerLayEntity.createAttributes().build());
+		event.put(LOUIS.get(), LouisEntity.createAttributes().build());
+		event.put(LOUIS_LAY.get(), LouisLayEntity.createAttributes().build());
 	}
 }
