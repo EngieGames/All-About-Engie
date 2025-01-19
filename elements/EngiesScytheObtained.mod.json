@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "\"One of many\"... Hm...",
-    "achievementDescription": "Obtain Engie's Scythe.",
+    "achievementName": "The weapon that killed He Who Games.",
+    "achievementDescription": "Obtain one of Engie's Scythes.",
     "achievementIcon": {
       "value": "CUSTOM:EngiesScythe"
     },
@@ -16,10 +16,10 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
-    "achievementType": "goal",
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:NewWorld"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"50\" y=\"22\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:EngiesScythe</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"34\" y=\"51\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
   }
 }

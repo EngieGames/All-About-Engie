@@ -11,13 +11,13 @@
       "1 of many more to come."
     ],
     "creativeTab": {
-      "value": "CUSTOM:PixelItems"
+      "value": "No creative tab entry"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 4500.0,
+    "damageVsEntity": 2000.0,
     "usageCount": 9001,
     "blocksAffected": [],
     "hasGlow": false,

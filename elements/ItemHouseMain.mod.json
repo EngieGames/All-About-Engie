@@ -14,39 +14,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Dough"
-            },
-            "weight": 20,
-            "minCount": 1,
-            "maxCount": 20,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:DoughWithSauce"
             },
             "weight": 10,
             "minCount": 1,
             "maxCount": 10,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:UncookedPizza"
-            },
-            "weight": 5,
-            "minCount": 1,
-            "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -94,34 +66,6 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:CookedPizza"
-            },
-            "weight": 2,
-            "minCount": 1,
-            "maxCount": 2,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:PizzaSlice"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 8,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
           }
         ]
       },
@@ -137,9 +81,9 @@
             "item": {
               "value": "CUSTOM:MiniBanHammer"
             },
-            "weight": 175,
+            "weight": 125,
             "minCount": 1,
-            "maxCount": 24,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -150,34 +94,6 @@
             "type": "item",
             "item": {
               "value": "CUSTOM:BanHammer"
-            },
-            "weight": 150,
-            "minCount": 1,
-            "maxCount": 12,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:BigBanHammer"
-            },
-            "weight": 125,
-            "minCount": 1,
-            "maxCount": 6,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:LargeBanHammer"
             },
             "weight": 100,
             "minCount": 1,
@@ -191,7 +107,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:HugeBanHammer"
+              "value": "CUSTOM:BigBanHammer"
             },
             "weight": 75,
             "minCount": 1,
@@ -205,7 +121,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EnormousBanHammer"
+              "value": "CUSTOM:LargeBanHammer"
             },
             "weight": 50,
             "minCount": 1,
@@ -219,37 +135,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:GiganticBanHammer"
+              "value": "CUSTOM:HugeBanHammer"
             },
             "weight": 25,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:MassiveBanHammer"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EngiesScythe"
-            },
-            "weight": 6,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -382,62 +270,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EnragedEngies.helmet"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngies.body"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngies.legs"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngies.boots"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:EngieAxe"
             },
             "weight": 24,
@@ -550,62 +382,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EnragedEngieAxe"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngiePickaxe"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngieShovel"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngieHoe"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 8,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:EngiAxe"
             },
             "weight": 1,
@@ -685,20 +461,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EnragedEngieEssence"
-            },
-            "weight": 8,
-            "minCount": 1,
-            "maxCount": 8,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:EngieBlock"
             },
             "weight": 12,
@@ -718,20 +480,6 @@
             "weight": 6,
             "minCount": 1,
             "maxCount": 6,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EnragedEngieEssence"
-            },
-            "weight": 3,
-            "minCount": 1,
-            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

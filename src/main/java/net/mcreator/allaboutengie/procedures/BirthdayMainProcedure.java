@@ -54,7 +54,11 @@ public class BirthdayMainProcedure {
 				AllaboutengieModVariables.seasonautumn = false;
 				AllaboutengieModVariables.seasonwinter = true;
 			}
-		} else if (!(Calendar.getInstance().get(Calendar.MONTH) == 11)) {
+		} else if (Calendar.getInstance().get(Calendar.MONTH) == 0) {
+			if (Calendar.getInstance().get(Calendar.DAY_OF_MONTH) == 1) {
+				AllaboutengieModVariables.decembercodeblock = false;
+			}
+		} else if (!(Calendar.getInstance().get(Calendar.MONTH) == 11 && Calendar.getInstance().get(Calendar.MONTH) == 1 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) == 1)) {
 			AllaboutengieModVariables.decembercodeblock = true;
 		}
 	}

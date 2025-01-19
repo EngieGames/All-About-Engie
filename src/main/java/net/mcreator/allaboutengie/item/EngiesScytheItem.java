@@ -10,8 +10,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
-
 import java.util.List;
 
 public class EngiesScytheItem extends SwordItem {
@@ -26,7 +24,7 @@ public class EngiesScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4498f;
+				return 1998f;
 			}
 
 			public int getLevel() {
@@ -40,7 +38,7 @@ public class EngiesScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 3, -3f, new Item.Properties().tab(null));
 	}
 
 	@Override

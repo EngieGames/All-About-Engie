@@ -34,34 +34,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_essence",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engie_essence",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:items_plaque",
           "weight": 1,
           "functions": [
@@ -274,118 +246,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_helmet",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_chestplate",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_leggings",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_boots",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engies_helmet",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engies_chestplate",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engies_leggings",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engies_boots",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
         }
       ]
     },
@@ -461,62 +321,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enormous_ban_hammer",
-          "weight": 75,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:gigantic_ban_hammer",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:massive_ban_hammer",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:comically_massive_ban_hammer",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
         }
       ]
     },
@@ -553,39 +357,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_axe",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engie_axe",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:engie_pickaxe",
           "weight": 100,
           "functions": [
@@ -612,39 +383,6 @@
             }
           ]
         },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_pickaxe",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engie_pickaxe",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
         {
           "type": "minecraft:item",
           "name": "allaboutengie:engie_shovel",
@@ -675,39 +413,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_shovel",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engie_shovel",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:engie_hoe",
           "weight": 100,
           "functions": [
@@ -724,34 +429,6 @@
           "type": "minecraft:item",
           "name": "allaboutengie:angry_engie_hoe",
           "weight": 75,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_hoe",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:outraged_engie_hoe",
-          "weight": 25,
           "functions": [
             {
               "function": "set_count",

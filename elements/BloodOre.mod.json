@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Cyber Ore",
+    "name": "Blood Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "NETHERRACK"
     },
     "breakSound": {
       "value": ""

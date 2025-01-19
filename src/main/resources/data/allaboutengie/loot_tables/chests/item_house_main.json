@@ -9,20 +9,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:dough",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 20
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:dough_with_sauce",
           "weight": 10,
           "functions": [
@@ -31,20 +17,6 @@
               "count": {
                 "min": 1,
                 "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:uncooked_pizza",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 5
               }
             }
           ]
@@ -90,34 +62,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:cooked_pizza",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:pizza_slice",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 8
-              }
-            }
-          ]
         }
       ]
     },
@@ -130,13 +74,13 @@
         {
           "type": "minecraft:item",
           "name": "allaboutengie:mini_ban_hammer",
-          "weight": 175,
+          "weight": 125,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 24
+                "max": 1
               }
             }
           ]
@@ -144,34 +88,6 @@
         {
           "type": "minecraft:item",
           "name": "allaboutengie:ban_hammer",
-          "weight": 150,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:big_ban_hammer",
-          "weight": 125,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:large_ban_hammer",
           "weight": 100,
           "functions": [
             {
@@ -185,7 +101,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:huge_ban_hammer",
+          "name": "allaboutengie:big_ban_hammer",
           "weight": 75,
           "functions": [
             {
@@ -199,7 +115,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enormous_ban_hammer",
+          "name": "allaboutengie:large_ban_hammer",
           "weight": 50,
           "functions": [
             {
@@ -213,36 +129,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:gigantic_ban_hammer",
+          "name": "allaboutengie:huge_ban_hammer",
           "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:massive_ban_hammer",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:engies_scythe",
-          "weight": 6,
           "functions": [
             {
               "function": "set_count",
@@ -439,94 +327,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_helmet",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_chestplate",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_leggings",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engies_boots",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:engie_axe",
           "weight": 24,
           "functions": [
@@ -708,94 +508,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_axe",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_pickaxe",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_shovel",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_hoe",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 0,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:engi_axe",
           "weight": 1,
           "functions": [
@@ -874,20 +586,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_essence",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "allaboutengie:engie_block",
           "weight": 12,
           "functions": [
@@ -910,20 +608,6 @@
               "count": {
                 "min": 1,
                 "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "allaboutengie:enraged_engie_essence",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
               }
             }
           ]
