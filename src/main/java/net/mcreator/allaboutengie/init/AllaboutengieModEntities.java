@@ -243,11 +243,11 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<EngieSharkoRare2LayEntity>> ENGIE_SHARKO_RARE_2_LAY = register("engie_sharko_rare_2_lay",
 			EntityType.Builder.<EngieSharkoRare2LayEntity>of(EngieSharkoRare2LayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieSharkoRare2LayEntity::new)
 
-					.sized(0.7f, 0.9f));
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<TobyLayEntity>> TOBY_LAY = register("toby_lay",
 			EntityType.Builder.<TobyLayEntity>of(TobyLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TobyLayEntity::new)
 
-					.sized(0.7f, 0.9f));
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<EnragedNormalEntity>> ENRAGED_NORMAL = register("enraged_normal",
 			EntityType.Builder.<EnragedNormalEntity>of(EnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedNormalEntity::new)
 
@@ -402,7 +402,7 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<MarshalLayEntity>> MARSHAL_LAY = register("marshal_lay",
 			EntityType.Builder.<MarshalLayEntity>of(MarshalLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MarshalLayEntity::new)
 
-					.sized(0.7f, 0.9f));
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<TigerEntity>> TIGER = register("tiger",
 			EntityType.Builder.<TigerEntity>of(TigerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TigerEntity::new)
 
@@ -410,7 +410,7 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<TigerLayEntity>> TIGER_LAY = register("tiger_lay",
 			EntityType.Builder.<TigerLayEntity>of(TigerLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TigerLayEntity::new)
 
-					.sized(0.7f, 0.9f));
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<LouisEntity>> LOUIS = register("louis",
 			EntityType.Builder.<LouisEntity>of(LouisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LouisEntity::new)
 
@@ -418,7 +418,7 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<LouisLayEntity>> LOUIS_LAY = register("louis_lay",
 			EntityType.Builder.<LouisLayEntity>of(LouisLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LouisLayEntity::new)
 
-					.sized(0.7f, 0.9f));
+					.sized(0.7f, 0.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

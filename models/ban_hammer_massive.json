@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "regular",
-		"particle": "regular"
+		"0": "Textures/aae_items/Blocks/regular",
+		"particle": "Textures/aae_items/Blocks/regular"
 	},
 	"elements": [
 		{
@@ -358,8 +358,8 @@
 		},
 		"gui": {
 			"rotation": [0, 0, -45],
-			"translation": [-12, -12, 0],
-			"scale": [2, 2, 2]
+			"translation": [-13, -13, 0],
+			"scale": [2.25, 2.25, 2.25]
 		},
 		"head": {
 			"translation": [-0.25, -2, 7.25],

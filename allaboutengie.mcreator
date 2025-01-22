@@ -3867,8 +3867,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoLayRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/SharkoLayEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/sharko_lay_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoLayEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3883,7 +3882,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoLayRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/albino_sharko_lay_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoLayEntity.java"
         ]
       },
@@ -3898,7 +3896,6 @@
       "registry_name": "rare_sharko_lay",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/rare_sharko_lay_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoLayRenderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoLayEntity.java"
         ]
@@ -3915,8 +3912,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoLayRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoLayEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_lay_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoLayEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3931,8 +3927,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoLayRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoLayEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_lay_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoLayEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3947,8 +3942,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoLayEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoLayRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_lay_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoLayRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3963,8 +3957,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoLayRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoLayEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_lay_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoLayEntity.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3979,8 +3972,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareLayEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareLayRenderer.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_lay_spawn_egg.json"
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareLayRenderer.java"
         ]
       },
       "path": "~/Sharkos/Regular"
@@ -3995,7 +3987,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2LayEntity.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_lay_spawn_egg.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2LayRenderer.java"
         ]
       },
@@ -10541,7 +10532,6 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.allaboutengie.engie_sharko_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
       "item.aae_items.operators_boots": "Operators Boots",
       "item.allaboutengie.enraged_engies_leggings": "Enraged Engie Leggings",
       "item.allaboutengie.common_chestplate": "Common Chestplate",
@@ -10549,7 +10539,6 @@
       "item.aae_items.echdeath": "ECHDEATH",
       "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
       "item.allaboutengie.shark_leggings": "Sharko Leggings",
-      "item.allaboutengie.albino_sharko_lay_spawn_egg": "Albino Sharko [Laying] Spawn Egg",
       "item.aae_items.angry_engie_axe": "Angry Engie Axe",
       "item.allaboutengie.common_axe": "Common Axe",
       "itemGroup.tabaae_items_food": "Food",
@@ -10646,12 +10635,10 @@
       "entity.allaboutengie.rare_engie": "Rare Engie",
       "advancements.enraged_engie_armor_made.descr": "Obtain Enraged Engie Armor for the first time.",
       "advancements.outraged_engie_essence_obtained.descr": "Obtain an Outraged Engie Essence for the first time.",
-      "item.allaboutengie.rare_sharko_lay_spawn_egg": "Rare Sharko [Laying] Spawn Egg",
       "item.allaboutengie.legendary_leggings": "Legendary Leggings",
       "item.aae_items.big_ban_hammer_pixel": "Big Ban Hammer Pixel",
       "entity.allaboutengie.mythic_sharko_lay": "Mythic Sharko [Laying]",
       "item.allaboutengie.engie_hoe": "Engie Hoe",
-      "item.allaboutengie.engie_sharko_rare_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
       "advancements.found_engie.descr": "Have a chat with Engie. GG.",
       "advancements.engies_scythe_obtained.descr": "Obtain one of Engie\u0027s Scythes.",
       "item.aae_items.dough_with_sauce": "Dough With Sauce",
@@ -10670,7 +10657,6 @@
       "item.allaboutengie.epic_hoe": "Epic Hoe",
       "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
       "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "item.allaboutengie.mythic_sharko_lay_spawn_egg": "Mythic Sharko [Laying] Spawn Egg",
       "item.allaboutengie.ban_hammer_pixel": "Pixelized Ban Hammer",
       "item.allaboutengie.angry_engies_leggings": "Angry Engie Leggings",
       "item.allaboutengie.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
@@ -10753,7 +10739,7 @@
       "item.allaboutengie.epic_chestplate": "Epic Chestplate",
       "entity.allaboutengie.enraged_speed_4": "Enraged Speed",
       "entity.allaboutengie.enraged_speed_5": "Enraged Speed",
-      "item.allaboutengie.enchanted_exotic_cookie": "Golden Cookie",
+      "item.allaboutengie.enchanted_exotic_cookie": "Enchanted Exotic Cookie",
       "item.allaboutengie.epic_pickaxe": "Epic Pickaxe",
       "advancements.engies_scythe_obtained.title": "The weapon that killed He Who Games.",
       "item.allaboutengie.rare_helmet": "Rare Helmet",
@@ -10909,8 +10895,7 @@
       "item.allaboutengie.operators_leggings": "Operators Leggings",
       "item.aae_items.operators_hoe": "Operators Hoe",
       "item.allaboutengie.exotic_chestplate": "Exotic Chestplate",
-      "item.allaboutengie.enchanted_engie_cookie": "Golden Cookie",
-      "item.allaboutengie.sharko_lay_spawn_egg": "Sharko [Laying] Spawn Egg",
+      "item.allaboutengie.enchanted_engie_cookie": "Enchanted Engie Cookie",
       "item.allaboutengie.exotic_shovel": "Exotic Shovel",
       "block.allaboutengie.engie_block": "Engie Block",
       "advancements.big_ban_obtain.title": "Eh, could be a bit bigger. I don\u0027t mind it.",
@@ -10926,7 +10911,6 @@
       "item.allaboutengie.rare_boots": "Rare Boots",
       "item.aae_items.enraged_engie_boots": "Enraged Engie Boots",
       "item.allaboutengie.enraged_zombies_plaque": "All About Engie (Enraged Zombies) Plaque",
-      "item.allaboutengie.exotic_sharko_lay_spawn_egg": "Exotic Sharko [Laying] Spawn Egg",
       "item.allaboutengie.shark_chestplate": "Sharko Chestplate",
       "item.aae_items.angry_engie_leggings": "Angry Engie Leggings",
       "item.allaboutengie.angry_engies_helmet": "Angry Engie Helmet",
@@ -10984,7 +10968,6 @@
       "itemGroup.tabmobs": "Mobs",
       "item.allaboutengie.engie_axe": "Engie Axe",
       "block.aae_items.deepslate_engie_ore": "Engie Ore",
-      "item.allaboutengie.legendary_sharko_lay_spawn_egg": "Legendary Sharko [Laying] Spawn Egg",
       "block.aae_items.metal_chest_crimson": "Crimson Metal Chest",
       "item.allaboutengie.engie_shark_leggings": "Engie Sharko Leggings",
       "item.allaboutengie.legendary_shark_boots": "Legendary Sharko Boots",
@@ -11006,7 +10989,7 @@
       "item.allaboutengie.cyberblood_chestplate": "Cyberblood Chestplate",
       "entity.allaboutengie.legendary_sharko_tamed": "Legendary Sharko [Tamed]",
       "item.allaboutengie.operators_pickaxe": "Operators Pickaxe",
-      "item.allaboutengie.exotic_cookie": "Golden Cookie",
+      "item.allaboutengie.exotic_cookie": "Exotic Cookie",
       "item.allaboutengie.cyber_chestplate": "Cyber Chestplate",
       "item.allaboutengie.exotic_boots": "Exotic Boots",
       "block.aae_items.metal_chest": "Metal Chest",
@@ -11031,7 +11014,7 @@
       "item.allaboutengie.mythic_shovel": "Mythic Shovel",
       "item.aae_items.angry_engie_essence": "Angry Engie Essence",
       "entity.allaboutengie.enraged_tnt": "Enraged TNT",
-      "item.allaboutengie.engie_cookie": "Golden Cookie",
+      "item.allaboutengie.engie_cookie": "Engie Cookie",
       "itemGroup.tabaae_items_armor": "Armor",
       "advancements.ban_obtain.descr": "Obtain a Ban Hammer",
       "entity.allaboutengie.enraged_tnt_9": "Enraged TNT",
@@ -11048,7 +11031,7 @@
       "itemGroup.tabaae_items_items": "Items",
       "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
       "entity.allaboutengie.enraged_tnt_4": "Enraged TNT",
-      "item.allaboutengie.enchanted_golden_cookie": "Golden Cookie",
+      "item.allaboutengie.enchanted_golden_cookie": "Enchanted Golden Cookie",
       "entity.allaboutengie.enraged_tnt_5": "Enraged TNT",
       "entity.allaboutengie.enraged_tnt_6": "Enraged TNT",
       "block.aae_items.engie_ore": "Engie Ore",
@@ -11075,7 +11058,6 @@
       "item.allaboutengie.sharko_cloth": "Sharko Cloth",
       "item.allaboutengie.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
       "item.allaboutengie.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
-      "item.allaboutengie.engie_sharko_rare_2_lay_spawn_egg": "Engie Sharko [Laying] Spawn Egg",
       "item.allaboutengie.ban_hammer": "Ban Hammer",
       "item.allaboutengie.unobtainium_hoe": "Unobtainium Hoe",
       "block.allaboutengie.deepslate_unobtainium_ore": "Deepslate Unobtainium Ore",
@@ -11215,7 +11197,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "1.19.25",
+    "version": "1.21.25",
     "description": "Made with MCreator.",
     "author": "[Dev]Engie(Games)",
     "websiteURL": "https://www.twitch.tv/engiegames",
