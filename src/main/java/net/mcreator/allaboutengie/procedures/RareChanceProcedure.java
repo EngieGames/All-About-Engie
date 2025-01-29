@@ -37,14 +37,28 @@ public class RareChanceProcedure {
 		if (entity instanceof Player) {
 			if ((entity.getDisplayName().getString()).equals("Dev")) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_ENGIE.get()));
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_DEV_ENGIE.get()));
 					entityToSpawn.setPickUpDelay(1);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] Dev")) {
+			} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] Dev")) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_ENGIE.get()));
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_DEV_ENGIE.get()));
+					entityToSpawn.setPickUpDelay(1);
+					entityToSpawn.setUnlimitedLifetime();
+					_level.addFreshEntity(entityToSpawn);
+				}
+			} else if ((entity.getDisplayName().getString()).equals("DevEngie")) {
+				if (world instanceof Level _level && !_level.isClientSide()) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_DEV_ENGIE.get()));
+					entityToSpawn.setPickUpDelay(1);
+					entityToSpawn.setUnlimitedLifetime();
+					_level.addFreshEntity(entityToSpawn);
+				}
+			} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] DevEngie")) {
+				if (world instanceof Level _level && !_level.isClientSide()) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_DEV_ENGIE.get()));
 					entityToSpawn.setPickUpDelay(1);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
@@ -56,7 +70,7 @@ public class RareChanceProcedure {
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] clippedbyengie")) {
+			} else if ((entity.getDisplayName().getString()).equals("[All About Engie Content Creator] clippedbyengie")) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.AAE_ENGIE.get()));
 					entityToSpawn.setPickUpDelay(1);

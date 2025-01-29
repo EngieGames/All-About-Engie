@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "allaboutengie:block/textboxyeah"
+    },
+    "facing=east": {
+      "model": "allaboutengie:block/textboxyeah",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "allaboutengie:block/textboxyeah",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "allaboutengie:block/textboxyeah",
+      "y": 270
+    }
+  }
+}

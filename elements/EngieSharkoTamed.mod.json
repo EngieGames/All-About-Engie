@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Engie Sharko [Tamed]",
+    "mobName": "[Tamed] Engie Sharko",
     "mobLabel": "",
     "mobModelName": "Modelboyo",
     "mobModelTexture": "engiesharkonewtamed.png",
@@ -14,7 +14,7 @@
     "modelHeight": 0.9,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -16250872,
       "falpha": 0.0
@@ -52,7 +52,7 @@
     "attackStrength": 18,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.4,
+    "movementSpeed": 0.7,
     "stepHeight": 0.6,
     "armorBaseValue": 50.0,
     "trackingRange": 64,

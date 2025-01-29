@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "engie",
+    "texture": "volc",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "EngieGames",
+    "name": "playedbyengie (aka clippedbyengie)",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:AAEItemsItems"
@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "AAE = All About Engie. (It's him.)"
+      "Pizza Tower OST - Bye Bye There!"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

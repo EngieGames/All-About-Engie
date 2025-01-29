@@ -1,7 +1,0 @@
-{
-  "parent": "allaboutengie:custom/bloody_goggles",
-  "textures": {
-    "0": "allaboutengie:blocks/punishergoggles",
-    "particle": "allaboutengie:items/punishergogglesitem"
-  }
-}

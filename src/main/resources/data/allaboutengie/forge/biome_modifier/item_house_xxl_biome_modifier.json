@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "allaboutengie:item_house_xxl",
+  "step": "surface_structures"
+}

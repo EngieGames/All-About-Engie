@@ -475,7 +475,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:AngryEngieEssence"
+              "value": "CUSTOM:AngryEngieBlock"
             },
             "weight": 6,
             "minCount": 1,

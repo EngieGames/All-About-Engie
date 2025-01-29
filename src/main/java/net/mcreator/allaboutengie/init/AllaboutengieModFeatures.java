@@ -19,8 +19,10 @@ import net.mcreator.allaboutengie.world.features.ores.CyberOreFeature;
 import net.mcreator.allaboutengie.world.features.ores.BloodOreFeature;
 import net.mcreator.allaboutengie.world.features.SharkoHouseFeature;
 import net.mcreator.allaboutengie.world.features.NothingFeature;
+import net.mcreator.allaboutengie.world.features.Nothing4Feature;
 import net.mcreator.allaboutengie.world.features.Nothing3Feature;
 import net.mcreator.allaboutengie.world.features.Nothing2Feature;
+import net.mcreator.allaboutengie.world.features.ItemHouseXXLFeature;
 import net.mcreator.allaboutengie.world.features.ItemHouseFeature;
 import net.mcreator.allaboutengie.world.features.CyberHouseFeature;
 import net.mcreator.allaboutengie.AllaboutengieMod;
@@ -40,4 +42,6 @@ public class AllaboutengieModFeatures {
 	public static final RegistryObject<Feature<?>> SHARKO_HOUSE = REGISTRY.register("sharko_house", SharkoHouseFeature::feature);
 	public static final RegistryObject<Feature<?>> NOTHING_3 = REGISTRY.register("nothing_3", Nothing3Feature::feature);
 	public static final RegistryObject<Feature<?>> CYBER_HOUSE = REGISTRY.register("cyber_house", CyberHouseFeature::feature);
+	public static final RegistryObject<Feature<?>> NOTHING_4 = REGISTRY.register("nothing_4", Nothing4Feature::feature);
+	public static final RegistryObject<Feature<?>> ITEM_HOUSE_XXL = REGISTRY.register("item_house_xxl", ItemHouseXXLFeature::feature);
 }

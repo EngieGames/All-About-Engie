@@ -600,7 +600,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:angry_engie_essence",
+          "name": "allaboutengie:angry_engie_block",
           "weight": 6,
           "functions": [
             {

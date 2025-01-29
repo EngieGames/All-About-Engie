@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Exotic Sharko [Tamed]",
+    "mobName": "[Tamed] Exotic Sharko",
     "mobLabel": "",
     "mobModelName": "Modelboyo",
     "mobModelTexture": "exoticsharkonewtamed.png",
@@ -14,7 +14,7 @@
     "modelHeight": 0.9,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -16714511,
       "falpha": 0.0
@@ -52,7 +52,7 @@
     "attackStrength": 9,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.6,
     "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 64,

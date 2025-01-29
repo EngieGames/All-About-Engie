@@ -32,7 +32,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.allaboutengie.procedures.RareEngieTameTickProcedure;
+import net.mcreator.allaboutengie.procedures.RareEngieSharko2NameCheckProcedure;
 import net.mcreator.allaboutengie.procedures.EngieRare2TameRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -121,7 +121,7 @@ public class EngieSharkoRare2TamedEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		RareEngieTameTickProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		RareEngieSharko2NameCheckProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {
@@ -129,7 +129,7 @@ public class EngieSharkoRare2TamedEntity extends PathfinderMob {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.7);
 		builder = builder.add(Attributes.MAX_HEALTH, 1024);
 		builder = builder.add(Attributes.ARMOR, 100);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 72);

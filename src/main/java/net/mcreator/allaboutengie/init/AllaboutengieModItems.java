@@ -43,7 +43,6 @@ import net.mcreator.allaboutengie.item.RarePickaxeItem;
 import net.mcreator.allaboutengie.item.RareItem;
 import net.mcreator.allaboutengie.item.RareHoeItem;
 import net.mcreator.allaboutengie.item.RareAxeItem;
-import net.mcreator.allaboutengie.item.PunishersGogglesItem;
 import net.mcreator.allaboutengie.item.PizzaSliceItem;
 import net.mcreator.allaboutengie.item.OutragedEngiesItem;
 import net.mcreator.allaboutengie.item.OutragedEngieShovelItem;
@@ -181,6 +180,7 @@ import net.mcreator.allaboutengie.item.AllAboutEngiePlaqueItem;
 import net.mcreator.allaboutengie.item.AlbinoSharkoClothItem;
 import net.mcreator.allaboutengie.item.AlbinoSharkItem;
 import net.mcreator.allaboutengie.item.AAEEngieItem;
+import net.mcreator.allaboutengie.item.AAEDevEngieItem;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 public class AllaboutengieModItems {
@@ -492,22 +492,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TESTER_CHESTPLATE = REGISTRY.register("tester_chestplate", () -> new TesterItem.Chestplate());
 	public static final RegistryObject<Item> TESTER_LEGGINGS = REGISTRY.register("tester_leggings", () -> new TesterItem.Leggings());
 	public static final RegistryObject<Item> TESTER_BOOTS = REGISTRY.register("tester_boots", () -> new TesterItem.Boots());
-	public static final RegistryObject<Item> PUNISHERS_GOGGLES = REGISTRY.register("punishers_goggles", () -> new PunishersGogglesItem());
-	public static final RegistryObject<Item> SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("sharko_tamed_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO_TAMED, -12420148, -1, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> ALBINO_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("albino_sharko_tamed_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO_TAMED, -1644826, -1, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> RARE_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("rare_sharko_tamed_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_SHARKO_TAMED, -1644826, -10450, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> LEGENDARY_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("legendary_sharko_tamed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.LEGENDARY_SHARKO_TAMED, -12544, -7680, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> MYTHIC_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("mythic_sharko_tamed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MYTHIC_SHARKO_TAMED, -1512448, -196818, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> EXOTIC_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("exotic_sharko_tamed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED, -16714511, -12845059, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> ENGIE_SHARKO_TAMED_SPAWN_EGG = REGISTRY.register("engie_sharko_tamed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_TAMED, -16250872, -7271155, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_TAMED_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_tamed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED, -1, -2788547, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_TAMED_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_tamed_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED, -5329997, -13551280, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> ITEMS_PLAQUE = REGISTRY.register("items_plaque", () -> new ItemsPlaqueItem());
 	public static final RegistryObject<Item> MOBS_PLAQUE = REGISTRY.register("mobs_plaque", () -> new MobsPlaqueItem());
 	public static final RegistryObject<Item> EXTRAS_PLAQUE = REGISTRY.register("extras_plaque", () -> new ExtrasPlaqueItem());
@@ -528,6 +512,9 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CYBER_BLOCK = block(AllaboutengieModBlocks.CYBER_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> BLOOD_BLOCK = block(AllaboutengieModBlocks.BLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> CYBERBLOOD_BLOCK = block(AllaboutengieModBlocks.CYBERBLOOD_BLOCK, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> TEXTBOXYEAH = block(AllaboutengieModBlocks.TEXTBOXYEAH, null);
+	public static final RegistryObject<Item> THANKS_FOR_PLAYING_4 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_4, null);
+	public static final RegistryObject<Item> AAE_DEV_ENGIE = REGISTRY.register("aae_dev_engie", () -> new AAEDevEngieItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

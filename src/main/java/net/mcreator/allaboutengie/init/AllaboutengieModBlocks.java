@@ -12,8 +12,10 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.allaboutengie.block.UnobtainiumOreBlock;
 import net.mcreator.allaboutengie.block.ThanksForPlayingBlock;
+import net.mcreator.allaboutengie.block.ThanksForPlaying4Block;
 import net.mcreator.allaboutengie.block.ThanksForPlaying3Block;
 import net.mcreator.allaboutengie.block.ThanksForPlaying2Block;
+import net.mcreator.allaboutengie.block.TextboxyeahBlock;
 import net.mcreator.allaboutengie.block.OutragedEngieBlockBlock;
 import net.mcreator.allaboutengie.block.OldEngieOreBlock;
 import net.mcreator.allaboutengie.block.OldDeepslateEngieOreBlock;
@@ -72,4 +74,6 @@ public class AllaboutengieModBlocks {
 	public static final RegistryObject<Block> CYBER_BLOCK = REGISTRY.register("cyber_block", () -> new CyberBlockBlock());
 	public static final RegistryObject<Block> BLOOD_BLOCK = REGISTRY.register("blood_block", () -> new BloodBlockBlock());
 	public static final RegistryObject<Block> CYBERBLOOD_BLOCK = REGISTRY.register("cyberblood_block", () -> new CyberbloodBlockBlock());
+	public static final RegistryObject<Block> TEXTBOXYEAH = REGISTRY.register("textboxyeah", () -> new TextboxyeahBlock());
+	public static final RegistryObject<Block> THANKS_FOR_PLAYING_4 = REGISTRY.register("thanks_for_playing_4", () -> new ThanksForPlaying4Block());
 }

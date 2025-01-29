@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Mythic Sharko [Tamed]",
+    "mobName": "[Tamed] Mythic Sharko",
     "mobLabel": "",
     "mobModelName": "Modelboyo",
     "mobModelTexture": "mythicsharkonewtamed.png",
@@ -14,7 +14,7 @@
     "modelHeight": 0.9,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1512448,
       "falpha": 0.0
@@ -49,10 +49,10 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 6,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.5,
     "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 64,

@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Engie Sharko [Laying]",
+    "mobName": "[Tamed] Rare Engie Sharko (Laying)",
     "mobLabel": "",
     "mobModelName": "Modelboyosit",
     "mobModelTexture": "rareengiesharko2newtamed.png",
@@ -100,7 +100,7 @@
       "name": "EngieRare2LayRC"
     },
     "onMobTickUpdate": {
-      "name": "RareEngieTameLayTick"
+      "name": "RareEngieSharko2NameCheck"
     },
     "hasAI": true,
     "aiBase": "(none)",
