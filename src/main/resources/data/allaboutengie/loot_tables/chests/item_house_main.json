@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:crackers_in_bowl",
+          "name": "allaboutengie:deleted_mod_element",
           "weight": 15,
           "functions": [
             {
@@ -51,7 +51,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:cheese_puffs_unopened",
+          "name": "allaboutengie:cheese_balls_unopened",
           "weight": 15,
           "functions": [
             {

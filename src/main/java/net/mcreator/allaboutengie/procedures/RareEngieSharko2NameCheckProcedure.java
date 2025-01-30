@@ -207,6 +207,22 @@ public class RareEngieSharko2NameCheckProcedure {
 					}
 				}
 			}
+			entity.getPersistentData().putDouble("sharkoZoomiesTimer", (entity.getPersistentData().getDouble("sharkoZoomiesTimer") + 0.05));
+			if (entity.getPersistentData().getDouble("sharkoZoomiesTimer") >= 150) {
+				if (entity instanceof EngieSharkoRare2TamedZoomiesEntity) {
+					if (!entity.level.isClientSide())
+						entity.discard();
+					if (world instanceof ServerLevel _level) {
+						Entity entityToSpawn = new EngieSharkoRare2TamedZoomiesTiredEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES_TIRED.get(), _level);
+						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.setYBodyRot(entity.getYRot());
+						entityToSpawn.setYHeadRot(entity.getYRot());
+						if (entityToSpawn instanceof Mob _mobToSpawn)
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+						world.addFreshEntity(entityToSpawn);
+					}
+				}
+			}
 		} else if (entity instanceof EngieSharkoRare2TamedZoomiesTiredEntity) {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {
 				if (world instanceof ServerLevel _level) {
@@ -256,6 +272,22 @@ public class RareEngieSharko2NameCheckProcedure {
 				}
 				if (!entity.level.isClientSide())
 					entity.discard();
+			}
+			entity.getPersistentData().putDouble("sharkoZoomiesTiredTimer", (entity.getPersistentData().getDouble("sharkoZoomiesTiredTimer") + 0.05));
+			if (entity.getPersistentData().getDouble("sharkoZoomiesTiredTimer") >= 150) {
+				if (entity instanceof EngieSharkoRare2TamedZoomiesTiredEntity) {
+					if (!entity.level.isClientSide())
+						entity.discard();
+					if (world instanceof ServerLevel _level) {
+						Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), _level);
+						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.setYBodyRot(entity.getYRot());
+						entityToSpawn.setYHeadRot(entity.getYRot());
+						if (entityToSpawn instanceof Mob _mobToSpawn)
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+						world.addFreshEntity(entityToSpawn);
+					}
+				}
 			}
 		} else if (entity instanceof EngieSharkoRare2LayEntity) {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {

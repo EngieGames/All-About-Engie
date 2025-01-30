@@ -5,7 +5,7 @@
     "achievementName": "DevEngies little secret. ;)",
     "achievementDescription": "Redeem DevEngies secret code. ;)",
     "achievementIcon": {
-      "value": "CUSTOM:AAEEngie"
+      "value": "CUSTOM:AAEDevEngie"
     },
     "background": "Default",
     "disableDisplay": false,

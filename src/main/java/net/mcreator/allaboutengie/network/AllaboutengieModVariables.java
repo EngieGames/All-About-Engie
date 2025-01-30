@@ -81,6 +81,8 @@ public class AllaboutengieModVariables {
 			clone.detecstart = original.detecstart;
 			clone.coderedeemblock = original.coderedeemblock;
 			clone.coincount = original.coincount;
+			clone.browniescount = original.browniescount;
+			clone.cheeseballcount = original.cheeseballcount;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -254,6 +256,8 @@ public class AllaboutengieModVariables {
 		public boolean detecstart = false;
 		public boolean coderedeemblock = false;
 		public double coincount = 0;
+		public double browniescount = 0;
+		public double cheeseballcount = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -266,6 +270,8 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("detecstart", detecstart);
 			nbt.putBoolean("coderedeemblock", coderedeemblock);
 			nbt.putDouble("coincount", coincount);
+			nbt.putDouble("browniescount", browniescount);
+			nbt.putDouble("cheeseballcount", cheeseballcount);
 			return nbt;
 		}
 
@@ -275,6 +281,8 @@ public class AllaboutengieModVariables {
 			detecstart = nbt.getBoolean("detecstart");
 			coderedeemblock = nbt.getBoolean("coderedeemblock");
 			coincount = nbt.getDouble("coincount");
+			browniescount = nbt.getDouble("browniescount");
+			cheeseballcount = nbt.getDouble("cheeseballcount");
 		}
 	}
 
@@ -303,6 +311,8 @@ public class AllaboutengieModVariables {
 					variables.detecstart = message.data.detecstart;
 					variables.coderedeemblock = message.data.coderedeemblock;
 					variables.coincount = message.data.coincount;
+					variables.browniescount = message.data.browniescount;
+					variables.cheeseballcount = message.data.cheeseballcount;
 				}
 			});
 			context.setPacketHandled(true);

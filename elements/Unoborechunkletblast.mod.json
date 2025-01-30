@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "unoborechunkletblast",
+    "cookingBookCategory": "MISC",
+    "xpReward": 20.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:UnobtainiumOreChunklet"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:UnobtainiumChunklet"
+    },
+    "name": "unoborechunkletblast",
+    "namespace": "mod"
+  }
+}

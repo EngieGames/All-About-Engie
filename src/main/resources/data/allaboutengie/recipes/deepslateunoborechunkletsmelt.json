@@ -1,0 +1,10 @@
+{
+  "group": "unoborechunkletsmelt",
+  "type": "minecraft:smelting",
+  "experience": 20,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "allaboutengie:deepslate_unobtainium_ore_chunklet"
+  },
+  "result": "allaboutengie:unobtainium_chunklet"
+}

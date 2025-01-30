@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/browniesempty",
+  "textures": {
+    "0": "allaboutengie:blocks/cheeseballs",
+    "particle": "allaboutengie:items/brownie"
+  }
+}

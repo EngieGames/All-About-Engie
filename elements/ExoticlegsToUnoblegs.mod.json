@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "exotictounob",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Exotic.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Unobtanium"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Unobtainium.legs"
+    },
+    "name": "exoticlegs_to_unoblegs",
+    "namespace": "mod"
+  }
+}

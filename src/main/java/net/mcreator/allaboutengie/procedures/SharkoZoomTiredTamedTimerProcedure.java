@@ -29,8 +29,6 @@ import net.mcreator.allaboutengie.entity.EngieSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedEntity;
-import net.mcreator.allaboutengie.entity.EngieSharkoRare2TamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.EngieSharkoRare2TamedEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedEntity;
 
@@ -129,18 +127,6 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new EngieSharkoRareTamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
-				}
-			} else if (entity instanceof EngieSharkoRare2TamedZoomiesTiredEntity) {
-				if (!entity.level.isClientSide())
-					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), _level);
 					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());

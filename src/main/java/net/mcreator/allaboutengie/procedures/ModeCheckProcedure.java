@@ -35,7 +35,7 @@ public class ModeCheckProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 150");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 200");
 				}
 			}
 		} else if (world.getDifficulty() == Difficulty.NORMAL) {
@@ -43,7 +43,7 @@ public class ModeCheckProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 75");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 150");
 				}
 			}
 		} else if (world.getDifficulty() == Difficulty.EASY) {
@@ -51,7 +51,7 @@ public class ModeCheckProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 45");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 100");
 				}
 			}
 		} else if (world.getDifficulty() == Difficulty.PEACEFUL) {
@@ -59,7 +59,7 @@ public class ModeCheckProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 20");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "attribute @s minecraft:generic.max_health base set 50");
 				}
 			}
 		}

@@ -34,9 +34,9 @@ public class DeepslateUnobtainiumOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new DeepslateUnobtainiumOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("allaboutengie:deepslate_unobtainium_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.DEEPSLATE.defaultBlockState()), AllaboutengieModBlocks.DEEPSLATE_UNOBTAINIUM_ORE.get().defaultBlockState())), 2));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.DEEPSLATE.defaultBlockState()), AllaboutengieModBlocks.DEEPSLATE_UNOBTAINIUM_ORE.get().defaultBlockState())), 4));
 		PLACED_FEATURE = PlacementUtils.register("allaboutengie:deepslate_unobtainium_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

@@ -3,20 +3,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "allaboutengie:cracker_dust"
+      "item": "allaboutengie:deleted_mod_element"
     },
     {
-      "item": "allaboutengie:cracker_dust"
+      "item": "allaboutengie:deleted_mod_element"
     },
     {
       "item": "minecraft:bowl"
     },
     {
-      "item": "allaboutengie:cracker_dust"
+      "item": "allaboutengie:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "allaboutengie:crackers_in_bowl",
+    "item": "allaboutengie:deleted_mod_element",
     "count": 1
   }
 }

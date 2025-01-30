@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:exotic_hoe"
+  },
+  "addition": {
+    "item": "allaboutengie:unobtanium"
+  },
+  "result": {
+    "item": "allaboutengie:unobtainium_hoe"
+  }
+}

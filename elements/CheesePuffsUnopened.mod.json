@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "cheesepuffsbinclosed",
-    "customModelName": "Normal",
+    "customModelName": "cheeseballsunopened:default",
     "customProperties": {},
     "states": [],
-    "name": "Cheese Puffs Unopened",
+    "name": "Cheese Balls Unopened",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AAEItemsFood"

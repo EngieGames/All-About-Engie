@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "exotictounob",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ExoticSword"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Unobtanium"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:UnobtainiumSword"
+    },
+    "name": "exoticsword_to_unobsword",
+    "namespace": "mod"
+  }
+}

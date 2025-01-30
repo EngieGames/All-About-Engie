@@ -1,0 +1,42 @@
+{
+  "group": "unobchunklet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "1": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "2": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "3": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "4": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "5": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "6": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "7": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    },
+    "8": {
+      "item": "allaboutengie:unobtainium_chunklet"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:unobtanium",
+    "count": 1
+  }
+}

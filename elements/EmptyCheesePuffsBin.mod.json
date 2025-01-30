@@ -2,15 +2,15 @@
   "_fv": 47,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "emptybin",
-    "customModelName": "Normal",
+    "customModelName": "cheeseballsempty:default",
     "customProperties": {},
     "states": [],
-    "name": "Empty Cheese Puffs Bin",
+    "name": "Empty Cheese Balls Bin",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:AAEItemsItems"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -21,7 +21,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

@@ -2,19 +2,19 @@
   "_fv": 47,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "cheesepuffsbinopened",
-    "customModelName": "Normal",
+    "customModelName": "cheeseballsopened:default",
     "customProperties": {},
     "states": [],
-    "name": "Cheese Puffs Opened",
+    "name": "Cheese Balls Opened",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AAEItemsFood"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -31,7 +31,16 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": true,
+    "onRightClickedInAir": {
+      "name": "CheesePuffsOpenedRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "CheesePuffsOpenedRightclicked"
+    },
+    "onItemInInventoryTick": {
+      "name": "CheesePuffsOpenedItemInInventoryTick"
+    },
+    "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.4,
     "eatResultItem": {
@@ -39,6 +48,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

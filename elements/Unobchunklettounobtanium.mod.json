@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "unobchunklet",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumChunklet"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Unobtanium"
+    },
+    "name": "unobchunklettounobtanium",
+    "namespace": "mod"
+  }
+}

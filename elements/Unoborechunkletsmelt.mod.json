@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "unoborechunkletsmelt",
+    "cookingBookCategory": "MISC",
+    "xpReward": 20.0,
+    "cookingTime": 400,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UnobtainiumOreChunklet"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:UnobtainiumChunklet"
+    },
+    "name": "unoborechunkletsmelt",
+    "namespace": "mod"
+  }
+}
