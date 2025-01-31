@@ -17,7 +17,7 @@
               "value": "CUSTOM:PizzaSlice"
             },
             "weight": 8,
-            "minCount": 1,
+            "minCount": 4,
             "maxCount": 8,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -30,9 +30,23 @@
             "item": {
               "value": "CUSTOM:CookedPizza"
             },
-            "weight": 1,
+            "weight": 8,
             "minCount": 1,
-            "maxCount": 2,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:BrowniesUnopened"
+            },
+            "weight": 8,
+            "minCount": 1,
+            "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

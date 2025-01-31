@@ -42,7 +42,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:CrackersInBowl"
+              "value": "CUSTOM:CheesePuffsUnopened"
             },
             "weight": 15,
             "minCount": 1,
@@ -56,11 +56,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:CheesePuffsUnopened"
+              "value": "CUSTOM:BrowniesUnopened"
             },
-            "weight": 15,
+            "weight": 4,
             "minCount": 1,
-            "maxCount": 15,
+            "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

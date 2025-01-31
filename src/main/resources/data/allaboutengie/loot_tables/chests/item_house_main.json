@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:deleted_mod_element",
+          "name": "allaboutengie:cheese_balls_unopened",
           "weight": 15,
           "functions": [
             {
@@ -51,14 +51,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "allaboutengie:cheese_balls_unopened",
-          "weight": 15,
+          "name": "allaboutengie:brownies_unopened",
+          "weight": 4,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 15
+                "max": 4
               }
             }
           ]
