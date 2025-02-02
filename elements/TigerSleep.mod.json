@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Tiger (Sleeping)",
     "mobLabel": "Tiger",
-    "mobModelName": "Modeltobyzoomtired",
+    "mobModelName": "Modeltobytired",
     "mobModelTexture": "tigertired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {

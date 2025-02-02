@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Louis (Sleeping)",
     "mobLabel": "Louis",
-    "mobModelName": "Modeltobyzoomtired",
+    "mobModelName": "Modeltobytired",
     "mobModelTexture": "louistired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {

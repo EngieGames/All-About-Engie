@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.TigerSleepEntity;
-import net.mcreator.allaboutengie.client.model.Modeltobyzoomtired;
+import net.mcreator.allaboutengie.client.model.Modeltobytired;
 
-public class TigerSleepRenderer extends MobRenderer<TigerSleepEntity, Modeltobyzoomtired<TigerSleepEntity>> {
+public class TigerSleepRenderer extends MobRenderer<TigerSleepEntity, Modeltobytired<TigerSleepEntity>> {
 	public TigerSleepRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeltobyzoomtired(context.bakeLayer(Modeltobyzoomtired.LAYER_LOCATION)), 0.5f);
+		super(context, new Modeltobytired(context.bakeLayer(Modeltobytired.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

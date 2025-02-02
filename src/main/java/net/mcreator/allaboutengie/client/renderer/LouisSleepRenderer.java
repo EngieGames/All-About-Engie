@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.LouisSleepEntity;
-import net.mcreator.allaboutengie.client.model.Modeltobyzoomtired;
+import net.mcreator.allaboutengie.client.model.Modeltobytired;
 
-public class LouisSleepRenderer extends MobRenderer<LouisSleepEntity, Modeltobyzoomtired<LouisSleepEntity>> {
+public class LouisSleepRenderer extends MobRenderer<LouisSleepEntity, Modeltobytired<LouisSleepEntity>> {
 	public LouisSleepRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeltobyzoomtired(context.bakeLayer(Modeltobyzoomtired.LAYER_LOCATION)), 0.5f);
+		super(context, new Modeltobytired(context.bakeLayer(Modeltobytired.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
