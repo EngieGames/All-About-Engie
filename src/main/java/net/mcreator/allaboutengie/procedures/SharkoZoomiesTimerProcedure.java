@@ -37,7 +37,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new SharkoZoomiesTiredEntity(AllaboutengieModEntities.SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -49,7 +49,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new AlbinoSharkoZoomiesTiredEntity(AllaboutengieModEntities.ALBINO_SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -61,7 +61,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new RareSharkoZoomiesTiredEntity(AllaboutengieModEntities.RARE_SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -73,7 +73,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LegendarySharkoZoomiesTiredEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -85,7 +85,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MythicSharkoZoomiesTiredEntity(AllaboutengieModEntities.MYTHIC_SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -97,7 +97,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new ExoticSharkoZoomiesTiredEntity(AllaboutengieModEntities.EXOTIC_SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -109,7 +109,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new EngieSharkoZoomiesTiredEntity(AllaboutengieModEntities.ENGIE_SHARKO_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -121,7 +121,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new EngieSharkoRareZoomiesTiredEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -133,7 +133,7 @@ public class SharkoZoomiesTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new EngieSharkoRare2ZoomiesTiredEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)

@@ -32,8 +32,8 @@ import net.mcreator.allaboutengie.entity.MarshalZoomiesEntity;
 import net.mcreator.allaboutengie.entity.MarshalEntity;
 import net.mcreator.allaboutengie.entity.LouisZoomiesEntity;
 import net.mcreator.allaboutengie.entity.LouisEntity;
-import net.mcreator.allaboutengie.entity.LegendarySharkoZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoZoomiesEntity;
+import net.mcreator.allaboutengie.entity.LegendarySharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoZoomiesEntity;
@@ -82,7 +82,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new SharkoZoomiesEntity(AllaboutengieModEntities.SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -100,7 +100,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new SharkoTamedZoomiesEntity(AllaboutengieModEntities.SHARKO_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -118,7 +118,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new AlbinoSharkoZoomiesEntity(AllaboutengieModEntities.ALBINO_SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -136,7 +136,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new AlbinoSharkoTamedZoomiesEntity(AllaboutengieModEntities.ALBINO_SHARKO_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -154,7 +154,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new RareSharkoZoomiesEntity(AllaboutengieModEntities.RARE_SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -172,7 +172,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new RareSharkoTamedZoomiesEntity(AllaboutengieModEntities.RARE_SHARKO_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -190,7 +190,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LegendarySharkoZoomiesEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -207,8 +207,8 @@ public class ZoomiesChanceProcedure {
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new LegendarySharkoZoomiesTiredEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_ZOOMIES_TIRED.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						Entity entityToSpawn = new LegendarySharkoTamedZoomiesEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_TAMED_ZOOMIES.get(), _level);
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -226,7 +226,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MythicSharkoZoomiesEntity(AllaboutengieModEntities.MYTHIC_SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -244,7 +244,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MythicSharkoTamedZoomiesEntity(AllaboutengieModEntities.MYTHIC_SHARKO_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -262,7 +262,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new ExoticSharkoZoomiesEntity(AllaboutengieModEntities.EXOTIC_SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -280,7 +280,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new ExoticSharkoTamedZoomiesEntity(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -298,7 +298,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoZoomiesEntity(AllaboutengieModEntities.ENGIE_SHARKO_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -316,7 +316,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoTamedZoomiesEntity(AllaboutengieModEntities.ENGIE_SHARKO_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -334,7 +334,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRareZoomiesEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -352,7 +352,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRareTamedZoomiesEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -370,7 +370,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRare2ZoomiesEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -388,7 +388,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRare2TamedZoomiesEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -406,7 +406,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new TobyZoomiesEntity(AllaboutengieModEntities.TOBY_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -424,7 +424,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MarshalZoomiesEntity(AllaboutengieModEntities.MARSHAL_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -442,7 +442,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new TigerZoomiesEntity(AllaboutengieModEntities.TIGER_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -460,7 +460,7 @@ public class ZoomiesChanceProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LouisZoomiesEntity(AllaboutengieModEntities.LOUIS_ZOOMIES.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)

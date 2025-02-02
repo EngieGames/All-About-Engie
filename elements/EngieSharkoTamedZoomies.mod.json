@@ -5,7 +5,7 @@
     "mobName": "[Tamed] Engie Sharko (Zoomies)",
     "mobLabel": "",
     "mobModelName": "Modelboyozooms",
-    "mobModelTexture": "engiesharkonewtamed.png",
+    "mobModelTexture": "engiesharkonewtamedzoom.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

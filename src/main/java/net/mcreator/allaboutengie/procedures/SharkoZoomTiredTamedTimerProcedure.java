@@ -43,7 +43,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new SharkTamedEntity(AllaboutengieModEntities.SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -55,7 +55,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new AlbinoSharkoTamedEntity(AllaboutengieModEntities.ALBINO_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -67,7 +67,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new RareSharkoTamedEntity(AllaboutengieModEntities.RARE_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -79,7 +79,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LegendarySharkoTamedEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -91,7 +91,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MythicSharkoTamedEntity(AllaboutengieModEntities.MYTHIC_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -103,7 +103,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new ExoticSharkoTamedEntity(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -115,7 +115,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new EngieSharkoTamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -127,7 +127,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new EngieSharkoRareTamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -139,7 +139,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TobyEntity(AllaboutengieModEntities.TOBY.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -151,7 +151,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MarshalEntity(AllaboutengieModEntities.MARSHAL.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -163,7 +163,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TigerEntity(AllaboutengieModEntities.TIGER.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -175,7 +175,7 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					entity.discard();
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LouisEntity(AllaboutengieModEntities.LOUIS.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)

@@ -49,7 +49,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TobyEntity(AllaboutengieModEntities.TOBY.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -61,7 +61,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Marshal")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MarshalEntity(AllaboutengieModEntities.MARSHAL.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -73,7 +73,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Tiger")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TigerEntity(AllaboutengieModEntities.TIGER.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -85,7 +85,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Louis")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LouisEntity(AllaboutengieModEntities.LOUIS.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -104,9 +104,9 @@ public class RareEngieSharko2NameCheckProcedure {
 						if (entityiterator instanceof Player) {
 							{
 								Entity _ent = entity;
-								_ent.teleportTo((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()));
+								_ent.teleportTo((entityiterator.getX()), Math.ceil(entityiterator.getY()), (entityiterator.getZ()));
 								if (_ent instanceof ServerPlayer _serverPlayer)
-									_serverPlayer.connection.teleport((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), _ent.getYRot(), _ent.getXRot());
+									_serverPlayer.connection.teleport((entityiterator.getX()), Math.ceil(entityiterator.getY()), (entityiterator.getZ()), _ent.getYRot(), _ent.getXRot());
 							}
 						}
 					}
@@ -120,7 +120,7 @@ public class RareEngieSharko2NameCheckProcedure {
 						for (Entity entityiterator : _entfound) {
 							if (entityiterator instanceof Player) {
 								if (entity instanceof Mob _entity)
-									_entity.getNavigation().moveTo((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), 1);
+									_entity.getNavigation().moveTo((entityiterator.getX()), Math.ceil(entityiterator.getY()), (entityiterator.getZ()), 1);
 							}
 						}
 					}
@@ -130,7 +130,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TobyZoomiesEntity(AllaboutengieModEntities.TOBY_ZOOMIES.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -142,7 +142,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Marshal")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MarshalZoomiesEntity(AllaboutengieModEntities.MARSHAL_ZOOMIES.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -154,7 +154,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Tiger")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TigerZoomiesEntity(AllaboutengieModEntities.TIGER_ZOOMIES.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -166,7 +166,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Louis")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LouisZoomiesEntity(AllaboutengieModEntities.LOUIS_ZOOMIES.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -185,9 +185,9 @@ public class RareEngieSharko2NameCheckProcedure {
 						if (entityiterator instanceof Player) {
 							{
 								Entity _ent = entity;
-								_ent.teleportTo((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()));
+								_ent.teleportTo((entityiterator.getX()), Math.ceil(entityiterator.getY()), (entityiterator.getZ()));
 								if (_ent instanceof ServerPlayer _serverPlayer)
-									_serverPlayer.connection.teleport((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), _ent.getYRot(), _ent.getXRot());
+									_serverPlayer.connection.teleport((entityiterator.getX()), Math.ceil(entityiterator.getY()), (entityiterator.getZ()), _ent.getYRot(), _ent.getXRot());
 							}
 						}
 					}
@@ -201,7 +201,7 @@ public class RareEngieSharko2NameCheckProcedure {
 						for (Entity entityiterator : _entfound) {
 							if (entityiterator instanceof Player) {
 								if (entity instanceof Mob _entity)
-									_entity.getNavigation().moveTo((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), 1);
+									_entity.getNavigation().moveTo((entityiterator.getX()), Math.ceil(entityiterator.getY()), (entityiterator.getZ()), 1);
 							}
 						}
 					}
@@ -214,7 +214,7 @@ public class RareEngieSharko2NameCheckProcedure {
 						entity.discard();
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRare2TamedZoomiesTiredEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES_TIRED.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -227,7 +227,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TobyZoomiesTiredEntity(AllaboutengieModEntities.TOBY_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -239,7 +239,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Marshal")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MarshalZoomiesTiredEntity(AllaboutengieModEntities.MARSHAL_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -251,7 +251,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Tiger")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TigerZoomiesTiredEntity(AllaboutengieModEntities.TIGER_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -263,7 +263,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Louis")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LouisZoomiesTiredEntity(AllaboutengieModEntities.LOUIS_ZOOMIES_TIRED.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -280,7 +280,7 @@ public class RareEngieSharko2NameCheckProcedure {
 						entity.discard();
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -293,7 +293,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TobyLayEntity(AllaboutengieModEntities.TOBY_LAY.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -305,7 +305,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Marshal")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MarshalLayEntity(AllaboutengieModEntities.MARSHAL_LAY.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -317,7 +317,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Tiger")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TigerLayEntity(AllaboutengieModEntities.TIGER_LAY.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -329,7 +329,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Louis")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LouisLayEntity(AllaboutengieModEntities.LOUIS_LAY.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -343,7 +343,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			if ((entity.getDisplayName().getString()).equals("Toby")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TobySleepEntity(AllaboutengieModEntities.TOBY_SLEEP.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -355,7 +355,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Marshal")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new MarshalSleepEntity(AllaboutengieModEntities.MARSHAL_SLEEP.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -367,7 +367,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Tiger")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new TigerSleepEntity(AllaboutengieModEntities.TIGER_SLEEP.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -379,7 +379,7 @@ public class RareEngieSharko2NameCheckProcedure {
 			} else if ((entity.getDisplayName().getString()).equals("Louis")) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new LouisSleepEntity(AllaboutengieModEntities.LOUIS_SLEEP.get(), _level);
-					entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 					entityToSpawn.setYBodyRot(entity.getYRot());
 					entityToSpawn.setYHeadRot(entity.getYRot());
 					if (entityToSpawn instanceof Mob _mobToSpawn)

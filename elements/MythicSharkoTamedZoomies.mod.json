@@ -5,7 +5,7 @@
     "mobName": "[Tamed] Mythic Sharko (Zoomies)",
     "mobLabel": "",
     "mobModelName": "Modelboyozooms",
-    "mobModelTexture": "mythicsharkonewtamed.png",
+    "mobModelTexture": "mythicsharkonewtamedzoom.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

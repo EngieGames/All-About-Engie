@@ -64,7 +64,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new SharkoSleepEntity(AllaboutengieModEntities.SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -79,7 +79,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new AlbinoSharkoSleepEntity(AllaboutengieModEntities.ALBINO_SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -94,7 +94,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new RareSharkoSleepEntity(AllaboutengieModEntities.RARE_SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -109,7 +109,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LegendarySharkoSleepEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -124,7 +124,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MythicSharkoSleepEntity(AllaboutengieModEntities.MYTHIC_SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -139,7 +139,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new ExoticSharkoSleepEntity(AllaboutengieModEntities.EXOTIC_SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -154,7 +154,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoSleepEntity(AllaboutengieModEntities.ENGIE_SHARKO_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -169,7 +169,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRareSleepEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -184,7 +184,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRare2SleepEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -199,7 +199,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new TobySleepEntity(AllaboutengieModEntities.TOBY_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -214,7 +214,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MarshalSleepEntity(AllaboutengieModEntities.MARSHAL_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -229,7 +229,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new TigerSleepEntity(AllaboutengieModEntities.TIGER_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -244,7 +244,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LouisSleepEntity(AllaboutengieModEntities.LOUIS_SLEEP.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -260,7 +260,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new SharkoLayEntity(AllaboutengieModEntities.SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -275,7 +275,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new AlbinoSharkoLayEntity(AllaboutengieModEntities.ALBINO_SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -290,7 +290,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new RareSharkoLayEntity(AllaboutengieModEntities.RARE_SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -305,7 +305,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LegendarySharkoLayEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -320,7 +320,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MythicSharkoLayEntity(AllaboutengieModEntities.MYTHIC_SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -335,7 +335,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new ExoticSharkoLayEntity(AllaboutengieModEntities.EXOTIC_SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -350,7 +350,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoLayEntity(AllaboutengieModEntities.ENGIE_SHARKO_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -365,7 +365,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRareLayEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -380,7 +380,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new EngieSharkoRare2LayEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -395,7 +395,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new TobyLayEntity(AllaboutengieModEntities.TOBY_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -410,7 +410,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new MarshalLayEntity(AllaboutengieModEntities.MARSHAL_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -425,7 +425,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new TigerLayEntity(AllaboutengieModEntities.TIGER_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)
@@ -440,7 +440,7 @@ public class LayToTiredProcedure {
 				AllaboutengieMod.queueServerWork(1, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LouisLayEntity(AllaboutengieModEntities.LOUIS_LAY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
+						entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
 						if (entityToSpawn instanceof Mob _mobToSpawn)

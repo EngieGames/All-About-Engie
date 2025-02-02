@@ -18,6 +18,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.allaboutengie.procedures.SharkoZoomTiredTamedTimerProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class ExoticSharkoTamedZoomiesTiredEntity extends PathfinderMob {
@@ -73,6 +74,12 @@ public class ExoticSharkoTamedZoomiesTiredEntity extends PathfinderMob {
 		if (source == DamageSource.DROWN)
 			return false;
 		return super.hurt(source, amount);
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		SharkoZoomTiredTamedTimerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {
