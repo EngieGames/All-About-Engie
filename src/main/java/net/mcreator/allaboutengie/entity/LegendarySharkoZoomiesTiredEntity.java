@@ -79,7 +79,7 @@ public class LegendarySharkoZoomiesTiredEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SharkoZoomTiredTimerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		SharkoZoomTiredTimerProcedure.execute(this);
 	}
 
 	public static void init() {

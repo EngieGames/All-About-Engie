@@ -1,39 +1,26 @@
 package net.mcreator.allaboutengie.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 import net.mcreator.allaboutengie.entity.TobyZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.TobyEntity;
 import net.mcreator.allaboutengie.entity.TigerZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.TigerEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.SharkTamedEntity;
 import net.mcreator.allaboutengie.entity.RareSharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.RareSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.MythicSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.MarshalZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.MarshalEntity;
 import net.mcreator.allaboutengie.entity.LouisZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.LouisEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.LegendarySharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.ExoticSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.EngieSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedEntity;
+import net.mcreator.allaboutengie.entity.EngieSharkoRare2TamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedZoomiesTiredEntity;
-import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedEntity;
 
 public class SharkoZoomTiredTamedTimerProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		entity.getPersistentData().putDouble("sharkoZoomiesTiredTimer", (entity.getPersistentData().getDouble("sharkoZoomiesTiredTimer") + 0.05));
@@ -41,146 +28,132 @@ public class SharkoZoomTiredTamedTimerProcedure {
 			if (entity instanceof SharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new SharkTamedEntity(AllaboutengieModEntities.SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof AlbinoSharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new AlbinoSharkoTamedEntity(AllaboutengieModEntities.ALBINO_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:albino_sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof RareSharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new RareSharkoTamedEntity(AllaboutengieModEntities.RARE_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof LegendarySharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new LegendarySharkoTamedEntity(AllaboutengieModEntities.LEGENDARY_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:legendary_sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof MythicSharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new MythicSharkoTamedEntity(AllaboutengieModEntities.MYTHIC_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:mythic_sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof ExoticSharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new ExoticSharkoTamedEntity(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:exotic_sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof EngieSharkoTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new EngieSharkoTamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof EngieSharkoRareTamedZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new EngieSharkoRareTamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_tamed ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof EngieSharkoRare2TamedZoomiesTiredEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_tamed ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof TobyZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new TobyEntity(AllaboutengieModEntities.TOBY.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:toby ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof MarshalZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new MarshalEntity(AllaboutengieModEntities.MARSHAL.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:marshal ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof TigerZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new TigerEntity(AllaboutengieModEntities.TIGER.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:tiger ~ ~ ~");
+					}
 				}
 			} else if (entity instanceof LouisZoomiesTiredEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new LouisEntity(AllaboutengieModEntities.LOUIS.get(), _level);
-					entityToSpawn.moveTo(x, Math.ceil(y), z, entity.getYRot(), entity.getXRot());
-					entityToSpawn.setYBodyRot(entity.getYRot());
-					entityToSpawn.setYHeadRot(entity.getYRot());
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:louis ~ ~ ~");
+					}
 				}
 			}
 		}

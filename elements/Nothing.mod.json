@@ -5,7 +5,7 @@
     "structure": "nothing",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 250,
+    "spawnProbability": 150,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -16,7 +16,50 @@
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "grove"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "mutated_plains"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK",
     "onStructureGenerated": {
       "name": "NothingGenerated"

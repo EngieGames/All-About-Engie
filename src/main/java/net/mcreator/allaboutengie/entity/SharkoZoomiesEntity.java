@@ -93,7 +93,7 @@ public class SharkoZoomiesEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SharkoZoomiesTimerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		SharkoZoomiesTimerProcedure.execute(this);
 	}
 
 	public static void init() {

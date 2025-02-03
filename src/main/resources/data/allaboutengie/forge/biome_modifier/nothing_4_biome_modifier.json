@@ -1,8 +1,20 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "savanna_plateau",
+    "forest",
+    "sunflower_plains",
+    "taiga",
+    "snowy_taiga",
+    "grove",
+    "windswept_hills",
+    "old_growth_pine_taiga",
+    "plains",
+    "savanna",
+    "windswept_forest",
+    "meadow",
+    "old_growth_spruce_taiga"
+  ],
   "features": "allaboutengie:nothing_4",
   "step": "surface_structures"
 }
