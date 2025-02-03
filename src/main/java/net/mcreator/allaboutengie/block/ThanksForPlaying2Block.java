@@ -13,7 +13,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.allaboutengie.procedures.CyberHouseSpawnerTickUpdateProcedure;
+import net.mcreator.allaboutengie.procedures.SharkoHouseSpawnerTickUpdateProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -42,6 +42,6 @@ public class ThanksForPlaying2Block extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		CyberHouseSpawnerTickUpdateProcedure.execute(world, x, y, z);
+		SharkoHouseSpawnerTickUpdateProcedure.execute(world, x, y, z);
 	}
 }

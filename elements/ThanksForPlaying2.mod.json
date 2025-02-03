@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "CyberHouseSpawnerTickUpdate"
+      "name": "SharkoHouseSpawnerTickUpdate"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -7,7 +7,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 
 public class Nothing3GeneratedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		world.setBlock(new BlockPos(x, y, z), AllaboutengieModBlocks.THANKS_FOR_PLAYING.get().defaultBlockState(), 3);
+		world.setBlock(new BlockPos(x, y, z), AllaboutengieModBlocks.THANKS_FOR_PLAYING_3.get().defaultBlockState(), 3);
 		world.scheduleTick(new BlockPos(x, y, z), world.getBlockState(new BlockPos(x, y, z)).getBlock(), 20);
 	}
 }
