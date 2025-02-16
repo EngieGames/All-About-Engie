@@ -114,7 +114,7 @@ public class EngieSharkoRareTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EngieRareTameRCProcedure.execute(world, x, y, z, entity);
+		EngieRareTameRCProcedure.execute(entity);
 		return retval;
 	}
 

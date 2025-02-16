@@ -20,7 +20,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_FIND_ENGIE) == true) {
+		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVEMODE) == true) {
 			if ((entity instanceof ServerPlayer _plr1 && _plr1.level instanceof ServerLevel
 					&& _plr1.getAdvancements().getOrStartProgress(_plr1.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:found_engie"))).isDone()) == false) {
 				if (entity instanceof ServerPlayer _player) {
@@ -102,7 +102,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 											}
 										}
 										if (world instanceof Level _level)
-											_level.getGameRules().getRule(AllaboutengieModGameRules.DETECTIVE_FIND_ENGIE).set(false, _level.getServer());
+											_level.getGameRules().getRule(AllaboutengieModGameRules.DETECTIVEMODE).set(false, _level.getServer());
 										{
 											Entity _ent = entity;
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {

@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "biblicallyaccuratepixel",
+    "customModelName": "ban_hammer_biblicallyaccurate_pixel:default",
+    "name": "Pixelized Biblically Accurate Engie's Ban Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 10,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 128000,
+    "damageVsEntity": 2400.0,
+    "usageCount": 24000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

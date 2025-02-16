@@ -20,6 +20,8 @@ import net.mcreator.allaboutengie.entity.SharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.SharkoLayEntity;
 import net.mcreator.allaboutengie.entity.RareSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.RareSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.PBESleepEntity;
+import net.mcreator.allaboutengie.entity.PBELayEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.MarshalSleepEntity;
@@ -36,6 +38,14 @@ import net.mcreator.allaboutengie.entity.EngieSharkoRareLayEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRare2SleepEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRare2LayEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.CBESleepEntity;
+import net.mcreator.allaboutengie.entity.CBELayEntity;
+import net.mcreator.allaboutengie.entity.BuddySleepEntity;
+import net.mcreator.allaboutengie.entity.BuddyLayEntity;
+import net.mcreator.allaboutengie.entity.AtlasSleepEntity;
+import net.mcreator.allaboutengie.entity.AtlasLayEntity;
+import net.mcreator.allaboutengie.entity.ApolloSleepEntity;
+import net.mcreator.allaboutengie.entity.ApolloLayEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoLayEntity;
 import net.mcreator.allaboutengie.AllaboutengieMod;
@@ -226,7 +236,72 @@ public class LayToTiredProcedure {
 					}
 				});
 			}
-		} else if (world instanceof Level _lvl53 && _lvl53.isDay()) {
+			if (entity instanceof BuddyLayEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:buddy_sleep ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof ApolloLayEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:apollo_sleep ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof AtlasLayEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:atlas_sleep ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof CBELayEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:cbe_sleep ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof PBELayEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:pbe_sleep ~ ~ ~");
+						}
+					}
+				});
+			}
+		} else if (world instanceof Level _lvl73 && _lvl73.isDay()) {
 			if (entity instanceof SharkoSleepEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -392,6 +467,71 @@ public class LayToTiredProcedure {
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:louis_lay ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof BuddySleepEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:buddy_lay ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof ApolloSleepEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:apollo_lay ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof AtlasSleepEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:atlas_lay ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof CBESleepEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:cbe_lay ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof PBESleepEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:pbe_lay ~ ~ ~");
 						}
 					}
 				});

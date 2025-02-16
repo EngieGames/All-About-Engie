@@ -1,0 +1,76 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "biblicallyaccurate",
+    "enableBody": true,
+    "textureBody": "biblicallyaccurate",
+    "enableLeggings": true,
+    "textureLeggings": "biblicallyaccurate",
+    "enableBoots": true,
+    "textureBoots": "biblicallyaccurate",
+    "onBodyTick": {
+      "name": "BAEChestplate"
+    },
+    "onBootsTick": {
+      "name": "BAEBoots"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsArmor"
+    },
+    "armorTextureFile": "biblicallyaccurate_",
+    "helmetName": "Biblically Accurate Engie Helmet",
+    "bodyName": "Biblically Accurate Engie Chestplate",
+    "leggingsName": "Biblically Accurate Engie Leggings",
+    "bootsName": "Biblically Accurate Engie Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 125,
+    "damageValueHelmet": 125,
+    "damageValueBody": 125,
+    "damageValueLeggings": 125,
+    "damageValueBoots": 125,
+    "enchantability": 25,
+    "toughness": 6.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      }
+    ]
+  }
+}

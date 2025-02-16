@@ -15,6 +15,7 @@ import net.mcreator.allaboutengie.entity.TobyZoomiesEntity;
 import net.mcreator.allaboutengie.entity.TigerZoomiesEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.RareSharkoTamedZoomiesEntity;
+import net.mcreator.allaboutengie.entity.PBEZoomiesEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.MarshalZoomiesEntity;
 import net.mcreator.allaboutengie.entity.LouisZoomiesEntity;
@@ -22,6 +23,10 @@ import net.mcreator.allaboutengie.entity.LegendarySharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedZoomiesEntity;
+import net.mcreator.allaboutengie.entity.CBEZoomiesEntity;
+import net.mcreator.allaboutengie.entity.BuddyZoomiesEntity;
+import net.mcreator.allaboutengie.entity.AtlasZoomiesEntity;
+import net.mcreator.allaboutengie.entity.ApolloZoomiesEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedZoomiesEntity;
 
 import java.util.stream.Collectors;
@@ -183,6 +188,56 @@ public class SharkoTamedZoomTimerProcedure {
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:louis_zoomies_tired ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof BuddyZoomiesEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:buddy_zoomies_tired ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof ApolloZoomiesEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:apollo_zoomies_tired ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof AtlasZoomiesEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:atlas_zoomies_tired ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof CBEZoomiesEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:cbe_zoomies_tired ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof PBEZoomiesEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:pbe_zoomies_tired ~ ~ ~");
 					}
 				}
 			}

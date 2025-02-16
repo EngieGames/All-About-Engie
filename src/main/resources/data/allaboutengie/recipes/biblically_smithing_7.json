@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:outraged_engies_leggings"
+  },
+  "addition": {
+    "item": "allaboutengie:biblically_accurate_block"
+  },
+  "result": {
+    "item": "allaboutengie:biblically_accurate_engies_leggings"
+  }
+}

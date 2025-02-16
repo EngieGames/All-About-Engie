@@ -95,7 +95,7 @@ public class TigerSleepEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TigerLayRCProcedure.execute(world, x, y, z, entity);
+		TigerLayRCProcedure.execute(entity);
 		return retval;
 	}
 

@@ -1,4 +1,4 @@
-// Made with Blockbench 4.11.2
+// Made with Blockbench 4.12.2
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
@@ -44,10 +44,18 @@ public class ModelEngieGames<T extends Entity> extends EntityModel<T> {
 				.addBox(-5.5F, -5.2F, -1.2F, 1.4F, 2.4F, 2.4F, new CubeDeformation(0.0F)).texOffs(0, 95)
 				.addBox(-5.3F, -6.0F, -2.0F, 1.3F, 4.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(22, 94).mirror()
 				.addBox(-4.7F, -6.5F, -2.0F, 0.8F, 5.0F, 4.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(11, 88)
-				.addBox(-4.7F, -6.0F, -2.5F, 0.8F, 4.0F, 5.0F, new CubeDeformation(0.0F)).texOffs(0, 66)
-				.addBox(-4.4F, -8.3F, -1.0F, 0.4F, 2.7F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 66)
-				.addBox(4.0F, -8.3F, -1.0F, 0.4F, 2.7F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 39)
-				.addBox(-4.0F, -8.4F, -1.0F, 8.0F, 0.4F, 2.0F, new CubeDeformation(0.0F)).texOffs(81, 69)
+				.addBox(-4.7F, -6.0F, -2.5F, 0.8F, 4.0F, 5.0F, new CubeDeformation(0.0F)).texOffs(0, 64)
+				.addBox(-4.4F, -8.3F, -2.0F, 0.4F, 2.7F, 4.0F, new CubeDeformation(0.0F)).texOffs(16, 55)
+				.addBox(-4.8F, -8.7F, 1.025F, 0.4F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(16, 55)
+				.addBox(-4.8F, -8.7F, -2.025F, 0.4F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(16, 55)
+				.addBox(4.2F, -8.7F, -2.025F, 0.4F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(16, 55)
+				.addBox(4.2F, -8.7F, 1.025F, 0.4F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 64)
+				.addBox(4.0F, -8.3F, -2.0F, 0.4F, 2.7F, 4.0F, new CubeDeformation(0.0F)).texOffs(0, 50)
+				.addBox(-4.0F, -8.4F, -2.0F, 8.0F, 0.4F, 4.0F, new CubeDeformation(0.0F)).texOffs(20, 50)
+				.addBox(-4.5F, -8.8F, -2.0F, 9.0F, 0.4F, 1.0F, new CubeDeformation(0.0F)).texOffs(21, 50)
+				.addBox(-4.5F, -8.8F, 1.0F, 9.0F, 0.4F, 1.0F, new CubeDeformation(0.0F)).texOffs(19, 55)
+				.addBox(-4.8F, -8.8F, -1.0F, 1.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(19, 55)
+				.addBox(3.6F, -8.8F, -1.0F, 1.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(81, 69)
 				.addBox(-4.1F, -5.95F, -5.0F, 8.2F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 125).mirror()
 				.addBox(-1.5F, -8.075F, 4.0F, 3.0F, 2.4F, 0.1F, new CubeDeformation(0.0F)).mirror(false).texOffs(0, 126)
 				.mirror().addBox(-4.1F, -5.675F, 4.0F, 8.2F, 1.5F, 0.1F, new CubeDeformation(0.0F)).mirror(false)
@@ -59,19 +67,19 @@ public class ModelEngieGames<T extends Entity> extends EntityModel<T> {
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition cube_r1 = Head.addOrReplaceChild("cube_r1",
-				CubeListBuilder.create().texOffs(0, 125).addBox(-1.5F, -2.5F, -0.05F, 3.0F, 2.5F, 0.1F,
+				CubeListBuilder.create().texOffs(0, 125).addBox(-1.5F, -1.25F, -0.05F, 3.0F, 2.5F, 0.1F,
 						new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, -5.6F, -4.35F, -0.1309F, 0.0F, 0.0F));
+				PartPose.offsetAndRotation(0.0F, -6.8393F, -4.1868F, -0.1309F, 0.0F, 0.0F));
 
 		PartDefinition cube_r2 = Head.addOrReplaceChild("cube_r2",
 				CubeListBuilder.create().texOffs(80, 79).mirror()
-						.addBox(-9.0F, -4.0F, -1.0F, 13.0F, 13.0F, 2.0F, new CubeDeformation(-5.49F)).mirror(false),
-				PartPose.offsetAndRotation(-4.525F, -7.45F, -1.05F, 0.0F, 3.1416F, 0.0F));
+						.addBox(-6.5F, -6.5F, -1.0F, 13.0F, 13.0F, 2.0F, new CubeDeformation(-5.49F)).mirror(false),
+				PartPose.offsetAndRotation(-2.025F, -4.95F, -1.05F, 0.0F, 3.1416F, 0.0F));
 
 		PartDefinition cube_r3 = Head.addOrReplaceChild("cube_r3",
 				CubeListBuilder.create().texOffs(80, 79).mirror()
-						.addBox(-9.0F, -4.0F, -1.0F, 13.0F, 13.0F, 2.0F, new CubeDeformation(-5.49F)).mirror(false),
-				PartPose.offsetAndRotation(-0.525F, -7.45F, -1.05F, 0.0F, 3.1416F, 0.0F));
+						.addBox(-6.5F, -6.5F, -1.0F, 13.0F, 13.0F, 2.0F, new CubeDeformation(-5.49F)).mirror(false),
+				PartPose.offsetAndRotation(1.975F, -4.95F, -1.05F, 0.0F, 3.1416F, 0.0F));
 
 		PartDefinition cube_r4 = Head.addOrReplaceChild("cube_r4",
 				CubeListBuilder.create().texOffs(58, 78).addBox(-4.0F, -4.0F, -1.0F, 8.0F, 8.0F, 2.0F,

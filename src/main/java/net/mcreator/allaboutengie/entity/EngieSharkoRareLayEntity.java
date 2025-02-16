@@ -96,7 +96,7 @@ public class EngieSharkoRareLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EngieRareLayRCProcedure.execute(world, x, y, z, entity);
+		EngieRareLayRCProcedure.execute(entity);
 		return retval;
 	}
 

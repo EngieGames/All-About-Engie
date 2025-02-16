@@ -25,6 +25,9 @@
       },
       {
         "value": "CUSTOM:CyberbloodBlock"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
       }
     ],
     "functions": [],

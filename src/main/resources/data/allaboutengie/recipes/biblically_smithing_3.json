@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:outraged_engie_shovel"
+  },
+  "addition": {
+    "item": "allaboutengie:biblically_accurate_block"
+  },
+  "result": {
+    "item": "allaboutengie:biblically_accurate_engie_shovel"
+  }
+}

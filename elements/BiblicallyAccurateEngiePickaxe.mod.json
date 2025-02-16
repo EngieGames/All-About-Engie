@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "biblicallyaccuratepickaxe",
+    "customModelName": "Normal",
+    "name": "Biblically Accurate Engie Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 15,
+    "efficiency": 25.0,
+    "attackSpeed": 2.6,
+    "enchantability": 25,
+    "damageVsEntity": 100.0,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:angry_engies_helmet"
+  },
+  "addition": {
+    "item": "allaboutengie:enraged_engie_block"
+  },
+  "result": {
+    "item": "allaboutengie:enraged_engies_helmet"
+  }
+}

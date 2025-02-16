@@ -18,6 +18,10 @@ import net.mcreator.allaboutengie.client.model.Modeloutraged_new;
 import net.mcreator.allaboutengie.client.model.Modeloldboyo;
 import net.mcreator.allaboutengie.client.model.Modelenragedzombie;
 import net.mcreator.allaboutengie.client.model.Modelenraged_new;
+import net.mcreator.allaboutengie.client.model.Modelengieboyozoom;
+import net.mcreator.allaboutengie.client.model.Modelengieboyotired;
+import net.mcreator.allaboutengie.client.model.Modelengieboyosit;
+import net.mcreator.allaboutengie.client.model.Modelengieboyo;
 import net.mcreator.allaboutengie.client.model.Modelboyozoomtired;
 import net.mcreator.allaboutengie.client.model.Modelboyozooms;
 import net.mcreator.allaboutengie.client.model.Modelboyotired;
@@ -27,6 +31,7 @@ import net.mcreator.allaboutengie.client.model.Modelangry_new;
 import net.mcreator.allaboutengie.client.model.ModelMadEngie;
 import net.mcreator.allaboutengie.client.model.ModelEngieGames;
 import net.mcreator.allaboutengie.client.model.ModelEngie;
+import net.mcreator.allaboutengie.client.model.ModelBiblicallyAccurateEngie;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class AllaboutengieModModels {
@@ -38,6 +43,7 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modelangry_new.LAYER_LOCATION, Modelangry_new::createBodyLayer);
 		event.registerLayerDefinition(Modelboyo.LAYER_LOCATION, Modelboyo::createBodyLayer);
 		event.registerLayerDefinition(Modelboyosit.LAYER_LOCATION, Modelboyosit::createBodyLayer);
+		event.registerLayerDefinition(Modelengieboyosit.LAYER_LOCATION, Modelengieboyosit::createBodyLayer);
 		event.registerLayerDefinition(ModelMadEngie.LAYER_LOCATION, ModelMadEngie::createBodyLayer);
 		event.registerLayerDefinition(Modelenragedzombie.LAYER_LOCATION, Modelenragedzombie::createBodyLayer);
 		event.registerLayerDefinition(Modeltobyzoomtired.LAYER_LOCATION, Modeltobyzoomtired::createBodyLayer);
@@ -47,8 +53,12 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modeltoby.LAYER_LOCATION, Modeltoby::createBodyLayer);
 		event.registerLayerDefinition(ModelEngie.LAYER_LOCATION, ModelEngie::createBodyLayer);
 		event.registerLayerDefinition(Modeltobytired.LAYER_LOCATION, Modeltobytired::createBodyLayer);
+		event.registerLayerDefinition(Modelengieboyozoom.LAYER_LOCATION, Modelengieboyozoom::createBodyLayer);
 		event.registerLayerDefinition(Modelboyotired.LAYER_LOCATION, Modelboyotired::createBodyLayer);
 		event.registerLayerDefinition(Modeloutraged_new.LAYER_LOCATION, Modeloutraged_new::createBodyLayer);
 		event.registerLayerDefinition(Modelenraged_new.LAYER_LOCATION, Modelenraged_new::createBodyLayer);
+		event.registerLayerDefinition(Modelengieboyo.LAYER_LOCATION, Modelengieboyo::createBodyLayer);
+		event.registerLayerDefinition(Modelengieboyotired.LAYER_LOCATION, Modelengieboyotired::createBodyLayer);
+		event.registerLayerDefinition(ModelBiblicallyAccurateEngie.LAYER_LOCATION, ModelBiblicallyAccurateEngie::createBodyLayer);
 	}
 }

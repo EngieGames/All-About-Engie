@@ -23,7 +23,9 @@ import net.mcreator.allaboutengie.world.features.Nothing4Feature;
 import net.mcreator.allaboutengie.world.features.Nothing3Feature;
 import net.mcreator.allaboutengie.world.features.Nothing2Feature;
 import net.mcreator.allaboutengie.world.features.ItemHouseXXLFeature;
+import net.mcreator.allaboutengie.world.features.ItemHouseXXLDetecFeature;
 import net.mcreator.allaboutengie.world.features.ItemHouseFeature;
+import net.mcreator.allaboutengie.world.features.ItemHouseDetectiveFeature;
 import net.mcreator.allaboutengie.world.features.CyberHouseFeature;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
@@ -31,9 +33,9 @@ import net.mcreator.allaboutengie.AllaboutengieMod;
 public class AllaboutengieModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AllaboutengieMod.MODID);
 	public static final RegistryObject<Feature<?>> CYBER_ORE = REGISTRY.register("cyber_ore", CyberOreFeature::feature);
-	public static final RegistryObject<Feature<?>> DEEPSLATE_ENGIE_ORE = REGISTRY.register("deepslate_engie_ore", DeepslateEngieOreFeature::feature);
 	public static final RegistryObject<Feature<?>> BLOOD_ORE = REGISTRY.register("blood_ore", BloodOreFeature::feature);
 	public static final RegistryObject<Feature<?>> ENGIE_ORE = REGISTRY.register("engie_ore", EngieOreFeature::feature);
+	public static final RegistryObject<Feature<?>> DEEPSLATE_ENGIE_ORE = REGISTRY.register("deepslate_engie_ore", DeepslateEngieOreFeature::feature);
 	public static final RegistryObject<Feature<?>> UNOBTAINIUM_ORE = REGISTRY.register("unobtainium_ore", UnobtainiumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> DEEPSLATE_UNOBTAINIUM_ORE = REGISTRY.register("deepslate_unobtainium_ore", DeepslateUnobtainiumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> NOTHING = REGISTRY.register("nothing", NothingFeature::feature);
@@ -44,4 +46,6 @@ public class AllaboutengieModFeatures {
 	public static final RegistryObject<Feature<?>> CYBER_HOUSE = REGISTRY.register("cyber_house", CyberHouseFeature::feature);
 	public static final RegistryObject<Feature<?>> NOTHING_4 = REGISTRY.register("nothing_4", Nothing4Feature::feature);
 	public static final RegistryObject<Feature<?>> ITEM_HOUSE_XXL = REGISTRY.register("item_house_xxl", ItemHouseXXLFeature::feature);
+	public static final RegistryObject<Feature<?>> ITEM_HOUSE_DETECTIVE = REGISTRY.register("item_house_detective", ItemHouseDetectiveFeature::feature);
+	public static final RegistryObject<Feature<?>> ITEM_HOUSE_XXL_DETEC = REGISTRY.register("item_house_xxl_detec", ItemHouseXXLDetecFeature::feature);
 }

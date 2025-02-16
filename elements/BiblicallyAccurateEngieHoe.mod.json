@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "texture": "biblicallyaccuratehoe",
+    "customModelName": "Normal",
+    "name": "Biblically Accurate Engie Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 15,
+    "efficiency": 27.0,
+    "attackSpeed": 2.6,
+    "enchantability": 27,
+    "damageVsEntity": 100.0,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -98,7 +98,7 @@ public class SharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		SharkoLayRCProcedure.execute(world, x, y, z, entity);
+		SharkoLayRCProcedure.execute(entity);
 		return retval;
 	}
 

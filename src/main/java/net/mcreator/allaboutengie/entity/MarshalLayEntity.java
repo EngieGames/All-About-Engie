@@ -99,7 +99,7 @@ public class MarshalLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		MarshalLayRCProcedure.execute(world, x, y, z, entity);
+		MarshalLayRCProcedure.execute(entity);
 		return retval;
 	}
 

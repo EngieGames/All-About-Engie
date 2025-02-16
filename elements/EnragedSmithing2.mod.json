@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:AngryEngiePickaxe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:EnragedEngieBlock"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:EnragedEngiePickaxe"
+    },
+    "name": "enraged_smithing_2",
+    "namespace": "mod"
+  }
+}

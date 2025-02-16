@@ -117,7 +117,7 @@ public class TigerEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TigerRCProcedure.execute(world, x, y, z, entity);
+		TigerRCProcedure.execute(entity);
 		return retval;
 	}
 

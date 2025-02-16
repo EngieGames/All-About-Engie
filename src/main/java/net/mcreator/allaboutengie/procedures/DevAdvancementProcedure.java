@@ -33,7 +33,7 @@ public class DevAdvancementProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:he_who_games");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:hi_dev_engie");
 				}
 			}
 		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] Dev")) {
@@ -41,7 +41,7 @@ public class DevAdvancementProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:he_who_games");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:hi_dev_engie");
 				}
 			}
 		} else if ((entity.getDisplayName().getString()).equals("DevEngie")) {
@@ -49,7 +49,7 @@ public class DevAdvancementProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:he_who_games");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:hi_dev_engie");
 				}
 			}
 		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Developer] DevEngie")) {
@@ -57,7 +57,7 @@ public class DevAdvancementProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:he_who_games");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "advancement grant @a only allaboutengie:hi_dev_engie");
 				}
 			}
 		}

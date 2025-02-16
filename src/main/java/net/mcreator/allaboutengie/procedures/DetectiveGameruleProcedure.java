@@ -38,7 +38,7 @@ public class DetectiveGameruleProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_FIND_ENGIE) == false) {
+		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVEMODE) == false) {
 			if (!(entity instanceof ServerPlayer _plr1 && _plr1.level instanceof ServerLevel && _plr1.getAdvancements().getOrStartProgress(_plr1.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"))).isDone())) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"));
@@ -50,7 +50,7 @@ public class DetectiveGameruleProcedure {
 					}
 				}
 			}
-		} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_FIND_ENGIE) == true) {
+		} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVEMODE) == true) {
 			if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).detecstart == false) {
 				if (!(entity instanceof ServerPlayer _plr4 && _plr4.level instanceof ServerLevel
 						&& _plr4.getAdvancements().getOrStartProgress(_plr4.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"))).isDone())) {

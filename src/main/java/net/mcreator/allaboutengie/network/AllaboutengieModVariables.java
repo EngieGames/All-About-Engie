@@ -149,7 +149,6 @@ public class AllaboutengieModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "allaboutengie_mapvars";
-		public boolean detective = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -158,12 +157,10 @@ public class AllaboutengieModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
-			detective = nbt.getBoolean("detective");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
-			nbt.putBoolean("detective", detective);
 			return nbt;
 		}
 

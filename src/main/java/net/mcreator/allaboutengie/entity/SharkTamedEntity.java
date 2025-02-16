@@ -114,7 +114,7 @@ public class SharkTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		SharkoTameRCProcedure.execute(world, x, y, z, entity);
+		SharkoTameRCProcedure.execute(entity);
 		return retval;
 	}
 

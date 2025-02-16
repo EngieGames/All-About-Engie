@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:OutragedEngies.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:BiblicallyAccurateBlock"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:BiblicallyAccurateEngies.legs"
+    },
+    "name": "biblically_smithing_7",
+    "namespace": "mod"
+  }
+}

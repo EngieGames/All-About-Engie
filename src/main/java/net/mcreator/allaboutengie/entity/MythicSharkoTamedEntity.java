@@ -114,7 +114,7 @@ public class MythicSharkoTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		MythicTameRCProcedure.execute(world, x, y, z, entity);
+		MythicTameRCProcedure.execute(entity);
 		return retval;
 	}
 

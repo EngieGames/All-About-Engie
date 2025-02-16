@@ -1,0 +1,39 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:EngieBlock"
+      },
+      {
+        "value": "CUSTOM:AngryEngieBlock"
+      },
+      {
+        "value": "CUSTOM:EnragedEngieBlock"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieBlock"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:CyberBlock"
+      },
+      {
+        "value": "CUSTOM:BloodBlock"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "impermeable",
+    "namespace": "minecraft"
+  }
+}
