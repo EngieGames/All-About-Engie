@@ -653,6 +653,26 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CBEZoomiesTiredEntity>of(CBEZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CBEZoomiesTiredEntity::new)
 
 					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<PBEEntity>> PBE = register("pbe",
+			EntityType.Builder.<PBEEntity>of(PBEEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<PBELayEntity>> PBE_LAY = register("pbe_lay",
+			EntityType.Builder.<PBELayEntity>of(PBELayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBELayEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<PBEZoomiesEntity>> PBE_ZOOMIES = register("pbe_zoomies",
+			EntityType.Builder.<PBEZoomiesEntity>of(PBEZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEZoomiesEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<PBESleepEntity>> PBE_SLEEP = register("pbe_sleep",
+			EntityType.Builder.<PBESleepEntity>of(PBESleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBESleepEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<PBEZoomiesTiredEntity>> PBE_ZOOMIES_TIRED = register("pbe_zoomies_tired",
+			EntityType.Builder.<PBEZoomiesTiredEntity>of(PBEZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEZoomiesTiredEntity::new)
+
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<EnragedNormalEntity>> ENRAGED_NORMAL = register("enraged_normal",
 			EntityType.Builder.<EnragedNormalEntity>of(EnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedNormalEntity::new)
 
@@ -844,26 +864,6 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRare2TamedZoomiesEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<PBEEntity>> PBE = register("pbe",
-			EntityType.Builder.<PBEEntity>of(PBEEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<PBELayEntity>> PBE_LAY = register("pbe_lay",
-			EntityType.Builder.<PBELayEntity>of(PBELayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBELayEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<PBEZoomiesEntity>> PBE_ZOOMIES = register("pbe_zoomies",
-			EntityType.Builder.<PBEZoomiesEntity>of(PBEZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEZoomiesEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<PBESleepEntity>> PBE_SLEEP = register("pbe_sleep",
-			EntityType.Builder.<PBESleepEntity>of(PBESleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBESleepEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<PBEZoomiesTiredEntity>> PBE_ZOOMIES_TIRED = register("pbe_zoomies_tired",
-			EntityType.Builder.<PBEZoomiesTiredEntity>of(PBEZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEZoomiesTiredEntity::new)
-
-					.sized(0.7f, 0.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -984,6 +984,11 @@ public class AllaboutengieModEntities {
 			CBEZoomiesEntity.init();
 			CBESleepEntity.init();
 			CBEZoomiesTiredEntity.init();
+			PBEEntity.init();
+			PBELayEntity.init();
+			PBEZoomiesEntity.init();
+			PBESleepEntity.init();
+			PBEZoomiesTiredEntity.init();
 			EnragedNormalEntity.init();
 			EnragedNormal2Entity.init();
 			EnragedNormal3Entity.init();
@@ -1029,11 +1034,6 @@ public class AllaboutengieModEntities {
 			EngieSharkoTamedZoomiesEntity.init();
 			EngieSharkoRareTamedZoomiesEntity.init();
 			EngieSharkoRare2TamedZoomiesEntity.init();
-			PBEEntity.init();
-			PBELayEntity.init();
-			PBEZoomiesEntity.init();
-			PBESleepEntity.init();
-			PBEZoomiesTiredEntity.init();
 		});
 	}
 
@@ -1151,6 +1151,11 @@ public class AllaboutengieModEntities {
 		event.put(CBE_ZOOMIES.get(), CBEZoomiesEntity.createAttributes().build());
 		event.put(CBE_SLEEP.get(), CBESleepEntity.createAttributes().build());
 		event.put(CBE_ZOOMIES_TIRED.get(), CBEZoomiesTiredEntity.createAttributes().build());
+		event.put(PBE.get(), PBEEntity.createAttributes().build());
+		event.put(PBE_LAY.get(), PBELayEntity.createAttributes().build());
+		event.put(PBE_ZOOMIES.get(), PBEZoomiesEntity.createAttributes().build());
+		event.put(PBE_SLEEP.get(), PBESleepEntity.createAttributes().build());
+		event.put(PBE_ZOOMIES_TIRED.get(), PBEZoomiesTiredEntity.createAttributes().build());
 		event.put(ENRAGED_NORMAL.get(), EnragedNormalEntity.createAttributes().build());
 		event.put(ENRAGED_NORMAL_2.get(), EnragedNormal2Entity.createAttributes().build());
 		event.put(ENRAGED_NORMAL_3.get(), EnragedNormal3Entity.createAttributes().build());
@@ -1196,10 +1201,5 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED_ZOOMIES.get(), EngieSharkoRareTamedZoomiesEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesEntity.createAttributes().build());
-		event.put(PBE.get(), PBEEntity.createAttributes().build());
-		event.put(PBE_LAY.get(), PBELayEntity.createAttributes().build());
-		event.put(PBE_ZOOMIES.get(), PBEZoomiesEntity.createAttributes().build());
-		event.put(PBE_SLEEP.get(), PBESleepEntity.createAttributes().build());
-		event.put(PBE_ZOOMIES_TIRED.get(), PBEZoomiesTiredEntity.createAttributes().build());
 	}
 }

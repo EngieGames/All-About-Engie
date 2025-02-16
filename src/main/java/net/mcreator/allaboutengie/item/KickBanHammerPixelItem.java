@@ -12,7 +12,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.allaboutengie.procedures.KickFromKickBanHammerProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 import java.util.List;
 
@@ -42,7 +41,7 @@ public class KickBanHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_PIXEL_ITEMS));
+		}, 3, -3f, new Item.Properties().tab(null));
 	}
 
 	@Override

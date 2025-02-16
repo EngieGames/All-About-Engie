@@ -1,0 +1,36 @@
+{
+  "group": "banhammerpixel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "1": {
+      "item": "allaboutengie:engie_gem"
+    },
+    "2": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:enraged_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:ban_hammer_pixel"
+    },
+    "5": {
+      "item": "allaboutengie:enraged_engie_essence"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:big_ban_hammer_pixel",
+    "count": 1
+  }
+}

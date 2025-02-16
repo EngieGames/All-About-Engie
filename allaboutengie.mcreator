@@ -3,7 +3,7 @@
     {
       "name": "AEBoots",
       "type": "procedure",
-      "sortid": 324,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ae_boots_pro",
@@ -23,7 +23,7 @@
     {
       "name": "EEChestplate",
       "type": "procedure",
-      "sortid": 325,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ee_chestplate_pro",
@@ -43,7 +43,7 @@
     {
       "name": "EEBoots",
       "type": "procedure",
-      "sortid": 326,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ee_boots_pro",
@@ -63,7 +63,7 @@
     {
       "name": "OPHelmPro",
       "type": "procedure",
-      "sortid": 327,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "op_helm_pro",
@@ -83,7 +83,7 @@
     {
       "name": "OPChestplatePro",
       "type": "procedure",
-      "sortid": 328,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "op_chestplate_pro",
@@ -103,7 +103,7 @@
     {
       "name": "OPLeggingsPro",
       "type": "procedure",
-      "sortid": 329,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "op_leggings_pro",
@@ -123,7 +123,7 @@
     {
       "name": "OPBootsPro",
       "type": "procedure",
-      "sortid": 330,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "op_boots_pro",
@@ -158,7 +158,7 @@
     {
       "name": "AAEItemsItems",
       "type": "tab",
-      "sortid": 331,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aae_items_items",
@@ -200,7 +200,7 @@
     {
       "name": "AAEItemsArmor",
       "type": "tab",
-      "sortid": 332,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aae_items_armor",
@@ -263,7 +263,7 @@
     {
       "name": "MetalChestUI",
       "type": "gui",
-      "sortid": 333,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_chest_ui",
@@ -368,7 +368,7 @@
     {
       "name": "CrucifixPro",
       "type": "procedure",
-      "sortid": 334,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crucifix_pro",
@@ -449,7 +449,7 @@
     {
       "name": "TrueBanHammer",
       "type": "tool",
-      "sortid": 128,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "true_ban_hammer",
@@ -464,7 +464,7 @@
     {
       "name": "KickFromKickBanHammer",
       "type": "procedure",
-      "sortid": 335,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kick_from_kick_ban_hammer",
@@ -484,7 +484,7 @@
     {
       "name": "BanFromTrueBanHammer",
       "type": "procedure",
-      "sortid": 336,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ban_from_true_ban_hammer",
@@ -504,7 +504,7 @@
     {
       "name": "KickBanHammer",
       "type": "tool",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kick_ban_hammer",
@@ -579,7 +579,7 @@
     {
       "name": "KickFromKickBanHammerPixel",
       "type": "procedure",
-      "sortid": 337,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kick_from_kick_ban_hammer_pixel",
@@ -599,7 +599,7 @@
     {
       "name": "BanFromTrueBanHammerPixel",
       "type": "procedure",
-      "sortid": 338,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ban_from_true_ban_hammer_pixel",
@@ -739,7 +739,7 @@
     {
       "name": "Operators",
       "type": "armor",
-      "sortid": 339,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operators",
@@ -757,7 +757,7 @@
     {
       "name": "OperatorItemsCommandPro",
       "type": "procedure",
-      "sortid": 340,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operator_items_command_pro",
@@ -886,7 +886,7 @@
     {
       "name": "OperatorsGear",
       "type": "command",
-      "sortid": 341,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operators_gear",
@@ -900,7 +900,7 @@
     {
       "name": "ThanksForPlaying",
       "type": "block",
-      "sortid": 342,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks_for_playing",
@@ -917,7 +917,7 @@
     {
       "name": "Nothing",
       "type": "structure",
-      "sortid": 343,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing",
@@ -932,7 +932,7 @@
     {
       "name": "NothingGenerated",
       "type": "procedure",
-      "sortid": 344,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_generated",
@@ -964,7 +964,7 @@
     {
       "name": "ItemHouseSpawnerTickUpdate",
       "type": "procedure",
-      "sortid": 345,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_spawner_tick_update",
@@ -996,7 +996,7 @@
     {
       "name": "ItemHouse",
       "type": "structure",
-      "sortid": 346,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house",
@@ -1011,7 +1011,7 @@
     {
       "name": "EngiesScythe",
       "type": "tool",
-      "sortid": 347,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engies_scythe",
@@ -1056,7 +1056,7 @@
     {
       "name": "DoughRightClick",
       "type": "procedure",
-      "sortid": 348,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dough_right_click",
@@ -1121,7 +1121,7 @@
     {
       "name": "UncookedPizzaToCookedPizza",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uncooked_pizza_to_cooked_pizza",
@@ -1135,7 +1135,7 @@
     {
       "name": "UncookedPizzaToCookedPizzaSmoking",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uncooked_pizza_to_cooked_pizza_smoking",
@@ -1149,7 +1149,7 @@
     {
       "name": "EngieAxe1",
       "type": "recipe",
-      "sortid": 351,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_axe_1",
@@ -1163,7 +1163,7 @@
     {
       "name": "EngieAxe2",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_axe_2",
@@ -1177,7 +1177,7 @@
     {
       "name": "EngiePickaxe1",
       "type": "recipe",
-      "sortid": 353,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_pickaxe_1",
@@ -1191,7 +1191,7 @@
     {
       "name": "EngieShovel1",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_shovel_1",
@@ -1205,7 +1205,7 @@
     {
       "name": "EngieHoe1",
       "type": "recipe",
-      "sortid": 355,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_hoe_1",
@@ -1219,7 +1219,7 @@
     {
       "name": "EngieHoe2",
       "type": "recipe",
-      "sortid": 356,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_hoe_2",
@@ -1233,7 +1233,7 @@
     {
       "name": "AngryEngieAxe1",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_axe_1",
@@ -1247,7 +1247,7 @@
     {
       "name": "AngryEngieAxe2",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_axe_2",
@@ -1261,7 +1261,7 @@
     {
       "name": "AngryEngiePickaxe1",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_pickaxe_1",
@@ -1275,7 +1275,7 @@
     {
       "name": "AngryEngieShovel1",
       "type": "recipe",
-      "sortid": 360,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_shovel_1",
@@ -1289,7 +1289,7 @@
     {
       "name": "AngryEngieHoe1",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_hoe_1",
@@ -1303,7 +1303,7 @@
     {
       "name": "AngryEngieHoe2",
       "type": "recipe",
-      "sortid": 362,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_hoe_2",
@@ -1317,7 +1317,7 @@
     {
       "name": "EnragedEngieAxe1",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_axe_1",
@@ -1331,7 +1331,7 @@
     {
       "name": "EnragedEngieAxe2",
       "type": "recipe",
-      "sortid": 364,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_axe_2",
@@ -1345,7 +1345,7 @@
     {
       "name": "EnragedEngiePickaxe1",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_pickaxe_1",
@@ -1359,7 +1359,7 @@
     {
       "name": "EnragedEngieShovel1",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_shovel_1",
@@ -1373,7 +1373,7 @@
     {
       "name": "EnragedEngieHoe1",
       "type": "recipe",
-      "sortid": 367,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_hoe_1",
@@ -1387,7 +1387,7 @@
     {
       "name": "EnragedEngieHoe2",
       "type": "recipe",
-      "sortid": 368,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_hoe_2",
@@ -1401,7 +1401,7 @@
     {
       "name": "EngieHelmet1",
       "type": "recipe",
-      "sortid": 369,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_helmet_1",
@@ -1415,7 +1415,7 @@
     {
       "name": "EngieChestplate1",
       "type": "recipe",
-      "sortid": 370,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_chestplate_1",
@@ -1429,7 +1429,7 @@
     {
       "name": "EngieLeggings1",
       "type": "recipe",
-      "sortid": 371,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_leggings_1",
@@ -1443,7 +1443,7 @@
     {
       "name": "EngieBoots1",
       "type": "recipe",
-      "sortid": 372,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_boots_1",
@@ -1457,7 +1457,7 @@
     {
       "name": "AngryEngieHelmet1",
       "type": "recipe",
-      "sortid": 373,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_helmet_1",
@@ -1471,7 +1471,7 @@
     {
       "name": "AngryEngieChestplate1",
       "type": "recipe",
-      "sortid": 374,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_chestplate_1",
@@ -1485,7 +1485,7 @@
     {
       "name": "AngryEngieLeggings1",
       "type": "recipe",
-      "sortid": 375,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_leggings_1",
@@ -1499,7 +1499,7 @@
     {
       "name": "AngryEngieBoots1",
       "type": "recipe",
-      "sortid": 376,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_boots_1",
@@ -1513,7 +1513,7 @@
     {
       "name": "EnragredEngieHelmet1",
       "type": "recipe",
-      "sortid": 377,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enragred_engie_helmet_1",
@@ -1527,7 +1527,7 @@
     {
       "name": "EnragedEngieChestplate1",
       "type": "recipe",
-      "sortid": 378,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_chestplate_1",
@@ -1541,7 +1541,7 @@
     {
       "name": "EnragedEngieLeggings1",
       "type": "recipe",
-      "sortid": 379,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_leggings_1",
@@ -1555,7 +1555,7 @@
     {
       "name": "EnragedEngieBoots1",
       "type": "recipe",
-      "sortid": 380,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_boots_1",
@@ -1569,7 +1569,7 @@
     {
       "name": "EngieBlock1",
       "type": "recipe",
-      "sortid": 381,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_block_1",
@@ -1583,7 +1583,7 @@
     {
       "name": "AngryEngieBlock1",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_block_1",
@@ -1597,7 +1597,7 @@
     {
       "name": "EnragedEngieBlock1",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_block_1",
@@ -1611,7 +1611,7 @@
     {
       "name": "EngieGem9items",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_gem_9items",
@@ -1625,7 +1625,7 @@
     {
       "name": "AngryEngieEssence9items",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_essence_9items",
@@ -1639,7 +1639,7 @@
     {
       "name": "EnragedEngieEssence9items",
       "type": "recipe",
-      "sortid": 386,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_essence_9items",
@@ -1668,7 +1668,7 @@
     {
       "name": "DoughSauceAddCheese",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dough_sauce_add_cheese",
@@ -1682,7 +1682,7 @@
     {
       "name": "DoughCraft",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dough_craft",
@@ -1696,7 +1696,7 @@
     {
       "name": "CheeseCraft",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_craft",
@@ -1710,7 +1710,7 @@
     {
       "name": "MetalOak",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_oak",
@@ -1724,7 +1724,7 @@
     {
       "name": "MetalDarkOak",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_dark_oak",
@@ -1738,7 +1738,7 @@
     {
       "name": "MetalSpruce",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_spruce",
@@ -1752,7 +1752,7 @@
     {
       "name": "MetalBirch",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_birch",
@@ -1766,7 +1766,7 @@
     {
       "name": "MetalAcacia",
       "type": "recipe",
-      "sortid": 394,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_acacia",
@@ -1780,7 +1780,7 @@
     {
       "name": "MetalWarped",
       "type": "recipe",
-      "sortid": 395,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_warped",
@@ -1794,7 +1794,7 @@
     {
       "name": "MetalCrimson",
       "type": "recipe",
-      "sortid": 396,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_crimson",
@@ -1808,7 +1808,7 @@
     {
       "name": "MetalJungle",
       "type": "recipe",
-      "sortid": 397,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_jungle",
@@ -1822,7 +1822,7 @@
     {
       "name": "MetalNorm",
       "type": "recipe",
-      "sortid": 398,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm",
@@ -1836,7 +1836,7 @@
     {
       "name": "MetalNorm2",
       "type": "recipe",
-      "sortid": 399,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_2",
@@ -1850,7 +1850,7 @@
     {
       "name": "MetalNorm3",
       "type": "recipe",
-      "sortid": 400,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_3",
@@ -1864,7 +1864,7 @@
     {
       "name": "MetalNorm4",
       "type": "recipe",
-      "sortid": 401,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_4",
@@ -1878,7 +1878,7 @@
     {
       "name": "MetalNorm5",
       "type": "recipe",
-      "sortid": 402,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_5",
@@ -1892,7 +1892,7 @@
     {
       "name": "MetalNorm6",
       "type": "recipe",
-      "sortid": 403,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_6",
@@ -1906,7 +1906,7 @@
     {
       "name": "MetalNorm7",
       "type": "recipe",
-      "sortid": 404,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_7",
@@ -1920,7 +1920,7 @@
     {
       "name": "MetalNorm8",
       "type": "recipe",
-      "sortid": 405,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_8",
@@ -1934,7 +1934,7 @@
     {
       "name": "MetalNorm9",
       "type": "recipe",
-      "sortid": 406,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_9",
@@ -1948,7 +1948,7 @@
     {
       "name": "MetalNorm10",
       "type": "recipe",
-      "sortid": 407,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_10",
@@ -1962,7 +1962,7 @@
     {
       "name": "MetalNorm11",
       "type": "recipe",
-      "sortid": 408,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_11",
@@ -1976,7 +1976,7 @@
     {
       "name": "MetalNorm12",
       "type": "recipe",
-      "sortid": 409,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_12",
@@ -1990,7 +1990,7 @@
     {
       "name": "MetalNorm13",
       "type": "recipe",
-      "sortid": 410,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_13",
@@ -2004,7 +2004,7 @@
     {
       "name": "MetalNorm14",
       "type": "recipe",
-      "sortid": 411,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_14",
@@ -2018,7 +2018,7 @@
     {
       "name": "MetalNorm15",
       "type": "recipe",
-      "sortid": 412,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_15",
@@ -2032,7 +2032,7 @@
     {
       "name": "MetalNorm16",
       "type": "recipe",
-      "sortid": 413,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_16",
@@ -2046,7 +2046,7 @@
     {
       "name": "MetalNorm17",
       "type": "recipe",
-      "sortid": 414,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_norm_17",
@@ -2060,7 +2060,7 @@
     {
       "name": "CrackersFinishEating",
       "type": "procedure",
-      "sortid": 415,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crackers_finish_eating",
@@ -2080,7 +2080,7 @@
     {
       "name": "AAEItemsFood",
       "type": "tab",
-      "sortid": 416,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aae_items_food",
@@ -2092,7 +2092,7 @@
     {
       "name": "OperatorsAxe",
       "type": "tool",
-      "sortid": 417,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operators_axe",
@@ -2107,7 +2107,7 @@
     {
       "name": "OperatorsPickaxe",
       "type": "tool",
-      "sortid": 418,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operators_pickaxe",
@@ -2122,7 +2122,7 @@
     {
       "name": "OperatorsShovel",
       "type": "tool",
-      "sortid": 419,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operators_shovel",
@@ -2137,7 +2137,7 @@
     {
       "name": "OperatorsHoe",
       "type": "tool",
-      "sortid": 420,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "registry_name": "operators_hoe",
@@ -2167,7 +2167,7 @@
     {
       "name": "EmptyCheesePuffsBin",
       "type": "item",
-      "sortid": 421,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_cheese_balls_bin",
@@ -2197,7 +2197,7 @@
     {
       "name": "EngieArmorMade",
       "type": "achievement",
-      "sortid": 422,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_armor_made",
@@ -2211,7 +2211,7 @@
     {
       "name": "AngryEngieArmorMade",
       "type": "achievement",
-      "sortid": 423,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_armor_made",
@@ -2225,7 +2225,7 @@
     {
       "name": "EngieGemObtained",
       "type": "achievement",
-      "sortid": 424,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_gem_obtained",
@@ -2239,7 +2239,7 @@
     {
       "name": "EngieToolObtained",
       "type": "achievement",
-      "sortid": 425,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_tool_obtained",
@@ -2253,7 +2253,7 @@
     {
       "name": "AngryEngieToolObtained",
       "type": "achievement",
-      "sortid": 426,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_tool_obtained",
@@ -2267,7 +2267,7 @@
     {
       "name": "EnragedEngieArmorMade",
       "type": "achievement",
-      "sortid": 427,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_armor_made",
@@ -2281,7 +2281,7 @@
     {
       "name": "EnragedEngieToolObtained",
       "type": "achievement",
-      "sortid": 428,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_tool_obtained",
@@ -2295,7 +2295,7 @@
     {
       "name": "AngryEngieEssenceObtained",
       "type": "achievement",
-      "sortid": 429,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_essence_obtained",
@@ -2309,7 +2309,7 @@
     {
       "name": "EnragedEngieEssenceObtained",
       "type": "achievement",
-      "sortid": 430,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_essence_obtained",
@@ -2323,7 +2323,7 @@
     {
       "name": "ArmorAdvancements",
       "type": "procedure",
-      "sortid": 431,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armor_advancements",
@@ -2343,7 +2343,7 @@
     {
       "name": "Uhh",
       "type": "procedure",
-      "sortid": 432,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uhh",
@@ -2403,7 +2403,7 @@
     {
       "name": "ItemHouseMain",
       "type": "loottable",
-      "sortid": 433,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_main",
@@ -2417,7 +2417,7 @@
     {
       "name": "Pixelify",
       "type": "command",
-      "sortid": 434,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pixelify",
@@ -2431,7 +2431,7 @@
     {
       "name": "CheesePuffsUnopenOpenLid",
       "type": "procedure",
-      "sortid": 435,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_puffs_unopen_open_lid",
@@ -2451,7 +2451,7 @@
     {
       "name": "TeamCreate",
       "type": "procedure",
-      "sortid": 436,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "team_create",
@@ -2487,7 +2487,7 @@
     {
       "name": "DevContriHelmet",
       "type": "procedure",
-      "sortid": 437,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_contri_helmet",
@@ -2507,7 +2507,7 @@
     {
       "name": "DevContriChestplate",
       "type": "procedure",
-      "sortid": 438,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_contri_chestplate",
@@ -2527,7 +2527,7 @@
     {
       "name": "DevContriLeggings",
       "type": "procedure",
-      "sortid": 439,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_contri_leggings",
@@ -2547,7 +2547,7 @@
     {
       "name": "DevContriBoots",
       "type": "procedure",
-      "sortid": 440,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_contri_boots",
@@ -2567,7 +2567,7 @@
     {
       "name": "Developer",
       "type": "armor",
-      "sortid": 441,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "developer",
@@ -2585,7 +2585,7 @@
     {
       "name": "Contributor",
       "type": "armor",
-      "sortid": 442,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ideagiver",
@@ -2603,7 +2603,7 @@
     {
       "name": "DevAdvancement",
       "type": "procedure",
-      "sortid": 443,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_advancement",
@@ -2615,6 +2615,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2623,7 +2639,7 @@
     {
       "name": "BirthdayMain",
       "type": "procedure",
-      "sortid": 444,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "birthday_main",
@@ -2638,7 +2654,7 @@
     {
       "name": "DeveloperCommandPro",
       "type": "procedure",
-      "sortid": 445,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "developer_command_pro",
@@ -2662,7 +2678,7 @@
     {
       "name": "DevE",
       "type": "command",
-      "sortid": 446,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_e",
@@ -2802,7 +2818,7 @@
     {
       "name": "CookedPizzaToSlices",
       "type": "procedure",
-      "sortid": 447,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_pizza_to_slices",
@@ -2822,7 +2838,7 @@
     {
       "name": "IdeaGiverCommandPro",
       "type": "procedure",
-      "sortid": 448,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idea_giver_command_pro",
@@ -2846,7 +2862,7 @@
     {
       "name": "Tester",
       "type": "armor",
-      "sortid": 449,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tester",
@@ -2864,7 +2880,7 @@
     {
       "name": "TesterGiverCommandPro",
       "type": "procedure",
-      "sortid": 450,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tester_giver_command_pro",
@@ -2888,7 +2904,7 @@
     {
       "name": "IdeaGiver",
       "type": "command",
-      "sortid": 451,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idea_giver",
@@ -2902,7 +2918,7 @@
     {
       "name": "Testerc",
       "type": "command",
-      "sortid": 452,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "testerc",
@@ -2916,7 +2932,7 @@
     {
       "name": "EngiOreToEngieGem",
       "type": "recipe",
-      "sortid": 453,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engi_ore_to_engie_gem",
@@ -2930,7 +2946,7 @@
     {
       "name": "DeepslateEngiOreToEngieGem",
       "type": "recipe",
-      "sortid": 454,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_engi_ore_to_engie_gem",
@@ -2944,7 +2960,7 @@
     {
       "name": "EngiOreToEngieGemBlast",
       "type": "recipe",
-      "sortid": 455,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engi_ore_to_engie_gem_blast",
@@ -2958,7 +2974,7 @@
     {
       "name": "DeepslateEngiOreToEngieGemBlast",
       "type": "recipe",
-      "sortid": 456,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_engi_ore_to_engie_gem_blast",
@@ -2972,7 +2988,7 @@
     {
       "name": "EngiOreToEngieGemEE",
       "type": "recipe",
-      "sortid": 457,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engi_ore_to_engie_gem_ee",
@@ -2986,7 +3002,7 @@
     {
       "name": "DeepslateEngiOreToEngieGemEE",
       "type": "recipe",
-      "sortid": 458,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_engi_ore_to_engie_gem_ee",
@@ -3000,7 +3016,7 @@
     {
       "name": "EngiOreToEngieGemEEBlast",
       "type": "recipe",
-      "sortid": 459,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engi_ore_to_engie_gem_ee_blast",
@@ -3014,7 +3030,7 @@
     {
       "name": "DeepslateEngiOreToEngieGemEEBlast",
       "type": "recipe",
-      "sortid": 460,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_engi_ore_to_engie_gem_ee_blast",
@@ -3043,7 +3059,7 @@
     {
       "name": "DeveloperEngie",
       "type": "painting",
-      "sortid": 461,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "developer_engie",
@@ -3055,7 +3071,7 @@
     {
       "name": "IdeaGiverBlood",
       "type": "painting",
-      "sortid": 462,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idea_giver_blood",
@@ -3067,7 +3083,7 @@
     {
       "name": "TigerShark",
       "type": "painting",
-      "sortid": 463,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiger_shark",
@@ -3079,7 +3095,7 @@
     {
       "name": "TigerSharkCatOnsie",
       "type": "painting",
-      "sortid": 464,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiger_shark_cat_onsie",
@@ -3091,7 +3107,7 @@
     {
       "name": "AAEItemsLogo",
       "type": "painting",
-      "sortid": 465,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aae_items_logo",
@@ -3103,7 +3119,7 @@
     {
       "name": "RareChance",
       "type": "procedure",
-      "sortid": 466,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_chance",
@@ -3139,7 +3155,7 @@
     {
       "name": "NewWorld",
       "type": "achievement",
-      "sortid": 467,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_world",
@@ -3153,7 +3169,7 @@
     {
       "name": "NewWorldNewProblem",
       "type": "achievement",
-      "sortid": 468,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_world_new_problem",
@@ -3167,7 +3183,7 @@
     {
       "name": "DetectiveFindEngie",
       "type": "gamerule",
-      "sortid": 469,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "detectivemode",
@@ -3180,7 +3196,7 @@
     {
       "name": "DetectiveGamerule",
       "type": "procedure",
-      "sortid": 470,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "detective_gamerule",
@@ -3204,7 +3220,7 @@
     {
       "name": "EngiesScytheObtained",
       "type": "achievement",
-      "sortid": 471,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engies_scythe_obtained",
@@ -3218,7 +3234,7 @@
     {
       "name": "Mobs",
       "type": "tab",
-      "sortid": 472,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mobs",
@@ -3420,7 +3436,7 @@
     {
       "name": "FoundEngie",
       "type": "achievement",
-      "sortid": 473,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "registry_name": "found_engie",
@@ -3434,7 +3450,7 @@
     {
       "name": "EngieGamesRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 474,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_games_right_clicked_on_entity",
@@ -3458,7 +3474,7 @@
     {
       "name": "Sharkos",
       "type": "tab",
-      "sortid": 475,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharkos",
@@ -3623,7 +3639,7 @@
     {
       "name": "SharkTamed",
       "type": "livingentity",
-      "sortid": 476,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_tamed",
@@ -3638,7 +3654,7 @@
     {
       "name": "AlbinoSharkoTamed",
       "type": "livingentity",
-      "sortid": 477,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_sharko_tamed",
@@ -3653,7 +3669,7 @@
     {
       "name": "RareSharkoTamed",
       "type": "livingentity",
-      "sortid": 478,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_sharko_tamed",
@@ -3668,7 +3684,7 @@
     {
       "name": "LegendarySharkoTamed",
       "type": "livingentity",
-      "sortid": 479,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_sharko_tamed",
@@ -3683,7 +3699,7 @@
     {
       "name": "MythicSharkoTamed",
       "type": "livingentity",
-      "sortid": 480,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_sharko_tamed",
@@ -3698,7 +3714,7 @@
     {
       "name": "ExoticSharkoTamed",
       "type": "livingentity",
-      "sortid": 481,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_sharko_tamed",
@@ -3713,7 +3729,7 @@
     {
       "name": "EngieSharkoTamed",
       "type": "livingentity",
-      "sortid": 482,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_tamed",
@@ -3728,7 +3744,7 @@
     {
       "name": "EngieSharkoRareTamed",
       "type": "livingentity",
-      "sortid": 483,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_rare_tamed",
@@ -3743,7 +3759,7 @@
     {
       "name": "EngieSharkoRare2Tamed",
       "type": "livingentity",
-      "sortid": 484,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_rare_2_tamed",
@@ -3893,7 +3909,7 @@
     {
       "name": "SharkoRCTame",
       "type": "procedure",
-      "sortid": 485,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_rc_tame",
@@ -3933,7 +3949,7 @@
     {
       "name": "SharkoTameRC",
       "type": "procedure",
-      "sortid": 486,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_tame_rc",
@@ -3953,7 +3969,7 @@
     {
       "name": "SharkoLayRC",
       "type": "procedure",
-      "sortid": 487,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_lay_rc",
@@ -3973,7 +3989,7 @@
     {
       "name": "AlbinoRCTame",
       "type": "procedure",
-      "sortid": 488,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_rc_tame",
@@ -4013,7 +4029,7 @@
     {
       "name": "AlbinoTameRC",
       "type": "procedure",
-      "sortid": 489,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_tame_rc",
@@ -4033,7 +4049,7 @@
     {
       "name": "AlbinoLayRC",
       "type": "procedure",
-      "sortid": 490,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_lay_rc",
@@ -4053,7 +4069,7 @@
     {
       "name": "RareRCTame",
       "type": "procedure",
-      "sortid": 491,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_rc_tame",
@@ -4093,7 +4109,7 @@
     {
       "name": "RareTameRC",
       "type": "procedure",
-      "sortid": 492,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_tame_rc",
@@ -4113,7 +4129,7 @@
     {
       "name": "RareLayRC",
       "type": "procedure",
-      "sortid": 493,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_lay_rc",
@@ -4133,7 +4149,7 @@
     {
       "name": "LegendaryRCTame",
       "type": "procedure",
-      "sortid": 494,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_rc_tame",
@@ -4173,7 +4189,7 @@
     {
       "name": "LegendaryTameRC",
       "type": "procedure",
-      "sortid": 495,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_tame_rc",
@@ -4193,7 +4209,7 @@
     {
       "name": "LegendaryLayRC",
       "type": "procedure",
-      "sortid": 496,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_lay_rc",
@@ -4213,7 +4229,7 @@
     {
       "name": "MythicRCTame",
       "type": "procedure",
-      "sortid": 497,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_rc_tame",
@@ -4253,7 +4269,7 @@
     {
       "name": "MythicTameRC",
       "type": "procedure",
-      "sortid": 498,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_tame_rc",
@@ -4273,7 +4289,7 @@
     {
       "name": "MythicLayRC",
       "type": "procedure",
-      "sortid": 499,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_lay_rc",
@@ -4353,7 +4369,7 @@
     {
       "name": "Goldcookfinish",
       "type": "procedure",
-      "sortid": 500,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldcookfinish",
@@ -4373,7 +4389,7 @@
     {
       "name": "Goldechcookfinish",
       "type": "procedure",
-      "sortid": 501,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldechcookfinish",
@@ -4393,7 +4409,7 @@
     {
       "name": "Exocookfinish",
       "type": "procedure",
-      "sortid": 502,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exocookfinish",
@@ -4413,7 +4429,7 @@
     {
       "name": "Exoenchcookfinish",
       "type": "procedure",
-      "sortid": 503,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoenchcookfinish",
@@ -4433,7 +4449,7 @@
     {
       "name": "Engiecookfinish",
       "type": "procedure",
-      "sortid": 504,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engiecookfinish",
@@ -4453,7 +4469,7 @@
     {
       "name": "Engieenchcookfinish",
       "type": "procedure",
-      "sortid": 505,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engieenchcookfinish",
@@ -4503,7 +4519,7 @@
     {
       "name": "EngieRCTame",
       "type": "procedure",
-      "sortid": 506,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rc_tame",
@@ -4543,7 +4559,7 @@
     {
       "name": "EngieTameRC",
       "type": "procedure",
-      "sortid": 507,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_tame_rc",
@@ -4563,7 +4579,7 @@
     {
       "name": "EngieLayRC",
       "type": "procedure",
-      "sortid": 508,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_lay_rc",
@@ -4583,7 +4599,7 @@
     {
       "name": "EngieRareRCTame",
       "type": "procedure",
-      "sortid": 509,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rare_rc_tame",
@@ -4623,7 +4639,7 @@
     {
       "name": "EngieRareTameRC",
       "type": "procedure",
-      "sortid": 510,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rare_tame_rc",
@@ -4643,7 +4659,7 @@
     {
       "name": "EngieRareLayRC",
       "type": "procedure",
-      "sortid": 511,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rare_lay_rc",
@@ -4663,7 +4679,7 @@
     {
       "name": "EngieRare2RCTame",
       "type": "procedure",
-      "sortid": 512,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rare_2_rc_tame",
@@ -4703,7 +4719,7 @@
     {
       "name": "EngieRare2TameRC",
       "type": "procedure",
-      "sortid": 513,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rare_2_tame_rc",
@@ -4723,7 +4739,7 @@
     {
       "name": "EngieRare2LayRC",
       "type": "procedure",
-      "sortid": 514,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_rare_2_lay_rc",
@@ -4743,7 +4759,7 @@
     {
       "name": "ExoticRCTame",
       "type": "procedure",
-      "sortid": 515,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_rc_tame",
@@ -4783,7 +4799,7 @@
     {
       "name": "ExoticTameRC",
       "type": "procedure",
-      "sortid": 516,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_tame_rc",
@@ -4803,7 +4819,7 @@
     {
       "name": "ExoticLayRC",
       "type": "procedure",
-      "sortid": 517,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_lay_rc",
@@ -5054,7 +5070,7 @@
     {
       "name": "Shark1",
       "type": "recipe",
-      "sortid": 518,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shark_1",
@@ -5068,7 +5084,7 @@
     {
       "name": "Shark2",
       "type": "recipe",
-      "sortid": 519,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shark_2",
@@ -5082,7 +5098,7 @@
     {
       "name": "Shark3",
       "type": "recipe",
-      "sortid": 520,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shark_3",
@@ -5096,7 +5112,7 @@
     {
       "name": "Shark4",
       "type": "recipe",
-      "sortid": 521,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shark_4",
@@ -5110,7 +5126,7 @@
     {
       "name": "AShark1",
       "type": "recipe",
-      "sortid": 522,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_shark_1",
@@ -5124,7 +5140,7 @@
     {
       "name": "AShark2",
       "type": "recipe",
-      "sortid": 523,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_shark_2",
@@ -5138,7 +5154,7 @@
     {
       "name": "AShark3",
       "type": "recipe",
-      "sortid": 524,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_shark_3",
@@ -5152,7 +5168,7 @@
     {
       "name": "AShark4",
       "type": "recipe",
-      "sortid": 525,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_shark_4",
@@ -5166,7 +5182,7 @@
     {
       "name": "RAShark1",
       "type": "recipe",
-      "sortid": 526,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ra_shark_1",
@@ -5180,7 +5196,7 @@
     {
       "name": "RAShark2",
       "type": "recipe",
-      "sortid": 527,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ra_shark_2",
@@ -5194,7 +5210,7 @@
     {
       "name": "RAShark3",
       "type": "recipe",
-      "sortid": 528,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ra_shark_3",
@@ -5208,7 +5224,7 @@
     {
       "name": "RAShark4",
       "type": "recipe",
-      "sortid": 529,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ra_shark_4",
@@ -5222,7 +5238,7 @@
     {
       "name": "LShark1",
       "type": "recipe",
-      "sortid": 530,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "l_shark_1",
@@ -5236,7 +5252,7 @@
     {
       "name": "LShark2",
       "type": "recipe",
-      "sortid": 531,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "l_shark_2",
@@ -5250,7 +5266,7 @@
     {
       "name": "LShark3",
       "type": "recipe",
-      "sortid": 532,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "l_shark_3",
@@ -5264,7 +5280,7 @@
     {
       "name": "LShark4",
       "type": "recipe",
-      "sortid": 533,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "l_shark_4",
@@ -5278,7 +5294,7 @@
     {
       "name": "MShark1",
       "type": "recipe",
-      "sortid": 534,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "registry_name": "m_shark_1",
@@ -5292,7 +5308,7 @@
     {
       "name": "MShark2",
       "type": "recipe",
-      "sortid": 535,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "registry_name": "m_shark_2",
@@ -5306,7 +5322,7 @@
     {
       "name": "MShark3",
       "type": "recipe",
-      "sortid": 536,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "m_shark_3",
@@ -5320,7 +5336,7 @@
     {
       "name": "MShark4",
       "type": "recipe",
-      "sortid": 537,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "m_shark_4",
@@ -5334,7 +5350,7 @@
     {
       "name": "EXShark1",
       "type": "recipe",
-      "sortid": 538,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ex_shark_1",
@@ -5348,7 +5364,7 @@
     {
       "name": "EXShark2",
       "type": "recipe",
-      "sortid": 539,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ex_shark_2",
@@ -5362,7 +5378,7 @@
     {
       "name": "EXShark3",
       "type": "recipe",
-      "sortid": 540,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ex_shark_3",
@@ -5376,7 +5392,7 @@
     {
       "name": "EXShark4",
       "type": "recipe",
-      "sortid": 541,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ex_shark_4",
@@ -5390,7 +5406,7 @@
     {
       "name": "EShark1",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_shark_1",
@@ -5404,7 +5420,7 @@
     {
       "name": "EShark2",
       "type": "recipe",
-      "sortid": 543,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_shark_2",
@@ -5418,7 +5434,7 @@
     {
       "name": "EShark3",
       "type": "recipe",
-      "sortid": 544,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_shark_3",
@@ -5432,7 +5448,7 @@
     {
       "name": "EShark4",
       "type": "recipe",
-      "sortid": 545,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_shark_4",
@@ -5446,7 +5462,7 @@
     {
       "name": "ItemsPlaque",
       "type": "item",
-      "sortid": 546,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "items_plaque",
@@ -5461,7 +5477,7 @@
     {
       "name": "MobsPlaque",
       "type": "item",
-      "sortid": 547,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mobs_plaque",
@@ -5476,7 +5492,7 @@
     {
       "name": "ExtrasPlaque",
       "type": "item",
-      "sortid": 548,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extras_plaque",
@@ -5491,7 +5507,7 @@
     {
       "name": "SharkosPlaque",
       "type": "item",
-      "sortid": 549,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharkos_plaque",
@@ -5506,7 +5522,7 @@
     {
       "name": "DimensionsPlaque",
       "type": "item",
-      "sortid": 550,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensions_plaque",
@@ -5521,7 +5537,7 @@
     {
       "name": "EnragedZombiesPlaque",
       "type": "item",
-      "sortid": 551,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_zombies_plaque",
@@ -5536,7 +5552,7 @@
     {
       "name": "AllAboutEngiePlaque",
       "type": "item",
-      "sortid": 552,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "all_about_engie_plaque",
@@ -5551,7 +5567,7 @@
     {
       "name": "Zombies",
       "type": "tab",
-      "sortid": 553,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zombies",
@@ -5563,7 +5579,7 @@
     {
       "name": "EGMCPro",
       "type": "procedure",
-      "sortid": 554,
+      "sortid": 559,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egmc_pro",
@@ -5583,7 +5599,7 @@
     {
       "name": "EGMSPro",
       "type": "procedure",
-      "sortid": 555,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egms_pro",
@@ -5603,7 +5619,7 @@
     {
       "name": "EGMAPro",
       "type": "procedure",
-      "sortid": 556,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egma_pro",
@@ -5623,7 +5639,7 @@
     {
       "name": "EGMSPPro",
       "type": "procedure",
-      "sortid": 557,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egmsp_pro",
@@ -5643,7 +5659,7 @@
     {
       "name": "Egmc",
       "type": "command",
-      "sortid": 558,
+      "sortid": 563,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egmc",
@@ -5657,7 +5673,7 @@
     {
       "name": "Egms",
       "type": "command",
-      "sortid": 559,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egms",
@@ -5671,7 +5687,7 @@
     {
       "name": "Egma",
       "type": "command",
-      "sortid": 560,
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egma",
@@ -5685,7 +5701,7 @@
     {
       "name": "Egmsp",
       "type": "command",
-      "sortid": 561,
+      "sortid": 566,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egmsp",
@@ -5779,7 +5795,7 @@
     {
       "name": "SmeltCyber",
       "type": "recipe",
-      "sortid": 562,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smelt_cyber",
@@ -5793,7 +5809,7 @@
     {
       "name": "BlastCyber",
       "type": "recipe",
-      "sortid": 563,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blast_cyber",
@@ -5807,7 +5823,7 @@
     {
       "name": "SmeltBlood",
       "type": "recipe",
-      "sortid": 564,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smelt_blood",
@@ -5821,7 +5837,7 @@
     {
       "name": "BlastBlood",
       "type": "recipe",
-      "sortid": 565,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blast_blood",
@@ -5895,7 +5911,7 @@
     {
       "name": "CraftCyberKatana",
       "type": "recipe",
-      "sortid": 566,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyber_katana",
@@ -5909,7 +5925,7 @@
     {
       "name": "CraftBloodBattleAxe",
       "type": "recipe",
-      "sortid": 567,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_blood_battle_axe",
@@ -5923,7 +5939,7 @@
     {
       "name": "CraftCyberbloodIngot",
       "type": "recipe",
-      "sortid": 568,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_ingot",
@@ -5937,7 +5953,7 @@
     {
       "name": "CraftCyberbloodKatana",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_katana",
@@ -5951,7 +5967,7 @@
     {
       "name": "CraftCyberbloodBattleAxe",
       "type": "recipe",
-      "sortid": 570,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_battle_axe",
@@ -5965,7 +5981,7 @@
     {
       "name": "CraftCyberHelm",
       "type": "recipe",
-      "sortid": 571,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyber_helm",
@@ -5979,7 +5995,7 @@
     {
       "name": "CraftCyberChestplate",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyber_chestplate",
@@ -5993,7 +6009,7 @@
     {
       "name": "CraftCyberLeggings",
       "type": "recipe",
-      "sortid": 573,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyber_leggings",
@@ -6007,7 +6023,7 @@
     {
       "name": "CraftCyberBoots",
       "type": "recipe",
-      "sortid": 574,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyber_boots",
@@ -6021,7 +6037,7 @@
     {
       "name": "CraftBloodHelm",
       "type": "recipe",
-      "sortid": 575,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_blood_helm",
@@ -6035,7 +6051,7 @@
     {
       "name": "CraftBloodChestplate",
       "type": "recipe",
-      "sortid": 576,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_blood_chestplate",
@@ -6049,7 +6065,7 @@
     {
       "name": "CraftBloodLeggings",
       "type": "recipe",
-      "sortid": 577,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_blood_leggings",
@@ -6063,7 +6079,7 @@
     {
       "name": "CraftBloodBoots",
       "type": "recipe",
-      "sortid": 578,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_blood_boots",
@@ -6077,7 +6093,7 @@
     {
       "name": "CraftCyberBlock",
       "type": "recipe",
-      "sortid": 579,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyber_block",
@@ -6091,7 +6107,7 @@
     {
       "name": "CraftBloodBlock",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_blood_block",
@@ -6105,7 +6121,7 @@
     {
       "name": "CraftCyberbloodBlock",
       "type": "recipe",
-      "sortid": 581,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_block",
@@ -6119,7 +6135,7 @@
     {
       "name": "CraftCyberbloodHelm",
       "type": "recipe",
-      "sortid": 582,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_helm",
@@ -6133,7 +6149,7 @@
     {
       "name": "CraftCyberbloodChestplate",
       "type": "recipe",
-      "sortid": 583,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_chestplate",
@@ -6147,7 +6163,7 @@
     {
       "name": "CraftCyberbloodLeggings",
       "type": "recipe",
-      "sortid": 584,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_leggings",
@@ -6161,7 +6177,7 @@
     {
       "name": "CraftCyberbloodBoots",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_cyberblood_boots",
@@ -6175,7 +6191,7 @@
     {
       "name": "Nothing2Generated",
       "type": "procedure",
-      "sortid": 586,
+      "sortid": 591,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_2_generated",
@@ -6207,7 +6223,7 @@
     {
       "name": "Nothing3Generated",
       "type": "procedure",
-      "sortid": 587,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_3_generated",
@@ -6239,7 +6255,7 @@
     {
       "name": "CyberHouseSpawnerTickUpdate",
       "type": "procedure",
-      "sortid": 588,
+      "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyber_house_spawner_tick_update",
@@ -6271,7 +6287,7 @@
     {
       "name": "SharkoHouseSpawnerTickUpdate",
       "type": "procedure",
-      "sortid": 589,
+      "sortid": 594,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_house_spawner_tick_update",
@@ -6303,7 +6319,7 @@
     {
       "name": "ThanksForPlaying2",
       "type": "block",
-      "sortid": 590,
+      "sortid": 595,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks_for_playing_2",
@@ -6320,7 +6336,7 @@
     {
       "name": "Nothing2",
       "type": "structure",
-      "sortid": 591,
+      "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_2",
@@ -6335,7 +6351,7 @@
     {
       "name": "SharkoHouse",
       "type": "structure",
-      "sortid": 592,
+      "sortid": 597,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_house",
@@ -6367,7 +6383,7 @@
     {
       "name": "SharkoClothCraft",
       "type": "recipe",
-      "sortid": 593,
+      "sortid": 598,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_cloth_craft",
@@ -6381,7 +6397,7 @@
     {
       "name": "AlbinoSharkoClothCraft",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 599,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_sharko_cloth_craft",
@@ -6395,7 +6411,7 @@
     {
       "name": "RareSharkoClothCraft",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 600,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_sharko_cloth_craft",
@@ -6409,7 +6425,7 @@
     {
       "name": "LegendarySharkoClothCraft",
       "type": "recipe",
-      "sortid": 596,
+      "sortid": 601,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_sharko_cloth_craft",
@@ -6423,7 +6439,7 @@
     {
       "name": "MythicSharkoClothCraft",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 602,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_sharko_cloth_craft",
@@ -6437,7 +6453,7 @@
     {
       "name": "ExoticSharkoClothCraft",
       "type": "recipe",
-      "sortid": 598,
+      "sortid": 603,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_sharko_cloth_craft",
@@ -6451,7 +6467,7 @@
     {
       "name": "EngieSharkoClothCraft",
       "type": "recipe",
-      "sortid": 599,
+      "sortid": 604,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_cloth_craft",
@@ -6465,7 +6481,7 @@
     {
       "name": "AlbinoSharkoClothSmithing",
       "type": "recipe",
-      "sortid": 600,
+      "sortid": 605,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_sharko_cloth_smithing",
@@ -6479,7 +6495,7 @@
     {
       "name": "RareSharkoClothSmithing",
       "type": "recipe",
-      "sortid": 601,
+      "sortid": 606,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_sharko_cloth_smithing",
@@ -6493,7 +6509,7 @@
     {
       "name": "LegendarySharkoClothSmithing",
       "type": "recipe",
-      "sortid": 602,
+      "sortid": 607,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_sharko_cloth_smithing",
@@ -6507,7 +6523,7 @@
     {
       "name": "MythicSharkoClothSmithing",
       "type": "recipe",
-      "sortid": 603,
+      "sortid": 608,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_sharko_cloth_smithing",
@@ -6521,7 +6537,7 @@
     {
       "name": "ExoticSharkoClothSmithing",
       "type": "recipe",
-      "sortid": 604,
+      "sortid": 609,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_sharko_cloth_smithing",
@@ -6535,7 +6551,7 @@
     {
       "name": "EngieSharkoClothSmithing",
       "type": "recipe",
-      "sortid": 605,
+      "sortid": 610,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_cloth_smithing",
@@ -6549,7 +6565,7 @@
     {
       "name": "Ech",
       "type": "painting",
-      "sortid": 606,
+      "sortid": 611,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ech",
@@ -6576,7 +6592,7 @@
     {
       "name": "EngiesScythePixel",
       "type": "tool",
-      "sortid": 607,
+      "sortid": 612,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engies_scythe_pixel",
@@ -6591,7 +6607,7 @@
     {
       "name": "ModeCheck",
       "type": "procedure",
-      "sortid": 608,
+      "sortid": 613,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mode_check",
@@ -6615,7 +6631,7 @@
     {
       "name": "RespawnCheck",
       "type": "procedure",
-      "sortid": 609,
+      "sortid": 614,
       "compiles": true,
       "locked_code": false,
       "registry_name": "respawn_check",
@@ -6714,7 +6730,7 @@
     {
       "name": "PixelItems",
       "type": "tab",
-      "sortid": 610,
+      "sortid": 615,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pixel_items",
@@ -6786,7 +6802,7 @@
     {
       "name": "BanHammers",
       "type": "tab",
-      "sortid": 611,
+      "sortid": 616,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ban_hammers",
@@ -6903,7 +6919,7 @@
     {
       "name": "ComicallyMassiveBanHammer",
       "type": "tool",
-      "sortid": 612,
+      "sortid": 617,
       "compiles": true,
       "locked_code": false,
       "registry_name": "comically_massive_ban_hammer",
@@ -6918,7 +6934,7 @@
     {
       "name": "ComicallyMassiveBanHammerPixel",
       "type": "tool",
-      "sortid": 613,
+      "sortid": 618,
       "compiles": true,
       "locked_code": false,
       "registry_name": "comically_massive_ban_hammer_pixel",
@@ -6933,7 +6949,7 @@
     {
       "name": "CodeRedeemersHammer",
       "type": "tool",
-      "sortid": 614,
+      "sortid": 619,
       "compiles": true,
       "locked_code": false,
       "registry_name": "code_redeemers_hammer",
@@ -6948,7 +6964,7 @@
     {
       "name": "CodeRedeemersHammerPixel",
       "type": "tool",
-      "sortid": 615,
+      "sortid": 620,
       "compiles": true,
       "locked_code": false,
       "registry_name": "code_redeemers_hammer_pixel",
@@ -6963,7 +6979,7 @@
     {
       "name": "CodeRedeemers",
       "type": "armor",
-      "sortid": 616,
+      "sortid": 621,
       "compiles": true,
       "locked_code": false,
       "registry_name": "code_redeemers",
@@ -6981,7 +6997,7 @@
     {
       "name": "MiniBanObtain",
       "type": "achievement",
-      "sortid": 617,
+      "sortid": 622,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mini_ban_obtain",
@@ -6995,7 +7011,7 @@
     {
       "name": "BanObtain",
       "type": "achievement",
-      "sortid": 618,
+      "sortid": 623,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ban_obtain",
@@ -7009,7 +7025,7 @@
     {
       "name": "BigBanObtain",
       "type": "achievement",
-      "sortid": 619,
+      "sortid": 624,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_ban_obtain",
@@ -7023,7 +7039,7 @@
     {
       "name": "LargeBanObtain",
       "type": "achievement",
-      "sortid": 620,
+      "sortid": 625,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_ban_obtain",
@@ -7037,7 +7053,7 @@
     {
       "name": "HugeBanObtain",
       "type": "achievement",
-      "sortid": 621,
+      "sortid": 626,
       "compiles": true,
       "locked_code": false,
       "registry_name": "huge_ban_obtain",
@@ -7051,7 +7067,7 @@
     {
       "name": "EnormousBanObtain",
       "type": "achievement",
-      "sortid": 622,
+      "sortid": 627,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enormous_ban_obtain",
@@ -7065,7 +7081,7 @@
     {
       "name": "GiganticBanObtain",
       "type": "achievement",
-      "sortid": 623,
+      "sortid": 628,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gigantic_ban_obtain",
@@ -7079,7 +7095,7 @@
     {
       "name": "MassiveBanObtain",
       "type": "achievement",
-      "sortid": 624,
+      "sortid": 629,
       "compiles": true,
       "locked_code": false,
       "registry_name": "massive_ban_obtain",
@@ -7093,7 +7109,7 @@
     {
       "name": "ComicallyMassiveObtain",
       "type": "achievement",
-      "sortid": 625,
+      "sortid": 630,
       "compiles": true,
       "locked_code": false,
       "registry_name": "comically_massive_obtain",
@@ -7122,7 +7138,7 @@
     {
       "name": "OutragedEngieEssenceObtained",
       "type": "achievement",
-      "sortid": 626,
+      "sortid": 631,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_essence_obtained",
@@ -7154,7 +7170,7 @@
     {
       "name": "OEChestplatePro",
       "type": "procedure",
-      "sortid": 627,
+      "sortid": 632,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oe_chestplate_pro",
@@ -7174,7 +7190,7 @@
     {
       "name": "OEBootsPro",
       "type": "procedure",
-      "sortid": 628,
+      "sortid": 633,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oe_boots_pro",
@@ -7271,7 +7287,7 @@
     {
       "name": "OutragedEngieAxe1",
       "type": "recipe",
-      "sortid": 629,
+      "sortid": 634,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_axe_1",
@@ -7285,7 +7301,7 @@
     {
       "name": "OutragedEngieAxe2",
       "type": "recipe",
-      "sortid": 630,
+      "sortid": 635,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_axe_2",
@@ -7299,7 +7315,7 @@
     {
       "name": "OutragedEngiePickaxe1",
       "type": "recipe",
-      "sortid": 631,
+      "sortid": 636,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_pickaxe_1",
@@ -7313,7 +7329,7 @@
     {
       "name": "OutragedEngieShovel1",
       "type": "recipe",
-      "sortid": 632,
+      "sortid": 637,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_shovel_1",
@@ -7327,7 +7343,7 @@
     {
       "name": "OutragedEngieHoe1",
       "type": "recipe",
-      "sortid": 633,
+      "sortid": 638,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_hoe_1",
@@ -7341,7 +7357,7 @@
     {
       "name": "OutragedEngieHoe2",
       "type": "recipe",
-      "sortid": 634,
+      "sortid": 639,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_hoe_2",
@@ -7355,7 +7371,7 @@
     {
       "name": "OutragedEngieHelmet1",
       "type": "recipe",
-      "sortid": 635,
+      "sortid": 640,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_helmet_1",
@@ -7369,7 +7385,7 @@
     {
       "name": "OutragedEngieChestplate1",
       "type": "recipe",
-      "sortid": 636,
+      "sortid": 641,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_chestplate_1",
@@ -7383,7 +7399,7 @@
     {
       "name": "OutragedEngieLeggings1",
       "type": "recipe",
-      "sortid": 637,
+      "sortid": 642,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_leggings_1",
@@ -7397,7 +7413,7 @@
     {
       "name": "OutragedEngieBoots1",
       "type": "recipe",
-      "sortid": 638,
+      "sortid": 643,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_boots_1",
@@ -7411,7 +7427,7 @@
     {
       "name": "Blocksangelhattedpresent",
       "type": "loottable",
-      "sortid": 639,
+      "sortid": 644,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocksangelhattedpresent",
@@ -7442,7 +7458,7 @@
     {
       "name": "MiniBanCraft",
       "type": "recipe",
-      "sortid": 640,
+      "sortid": 645,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mini_ban_craft",
@@ -7456,7 +7472,7 @@
     {
       "name": "BanCraft",
       "type": "recipe",
-      "sortid": 641,
+      "sortid": 646,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ban_craft",
@@ -7470,7 +7486,7 @@
     {
       "name": "BigBanCraft",
       "type": "recipe",
-      "sortid": 642,
+      "sortid": 647,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_ban_craft",
@@ -7484,7 +7500,7 @@
     {
       "name": "LargeBanCraft",
       "type": "recipe",
-      "sortid": 643,
+      "sortid": 648,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_ban_craft",
@@ -7498,7 +7514,7 @@
     {
       "name": "HugeBanCraft",
       "type": "recipe",
-      "sortid": 644,
+      "sortid": 649,
       "compiles": true,
       "locked_code": false,
       "registry_name": "huge_ban_craft",
@@ -7512,7 +7528,7 @@
     {
       "name": "EnormousBanCraft",
       "type": "recipe",
-      "sortid": 645,
+      "sortid": 650,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enormous_ban_craft",
@@ -7526,7 +7542,7 @@
     {
       "name": "GiganticBanCraft",
       "type": "recipe",
-      "sortid": 646,
+      "sortid": 651,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gigantic_ban_craft",
@@ -7540,7 +7556,7 @@
     {
       "name": "MassiveBanCraft",
       "type": "recipe",
-      "sortid": 647,
+      "sortid": 652,
       "compiles": true,
       "locked_code": false,
       "registry_name": "massive_ban_craft",
@@ -7554,7 +7570,7 @@
     {
       "name": "PixelifyHammers",
       "type": "procedure",
-      "sortid": 648,
+      "sortid": 653,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pixelify_hammers",
@@ -7578,7 +7594,7 @@
     {
       "name": "UnpixelifyHammers",
       "type": "procedure",
-      "sortid": 649,
+      "sortid": 654,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unpixelify_hammers",
@@ -7602,7 +7618,7 @@
     {
       "name": "OutragedBlock1",
       "type": "recipe",
-      "sortid": 650,
+      "sortid": 655,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_block_1",
@@ -7616,7 +7632,7 @@
     {
       "name": "OutragedItems1",
       "type": "recipe",
-      "sortid": 651,
+      "sortid": 656,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_items_1",
@@ -7630,7 +7646,7 @@
     {
       "name": "CodeRedeemPro",
       "type": "procedure",
-      "sortid": 652,
+      "sortid": 657,
       "compiles": true,
       "locked_code": false,
       "registry_name": "code_redeem_pro",
@@ -7658,7 +7674,7 @@
     {
       "name": "Code",
       "type": "command",
-      "sortid": 653,
+      "sortid": 658,
       "compiles": true,
       "locked_code": false,
       "registry_name": "code",
@@ -7702,7 +7718,7 @@
     {
       "name": "SharkTamedOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 654,
+      "sortid": 659,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shark_tamed_on_entity_tick_update",
@@ -7738,7 +7754,7 @@
     {
       "name": "TobyRC",
       "type": "procedure",
-      "sortid": 655,
+      "sortid": 660,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toby_rc",
@@ -7758,7 +7774,7 @@
     {
       "name": "TobyLayRC",
       "type": "procedure",
-      "sortid": 656,
+      "sortid": 661,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toby_lay_rc",
@@ -8560,7 +8576,7 @@
     {
       "name": "ThanksForPlaying3",
       "type": "block",
-      "sortid": 657,
+      "sortid": 662,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks_for_playing_3",
@@ -8577,7 +8593,7 @@
     {
       "name": "Nothing3",
       "type": "structure",
-      "sortid": 658,
+      "sortid": 663,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_3",
@@ -8592,7 +8608,7 @@
     {
       "name": "CyberHouse",
       "type": "structure",
-      "sortid": 659,
+      "sortid": 664,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyber_house",
@@ -8660,7 +8676,7 @@
     {
       "name": "Coinconstantcount",
       "type": "procedure",
-      "sortid": 660,
+      "sortid": 665,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coinconstantcount",
@@ -8684,7 +8700,7 @@
     {
       "name": "Coinammountcount",
       "type": "procedure",
-      "sortid": 661,
+      "sortid": 666,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coinammountcount",
@@ -8705,7 +8721,7 @@
     {
       "name": "EnragedCoinOverlay",
       "type": "overlay",
-      "sortid": 662,
+      "sortid": 667,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_coin_overlay",
@@ -8719,7 +8735,7 @@
     {
       "name": "EnragedNormal",
       "type": "livingentity",
-      "sortid": 297,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal",
@@ -8736,7 +8752,7 @@
     {
       "name": "EnragedNormal2",
       "type": "livingentity",
-      "sortid": 298,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_2",
@@ -8751,7 +8767,7 @@
     {
       "name": "EnragedNormal3",
       "type": "livingentity",
-      "sortid": 299,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_3",
@@ -8766,7 +8782,7 @@
     {
       "name": "EnragedNormal4",
       "type": "livingentity",
-      "sortid": 300,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_4",
@@ -8781,7 +8797,7 @@
     {
       "name": "EnragedNormal5",
       "type": "livingentity",
-      "sortid": 301,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_5",
@@ -8796,7 +8812,7 @@
     {
       "name": "EnragedNormal6",
       "type": "livingentity",
-      "sortid": 302,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_6",
@@ -8811,7 +8827,7 @@
     {
       "name": "EnragedNormal7",
       "type": "livingentity",
-      "sortid": 303,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_7",
@@ -8826,7 +8842,7 @@
     {
       "name": "EnragedNormal8",
       "type": "livingentity",
-      "sortid": 304,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_8",
@@ -8841,7 +8857,7 @@
     {
       "name": "EnragedNormal9",
       "type": "livingentity",
-      "sortid": 305,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_normal_9",
@@ -8856,7 +8872,7 @@
     {
       "name": "EnragedTNT",
       "type": "livingentity",
-      "sortid": 306,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt",
@@ -8873,7 +8889,7 @@
     {
       "name": "TNTSpawnTNTDeath",
       "type": "procedure",
-      "sortid": 663,
+      "sortid": 668,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tnt_spawn_tnt_death",
@@ -8893,7 +8909,7 @@
     {
       "name": "EnragedTNT2",
       "type": "livingentity",
-      "sortid": 307,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_2",
@@ -8908,7 +8924,7 @@
     {
       "name": "EnragedTNT3",
       "type": "livingentity",
-      "sortid": 308,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_3",
@@ -8923,7 +8939,7 @@
     {
       "name": "EnragedTNT4",
       "type": "livingentity",
-      "sortid": 309,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_4",
@@ -8938,7 +8954,7 @@
     {
       "name": "EnragedTNT5",
       "type": "livingentity",
-      "sortid": 310,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_5",
@@ -8953,7 +8969,7 @@
     {
       "name": "EnragedTNT6",
       "type": "livingentity",
-      "sortid": 311,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_6",
@@ -8968,7 +8984,7 @@
     {
       "name": "EnragedTNT7",
       "type": "livingentity",
-      "sortid": 312,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_7",
@@ -8983,7 +8999,7 @@
     {
       "name": "EnragedTNT8",
       "type": "livingentity",
-      "sortid": 313,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_8",
@@ -8998,7 +9014,7 @@
     {
       "name": "EnragedTNT9",
       "type": "livingentity",
-      "sortid": 314,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_tnt_9",
@@ -9013,7 +9029,7 @@
     {
       "name": "EnragedSpeed",
       "type": "livingentity",
-      "sortid": 315,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed",
@@ -9030,7 +9046,7 @@
     {
       "name": "EnragedSpeed2",
       "type": "livingentity",
-      "sortid": 316,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_2",
@@ -9045,7 +9061,7 @@
     {
       "name": "EnragedSpeed3",
       "type": "livingentity",
-      "sortid": 317,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_3",
@@ -9060,7 +9076,7 @@
     {
       "name": "EnragedSpeed4",
       "type": "livingentity",
-      "sortid": 318,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_4",
@@ -9075,7 +9091,7 @@
     {
       "name": "EnragedSpeed5",
       "type": "livingentity",
-      "sortid": 319,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_5",
@@ -9090,7 +9106,7 @@
     {
       "name": "EnragedSpeed6",
       "type": "livingentity",
-      "sortid": 320,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_6",
@@ -9105,7 +9121,7 @@
     {
       "name": "EnragedSpeed7",
       "type": "livingentity",
-      "sortid": 321,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_7",
@@ -9120,7 +9136,7 @@
     {
       "name": "EnragedSpeed8",
       "type": "livingentity",
-      "sortid": 322,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_8",
@@ -9135,7 +9151,7 @@
     {
       "name": "EnragedSpeed9",
       "type": "livingentity",
-      "sortid": 323,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_speed_9",
@@ -9150,7 +9166,7 @@
     {
       "name": "Mutationchance",
       "type": "procedure",
-      "sortid": 664,
+      "sortid": 669,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mutationchance",
@@ -9174,7 +9190,7 @@
     {
       "name": "StarterItemsCommandPro",
       "type": "procedure",
-      "sortid": 665,
+      "sortid": 670,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starter_items_command_pro",
@@ -9198,7 +9214,7 @@
     {
       "name": "UncommonRC",
       "type": "procedure",
-      "sortid": 666,
+      "sortid": 671,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uncommon_rc",
@@ -9222,7 +9238,7 @@
     {
       "name": "RareRC",
       "type": "procedure",
-      "sortid": 667,
+      "sortid": 672,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_rc",
@@ -9246,7 +9262,7 @@
     {
       "name": "EpicRC",
       "type": "procedure",
-      "sortid": 668,
+      "sortid": 673,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_rc",
@@ -9270,7 +9286,7 @@
     {
       "name": "LegendaryRC",
       "type": "procedure",
-      "sortid": 669,
+      "sortid": 674,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_rc",
@@ -9294,7 +9310,7 @@
     {
       "name": "MythicRC",
       "type": "procedure",
-      "sortid": 670,
+      "sortid": 675,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_rc",
@@ -9318,7 +9334,7 @@
     {
       "name": "ExoticRC",
       "type": "procedure",
-      "sortid": 671,
+      "sortid": 676,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_rc",
@@ -9497,7 +9513,7 @@
     {
       "name": "OutragedEngieArmorObtained",
       "type": "achievement",
-      "sortid": 672,
+      "sortid": 677,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_armor_obtained",
@@ -9511,7 +9527,7 @@
     {
       "name": "OutragedToolsObtained",
       "type": "achievement",
-      "sortid": 673,
+      "sortid": 678,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_tools_obtained",
@@ -9525,7 +9541,7 @@
     {
       "name": "Starteritems",
       "type": "command",
-      "sortid": 674,
+      "sortid": 679,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starteritems",
@@ -9539,7 +9555,7 @@
     {
       "name": "PlaqueChance",
       "type": "procedure",
-      "sortid": 675,
+      "sortid": 680,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plaque_chance",
@@ -9622,7 +9638,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
-      "sortid": 676,
+      "sortid": 681,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -9725,7 +9741,7 @@
     {
       "name": "MarshalRC",
       "type": "procedure",
-      "sortid": 677,
+      "sortid": 682,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marshal_rc",
@@ -9745,7 +9761,7 @@
     {
       "name": "MarshalLayRC",
       "type": "procedure",
-      "sortid": 678,
+      "sortid": 683,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marshal_lay_rc",
@@ -9765,7 +9781,7 @@
     {
       "name": "TigerRC",
       "type": "procedure",
-      "sortid": 679,
+      "sortid": 684,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiger_rc",
@@ -9785,7 +9801,7 @@
     {
       "name": "TigerLayRC",
       "type": "procedure",
-      "sortid": 680,
+      "sortid": 685,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiger_lay_rc",
@@ -9805,7 +9821,7 @@
     {
       "name": "LouisRC",
       "type": "procedure",
-      "sortid": 681,
+      "sortid": 686,
       "compiles": true,
       "locked_code": false,
       "registry_name": "louis_rc",
@@ -9825,7 +9841,7 @@
     {
       "name": "LouisLayRC",
       "type": "procedure",
-      "sortid": 682,
+      "sortid": 687,
       "compiles": true,
       "locked_code": false,
       "registry_name": "louis_lay_rc",
@@ -9845,7 +9861,7 @@
     {
       "name": "Textboxyeah",
       "type": "block",
-      "sortid": 683,
+      "sortid": 688,
       "compiles": true,
       "locked_code": false,
       "registry_name": "textboxyeah",
@@ -9862,7 +9878,7 @@
     {
       "name": "ThanksForPlaying4",
       "type": "block",
-      "sortid": 684,
+      "sortid": 689,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks_for_playing_4",
@@ -9879,7 +9895,7 @@
     {
       "name": "Nothing4Generated",
       "type": "procedure",
-      "sortid": 685,
+      "sortid": 690,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_4_generated",
@@ -9911,7 +9927,7 @@
     {
       "name": "XXLTickUpdate",
       "type": "procedure",
-      "sortid": 686,
+      "sortid": 691,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xxl_tick_update",
@@ -9943,7 +9959,7 @@
     {
       "name": "Nothing4",
       "type": "structure",
-      "sortid": 687,
+      "sortid": 692,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nothing_4",
@@ -9958,7 +9974,7 @@
     {
       "name": "ItemHouseXXL",
       "type": "structure",
-      "sortid": 688,
+      "sortid": 693,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_xxl",
@@ -9973,7 +9989,7 @@
     {
       "name": "ZoomiesChance",
       "type": "procedure",
-      "sortid": 689,
+      "sortid": 694,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zoomies_chance",
@@ -9997,7 +10013,7 @@
     {
       "name": "ItemHouseXXLMain",
       "type": "loottable",
-      "sortid": 690,
+      "sortid": 695,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_xxl_main",
@@ -10041,7 +10057,7 @@
     {
       "name": "SharkoZoomiesTimer",
       "type": "procedure",
-      "sortid": 691,
+      "sortid": 696,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_zoomies_timer",
@@ -10061,7 +10077,7 @@
     {
       "name": "ShovelKing",
       "type": "painting",
-      "sortid": 692,
+      "sortid": 697,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shovel_king",
@@ -10254,7 +10270,7 @@
     {
       "name": "SharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 693,
+      "sortid": 698,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_tamed_zoomies",
@@ -10269,7 +10285,7 @@
     {
       "name": "AlbinoSharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 694,
+      "sortid": 699,
       "compiles": true,
       "locked_code": false,
       "registry_name": "albino_sharko_tamed_zoomies",
@@ -10284,7 +10300,7 @@
     {
       "name": "RareSharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 695,
+      "sortid": 700,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_sharko_tamed_zoomies",
@@ -10299,7 +10315,7 @@
     {
       "name": "LegendarySharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 696,
+      "sortid": 701,
       "compiles": true,
       "locked_code": false,
       "registry_name": "legendary_sharko_tamed_zoomies",
@@ -10314,7 +10330,7 @@
     {
       "name": "MythicSharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 697,
+      "sortid": 702,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mythic_sharko_tamed_zoomies",
@@ -10329,7 +10345,7 @@
     {
       "name": "ExoticSharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 698,
+      "sortid": 703,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotic_sharko_tamed_zoomies",
@@ -10344,7 +10360,7 @@
     {
       "name": "EngieSharkoTamedZoomies",
       "type": "livingentity",
-      "sortid": 699,
+      "sortid": 704,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_tamed_zoomies",
@@ -10359,7 +10375,7 @@
     {
       "name": "EngieSharkoRareTamedZoomies",
       "type": "livingentity",
-      "sortid": 700,
+      "sortid": 705,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_rare_tamed_zoomies",
@@ -10374,7 +10390,7 @@
     {
       "name": "EngieSharkoRare2TamedZoomies",
       "type": "livingentity",
-      "sortid": 701,
+      "sortid": 706,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_sharko_rare_2_tamed_zoomies",
@@ -10584,7 +10600,7 @@
     {
       "name": "SharkoZoomTiredTimer",
       "type": "procedure",
-      "sortid": 702,
+      "sortid": 707,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_zoom_tired_timer",
@@ -10934,7 +10950,7 @@
     {
       "name": "RareEngieSharko2NameCheck",
       "type": "procedure",
-      "sortid": 703,
+      "sortid": 708,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_engie_sharko_2_name_check",
@@ -10970,7 +10986,7 @@
     {
       "name": "SharkoZoomTiredTamedTimer",
       "type": "procedure",
-      "sortid": 704,
+      "sortid": 709,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_zoom_tired_tamed_timer",
@@ -10990,7 +11006,7 @@
     {
       "name": "LayToTired",
       "type": "procedure",
-      "sortid": 705,
+      "sortid": 710,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lay_to_tired",
@@ -11014,7 +11030,7 @@
     {
       "name": "SharkoTamedZoomTimer",
       "type": "procedure",
-      "sortid": 706,
+      "sortid": 711,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sharko_tamed_zoom_timer",
@@ -11080,7 +11096,7 @@
     {
       "name": "Unobchunklettounobtanium",
       "type": "recipe",
-      "sortid": 707,
+      "sortid": 712,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unobchunklettounobtanium",
@@ -11094,7 +11110,7 @@
     {
       "name": "ExotichelmToUnobhelm",
       "type": "recipe",
-      "sortid": 708,
+      "sortid": 713,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotichelm_to_unobhelm",
@@ -11108,7 +11124,7 @@
     {
       "name": "ExoticchestplateToUnobchestplate",
       "type": "recipe",
-      "sortid": 709,
+      "sortid": 714,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticchestplate_to_unobchestplate",
@@ -11122,7 +11138,7 @@
     {
       "name": "ExoticlegsToUnoblegs",
       "type": "recipe",
-      "sortid": 710,
+      "sortid": 715,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticlegs_to_unoblegs",
@@ -11136,7 +11152,7 @@
     {
       "name": "ExoticbootsToUnobboots",
       "type": "recipe",
-      "sortid": 711,
+      "sortid": 716,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticboots_to_unobboots",
@@ -11150,7 +11166,7 @@
     {
       "name": "ExoticswordToUnobsword",
       "type": "recipe",
-      "sortid": 712,
+      "sortid": 717,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticsword_to_unobsword",
@@ -11164,7 +11180,7 @@
     {
       "name": "ExoticpickToUnobpick",
       "type": "recipe",
-      "sortid": 713,
+      "sortid": 718,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticpick_to_unobpick",
@@ -11178,7 +11194,7 @@
     {
       "name": "ExoticaxeToUnobaxe",
       "type": "recipe",
-      "sortid": 714,
+      "sortid": 719,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticaxe_to_unobaxe",
@@ -11192,7 +11208,7 @@
     {
       "name": "ExoticshovelToUnobshovel",
       "type": "recipe",
-      "sortid": 715,
+      "sortid": 720,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exoticshovel_to_unobshovel",
@@ -11206,7 +11222,7 @@
     {
       "name": "ExotichoeToUnobhoe",
       "type": "recipe",
-      "sortid": 716,
+      "sortid": 721,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exotichoe_to_unobhoe",
@@ -11250,7 +11266,7 @@
     {
       "name": "Unoborechunkletsmelt",
       "type": "recipe",
-      "sortid": 717,
+      "sortid": 722,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unoborechunkletsmelt",
@@ -11264,7 +11280,7 @@
     {
       "name": "Unoborechunkletblast",
       "type": "recipe",
-      "sortid": 718,
+      "sortid": 723,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unoborechunkletblast",
@@ -11278,7 +11294,7 @@
     {
       "name": "Deepslateunoborechunkletsmelt",
       "type": "recipe",
-      "sortid": 719,
+      "sortid": 724,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslateunoborechunkletsmelt",
@@ -11292,7 +11308,7 @@
     {
       "name": "Deepslateunoborechunkletblast",
       "type": "recipe",
-      "sortid": 720,
+      "sortid": 725,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslateunoborechunkletblast",
@@ -11321,7 +11337,7 @@
     {
       "name": "CheesePuffsOpenedRightclicked",
       "type": "procedure",
-      "sortid": 721,
+      "sortid": 726,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_puffs_opened_rightclicked",
@@ -11341,7 +11357,7 @@
     {
       "name": "CheesePuffsOpenedItemInInventoryTick",
       "type": "procedure",
-      "sortid": 722,
+      "sortid": 727,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_puffs_opened_item_in_inventory_tick",
@@ -11361,7 +11377,7 @@
     {
       "name": "BrowniesUnopenedRightclicked",
       "type": "procedure",
-      "sortid": 723,
+      "sortid": 728,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brownies_unopened_rightclicked",
@@ -11411,7 +11427,7 @@
     {
       "name": "BrowniesEmpty",
       "type": "item",
-      "sortid": 724,
+      "sortid": 729,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brownies_empty",
@@ -11441,7 +11457,7 @@
     {
       "name": "BrowniesOpenedRightclicked",
       "type": "procedure",
-      "sortid": 725,
+      "sortid": 730,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brownies_opened_rightclicked",
@@ -11461,7 +11477,7 @@
     {
       "name": "BrowniesOpenedInventoryTick",
       "type": "procedure",
-      "sortid": 726,
+      "sortid": 731,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brownies_opened_inventory_tick",
@@ -11608,7 +11624,7 @@
     {
       "name": "BiblicallyAccurateEngieBlock1",
       "type": "recipe",
-      "sortid": 727,
+      "sortid": 732,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_accurate_engie_block_1",
@@ -11622,7 +11638,7 @@
     {
       "name": "BiblicallyAccurateEngieItems1",
       "type": "recipe",
-      "sortid": 728,
+      "sortid": 733,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_accurate_engie_items_1",
@@ -11639,10 +11655,10 @@
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "biblically_accurat_engie_ban_hammer",
+      "registry_name": "biblically_accurate_engie_ban_hammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/biblically_accurat_engie_ban_hammer.json",
+          "src/main/resources/assets/allaboutengie/models/item/biblically_accurate_engie_ban_hammer.json",
           "src/main/java/net/mcreator/allaboutengie/item/BiblicallyAccuratEngieBanHammerItem.java"
         ]
       },
@@ -11651,7 +11667,7 @@
     {
       "name": "BiblicallyAccurateEngieBanHammerPixel",
       "type": "tool",
-      "sortid": 729,
+      "sortid": 734,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_accurate_engie_ban_hammer_pixel",
@@ -11666,7 +11682,7 @@
     {
       "name": "Playedbyengie",
       "type": "painting",
-      "sortid": 730,
+      "sortid": 735,
       "compiles": true,
       "locked_code": false,
       "registry_name": "playedbyengie",
@@ -11678,7 +11694,7 @@
     {
       "name": "BiblicallyAccurateEngieThisEntityKillsAnotherOne",
       "type": "procedure",
-      "sortid": 731,
+      "sortid": 736,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_accurate_engie_this_entity_kills_another_one",
@@ -11789,7 +11805,7 @@
     {
       "name": "BuddyRC",
       "type": "procedure",
-      "sortid": 732,
+      "sortid": 737,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buddy_rc",
@@ -11809,7 +11825,7 @@
     {
       "name": "BuddyLayRC",
       "type": "procedure",
-      "sortid": 733,
+      "sortid": 738,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buddy_lay_rc",
@@ -11979,7 +11995,7 @@
     {
       "name": "ApolloRC",
       "type": "procedure",
-      "sortid": 734,
+      "sortid": 739,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apollo_rc",
@@ -11999,7 +12015,7 @@
     {
       "name": "ApolloLayRC",
       "type": "procedure",
-      "sortid": 735,
+      "sortid": 740,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apollo_lay_rc",
@@ -12019,7 +12035,7 @@
     {
       "name": "AtlasRC",
       "type": "procedure",
-      "sortid": 736,
+      "sortid": 741,
       "compiles": true,
       "locked_code": false,
       "registry_name": "atlas_rc",
@@ -12039,7 +12055,7 @@
     {
       "name": "AtlasLayRC",
       "type": "procedure",
-      "sortid": 737,
+      "sortid": 742,
       "compiles": true,
       "locked_code": false,
       "registry_name": "atlas_lay_rc",
@@ -12059,7 +12075,7 @@
     {
       "name": "EngieItemObtain",
       "type": "procedure",
-      "sortid": 738,
+      "sortid": 743,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_item_obtain",
@@ -12079,7 +12095,7 @@
     {
       "name": "AngryEngieEssenceObtain",
       "type": "procedure",
-      "sortid": 739,
+      "sortid": 744,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_essence_obtain",
@@ -12099,7 +12115,7 @@
     {
       "name": "EnragedEngieEssenceObtain",
       "type": "procedure",
-      "sortid": 740,
+      "sortid": 745,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_essence_obtain",
@@ -12119,7 +12135,7 @@
     {
       "name": "OutragedEngieEssenceObtain",
       "type": "procedure",
-      "sortid": 741,
+      "sortid": 746,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_essence_obtain",
@@ -12139,7 +12155,7 @@
     {
       "name": "EngieToolObtain",
       "type": "procedure",
-      "sortid": 742,
+      "sortid": 747,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engie_tool_obtain",
@@ -12159,7 +12175,7 @@
     {
       "name": "AngryEngieToolObtain",
       "type": "procedure",
-      "sortid": 743,
+      "sortid": 748,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_engie_tool_obtain",
@@ -12179,7 +12195,7 @@
     {
       "name": "EnragedEngieToolObtain",
       "type": "procedure",
-      "sortid": 744,
+      "sortid": 749,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_engie_tool_obtain",
@@ -12199,7 +12215,7 @@
     {
       "name": "OutragedEngieToolObtain",
       "type": "procedure",
-      "sortid": 745,
+      "sortid": 750,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_engie_tool_obtain",
@@ -12219,7 +12235,7 @@
     {
       "name": "BAEChestplate",
       "type": "procedure",
-      "sortid": 746,
+      "sortid": 751,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bae_chestplate",
@@ -12239,7 +12255,7 @@
     {
       "name": "HiDevEngie",
       "type": "achievement",
-      "sortid": 747,
+      "sortid": 752,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hi_dev_engie",
@@ -12313,7 +12329,7 @@
     {
       "name": "CBERC",
       "type": "procedure",
-      "sortid": 748,
+      "sortid": 753,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cberc",
@@ -12333,7 +12349,7 @@
     {
       "name": "CBELayRC",
       "type": "procedure",
-      "sortid": 749,
+      "sortid": 754,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbe_lay_rc",
@@ -12368,7 +12384,7 @@
     {
       "name": "ItemHouseXXLDetective",
       "type": "loottable",
-      "sortid": 750,
+      "sortid": 755,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_xxl_detective",
@@ -12382,7 +12398,7 @@
     {
       "name": "ItemHouseMainDetective",
       "type": "loottable",
-      "sortid": 751,
+      "sortid": 756,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_main_detective",
@@ -12396,7 +12412,7 @@
     {
       "name": "AngrySmithing1",
       "type": "recipe",
-      "sortid": 752,
+      "sortid": 757,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_1",
@@ -12410,7 +12426,7 @@
     {
       "name": "AngrySmithing2",
       "type": "recipe",
-      "sortid": 753,
+      "sortid": 758,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_2",
@@ -12424,7 +12440,7 @@
     {
       "name": "AngrySmithing3",
       "type": "recipe",
-      "sortid": 754,
+      "sortid": 759,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_3",
@@ -12438,7 +12454,7 @@
     {
       "name": "AngrySmithing4",
       "type": "recipe",
-      "sortid": 755,
+      "sortid": 760,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_4",
@@ -12452,7 +12468,7 @@
     {
       "name": "AngrySmithing5",
       "type": "recipe",
-      "sortid": 756,
+      "sortid": 761,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_5",
@@ -12466,7 +12482,7 @@
     {
       "name": "AngrySmithing6",
       "type": "recipe",
-      "sortid": 757,
+      "sortid": 762,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_6",
@@ -12480,7 +12496,7 @@
     {
       "name": "AngrySmithing7",
       "type": "recipe",
-      "sortid": 758,
+      "sortid": 763,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_7",
@@ -12494,7 +12510,7 @@
     {
       "name": "AngrySmithing8",
       "type": "recipe",
-      "sortid": 759,
+      "sortid": 764,
       "compiles": true,
       "locked_code": false,
       "registry_name": "angry_smithing_8",
@@ -12508,7 +12524,7 @@
     {
       "name": "EnragedSmithing1",
       "type": "recipe",
-      "sortid": 760,
+      "sortid": 765,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_1",
@@ -12522,7 +12538,7 @@
     {
       "name": "EnragedSmithing2",
       "type": "recipe",
-      "sortid": 761,
+      "sortid": 766,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_2",
@@ -12536,7 +12552,7 @@
     {
       "name": "EnragedSmithing3",
       "type": "recipe",
-      "sortid": 762,
+      "sortid": 767,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_3",
@@ -12550,7 +12566,7 @@
     {
       "name": "EnragedSmithing4",
       "type": "recipe",
-      "sortid": 763,
+      "sortid": 768,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_4",
@@ -12564,7 +12580,7 @@
     {
       "name": "EnragedSmithing5",
       "type": "recipe",
-      "sortid": 764,
+      "sortid": 769,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_5",
@@ -12578,7 +12594,7 @@
     {
       "name": "EnragedSmithing6",
       "type": "recipe",
-      "sortid": 765,
+      "sortid": 770,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_6",
@@ -12592,7 +12608,7 @@
     {
       "name": "EnragedSmithing7",
       "type": "recipe",
-      "sortid": 766,
+      "sortid": 771,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_7",
@@ -12606,7 +12622,7 @@
     {
       "name": "EnragedSmithing8",
       "type": "recipe",
-      "sortid": 767,
+      "sortid": 772,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enraged_smithing_8",
@@ -12620,7 +12636,7 @@
     {
       "name": "OutragedSmithing1",
       "type": "recipe",
-      "sortid": 768,
+      "sortid": 773,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_1",
@@ -12634,7 +12650,7 @@
     {
       "name": "OutragedSmithing2",
       "type": "recipe",
-      "sortid": 769,
+      "sortid": 774,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_2",
@@ -12648,7 +12664,7 @@
     {
       "name": "OutragedSmithing3",
       "type": "recipe",
-      "sortid": 770,
+      "sortid": 775,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_3",
@@ -12662,7 +12678,7 @@
     {
       "name": "OutragedSmithing4",
       "type": "recipe",
-      "sortid": 771,
+      "sortid": 776,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_4",
@@ -12676,7 +12692,7 @@
     {
       "name": "OutragedSmithing5",
       "type": "recipe",
-      "sortid": 772,
+      "sortid": 777,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_5",
@@ -12690,7 +12706,7 @@
     {
       "name": "OutragedSmithing6",
       "type": "recipe",
-      "sortid": 773,
+      "sortid": 778,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_6",
@@ -12704,7 +12720,7 @@
     {
       "name": "OutragedSmithing7",
       "type": "recipe",
-      "sortid": 774,
+      "sortid": 779,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_7",
@@ -12718,7 +12734,7 @@
     {
       "name": "OutragedSmithing8",
       "type": "recipe",
-      "sortid": 775,
+      "sortid": 780,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outraged_smithing_8",
@@ -12732,7 +12748,7 @@
     {
       "name": "BiblicallySmithing1",
       "type": "recipe",
-      "sortid": 776,
+      "sortid": 781,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_1",
@@ -12746,7 +12762,7 @@
     {
       "name": "BiblicallySmithing2",
       "type": "recipe",
-      "sortid": 777,
+      "sortid": 782,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_2",
@@ -12760,7 +12776,7 @@
     {
       "name": "BiblicallySmithing3",
       "type": "recipe",
-      "sortid": 778,
+      "sortid": 783,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_3",
@@ -12774,7 +12790,7 @@
     {
       "name": "BiblicallySmithing4",
       "type": "recipe",
-      "sortid": 779,
+      "sortid": 784,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_4",
@@ -12788,7 +12804,7 @@
     {
       "name": "BiblicallySmithing5",
       "type": "recipe",
-      "sortid": 780,
+      "sortid": 785,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_5",
@@ -12802,7 +12818,7 @@
     {
       "name": "BiblicallySmithing6",
       "type": "recipe",
-      "sortid": 781,
+      "sortid": 786,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_6",
@@ -12816,7 +12832,7 @@
     {
       "name": "BiblicallySmithing7",
       "type": "recipe",
-      "sortid": 782,
+      "sortid": 787,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_7",
@@ -12830,7 +12846,7 @@
     {
       "name": "BiblicallySmithing8",
       "type": "recipe",
-      "sortid": 783,
+      "sortid": 788,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biblically_smithing_8",
@@ -12844,7 +12860,7 @@
     {
       "name": "ImpermeableBlocks",
       "type": "tag",
-      "sortid": 784,
+      "sortid": 789,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impermeable_blocks",
@@ -12857,7 +12873,7 @@
     {
       "name": "ItemHouseDetective",
       "type": "structure",
-      "sortid": 785,
+      "sortid": 790,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_detective",
@@ -12872,7 +12888,7 @@
     {
       "name": "ItemHouseXXLDetec",
       "type": "structure",
-      "sortid": 786,
+      "sortid": 791,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_xxl_detec",
@@ -12887,7 +12903,7 @@
     {
       "name": "XXLTickUpdate2",
       "type": "procedure",
-      "sortid": 787,
+      "sortid": 792,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xxl_tick_update_2",
@@ -12919,7 +12935,7 @@
     {
       "name": "ThanksForPlaying5",
       "type": "block",
-      "sortid": 788,
+      "sortid": 793,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks_for_playing_5",
@@ -12936,7 +12952,7 @@
     {
       "name": "ItemHouseTickUpdate2",
       "type": "procedure",
-      "sortid": 789,
+      "sortid": 794,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_house_tick_update_2",
@@ -12968,7 +12984,7 @@
     {
       "name": "ThanksForPlaying6",
       "type": "block",
-      "sortid": 790,
+      "sortid": 795,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thanks_for_playing_6",
@@ -12985,7 +13001,7 @@
     {
       "name": "PBE",
       "type": "livingentity",
-      "sortid": 791,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pbe",
@@ -13000,7 +13016,7 @@
     {
       "name": "PBELay",
       "type": "livingentity",
-      "sortid": 792,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pbe_lay",
@@ -13015,7 +13031,7 @@
     {
       "name": "PBEZoomies",
       "type": "livingentity",
-      "sortid": 793,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pbe_zoomies",
@@ -13030,7 +13046,7 @@
     {
       "name": "PBESleep",
       "type": "livingentity",
-      "sortid": 794,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pbe_sleep",
@@ -13045,7 +13061,7 @@
     {
       "name": "PBEZoomiesTired",
       "type": "livingentity",
-      "sortid": 795,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pbe_zoomies_tired",
@@ -13140,6 +13156,174 @@
         "files": []
       },
       "path": "~/Paintings"
+    },
+    {
+      "name": "BiblicallySmithing9",
+      "type": "recipe",
+      "sortid": 801,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_smithing_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/biblically_smithing_9.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiblicallySmithing10",
+      "type": "recipe",
+      "sortid": 802,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_smithing_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/biblically_smithing_10.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BanPixelCraft",
+      "type": "recipe",
+      "sortid": 803,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BigBanPixelCraft",
+      "type": "recipe",
+      "sortid": 804,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/big_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LargeBanPixelCraft",
+      "type": "recipe",
+      "sortid": 805,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/large_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HugeBanPixelCraft",
+      "type": "recipe",
+      "sortid": 806,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huge_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/huge_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnormousBanPixelCraft",
+      "type": "recipe",
+      "sortid": 807,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enormous_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/enormous_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GiganticBanPixelCraft",
+      "type": "recipe",
+      "sortid": 808,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gigantic_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/gigantic_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MassiveBanPixelCraft",
+      "type": "recipe",
+      "sortid": 809,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "massive_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/massive_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiblicallyBanCraft",
+      "type": "recipe",
+      "sortid": 810,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/biblically_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiblicallyBanPixelCraft",
+      "type": "recipe",
+      "sortid": 811,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_ban_pixel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/recipes/biblically_ban_pixel_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GotchaEngie",
+      "type": "achievement",
+      "sortid": 812,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gotcha_engie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/gotcha_engie.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [
@@ -13244,8 +13428,8 @@
       "advancements.massive_ban_obtain.descr": "Obtain a Massive Ban Hammer",
       "entity.allaboutengie.engie_sharko_rare_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
       "item.allaboutengie.enraged_engie_essence": "Enraged Engie Essence",
-      "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
       "advancements.large_ban_obtain.title": "Now THIS is a good Ban Hammer choice.",
+      "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
       "item.aae_items.ban_hammer": "Ban Hammer",
       "advancements.new_world.descr": "Create a new world with the All About Engie mod installed.",
       "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
@@ -13316,6 +13500,7 @@
       "item.allaboutengie.cyber_katana": "Cyber Katana",
       "item.allaboutengie.brownies_opened": "Brownies Opened",
       "item.allaboutengie.gigantic_ban_hammer_pixel": "Pixelized Gigantic Ban Hammer",
+      "painting.allaboutengie.aae_world.title": "All About Engie (Just the planets.)",
       "entity.allaboutengie.legendary_engie": "Legendary Engie",
       "painting.allaboutengie.developer_engie.title": "Developer Engie",
       "painting.allaboutengie.playedbyengie.title": "playedbyengie",
@@ -13365,6 +13550,7 @@
       "entity.allaboutengie.cbe_zoomies_tired": "clippedbyengie (da boyo) (Worn Out)",
       "item.allaboutengie.engie_sharko_rare_2_spawn_egg": "Rare Engie Sharko Spawn Egg",
       "item.allaboutengie.code_redeemers_helmet": "Code Redeemers Helmet",
+      "painting.allaboutengie.aae.author": "DevEngie",
       "item.allaboutengie.albino_shark_chestplate": "Albino Sharko Chestplate",
       "block.aae_items.old_engie_ore": "Engie Ore",
       "item.allaboutengie.epic_leggings": "Epic Leggings",
@@ -13476,6 +13662,7 @@
       "advancements.engies_scythe_obtained.title": "The weapon that killed He Who Games.",
       "item.allaboutengie.rare_helmet": "Rare Helmet",
       "item.allaboutengie.cyber_boots": "Cyber Boots",
+      "advancements.gotcha_engie.title": "Found him!",
       "painting.allaboutengie.playedbyengie.author": "playedbyengie (clippedbyengie)",
       "item.allaboutengie.big_ban_hammer": "Big Ban Hammer",
       "item.allaboutengie.dough": "Dough",
@@ -13483,6 +13670,7 @@
       "item.aae_items.angry_engie_pickaxe": "Angry Engie Pickaxe",
       "block.allaboutengie.metal_chest": "Metal Chest",
       "entity.allaboutengie.pbe_zoomies_tired": "playedbyengie (da boyo) (Worn Out)",
+      "item.allaboutengie.biblically_accurate_engie_ban_hammer": "Biblically Accurate Ban Hammer",
       "item.aae_items.cheese": "Cheese",
       "item.allaboutengie.exotic_sharko_cloth": "Exotic Sharko Cloth",
       "item.allaboutengie.uncommon_boots": "Uncommon Boots",
@@ -13519,7 +13707,7 @@
       "entity.allaboutengie.rare_sharko_tamed_zoomies": "[Tamed] Rare Sharko (Zoomies)",
       "block.allaboutengie.unobtainium_ore": "Unobtainium Ore",
       "item.allaboutengie.rare_hoe": "Rare Hoe",
-      "item.allaboutengie.biblically_accurate_engie_ban_hammer_pixel": "Pixelized Biblically Accurate Engie\u0027s Ban Hammer",
+      "item.allaboutengie.biblically_accurate_engie_ban_hammer_pixel": "Pixelized Biblically Accurate Ban Hammer",
       "item.aae_items.cheese_puffs_unopened": "Cheese Puffs Unopened",
       "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
       "block.allaboutengie.metal_chest_jungle": "Jungle Metal Chest",
@@ -13562,6 +13750,7 @@
       "block.aae_items.metal_table": "Metal Chest",
       "item.allaboutengie.cyberblood_boots": "Cyberblood Boots",
       "itemGroup.tabsharkos": "Sharkos",
+      "advancements.gotcha_engie.descr": "Get near clippedbyengie. (The player, not the entity.)",
       "item.allaboutengie.cyberblood_katana": "Cyberblood Katana",
       "entity.allaboutengie.enraged_normal_8": "Enraged Normal",
       "entity.allaboutengie.enraged_normal_9": "Enraged Normal",
@@ -13582,6 +13771,7 @@
       "item.allaboutengie.mythic_shark_leggings": "Mythic Sharko Leggings",
       "item.allaboutengie.operators_axe": "Operators Axe",
       "item.allaboutengie.uncommon_pickaxe": "Uncommon Pickaxe",
+      "painting.allaboutengie.aae.title": "All About Engie Logo",
       "item.allaboutengie.unobtainium_boots": "Unobtainium Boots",
       "entity.allaboutengie.exotic_engie": "Exotic Engie",
       "entity.allaboutengie.tiger": "Tiger",
@@ -13764,9 +13954,9 @@
       "item.allaboutengie.extras_plaque": "All About Engie (Extras) Plaque",
       "entity.allaboutengie.atlas": "Atlas",
       "entity.allaboutengie.atlas_lay": "Atlas [Laying]",
+      "painting.allaboutengie.aae_world.author": "DevEngie",
       "itemGroup.tabban_hammers": "Ban Hammers",
       "item.allaboutengie.enraged_engies_chestplate": "Enraged Engie Chestplate",
-      "item.allaboutengie.biblically_accurat_engie_ban_hammer": "Biblically Accurate Engie\u0027s Ban Hammer",
       "item.allaboutengie.all_about_engie_plaque": "All About Engie Plaque",
       "entity.allaboutengie.uncommon_engie": "Uncommon Engie",
       "item.allaboutengie.engie_games_spawn_egg": "EngieGames Spawn Egg",
@@ -14006,7 +14196,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "2.15.25",
+    "version": "2.16.25",
     "description": "Made with MCreator.",
     "author": "[Dev]Engie(Games)",
     "websiteURL": "https://www.twitch.tv/engiegames",

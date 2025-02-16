@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:massive_ban_hammer"
+  },
+  "addition": {
+    "item": "allaboutengie:biblically_accurate_block"
+  },
+  "result": {
+    "item": "allaboutengie:biblically_accurate_engie_ban_hammer"
+  }
+}

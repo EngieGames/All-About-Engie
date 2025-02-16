@@ -10,8 +10,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
-
 import java.util.List;
 
 public class TrueBanHammerNCMDItem extends SwordItem {
@@ -40,7 +38,7 @@ public class TrueBanHammerNCMDItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
+		}, 3, -3f, new Item.Properties().tab(null));
 	}
 
 	@Override

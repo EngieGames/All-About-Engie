@@ -16,7 +16,7 @@ public class ComicallyMassiveBanHammerItem extends SwordItem {
 	public ComicallyMassiveBanHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 24000;
+				return 48000;
 			}
 
 			public float getSpeed() {
@@ -24,7 +24,7 @@ public class ComicallyMassiveBanHammerItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2398f;
+				return 4798f;
 			}
 
 			public int getLevel() {

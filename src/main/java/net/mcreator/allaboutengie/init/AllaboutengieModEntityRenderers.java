@@ -288,6 +288,11 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.CBE_ZOOMIES.get(), CBEZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.CBE_SLEEP.get(), CBESleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.CBE_ZOOMIES_TIRED.get(), CBEZoomiesTiredRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PBE.get(), PBERenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PBE_LAY.get(), PBELayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PBE_ZOOMIES.get(), PBEZoomiesRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PBE_SLEEP.get(), PBESleepRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PBE_ZOOMIES_TIRED.get(), PBEZoomiesTiredRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_NORMAL.get(), EnragedNormalRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_NORMAL_2.get(), EnragedNormal2Renderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_NORMAL_3.get(), EnragedNormal3Renderer::new);
@@ -333,10 +338,5 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED_ZOOMIES.get(), EngieSharkoRareTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.PBE.get(), PBERenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.PBE_LAY.get(), PBELayRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.PBE_ZOOMIES.get(), PBEZoomiesRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.PBE_SLEEP.get(), PBESleepRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.PBE_ZOOMIES_TIRED.get(), PBEZoomiesTiredRenderer::new);
 	}
 }

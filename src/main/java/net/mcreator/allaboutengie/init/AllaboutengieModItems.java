@@ -325,9 +325,9 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENORMOUS_BAN_HAMMER = REGISTRY.register("enormous_ban_hammer", () -> new EnormousBanHammerItem());
 	public static final RegistryObject<Item> GIGANTIC_BAN_HAMMER = REGISTRY.register("gigantic_ban_hammer", () -> new GiganticBanHammerItem());
 	public static final RegistryObject<Item> MASSIVE_BAN_HAMMER = REGISTRY.register("massive_ban_hammer", () -> new MassiveBanHammerItem());
-	public static final RegistryObject<Item> BIBLICALLY_ACCURAT_ENGIE_BAN_HAMMER = REGISTRY.register("biblically_accurat_engie_ban_hammer", () -> new BiblicallyAccuratEngieBanHammerItem());
-	public static final RegistryObject<Item> KICK_BAN_HAMMER = REGISTRY.register("kick_ban_hammer", () -> new KickBanHammerItem());
+	public static final RegistryObject<Item> BIBLICALLY_ACCURATE_ENGIE_BAN_HAMMER = REGISTRY.register("biblically_accurate_engie_ban_hammer", () -> new BiblicallyAccuratEngieBanHammerItem());
 	public static final RegistryObject<Item> TRUE_BAN_HAMMER = REGISTRY.register("true_ban_hammer", () -> new TrueBanHammerItem());
+	public static final RegistryObject<Item> KICK_BAN_HAMMER = REGISTRY.register("kick_ban_hammer", () -> new KickBanHammerItem());
 	public static final RegistryObject<Item> TRUE_BAN_HAMMER_NCMD = REGISTRY.register("true_ban_hammer_ncmd", () -> new TrueBanHammerNCMDItem());
 	public static final RegistryObject<Item> ECHDEATH = REGISTRY.register("echdeath", () -> new EchdeathItem());
 	public static final RegistryObject<Item> CRUCIFIX_PIXEL = REGISTRY.register("crucifix_pixel", () -> new CrucifixPixelItem());

@@ -350,8 +350,8 @@
 			"translation": [-3, -3, 2.25]
 		},
 		"gui": {
-			"rotation": [0, 0, -45],
-			"translation": [-5, -5, 0]
+			"rotation": [-47, -33, -45],
+			"translation": [-4, -4, 0]
 		},
 		"head": {
 			"translation": [-0.25, -2, 7.25],

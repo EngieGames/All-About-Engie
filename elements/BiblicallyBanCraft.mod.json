@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "banhammer",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:MassiveBanHammer"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiblicallyAccuratEngieBanHammer"
+    },
+    "name": "biblically_ban_craft",
+    "namespace": "mod"
+  }
+}
