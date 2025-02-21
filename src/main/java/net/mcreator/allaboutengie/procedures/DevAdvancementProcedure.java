@@ -68,7 +68,7 @@ public class DevAdvancementProcedure {
 			}
 		}
 		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVEMODE) == true) {
-			if ((entity.getDisplayName().getString()).equals("clippedbyengie")) {
+			if ((entity.getDisplayName().getString()).equals("EngieGamesOnTTV")) {
 				if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).isEmpty()) {
 					{
 						Entity _ent = entity;
@@ -78,7 +78,7 @@ public class DevAdvancementProcedure {
 						}
 					}
 				}
-			} else if ((entity.getDisplayName().getString()).equals("[All About Engie Content Creator] clippedbyengie")) {
+			} else if ((entity.getDisplayName().getString()).equals("[All About Engie Content Creator] EngieGamesOnTTV")) {
 				if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).isEmpty()) {
 					{
 						Entity _ent = entity;

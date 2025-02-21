@@ -38,18 +38,17 @@ public class EngieGamesRightClickedOnEntityProcedure {
 						_ent.getServer().getCommands().performPrefixedCommand(
 								new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 										_ent.level.getServer(), _ent),
-								"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"obfuscated\":true,\"color\":\"red\"},{\"text\":\"> Hey, I've been waiting. You probably don't know who I am. Lets just put it this way.\"}]");
+								"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"EngieGamesOnTTV\",\"obfuscated\":true,\"color\":\"red\"},{\"text\":\"> Hey, I've been waiting. You probably don't know who I am. Lets just put it this way.\"}]");
 					}
 				}
 				AllaboutengieMod.queueServerWork(200, () -> {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands()
-									.performPrefixedCommand(
-											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-													_ent.getDisplayName(), _ent.level.getServer(), _ent),
-											"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> I am Engie, also known as EngieGames or clippedbyengie.\"}]");
+							_ent.getServer().getCommands().performPrefixedCommand(
+									new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
+											_ent.level.getServer(), _ent),
+									"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"EngieGamesOnTTV\",\"color\":\"red\"},{\"text\":\"> I am Engie, also known as EngieGames, clippedbyengie, and EngieGamesOnTTV.\"}]");
 						}
 					}
 					AllaboutengieMod.queueServerWork(160, () -> {
@@ -59,7 +58,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 								_ent.getServer().getCommands().performPrefixedCommand(
 										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 												_ent.level.getServer(), _ent),
-										"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> I'm impressed you found me, I ditched for quite the long time. The others.. You have no clue what happened to them.\"}]");
+										"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"EngieGamesOnTTV\",\"color\":\"red\"},{\"text\":\"> I'm impressed you found me, I ditched for quite the long time. The others.. You have no clue what happened to them.\"}]");
 							}
 						}
 						AllaboutengieMod.queueServerWork(200, () -> {
@@ -69,7 +68,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 									_ent.getServer().getCommands().performPrefixedCommand(
 											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
 													_ent.getDisplayName(), _ent.level.getServer(), _ent),
-											"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> Let's just put it right here. They're... well... \"},{\"text\":\"dead\",\"underlined\":true},{\"text\":\".\"}]");
+											"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"EngieGamesOnTTV\",\"color\":\"red\"},{\"text\":\"> Let's just put it right here. They're... well... \"},{\"text\":\"dead\",\"underlined\":true},{\"text\":\".\"}]");
 								}
 							}
 							AllaboutengieMod.queueServerWork(200, () -> {
@@ -79,7 +78,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 										_ent.getServer().getCommands().performPrefixedCommand(
 												new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
 														_ent.getDisplayName(), _ent.level.getServer(), _ent),
-												"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"clippedbyengie\",\"color\":\"red\"},{\"text\":\"> But hey, thanks for finding me. I'm still shook after the \"},{\"text\":\"incident\",\"bold\":true},{\"text\":\"...\"}]");
+												"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"EngieGamesOnTTV\",\"color\":\"red\"},{\"text\":\"> But hey, thanks for finding me. I'm still shook after the \"},{\"text\":\"incident\",\"bold\":true},{\"text\":\"...\"}]");
 									}
 								}
 								AllaboutengieMod.queueServerWork(160, () -> {
@@ -89,7 +88,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 											_ent.getServer().getCommands().performPrefixedCommand(
 													new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
 															_ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"[AAE Developer] clippedbyengie\",\"color\":\"red\"},{\"text\":\"> And that's that! Thanks for playing the new mode! I'm now going to change the gamerule back to normal. Have fun!\"}]");
+													"tellraw @a [\"\",{\"text\":\"<\",\"bold\":true},{\"text\":\"[\",\"bold\":true,\"color\":\"red\"},{\"text\":\"All\",\"bold\":true,\"color\":\"green\"},{\"text\":\" About\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\" Engie\",\"bold\":true,\"color\":\"red\"},{\"text\":\" Developer\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\"]\",\"bold\":true,\"color\":\"red\"},{\"text\":\" DevEngie\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\">\",\"bold\":true},{\"text\":\" And that's that! Thanks for playing the detective gamerule! You can now return to your regular gameplay.\",\"bold\":true}]");
 										}
 									}
 									AllaboutengieMod.queueServerWork(220, () -> {
@@ -98,7 +97,7 @@ public class EngieGamesRightClickedOnEntityProcedure {
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 												_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 														_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-														"advancement grant @p only allaboutengie:found_engie");
+														"advancement grant @a only allaboutengie:found_engie");
 											}
 										}
 										if (world instanceof Level _level)
@@ -106,10 +105,11 @@ public class EngieGamesRightClickedOnEntityProcedure {
 										{
 											Entity _ent = entity;
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-												_ent.getServer().getCommands().performPrefixedCommand(
-														new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-																_ent.getDisplayName(), _ent.level.getServer(), _ent),
-														"tellraw @p [\"\",{\"text\":\"clippedbyengie has changed the gamerule detectiveFindEngie\",\"italic\":true,\"color\":\"gray\"},{\"text\":\" to false\",\"italic\":true,\"color\":\"gray\"}]");
+												_ent.getServer().getCommands()
+														.performPrefixedCommand(
+																new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+																		_ent.getDisplayName(), _ent.level.getServer(), _ent),
+																"/tellraw @a {\"text\":\"[DevEngie has changed the gamerule detectiveFindEngie to false]\",\"italic\":true,\"color\":\"gray\"}");
 											}
 										}
 									});

@@ -81,10 +81,10 @@ public class TeamCreateProcedure {
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"team join AAE_Dev DevEngie");
 			}
-			if ((entity.getDisplayName().getString()).equals("clippedbyengie")) {
+			if ((entity.getDisplayName().getString()).equals("EngieGamesOnTTV")) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							"team join AAE_CC clippedbyengie");
+							"team join AAE_CC EngieGamesOnTTV");
 			}
 			if ((entity.getDisplayName().getString()).equals("Hellhound_Blood")) {
 				if (world instanceof ServerLevel _level)
