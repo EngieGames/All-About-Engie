@@ -13324,6 +13324,166 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "MiniBanObtainPro",
+      "type": "procedure",
+      "sortid": 813,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MiniBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BanObtainPro",
+      "type": "procedure",
+      "sortid": 814,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/BanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BigBanObtainPro",
+      "type": "procedure",
+      "sortid": 815,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/BigBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LargeBanObtainPro",
+      "type": "procedure",
+      "sortid": 816,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/LargeBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HugeBanObtainPro",
+      "type": "procedure",
+      "sortid": 817,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huge_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HugeBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnormousBanObtainPro",
+      "type": "procedure",
+      "sortid": 818,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enormous_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EnormousBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GiganticBanObtainPro",
+      "type": "procedure",
+      "sortid": 819,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gigantic_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/GiganticBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MassiveBanObtainPro",
+      "type": "procedure",
+      "sortid": 820,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "massive_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MassiveBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -13404,8 +13564,8 @@
   "language_map": {
     "en_us": {
       "item.aae_items.operators_boots": "Operators Boots",
-      "entity.allaboutengie.mythic_sharko_tamed_zoomies": "[Tamed] Mythic Sharko (Zoomies)",
       "item.allaboutengie.enraged_engies_leggings": "Enraged Engie Leggings",
+      "entity.allaboutengie.mythic_sharko_tamed_zoomies": "[Tamed] Mythic Sharko (Zoomies)",
       "item.allaboutengie.common_chestplate": "Common Chestplate",
       "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.aae_items.echdeath": "ECHDEATH",
@@ -13435,8 +13595,8 @@
       "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
       "painting.allaboutengie.aae_items_logo.author": "EngieGames",
       "advancements.mini_ban_obtain.title": "This really could\u0027ve been a toy...",
-      "item.allaboutengie.epic_axe": "Epic Axe",
       "entity.allaboutengie.marshal_zoomies": "Marshal",
+      "item.allaboutengie.epic_axe": "Epic Axe",
       "item.allaboutengie.mythic_shark_boots": "Mythic Sharko Boots",
       "entity.allaboutengie.enraged_normal": "Enraged Normal",
       "entity.allaboutengie.toby_lay": "Toby [Laying]",
