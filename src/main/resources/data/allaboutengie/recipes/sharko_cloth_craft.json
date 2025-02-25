@@ -1,6 +1,7 @@
 {
-  "group": "sharkocloth",
   "type": "minecraft:crafting_shapeless",
+  "group": "sharkocloth",
+  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:leather"

@@ -1,6 +1,7 @@
 {
-  "group": "bloodboots",
   "type": "minecraft:crafting_shaped",
+  "group": "bloodboots",
+  "category": "misc",
   "pattern": [
     "0 2",
     "3 5"

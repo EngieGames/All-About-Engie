@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/aaemobsplaque",
   "textures": {
-    "0": "allaboutengie:blocks/aae_mobs_logo",
-    "particle": "allaboutengie:items/backuptext"
+    "0": "allaboutengie:block/aae_mobs_logo",
+    "particle": "allaboutengie:item/backuptext"
   }
 }

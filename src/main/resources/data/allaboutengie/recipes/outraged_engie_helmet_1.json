@@ -1,6 +1,7 @@
 {
-  "group": "outragedengiehelmet",
   "type": "minecraft:crafting_shaped",
+  "group": "outragedengiehelmet",
+  "category": "misc",
   "pattern": [
     "0 2",
     "345"

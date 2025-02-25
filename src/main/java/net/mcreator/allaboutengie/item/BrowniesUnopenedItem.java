@@ -12,11 +12,10 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.allaboutengie.procedures.BrowniesUnopenedRightclickedProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class BrowniesUnopenedItem extends Item {
 	public BrowniesUnopenedItem() {
-		super(new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_FOOD).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -26,7 +25,6 @@ public class BrowniesUnopenedItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		BrowniesUnopenedRightclickedProcedure.execute(entity);
 		return ar;
 	}

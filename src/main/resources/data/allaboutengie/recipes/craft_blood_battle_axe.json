@@ -1,6 +1,7 @@
 {
-  "group": "bloodbattleaxe",
   "type": "minecraft:crafting_shaped",
+  "group": "bloodbattleaxe",
+  "category": "misc",
   "pattern": [
     "012",
     "345",

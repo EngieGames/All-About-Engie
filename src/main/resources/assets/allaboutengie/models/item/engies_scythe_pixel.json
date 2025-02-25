@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/engi_scythe_pixel",
   "textures": {
-    "0": "allaboutengie:blocks/image",
-    "particle": "allaboutengie:items/image"
+    "0": "allaboutengie:block/image",
+    "particle": "allaboutengie:item/image"
   }
 }

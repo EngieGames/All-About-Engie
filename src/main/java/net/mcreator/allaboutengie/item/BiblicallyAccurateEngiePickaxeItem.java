@@ -10,7 +10,6 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 
 public class BiblicallyAccurateEngiePickaxeItem extends PickaxeItem {
@@ -39,7 +38,7 @@ public class BiblicallyAccurateEngiePickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModBlocks.BIBLICALLY_ACCURATE_BLOCK.get()));
 			}
-		}, 1, -1.4f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -1.4f, new Item.Properties());
 	}
 
 	@Override

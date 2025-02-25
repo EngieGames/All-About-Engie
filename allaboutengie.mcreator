@@ -284,7 +284,9 @@
       "registry_name": "engie_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/engie_ore.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/EngieOreFeature.java",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/engie_ore.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/block/EngieOreBlock.java",
@@ -307,7 +309,9 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_engie_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/block/DeepslateEngieOreBlock.java",
           "src/main/resources/assets/allaboutengie/blockstates/deepslate_engie_ore.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/deepslate_engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/block/deepslate_engie_ore.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/deepslate_engie_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/deepslate_engie_ore.json"
         ]
       },
@@ -923,6 +927,8 @@
       "registry_name": "nothing",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/nothing.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/nothing.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/NothingFeature.java"
         ]
@@ -1003,6 +1009,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseFeature.java",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/item_house.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/item_house.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_biome_modifier.json"
         ]
       },
@@ -6342,8 +6350,10 @@
       "registry_name": "nothing_2",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/nothing_2.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/Nothing2Feature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_2_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_2_biome_modifier.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/nothing_2.json"
         ]
       },
       "path": "~/Structures"
@@ -6358,6 +6368,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/world/features/SharkoHouseFeature.java",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/sharko_house.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/sharko_house.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/sharko_house_biome_modifier.json"
         ]
       },
@@ -7802,8 +7814,10 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/block/CyberOreBlock.java",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_ore_biome_modifier.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/cyber_ore.json",
           "src/main/resources/assets/allaboutengie/models/block/cyber_ore.json",
           "src/main/resources/assets/allaboutengie/blockstates/cyber_ore.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/cyber_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/cyber_ore.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/CyberOreFeature.java"
         ]
@@ -7821,6 +7835,8 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/BloodOreFeature.java",
           "src/main/resources/assets/allaboutengie/models/block/blood_ore.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/blood_ore.json",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/blood_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/blood_ore.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/blood_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/block/BloodOreBlock.java",
@@ -8599,7 +8615,9 @@
       "registry_name": "nothing_3",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/nothing_3.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/Nothing3Feature.java",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/nothing_3.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_3_biome_modifier.json"
         ]
       },
@@ -8614,8 +8632,10 @@
       "registry_name": "cyber_house",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/cyber_house.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/CyberHouseFeature.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_house_biome_modifier.json"
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/cyber_house_biome_modifier.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/cyber_house.json"
         ]
       },
       "path": "~/Structures"
@@ -8629,10 +8649,12 @@
       "registry_name": "unobtainium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/unobtainium_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/unobtainium_ore.json",
           "src/main/resources/assets/allaboutengie/models/block/unobtainium_ore.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/block/UnobtainiumOreBlock.java",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/unobtainium_ore.json",
           "src/main/resources/assets/allaboutengie/blockstates/unobtainium_ore.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/UnobtainiumOreFeature.java"
         ]
@@ -8650,10 +8672,12 @@
         "files": [
           "src/main/resources/assets/allaboutengie/models/block/deepslate_unobtainium_ore.json",
           "src/main/resources/assets/allaboutengie/blockstates/deepslate_unobtainium_ore.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/deepslate_unobtainium_ore.json",
           "src/main/resources/assets/allaboutengie/models/item/deepslate_unobtainium_ore.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/deepslate_unobtainium_ore_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/block/DeepslateUnobtainiumOreBlock.java",
-          "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateUnobtainiumOreFeature.java"
+          "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateUnobtainiumOreFeature.java",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/deepslate_unobtainium_ore.json"
         ]
       },
       "path": "~/Blocks"
@@ -9965,7 +9989,9 @@
       "registry_name": "nothing_4",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/nothing_4.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/nothing_4_biome_modifier.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/nothing_4.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/Nothing4Feature.java"
         ]
       },
@@ -9981,6 +10007,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseXXLFeature.java",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/item_house_xxl.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/item_house_xxl.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_xxl_biome_modifier.json"
         ]
       },
@@ -12879,6 +12907,8 @@
       "registry_name": "item_house_detective",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/item_house_detective.json",
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/item_house_detective.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_detective_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseDetectiveFeature.java"
         ]
@@ -12894,8 +12924,10 @@
       "registry_name": "item_house_xxl_detec",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/worldgen/placed_feature/item_house_xxl_detec.json",
           "src/main/resources/data/allaboutengie/forge/biome_modifier/item_house_xxl_detec_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseXXLDetecFeature.java"
+          "src/main/java/net/mcreator/allaboutengie/world/features/ItemHouseXXLDetecFeature.java",
+          "src/main/resources/data/allaboutengie/worldgen/configured_feature/item_house_xxl_detec.json"
         ]
       },
       "path": "~/Structures"
@@ -14368,7 +14400,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.20.1",
     "credits": "yuh",
     "modElementsPackage": "net.mcreator.allaboutengie",
     "lockBaseModFiles": false

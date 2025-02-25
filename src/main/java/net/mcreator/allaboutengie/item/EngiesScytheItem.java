@@ -38,7 +38,7 @@ public class EngiesScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(null));
+		}, 3, -3f, new Item.Properties());
 	}
 
 	@Override

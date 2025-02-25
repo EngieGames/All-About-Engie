@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:blocks/deepslateunobtainium",
-    "up": "allaboutengie:blocks/deepslateunobtainium",
-    "north": "allaboutengie:blocks/deepslateunobtainium",
-    "east": "allaboutengie:blocks/deepslateunobtainium",
-    "south": "allaboutengie:blocks/deepslateunobtainium",
-    "west": "allaboutengie:blocks/deepslateunobtainium",
-    "particle": "allaboutengie:blocks/deepslateunobtainium"
+    "down": "allaboutengie:block/deepslateunobtainium",
+    "up": "allaboutengie:block/deepslateunobtainium",
+    "north": "allaboutengie:block/deepslateunobtainium",
+    "east": "allaboutengie:block/deepslateunobtainium",
+    "south": "allaboutengie:block/deepslateunobtainium",
+    "west": "allaboutengie:block/deepslateunobtainium",
+    "particle": "allaboutengie:block/deepslateunobtainium"
   },
   "render_type": "solid"
 }

@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.CBEZoomiesTiredEntity;
-import net.mcreator.allaboutengie.client.model.Modeltobyzoomtired;
+import net.mcreator.allaboutengie.client.model.Modelengiedaboyotired;
 
-public class CBEZoomiesTiredRenderer extends MobRenderer<CBEZoomiesTiredEntity, Modeltobyzoomtired<CBEZoomiesTiredEntity>> {
+public class CBEZoomiesTiredRenderer extends MobRenderer<CBEZoomiesTiredEntity, Modelengiedaboyotired<CBEZoomiesTiredEntity>> {
 	public CBEZoomiesTiredRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeltobyzoomtired(context.bakeLayer(Modeltobyzoomtired.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelengiedaboyotired(context.bakeLayer(Modelengiedaboyotired.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

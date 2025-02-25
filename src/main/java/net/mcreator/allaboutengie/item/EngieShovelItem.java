@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.EngieToolObtainProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 
 public class EngieShovelItem extends ShovelItem {
@@ -39,7 +38,7 @@ public class EngieShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModItems.ENGIE_GEM.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -3f, new Item.Properties());
 	}
 
 	@Override

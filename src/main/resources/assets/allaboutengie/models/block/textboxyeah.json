@@ -1,10 +1,10 @@
 {
   "parent": "allaboutengie:custom/textbox",
   "textures": {
-    "all": "allaboutengie:blocks/undertale",
-    "particle": "allaboutengie:blocks/undertale",
-    "0": "allaboutengie:blocks/undertale",
-    "1": "allaboutengie:blocks/undertaleback"
+    "all": "allaboutengie:block/undertale",
+    "particle": "allaboutengie:block/undertale",
+    "0": "allaboutengie:block/undertale",
+    "1": "allaboutengie:block/undertaleback"
   },
   "render_type": "solid"
 }

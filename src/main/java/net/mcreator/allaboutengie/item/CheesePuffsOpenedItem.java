@@ -14,11 +14,10 @@ import net.minecraft.world.InteractionHand;
 
 import net.mcreator.allaboutengie.procedures.CheesePuffsOpenedRightclickedProcedure;
 import net.mcreator.allaboutengie.procedures.CheesePuffsOpenedItemInInventoryTickProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class CheesePuffsOpenedItem extends Item {
 	public CheesePuffsOpenedItem() {
-		super(new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_FOOD).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -28,7 +27,6 @@ public class CheesePuffsOpenedItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		CheesePuffsOpenedRightclickedProcedure.execute(entity);
 		return ar;
 	}

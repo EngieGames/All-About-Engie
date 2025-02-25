@@ -13,19 +13,17 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
-
 public abstract class UncommonItem extends ArmorItem {
-	public UncommonItem(EquipmentSlot slot, Item.Properties properties) {
+	public UncommonItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 7;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 7;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{1, 3, 5, 2}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{1, 3, 5, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -57,12 +55,12 @@ public abstract class UncommonItem extends ArmorItem {
 			public float getKnockbackResistance() {
 				return 0f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends UncommonItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
 
 		@Override
@@ -73,7 +71,7 @@ public abstract class UncommonItem extends ArmorItem {
 
 	public static class Chestplate extends UncommonItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -84,7 +82,7 @@ public abstract class UncommonItem extends ArmorItem {
 
 	public static class Leggings extends UncommonItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
 
 		@Override
@@ -95,7 +93,7 @@ public abstract class UncommonItem extends ArmorItem {
 
 	public static class Boots extends UncommonItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
 
 		@Override

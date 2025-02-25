@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:blocks/cyberblock",
-    "up": "allaboutengie:blocks/cyberblocktop",
-    "north": "allaboutengie:blocks/cyberblockside",
-    "east": "allaboutengie:blocks/cyberblockside",
-    "south": "allaboutengie:blocks/cyberblockside",
-    "west": "allaboutengie:blocks/cyberblockside",
-    "particle": "allaboutengie:blocks/cyberblock"
+    "down": "allaboutengie:block/cyberblock",
+    "up": "allaboutengie:block/cyberblocktop",
+    "north": "allaboutengie:block/cyberblockside",
+    "east": "allaboutengie:block/cyberblockside",
+    "south": "allaboutengie:block/cyberblockside",
+    "west": "allaboutengie:block/cyberblockside",
+    "particle": "allaboutengie:block/cyberblock"
   },
   "render_type": "solid"
 }

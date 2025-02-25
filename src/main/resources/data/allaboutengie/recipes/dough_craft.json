@@ -1,6 +1,7 @@
 {
-  "group": "food",
   "type": "minecraft:crafting_shapeless",
+  "group": "food",
+  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:sugar"

@@ -19,16 +19,16 @@ import net.minecraft.network.chat.Component;
 import java.util.List;
 
 public abstract class CodeRedeemersItem extends ArmorItem {
-	public CodeRedeemersItem(EquipmentSlot slot, Item.Properties properties) {
+	public CodeRedeemersItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 50;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{50, 50, 50, 50}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{50, 50, 50, 50}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -60,12 +60,12 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 			public float getKnockbackResistance() {
 				return 0.2f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends CodeRedeemersItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(null));
+			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
 
 		@Override
@@ -82,7 +82,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 
 	public static class Chestplate extends CodeRedeemersItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(null));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -99,7 +99,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 
 	public static class Leggings extends CodeRedeemersItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(null));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
 
 		@Override
@@ -116,7 +116,7 @@ public abstract class CodeRedeemersItem extends ArmorItem {
 
 	public static class Boots extends CodeRedeemersItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(null));
+			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
 
 		@Override

@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.MassiveBanObtainProProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class MassiveBanHammerPixelItem extends SwordItem {
 	public MassiveBanHammerPixelItem() {
@@ -38,7 +37,7 @@ public class MassiveBanHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3.75f, new Item.Properties().tab(AllaboutengieModTabs.TAB_PIXEL_ITEMS));
+		}, 3, -3.75f, new Item.Properties());
 	}
 
 	@Override

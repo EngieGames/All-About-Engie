@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/ban_hammer_kick",
   "textures": {
-    "0": "allaboutengie:blocks/kick",
-    "particle": "allaboutengie:items/kickpixel"
+    "0": "allaboutengie:block/kick",
+    "particle": "allaboutengie:item/kickpixel"
   }
 }

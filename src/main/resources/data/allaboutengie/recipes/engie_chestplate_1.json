@@ -1,6 +1,7 @@
 {
-  "group": "engiechestplate",
   "type": "minecraft:crafting_shaped",
+  "group": "engiechestplate",
+  "category": "misc",
   "pattern": [
     "0 2",
     "345",

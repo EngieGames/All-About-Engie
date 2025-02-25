@@ -5,13 +5,12 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.BlockPos;
 
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
-import net.mcreator.allaboutengie.entity.SharkTamedEntity;
 
 public class SharkoRCTameProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
@@ -21,15 +20,15 @@ public class SharkoRCTameProcedure {
 			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.COOKIE) {
 				if (Math.random() >= 0.8) {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new SharkTamedEntity(AllaboutengieModEntities.SHARKO_TAMED.get(), _level);
-						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
-						entityToSpawn.setYBodyRot(entity.getYRot());
-						entityToSpawn.setYHeadRot(entity.getYRot());
-						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-						world.addFreshEntity(entityToSpawn);
+						Entity entityToSpawn = AllaboutengieModEntities.SHARKO_TAMED.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						if (entityToSpawn != null) {
+							entityToSpawn.setYRot(entity.getYRot());
+							entityToSpawn.setYBodyRot(entity.getYRot());
+							entityToSpawn.setYHeadRot(entity.getYRot());
+							entityToSpawn.setXRot(entity.getXRot());
+						}
 					}
-					if (!entity.level.isClientSide())
+					if (!entity.level().isClientSide())
 						entity.discard();
 					if (sourceentity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(Items.COOKIE);

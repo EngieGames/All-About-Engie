@@ -10,7 +10,6 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 
 public class BiblicallyAccurateEngieShovelItem extends ShovelItem {
@@ -39,7 +38,7 @@ public class BiblicallyAccurateEngieShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModBlocks.BIBLICALLY_ACCURATE_BLOCK.get()));
 			}
-		}, 1, -1.4f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -1.4f, new Item.Properties());
 	}
 
 	@Override

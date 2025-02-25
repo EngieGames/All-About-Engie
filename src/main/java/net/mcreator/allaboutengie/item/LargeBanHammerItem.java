@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.LargeBanObtainProProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class LargeBanHammerItem extends SwordItem {
 	public LargeBanHammerItem() {
@@ -38,7 +37,7 @@ public class LargeBanHammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.5f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
+		}, 3, -2.5f, new Item.Properties());
 	}
 
 	@Override

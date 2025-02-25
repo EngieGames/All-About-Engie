@@ -6,8 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
-
 public class LegendarySwordItem extends SwordItem {
 	public LegendarySwordItem() {
 		super(new Tier() {
@@ -34,6 +32,6 @@ public class LegendarySwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.4f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 3, -2.4f, new Item.Properties());
 	}
 }

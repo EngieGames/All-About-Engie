@@ -1,6 +1,7 @@
 {
-  "group": "angryengieblocktoitem",
   "type": "minecraft:crafting_shapeless",
+  "group": "angryengieblocktoitem",
+  "category": "misc",
   "ingredients": [
     {
       "item": "allaboutengie:angry_engie_block"

@@ -1,6 +1,7 @@
 {
-  "group": "exoticsharkocloth",
   "type": "minecraft:crafting_shapeless",
+  "group": "exoticsharkocloth",
+  "category": "misc",
   "ingredients": [
     {
       "item": "allaboutengie:mythic_sharko_cloth"

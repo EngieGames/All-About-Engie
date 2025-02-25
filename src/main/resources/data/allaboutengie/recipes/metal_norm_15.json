@@ -1,6 +1,7 @@
 {
-  "group": "metaltometalwood",
   "type": "minecraft:crafting_shaped",
+  "group": "metaltometalwood",
+  "category": "misc",
   "pattern": [
     "0",
     "1"

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:blocks/deepslateengi",
-    "up": "allaboutengie:blocks/deepslateengi",
-    "north": "allaboutengie:blocks/deepslateengi",
-    "east": "allaboutengie:blocks/deepslateengi",
-    "south": "allaboutengie:blocks/deepslateengi",
-    "west": "allaboutengie:blocks/deepslateengi",
-    "particle": "allaboutengie:blocks/deepslateengi"
+    "down": "allaboutengie:block/deepslateengi",
+    "up": "allaboutengie:block/deepslateengi",
+    "north": "allaboutengie:block/deepslateengi",
+    "east": "allaboutengie:block/deepslateengi",
+    "south": "allaboutengie:block/deepslateengi",
+    "west": "allaboutengie:block/deepslateengi",
+    "particle": "allaboutengie:block/deepslateengi"
   },
   "render_type": "solid"
 }

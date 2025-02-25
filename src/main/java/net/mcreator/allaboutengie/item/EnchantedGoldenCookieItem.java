@@ -12,13 +12,10 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.allaboutengie.procedures.GoldechcookfinishProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class EnchantedGoldenCookieItem extends Item {
 	public EnchantedGoldenCookieItem() {
-		super(new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_FOOD).stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
-
-				.build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).build()));
 	}
 
 	@Override
@@ -38,7 +35,6 @@ public class EnchantedGoldenCookieItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		GoldechcookfinishProcedure.execute(entity);
 		return retval;
 	}

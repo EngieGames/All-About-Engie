@@ -17,20 +17,19 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.allaboutengie.procedures.EEChestplateProcedure;
 import net.mcreator.allaboutengie.procedures.EEBootsProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 
 public abstract class OutragedEngiesItem extends ArmorItem {
-	public OutragedEngiesItem(EquipmentSlot slot, Item.Properties properties) {
+	public OutragedEngiesItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 100;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 100;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{100, 100, 100, 100}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{100, 100, 100, 100}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -62,12 +61,12 @@ public abstract class OutragedEngiesItem extends ArmorItem {
 			public float getKnockbackResistance() {
 				return 0.2f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends OutragedEngiesItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
 
 		@Override
@@ -78,7 +77,7 @@ public abstract class OutragedEngiesItem extends ArmorItem {
 
 	public static class Chestplate extends OutragedEngiesItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -94,7 +93,7 @@ public abstract class OutragedEngiesItem extends ArmorItem {
 
 	public static class Leggings extends OutragedEngiesItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
 
 		@Override
@@ -105,7 +104,7 @@ public abstract class OutragedEngiesItem extends ArmorItem {
 
 	public static class Boots extends OutragedEngiesItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
+			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
 
 		@Override

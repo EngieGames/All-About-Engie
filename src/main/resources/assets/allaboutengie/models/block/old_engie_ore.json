@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:blocks/oldengiore",
-    "up": "allaboutengie:blocks/oldengiore",
-    "north": "allaboutengie:blocks/oldengiore",
-    "east": "allaboutengie:blocks/oldengiore",
-    "south": "allaboutengie:blocks/oldengiore",
-    "west": "allaboutengie:blocks/oldengiore",
-    "particle": "allaboutengie:blocks/oldengiore"
+    "down": "allaboutengie:block/oldengiore",
+    "up": "allaboutengie:block/oldengiore",
+    "north": "allaboutengie:block/oldengiore",
+    "east": "allaboutengie:block/oldengiore",
+    "south": "allaboutengie:block/oldengiore",
+    "west": "allaboutengie:block/oldengiore",
+    "particle": "allaboutengie:block/oldengiore"
   },
   "render_type": "solid"
 }

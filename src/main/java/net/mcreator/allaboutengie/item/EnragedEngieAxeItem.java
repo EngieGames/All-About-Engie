@@ -10,7 +10,6 @@ import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.EnragedEngieToolObtainProcedure;
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 
 public class EnragedEngieAxeItem extends AxeItem {
@@ -39,7 +38,7 @@ public class EnragedEngieAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModItems.ENRAGED_ENGIE_ESSENCE.get()));
 			}
-		}, 1, -2.2f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -2.2f, new Item.Properties());
 	}
 
 	@Override

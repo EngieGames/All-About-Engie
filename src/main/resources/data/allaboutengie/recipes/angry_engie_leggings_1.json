@@ -1,6 +1,7 @@
 {
-  "group": "angryengieleggings",
   "type": "minecraft:crafting_shaped",
+  "group": "angryengieleggings",
+  "category": "misc",
   "pattern": [
     "012",
     "3 5",

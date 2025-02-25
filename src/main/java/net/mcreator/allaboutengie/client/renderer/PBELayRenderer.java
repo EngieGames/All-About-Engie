@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.PBELayEntity;
-import net.mcreator.allaboutengie.client.model.Modelengieboyosit;
+import net.mcreator.allaboutengie.client.model.Modelengiedaboyosit;
 
-public class PBELayRenderer extends MobRenderer<PBELayEntity, Modelengieboyosit<PBELayEntity>> {
+public class PBELayRenderer extends MobRenderer<PBELayEntity, Modelengiedaboyosit<PBELayEntity>> {
 	public PBELayRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelengieboyosit(context.bakeLayer(Modelengieboyosit.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelengiedaboyosit(context.bakeLayer(Modelengiedaboyosit.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

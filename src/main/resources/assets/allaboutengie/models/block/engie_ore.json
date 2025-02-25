@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:blocks/engiore",
-    "up": "allaboutengie:blocks/engiore",
-    "north": "allaboutengie:blocks/engiore",
-    "east": "allaboutengie:blocks/engiore",
-    "south": "allaboutengie:blocks/engiore",
-    "west": "allaboutengie:blocks/engiore",
-    "particle": "allaboutengie:blocks/engiore"
+    "down": "allaboutengie:block/engiore",
+    "up": "allaboutengie:block/engiore",
+    "north": "allaboutengie:block/engiore",
+    "east": "allaboutengie:block/engiore",
+    "south": "allaboutengie:block/engiore",
+    "west": "allaboutengie:block/engiore",
+    "particle": "allaboutengie:block/engiore"
   },
   "render_type": "solid"
 }

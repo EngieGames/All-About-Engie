@@ -10,8 +10,6 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
-
 public class BiblicallyAccuratEngieBanHammerItem extends SwordItem {
 	public BiblicallyAccuratEngieBanHammerItem() {
 		super(new Tier() {
@@ -38,7 +36,7 @@ public class BiblicallyAccuratEngieBanHammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
+		}, 3, -3f, new Item.Properties());
 	}
 
 	@Override

@@ -1,6 +1,7 @@
 {
-  "group": "unoborechunkletblast",
   "type": "minecraft:blasting",
+  "group": "unoborechunkletblast",
+  "category": "misc",
   "experience": 20,
   "cookingtime": 200,
   "ingredient": {

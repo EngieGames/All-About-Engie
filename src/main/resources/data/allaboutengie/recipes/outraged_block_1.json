@@ -1,6 +1,7 @@
 {
-  "group": "outrageditemstoblock",
   "type": "minecraft:crafting_shaped",
+  "group": "outrageditemstoblock",
+  "category": "misc",
   "pattern": [
     "012",
     "345",

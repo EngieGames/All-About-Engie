@@ -1,13 +1,12 @@
-// Made with Blockbench 4.12.2
+// Made with Blockbench 4.12.3
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
-public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
+public class Modelengiedaboyosit<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
-			new ResourceLocation("modid", "engieboyotired"), "main");
-	private final ModelPart root;
+			new ResourceLocation("modid", "engiedaboyosit"), "main");
 	private final ModelPart Body;
 	private final ModelPart tail;
 	private final ModelPart base;
@@ -24,9 +23,8 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 	private final ModelPart leg3;
 	private final ModelPart leg4;
 
-	public Modelengieboyotired(ModelPart root) {
-		this.root = root.getChild("root");
-		this.Body = this.root.getChild("Body");
+	public Modelengiedaboyosit(ModelPart root) {
+		this.Body = root.getChild("Body");
 		this.tail = this.Body.getChild("tail");
 		this.base = this.tail.getChild("base");
 		this.base2 = this.base.getChild("base2");
@@ -36,25 +34,22 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 		this.mid2a = this.mid2.getChild("mid2a");
 		this.tip = this.mid2a.getChild("tip");
 		this.tip2 = this.tip.getChild("tip2");
-		this.Head = this.root.getChild("Head");
-		this.leg1 = this.root.getChild("leg1");
-		this.leg2 = this.root.getChild("leg2");
-		this.leg3 = this.root.getChild("leg3");
-		this.leg4 = this.root.getChild("leg4");
+		this.Head = root.getChild("Head");
+		this.leg1 = root.getChild("leg1");
+		this.leg2 = root.getChild("leg2");
+		this.leg3 = root.getChild("leg3");
+		this.leg4 = root.getChild("leg4");
 	}
 
 	public static LayerDefinition createBodyLayer() {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition root = partdefinition.addOrReplaceChild("root", CubeListBuilder.create(),
-				PartPose.offsetAndRotation(-8.0F, 19.5F, 0.0F, 0.0F, 0.0F, 1.5708F));
-
-		PartDefinition Body = root.addOrReplaceChild("Body",
+		PartDefinition Body = partdefinition.addOrReplaceChild("Body",
 				CubeListBuilder.create().texOffs(0, 28)
 						.addBox(-5.0F, -10.5F, -6.0F, 10.0F, 16.0F, 8.0F, new CubeDeformation(0.025F)).texOffs(33, 72)
 						.addBox(-5.0F, -10.5F, -6.0F, 10.0F, 16.0F, 8.0F, new CubeDeformation(0.125F)),
-				PartPose.offsetAndRotation(0.0F, -13.0F, 2.0F, 1.5708F, 0.0F, 0.0F));
+				PartPose.offsetAndRotation(0.0F, 17.7F, 2.0F, 1.5708F, 0.0F, 0.0F));
 
 		PartDefinition BackFin_r1 = Body.addOrReplaceChild("BackFin_r1",
 				CubeListBuilder.create().texOffs(107, 52).addBox(-1.0F, 0.9753F, 2.2318F, 2.0F, 3.0F, 1.0F,
@@ -70,7 +65,7 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 				PartPose.offsetAndRotation(0.25F, 25.0F, -20.5F, -1.5708F, 0.0F, 0.0F));
 
 		PartDefinition base = tail.addOrReplaceChild("base", CubeListBuilder.create(),
-				PartPose.offsetAndRotation(0.0F, -19.85F, -22.95F, -0.3142F, -0.3491F, -1.5708F));
+				PartPose.offsetAndRotation(0.0F, -19.85F, -22.95F, -0.3491F, 0.0F, 0.0F));
 
 		PartDefinition base2 = base.addOrReplaceChild("base2",
 				CubeListBuilder.create().texOffs(107, 33)
@@ -126,7 +121,7 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 		PartDefinition tip2 = tip.addOrReplaceChild("tip2",
 				CubeListBuilder.create().texOffs(118, 56).addBox(-0.875F, -0.875F, 0.0F, 2.0F, 2.0F, 3.0F,
 						new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 0.0F, 2.8125F, 0.5642F, -0.2608F, 0.0233F));
+				PartPose.offsetAndRotation(0.0F, 0.0F, 2.8125F, 0.346F, -0.2608F, 0.0233F));
 
 		PartDefinition shark_r1 = tip2.addOrReplaceChild("shark_r1",
 				CubeListBuilder.create().texOffs(92, 24).addBox(-0.5F, -2.0F, -2.0F, 1.0F, 4.0F, 4.0F,
@@ -138,8 +133,22 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 						new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(-0.125F, -1.8857F, 3.7071F, -0.7854F, 0.0F, 0.0F));
 
-		PartDefinition Head = root.addOrReplaceChild("Head", CubeListBuilder.create(),
-				PartPose.offsetAndRotation(0.0F, -12.0F, -6.0F, 0.0F, 0.0F, -0.4363F));
+		PartDefinition Head = partdefinition.addOrReplaceChild("Head",
+				CubeListBuilder.create().texOffs(36, 39)
+						.addBox(-4.0F, -6.5F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(32, 55)
+						.addBox(-4.0F, -6.5F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.025F)).texOffs(56, 0)
+						.addBox(-4.0F, -6.5F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.075F)).texOffs(64, 55)
+						.addBox(-4.0F, -6.5F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.1F)).texOffs(0, 52)
+						.addBox(-4.0F, -6.5F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.25F)).texOffs(0, 68)
+						.addBox(-4.0F, -6.5F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.3F)).texOffs(0, 0)
+						.addBox(-7.0F, -5.6F, -11.0F, 14.0F, 1.0F, 14.0F, new CubeDeformation(0.0F)).texOffs(0, 15)
+						.addBox(-6.0F, -6.1F, -10.0F, 12.0F, 1.0F, 12.0F, new CubeDeformation(0.0F)).texOffs(36, 28)
+						.addBox(-5.0F, -6.6F, -9.0F, 10.0F, 1.0F, 10.0F, new CubeDeformation(0.0F)).texOffs(48, 16)
+						.addBox(-4.0F, -7.1F, -8.0F, 8.0F, 1.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(68, 39)
+						.addBox(-3.0F, -7.6F, -7.0F, 6.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(88, 0)
+						.addBox(-2.0F, -8.1F, -6.0F, 4.0F, 1.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(48, 25)
+						.addBox(-1.0F, -8.6F, -5.0F, 2.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 18.7F, -6.0F));
 
 		PartDefinition HeadFin_r1 = Head.addOrReplaceChild("HeadFin_r1",
 				CubeListBuilder.create().texOffs(88, 5).addBox(-0.25F, -1.0F, 0.0F, 6.0F, 3.0F, 2.0F,
@@ -151,31 +160,10 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 						new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(-3.0F, -5.0F, -3.0F, -1.0263F, -0.733F, -2.1817F));
 
-		PartDefinition Main_r1 = Head.addOrReplaceChild("Main_r1",
-				CubeListBuilder.create().texOffs(48, 25)
-						.addBox(-1.0F, -2.0F, -1.0F, 2.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(88, 0)
-						.addBox(-2.0F, -1.5F, -2.0F, 4.0F, 1.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(68, 39)
-						.addBox(-3.0F, -1.0F, -3.0F, 6.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(48, 16)
-						.addBox(-4.0F, -0.5F, -4.0F, 8.0F, 1.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(36, 28)
-						.addBox(-5.0F, 0.0F, -5.0F, 10.0F, 1.0F, 10.0F, new CubeDeformation(0.0F)).texOffs(0, 15)
-						.addBox(-6.0F, 0.5F, -6.0F, 12.0F, 1.0F, 12.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-7.0F, 1.0F, -7.0F, 14.0F, 1.0F, 14.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(5.4F, -5.6F, -3.975F, 0.0F, 0.0F, -1.1345F));
-
-		PartDefinition headlayer5_r1 = Head.addOrReplaceChild("headlayer5_r1",
-				CubeListBuilder.create().texOffs(0, 68)
-						.addBox(-4.0F, -9.0F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.3F)).texOffs(0, 52)
-						.addBox(-4.0F, -9.0F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.25F)).texOffs(64, 55)
-						.addBox(-4.0F, -9.0F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.1F)).texOffs(56, 0)
-						.addBox(-4.0F, -9.0F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.075F)).texOffs(32, 55)
-						.addBox(-4.0F, -9.0F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.025F)).texOffs(36, 39)
-						.addBox(-4.0F, -9.0F, -8.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 2.5F, 0.0F, 0.0F, 0.0F, 0.0F));
-
-		PartDefinition leg1 = root.addOrReplaceChild("leg1",
+		PartDefinition leg1 = partdefinition.addOrReplaceChild("leg1",
 				CubeListBuilder.create().texOffs(112, 26).addBox(-2.0F, 4.0F, -4.475F, 4.0F, 2.0F, 4.0F,
 						new CubeDeformation(0.0081F)),
-				PartPose.offsetAndRotation(-3.0F, -6.0F, 7.0F, -0.1298F, -0.017F, -0.4352F));
+				PartPose.offsetAndRotation(-3.0F, 18.0F, 7.0F, 0.0F, 0.5585F, 0.0F));
 
 		PartDefinition Toe_r1 = leg1.addOrReplaceChild("Toe_r1",
 				CubeListBuilder.create().texOffs(124, 36)
@@ -193,29 +181,10 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(1.55F, 4.8772F, -4.2786F, -0.6109F, 0.0F, 0.0F));
 
-		PartDefinition LowerLegPants_r1 = leg1.addOrReplaceChild("LowerLegPants_r1",
-				CubeListBuilder.create().texOffs(114, 74)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0341F)).texOffs(114, 19)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0091F)),
-				PartPose.offsetAndRotation(0.005F, 3.9019F, -1.042F, -0.5236F, 0.0F, 0.0F));
-
-		PartDefinition MidLegPants_r1 = leg1.addOrReplaceChild("MidLegPants_r1",
-				CubeListBuilder.create().texOffs(112, 65)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.035F)).texOffs(112, 10)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.01F)),
-				PartPose.offsetAndRotation(0.01F, 2.767F, -1.7385F, 0.5672F, 0.0F, 0.0F));
-
-		PartDefinition UpperLegLayerBody_r1 = leg1.addOrReplaceChild("UpperLegLayerBody_r1",
-				CubeListBuilder.create().texOffs(69, 76)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.111F)).texOffs(99, 59)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.061F)).texOffs(112, 0)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.011F)),
-				PartPose.offsetAndRotation(0.0F, 0.142F, -2.0075F, -0.2182F, 0.0F, 0.0F));
-
-		PartDefinition leg2 = root.addOrReplaceChild("leg2",
+		PartDefinition leg2 = partdefinition.addOrReplaceChild("leg2",
 				CubeListBuilder.create().texOffs(112, 26).addBox(-2.0F, 4.0F, -4.475F, 4.0F, 2.0F, 4.0F,
 						new CubeDeformation(0.0081F)),
-				PartPose.offsetAndRotation(3.0F, -6.0F, 7.0F, 0.1745F, 0.0F, 0.0F));
+				PartPose.offsetAndRotation(3.0F, 18.0F, 7.0F, 0.0F, -0.5585F, 0.0F));
 
 		PartDefinition Toe_r3 = leg2.addOrReplaceChild("Toe_r3",
 				CubeListBuilder.create().texOffs(124, 36)
@@ -233,29 +202,10 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(1.55F, 4.8772F, -4.2786F, -0.6109F, 0.0F, 0.0F));
 
-		PartDefinition LowerLegPants_r2 = leg2.addOrReplaceChild("LowerLegPants_r2",
-				CubeListBuilder.create().texOffs(114, 74)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0341F)).texOffs(114, 19)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0091F)),
-				PartPose.offsetAndRotation(0.005F, 3.9019F, -1.042F, -0.5236F, 0.0F, 0.0F));
-
-		PartDefinition MidLegPants_r2 = leg2.addOrReplaceChild("MidLegPants_r2",
-				CubeListBuilder.create().texOffs(112, 65)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.035F)).texOffs(112, 10)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.01F)),
-				PartPose.offsetAndRotation(0.01F, 2.767F, -1.7385F, 0.5672F, 0.0F, 0.0F));
-
-		PartDefinition UpperLegPants_r1 = leg2.addOrReplaceChild("UpperLegPants_r1",
-				CubeListBuilder.create().texOffs(99, 59)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.061F)).texOffs(69, 76)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.111F)).texOffs(112, 0)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.011F)),
-				PartPose.offsetAndRotation(0.0F, 0.142F, -2.0075F, -0.2182F, 0.0F, 0.0F));
-
-		PartDefinition leg3 = root.addOrReplaceChild("leg3",
+		PartDefinition leg3 = partdefinition.addOrReplaceChild("leg3",
 				CubeListBuilder.create().texOffs(112, 26).addBox(-2.0F, 4.0F, -4.25F, 4.0F, 2.0F, 4.0F,
 						new CubeDeformation(0.0081F)),
-				PartPose.offsetAndRotation(-3.0F, -6.0F, -5.0F, 0.3442F, 0.0594F, -0.3387F));
+				PartPose.offsetAndRotation(-3.0F, 18.0F, -5.0F, 0.0F, 0.5585F, 0.0F));
 
 		PartDefinition Toe_r5 = leg3.addOrReplaceChild("Toe_r5",
 				CubeListBuilder.create().texOffs(124, 36)
@@ -273,29 +223,10 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(1.55F, 4.8772F, -4.0536F, -0.6109F, 0.0F, 0.0F));
 
-		PartDefinition LowerLegPants_r3 = leg3.addOrReplaceChild("LowerLegPants_r3",
-				CubeListBuilder.create().texOffs(114, 74)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0341F)).texOffs(114, 19)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0091F)),
-				PartPose.offsetAndRotation(0.005F, 3.9019F, -0.817F, -0.5236F, 0.0F, 0.0F));
-
-		PartDefinition MidLegPants_r3 = leg3.addOrReplaceChild("MidLegPants_r3",
-				CubeListBuilder.create().texOffs(112, 65)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.035F)).texOffs(112, 10)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.01F)),
-				PartPose.offsetAndRotation(0.01F, 2.767F, -1.5135F, 0.5672F, 0.0F, 0.0F));
-
-		PartDefinition UpperLegLayerShirt_r1 = leg3.addOrReplaceChild("UpperLegLayerShirt_r1",
-				CubeListBuilder.create().texOffs(69, 76)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.111F)).texOffs(99, 59)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.061F)).texOffs(112, 0)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.011F)),
-				PartPose.offsetAndRotation(0.0F, 0.142F, -1.7825F, -0.2182F, 0.0F, 0.0F));
-
-		PartDefinition leg4 = root.addOrReplaceChild("leg4",
+		PartDefinition leg4 = partdefinition.addOrReplaceChild("leg4",
 				CubeListBuilder.create().texOffs(112, 26).addBox(-2.0F, 4.0F, -4.25F, 4.0F, 2.0F, 4.0F,
 						new CubeDeformation(0.0081F)),
-				PartPose.offsetAndRotation(3.0F, -6.0F, -5.0F, -0.2182F, 0.0F, 0.0F));
+				PartPose.offsetAndRotation(3.0F, 18.0F, -5.0F, 0.0F, -0.5585F, 0.0F));
 
 		PartDefinition Toe_r7 = leg4.addOrReplaceChild("Toe_r7",
 				CubeListBuilder.create().texOffs(124, 36)
@@ -313,35 +244,23 @@ public class Modelengieboyotired<T extends Entity> extends EntityModel<T> {
 						.addBox(-3.5875F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0081F)),
 				PartPose.offsetAndRotation(1.55F, 4.8772F, -4.0536F, -0.6109F, 0.0F, 0.0F));
 
-		PartDefinition LowerLegPants_r4 = leg4.addOrReplaceChild("LowerLegPants_r4",
-				CubeListBuilder.create().texOffs(114, 74)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0341F)).texOffs(114, 19)
-						.addBox(-2.005F, -1.5F, -1.5F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0091F)),
-				PartPose.offsetAndRotation(0.005F, 3.9019F, -0.817F, -0.5236F, 0.0F, 0.0F));
-
-		PartDefinition MidLegPants_r4 = leg4.addOrReplaceChild("MidLegPants_r4",
-				CubeListBuilder.create().texOffs(112, 65)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.035F)).texOffs(112, 10)
-						.addBox(-2.01F, -2.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.01F)),
-				PartPose.offsetAndRotation(0.01F, 2.767F, -1.5135F, 0.5672F, 0.0F, 0.0F));
-
-		PartDefinition UpperLegLayerShirt_r2 = leg4.addOrReplaceChild("UpperLegLayerShirt_r2",
-				CubeListBuilder.create().texOffs(69, 76)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.111F)).texOffs(99, 59)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.061F)).texOffs(112, 0)
-						.addBox(-2.0F, -2.5F, -2.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.011F)),
-				PartPose.offsetAndRotation(0.0F, 0.142F, -1.7825F, -0.2182F, 0.0F, 0.0F));
-
 		return LayerDefinition.create(meshdefinition, 128, 128);
 	}
 
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay,
 			float red, float green, float blue, float alpha) {
-		root.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+		Body.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+		Head.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+		leg1.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+		leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+		leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+		leg4.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 	}
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
 			float headPitch) {
+		this.Head.yRot = netHeadYaw / (180F / (float) Math.PI);
+		this.Head.xRot = headPitch / (180F / (float) Math.PI);
 	}
 }

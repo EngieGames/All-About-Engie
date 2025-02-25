@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.PBESleepEntity;
-import net.mcreator.allaboutengie.client.model.Modelengieboyotired;
+import net.mcreator.allaboutengie.client.model.Modelengiedaboyotired;
 
-public class PBESleepRenderer extends MobRenderer<PBESleepEntity, Modelengieboyotired<PBESleepEntity>> {
+public class PBESleepRenderer extends MobRenderer<PBESleepEntity, Modelengiedaboyotired<PBESleepEntity>> {
 	public PBESleepRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelengieboyotired(context.bakeLayer(Modelengieboyotired.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelengiedaboyotired(context.bakeLayer(Modelengiedaboyotired.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

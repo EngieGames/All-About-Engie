@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:blocks/unobtainium",
-    "up": "allaboutengie:blocks/unobtainium",
-    "north": "allaboutengie:blocks/unobtainium",
-    "east": "allaboutengie:blocks/unobtainium",
-    "south": "allaboutengie:blocks/unobtainium",
-    "west": "allaboutengie:blocks/unobtainium",
-    "particle": "allaboutengie:blocks/unobtainium"
+    "down": "allaboutengie:block/unobtainium",
+    "up": "allaboutengie:block/unobtainium",
+    "north": "allaboutengie:block/unobtainium",
+    "east": "allaboutengie:block/unobtainium",
+    "south": "allaboutengie:block/unobtainium",
+    "west": "allaboutengie:block/unobtainium",
+    "particle": "allaboutengie:block/unobtainium"
   },
   "render_type": "solid"
 }

@@ -6,8 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
-
 public class CommonPickaxeItem extends PickaxeItem {
 	public CommonPickaxeItem() {
 		super(new Tier() {
@@ -34,6 +32,6 @@ public class CommonPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -2.8f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 1, -2.8f, new Item.Properties());
 	}
 }

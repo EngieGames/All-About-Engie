@@ -1,6 +1,7 @@
 {
-  "group": "angryengieitemtoblock",
   "type": "minecraft:crafting_shaped",
+  "group": "angryengieitemtoblock",
+  "category": "misc",
   "pattern": [
     "012",
     "345",

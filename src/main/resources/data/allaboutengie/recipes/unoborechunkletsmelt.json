@@ -1,6 +1,7 @@
 {
-  "group": "unoborechunkletsmelt",
   "type": "minecraft:smelting",
+  "group": "unoborechunkletsmelt",
+  "category": "misc",
   "experience": 20,
   "cookingtime": 400,
   "ingredient": {

@@ -1,6 +1,7 @@
 {
-  "group": "engieblocktoitem",
   "type": "minecraft:crafting_shapeless",
+  "group": "engieblocktoitem",
+  "category": "misc",
   "ingredients": [
     {
       "item": "allaboutengie:engie_block"
