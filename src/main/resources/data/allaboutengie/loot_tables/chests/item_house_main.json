@@ -16,7 +16,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 10
+                "max": 5
               }
             }
           ]
@@ -44,7 +44,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 15
+                "max": 5
               }
             }
           ]
@@ -59,6 +59,34 @@
               "count": {
                 "min": 1,
                 "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "allaboutengie:bagel",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "allaboutengie:bagel_cheese",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
             }
           ]
