@@ -5,7 +5,7 @@
     "achievementName": "Uhm... I guess this is cooler than the large one..?",
     "achievementDescription": "Obtain a Huge Ban Hammer",
     "achievementIcon": {
-      "value": "CUSTOM:MiniBanHammer"
+      "value": "CUSTOM:HugeBanHammer"
     },
     "background": "Default",
     "disableDisplay": false,

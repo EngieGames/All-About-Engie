@@ -11944,166 +11944,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "EngieItemObtain",
-      "type": "procedure",
-      "sortid": 767,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_item_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/EngieItemObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "AngryEngieEssenceObtain",
-      "type": "procedure",
-      "sortid": 768,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "angry_engie_essence_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/AngryEngieEssenceObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "EnragedEngieEssenceObtain",
-      "type": "procedure",
-      "sortid": 769,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enraged_engie_essence_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/EnragedEngieEssenceObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "OutragedEngieEssenceObtain",
-      "type": "procedure",
-      "sortid": 770,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "outraged_engie_essence_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/OutragedEngieEssenceObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "EngieToolObtain",
-      "type": "procedure",
-      "sortid": 771,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_tool_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/EngieToolObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "AngryEngieToolObtain",
-      "type": "procedure",
-      "sortid": 772,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "angry_engie_tool_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/AngryEngieToolObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "EnragedEngieToolObtain",
-      "type": "procedure",
-      "sortid": 773,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enraged_engie_tool_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/EnragedEngieToolObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "OutragedEngieToolObtain",
-      "type": "procedure",
-      "sortid": 774,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "outraged_engie_tool_obtain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/OutragedEngieToolObtainProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "BAEChestplate",
       "type": "procedure",
       "sortid": 775,
@@ -14789,6 +14629,182 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "BiblicallyAccurateBanObtain",
+      "type": "achievement",
+      "sortid": 906,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_accurate_ban_obtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/biblically_accurate_ban_obtain.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ColossolBanObtain",
+      "type": "achievement",
+      "sortid": 907,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colossol_ban_obtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/colossol_ban_obtain.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ImmenseBanObtain",
+      "type": "achievement",
+      "sortid": 908,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immense_ban_obtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/immense_ban_obtain.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MammothBanObtain",
+      "type": "achievement",
+      "sortid": 909,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mammoth_ban_obtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/mammoth_ban_obtain.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EngieToolObtain",
+      "type": "procedure",
+      "sortid": 910,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_tool_obtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieToolObtainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AngryEngieToolObtain",
+      "type": "procedure",
+      "sortid": 911,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_tool_obtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AngryEngieToolObtainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnragedEngieToolObtain",
+      "type": "procedure",
+      "sortid": 912,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_tool_obtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EnragedEngieToolObtainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OutragedEngieToolObtain",
+      "type": "procedure",
+      "sortid": 913,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_tool_obtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/OutragedEngieToolObtainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BiblicallyAccurateToolObtain",
+      "type": "procedure",
+      "sortid": 914,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_accurate_tool_obtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/BiblicallyAccurateToolObtainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MonstrosityToolObtain",
+      "type": "procedure",
+      "sortid": 915,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monstrosity_tool_obtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MonstrosityToolObtainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -14922,6 +14938,7 @@
       "painting.allaboutengie.shovel_king.author": "Engie, bothan2net",
       "entity.allaboutengie.bothan_2net_zoomies_tired": "Bothan2net (Worn Out)",
       "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "advancements.mammoth_ban_obtain.title": "Alright, have fun with this.",
       "block.allaboutengie.metal_table": "Metal Chest",
       "entity.allaboutengie.apollo_zoomies_tired": "Apollo (Worn Out)",
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
@@ -15030,6 +15047,7 @@
       "entity.allaboutengie.cbe_zoomies_tired": "clippedbyengie (da boyo) (Worn Out)",
       "item.allaboutengie.engie_sharko_rare_2_spawn_egg": "Rare Engie Sharko Spawn Egg",
       "item.allaboutengie.code_redeemers_helmet": "Code Redeemers Helmet",
+      "advancements.colossol_ban_obtain.descr": "Obtain a Colossal Ban Hammer",
       "painting.allaboutengie.aae.author": "DevEngie",
       "advancements.monstrosity_engie_armor_obtained.title": "My NO chart just skyrocketed now.",
       "item.allaboutengie.albino_shark_chestplate": "Albino Sharko Chestplate",
@@ -15174,6 +15192,7 @@
       "item.allaboutengie.enraged_engie_axe": "Enraged Engie Axe",
       "entity.allaboutengie.sharko_tamed_zoomies_tired": "[Tamed] Sharko (Worn Out)",
       "entity.allaboutengie.sharko_tamed_zoomies": "[Tamed] Sharko (Zoomies)",
+      "advancements.biblically_accurate_ban_obtain.title": "Take a break dude. You\u0027re gonna need it.",
       "advancements.monstrosity_engie_armor_obtained.descr": "Obtain Monstrosity Engie Armor for the first time.",
       "entity.allaboutengie.enraged_speed": "Enraged Speed",
       "entity.allaboutengie.engie": "Engie",
@@ -15384,12 +15403,14 @@
       "item.allaboutengie.exotic_engie_spawn_egg": "Exotic Engie Spawn Egg",
       "item.aae_items.engie_pickaxe": "Engie Pickaxe",
       "item.aae_items.crackers_in_bowl": "Crackers In Bowl",
+      "advancements.colossol_ban_obtain.title": "Lad, PLEASE TAKE A BREAK.",
       "item.allaboutengie.crucifix": "Crucifix",
       "item.allaboutengie.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.albino_shark_leggings": "Albino Sharko Leggings",
       "entity.allaboutengie.creator": "Creator",
       "item.allaboutengie.outraged_engie_pickaxe": "Outraged Engie Pickaxe",
       "entity.allaboutengie.engie_sharko": "Engie Sharko",
+      "advancements.immense_ban_obtain.title": "Are you crazy or something? You really need to take a chill pill.",
       "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
       "item.aae_items.engie_helmet": "Engie Helmet",
       "item.allaboutengie.blood_chestplate": "Blood Chestplate",
@@ -15424,6 +15445,7 @@
       "item_group.allaboutengie.ban_hammers": "Ban Hammers",
       "entity.allaboutengie.louis_sleep": "Louis (Sleeping)",
       "entity.allaboutengie.epic_sharko_tamed_zoomies_tired": "[Tamed] Epic Sharko (Worn Out)",
+      "advancements.biblically_accurate_ban_obtain.descr": "Obtain a Biblically Accurate Ban Hammer",
       "item.allaboutengie.enraged_engie_hoe": "Enraged Engie Hoe",
       "item.allaboutengie.bagel_cheese_cooked": "Cooked Bagel with Cheese",
       "item.allaboutengie.engie_pickaxe": "Engie Pickaxe",
@@ -15481,6 +15503,7 @@
       "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
       "itemGroup.tabpixel_items": "Pixel Items",
       "entity.allaboutengie.epic_engie": "Epic Engie",
+      "advancements.immense_ban_obtain.descr": "Obtain a Immense Ban Hammer",
       "item.allaboutengie.brownies_empty": "Brownies Empty",
       "block.aae_items.engie_block": "Engie Block",
       "entity.allaboutengie.exotic_sharko_tamed": "[Tamed] Exotic Sharko",
@@ -15584,6 +15607,7 @@
       "item.allaboutengie.monstrosity_engies_boots": "Monstrosity Engie Boots",
       "item.aae_items.angry_engie_boots": "Angry Engie Boots",
       "block.allaboutengie.old_deepslate_engie_ore": "Engie Ore",
+      "advancements.mammoth_ban_obtain.descr": "Obtain a Mammoth Ban Hammer",
       "entity.allaboutengie.pbe": "playedbyengie (da boyo)",
       "item.allaboutengie.blood_battle_axe": "Blood Battle Axe",
       "entity.allaboutengie.engie_sharko_rare_zoomies": "Rare Engie Sharko",

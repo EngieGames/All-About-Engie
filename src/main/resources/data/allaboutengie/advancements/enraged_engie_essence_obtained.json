@@ -16,18 +16,29 @@
   },
   "criteria": {
     "enraged_engie_essence_obtained": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:enraged_engie_essence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000000
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
     "experience": 30,
     "recipes": [
       "allaboutengie:enraged_engie_axe_1",
-      "allaboutengie:enraged_engie_axe_2",
       "allaboutengie:enraged_engie_pickaxe_1",
       "allaboutengie:enraged_engie_shovel_1",
       "allaboutengie:enraged_engie_hoe_1",
-      "allaboutengie:enraged_engie_hoe_2",
       "allaboutengie:enragred_engie_helmet_1",
       "allaboutengie:enraged_engie_chestplate_1",
       "allaboutengie:enraged_engie_leggings_1",

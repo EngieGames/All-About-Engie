@@ -5,7 +5,7 @@
     "achievementName": "Now THIS is a good Ban Hammer choice.",
     "achievementDescription": "Obtain a Large Ban Hammer",
     "achievementIcon": {
-      "value": "CUSTOM:MiniBanHammer"
+      "value": "CUSTOM:LargeBanHammer"
     },
     "background": "Default",
     "disableDisplay": false,

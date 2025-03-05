@@ -5,7 +5,7 @@
     "achievementName": "Holy crap these get big...",
     "achievementDescription": "Obtain a Enormous Ban Hammer",
     "achievementIcon": {
-      "value": "CUSTOM:MiniBanHammer"
+      "value": "CUSTOM:EnormousBanHammer"
     },
     "background": "Default",
     "disableDisplay": false,

@@ -16,7 +16,20 @@
   },
   "criteria": {
     "biblically_accurate_essence_obtained": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:biblically_accurate_engie_essence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000000
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

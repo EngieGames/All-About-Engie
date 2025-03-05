@@ -2,10 +2,10 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Remember lads: NO RULEBREAKING.",
-    "achievementDescription": "Obtain a Massive Ban Hammer",
+    "achievementName": "Alright, have fun with this.",
+    "achievementDescription": "Obtain a Mammoth Ban Hammer",
     "achievementIcon": {
-      "value": "CUSTOM:MassiveBanHammer"
+      "value": "CUSTOM:MammothBanHammer"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -15,10 +15,10 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 40,
+    "rewardXP": 60,
     "achievementType": "challenge",
     "parent": {
-      "value": "CUSTOM:NewWorld"
+      "value": "CUSTOM:ImmenseBanObtain"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"56\" y=\"95\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

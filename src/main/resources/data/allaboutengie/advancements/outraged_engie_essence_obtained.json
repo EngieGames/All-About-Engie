@@ -16,18 +16,29 @@
   },
   "criteria": {
     "outraged_engie_essence_obtained": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allaboutengie:outraged_engie_essence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000000
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
     "experience": 40,
     "recipes": [
       "allaboutengie:outraged_engie_axe_1",
-      "allaboutengie:outraged_engie_axe_2",
       "allaboutengie:outraged_engie_pickaxe_1",
       "allaboutengie:outraged_engie_shovel_1",
       "allaboutengie:outraged_engie_hoe_1",
-      "allaboutengie:outraged_engie_hoe_2",
       "allaboutengie:outraged_engie_helmet_1",
       "allaboutengie:outraged_engie_chestplate_1",
       "allaboutengie:outraged_engie_leggings_1",
