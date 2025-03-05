@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:biblically_accurate_engie_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.biblically_accurate_tools_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.biblically_accurate_tools_obtained.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "biblically_accurate_tools_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 40
+  },
+  "parent": "allaboutengie:biblically_accurate_essence_obtained"
+}

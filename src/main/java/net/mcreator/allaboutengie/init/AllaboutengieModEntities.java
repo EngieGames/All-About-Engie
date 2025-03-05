@@ -236,10 +236,6 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<UncommonEngieEntity>of(UncommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UncommonEngieEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<AngryEngieEntity>> ANGRY_ENGIE = register("angry_engie",
-			EntityType.Builder.<AngryEngieEntity>of(AngryEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieEntity::new)
-
-					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<RareEngieEntity>> RARE_ENGIE = register("rare_engie",
 			EntityType.Builder.<RareEngieEntity>of(RareEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RareEngieEntity::new)
 
@@ -260,6 +256,10 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<ExoticEngieEntity>of(ExoticEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ExoticEngieEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<AngryEngieEntity>> ANGRY_ENGIE = register("angry_engie",
+			EntityType.Builder.<AngryEngieEntity>of(AngryEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EnragedEngieEntity>> ENRAGED_ENGIE = register("enraged_engie",
 			EntityType.Builder.<EnragedEngieEntity>of(EnragedEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieEntity::new)
 
@@ -954,12 +954,12 @@ public class AllaboutengieModEntities {
 			CommonEngieEntity.init();
 			MadEngieEntity.init();
 			UncommonEngieEntity.init();
-			AngryEngieEntity.init();
 			RareEngieEntity.init();
 			EpicEngieEntity.init();
 			LegendaryEngieEntity.init();
 			MythicEngieEntity.init();
 			ExoticEngieEntity.init();
+			AngryEngieEntity.init();
 			EnragedEngieEntity.init();
 			AngryCreatorEntity.init();
 			MonstrosityEngieEntity.init();
@@ -1135,12 +1135,12 @@ public class AllaboutengieModEntities {
 		event.put(COMMON_ENGIE.get(), CommonEngieEntity.createAttributes().build());
 		event.put(MAD_ENGIE.get(), MadEngieEntity.createAttributes().build());
 		event.put(UNCOMMON_ENGIE.get(), UncommonEngieEntity.createAttributes().build());
-		event.put(ANGRY_ENGIE.get(), AngryEngieEntity.createAttributes().build());
 		event.put(RARE_ENGIE.get(), RareEngieEntity.createAttributes().build());
 		event.put(EPIC_ENGIE.get(), EpicEngieEntity.createAttributes().build());
 		event.put(LEGENDARY_ENGIE.get(), LegendaryEngieEntity.createAttributes().build());
 		event.put(MYTHIC_ENGIE.get(), MythicEngieEntity.createAttributes().build());
 		event.put(EXOTIC_ENGIE.get(), ExoticEngieEntity.createAttributes().build());
+		event.put(ANGRY_ENGIE.get(), AngryEngieEntity.createAttributes().build());
 		event.put(ENRAGED_ENGIE.get(), EnragedEngieEntity.createAttributes().build());
 		event.put(OUTRAGED_ENGIE.get(), AngryCreatorEntity.createAttributes().build());
 		event.put(MONSTROSITY_ENGIE.get(), MonstrosityEngieEntity.createAttributes().build());

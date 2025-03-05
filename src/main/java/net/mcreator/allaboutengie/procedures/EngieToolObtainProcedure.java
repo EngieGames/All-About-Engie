@@ -14,9 +14,9 @@ public class EngieToolObtainProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof ServerPlayer _plr0 && _plr0.level instanceof ServerLevel
-				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engie_armor_made"))).isDone()) == false) {
+				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engie_tool_obtained"))).isDone()) == false) {
 			if (entity instanceof ServerPlayer _player) {
-				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engie_armor_made"));
+				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engie_tool_obtained"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemainingCriteria().iterator();

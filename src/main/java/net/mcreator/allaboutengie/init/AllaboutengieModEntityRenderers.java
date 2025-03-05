@@ -200,12 +200,12 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.COMMON_ENGIE.get(), CommonEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MAD_ENGIE.get(), MadEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.UNCOMMON_ENGIE.get(), UncommonEngieRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_ENGIE.get(), AngryEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_ENGIE.get(), RareEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.EPIC_ENGIE.get(), EpicEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.LEGENDARY_ENGIE.get(), LegendaryEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MYTHIC_ENGIE.get(), MythicEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_ENGIE.get(), ExoticEngieRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_ENGIE.get(), AngryEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_ENGIE.get(), EnragedEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.OUTRAGED_ENGIE.get(), AngryCreatorRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MONSTROSITY_ENGIE.get(), MonstrosityEngieRenderer::new);

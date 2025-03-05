@@ -401,8 +401,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MAD_ENGIE_SPAWN_EGG = REGISTRY.register("mad_engie_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.MAD_ENGIE, -3407872, -6044, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> UNCOMMON_ENGIE_SPAWN_EGG = REGISTRY.register("uncommon_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.UNCOMMON_ENGIE, -4310213, -10551397, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> ANGRY_ENGIE_SPAWN_EGG = REGISTRY.register("angry_engie_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> RARE_ENGIE_SPAWN_EGG = REGISTRY.register("rare_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_ENGIE, -4310213, -10591233, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> EPIC_ENGIE_SPAWN_EGG = REGISTRY.register("epic_engie_spawn_egg",
@@ -413,6 +411,8 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MYTHIC_ENGIE, -4310213, -2162893, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> EXOTIC_ENGIE_SPAWN_EGG = REGISTRY.register("exotic_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_ENGIE, -4310213, -11534368, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ANGRY_ENGIE_SPAWN_EGG = REGISTRY.register("angry_engie_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENRAGED_ENGIE_SPAWN_EGG = REGISTRY.register("enraged_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> OUTRAGED_ENGIE_SPAWN_EGG = REGISTRY.register("outraged_engie_spawn_egg",
