@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/ban_hammer_huge",
   "textures": {
-    "0": "allaboutengie:block/regular",
-    "particle": "allaboutengie:item/banhammerpixel"
+    "0": "allaboutengie:blocks/regular",
+    "particle": "allaboutengie:items/banhammerpixel"
   }
 }

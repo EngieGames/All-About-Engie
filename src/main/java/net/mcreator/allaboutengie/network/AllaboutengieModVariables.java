@@ -57,19 +57,19 @@ public class AllaboutengieModVariables {
 	public static class EventBusVariableHandlers {
 		@SubscribeEvent
 		public static void onPlayerLoggedInSyncPlayerVariables(PlayerEvent.PlayerLoggedInEvent event) {
-			if (!event.getEntity().level().isClientSide())
+			if (!event.getEntity().level.isClientSide())
 				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
 		}
 
 		@SubscribeEvent
 		public static void onPlayerRespawnedSyncPlayerVariables(PlayerEvent.PlayerRespawnEvent event) {
-			if (!event.getEntity().level().isClientSide())
+			if (!event.getEntity().level.isClientSide())
 				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
 		}
 
 		@SubscribeEvent
 		public static void onPlayerChangedDimensionSyncPlayerVariables(PlayerEvent.PlayerChangedDimensionEvent event) {
-			if (!event.getEntity().level().isClientSide())
+			if (!event.getEntity().level.isClientSide())
 				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
 		}
 
@@ -90,9 +90,9 @@ public class AllaboutengieModVariables {
 
 		@SubscribeEvent
 		public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-			if (!event.getEntity().level().isClientSide()) {
-				SavedData mapdata = MapVariables.get(event.getEntity().level());
-				SavedData worlddata = WorldVariables.get(event.getEntity().level());
+			if (!event.getEntity().level.isClientSide()) {
+				SavedData mapdata = MapVariables.get(event.getEntity().level);
+				SavedData worlddata = WorldVariables.get(event.getEntity().level);
 				if (mapdata != null)
 					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(0, mapdata));
 				if (worlddata != null)
@@ -102,8 +102,8 @@ public class AllaboutengieModVariables {
 
 		@SubscribeEvent
 		public static void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
-			if (!event.getEntity().level().isClientSide()) {
-				SavedData worlddata = WorldVariables.get(event.getEntity().level());
+			if (!event.getEntity().level.isClientSide()) {
+				SavedData worlddata = WorldVariables.get(event.getEntity().level);
 				if (worlddata != null)
 					AllaboutengieMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(1, worlddata));
 			}

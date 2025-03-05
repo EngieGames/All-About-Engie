@@ -15,6 +15,6 @@ public class TobyZoomiesTiredRenderer extends MobRenderer<TobyZoomiesTiredEntity
 
 	@Override
 	public ResourceLocation getTextureLocation(TobyZoomiesTiredEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/tobytired.png");
+		return new ResourceLocation("allaboutengie:textures/entities/tobyzoomtired.png");
 	}
 }

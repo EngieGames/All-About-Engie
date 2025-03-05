@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Well that was even more of a waste of my bloody time.",
+    "achievementName": "Useful!",
     "achievementDescription": "Obtain Enraged Engie Armor for the first time.",
     "achievementIcon": {
       "value": "CUSTOM:EnragedEngies.body"

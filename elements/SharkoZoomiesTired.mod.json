@@ -5,7 +5,7 @@
     "mobName": "Sharko (Worn Out)",
     "mobLabel": "",
     "mobModelName": "Modelboyozoomtired",
-    "mobModelTexture": "sharkonewtired.png",
+    "mobModelTexture": "sharkonewzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

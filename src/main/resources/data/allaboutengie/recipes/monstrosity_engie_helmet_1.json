@@ -1,0 +1,29 @@
+{
+  "group": "monstrisityengiehelmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:monstrosity_engies_helmet",
+    "count": 1
+  }
+}

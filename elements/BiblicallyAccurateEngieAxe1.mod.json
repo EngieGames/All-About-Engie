@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "biblicallyaccurateengieaxe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiblicallyAccurateEngieAxe"
+    },
+    "name": "biblically_accurate_engie_axe_1",
+    "namespace": "mod"
+  }
+}

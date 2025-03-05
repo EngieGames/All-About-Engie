@@ -1,0 +1,36 @@
+{
+  "group": "banhammerpixel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:biblically_accurate_block"
+    },
+    "1": {
+      "item": "allaboutengie:outraged_engie_block"
+    },
+    "2": {
+      "item": "allaboutengie:biblically_accurate_block"
+    },
+    "3": {
+      "item": "allaboutengie:monstrosity_engie_block"
+    },
+    "4": {
+      "item": "allaboutengie:colossal_ban_hammer_pixel"
+    },
+    "5": {
+      "item": "allaboutengie:monstrosity_engie_block"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:immense_ban_hammer_pixel",
+    "count": 1
+  }
+}

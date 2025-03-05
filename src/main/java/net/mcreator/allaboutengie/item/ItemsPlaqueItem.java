@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class ItemsPlaqueItem extends Item {
 	public ItemsPlaqueItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(null).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
 }

@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "banhammerpixel",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
     "345",
@@ -9,22 +8,22 @@
   ],
   "key": {
     "0": {
-      "item": "allaboutengie:biblically_accurate_block"
+      "item": "allaboutengie:outraged_engie_block"
     },
     "1": {
-      "item": "allaboutengie:biblically_accurate_block"
+      "item": "allaboutengie:enraged_engie_block"
     },
     "2": {
-      "item": "allaboutengie:biblically_accurate_block"
+      "item": "allaboutengie:outraged_engie_block"
     },
     "3": {
-      "item": "allaboutengie:biblically_accurate_block"
+      "item": "allaboutengie:biblically_accurate_engie_essence"
     },
     "4": {
       "item": "allaboutengie:massive_ban_hammer_pixel"
     },
     "5": {
-      "item": "allaboutengie:biblically_accurate_block"
+      "item": "allaboutengie:biblically_accurate_engie_essence"
     },
     "7": {
       "tag": "minecraft:planks"

@@ -5,7 +5,7 @@
     "mobName": "Atlas (Worn Out)",
     "mobLabel": "Atlas",
     "mobModelName": "Modeltobyzoomtired",
-    "mobModelTexture": "atlastired.png",
+    "mobModelTexture": "atlaszoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

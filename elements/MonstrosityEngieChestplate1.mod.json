@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "monstrosityengiechestplate",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MonstrosityEngies.helmet"
+    },
+    "name": "monstrosity_engie_chestplate_1",
+    "namespace": "mod"
+  }
+}

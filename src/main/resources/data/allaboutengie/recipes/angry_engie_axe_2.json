@@ -1,7 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "angryengieaxe",
-  "category": "misc",
   "pattern": [
     "01",
     "23",

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "allaboutengie:item/commonleggings"
+    "layer0": "allaboutengie:items/commonleggings"
   }
 }

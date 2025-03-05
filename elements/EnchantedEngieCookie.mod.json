@@ -8,13 +8,13 @@
     "customProperties": {},
     "states": [],
     "name": "Enchanted Engie Cookie",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:AAEItemsFood"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 64,
+    "useDuration": 80,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {

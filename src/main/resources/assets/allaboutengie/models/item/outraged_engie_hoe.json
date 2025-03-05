@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "allaboutengie:item/outraged_hoe"
+    "layer0": "allaboutengie:items/outraged_hoe"
   }
 }

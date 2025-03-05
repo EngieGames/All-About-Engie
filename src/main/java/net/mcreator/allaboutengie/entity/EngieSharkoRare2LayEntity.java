@@ -18,13 +18,11 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.RareEngieSharko2NameCheckProcedure;
@@ -38,14 +36,14 @@ public class EngieSharkoRare2LayEntity extends PathfinderMob {
 
 	public EngieSharkoRare2LayEntity(EntityType<EngieSharkoRare2LayEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.6f);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -79,11 +77,11 @@ public class EngieSharkoRare2LayEntity extends PathfinderMob {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
-		if (source.is(DamageTypes.FALL))
+		if (source == DamageSource.FALL)
 			return false;
-		if (source.is(DamageTypes.CACTUS))
+		if (source == DamageSource.CACTUS)
 			return false;
-		if (source.is(DamageTypes.DROWN))
+		if (source == DamageSource.DROWN)
 			return false;
 		return super.hurt(source, amount);
 	}
@@ -91,13 +89,13 @@ public class EngieSharkoRare2LayEntity extends PathfinderMob {
 	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
-		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
 		super.mobInteract(sourceentity, hand);
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
 		Entity entity = this;
-		Level world = this.level();
+		Level world = this.level;
 
 		EngieRare2LayRCProcedure.execute(entity);
 		return retval;
@@ -106,7 +104,7 @@ public class EngieSharkoRare2LayEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		RareEngieSharko2NameCheckProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		RareEngieSharko2NameCheckProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

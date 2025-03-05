@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "bloodhelmet",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
     "3 5"

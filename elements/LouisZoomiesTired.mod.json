@@ -5,7 +5,7 @@
     "mobName": "Louis (Worn Out)",
     "mobLabel": "Louis",
     "mobModelName": "Modeltobyzoomtired",
-    "mobModelTexture": "louistired.png",
+    "mobModelTexture": "louiszoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

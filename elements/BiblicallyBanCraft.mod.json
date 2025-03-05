@@ -12,22 +12,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BiblicallyAccurateBlock"
+        "value": "CUSTOM:OutragedEngieBlock"
       },
       {
-        "value": "CUSTOM:BiblicallyAccurateBlock"
+        "value": "CUSTOM:EnragedEngieBlock"
       },
       {
-        "value": "CUSTOM:BiblicallyAccurateBlock"
+        "value": "CUSTOM:OutragedEngieBlock"
       },
       {
-        "value": "CUSTOM:BiblicallyAccurateBlock"
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
         "value": "CUSTOM:MassiveBanHammer"
       },
       {
-        "value": "CUSTOM:BiblicallyAccurateBlock"
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
         "value": ""

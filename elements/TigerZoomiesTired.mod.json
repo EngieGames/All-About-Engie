@@ -5,7 +5,7 @@
     "mobName": "Tiger (Worn Out)",
     "mobLabel": "Tiger",
     "mobModelName": "Modeltobyzoomtired",
-    "mobModelTexture": "tigertired.png",
+    "mobModelTexture": "tigerzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

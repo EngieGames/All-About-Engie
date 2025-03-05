@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "allaboutengie:item/angryengiehoe"
+    "layer0": "allaboutengie:items/angryengiehoe"
   }
 }

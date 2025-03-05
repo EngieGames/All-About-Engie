@@ -22,12 +22,10 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
@@ -41,7 +39,7 @@ public class ApolloZoomiesEntity extends PathfinderMob {
 
 	public ApolloZoomiesEntity(EntityType<ApolloZoomiesEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.6f);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setCustomName(Component.literal("Apollo"));
@@ -50,7 +48,7 @@ public class ApolloZoomiesEntity extends PathfinderMob {
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -94,11 +92,11 @@ public class ApolloZoomiesEntity extends PathfinderMob {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
-		if (source.is(DamageTypes.FALL))
+		if (source == DamageSource.FALL)
 			return false;
-		if (source.is(DamageTypes.CACTUS))
+		if (source == DamageSource.CACTUS)
 			return false;
-		if (source.is(DamageTypes.DROWN))
+		if (source == DamageSource.DROWN)
 			return false;
 		return super.hurt(source, amount);
 	}
@@ -106,7 +104,7 @@ public class ApolloZoomiesEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SharkoTamedZoomTimerProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		SharkoTamedZoomTimerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

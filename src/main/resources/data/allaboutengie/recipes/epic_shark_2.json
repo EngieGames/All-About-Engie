@@ -1,0 +1,39 @@
+{
+  "group": "epicsharko",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "2": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "3": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "4": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "5": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "6": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "7": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    },
+    "8": {
+      "item": "allaboutengie:epic_sharko_cloth"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:epic_shark_chestplate",
+    "count": 1
+  }
+}

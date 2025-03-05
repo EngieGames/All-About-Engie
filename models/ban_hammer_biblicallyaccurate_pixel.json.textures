@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "biblicallyaccuratepixel"
+        "1": "biblicallyaccuratepixel"
       },
       "name": "default"
     }

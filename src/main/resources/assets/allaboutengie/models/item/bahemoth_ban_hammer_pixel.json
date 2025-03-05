@@ -1,0 +1,8 @@
+{
+  "parent": "allaboutengie:custom/ban_hammer_bahemoth_pixel",
+  "textures": {
+    "1": "allaboutengie:blocks/banhammerpixel",
+    "2": "allaboutengie:blocks/signatures",
+    "particle": "allaboutengie:items/banhammerpixel"
+  }
+}

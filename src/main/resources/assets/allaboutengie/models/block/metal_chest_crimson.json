@@ -1,10 +1,10 @@
 {
   "parent": "allaboutengie:custom/metal_chest_crimson",
   "textures": {
-    "all": "allaboutengie:block/metalchest",
-    "particle": "allaboutengie:block/oldchest",
-    "0": "allaboutengie:block/metalchest",
-    "1": "allaboutengie:block/crimson"
+    "all": "allaboutengie:blocks/metalchest",
+    "particle": "allaboutengie:blocks/oldchest",
+    "0": "allaboutengie:blocks/metalchest",
+    "1": "allaboutengie:blocks/crimson"
   },
   "render_type": "solid"
 }

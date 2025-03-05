@@ -10,11 +10,13 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public class BiblicallyAccuratEngieBanHammerItem extends SwordItem {
 	public BiblicallyAccuratEngieBanHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 24000;
+				return 18480;
 			}
 
 			public float getSpeed() {
@@ -22,7 +24,7 @@ public class BiblicallyAccuratEngieBanHammerItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2398f;
+				return 1846f;
 			}
 
 			public int getLevel() {
@@ -36,7 +38,7 @@ public class BiblicallyAccuratEngieBanHammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.75f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
 	}
 
 	@Override

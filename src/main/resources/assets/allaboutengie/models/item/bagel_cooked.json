@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/bagelcooked",
+  "textures": {
+    "0": "allaboutengie:blocks/bagelcooked",
+    "particle": "allaboutengie:items/bagel"
+  }
+}

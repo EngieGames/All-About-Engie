@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "1": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:biblically_accurate_engie_hoe",
+    "count": 1
+  }
+}

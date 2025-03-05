@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "allaboutengie:item/engiboots"
+    "layer0": "allaboutengie:items/engiboots"
   }
 }

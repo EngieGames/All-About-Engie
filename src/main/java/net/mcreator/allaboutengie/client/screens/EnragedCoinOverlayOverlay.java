@@ -35,7 +35,7 @@ public class EnragedCoinOverlayOverlay {
 		double z = 0;
 		Player entity = Minecraft.getInstance().player;
 		if (entity != null) {
-			world = entity.level();
+			world = entity.level;
 			x = entity.getX();
 			y = entity.getY();
 			z = entity.getZ();
@@ -47,12 +47,13 @@ public class EnragedCoinOverlayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (true) {
-			event.getGuiGraphics().blit(new ResourceLocation("allaboutengie:textures/screens/enragedcoinicon.png"), posX + -213, posY + 104, 0, 0, 16, 16, 16, 16);
+			RenderSystem.setShaderTexture(0, new ResourceLocation("allaboutengie:textures/screens/enragedcoinicon.png"));
+			Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -213, posY + 104, 0, 0, 16, 16, 16, 16);
 
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.allaboutengie.enraged_coin_overlay.label_empty"), posX + -194, posY + 107, -1, false);
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.allaboutengie.enraged_coin_overlay.label_empty"), posX + -194, posY + 107, -1);
+			Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					CoinammountcountProcedure.execute(entity), posX + -188, posY + 107, -1, false);
+					CoinammountcountProcedure.execute(entity), posX + -188, posY + 107, -1);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

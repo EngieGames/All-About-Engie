@@ -15,6 +15,6 @@ public class ApolloZoomiesTiredRenderer extends MobRenderer<ApolloZoomiesTiredEn
 
 	@Override
 	public ResourceLocation getTextureLocation(ApolloZoomiesTiredEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/apollotired.png");
+		return new ResourceLocation("allaboutengie:textures/entities/apollozoomtired.png");
 	}
 }

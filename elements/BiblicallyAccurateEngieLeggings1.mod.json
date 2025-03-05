@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "biblicallyaccurateengieleggings",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiblicallyAccurateEngies.legs"
+    },
+    "name": "biblically_accurate_engie_leggings_1",
+    "namespace": "mod"
+  }
+}

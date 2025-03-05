@@ -5,7 +5,7 @@
     "mobName": "Toby (Worn Out)",
     "mobLabel": "Toby",
     "mobModelName": "Modeltobyzoomtired",
-    "mobModelTexture": "tobytired.png",
+    "mobModelTexture": "tobyzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

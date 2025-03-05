@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:UnobtainiumOreChunklet"
+      "value": "CUSTOM:UnobtainiumChunklet"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

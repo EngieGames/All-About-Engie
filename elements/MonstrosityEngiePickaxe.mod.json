@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "monstrocityengiepickaxe",
+    "customModelName": "Normal",
+    "name": "Monstrosity Engie Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 18,
+    "efficiency": 30.0,
+    "attackSpeed": 3.0,
+    "enchantability": 30,
+    "damageVsEntity": 125.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

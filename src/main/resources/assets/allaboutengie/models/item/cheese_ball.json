@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/cheeseball",
   "textures": {
-    "1": "allaboutengie:block/cheesepuffseattext",
-    "particle": "allaboutengie:item/cheeseball"
+    "1": "allaboutengie:blocks/cheesepuffseattext",
+    "particle": "allaboutengie:items/cheeseball"
   }
 }

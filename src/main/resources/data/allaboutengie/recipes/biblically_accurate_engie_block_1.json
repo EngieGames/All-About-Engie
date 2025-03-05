@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "biblicallyaccurateengieitemstoblock",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",
     "23"

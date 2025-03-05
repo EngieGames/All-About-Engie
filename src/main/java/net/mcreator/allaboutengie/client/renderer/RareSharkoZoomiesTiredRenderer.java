@@ -15,6 +15,6 @@ public class RareSharkoZoomiesTiredRenderer extends MobRenderer<RareSharkoZoomie
 
 	@Override
 	public ResourceLocation getTextureLocation(RareSharkoZoomiesTiredEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/raresharkonewtired.png");
+		return new ResourceLocation("allaboutengie:textures/entities/raresharkonewzoomtired.png");
 	}
 }

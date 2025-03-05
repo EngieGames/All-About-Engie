@@ -32,6 +32,6 @@ public class CodeRedeemersHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -3f, new Item.Properties().tab(null));
 	}
 }

@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class EmptyCheesePuffsBinItem extends Item {
 	public EmptyCheesePuffsBinItem() {
-		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(null).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 }

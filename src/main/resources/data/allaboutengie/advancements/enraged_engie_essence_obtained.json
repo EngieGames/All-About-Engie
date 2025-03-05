@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.enraged_engie_essence_obtained.descr"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

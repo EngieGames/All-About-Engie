@@ -6,6 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public class CyberKatanaItem extends SwordItem {
 	public CyberKatanaItem() {
 		super(new Tier() {
@@ -32,6 +34,6 @@ public class CyberKatanaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, 1f, new Item.Properties());
+		}, 3, 1f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

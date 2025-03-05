@@ -5,7 +5,7 @@
     "mobName": "Mythic Sharko (Worn Out)",
     "mobLabel": "",
     "mobModelName": "Modelboyozoomtired",
-    "mobModelTexture": "mythicsharkonewtired.png",
+    "mobModelTexture": "mythicsharkonewzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

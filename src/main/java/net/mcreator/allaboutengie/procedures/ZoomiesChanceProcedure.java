@@ -26,6 +26,8 @@ import net.mcreator.allaboutengie.entity.LegendarySharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareEntity;
@@ -34,6 +36,7 @@ import net.mcreator.allaboutengie.entity.EngieSharkoRare2Entity;
 import net.mcreator.allaboutengie.entity.EngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.CBEEntity;
 import net.mcreator.allaboutengie.entity.BuddyEntity;
+import net.mcreator.allaboutengie.entity.Bothan2netEntity;
 import net.mcreator.allaboutengie.entity.AtlasEntity;
 import net.mcreator.allaboutengie.entity.ApolloEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedEntity;
@@ -46,7 +49,7 @@ import javax.annotation.Nullable;
 public class ZoomiesChanceProcedure {
 	@SubscribeEvent
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
-		execute(event, event.getEntity().level(), event.getEntity());
+		execute(event, event.getEntity().level, event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -59,14 +62,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof SharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -75,14 +78,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof SharkTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -91,14 +94,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof AlbinoSharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:albino_sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:albino_sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -107,14 +110,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof AlbinoSharkoTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:albino_sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:albino_sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -123,14 +126,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof RareSharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:rare_sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -139,14 +142,46 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof RareSharkoTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:rare_sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_tamed_zoomies ~ ~ ~");
+						}
+					}
+				});
+			}
+		}
+		if (entity instanceof EpicSharkoEntity) {
+			if (Math.random() <= 0.000005) {
+				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:epic_sharko_zoomies ~ ~ ~");
+						}
+					}
+				});
+			}
+		}
+		if (entity instanceof EpicSharkoTamedEntity) {
+			if (Math.random() <= 0.000005) {
+				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:epic_sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -155,14 +190,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof LegendarySharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:legendary_sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:legendary_sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -171,14 +206,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof LegendarySharkoTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:legendary_sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:legendary_sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -187,14 +222,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof MythicSharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:mythic_sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:mythic_sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -203,14 +238,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof MythicSharkoTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:mythic_sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:mythic_sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -219,14 +254,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof ExoticSharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:exotic_sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:exotic_sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -235,14 +270,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof ExoticSharkoTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:exotic_sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:exotic_sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -251,14 +286,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof EngieSharkoEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:engie_sharko_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -267,14 +302,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof EngieSharkoTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:engie_sharko_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -283,14 +318,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof EngieSharkoRareEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:engie_sharko_rare_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -299,14 +334,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof EngieSharkoRareTamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:engie_sharko_rare_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -315,14 +350,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof EngieSharkoRare2Entity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -331,14 +366,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof EngieSharkoRare2TamedEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_tamed_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_tamed_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -347,14 +382,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof TobyEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:toby_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:toby_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -363,14 +398,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof MarshalEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:marshal_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:marshal_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -379,14 +414,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof TigerEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:tiger_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:tiger_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -395,14 +430,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof LouisEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:louis_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:louis_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -411,14 +446,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof BuddyEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:buddy_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:buddy_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -427,14 +462,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof ApolloEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:apollo_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:apollo_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -443,14 +478,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof AtlasEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:atlas_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:atlas_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -459,14 +494,14 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof CBEEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:cbe_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:cbe_zoomies ~ ~ ~");
 						}
 					}
 				});
@@ -475,14 +510,30 @@ public class ZoomiesChanceProcedure {
 		if (entity instanceof PBEEntity) {
 			if (Math.random() <= 0.000005) {
 				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
-				if (!entity.level().isClientSide())
+				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
 					{
 						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon allaboutengie:pbe_zoomies ~ ~ ~");
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:pbe_zoomies ~ ~ ~");
+						}
+					}
+				});
+			}
+		}
+		if (entity instanceof Bothan2netEntity) {
+			if (Math.random() <= 0.000005) {
+				AllaboutengieMod.LOGGER.debug("Rolled zoomies chance, spawned zoomies state.");
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:bothan_2net_zoomies ~ ~ ~");
 						}
 					}
 				});

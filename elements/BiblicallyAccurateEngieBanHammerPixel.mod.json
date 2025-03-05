@@ -9,16 +9,16 @@
     "name": "Pixelized Biblically Accurate Ban Hammer",
     "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:PixelItems"
     },
     "harvestLevel": 10,
     "efficiency": 10.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.25,
     "enchantability": 128000,
-    "damageVsEntity": 2400.0,
-    "usageCount": 24000,
+    "damageVsEntity": 1848.0,
+    "usageCount": 18480,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

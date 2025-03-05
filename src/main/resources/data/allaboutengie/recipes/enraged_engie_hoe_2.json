@@ -1,7 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "enragedengiehoe",
-  "category": "misc",
   "pattern": [
     "01",
     "2 ",

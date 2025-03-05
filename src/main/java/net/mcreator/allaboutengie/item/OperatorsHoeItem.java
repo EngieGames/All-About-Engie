@@ -32,6 +32,6 @@ public class OperatorsHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 0, -3f, new Item.Properties().fireResistant());
+		}, 0, -3f, new Item.Properties().tab(null).fireResistant());
 	}
 }

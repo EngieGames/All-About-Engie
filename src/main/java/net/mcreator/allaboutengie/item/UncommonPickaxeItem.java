@@ -6,6 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public class UncommonPickaxeItem extends PickaxeItem {
 	public UncommonPickaxeItem() {
 		super(new Tier() {
@@ -32,6 +34,6 @@ public class UncommonPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -2.8f, new Item.Properties());
+		}, 1, -2.8f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

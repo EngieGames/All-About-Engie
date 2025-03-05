@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "allaboutengie:item/raresword"
+    "layer0": "allaboutengie:items/raresword"
   }
 }

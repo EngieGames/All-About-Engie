@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "raresharkocloth",
-  "category": "misc",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "allaboutengie:albino_sharko_cloth"

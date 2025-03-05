@@ -54,19 +54,18 @@ public class AllaboutengieMod {
 
 	public AllaboutengieMod() {
 		MinecraftForge.EVENT_BUS.register(this);
+		AllaboutengieModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AllaboutengieModBlocks.REGISTRY.register(bus);
-		AllaboutengieModBlockEntities.REGISTRY.register(bus);
 		AllaboutengieModItems.REGISTRY.register(bus);
 		AllaboutengieModEntities.REGISTRY.register(bus);
-
-		AllaboutengieModTabs.REGISTRY.register(bus);
+		AllaboutengieModBlockEntities.REGISTRY.register(bus);
 		AllaboutengieModFeatures.REGISTRY.register(bus);
-
 		AllaboutengieModPaintings.REGISTRY.register(bus);
 
 		AllaboutengieModMenus.REGISTRY.register(bus);
+
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

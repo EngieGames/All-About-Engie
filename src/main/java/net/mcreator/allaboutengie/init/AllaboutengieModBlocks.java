@@ -21,6 +21,7 @@ import net.mcreator.allaboutengie.block.TextboxyeahBlock;
 import net.mcreator.allaboutengie.block.OutragedEngieBlockBlock;
 import net.mcreator.allaboutengie.block.OldEngieOreBlock;
 import net.mcreator.allaboutengie.block.OldDeepslateEngieOreBlock;
+import net.mcreator.allaboutengie.block.MonstrosityEngieBlockBlock;
 import net.mcreator.allaboutengie.block.MetalTableBlock;
 import net.mcreator.allaboutengie.block.MetalChestWarpedBlock;
 import net.mcreator.allaboutengie.block.MetalChestSpruceBlock;
@@ -53,6 +54,7 @@ public class AllaboutengieModBlocks {
 	public static final RegistryObject<Block> ENRAGED_ENGIE_BLOCK = REGISTRY.register("enraged_engie_block", () -> new EnragedEngieBlockBlock());
 	public static final RegistryObject<Block> OUTRAGED_ENGIE_BLOCK = REGISTRY.register("outraged_engie_block", () -> new OutragedEngieBlockBlock());
 	public static final RegistryObject<Block> BIBLICALLY_ACCURATE_BLOCK = REGISTRY.register("biblically_accurate_block", () -> new BiblicallyAccurateBlockBlock());
+	public static final RegistryObject<Block> MONSTROSITY_ENGIE_BLOCK = REGISTRY.register("monstrosity_engie_block", () -> new MonstrosityEngieBlockBlock());
 	public static final RegistryObject<Block> CYBER_BLOCK = REGISTRY.register("cyber_block", () -> new CyberBlockBlock());
 	public static final RegistryObject<Block> BLOOD_BLOCK = REGISTRY.register("blood_block", () -> new BloodBlockBlock());
 	public static final RegistryObject<Block> CYBERBLOOD_BLOCK = REGISTRY.register("cyberblood_block", () -> new CyberbloodBlockBlock());

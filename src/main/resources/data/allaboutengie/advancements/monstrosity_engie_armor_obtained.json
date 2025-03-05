@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:monstrosity_engies_chestplate"
+    },
+    "title": {
+      "translate": "advancements.monstrosity_engie_armor_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.monstrosity_engie_armor_obtained.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monstrosity_engie_armor_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "allaboutengie:monstrosity_engie_essence_obtained"
+}

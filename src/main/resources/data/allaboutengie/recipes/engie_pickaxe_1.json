@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "engiepickaxe",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
     " 4 ",

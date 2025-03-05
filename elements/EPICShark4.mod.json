@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "epicsharko",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EpicSharkoCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EpicSharkoCloth"
+      },
+      {
+        "value": "CUSTOM:EpicSharkoCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EpicSharkoCloth"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EpicShark.boots"
+    },
+    "name": "epic_shark_4",
+    "namespace": "mod"
+  }
+}

@@ -14,7 +14,7 @@
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 64,
+    "useDuration": 30,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {

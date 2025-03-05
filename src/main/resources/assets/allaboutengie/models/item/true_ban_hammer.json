@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/ban_hammer_ban",
   "textures": {
-    "0": "allaboutengie:block/trueban",
-    "particle": "allaboutengie:item/truebanpixel"
+    "0": "allaboutengie:blocks/trueban",
+    "particle": "allaboutengie:items/truebanpixel"
   }
 }

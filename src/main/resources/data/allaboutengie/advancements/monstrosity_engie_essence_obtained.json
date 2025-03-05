@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "title": {
+      "translate": "advancements.monstrosity_engie_essence_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.monstrosity_engie_essence_obtained.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monstrosity_engie_essence_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 60,
+    "recipes": [
+      "allaboutengie:outraged_engie_axe_1",
+      "allaboutengie:outraged_engie_axe_2",
+      "allaboutengie:outraged_engie_pickaxe_1",
+      "allaboutengie:outraged_engie_shovel_1",
+      "allaboutengie:outraged_engie_hoe_1",
+      "allaboutengie:outraged_engie_hoe_2",
+      "allaboutengie:outraged_engie_helmet_1",
+      "allaboutengie:outraged_engie_chestplate_1",
+      "allaboutengie:outraged_engie_leggings_1",
+      "allaboutengie:outraged_engie_boots_1",
+      "allaboutengie:enormous_ban_craft",
+      "allaboutengie:gigantic_ban_craft",
+      "allaboutengie:massive_ban_craft"
+    ]
+  },
+  "parent": "allaboutengie:biblically_accurate_essence_obtained"
+}

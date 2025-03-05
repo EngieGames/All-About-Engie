@@ -6,6 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public class UncommonShovelItem extends ShovelItem {
 	public UncommonShovelItem() {
 		super(new Tier() {
@@ -32,6 +34,6 @@ public class UncommonShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

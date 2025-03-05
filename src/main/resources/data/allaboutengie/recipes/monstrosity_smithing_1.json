@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:biblically_accurate_engie_axe"
+  },
+  "addition": {
+    "item": "allaboutengie:monstrosity_engie_block"
+  },
+  "result": {
+    "item": "allaboutengie:monstrosity_engie_axe"
+  }
+}

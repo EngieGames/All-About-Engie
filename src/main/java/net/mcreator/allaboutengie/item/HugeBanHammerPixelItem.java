@@ -10,12 +10,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.HugeBanObtainProProcedure;
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class HugeBanHammerPixelItem extends SwordItem {
 	public HugeBanHammerPixelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1500;
+				return 7920;
 			}
 
 			public float getSpeed() {
@@ -23,7 +24,7 @@ public class HugeBanHammerPixelItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 748f;
+				return 790f;
 			}
 
 			public int getLevel() {
@@ -37,7 +38,7 @@ public class HugeBanHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -1.75f, new Item.Properties().tab(AllaboutengieModTabs.TAB_PIXEL_ITEMS));
 	}
 
 	@Override

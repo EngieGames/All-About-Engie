@@ -6,6 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public class RareHoeItem extends HoeItem {
 	public RareHoeItem() {
 		super(new Tier() {
@@ -32,6 +34,6 @@ public class RareHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 0, -1f, new Item.Properties());
+		}, 0, -1f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

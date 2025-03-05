@@ -1,0 +1,30 @@
+{
+  "group": "biblicallyaccurateengiepickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "1": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:biblically_accurate_engie_pickaxe",
+    "count": 1
+  }
+}

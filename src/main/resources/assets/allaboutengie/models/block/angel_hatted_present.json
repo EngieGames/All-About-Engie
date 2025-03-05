@@ -1,13 +1,13 @@
 {
   "parent": "allaboutengie:custom/angelhattedpresent",
   "textures": {
-    "all": "allaboutengie:block/presenttext",
-    "particle": "allaboutengie:block/presenttext",
-    "0": "allaboutengie:block/presenttext",
-    "1": "allaboutengie:block/angelhatpresenttext",
-    "2": "allaboutengie:block/boxengiesface",
-    "3": "allaboutengie:block/boxedengie",
-    "missing": "allaboutengie:block/"
+    "all": "allaboutengie:blocks/presenttext",
+    "particle": "allaboutengie:blocks/presenttext",
+    "0": "allaboutengie:blocks/presenttext",
+    "1": "allaboutengie:blocks/angelhatpresenttext",
+    "2": "allaboutengie:blocks/boxengiesface",
+    "3": "allaboutengie:blocks/boxedengie",
+    "missing": "allaboutengie:blocks/"
   },
   "render_type": "translucent"
 }

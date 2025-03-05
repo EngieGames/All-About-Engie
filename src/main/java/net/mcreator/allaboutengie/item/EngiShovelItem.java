@@ -10,6 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 import java.util.List;
 
 public class EngiShovelItem extends ShovelItem {
@@ -38,7 +40,7 @@ public class EngiShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 
 	@Override

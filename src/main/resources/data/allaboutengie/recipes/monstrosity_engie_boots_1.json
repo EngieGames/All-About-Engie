@@ -1,0 +1,26 @@
+{
+  "group": "monstrosityengieboots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:monstrosity_engies_boots",
+    "count": 1
+  }
+}

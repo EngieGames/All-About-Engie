@@ -15,6 +15,6 @@ public class AtlasZoomiesTiredRenderer extends MobRenderer<AtlasZoomiesTiredEnti
 
 	@Override
 	public ResourceLocation getTextureLocation(AtlasZoomiesTiredEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/atlastired.png");
+		return new ResourceLocation("allaboutengie:textures/entities/atlaszoomtired.png");
 	}
 }

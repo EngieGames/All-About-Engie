@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "exoticsharko",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
     "345",

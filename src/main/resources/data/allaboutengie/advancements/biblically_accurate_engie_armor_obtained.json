@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:biblically_accurate_engies_chestplate"
+    },
+    "title": {
+      "translate": "advancements.biblically_accurate_engie_armor_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.biblically_accurate_engie_armor_obtained.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "biblically_accurate_engie_armor_obtained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 45
+  },
+  "parent": "allaboutengie:biblically_accurate_essence_obtained"
+}

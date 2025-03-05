@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "banhammerpixel",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MonstrosityEngieBlock"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieBlock"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieBlock"
+      },
+      {
+        "value": "CUSTOM:ImmenseBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MammothBanHammerPixel"
+    },
+    "name": "monstrosity_ban_pixel_craft_3",
+    "namespace": "mod"
+  }
+}

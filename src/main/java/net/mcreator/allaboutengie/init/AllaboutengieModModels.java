@@ -16,6 +16,7 @@ import net.mcreator.allaboutengie.client.model.Modeltobysit;
 import net.mcreator.allaboutengie.client.model.Modeltoby;
 import net.mcreator.allaboutengie.client.model.Modeloutraged_new;
 import net.mcreator.allaboutengie.client.model.Modeloldboyo;
+import net.mcreator.allaboutengie.client.model.Modelmonstrosity;
 import net.mcreator.allaboutengie.client.model.Modelenragedzombie;
 import net.mcreator.allaboutengie.client.model.Modelenraged_new;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyozoom;
@@ -45,6 +46,7 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modelboyosit.LAYER_LOCATION, Modelboyosit::createBodyLayer);
 		event.registerLayerDefinition(Modelengiedaboyozoom.LAYER_LOCATION, Modelengiedaboyozoom::createBodyLayer);
 		event.registerLayerDefinition(ModelMadEngie.LAYER_LOCATION, ModelMadEngie::createBodyLayer);
+		event.registerLayerDefinition(Modelmonstrosity.LAYER_LOCATION, Modelmonstrosity::createBodyLayer);
 		event.registerLayerDefinition(Modelenragedzombie.LAYER_LOCATION, Modelenragedzombie::createBodyLayer);
 		event.registerLayerDefinition(Modeltobyzoomtired.LAYER_LOCATION, Modeltobyzoomtired::createBodyLayer);
 		event.registerLayerDefinition(Modeloldboyo.LAYER_LOCATION, Modeloldboyo::createBodyLayer);

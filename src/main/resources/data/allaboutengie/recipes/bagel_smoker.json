@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 10,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "allaboutengie:bagel"
+  },
+  "result": "allaboutengie:bagel_cooked"
+}

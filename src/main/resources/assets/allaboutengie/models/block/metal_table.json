@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allaboutengie:block/oldengitablebottom",
-    "up": "allaboutengie:block/oldengitabletop",
-    "north": "allaboutengie:block/oldengitableside",
-    "east": "allaboutengie:block/oldengitableside",
-    "south": "allaboutengie:block/oldengitableside",
-    "west": "allaboutengie:block/oldengitableside",
-    "particle": "allaboutengie:block/oldengitablebottom"
+    "down": "allaboutengie:blocks/oldengitablebottom",
+    "up": "allaboutengie:blocks/oldengitabletop",
+    "north": "allaboutengie:blocks/oldengitableside",
+    "east": "allaboutengie:blocks/oldengitableside",
+    "south": "allaboutengie:blocks/oldengitableside",
+    "west": "allaboutengie:blocks/oldengitableside",
+    "particle": "allaboutengie:blocks/oldengitablebottom"
   },
   "render_type": "solid"
 }

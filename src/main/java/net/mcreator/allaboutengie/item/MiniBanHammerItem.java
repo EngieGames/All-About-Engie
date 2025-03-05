@@ -10,12 +10,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.MiniBanObtainProProcedure;
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class MiniBanHammerItem extends SwordItem {
 	public MiniBanHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1500;
+				return 720;
 			}
 
 			public float getSpeed() {
@@ -23,7 +24,7 @@ public class MiniBanHammerItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 148f;
+				return 70f;
 			}
 
 			public int getLevel() {
@@ -37,7 +38,7 @@ public class MiniBanHammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -1.75f, new Item.Properties());
+		}, 3, -0.75f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
 	}
 
 	@Override

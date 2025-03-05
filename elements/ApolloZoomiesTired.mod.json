@@ -5,7 +5,7 @@
     "mobName": "Apollo (Worn Out)",
     "mobLabel": "Apollo",
     "mobModelName": "Modeltobyzoomtired",
-    "mobModelTexture": "apollotired.png",
+    "mobModelTexture": "apollozoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

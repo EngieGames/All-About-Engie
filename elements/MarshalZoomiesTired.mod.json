@@ -5,7 +5,7 @@
     "mobName": "Marshal (Worn Out)",
     "mobLabel": "Marshal",
     "mobModelName": "Modeltobyzoomtired",
-    "mobModelTexture": "marshaltired.png",
+    "mobModelTexture": "marshalzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

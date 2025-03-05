@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "MAKE IT STOP LOOKING AT ME PLEASE!?!?!",
+    "achievementName": "I fear no man, but that thing... It scares me.",
     "achievementDescription": "Obtain an Enraged Engie Essence for the first time.",
     "achievementIcon": {
       "value": "CUSTOM:EnragedEngieEssence"
@@ -33,7 +33,7 @@
     ],
     "rewardFunction": "No function",
     "rewardXP": 30,
-    "achievementType": "goal",
+    "achievementType": "task",
     "parent": {
       "value": "CUSTOM:AngryEngieEssenceObtained"
     },

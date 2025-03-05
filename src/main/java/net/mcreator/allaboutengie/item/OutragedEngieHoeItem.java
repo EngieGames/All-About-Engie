@@ -10,6 +10,7 @@ import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.OutragedEngieToolObtainProcedure;
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 
 public class OutragedEngieHoeItem extends HoeItem {
@@ -38,7 +39,7 @@ public class OutragedEngieHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModItems.OUTRAGED_ENGIE_ESSENCE.get()));
 			}
-		}, 0, -1.8f, new Item.Properties());
+		}, 0, -1.8f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 
 	@Override

@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 
 public class BiblicallyAccurateEngieAxeItem extends AxeItem {
@@ -38,7 +39,7 @@ public class BiblicallyAccurateEngieAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModBlocks.BIBLICALLY_ACCURATE_BLOCK.get()));
 			}
-		}, 1, -1.4f, new Item.Properties());
+		}, 1, -1.4f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 
 	@Override

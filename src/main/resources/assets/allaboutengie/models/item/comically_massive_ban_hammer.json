@@ -1,8 +1,0 @@
-{
-  "parent": "allaboutengie:custom/comicallymassivebanhammer",
-  "textures": {
-    "0": "allaboutengie:block/regular",
-    "1": "allaboutengie:block/signatures",
-    "particle": "allaboutengie:item/banhammerpixel"
-  }
-}

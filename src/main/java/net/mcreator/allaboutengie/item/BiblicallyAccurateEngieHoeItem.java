@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 
 public class BiblicallyAccurateEngieHoeItem extends HoeItem {
@@ -38,7 +39,7 @@ public class BiblicallyAccurateEngieHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModBlocks.BIBLICALLY_ACCURATE_BLOCK.get()));
 			}
-		}, 0, -1.4f, new Item.Properties());
+		}, 0, -1.4f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 
 	@Override

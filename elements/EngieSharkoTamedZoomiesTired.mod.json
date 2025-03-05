@@ -5,7 +5,7 @@
     "mobName": "[Tamed] Engie Sharko (Worn Out)",
     "mobLabel": "",
     "mobModelName": "Modelboyozoomtired",
-    "mobModelTexture": "engiesharkonewtamedtired.png",
+    "mobModelTexture": "engiesharkonewtamedzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

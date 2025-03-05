@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 10.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:BagelCheese"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:BagelCheeseCooked"
+    },
+    "name": "bagel_cheese_smoker",
+    "namespace": "mod"
+  }
+}

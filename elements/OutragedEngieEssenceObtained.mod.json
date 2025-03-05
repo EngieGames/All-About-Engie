@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Dude... I don't want to try that again.",
+    "achievementName": "No, I... I aint talking about that freak, alright?",
     "achievementDescription": "Obtain an Outraged Engie Essence for the first time.",
     "achievementIcon": {
       "value": "CUSTOM:OutragedEngieEssence"
@@ -30,7 +30,7 @@
     ],
     "rewardFunction": "No function",
     "rewardXP": 40,
-    "achievementType": "challenge",
+    "achievementType": "task",
     "parent": {
       "value": "CUSTOM:EnragedEngieEssenceObtained"
     },

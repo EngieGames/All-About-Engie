@@ -15,6 +15,6 @@ public class MarshalZoomiesTiredRenderer extends MobRenderer<MarshalZoomiesTired
 
 	@Override
 	public ResourceLocation getTextureLocation(MarshalZoomiesTiredEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/marshaltired.png");
+		return new ResourceLocation("allaboutengie:textures/entities/marshalzoomtired.png");
 	}
 }

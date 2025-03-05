@@ -6,6 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public class LegendaryAxeItem extends AxeItem {
 	public LegendaryAxeItem() {
 		super(new Tier() {
@@ -32,6 +34,6 @@ public class LegendaryAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

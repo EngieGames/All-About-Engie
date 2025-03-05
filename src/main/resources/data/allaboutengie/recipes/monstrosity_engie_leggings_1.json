@@ -1,0 +1,36 @@
+{
+  "group": "monstrosityengieleggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "1": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "6": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "8": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:monstrosity_engies_leggings",
+    "count": 1
+  }
+}

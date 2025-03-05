@@ -1,0 +1,26 @@
+{
+  "group": "biblicallyaccurateengieboots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "2": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:biblically_accurate_engies_boots",
+    "count": 1
+  }
+}

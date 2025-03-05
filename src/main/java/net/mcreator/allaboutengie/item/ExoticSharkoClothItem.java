@@ -8,11 +8,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 import java.util.List;
 
 public class ExoticSharkoClothItem extends Item {
 	public ExoticSharkoClothItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS).stacksTo(64).rarity(Rarity.RARE));
 	}
 
 	@Override

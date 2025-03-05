@@ -97,7 +97,7 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "AtlasRC"
+      "name": "CBERC"
     },
     "onMobTickUpdate": {
       "name": "SharkTamedOnEntityTickUpdate"

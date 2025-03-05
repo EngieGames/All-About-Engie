@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "raresharko",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
     "3 5"

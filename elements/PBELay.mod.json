@@ -97,7 +97,7 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "AtlasLayRC"
+      "name": "PBELayRC"
     },
     "hasAI": true,
     "aiBase": "(none)",

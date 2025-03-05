@@ -1,6 +1,5 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": [],
+  "type": "minecraft:smithing",
   "base": {
     "item": "allaboutengie:engies_helmet"
   },

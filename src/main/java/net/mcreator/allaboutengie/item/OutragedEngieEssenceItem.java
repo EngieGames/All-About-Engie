@@ -8,10 +8,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.OutragedEngieEssenceObtainProcedure;
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class OutragedEngieEssenceItem extends Item {
 	public OutragedEngieEssenceItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS).stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override

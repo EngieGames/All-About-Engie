@@ -60,6 +60,7 @@ import net.mcreator.allaboutengie.entity.MythicSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoEntity;
 import net.mcreator.allaboutengie.entity.MythicEngieEntity;
+import net.mcreator.allaboutengie.entity.MonstrosityEngieEntity;
 import net.mcreator.allaboutengie.entity.MarshalZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.MarshalZoomiesEntity;
 import net.mcreator.allaboutengie.entity.MarshalSleepEntity;
@@ -89,6 +90,14 @@ import net.mcreator.allaboutengie.entity.ExoticSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoEntity;
 import net.mcreator.allaboutengie.entity.ExoticEngieEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoZoomiesTiredEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoZoomiesEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoTamedZoomiesTiredEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoTamedZoomiesEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoEntity;
 import net.mcreator.allaboutengie.entity.EpicEngieEntity;
 import net.mcreator.allaboutengie.entity.EnragedTNTEntity;
 import net.mcreator.allaboutengie.entity.EnragedTNT9Entity;
@@ -157,6 +166,11 @@ import net.mcreator.allaboutengie.entity.BuddyZoomiesEntity;
 import net.mcreator.allaboutengie.entity.BuddySleepEntity;
 import net.mcreator.allaboutengie.entity.BuddyLayEntity;
 import net.mcreator.allaboutengie.entity.BuddyEntity;
+import net.mcreator.allaboutengie.entity.Bothan2netZoomiesTiredEntity;
+import net.mcreator.allaboutengie.entity.Bothan2netZoomiesEntity;
+import net.mcreator.allaboutengie.entity.Bothan2netSleepEntity;
+import net.mcreator.allaboutengie.entity.Bothan2netLayEntity;
+import net.mcreator.allaboutengie.entity.Bothan2netEntity;
 import net.mcreator.allaboutengie.entity.BiblicallyAccurateEngieEntity;
 import net.mcreator.allaboutengie.entity.AtlasZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.AtlasZoomiesEntity;
@@ -187,22 +201,6 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<EngiEntity>of(EngiEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngiEntity::new)
 
 					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<MadEngieEntity>> MAD_ENGIE = register("mad_engie",
-			EntityType.Builder.<MadEngieEntity>of(MadEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MadEngieEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<AngryEngieEntity>> ANGRY_ENGIE = register("angry_engie",
-			EntityType.Builder.<AngryEngieEntity>of(AngryEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<EnragedEngieEntity>> ENRAGED_ENGIE = register("enraged_engie",
-			EntityType.Builder.<EnragedEngieEntity>of(EnragedEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<AngryCreatorEntity>> OUTRAGED_ENGIE = register("outraged_engie",
-			EntityType.Builder.<AngryCreatorEntity>of(AngryCreatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryCreatorEntity::new)
-
-					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EngiFREntity>> ENGI_FR = register("engi_fr",
 			EntityType.Builder.<EngiFREntity>of(EngiFREntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngiFREntity::new)
 
@@ -211,26 +209,37 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CreatorEntity>of(CreatorEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CreatorEntity::new)
 
 					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
-			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
-
-					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<ProtogenEntity>> PROTOGEN = register("protogen",
 			EntityType.Builder.<ProtogenEntity>of(ProtogenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ProtogenEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
+			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
 
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<QuizzetEntity>> QUIZZET = register("quizzet",
 			EntityType.Builder.<QuizzetEntity>of(QuizzetEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(QuizzetEntity::new)
 
 					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<BiblicallyAccurateEngieEntity>> BIBLICALLY_ACCURATE_ENGIE = register("biblically_accurate_engie",
+			EntityType.Builder.<BiblicallyAccurateEngieEntity>of(BiblicallyAccurateEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(1024).setUpdateInterval(3)
+					.setCustomClientFactory(BiblicallyAccurateEngieEntity::new).fireImmune().sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<CommonEngieEntity>> COMMON_ENGIE = register("common_engie",
 			EntityType.Builder.<CommonEngieEntity>of(CommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CommonEngieEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MadEngieEntity>> MAD_ENGIE = register("mad_engie",
+			EntityType.Builder.<MadEngieEntity>of(MadEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MadEngieEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<UncommonEngieEntity>> UNCOMMON_ENGIE = register("uncommon_engie",
 			EntityType.Builder.<UncommonEngieEntity>of(UncommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UncommonEngieEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<AngryEngieEntity>> ANGRY_ENGIE = register("angry_engie",
+			EntityType.Builder.<AngryEngieEntity>of(AngryEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<RareEngieEntity>> RARE_ENGIE = register("rare_engie",
 			EntityType.Builder.<RareEngieEntity>of(RareEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RareEngieEntity::new)
 
@@ -251,9 +260,16 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<ExoticEngieEntity>of(ExoticEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ExoticEngieEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<BiblicallyAccurateEngieEntity>> BIBLICALLY_ACCURATE_ENGIE = register("biblically_accurate_engie",
-			EntityType.Builder.<BiblicallyAccurateEngieEntity>of(BiblicallyAccurateEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(1024).setUpdateInterval(3)
-					.setCustomClientFactory(BiblicallyAccurateEngieEntity::new).fireImmune().sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EnragedEngieEntity>> ENRAGED_ENGIE = register("enraged_engie",
+			EntityType.Builder.<EnragedEngieEntity>of(EnragedEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<AngryCreatorEntity>> OUTRAGED_ENGIE = register("outraged_engie",
+			EntityType.Builder.<AngryCreatorEntity>of(AngryCreatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryCreatorEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<MonstrosityEngieEntity>> MONSTROSITY_ENGIE = register("monstrosity_engie", EntityType.Builder.<MonstrosityEngieEntity>of(MonstrosityEngieEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MonstrosityEngieEntity::new).fireImmune().sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<SharkoEntity>> SHARKO = register("sharko",
 			EntityType.Builder.<SharkoEntity>of(SharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoEntity::new)
 
@@ -264,6 +280,10 @@ public class AllaboutengieModEntities {
 					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<RareSharkoEntity>> RARE_SHARKO = register("rare_sharko",
 			EntityType.Builder.<RareSharkoEntity>of(RareSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RareSharkoEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EpicSharkoEntity>> EPIC_SHARKO = register("epic_sharko",
+			EntityType.Builder.<EpicSharkoEntity>of(EpicSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicSharkoEntity::new)
 
 					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<LegendarySharkoEntity>> LEGENDARY_SHARKO = register("legendary_sharko",
@@ -673,6 +693,49 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<PBEZoomiesTiredEntity>of(PBEZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PBEZoomiesTiredEntity::new)
 
 					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<Bothan2netEntity>> BOTHAN_2NET = register("bothan_2net",
+			EntityType.Builder.<Bothan2netEntity>of(Bothan2netEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Bothan2netEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<Bothan2netLayEntity>> BOTHAN_2NET_LAY = register("bothan_2net_lay",
+			EntityType.Builder.<Bothan2netLayEntity>of(Bothan2netLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Bothan2netLayEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<Bothan2netZoomiesEntity>> BOTHAN_2NET_ZOOMIES = register("bothan_2net_zoomies",
+			EntityType.Builder.<Bothan2netZoomiesEntity>of(Bothan2netZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Bothan2netZoomiesEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<Bothan2netZoomiesTiredEntity>> BOTHAN_2NET_ZOOMIES_TIRED = register("bothan_2net_zoomies_tired",
+			EntityType.Builder.<Bothan2netZoomiesTiredEntity>of(Bothan2netZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(Bothan2netZoomiesTiredEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<Bothan2netSleepEntity>> BOTHAN_2NET_SLEEP = register("bothan_2net_sleep",
+			EntityType.Builder.<Bothan2netSleepEntity>of(Bothan2netSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Bothan2netSleepEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EpicSharkoLayEntity>> EPIC_SHARKO_LAY = register("epic_sharko_lay",
+			EntityType.Builder.<EpicSharkoLayEntity>of(EpicSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicSharkoLayEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EpicSharkoZoomiesEntity>> EPIC_SHARKO_ZOOMIES = register("epic_sharko_zoomies",
+			EntityType.Builder.<EpicSharkoZoomiesEntity>of(EpicSharkoZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicSharkoZoomiesEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EpicSharkoZoomiesTiredEntity>> EPIC_SHARKO_ZOOMIES_TIRED = register("epic_sharko_zoomies_tired",
+			EntityType.Builder.<EpicSharkoZoomiesTiredEntity>of(EpicSharkoZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EpicSharkoZoomiesTiredEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EpicSharkoTamedZoomiesTiredEntity>> EPIC_SHARKO_TAMED_ZOOMIES_TIRED = register("epic_sharko_tamed_zoomies_tired",
+			EntityType.Builder.<EpicSharkoTamedZoomiesTiredEntity>of(EpicSharkoTamedZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EpicSharkoTamedZoomiesTiredEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EpicSharkoSleepEntity>> EPIC_SHARKO_SLEEP = register("epic_sharko_sleep",
+			EntityType.Builder.<EpicSharkoSleepEntity>of(EpicSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicSharkoSleepEntity::new)
+
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<EnragedNormalEntity>> ENRAGED_NORMAL = register("enraged_normal",
 			EntityType.Builder.<EnragedNormalEntity>of(EnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedNormalEntity::new)
 
@@ -864,6 +927,15 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRare2TamedZoomiesEntity::new)
 
 					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EpicSharkoTamedEntity>> EPIC_SHARKO_TAMED = register("epic_sharko_tamed",
+			EntityType.Builder.<EpicSharkoTamedEntity>of(EpicSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicSharkoTamedEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EpicSharkoTamedZoomiesEntity>> EPIC_SHARKO_TAMED_ZOOMIES = register("epic_sharko_tamed_zoomies",
+			EntityType.Builder.<EpicSharkoTamedZoomiesEntity>of(EpicSharkoTamedZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EpicSharkoTamedZoomiesEntity::new)
+
+					.sized(0.7f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -873,26 +945,28 @@ public class AllaboutengieModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			EngiEntity.init();
-			MadEngieEntity.init();
-			AngryEngieEntity.init();
-			EnragedEngieEntity.init();
-			AngryCreatorEntity.init();
 			EngiFREntity.init();
 			CreatorEntity.init();
-			EngieGamesEntity.init();
 			ProtogenEntity.init();
+			EngieGamesEntity.init();
 			QuizzetEntity.init();
+			BiblicallyAccurateEngieEntity.init();
 			CommonEngieEntity.init();
+			MadEngieEntity.init();
 			UncommonEngieEntity.init();
+			AngryEngieEntity.init();
 			RareEngieEntity.init();
 			EpicEngieEntity.init();
 			LegendaryEngieEntity.init();
 			MythicEngieEntity.init();
 			ExoticEngieEntity.init();
-			BiblicallyAccurateEngieEntity.init();
+			EnragedEngieEntity.init();
+			AngryCreatorEntity.init();
+			MonstrosityEngieEntity.init();
 			SharkoEntity.init();
 			AlbinoSharkoEntity.init();
 			RareSharkoEntity.init();
+			EpicSharkoEntity.init();
 			LegendarySharkoEntity.init();
 			MythicSharkoEntity.init();
 			ExoticSharkoEntity.init();
@@ -989,6 +1063,16 @@ public class AllaboutengieModEntities {
 			PBEZoomiesEntity.init();
 			PBESleepEntity.init();
 			PBEZoomiesTiredEntity.init();
+			Bothan2netEntity.init();
+			Bothan2netLayEntity.init();
+			Bothan2netZoomiesEntity.init();
+			Bothan2netZoomiesTiredEntity.init();
+			Bothan2netSleepEntity.init();
+			EpicSharkoLayEntity.init();
+			EpicSharkoZoomiesEntity.init();
+			EpicSharkoZoomiesTiredEntity.init();
+			EpicSharkoTamedZoomiesTiredEntity.init();
+			EpicSharkoSleepEntity.init();
 			EnragedNormalEntity.init();
 			EnragedNormal2Entity.init();
 			EnragedNormal3Entity.init();
@@ -1034,32 +1118,36 @@ public class AllaboutengieModEntities {
 			EngieSharkoTamedZoomiesEntity.init();
 			EngieSharkoRareTamedZoomiesEntity.init();
 			EngieSharkoRare2TamedZoomiesEntity.init();
+			EpicSharkoTamedEntity.init();
+			EpicSharkoTamedZoomiesEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ENGIE.get(), EngiEntity.createAttributes().build());
-		event.put(MAD_ENGIE.get(), MadEngieEntity.createAttributes().build());
-		event.put(ANGRY_ENGIE.get(), AngryEngieEntity.createAttributes().build());
-		event.put(ENRAGED_ENGIE.get(), EnragedEngieEntity.createAttributes().build());
-		event.put(OUTRAGED_ENGIE.get(), AngryCreatorEntity.createAttributes().build());
 		event.put(ENGI_FR.get(), EngiFREntity.createAttributes().build());
 		event.put(CREATOR.get(), CreatorEntity.createAttributes().build());
-		event.put(ENGIE_GAMES.get(), EngieGamesEntity.createAttributes().build());
 		event.put(PROTOGEN.get(), ProtogenEntity.createAttributes().build());
+		event.put(ENGIE_GAMES.get(), EngieGamesEntity.createAttributes().build());
 		event.put(QUIZZET.get(), QuizzetEntity.createAttributes().build());
+		event.put(BIBLICALLY_ACCURATE_ENGIE.get(), BiblicallyAccurateEngieEntity.createAttributes().build());
 		event.put(COMMON_ENGIE.get(), CommonEngieEntity.createAttributes().build());
+		event.put(MAD_ENGIE.get(), MadEngieEntity.createAttributes().build());
 		event.put(UNCOMMON_ENGIE.get(), UncommonEngieEntity.createAttributes().build());
+		event.put(ANGRY_ENGIE.get(), AngryEngieEntity.createAttributes().build());
 		event.put(RARE_ENGIE.get(), RareEngieEntity.createAttributes().build());
 		event.put(EPIC_ENGIE.get(), EpicEngieEntity.createAttributes().build());
 		event.put(LEGENDARY_ENGIE.get(), LegendaryEngieEntity.createAttributes().build());
 		event.put(MYTHIC_ENGIE.get(), MythicEngieEntity.createAttributes().build());
 		event.put(EXOTIC_ENGIE.get(), ExoticEngieEntity.createAttributes().build());
-		event.put(BIBLICALLY_ACCURATE_ENGIE.get(), BiblicallyAccurateEngieEntity.createAttributes().build());
+		event.put(ENRAGED_ENGIE.get(), EnragedEngieEntity.createAttributes().build());
+		event.put(OUTRAGED_ENGIE.get(), AngryCreatorEntity.createAttributes().build());
+		event.put(MONSTROSITY_ENGIE.get(), MonstrosityEngieEntity.createAttributes().build());
 		event.put(SHARKO.get(), SharkoEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO.get(), AlbinoSharkoEntity.createAttributes().build());
 		event.put(RARE_SHARKO.get(), RareSharkoEntity.createAttributes().build());
+		event.put(EPIC_SHARKO.get(), EpicSharkoEntity.createAttributes().build());
 		event.put(LEGENDARY_SHARKO.get(), LegendarySharkoEntity.createAttributes().build());
 		event.put(MYTHIC_SHARKO.get(), MythicSharkoEntity.createAttributes().build());
 		event.put(EXOTIC_SHARKO.get(), ExoticSharkoEntity.createAttributes().build());
@@ -1156,6 +1244,16 @@ public class AllaboutengieModEntities {
 		event.put(PBE_ZOOMIES.get(), PBEZoomiesEntity.createAttributes().build());
 		event.put(PBE_SLEEP.get(), PBESleepEntity.createAttributes().build());
 		event.put(PBE_ZOOMIES_TIRED.get(), PBEZoomiesTiredEntity.createAttributes().build());
+		event.put(BOTHAN_2NET.get(), Bothan2netEntity.createAttributes().build());
+		event.put(BOTHAN_2NET_LAY.get(), Bothan2netLayEntity.createAttributes().build());
+		event.put(BOTHAN_2NET_ZOOMIES.get(), Bothan2netZoomiesEntity.createAttributes().build());
+		event.put(BOTHAN_2NET_ZOOMIES_TIRED.get(), Bothan2netZoomiesTiredEntity.createAttributes().build());
+		event.put(BOTHAN_2NET_SLEEP.get(), Bothan2netSleepEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_LAY.get(), EpicSharkoLayEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_ZOOMIES.get(), EpicSharkoZoomiesEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_ZOOMIES_TIRED.get(), EpicSharkoZoomiesTiredEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_TAMED_ZOOMIES_TIRED.get(), EpicSharkoTamedZoomiesTiredEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_SLEEP.get(), EpicSharkoSleepEntity.createAttributes().build());
 		event.put(ENRAGED_NORMAL.get(), EnragedNormalEntity.createAttributes().build());
 		event.put(ENRAGED_NORMAL_2.get(), EnragedNormal2Entity.createAttributes().build());
 		event.put(ENRAGED_NORMAL_3.get(), EnragedNormal3Entity.createAttributes().build());
@@ -1201,5 +1299,7 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED_ZOOMIES.get(), EngieSharkoRareTamedZoomiesEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_TAMED.get(), EpicSharkoTamedEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_TAMED_ZOOMIES.get(), EpicSharkoTamedZoomiesEntity.createAttributes().build());
 	}
 }

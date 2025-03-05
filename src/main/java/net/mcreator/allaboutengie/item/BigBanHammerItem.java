@@ -10,12 +10,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.procedures.BigBanObtainProProcedure;
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class BigBanHammerItem extends SwordItem {
 	public BigBanHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4500;
+				return 2640;
 			}
 
 			public float getSpeed() {
@@ -23,7 +24,7 @@ public class BigBanHammerItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 448f;
+				return 262f;
 			}
 
 			public int getLevel() {
@@ -37,7 +38,7 @@ public class BigBanHammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.25f, new Item.Properties());
+		}, 3, -1.25f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
 	}
 
 	@Override

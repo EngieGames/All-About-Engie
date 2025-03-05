@@ -1,0 +1,32 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "banhammerpixel",
+    "customModelName": "ban_hammer_bahemoth_pixel:default",
+    "name": "Pixelized Bahemoth Ban Hammer",
+    "specialInfo": [
+      "What do I get in return? Some funny moments or what?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:PixelItems"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.25,
+    "enchantability": 128000,
+    "damageVsEntity": 4200.0,
+    "usageCount": 42000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "MassiveBanObtainPro"
+    }
+  }
+}

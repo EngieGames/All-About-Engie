@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "outragedengieblocktoitem",
-  "category": "misc",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "allaboutengie:outraged_engie_block"

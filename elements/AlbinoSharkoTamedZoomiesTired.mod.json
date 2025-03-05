@@ -5,7 +5,7 @@
     "mobName": "[Tamed] Albino Sharko (Worn Out)",
     "mobLabel": "",
     "mobModelName": "Modelboyozoomtired",
-    "mobModelTexture": "albinosharkonewtamedtired.png",
+    "mobModelTexture": "albinosharkonewtamedzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

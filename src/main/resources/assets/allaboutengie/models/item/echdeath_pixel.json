@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/ban_hammer_death_pixel",
   "textures": {
-    "0": "allaboutengie:block/bloodypixel",
-    "particle": "allaboutengie:item/bloodypixel"
+    "0": "allaboutengie:blocks/bloodypixel",
+    "particle": "allaboutengie:items/bloodypixel"
   }
 }

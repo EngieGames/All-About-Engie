@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "outragedengieaxe",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",
     "23",

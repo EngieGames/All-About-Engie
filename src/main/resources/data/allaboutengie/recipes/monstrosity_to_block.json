@@ -1,0 +1,37 @@
+{
+  "group": "monstrositytoblock",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    }
+  ],
+  "result": {
+    "item": "allaboutengie:monstrosity_engie_block",
+    "count": 1
+  }
+}

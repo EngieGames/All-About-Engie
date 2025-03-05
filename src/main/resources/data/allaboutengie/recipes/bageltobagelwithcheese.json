@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "allaboutengie:bagel"
+    },
+    {
+      "item": "allaboutengie:cheese"
+    }
+  ],
+  "result": {
+    "item": "allaboutengie:bagel_cheese",
+    "count": 1
+  }
+}

@@ -97,7 +97,7 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "AtlasLayRC"
+      "name": "CBELayRC"
     },
     "hasAI": true,
     "aiBase": "(none)",

@@ -13,22 +13,24 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+
 public abstract class ExoticSharkItem extends ArmorItem {
-	public ExoticSharkItem(ArmorItem.Type type, Item.Properties properties) {
+	public ExoticSharkItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 25;
+			public int getDurabilityForSlot(EquipmentSlot slot) {
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
 			}
 
 			@Override
-			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{25, 25, 25, 25}[type.getSlot().getIndex()];
+			public int getDefenseForSlot(EquipmentSlot slot) {
+				return new int[]{30, 30, 30, 30}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 10;
 			}
 
 			@Override
@@ -48,19 +50,19 @@ public abstract class ExoticSharkItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 8f;
+				return 9f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.4f;
+				return 0.5f;
 			}
-		}, type, properties);
+		}, slot, properties);
 	}
 
 	public static class Helmet extends ExoticSharkItem {
 		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
 		}
 
 		@Override
@@ -71,7 +73,7 @@ public abstract class ExoticSharkItem extends ArmorItem {
 
 	public static class Chestplate extends ExoticSharkItem {
 		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
 		}
 
 		@Override
@@ -82,7 +84,7 @@ public abstract class ExoticSharkItem extends ArmorItem {
 
 	public static class Leggings extends ExoticSharkItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
 		}
 
 		@Override
@@ -93,7 +95,7 @@ public abstract class ExoticSharkItem extends ArmorItem {
 
 	public static class Boots extends ExoticSharkItem {
 		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ARMOR));
 		}
 
 		@Override

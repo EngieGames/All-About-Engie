@@ -5,7 +5,7 @@
     "mobName": "Rare Engie Sharko (Worn Out)",
     "mobLabel": "",
     "mobModelName": "Modelboyozoomtired",
-    "mobModelTexture": "rareengiesharko2newtired.png",
+    "mobModelTexture": "rareengiesharko2newzoomtired.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
