@@ -28,6 +28,9 @@
       },
       {
         "value": "CUSTOM:CyberbloodBlock"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieBlock"
       }
     ],
     "functions": [],

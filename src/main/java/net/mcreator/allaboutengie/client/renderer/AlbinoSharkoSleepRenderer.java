@@ -15,6 +15,6 @@ public class AlbinoSharkoSleepRenderer extends MobRenderer<AlbinoSharkoSleepEnti
 
 	@Override
 	public ResourceLocation getTextureLocation(AlbinoSharkoSleepEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/albinosharkonewtamedzoom.png");
+		return new ResourceLocation("allaboutengie:textures/entities/albinosharkonewtamedtired.png");
 	}
 }

@@ -153,7 +153,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EngieGemItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "AAEItemsItems",
@@ -165,7 +165,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "AngryEngieEssence",
@@ -180,7 +180,7 @@
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_essence.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "EnragedEngieEssence",
@@ -195,7 +195,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_essence.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "AAEItemsArmor",
@@ -207,7 +207,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "EngieBlock",
@@ -224,7 +224,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_block.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "AngryEngieBlock",
@@ -241,7 +241,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/angry_engie_block.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "EnragedEngieBlock",
@@ -258,7 +258,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_block.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestUI",
@@ -292,7 +292,7 @@
           "src/main/resources/assets/allaboutengie/models/block/engie_ore.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "DeepslateEngieOre",
@@ -311,7 +311,7 @@
           "src/main/resources/assets/allaboutengie/models/item/deepslate_engie_ore.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalTable",
@@ -329,7 +329,7 @@
           "src/main/java/net/mcreator/allaboutengie/block/entity/MetalTableBlockEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "OldEngieOre",
@@ -346,7 +346,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/old_engie_ore.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "OldDeepslateEngieOre",
@@ -363,7 +363,7 @@
           "src/main/resources/assets/allaboutengie/models/block/old_deepslate_engie_ore.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "CrucifixPro",
@@ -414,7 +414,7 @@
           "src/main/resources/assets/allaboutengie/models/item/crucifix.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "TrueBanHammerNCMD",
@@ -429,7 +429,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/TrueBanHammerNCMDItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "TrueBanHammerNCMDPixel",
@@ -444,7 +444,7 @@
           "src/main/resources/assets/allaboutengie/models/item/true_ban_hammer_ncmd_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "TrueBanHammer",
@@ -459,7 +459,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/TrueBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "KickFromKickBanHammer",
@@ -514,7 +514,7 @@
           "src/main/resources/assets/allaboutengie/models/item/kick_ban_hammer.json"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "Echdeath",
@@ -529,7 +529,7 @@
           "src/main/resources/assets/allaboutengie/models/item/echdeath.json"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "TrueBanHammerPixel",
@@ -544,7 +544,7 @@
           "src/main/resources/assets/allaboutengie/models/item/true_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "KickBanHammerPixel",
@@ -559,7 +559,7 @@
           "src/main/resources/assets/allaboutengie/models/item/kick_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "EchdeathPixel",
@@ -574,7 +574,7 @@
           "src/main/resources/assets/allaboutengie/models/item/echdeath_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "KickFromKickBanHammerPixel",
@@ -629,7 +629,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EngiePickaxe",
@@ -644,7 +644,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EngieShovel",
@@ -659,7 +659,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EngieShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EngieHoe",
@@ -674,7 +674,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "AngryEngieAxe",
@@ -689,7 +689,7 @@
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "AngryEngiePickaxe",
@@ -704,7 +704,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/AngryEngiePickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "AngryEngieShovel",
@@ -719,7 +719,7 @@
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_shovel.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "AngryEngieHoe",
@@ -734,7 +734,7 @@
           "src/main/resources/assets/allaboutengie/models/item/angry_engie_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "Operators",
@@ -752,7 +752,7 @@
           "src/main/resources/assets/allaboutengie/models/item/operators_boots.json"
         ]
       },
-      "path": "~/Operator Stuff"
+      "path": "~/All Items/Exclusive/Operator Stuff"
     },
     {
       "name": "OperatorItemsCommandPro",
@@ -791,7 +791,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EnragedEngiePickaxe",
@@ -806,7 +806,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EnragedEngiePickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EnragedEngieShovel",
@@ -821,7 +821,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EnragedEngieShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EnragedEngieHoe",
@@ -836,7 +836,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enraged_engie_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "EngiAxe",
@@ -851,7 +851,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EngiAxeItem.java"
         ]
       },
-      "path": "~/Tools/Easter Eggs"
+      "path": "~/All Items/Regular/Tools/Easter Eggs"
     },
     {
       "name": "EngiPickaxe",
@@ -866,7 +866,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engi_pickaxe.json"
         ]
       },
-      "path": "~/Tools/Easter Eggs"
+      "path": "~/All Items/Regular/Tools/Easter Eggs"
     },
     {
       "name": "EngiShovel",
@@ -881,7 +881,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engi_shovel.json"
         ]
       },
-      "path": "~/Tools/Easter Eggs"
+      "path": "~/All Items/Regular/Tools/Easter Eggs"
     },
     {
       "name": "OperatorsGear",
@@ -912,7 +912,7 @@
           "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "Nothing",
@@ -1021,7 +1021,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engies_scythe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "Dough",
@@ -1036,7 +1036,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/DoughItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "DoughWithSauce",
@@ -1051,7 +1051,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/DoughWithSauceItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "DoughRightClick",
@@ -1086,7 +1086,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UncookedPizzaItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "CookedPizza",
@@ -1101,7 +1101,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cooked_pizza.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "PizzaSlice",
@@ -1116,7 +1116,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/PizzaSliceItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "UncookedPizzaToCookedPizza",
@@ -1663,7 +1663,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cheese.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "DoughSauceAddCheese",
@@ -2087,7 +2087,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "OperatorsAxe",
@@ -2102,7 +2102,7 @@
           "src/main/resources/assets/allaboutengie/models/item/operators_axe.json"
         ]
       },
-      "path": "~/Operator Stuff"
+      "path": "~/All Items/Exclusive/Operator Stuff"
     },
     {
       "name": "OperatorsPickaxe",
@@ -2117,7 +2117,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/OperatorsPickaxeItem.java"
         ]
       },
-      "path": "~/Operator Stuff"
+      "path": "~/All Items/Exclusive/Operator Stuff"
     },
     {
       "name": "OperatorsShovel",
@@ -2132,7 +2132,7 @@
           "src/main/resources/assets/allaboutengie/models/item/operators_shovel.json"
         ]
       },
-      "path": "~/Operator Stuff"
+      "path": "~/All Items/Exclusive/Operator Stuff"
     },
     {
       "name": "OperatorsHoe",
@@ -2147,7 +2147,7 @@
           "src/main/resources/assets/allaboutengie/models/item/operators_hoe.json"
         ]
       },
-      "path": "~/Operator Stuff"
+      "path": "~/All Items/Exclusive/Operator Stuff"
     },
     {
       "name": "CheesePuffsUnopened",
@@ -2162,7 +2162,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cheese_balls_unopened.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "EmptyCheesePuffsBin",
@@ -2177,7 +2177,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EmptyCheesePuffsBinItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "CheesePuffsOpened",
@@ -2192,7 +2192,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cheese_balls_opened.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "EngieArmorMade",
@@ -2380,7 +2380,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/metal_chest.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestOak",
@@ -2398,7 +2398,7 @@
           "src/main/java/net/mcreator/allaboutengie/block/entity/MetalChestOakBlockEntity.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "ItemHouseMain",
@@ -2580,7 +2580,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/DeveloperItem.java"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Exclusive/Armor"
     },
     {
       "name": "Contributor",
@@ -2598,7 +2598,7 @@
           "src/main/resources/assets/allaboutengie/models/item/ideagiver_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Exclusive/Armor"
     },
     {
       "name": "DevAdvancement",
@@ -2705,7 +2705,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/metal_chest_dark_oak.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestSpruce",
@@ -2723,7 +2723,7 @@
           "src/main/resources/assets/allaboutengie/models/item/metal_chest_spruce.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestAcacia",
@@ -2741,7 +2741,7 @@
           "src/main/java/net/mcreator/allaboutengie/block/MetalChestAcaciaBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestBirch",
@@ -2759,7 +2759,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/metal_chest_birch.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestWarped",
@@ -2777,7 +2777,7 @@
           "src/main/resources/assets/allaboutengie/models/block/metal_chest_warped.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestCrimson",
@@ -2795,7 +2795,7 @@
           "src/main/resources/assets/allaboutengie/models/item/metal_chest_crimson.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "MetalChestJungle",
@@ -2813,7 +2813,7 @@
           "src/main/resources/assets/allaboutengie/models/block/metal_chest_jungle.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "CookedPizzaToSlices",
@@ -2875,7 +2875,7 @@
           "src/main/resources/assets/allaboutengie/models/item/tester_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Exclusive/Armor"
     },
     {
       "name": "TesterGiverCommandPro",
@@ -3054,7 +3054,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/AAEEngieItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "DeveloperEngie",
@@ -3228,7 +3228,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "Engi",
@@ -3245,7 +3245,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_spawn_egg.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "MadEngie",
@@ -3262,7 +3262,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MadEngieEntity.java"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Hostile"
     },
     {
       "name": "Engies",
@@ -3280,7 +3280,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engies_helmet.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Armor"
     },
     {
       "name": "AngryEngies",
@@ -3298,7 +3298,7 @@
           "src/main/resources/assets/allaboutengie/models/item/angry_engies_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Armor"
     },
     {
       "name": "EnragedEngies",
@@ -3316,7 +3316,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enraged_engies_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Armor"
     },
     {
       "name": "AngryEngie",
@@ -3333,7 +3333,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/angry_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Hostile"
     },
     {
       "name": "EnragedEngie",
@@ -3350,7 +3350,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Hostile"
     },
     {
       "name": "AngryCreator",
@@ -3367,7 +3367,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/outraged_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Hostile"
     },
     {
       "name": "EngiFR",
@@ -3384,7 +3384,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engi_fr_spawn_egg.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "Creator",
@@ -3401,7 +3401,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/creator_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "EngieGames",
@@ -3418,7 +3418,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieGamesRenderer.java"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "FoundEngie",
@@ -3468,7 +3468,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "Sharko",
@@ -3485,7 +3485,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/SharkoEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharko",
@@ -3502,7 +3502,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharko",
@@ -3519,7 +3519,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_sharko_biome_modifier.json"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharko",
@@ -3536,7 +3536,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharko",
@@ -3553,7 +3553,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharko",
@@ -3570,7 +3570,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharko",
@@ -3587,7 +3587,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare",
@@ -3604,7 +3604,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2",
@@ -3621,7 +3621,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkTamed",
@@ -3636,7 +3636,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/SharkTamedEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharkoTamed",
@@ -3651,7 +3651,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoTamedRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoTamed",
@@ -3666,7 +3666,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoTamedRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoTamed",
@@ -3681,7 +3681,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoTamedRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoTamed",
@@ -3696,7 +3696,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoTamedRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoTamed",
@@ -3711,7 +3711,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoTamedRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoTamed",
@@ -3726,7 +3726,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoTamedEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareTamed",
@@ -3741,7 +3741,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareTamedRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2Tamed",
@@ -3756,7 +3756,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2TamedEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoLay",
@@ -3771,7 +3771,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/SharkoLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharkoLay",
@@ -3786,7 +3786,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoLay",
@@ -3801,7 +3801,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoLay",
@@ -3816,7 +3816,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoLay",
@@ -3831,7 +3831,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoLay",
@@ -3846,7 +3846,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoLay",
@@ -3861,7 +3861,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareLay",
@@ -3876,7 +3876,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2Lay",
@@ -3891,7 +3891,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2LayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoRCTame",
@@ -4306,7 +4306,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/GoldenCookieItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "EnchantedGoldenCookie",
@@ -4321,7 +4321,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enchanted_golden_cookie.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "ExoticCookie",
@@ -4336,7 +4336,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/ExoticCookieItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "EnchantedExoticCookie",
@@ -4351,7 +4351,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enchanted_exotic_cookie.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "Goldcookfinish",
@@ -4486,7 +4486,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_cookie.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "EnchantedEngieCookie",
@@ -4501,7 +4501,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EnchantedEngieCookieItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "EngieRCTame",
@@ -4836,7 +4836,7 @@
           "src/main/resources/assets/allaboutengie/models/item/sharko_cloth.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "AlbinoSharkoCloth",
@@ -4851,7 +4851,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/AlbinoSharkoClothItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "RareSharkoCloth",
@@ -4866,7 +4866,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/RareSharkoClothItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "LegendarySharkoCloth",
@@ -4881,7 +4881,7 @@
           "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_cloth.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "MythicSharkoCloth",
@@ -4896,7 +4896,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MythicSharkoClothItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "ExoticSharkoCloth",
@@ -4911,7 +4911,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_cloth.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "EngieSharkoCloth",
@@ -4926,7 +4926,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_sharko_cloth.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "Shark",
@@ -4944,7 +4944,7 @@
           "src/main/resources/assets/allaboutengie/models/item/shark_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "AlbinoShark",
@@ -4962,7 +4962,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/AlbinoSharkItem.java"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "RareShark",
@@ -4980,7 +4980,7 @@
           "src/main/resources/assets/allaboutengie/models/item/rare_shark_helmet.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "LegendaryShark",
@@ -4998,7 +4998,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/LegendarySharkItem.java"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "MythicShark",
@@ -5016,7 +5016,7 @@
           "src/main/resources/assets/allaboutengie/models/item/mythic_shark_boots.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "ExoticShark",
@@ -5034,7 +5034,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_shark_helmet.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "EngieShark",
@@ -5052,7 +5052,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engie_shark_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "Shark1",
@@ -5459,7 +5459,7 @@
           "src/main/resources/assets/allaboutengie/models/item/items_plaque.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "MobsPlaque",
@@ -5474,7 +5474,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MobsPlaqueItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "ExtrasPlaque",
@@ -5489,7 +5489,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/ExtrasPlaqueItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "SharkosPlaque",
@@ -5504,7 +5504,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/SharkosPlaqueItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "DimensionsPlaque",
@@ -5519,7 +5519,7 @@
           "src/main/resources/assets/allaboutengie/models/item/dimensions_plaque.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "EnragedZombiesPlaque",
@@ -5534,7 +5534,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EnragedZombiesPlaqueItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "AllAboutEngiePlaque",
@@ -5549,7 +5549,7 @@
           "src/main/resources/assets/allaboutengie/models/item/all_about_engie_plaque.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "Zombies",
@@ -5561,7 +5561,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "EGMCPro",
@@ -5712,7 +5712,7 @@
           "src/main/resources/assets/allaboutengie/models/item/blood_ingot.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Items"
     },
     {
       "name": "CyberIngot",
@@ -5727,7 +5727,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cyber_ingot.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Items"
     },
     {
       "name": "CyberbloodIngot",
@@ -5742,7 +5742,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CyberbloodIngotItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Items"
     },
     {
       "name": "Protogen",
@@ -5759,7 +5759,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ProtogenEntity.java"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "Cyberblood",
@@ -5777,7 +5777,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CyberbloodItem.java"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Dimensions/Armor"
     },
     {
       "name": "SmeltCyber",
@@ -5848,7 +5848,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CyberKatanaItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Weapons"
     },
     {
       "name": "BloodBattleAxe",
@@ -5863,7 +5863,7 @@
           "src/main/resources/assets/allaboutengie/models/item/blood_battle_axe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Weapons"
     },
     {
       "name": "CyberbloodKatana",
@@ -5878,7 +5878,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CyberbloodKatanaItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Weapons"
     },
     {
       "name": "CyberbloodBattleAxe",
@@ -5893,7 +5893,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CyberbloodBattleAxeItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Dimensions/Weapons"
     },
     {
       "name": "CraftCyberKatana",
@@ -6318,7 +6318,7 @@
           "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_2.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "Nothing2",
@@ -6365,7 +6365,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/quizzet_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "SharkoClothCraft",
@@ -6574,7 +6574,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CrucifixPixelItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "EngiesScythePixel",
@@ -6589,7 +6589,7 @@
           "src/main/resources/assets/allaboutengie/models/item/engies_scythe_pixel.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "ModeCheck",
@@ -6652,7 +6652,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MiniBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "BanHammer",
@@ -6667,7 +6667,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "BigBanHammer",
@@ -6682,7 +6682,7 @@
           "src/main/resources/assets/allaboutengie/models/item/big_ban_hammer.json"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "LargeBanHammer",
@@ -6697,7 +6697,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/LargeBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "HugeBanHammer",
@@ -6712,7 +6712,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/HugeBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "PixelItems",
@@ -6724,7 +6724,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "MiniBanHammerPixel",
@@ -6739,7 +6739,7 @@
           "src/main/resources/assets/allaboutengie/models/item/mini_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "EnormousBanHammer",
@@ -6754,7 +6754,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enormous_ban_hammer.json"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "GiganticBanHammer",
@@ -6769,7 +6769,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/GiganticBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "MassiveBanHammer",
@@ -6784,7 +6784,7 @@
           "src/main/resources/assets/allaboutengie/models/item/massive_ban_hammer.json"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "BanHammers",
@@ -6796,7 +6796,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Tabs"
+      "path": "~/Creative Tabs"
     },
     {
       "name": "BanHammerPixel",
@@ -6811,7 +6811,7 @@
           "src/main/resources/assets/allaboutengie/models/item/ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "BigBanHammerPixel",
@@ -6826,7 +6826,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BigBanHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "LargeBanHammerPixel",
@@ -6841,7 +6841,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/LargeBanHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "HugeBanHammerPixel",
@@ -6856,7 +6856,7 @@
           "src/main/resources/assets/allaboutengie/models/item/huge_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "EnormousBanHammerPixel",
@@ -6871,7 +6871,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EnormousBanHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "GiganticBanHammerPixel",
@@ -6886,7 +6886,7 @@
           "src/main/resources/assets/allaboutengie/models/item/gigantic_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "MassiveBanHammerPixel",
@@ -6901,7 +6901,7 @@
           "src/main/resources/assets/allaboutengie/models/item/massive_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "CodeRedeemersHammer",
@@ -6916,7 +6916,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CodeRedeemersHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "CodeRedeemersHammerPixel",
@@ -6931,7 +6931,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CodeRedeemersHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "CodeRedeemers",
@@ -6949,7 +6949,7 @@
           "src/main/resources/assets/allaboutengie/models/item/code_redeemers_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Tools/Easter Eggs"
     },
     {
       "name": "MiniBanObtain",
@@ -7090,7 +7090,7 @@
           "src/main/resources/assets/allaboutengie/models/item/outraged_engie_essence.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "OutragedEngieEssenceObtained",
@@ -7122,7 +7122,7 @@
           "src/main/resources/assets/allaboutengie/models/item/outraged_engies_helmet.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Armor"
     },
     {
       "name": "OEChestplatePro",
@@ -7177,7 +7177,7 @@
           "src/main/resources/assets/allaboutengie/models/item/outraged_engie_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "OutragedEngiePickaxe",
@@ -7192,7 +7192,7 @@
           "src/main/resources/assets/allaboutengie/models/item/outraged_engie_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "OutragedEngieShovel",
@@ -7207,7 +7207,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/OutragedEngieShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "OutragedEngieHoe",
@@ -7222,7 +7222,7 @@
           "src/main/resources/assets/allaboutengie/models/item/outraged_engie_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "OutragedEngieBlock",
@@ -7239,7 +7239,7 @@
           "src/main/java/net/mcreator/allaboutengie/block/OutragedEngieBlockBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "OutragedEngieAxe1",
@@ -7410,7 +7410,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/angel_hatted_present.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "MiniBanCraft",
@@ -7655,7 +7655,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TobyRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TobyLay",
@@ -7670,7 +7670,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/TobyLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkTamedOnEntityTickUpdate",
@@ -7765,7 +7765,7 @@
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/CyberOreFeature.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Dimensions/Blocks"
     },
     {
       "name": "BloodOre",
@@ -7784,7 +7784,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/blood_ore.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Dimensions/Blocks"
     },
     {
       "name": "Common",
@@ -7802,7 +7802,7 @@
           "src/main/resources/assets/allaboutengie/models/item/common_boots.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Uncommon",
@@ -7820,7 +7820,7 @@
           "src/main/resources/assets/allaboutengie/models/item/uncommon_boots.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Rare",
@@ -7838,7 +7838,7 @@
           "src/main/resources/assets/allaboutengie/models/item/rare_boots.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Epic",
@@ -7856,7 +7856,7 @@
           "src/main/resources/assets/allaboutengie/models/item/epic_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Legendary",
@@ -7874,7 +7874,7 @@
           "src/main/resources/assets/allaboutengie/models/item/legendary_helmet.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Mythic",
@@ -7892,7 +7892,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MythicItem.java"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Exotic",
@@ -7910,7 +7910,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "Unobtainium",
@@ -7928,7 +7928,7 @@
           "src/main/resources/assets/allaboutengie/models/item/unobtainium_boots.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Zombies/Armor"
     },
     {
       "name": "CommonSword",
@@ -7943,7 +7943,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CommonSwordItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "CommonPickaxe",
@@ -7958,7 +7958,7 @@
           "src/main/resources/assets/allaboutengie/models/item/common_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "CommonAxe",
@@ -7973,7 +7973,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CommonAxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "CommonShovel",
@@ -7988,7 +7988,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CommonShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "CommonHoe",
@@ -8003,7 +8003,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/CommonHoeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UncommonSword",
@@ -8018,7 +8018,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UncommonSwordItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UncommonPickaxe",
@@ -8033,7 +8033,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UncommonPickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UncommonAxe",
@@ -8048,7 +8048,7 @@
           "src/main/resources/assets/allaboutengie/models/item/uncommon_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UncommonShovel",
@@ -8063,7 +8063,7 @@
           "src/main/resources/assets/allaboutengie/models/item/uncommon_shovel.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UncommonHoe",
@@ -8078,7 +8078,7 @@
           "src/main/resources/assets/allaboutengie/models/item/uncommon_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "RareSword",
@@ -8093,7 +8093,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/RareSwordItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "RarePickaxe",
@@ -8108,7 +8108,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/RarePickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "RareAxe",
@@ -8123,7 +8123,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/RareAxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "RareShovel",
@@ -8138,7 +8138,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/RareShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "RareHoe",
@@ -8153,7 +8153,7 @@
           "src/main/resources/assets/allaboutengie/models/item/rare_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "EpicSword",
@@ -8168,7 +8168,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EpicSwordItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "EpicPickaxe",
@@ -8183,7 +8183,7 @@
           "src/main/resources/assets/allaboutengie/models/item/epic_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "EpicAxe",
@@ -8198,7 +8198,7 @@
           "src/main/resources/assets/allaboutengie/models/item/epic_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "EpicShovel",
@@ -8213,7 +8213,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EpicShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "EpicHoe",
@@ -8228,7 +8228,7 @@
           "src/main/resources/assets/allaboutengie/models/item/epic_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "LegendarySword",
@@ -8243,7 +8243,7 @@
           "src/main/resources/assets/allaboutengie/models/item/legendary_sword.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "LegendaryPickaxe",
@@ -8258,7 +8258,7 @@
           "src/main/resources/assets/allaboutengie/models/item/legendary_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "LegendaryAxe",
@@ -8273,7 +8273,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/LegendaryAxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "LegendaryShovel",
@@ -8288,7 +8288,7 @@
           "src/main/resources/assets/allaboutengie/models/item/legendary_shovel.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "LegendaryHoe",
@@ -8303,7 +8303,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/LegendaryHoeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "MythicSword",
@@ -8318,7 +8318,7 @@
           "src/main/resources/assets/allaboutengie/models/item/mythic_sword.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "MythicPickaxe",
@@ -8333,7 +8333,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MythicPickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "MythicAxe",
@@ -8348,7 +8348,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MythicAxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "MythicShovel",
@@ -8363,7 +8363,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MythicShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "MythicHoe",
@@ -8378,7 +8378,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MythicHoeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "ExoticSword",
@@ -8393,7 +8393,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_sword.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "ExoticPickaxe",
@@ -8408,7 +8408,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "ExoticAxe",
@@ -8423,7 +8423,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "ExoticShovel",
@@ -8438,7 +8438,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/ExoticShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "ExoticHoe",
@@ -8453,7 +8453,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UnobtainiumSword",
@@ -8468,7 +8468,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumSwordItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UnobtainiumPickaxe",
@@ -8483,7 +8483,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumPickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UnobtainiumAxe",
@@ -8498,7 +8498,7 @@
           "src/main/resources/assets/allaboutengie/models/item/unobtainium_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UnobtainiumShovel",
@@ -8513,7 +8513,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "UnobtainiumHoe",
@@ -8528,7 +8528,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UnobtainiumHoeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Zombies/Tools"
     },
     {
       "name": "ThanksForPlaying3",
@@ -8545,7 +8545,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/thanks_for_playing_3.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "Nothing3",
@@ -8594,7 +8594,7 @@
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/UnobtainiumOreFeature.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Zombies/Blocks"
     },
     {
       "name": "DeepslateUnobtainiumOre",
@@ -8613,7 +8613,7 @@
           "src/main/java/net/mcreator/allaboutengie/world/features/ores/DeepslateUnobtainiumOreFeature.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Zombies/Blocks"
     },
     {
       "name": "EnragedCoin",
@@ -8628,7 +8628,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/EnragedCoinItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Zombies/Items"
     },
     {
       "name": "Coinconstantcount",
@@ -8704,7 +8704,7 @@
           "src/main/resources/assets/allaboutengie/models/item/enraged_normal_spawn_egg.json"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal2",
@@ -8719,7 +8719,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormal2Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal3",
@@ -8734,7 +8734,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormal3Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal4",
@@ -8749,7 +8749,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormal4Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal5",
@@ -8764,7 +8764,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormal5Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal6",
@@ -8779,7 +8779,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormal6Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal7",
@@ -8794,7 +8794,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedNormal7Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal8",
@@ -8809,7 +8809,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedNormal8Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedNormal9",
@@ -8824,7 +8824,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedNormal9Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT",
@@ -8841,7 +8841,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedTNTRenderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "TNTSpawnTNTDeath",
@@ -8876,7 +8876,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedTNT2Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT3",
@@ -8891,7 +8891,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedTNT3Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT4",
@@ -8906,7 +8906,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedTNT4Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT5",
@@ -8921,7 +8921,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedTNT5Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT6",
@@ -8936,7 +8936,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedTNT6Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT7",
@@ -8951,7 +8951,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedTNT7Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT8",
@@ -8966,7 +8966,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedTNT8Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedTNT9",
@@ -8981,7 +8981,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedTNT9Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed",
@@ -8998,7 +8998,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_speed_biome_modifier.json"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed2",
@@ -9013,7 +9013,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeed2Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed3",
@@ -9028,7 +9028,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeed3Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed4",
@@ -9043,7 +9043,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeed4Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed5",
@@ -9058,7 +9058,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedSpeed5Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed6",
@@ -9073,7 +9073,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedSpeed6Renderer.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed7",
@@ -9088,7 +9088,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeed7Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed8",
@@ -9103,7 +9103,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeed8Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "EnragedSpeed9",
@@ -9118,7 +9118,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EnragedSpeed9Entity.java"
         ]
       },
-      "path": "~/Zombies"
+      "path": "~/Mobs/Zombies"
     },
     {
       "name": "Mutationchance",
@@ -9327,7 +9327,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/common_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "UncommonEngie",
@@ -9344,7 +9344,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/UncommonEngieRenderer.java"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "RareEngie",
@@ -9361,7 +9361,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "EpicEngie",
@@ -9378,7 +9378,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicEngieRenderer.java"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "LegendaryEngie",
@@ -9395,7 +9395,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/legendary_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "MythicEngie",
@@ -9412,7 +9412,7 @@
           "src/main/resources/assets/allaboutengie/models/item/mythic_engie_spawn_egg.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "ExoticEngie",
@@ -9429,7 +9429,7 @@
           "src/main/resources/assets/allaboutengie/models/item/exotic_engie_spawn_egg.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "Cyber",
@@ -9447,7 +9447,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cyber_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Dimensions/Armor"
     },
     {
       "name": "Blood",
@@ -9465,7 +9465,7 @@
           "src/main/resources/assets/allaboutengie/models/item/blood_chestplate.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Dimensions/Armor"
     },
     {
       "name": "OutragedEngieArmorObtained",
@@ -9556,7 +9556,7 @@
           "src/main/java/net/mcreator/allaboutengie/block/CyberBlockBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Dimensions/Blocks"
     },
     {
       "name": "BloodBlock",
@@ -9573,7 +9573,7 @@
           "src/main/resources/assets/allaboutengie/models/item/blood_block.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Dimensions/Blocks"
     },
     {
       "name": "CyberbloodBlock",
@@ -9590,7 +9590,7 @@
           "src/main/java/net/mcreator/allaboutengie/block/CyberbloodBlockBlock.java"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Dimensions/Blocks"
     },
     {
       "name": "BeaconBaseBlockBlocks",
@@ -9603,7 +9603,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     },
     {
       "name": "Marshal",
@@ -9618,7 +9619,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MarshalEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MarshalLay",
@@ -9633,7 +9634,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MarshalLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Tiger",
@@ -9648,7 +9649,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TigerRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TigerLay",
@@ -9663,7 +9664,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TigerLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Louis",
@@ -9678,7 +9679,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LouisRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LouisLay",
@@ -9693,7 +9694,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LouisLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MarshalRC",
@@ -9830,7 +9831,7 @@
           "src/main/resources/assets/allaboutengie/models/block/textboxyeah.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "ThanksForPlaying4",
@@ -9847,7 +9848,7 @@
           "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_4.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "Nothing4Generated",
@@ -9994,7 +9995,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/AAEDevEngieItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Other"
     },
     {
       "name": "SharkoZoomies",
@@ -10009,7 +10010,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/SharkoZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoZoomiesTimer",
@@ -10056,7 +10057,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoZoomies",
@@ -10071,7 +10072,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoZoomies",
@@ -10086,7 +10087,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoZoomies",
@@ -10101,7 +10102,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoZoomies",
@@ -10116,7 +10117,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoZoomies",
@@ -10131,7 +10132,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareZoomies",
@@ -10146,7 +10147,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2Zoomies",
@@ -10162,7 +10163,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2ZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TobyZoomies",
@@ -10177,7 +10178,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/TobyZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MarshalZoomies",
@@ -10192,7 +10193,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MarshalZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TigerZoomies",
@@ -10207,7 +10208,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TigerZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LouisZoomies",
@@ -10222,7 +10223,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LouisZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoTamedZoomies",
@@ -10237,7 +10238,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoTamedZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharkoTamedZoomies",
@@ -10252,7 +10253,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoTamedZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoTamedZoomies",
@@ -10267,7 +10268,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoTamedZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoTamedZoomies",
@@ -10282,7 +10283,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoTamedZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoTamedZoomies",
@@ -10297,7 +10298,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoTamedZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoTamedZoomies",
@@ -10312,7 +10313,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoTamedZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoTamedZoomies",
@@ -10327,7 +10328,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoTamedZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareTamedZoomies",
@@ -10342,7 +10343,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareTamedZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2TamedZoomies",
@@ -10357,7 +10358,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2TamedZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoZoomiesTired",
@@ -10372,7 +10373,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/SharkoZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharkoZoomiesTired",
@@ -10387,7 +10388,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoZoomiesTired",
@@ -10402,7 +10403,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoZoomiesTired",
@@ -10417,7 +10418,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoZoomiesTired",
@@ -10432,7 +10433,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoZoomiesTired",
@@ -10447,7 +10448,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoZoomiesTired",
@@ -10462,7 +10463,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareZoomiesTired",
@@ -10477,7 +10478,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2ZoomiesTired",
@@ -10492,7 +10493,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2ZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TobyZoomiesTired",
@@ -10507,7 +10508,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/TobyZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MarshalZoomiesTired",
@@ -10522,7 +10523,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/MarshalZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TigerZoomiesTired",
@@ -10537,7 +10538,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/TigerZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LouisZoomiesTired",
@@ -10552,7 +10553,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/LouisZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoZoomTiredTimer",
@@ -10587,7 +10588,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoTamedZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharkoTamedZoomiesTired",
@@ -10602,7 +10603,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoTamedZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoTamedZoomiesTired",
@@ -10617,7 +10618,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoTamedZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoTamedZoomiesTired",
@@ -10632,7 +10633,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoTamedZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoTamedZoomiesTired",
@@ -10647,7 +10648,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoTamedZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoTamedZoomiesTired",
@@ -10662,7 +10663,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoTamedZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoTamedZoomiesTired",
@@ -10677,7 +10678,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoTamedZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareTamedZoomiesTired",
@@ -10692,7 +10693,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareTamedZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2TamedZoomiesTired",
@@ -10707,7 +10708,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2TamedZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TobySleep",
@@ -10722,7 +10723,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TobySleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MarshalSleep",
@@ -10737,7 +10738,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MarshalSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TigerSleep",
@@ -10752,7 +10753,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/TigerSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LouisSleep",
@@ -10767,7 +10768,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/LouisSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "SharkoSleep",
@@ -10782,7 +10783,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AlbinoSharkoSleep",
@@ -10797,7 +10798,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareSharkoSleep",
@@ -10812,7 +10813,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "LegendarySharkoSleep",
@@ -10827,7 +10828,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "MythicSharkoSleep",
@@ -10842,7 +10843,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ExoticSharkoSleep",
@@ -10857,7 +10858,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoSleep",
@@ -10872,7 +10873,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRareSleep",
@@ -10887,7 +10888,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EngieSharkoRare2Sleep",
@@ -10902,7 +10903,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2SleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "RareEngieSharko2NameCheck",
@@ -11033,7 +11034,7 @@
           "src/main/resources/assets/allaboutengie/models/item/unobtainium_chunklet.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Zombies/Items"
     },
     {
       "name": "Unobtanium",
@@ -11048,7 +11049,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/UnobtaniumItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Zombies/Items"
     },
     {
       "name": "Unobchunklettounobtanium",
@@ -11203,7 +11204,7 @@
           "src/main/resources/assets/allaboutengie/models/item/cheese_ball.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "CheesePuffsOpenedRightclicked",
@@ -11278,7 +11279,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BrowniesUnopenedItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BrowniesOpened",
@@ -11293,7 +11294,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BrowniesOpenedItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BrowniesEmpty",
@@ -11308,7 +11309,7 @@
           "src/main/resources/assets/allaboutengie/models/item/brownies_empty.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "Brownie",
@@ -11323,7 +11324,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BrownieItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BrowniesOpenedRightclicked",
@@ -11380,7 +11381,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/biblically_accurate_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Norm"
     },
     {
       "name": "BiblicallyAccurateEngieEssence",
@@ -11395,7 +11396,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BiblicallyAccurateEngieEssenceItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "BiblicallyAccurateBlock",
@@ -11412,7 +11413,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/biblically_accurate_block.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "BiblicallyAccurateEngieAxe",
@@ -11427,7 +11428,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BiblicallyAccurateEngieAxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "BiblicallyAccurateEngiePickaxe",
@@ -11442,7 +11443,7 @@
           "src/main/resources/assets/allaboutengie/models/item/biblically_accurate_engie_pickaxe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "BiblicallyAccurateEngieShovel",
@@ -11457,7 +11458,7 @@
           "src/main/resources/assets/allaboutengie/models/item/biblically_accurate_engie_shovel.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "BiblicallyAccurateEngieHoe",
@@ -11472,7 +11473,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BiblicallyAccurateEngieHoeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "BiblicallyAccurateEngies",
@@ -11490,7 +11491,7 @@
           "src/main/resources/assets/allaboutengie/models/item/biblically_accurate_engies_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Armor"
     },
     {
       "name": "BiblicallyAccurateEngieBlock1",
@@ -11533,7 +11534,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BiblicallyAccuratEngieBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "BiblicallyAccurateEngieBanHammerPixel",
@@ -11548,7 +11549,7 @@
           "src/main/resources/assets/allaboutengie/models/item/biblically_accurate_engie_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "Playedbyengie",
@@ -11611,7 +11612,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/BuddyEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "BuddyLay",
@@ -11626,7 +11627,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BuddyLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "BuddyZoomies",
@@ -11641,7 +11642,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/BuddyZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "BuddyZoomiesTired",
@@ -11656,7 +11657,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/BuddyZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "BuddySleep",
@@ -11671,7 +11672,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BuddySleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "BuddyRC",
@@ -11726,7 +11727,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ApolloEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ApolloLay",
@@ -11741,7 +11742,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ApolloLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ApolloZoomies",
@@ -11756,7 +11757,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ApolloZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ApolloZoomiesTired",
@@ -11771,7 +11772,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/ApolloZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ApolloSleep",
@@ -11786,7 +11787,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/ApolloSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Atlas",
@@ -11801,7 +11802,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AtlasRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AtlasLay",
@@ -11816,7 +11817,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AtlasLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AtlasZoomies",
@@ -11831,7 +11832,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/AtlasZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AtlasZoomiesTired",
@@ -11846,7 +11847,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/AtlasZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "AtlasSleep",
@@ -11861,7 +11862,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/AtlasSleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ApolloRC",
@@ -11990,7 +11991,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CBERenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "CBELay",
@@ -12005,7 +12006,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CBELayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "CBEZoomies",
@@ -12020,7 +12021,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CBEZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "CBESleep",
@@ -12035,7 +12036,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CBESleepRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "CBERC",
@@ -12090,7 +12091,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/CBEZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "ItemHouseXXLDetective",
@@ -12579,7 +12580,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/impermeable.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     },
     {
       "name": "ItemHouseDetective",
@@ -12658,7 +12660,7 @@
           "src/main/resources/assets/allaboutengie/models/block/thanks_for_playing_5.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "ItemHouseTickUpdate2",
@@ -12707,7 +12709,7 @@
           "src/main/resources/assets/allaboutengie/models/item/thanks_for_playing_6.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Other/Blocks"
     },
     {
       "name": "PBE",
@@ -12722,7 +12724,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/PBEEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "PBELay",
@@ -12737,7 +12739,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/PBELayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "PBEZoomies",
@@ -12752,7 +12754,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/PBEZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "PBESleep",
@@ -12767,7 +12769,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/PBESleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "PBEZoomiesTired",
@@ -12782,7 +12784,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/PBEZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "PBERC",
@@ -13221,7 +13223,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/Bothan2netRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Bothan2netLay",
@@ -13236,7 +13238,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/Bothan2netLayEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Bothan2netZoomies",
@@ -13251,7 +13253,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/Bothan2netZoomiesEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Bothan2netZoomiesTired",
@@ -13266,7 +13268,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/Bothan2netZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Bothan2netSleep",
@@ -13281,7 +13283,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/Bothan2netSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "Bagel",
@@ -13296,7 +13298,7 @@
           "src/main/resources/assets/allaboutengie/models/item/bagel.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BagelCheese",
@@ -13311,7 +13313,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BagelCheeseItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BagelCheeseCooked",
@@ -13326,7 +13328,7 @@
           "src/main/resources/assets/allaboutengie/models/item/bagel_cheese_cooked.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BagelCooked",
@@ -13341,7 +13343,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BagelCookedItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/All Items/Food"
     },
     {
       "name": "BagelSmelt",
@@ -13463,7 +13465,7 @@
           "src/main/resources/assets/allaboutengie/models/item/monstrosity_engie_essence.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Regular/Items"
     },
     {
       "name": "MonstrosityEngie",
@@ -13480,7 +13482,7 @@
           "src/main/resources/data/allaboutengie/forge/biome_modifier/monstrosity_engie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/Mobs/Hostile"
     },
     {
       "name": "MonstrosityEngies",
@@ -13498,7 +13500,7 @@
           "src/main/resources/assets/allaboutengie/models/item/monstrosity_engies_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Regular/Armor"
     },
     {
       "name": "MonstrosityEngieAxe",
@@ -13513,7 +13515,7 @@
           "src/main/resources/assets/allaboutengie/models/item/monstrosity_engie_axe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "MonstrosityEngiePickaxe",
@@ -13528,7 +13530,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MonstrosityEngiePickaxeItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "MonstrosityEngieShovel",
@@ -13543,7 +13545,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MonstrosityEngieShovelItem.java"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "MonstrosityEngieHoe",
@@ -13558,7 +13560,7 @@
           "src/main/resources/assets/allaboutengie/models/item/monstrosity_engie_hoe.json"
         ]
       },
-      "path": "~/Tools"
+      "path": "~/All Items/Regular/Tools"
     },
     {
       "name": "MonstrosityEngieEssenceObtained",
@@ -13645,7 +13647,7 @@
           "src/main/resources/assets/allaboutengie/blockstates/monstrosity_engie_block.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/All Items/Regular/Blocks"
     },
     {
       "name": "ImmenseBanHammer",
@@ -13660,7 +13662,7 @@
           "src/main/resources/assets/allaboutengie/models/item/immense_ban_hammer.json"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "ColossolBanHammer",
@@ -13675,7 +13677,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/ColossolBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "MammothBanHammer",
@@ -13690,7 +13692,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MammothBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Regular/Weapons"
     },
     {
       "name": "BahemothBanHammer",
@@ -13705,7 +13707,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BahemothBanHammerItem.java"
         ]
       },
-      "path": "~/Ban Hammers"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "ColossalBanHammerPixel",
@@ -13720,7 +13722,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/ColossalBanHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "ImmenseBanHammerPixel",
@@ -13735,7 +13737,7 @@
           "src/main/resources/assets/allaboutengie/models/item/immense_ban_hammer_pixel.json"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "MammothBanHammerPixel",
@@ -13750,7 +13752,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/MammothBanHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "BahemothBanHammerPixel",
@@ -13765,7 +13767,7 @@
           "src/main/java/net/mcreator/allaboutengie/item/BahemothBanHammerPixelItem.java"
         ]
       },
-      "path": "~/Ban Hammers/Pixel Var"
+      "path": "~/All Items/Exclusive/Ban Hammers"
     },
     {
       "name": "MonstrositySmithing1",
@@ -14284,7 +14286,7 @@
           "src/main/resources/assets/allaboutengie/models/item/epic_sharko_cloth.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/All Items/Sharko/Items"
     },
     {
       "name": "EPICShark1",
@@ -14386,7 +14388,7 @@
           "src/main/resources/assets/allaboutengie/models/item/epic_shark_leggings.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/All Items/Sharko/Armor"
     },
     {
       "name": "EpicSharko",
@@ -14403,7 +14405,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoTamed",
@@ -14418,7 +14420,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoTamedEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoLay",
@@ -14433,7 +14435,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoLayRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoZoomies",
@@ -14448,7 +14450,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoTamedZoomies",
@@ -14463,7 +14465,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoTamedZoomiesRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoZoomiesTired",
@@ -14478,7 +14480,7 @@
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoZoomiesTiredRenderer.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoTamedZoomiesTired",
@@ -14493,7 +14495,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoTamedZoomiesTiredEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoSleep",
@@ -14508,7 +14510,7 @@
           "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoSleepEntity.java"
         ]
       },
-      "path": "~/Sharkos/Regular"
+      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "EpicSharkoRCTame",
@@ -15653,53 +15655,140 @@
     "name": "~",
     "children": [
       {
-        "name": "Tools",
+        "name": "All Items",
         "children": [
           {
-            "name": "Easter Eggs",
+            "name": "Regular",
+            "children": [
+              {
+                "name": "Tools",
+                "children": [
+                  {
+                    "name": "Easter Eggs",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Items",
+                "children": []
+              },
+              {
+                "name": "Weapons",
+                "children": [
+                  {
+                    "name": "Pixel Var",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Armor",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sharko",
+            "children": [
+              {
+                "name": "Armor",
+                "children": []
+              },
+              {
+                "name": "Items",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dimensions",
+            "children": [
+              {
+                "name": "Weapons",
+                "children": []
+              },
+              {
+                "name": "Items",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Armor",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Zombies",
+            "children": [
+              {
+                "name": "Items",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Tools",
+                "children": []
+              },
+              {
+                "name": "Armor",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Other",
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Exclusive",
+            "children": [
+              {
+                "name": "Armor",
+                "children": []
+              },
+              {
+                "name": "Ban Hammers",
+                "children": []
+              },
+              {
+                "name": "Operator Stuff",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Food",
             "children": []
           }
         ]
       },
       {
-        "name": "Ban Hammers",
-        "children": [
-          {
-            "name": "Pixel Var",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Armor",
+        "name": "Advancements",
         "children": []
       },
       {
-        "name": "Food",
+        "name": "Commands",
         "children": []
       },
       {
-        "name": "Paintings",
-        "children": []
-      },
-      {
-        "name": "Operator Stuff",
-        "children": []
-      },
-      {
-        "name": "Procedures",
-        "children": []
-      },
-      {
-        "name": "Items",
-        "children": []
-      },
-      {
-        "name": "Tabs",
-        "children": []
-      },
-      {
-        "name": "Blocks",
+        "name": "Gamerule",
         "children": []
       },
       {
@@ -15711,11 +15800,32 @@
         "children": []
       },
       {
-        "name": "Commands",
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Hostile",
+            "children": []
+          },
+          {
+            "name": "Norm",
+            "children": []
+          },
+          {
+            "name": "Zombies",
+            "children": []
+          },
+          {
+            "name": "Sharkos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Paintings",
         "children": []
       },
       {
-        "name": "Structures",
+        "name": "Procedures",
         "children": []
       },
       {
@@ -15723,36 +15833,27 @@
         "children": []
       },
       {
-        "name": "Advancements",
+        "name": "Structures",
         "children": []
       },
       {
-        "name": "Gamerule",
+        "name": "Tablets",
         "children": []
       },
       {
-        "name": "Mobs",
+        "name": "Creative Tabs",
         "children": []
       },
       {
-        "name": "Zombies",
+        "name": "Tags",
         "children": []
-      },
-      {
-        "name": "Sharkos",
-        "children": [
-          {
-            "name": "Regular",
-            "children": []
-          }
-        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "3.5.25",
+    "version": "3.8.25",
     "description": "Made with MCreator.",
     "author": "DevEngie",
     "websiteURL": "https://www.twitch.tv/engiegames",
