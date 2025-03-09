@@ -475,18 +475,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGIE_SHARK_CHESTPLATE = REGISTRY.register("engie_shark_chestplate", () -> new EngieSharkItem.Chestplate());
 	public static final RegistryObject<Item> ENGIE_SHARK_LEGGINGS = REGISTRY.register("engie_shark_leggings", () -> new EngieSharkItem.Leggings());
 	public static final RegistryObject<Item> ENGIE_SHARK_BOOTS = REGISTRY.register("engie_shark_boots", () -> new EngieSharkItem.Boots());
-	public static final RegistryObject<Item> CYBER_HELMET = REGISTRY.register("cyber_helmet", () -> new CyberItem.Helmet());
-	public static final RegistryObject<Item> CYBER_CHESTPLATE = REGISTRY.register("cyber_chestplate", () -> new CyberItem.Chestplate());
-	public static final RegistryObject<Item> CYBER_LEGGINGS = REGISTRY.register("cyber_leggings", () -> new CyberItem.Leggings());
-	public static final RegistryObject<Item> CYBER_BOOTS = REGISTRY.register("cyber_boots", () -> new CyberItem.Boots());
-	public static final RegistryObject<Item> BLOOD_HELMET = REGISTRY.register("blood_helmet", () -> new BloodItem.Helmet());
-	public static final RegistryObject<Item> BLOOD_CHESTPLATE = REGISTRY.register("blood_chestplate", () -> new BloodItem.Chestplate());
-	public static final RegistryObject<Item> BLOOD_LEGGINGS = REGISTRY.register("blood_leggings", () -> new BloodItem.Leggings());
-	public static final RegistryObject<Item> BLOOD_BOOTS = REGISTRY.register("blood_boots", () -> new BloodItem.Boots());
-	public static final RegistryObject<Item> CYBERBLOOD_HELMET = REGISTRY.register("cyberblood_helmet", () -> new CyberbloodItem.Helmet());
-	public static final RegistryObject<Item> CYBERBLOOD_CHESTPLATE = REGISTRY.register("cyberblood_chestplate", () -> new CyberbloodItem.Chestplate());
-	public static final RegistryObject<Item> CYBERBLOOD_LEGGINGS = REGISTRY.register("cyberblood_leggings", () -> new CyberbloodItem.Leggings());
-	public static final RegistryObject<Item> CYBERBLOOD_BOOTS = REGISTRY.register("cyberblood_boots", () -> new CyberbloodItem.Boots());
 	public static final RegistryObject<Item> COMMON_HELMET = REGISTRY.register("common_helmet", () -> new CommonItem.Helmet());
 	public static final RegistryObject<Item> COMMON_CHESTPLATE = REGISTRY.register("common_chestplate", () -> new CommonItem.Chestplate());
 	public static final RegistryObject<Item> COMMON_LEGGINGS = REGISTRY.register("common_leggings", () -> new CommonItem.Leggings());
@@ -519,6 +507,18 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> UNOBTAINIUM_CHESTPLATE = REGISTRY.register("unobtainium_chestplate", () -> new UnobtainiumItem.Chestplate());
 	public static final RegistryObject<Item> UNOBTAINIUM_LEGGINGS = REGISTRY.register("unobtainium_leggings", () -> new UnobtainiumItem.Leggings());
 	public static final RegistryObject<Item> UNOBTAINIUM_BOOTS = REGISTRY.register("unobtainium_boots", () -> new UnobtainiumItem.Boots());
+	public static final RegistryObject<Item> CYBER_HELMET = REGISTRY.register("cyber_helmet", () -> new CyberItem.Helmet());
+	public static final RegistryObject<Item> CYBER_CHESTPLATE = REGISTRY.register("cyber_chestplate", () -> new CyberItem.Chestplate());
+	public static final RegistryObject<Item> CYBER_LEGGINGS = REGISTRY.register("cyber_leggings", () -> new CyberItem.Leggings());
+	public static final RegistryObject<Item> CYBER_BOOTS = REGISTRY.register("cyber_boots", () -> new CyberItem.Boots());
+	public static final RegistryObject<Item> BLOOD_HELMET = REGISTRY.register("blood_helmet", () -> new BloodItem.Helmet());
+	public static final RegistryObject<Item> BLOOD_CHESTPLATE = REGISTRY.register("blood_chestplate", () -> new BloodItem.Chestplate());
+	public static final RegistryObject<Item> BLOOD_LEGGINGS = REGISTRY.register("blood_leggings", () -> new BloodItem.Leggings());
+	public static final RegistryObject<Item> BLOOD_BOOTS = REGISTRY.register("blood_boots", () -> new BloodItem.Boots());
+	public static final RegistryObject<Item> CYBERBLOOD_HELMET = REGISTRY.register("cyberblood_helmet", () -> new CyberbloodItem.Helmet());
+	public static final RegistryObject<Item> CYBERBLOOD_CHESTPLATE = REGISTRY.register("cyberblood_chestplate", () -> new CyberbloodItem.Chestplate());
+	public static final RegistryObject<Item> CYBERBLOOD_LEGGINGS = REGISTRY.register("cyberblood_leggings", () -> new CyberbloodItem.Leggings());
+	public static final RegistryObject<Item> CYBERBLOOD_BOOTS = REGISTRY.register("cyberblood_boots", () -> new CyberbloodItem.Boots());
 	public static final RegistryObject<Item> SHARKO_SPAWN_EGG = REGISTRY.register("sharko_spawn_egg", () -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO, -12420148, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ALBINO_SHARKO_SPAWN_EGG = REGISTRY.register("albino_sharko_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO, -1644826, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
@@ -594,8 +594,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TEXTBOXYEAH = block(AllaboutengieModBlocks.TEXTBOXYEAH, null);
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_4 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_4, null);
 	public static final RegistryObject<Item> BROWNIES_EMPTY = REGISTRY.register("brownies_empty", () -> new BrowniesEmptyItem());
-	public static final RegistryObject<Item> THANKS_FOR_PLAYING_5 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_5, null);
-	public static final RegistryObject<Item> THANKS_FOR_PLAYING_6 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_6, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
