@@ -8,10 +8,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.procedures.MassiveBanObtainProProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 import java.util.List;
@@ -49,11 +47,5 @@ public class BahemothBanHammerItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("What do I get in return? Some funny moments or what?"));
-	}
-
-	@Override
-	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-		super.inventoryTick(itemstack, world, entity, slot, selected);
-		MassiveBanObtainProProcedure.execute(entity);
 	}
 }

@@ -14723,6 +14723,158 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "BiblicallyAccurateBanObtainPro",
+      "type": "procedure",
+      "sortid": 905,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biblically_accurate_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/BiblicallyAccurateBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ImmenseBanObtainPro",
+      "type": "procedure",
+      "sortid": 906,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immense_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ImmenseBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ColossalBanObtainPro",
+      "type": "procedure",
+      "sortid": 907,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colossal_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ColossalBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MammothBanObtainPro",
+      "type": "procedure",
+      "sortid": 908,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mammoth_ban_obtain_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MammothBanObtainProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AAEMobs",
+      "type": "painting",
+      "sortid": 909,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_mobs",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEItems",
+      "type": "painting",
+      "sortid": 910,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "EZ",
+      "type": "painting",
+      "sortid": 911,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ez",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEDimensions",
+      "type": "painting",
+      "sortid": 912,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_dimensions",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEExtras",
+      "type": "painting",
+      "sortid": 913,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_extras",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAESharkos",
+      "type": "painting",
+      "sortid": 914,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_sharkos",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
     }
   ],
   "variable_elements": [
@@ -15753,7 +15905,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "3.8.25",
+    "version": "3.10.25",
     "description": "Made with MCreator.",
     "author": "DevEngie",
     "websiteURL": "https://www.twitch.tv/engiegames",

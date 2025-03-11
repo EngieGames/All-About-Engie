@@ -24,9 +24,6 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onItemInInventoryTick": {
-      "name": "MassiveBanObtainPro"
-    }
+    "damageOnCrafting": false
   }
 }

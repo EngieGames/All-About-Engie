@@ -24,7 +24,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onItemInInventoryTick": {
-      "name": "MassiveBanObtainPro"
+      "name": "ImmenseBanObtainPro"
     }
   }
 }

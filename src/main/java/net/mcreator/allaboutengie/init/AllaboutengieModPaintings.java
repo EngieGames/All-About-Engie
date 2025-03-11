@@ -24,4 +24,10 @@ public class AllaboutengieModPaintings {
 	public static final RegistryObject<PaintingVariant> PLAYEDBYENGIE = REGISTRY.register("playedbyengie", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> AAE = REGISTRY.register("aae", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> AAE_WORLD = REGISTRY.register("aae_world", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> AAE_MOBS = REGISTRY.register("aae_mobs", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> AAE_ITEMS = REGISTRY.register("aae_items", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> EZ = REGISTRY.register("ez", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> AAE_DIMENSIONS = REGISTRY.register("aae_dimensions", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> AAE_EXTRAS = REGISTRY.register("aae_extras", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> AAE_SHARKOS = REGISTRY.register("aae_sharkos", () -> new PaintingVariant(16, 16));
 }

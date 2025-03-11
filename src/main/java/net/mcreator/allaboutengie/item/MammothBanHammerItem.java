@@ -9,7 +9,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.allaboutengie.procedures.MassiveBanObtainProProcedure;
+import net.mcreator.allaboutengie.procedures.MammothBanObtainProProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 public class MammothBanHammerItem extends SwordItem {
@@ -44,6 +44,6 @@ public class MammothBanHammerItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		MassiveBanObtainProProcedure.execute(entity);
+		MammothBanObtainProProcedure.execute(entity);
 	}
 }
