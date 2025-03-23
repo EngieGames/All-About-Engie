@@ -30,7 +30,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
-import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
@@ -39,6 +38,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.allaboutengie.procedures.MutationchanceProcedure;
+import net.mcreator.allaboutengie.procedures.MonsterNaturalEntitySpawningConditionProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -116,8 +116,12 @@ public class EnragedSpeedEntity extends Monster {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(AllaboutengieModEntities.ENRAGED_SPEED.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
+		SpawnPlacements.register(AllaboutengieModEntities.ENRAGED_SPEED.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return MonsterNaturalEntitySpawningConditionProcedure.execute(world);
+		});
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

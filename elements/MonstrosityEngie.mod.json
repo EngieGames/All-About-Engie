@@ -111,6 +111,9 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "MonstrosityAndBloodySpawningCondition"
+    },
     "spawningProbability": 2,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,

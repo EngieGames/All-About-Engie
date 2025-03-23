@@ -114,6 +114,9 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "MonsterNaturalEntitySpawningCondition"
+    },
     "spawningProbability": 10,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,

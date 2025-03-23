@@ -14875,6 +14875,48 @@
         "files": []
       },
       "path": "~/Paintings"
+    },
+    {
+      "name": "MonsterNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 915,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monster_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MonsterNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MonstrosityAndBloodySpawningCondition",
+      "type": "procedure",
+      "sortid": 916,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monstrosity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MonstrosityAndBloodySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -15905,7 +15947,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "3.10.25",
+    "version": "3.22.25",
     "description": "Made with MCreator.",
     "author": "DevEngie",
     "websiteURL": "https://www.twitch.tv/engiegames",
