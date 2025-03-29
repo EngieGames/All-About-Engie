@@ -31,7 +31,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.allaboutengie.procedures.LegendaryRCTameProcedure;
+import net.mcreator.allaboutengie.procedures.EpicSharkoRCTameProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class EpicSharkoEntity extends PathfinderMob {
@@ -109,7 +109,7 @@ public class EpicSharkoEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		LegendaryRCTameProcedure.execute(world, x, y, z, entity, sourceentity);
+		EpicSharkoRCTameProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

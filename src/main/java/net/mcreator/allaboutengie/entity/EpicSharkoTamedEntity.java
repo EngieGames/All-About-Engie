@@ -33,7 +33,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.SharkTamedOnEntityTickUpdateProcedure;
-import net.mcreator.allaboutengie.procedures.LegendaryTameRCProcedure;
+import net.mcreator.allaboutengie.procedures.EpicSharkoTameRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class EpicSharkoTamedEntity extends PathfinderMob {
@@ -114,7 +114,7 @@ public class EpicSharkoTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		LegendaryTameRCProcedure.execute(entity);
+		EpicSharkoTameRCProcedure.execute(entity);
 		return retval;
 	}
 

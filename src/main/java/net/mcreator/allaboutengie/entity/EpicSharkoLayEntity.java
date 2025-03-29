@@ -25,7 +25,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.allaboutengie.procedures.LegendaryLayRCProcedure;
+import net.mcreator.allaboutengie.procedures.EpicSharkoLayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class EpicSharkoLayEntity extends PathfinderMob {
@@ -96,7 +96,7 @@ public class EpicSharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		LegendaryLayRCProcedure.execute(entity);
+		EpicSharkoLayRCProcedure.execute(entity);
 		return retval;
 	}
 

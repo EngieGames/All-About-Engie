@@ -97,7 +97,7 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "LegendaryTameRC"
+      "name": "EpicSharkoTameRC"
     },
     "onMobTickUpdate": {
       "name": "SharkTamedOnEntityTickUpdate"
