@@ -16,11 +16,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1644826,
+      "value": -12434740,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -10450,
+      "value": -1,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -114,6 +114,9 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
+    "spawningCondition": {
+      "name": "AprilFoolsDespawning"
+    },
     "spawningProbability": 20,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,

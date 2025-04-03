@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "allaboutengie:engie_sharko_april_fools",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 8
+  }
+}

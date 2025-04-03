@@ -1,0 +1,20 @@
+
+package net.mcreator.allaboutengie.client.renderer;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+
+import net.mcreator.allaboutengie.entity.EngieSharkoRare2LayAprilFoolsEntity;
+import net.mcreator.allaboutengie.client.model.Modelboyoaprilfoolssit;
+
+public class EngieSharkoRare2LayAprilFoolsRenderer extends MobRenderer<EngieSharkoRare2LayAprilFoolsEntity, Modelboyoaprilfoolssit<EngieSharkoRare2LayAprilFoolsEntity>> {
+	public EngieSharkoRare2LayAprilFoolsRenderer(EntityRendererProvider.Context context) {
+		super(context, new Modelboyoaprilfoolssit(context.bakeLayer(Modelboyoaprilfoolssit.LAYER_LOCATION)), 0.5f);
+	}
+
+	@Override
+	public ResourceLocation getTextureLocation(EngieSharkoRare2LayAprilFoolsEntity entity) {
+		return new ResourceLocation("allaboutengie:textures/entities/engieboyorare2aprilfirstt.png");
+	}
+}

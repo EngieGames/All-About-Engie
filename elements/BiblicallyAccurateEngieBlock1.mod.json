@@ -12,13 +12,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
         "value": "CUSTOM:BiblicallyAccurateEngieEssence"
@@ -27,7 +24,10 @@
         "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
         "value": "CUSTOM:BiblicallyAccurateEngieEssence"
@@ -36,7 +36,7 @@
         "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BiblicallyAccurateEngieEssence"
       }
     ],
     "recipeReturnStack": {

@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ColossalBanHammerPixel"
+      "value": "CUSTOM:MonstrosityBanHammerPixel"
     },
     "name": "monstrosity_ban_pixel_craft",
     "namespace": "mod"

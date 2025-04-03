@@ -2,8 +2,9 @@
   "group": "biblicallyaccurateengieitemstoblock",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
     "0": {
@@ -16,6 +17,21 @@
       "item": "allaboutengie:biblically_accurate_engie_essence"
     },
     "3": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "4": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "5": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "6": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "7": {
+      "item": "allaboutengie:biblically_accurate_engie_essence"
+    },
+    "8": {
       "item": "allaboutengie:biblically_accurate_engie_essence"
     }
   },

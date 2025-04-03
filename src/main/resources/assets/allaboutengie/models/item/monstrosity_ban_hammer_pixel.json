@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/ban_hammer_monstrosity_pixel",
+  "textures": {
+    "1": "allaboutengie:blocks/monstrositypixel",
+    "particle": "allaboutengie:items/monstrositypixel"
+  }
+}

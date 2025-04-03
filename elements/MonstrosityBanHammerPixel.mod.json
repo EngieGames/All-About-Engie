@@ -1,0 +1,32 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "monstrositypixel",
+    "customModelName": "ban_hammer_monstrosity_pixel:default",
+    "name": "A Pixelized Monstrosity Ban Hammer",
+    "specialInfo": [
+      "You could say this ban hammer is a Monstrosity.. Heh? Alright I know that was a terrible joke anyway."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BanHammers"
+    },
+    "harvestLevel": 10,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 128000,
+    "damageVsEntity": 2400.0,
+    "usageCount": 24000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "BiblicallyAccurateBanObtainPro"
+    }
+  }
+}

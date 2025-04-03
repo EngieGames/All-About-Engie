@@ -9998,41 +9998,6 @@
       "path": "~/All Items/Other"
     },
     {
-      "name": "SharkoZoomies",
-      "type": "livingentity",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoZoomiesRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/SharkoZoomiesEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "SharkoZoomiesTimer",
-      "type": "procedure",
-      "sortid": 725,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sharko_zoomies_timer",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoZoomiesTimerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "ShovelKing",
       "type": "painting",
       "sortid": 726,
@@ -10043,127 +10008,6 @@
         "files": []
       },
       "path": "~/Paintings"
-    },
-    {
-      "name": "AlbinoSharkoZoomies",
-      "type": "livingentity",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "albino_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoZoomiesRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoZoomiesEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "RareSharkoZoomies",
-      "type": "livingentity",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoZoomiesEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoZoomiesRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "LegendarySharkoZoomies",
-      "type": "livingentity",
-      "sortid": 246,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoZoomiesEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoZoomiesRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "MythicSharkoZoomies",
-      "type": "livingentity",
-      "sortid": 247,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoZoomiesRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoZoomiesEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "ExoticSharkoZoomies",
-      "type": "livingentity",
-      "sortid": 248,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoZoomiesEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoZoomiesRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "EngieSharkoZoomies",
-      "type": "livingentity",
-      "sortid": 249,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoZoomiesEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoZoomiesRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "EngieSharkoRareZoomies",
-      "type": "livingentity",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_sharko_rare_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareZoomiesRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareZoomiesEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "EngieSharkoRare2Zoomies",
-      "type": "livingentity",
-      "sortid": 251,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_sharko_rare_2_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2ZoomiesRenderer.java",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_zoomies_biome_modifier.json",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2ZoomiesEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
     },
     {
       "name": "TobyZoomies",
@@ -10361,126 +10205,6 @@
       "path": "~/Mobs/Sharkos"
     },
     {
-      "name": "SharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 256,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoZoomiesTiredRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/SharkoZoomiesTiredEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "AlbinoSharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 257,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "albino_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoZoomiesTiredEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoZoomiesTiredRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "RareSharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 258,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoZoomiesTiredRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoZoomiesTiredEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "LegendarySharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 259,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "legendary_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoZoomiesTiredRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoZoomiesTiredEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "MythicSharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 260,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mythic_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoZoomiesTiredRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoZoomiesTiredEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "ExoticSharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 261,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exotic_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoZoomiesTiredEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoZoomiesTiredRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "EngieSharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 262,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoZoomiesTiredRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoZoomiesTiredEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "EngieSharkoRareZoomiesTired",
-      "type": "livingentity",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "engie_sharko_rare_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareZoomiesTiredRenderer.java",
-          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareZoomiesTiredEntity.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
       "name": "EngieSharkoRare2ZoomiesTired",
       "type": "livingentity",
       "sortid": 264,
@@ -10554,26 +10278,6 @@
         ]
       },
       "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "SharkoZoomTiredTimer",
-      "type": "procedure",
-      "sortid": 736,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sharko_zoom_tired_timer",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoZoomTiredTimerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
     },
     {
       "name": "SharkoTamedZoomiesTired",
@@ -13552,109 +13256,19 @@
       "path": "~/All Items/Regular/Blocks"
     },
     {
-      "name": "ImmenseBanHammer",
-      "type": "tool",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "immense_ban_hammer",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ImmenseBanHammerItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/immense_ban_hammer.json"
-        ]
-      },
-      "path": "~/All Items/Regular/Weapons"
-    },
-    {
-      "name": "ColossolBanHammer",
-      "type": "tool",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "colossol_ban_hammer",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/colossol_ban_hammer.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ColossolBanHammerItem.java"
-        ]
-      },
-      "path": "~/All Items/Regular/Weapons"
-    },
-    {
-      "name": "MammothBanHammer",
-      "type": "tool",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mammoth_ban_hammer",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mammoth_ban_hammer.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MammothBanHammerItem.java"
-        ]
-      },
-      "path": "~/All Items/Regular/Weapons"
-    },
-    {
       "name": "BahemothBanHammer",
       "type": "tool",
       "sortid": 135,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bahemoth_ban_hammer",
+      "registry_name": "comically_massive_ban_hammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/bahemoth_ban_hammer.json",
+          "src/main/resources/assets/allaboutengie/models/item/comically_massive_ban_hammer.json",
           "src/main/java/net/mcreator/allaboutengie/item/BahemothBanHammerItem.java"
         ]
       },
       "path": "~/All Items/Exclusive/Ban Hammers"
-    },
-    {
-      "name": "ColossalBanHammerPixel",
-      "type": "tool",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "colossal_ban_hammer_pixel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/colossal_ban_hammer_pixel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/ColossalBanHammerPixelItem.java"
-        ]
-      },
-      "path": "~/All Items/Regular/Weapons/Pixel Var"
-    },
-    {
-      "name": "ImmenseBanHammerPixel",
-      "type": "tool",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "immense_ban_hammer_pixel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/item/ImmenseBanHammerPixelItem.java",
-          "src/main/resources/assets/allaboutengie/models/item/immense_ban_hammer_pixel.json"
-        ]
-      },
-      "path": "~/All Items/Regular/Weapons/Pixel Var"
-    },
-    {
-      "name": "MammothBanHammerPixel",
-      "type": "tool",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mammoth_ban_hammer_pixel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/allaboutengie/models/item/mammoth_ban_hammer_pixel.json",
-          "src/main/java/net/mcreator/allaboutengie/item/MammothBanHammerPixelItem.java"
-        ]
-      },
-      "path": "~/All Items/Regular/Weapons/Pixel Var"
     },
     {
       "name": "BahemothBanHammerPixel",
@@ -13662,10 +13276,10 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bahemoth_ban_hammer_pixel",
+      "registry_name": "comically_massive_ban_hammer_pixel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/allaboutengie/models/item/bahemoth_ban_hammer_pixel.json",
+          "src/main/resources/assets/allaboutengie/models/item/comically_massive_ban_hammer_pixel.json",
           "src/main/java/net/mcreator/allaboutengie/item/BahemothBanHammerPixelItem.java"
         ]
       },
@@ -13835,62 +13449,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/allaboutengie/recipes/monstrosity_to_item.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "MonstrosityBanCraft2",
-      "type": "recipe",
-      "sortid": 857,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monstrosity_ban_craft_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/recipes/monstrosity_ban_craft_2.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "MonstrosityBanPixelCraft2",
-      "type": "recipe",
-      "sortid": 858,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monstrosity_ban_pixel_craft_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/recipes/monstrosity_ban_pixel_craft_2.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "MonstrosityBanCraft3",
-      "type": "recipe",
-      "sortid": 859,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monstrosity_ban_craft_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/recipes/monstrosity_ban_craft_3.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "MonstrosityBanPixelCraft3",
-      "type": "recipe",
-      "sortid": 860,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monstrosity_ban_pixel_craft_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/recipes/monstrosity_ban_pixel_craft_3.json"
         ]
       },
       "path": "~/Recipes"
@@ -14340,21 +13898,6 @@
       "path": "~/Mobs/Sharkos"
     },
     {
-      "name": "EpicSharkoZoomies",
-      "type": "livingentity",
-      "sortid": 322,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_sharko_zoomies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoZoomiesEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoZoomiesRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
       "name": "EpicSharkoTamedZoomies",
       "type": "livingentity",
       "sortid": 888,
@@ -14365,21 +13908,6 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoTamedZoomiesEntity.java",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoTamedZoomiesRenderer.java"
-        ]
-      },
-      "path": "~/Mobs/Sharkos"
-    },
-    {
-      "name": "EpicSharkoZoomiesTired",
-      "type": "livingentity",
-      "sortid": 323,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "epic_sharko_zoomies_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoZoomiesTiredEntity.java",
-          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoZoomiesTiredRenderer.java"
         ]
       },
       "path": "~/Mobs/Sharkos"
@@ -14941,6 +14469,1598 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "AngryEngieSharko",
+      "type": "livingentity",
+      "sortid": 918,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/AngryEngieSharkoEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/angry_engie_sharko_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AngryEngieSharkoRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/angry_engie_sharko_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    },
+    {
+      "name": "EnragedEngieSharko",
+      "type": "livingentity",
+      "sortid": 919,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/enraged_engie_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EnragedEngieSharkoRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EnragedEngieSharkoEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/enraged_engie_sharko_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    },
+    {
+      "name": "OutragedEngieSharko",
+      "type": "livingentity",
+      "sortid": 920,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/OutragedEngieSharkoRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/outraged_engie_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/OutragedEngieSharkoEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/outraged_engie_sharko_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    },
+    {
+      "name": "MonstrosityEngieSharko",
+      "type": "livingentity",
+      "sortid": 921,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monstrosity_engie_sharko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/monstrosity_engie_sharko_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/monstrosity_engie_sharko_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MonstrosityEngieSharkoRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/MonstrosityEngieSharkoEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    },
+    {
+      "name": "AprilFoolsSpawning",
+      "type": "procedure",
+      "sortid": 922,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "april_fools_spawning",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AprilFoolsSpawningProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AprilFoolsDespawning",
+      "type": "procedure",
+      "sortid": 923,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "april_fools_despawning",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AprilFoolsDespawningProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AprilFoolsMobSpawning",
+      "type": "procedure",
+      "sortid": 924,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "april_fools_mob_spawning",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AprilFoolsMobSpawningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AprilFoolsMonstrositySpawning",
+      "type": "procedure",
+      "sortid": 926,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "april_fools_monstrosity_spawning",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AprilFoolsMonstrositySpawningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 927,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/sharko_april_fools_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoAprilFoolsRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/sharko_april_fools_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 928,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoAprilFoolsRenderer.java",
+          "src/main/resources/assets/allaboutengie/models/item/albino_sharko_april_fools_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/albino_sharko_april_fools_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "RareSharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 929,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoAprilFoolsEntity.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/rare_sharko_april_fools_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/rare_sharko_april_fools_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 930,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoAprilFoolsRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/legendary_sharko_april_fools_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/legendary_sharko_april_fools_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "MythicSharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 931,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/mythic_sharko_april_fools_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoAprilFoolsRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/mythic_sharko_april_fools_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 932,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/exotic_sharko_april_fools_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoAprilFoolsEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/exotic_sharko_april_fools_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 933,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoAprilFoolsEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_april_fools_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoAprilFoolsRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_april_fools_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRareAprilFools",
+      "type": "livingentity",
+      "sortid": 934,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareAprilFoolsEntity.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_april_fools_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_april_fools_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRare2AprilFools",
+      "type": "livingentity",
+      "sortid": 935,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_april_fools_spawn_egg.json",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_april_fools_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2AprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2AprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "SharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 936,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoTamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoTamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 937,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoTamedAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoTamedAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "RareSharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 938,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoTamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoTamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 940,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoTamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoTamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "MythicSharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 939,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoTamedAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoTamedAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 941,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoTamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoTamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 942,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoTamedAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoTamedAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRareTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 943,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareTamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareTamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRare2TamedAprilFools",
+      "type": "livingentity",
+      "sortid": 944,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2TamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2TamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "SharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 945,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AlbinoSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 946,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AlbinoSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RareSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 947,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RareSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LegendarySharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 948,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/LegendarySharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MythicSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 949,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MythicSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 950,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieRareSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 951,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_rare_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieRareSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieRare2SharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 952,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_rare_2_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieRare2SharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ExoticSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 953,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ExoticSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EpicSharkoAprilFoolsRCTame",
+      "type": "procedure",
+      "sortid": 954,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_april_fools_rc_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EpicSharkoAprilFoolsRCTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 955,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AlbinoSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 956,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AlbinoSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RareSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 957,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RareSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LegendarySharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 958,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/LegendarySharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MythicSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 959,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MythicSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 960,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieRareSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 961,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_rare_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieRareSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieRare2SharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 962,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_rare_2_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieRare2SharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ExoticSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 963,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ExoticSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EpicSharkoAprilFoolsTameRC",
+      "type": "procedure",
+      "sortid": 964,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_april_fools_tame_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EpicSharkoAprilFoolsTameRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 965,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoLayAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoLayAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 966,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoLayAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoLayAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "RareSharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 967,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoLayAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoLayAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 968,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoLayAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoLayAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "MythicSharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 969,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoLayAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoLayAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 970,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoLayAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoLayAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 971,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoLayAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoLayAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRareLayAprilFools",
+      "type": "livingentity",
+      "sortid": 972,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareLayAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareLayAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRare2LayAprilFools",
+      "type": "livingentity",
+      "sortid": 973,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2LayAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2LayAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "SharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 974,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/SharkoSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/SharkoSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "AlbinoSharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 975,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/AlbinoSharkoSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/AlbinoSharkoSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "RareSharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 976,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/RareSharkoSleepAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/RareSharkoSleepAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "LegendarySharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 977,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/LegendarySharkoSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/LegendarySharkoSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "MythicSharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 978,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MythicSharkoSleepAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/MythicSharkoSleepAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "ExoticSharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 979,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/ExoticSharkoSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/ExoticSharkoSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 980,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRareSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 981,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRareSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRareSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EngieSharkoRare2SleepAprilFools",
+      "type": "livingentity",
+      "sortid": 982,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_rare_2_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2SleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2SleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EpicSharkoAprilFools",
+      "type": "livingentity",
+      "sortid": 983,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/epic_sharko_april_fools_biome_modifier.json",
+          "src/main/resources/assets/allaboutengie/models/item/epic_sharko_april_fools_spawn_egg.json",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EpicSharkoTamedAprilFools",
+      "type": "livingentity",
+      "sortid": 984,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_tamed_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoTamedAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoTamedAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EpicSharkoLayAprilFools",
+      "type": "livingentity",
+      "sortid": 985,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_lay_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoLayAprilFoolsRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoLayAprilFoolsEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "EpicSharkoSleepAprilFools",
+      "type": "livingentity",
+      "sortid": 986,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_sleep_april_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/EpicSharkoSleepAprilFoolsEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/EpicSharkoSleepAprilFoolsRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Sharkos"
+    },
+    {
+      "name": "SharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 987,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AlbinoSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 988,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albino_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/AlbinoSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RareSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 989,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RareSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LegendarySharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 990,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/LegendarySharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MythicSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 991,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MythicSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 992,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieRareSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 993,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_rare_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieRareSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieRare2SharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 994,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_rare_2_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieRare2SharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ExoticSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 995,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotic_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ExoticSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EpicSharkoAprilFoolsLayRC",
+      "type": "procedure",
+      "sortid": 996,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_sharko_april_fools_lay_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EpicSharkoAprilFoolsLayRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MonstrosityBanHammer",
+      "type": "tool",
+      "sortid": 997,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monstrosity_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/monstrosity_ban_hammer.json",
+          "src/main/java/net/mcreator/allaboutengie/item/MonstrosityBanHammerItem.java"
+        ]
+      },
+      "path": "~/All Items/Regular/Weapons"
+    },
+    {
+      "name": "MonstrosityBanHammerPixel",
+      "type": "tool",
+      "sortid": 998,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monstrosity_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/item/MonstrosityBanHammerPixelItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/monstrosity_ban_hammer_pixel.json"
+        ]
+      },
+      "path": "~/All Items/Regular/Weapons/Pixel Var"
     }
   ],
   "variable_elements": [
@@ -15026,196 +16146,95 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.aae_items.operators_boots": "Operators Boots",
       "item.allaboutengie.enraged_engies_leggings": "Enraged Engie Leggings",
       "entity.allaboutengie.mythic_sharko_tamed_zoomies": "[Tamed] Mythic Sharko (Zoomies)",
       "item.allaboutengie.common_chestplate": "Common Chestplate",
-      "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.aae_items.echdeath": "ECHDEATH",
       "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
-      "item.allaboutengie.shark_leggings": "Sharko Leggings",
       "item_group.allaboutengie.zombies": "Zombies",
-      "item.aae_items.angry_engie_axe": "Angry Engie Axe",
       "item.allaboutengie.common_axe": "Common Axe",
-      "item.allaboutengie.cheese_balls_opened": "Cheese Balls Opened",
       "item.allaboutengie.biblically_accurate_engie_shovel": "Biblically Accurate Engie Shovel",
-      "itemGroup.tabaae_items_food": "Food",
       "item.allaboutengie.engie_shovel": "Engie Shovel",
       "item.allaboutengie.uncommon_chestplate": "Uncommon Chestplate",
-      "advancements.angry_engie_essence_obtained.descr": "Obtain an Angry Engie Essence for the first time.",
-      "advancements.huge_ban_obtain.descr": "Obtain a Huge Ban Hammer",
       "item.allaboutengie.common_helmet": "Common Helmet",
-      "item.allaboutengie.blood_helmet": "Blood Helmet",
-      "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
-      "item.allaboutengie.albino_shark_helmet": "Albino Sharko Helmet",
-      "advancements.massive_ban_obtain.descr": "Obtain a Massive Ban Hammer",
-      "entity.allaboutengie.engie_sharko_rare_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
+      "entity.allaboutengie.mythic_sharko_lay_april_fools": "[Tamed] Mythic Sharko (Laying)",
       "item.allaboutengie.enraged_engie_essence": "Enraged Engie Essence",
       "advancements.large_ban_obtain.title": "Now THIS is a good Ban Hammer choice.",
-      "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
-      "item.aae_items.ban_hammer": "Ban Hammer",
-      "advancements.new_world.descr": "Create a new world with the All About Engie mod installed.",
-      "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
       "painting.allaboutengie.aae_items_logo.author": "EngieGames",
       "advancements.mini_ban_obtain.title": "This really could\u0027ve been a toy...",
-      "entity.allaboutengie.marshal_zoomies": "Marshal",
       "item.allaboutengie.epic_axe": "Epic Axe",
       "item.allaboutengie.epic_shark_helmet": "Epic Sharko Helmet",
-      "item.allaboutengie.mythic_shark_boots": "Mythic Sharko Boots",
-      "entity.allaboutengie.enraged_normal": "Enraged Normal",
-      "entity.allaboutengie.toby_lay": "Toby [Laying]",
-      "item.allaboutengie.outraged_engie_essence": "Outraged Engie Essence",
-      "block.aae_items.metal_chest_warped": "Warped Metal Chest",
-      "advancements.enormous_ban_obtain.descr": "Obtain a Enormous Ban Hammer",
+      "entity.allaboutengie.mythic_sharko_april_fools": "Mythic Sharko",
       "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
       "item.allaboutengie.mini_ban_hammer": "Mini Ban Hammer",
       "entity.allaboutengie.louis_zoomies_tired": "Louis (Worn Out)",
-      "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
-      "advancements.monstrosity_engie_tools_obtained.title": "SO MUCH NOPE!",
       "item.allaboutengie.enraged_tnt_spawn_egg": "Enraged TNT Spawn Egg",
-      "item.allaboutengie.common_engie_spawn_egg": "Common Engie Spawn Egg",
-      "entity.allaboutengie.cbe_lay": "clippedbyengie (da boyo) [Laying]",
-      "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
-      "painting.allaboutengie.shovel_king.author": "Engie, bothan2net",
       "entity.allaboutengie.bothan_2net_zoomies_tired": "Bothan2net (Worn Out)",
-      "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "advancements.mammoth_ban_obtain.title": "Alright, have fun with this.",
+      "painting.allaboutengie.shovel_king.author": "Engie, bothan2net",
+      "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
       "block.allaboutengie.metal_table": "Metal Chest",
-      "entity.allaboutengie.apollo_zoomies_tired": "Apollo (Worn Out)",
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "advancements.biblically_accurate_engie_armor_obtained.descr": "Obtain Biblically Accruate Engie Armor for the first time.",
       "item.allaboutengie.cyberblood_helmet": "Cyberblood Helmet",
       "entity.allaboutengie.toby": "Toby",
-      "item.allaboutengie.legendary_helmet": "Legendary Helmet",
-      "entity.allaboutengie.sharko_zoomies": "Sharko (Zoomies)",
       "entity.allaboutengie.engie_sharko_rare_2": "Rare Engie Sharko",
       "item.allaboutengie.mythic_boots": "Mythic Boots",
-      "item.allaboutengie.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "entity.allaboutengie.tiger_zoomies": "Tiger",
       "block.aae_items.metal_chest_acacia": "Acacia Metal Chest",
-      "item.allaboutengie.legendary_axe": "Legendary Axe",
-      "item.allaboutengie.enraged_engies_boots": "Enraged Engie Boots",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
-      "entity.allaboutengie.engie_sharko_rare_lay": "[Tamed] Rare Engie Sharko (Laying)",
       "entity.allaboutengie.exotic_sharko_lay": "[Tamed] Exotic Sharko (Laying)",
-      "item.allaboutengie.rare_sword": "Rare Sword",
-      "entity.allaboutengie.rare_sharko_sleep": "[Tamed] Rare Sharko (Sleeping)",
-      "item.allaboutengie.monstrosity_engie_essence": "Monstrosity Engie Essence",
-      "item.allaboutengie.epic_shovel": "Epic Shovel",
       "item.allaboutengie.uncommon_hoe": "Uncommon Hoe",
+      "entity.allaboutengie.outraged_engie_sharko": "Outraged Engie",
       "entity.allaboutengie.atlas_sleep": "Atlas (Sleeping)",
-      "advancements.monstrosity_engie_essence_obtained.title": "One shudders to imagine what inhuman thoughts lie behind those eyes.",
       "block.allaboutengie.outraged_engie_block": "Outraged Engie Block",
       "item.aae_items.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "entity.allaboutengie.buddy_lay": "Buddy [Laying]",
+      "entity.allaboutengie.engie_sharko_lay_april_fools": "[Tamed] Engie Sharko (Laying)",
       "advancements.outraged_tools_obtained.title": "Phew, not much of a waste.",
-      "entity.allaboutengie.epic_sharko_sleep": "[Tamed] Epic Sharko (Sleeping)",
       "item.allaboutengie.code_redeemers_chestplate": "Code Redeemers Chestplate",
-      "entity.allaboutengie.protogen": "Protogen",
       "painting.allaboutengie.tiger_shark_cat_onsie.author": "EngieGames",
       "block.aae_items.enraged_engie_block": "Enraged Engie Block",
       "painting.allaboutengie.tiger_shark.title": "Tiger Shark",
-      "entity.aae_items.engie_games_gui": "EngieGames",
       "item.allaboutengie.engies_boots": "Engie Boots",
-      "item.allaboutengie.enraged_engies_helmet": "Enraged Engie Helmet",
-      "item.allaboutengie.unobtainium_shovel": "Unobtainium Shovel",
       "item.allaboutengie.code_redeemers_hammer_pixel": "Pixelized Code Redeemers Hammer",
-      "entity.allaboutengie.sharko_sleep": "[Tamed] Sharko (Sleeping)",
       "entity.allaboutengie.engie_games": "EngieGames",
       "item.allaboutengie.legendary_sharko_cloth": "Legendary Sharko Cloth",
-      "item.allaboutengie.huge_ban_hammer": "Huge Ban Hammer",
-      "painting.allaboutengie.aae_sharkos.author": "DevEngie",
       "item.allaboutengie.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "item.allaboutengie.engie_sharko_spawn_egg": "Engie Sharko Spawn Egg",
-      "item.allaboutengie.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
-      "item.allaboutengie.colossol_ban_hammer": "Colossol Ban Hammer",
       "item.allaboutengie.epic_sharko_spawn_egg": "Epic Sharko Spawn Egg",
       "item.allaboutengie.cyber_katana": "Cyber Katana",
       "item.allaboutengie.brownies_opened": "Brownies Opened",
-      "item.allaboutengie.gigantic_ban_hammer_pixel": "Pixelized Gigantic Ban Hammer",
-      "painting.allaboutengie.aae_world.title": "All About Engie (Just the planets.)",
-      "entity.allaboutengie.legendary_engie": "Legendary Engie",
-      "painting.allaboutengie.developer_engie.title": "Developer Engie",
-      "painting.allaboutengie.playedbyengie.title": "playedbyengie",
-      "item.aae_items.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
       "entity.allaboutengie.engie_sharko_rare_sleep": "[Tamed] Rare Engie Sharko (Sleeping)",
       "item.allaboutengie.monstrosity_engies_helmet": "Monstrosity Engie Helmet",
-      "item.allaboutengie.mythic_hoe": "Mythic Hoe",
-      "item.aae_items.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.aae_items.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "item.allaboutengie.monstrosity_engie_spawn_egg": "Monstrosity Engie Spawn Egg",
-      "item.allaboutengie.cyberblood_battle_axe": "Cyberblood Battle Axe",
-      "block.allaboutengie.metal_chest_birch": "Birch Metal Chest",
-      "item.allaboutengie.legendary_shark_leggings": "Legendary Sharko Leggings",
+      "item.allaboutengie.rare_sharko_april_fools_spawn_egg": "Rare Sharko Spawn Egg",
       "painting.allaboutengie.ez.author": "DevEngie",
-      "entity.allaboutengie.atlas_zoomies_tired": "Atlas (Worn Out)",
-      "item.allaboutengie.blood_leggings": "Blood Leggings",
-      "item.allaboutengie.uncommon_leggings": "Uncommon Leggings",
       "item.allaboutengie.operators_helmet": "Operators Helmet",
-      "item.allaboutengie.uncommon_helmet": "Uncommon Helmet",
-      "entity.allaboutengie.engie_sharko_rare_2_lay": "[Tamed] Rare Engie Sharko (Laying)",
-      "block.allaboutengie.metal_chest_acacia": "Acacia Metal Chest",
-      "item.allaboutengie.dough_with_sauce": "Dough With Sauce",
       "item.allaboutengie.biblically_accurate_engies_boots": "Biblically Accurate Engie Boots",
-      "painting.allaboutengie.ech.author": "Fargo\u0027s Souls, Imported by EngieGames",
-      "item.aae_items.true_ban_hammer": "True Ban Hammer (COMMAND)",
-      "item.allaboutengie.common_boots": "Common Boots",
+      "entity.allaboutengie.epic_sharko_lay_april_fools": "[Tamed] Epic Sharko (Laying)",
       "entity.allaboutengie.epic_sharko": "Epic Sharko",
-      "item.allaboutengie.cyber_leggings": "Cyber Leggings",
       "item.allaboutengie.legendary_boots": "Legendary Boots",
       "gamerule.detectiveMode": "Detective Mode",
-      "advancements.engie_armor_made.title": "\"What was noise?\"",
-      "entity.allaboutengie.rare_engie": "Rare Engie",
       "advancements.enraged_engie_armor_made.descr": "Obtain Enraged Engie Armor for the first time.",
-      "advancements.outraged_engie_essence_obtained.descr": "Obtain an Outraged Engie Essence for the first time.",
-      "item.allaboutengie.mammoth_ban_hammer_pixel": "Pixelized Mammoth Ban Hammer",
-      "item.allaboutengie.legendary_leggings": "Legendary Leggings",
+      "entity.allaboutengie.legendary_sharko_april_fools": "Legendary Sharko",
+      "entity.allaboutengie.angry_engie_sharko": "Angry Engie",
       "item.aae_items.big_ban_hammer_pixel": "Big Ban Hammer Pixel",
-      "entity.allaboutengie.mythic_sharko_lay": "[Tamed] Mythic Sharko (Laying)",
       "item.allaboutengie.engie_hoe": "Engie Hoe",
-      "item.allaboutengie.cheese_ball": "Cheese Ball",
-      "item.allaboutengie.bagel": "Bagel",
-      "advancements.found_engie.descr": "Have a chat with Engie. GG.",
       "item_group.allaboutengie.sharkos": "Sharkos",
-      "advancements.engies_scythe_obtained.descr": "Obtain one of Engie\u0027s Scythes.",
-      "entity.allaboutengie.pbe_zoomies": "playedbyengie (da boyo)",
       "item.aae_items.dough_with_sauce": "Dough With Sauce",
       "entity.allaboutengie.quizzet": "Quizzet",
-      "item.aae_items.angry_engie_shovel": "Angry Engie Shovel",
       "item.aae_items.engies_scythe": "Engie\u0027s Scythe",
-      "item.allaboutengie.legendary_pickaxe": "Legendary Pickaxe",
       "item.allaboutengie.massive_ban_hammer": "Massive Ban Hammer",
       "item.allaboutengie.engies_leggings": "Engie Leggings",
-      "block.allaboutengie.metal_chest_oak": "Oak Metal Chest",
       "entity.allaboutengie.cbe_zoomies_tired": "clippedbyengie (da boyo) (Worn Out)",
-      "item.allaboutengie.engie_sharko_rare_2_spawn_egg": "Rare Engie Sharko Spawn Egg",
-      "item.allaboutengie.code_redeemers_helmet": "Code Redeemers Helmet",
-      "advancements.colossol_ban_obtain.descr": "Obtain a Colossal Ban Hammer",
-      "painting.allaboutengie.aae.author": "DevEngie",
       "advancements.monstrosity_engie_armor_obtained.title": "My NO chart just skyrocketed now.",
       "advancements.biblically_accurate_tools_obtained.title": "I\u0027ll take your entire stock.",
-      "item.allaboutengie.albino_shark_chestplate": "Albino Sharko Chestplate",
       "block.aae_items.old_engie_ore": "Engie Ore",
-      "item.allaboutengie.epic_leggings": "Epic Leggings",
-      "entity.allaboutengie.atlas_zoomies": "Atlas",
       "item.allaboutengie.epic_hoe": "Epic Hoe",
-      "entity.allaboutengie.buddy": "Buddy",
       "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
       "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "item.allaboutengie.ban_hammer_pixel": "Pixelized Ban Hammer",
-      "entity.allaboutengie.biblically_accurate_engie": "Biblically Accurate Engie",
       "item.allaboutengie.angry_engies_leggings": "Angry Engie Leggings",
       "item.allaboutengie.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "item.allaboutengie.angry_engie_spawn_egg": "Angry Engie Spawn Egg",
-      "entity.allaboutengie.epic_sharko_zoomies": "Epic Sharko",
-      "item.aae_items.operators_leggings": "Operators Leggings",
       "item.allaboutengie.sharko_spawn_egg": "Sharko Spawn Egg",
-      "item.allaboutengie.rare_sharko_spawn_egg": "Rare Sharko Spawn Egg",
+      "item.aae_items.operators_leggings": "Operators Leggings",
       "item.allaboutengie.cooked_pizza": "Cooked Pizza",
-      "item.aae_items.enraged_engie_hoe": "Enraged Engie Hoe",
+      "item.allaboutengie.rare_sharko_spawn_egg": "Rare Sharko Spawn Egg",
       "item.allaboutengie.golden_cookie": "Golden Cookie",
-      "item.allaboutengie.empty_cheese_balls_bin": "Empty Cheese Balls Bin",
       "item.allaboutengie.biblically_accurate_engies_leggings": "Biblically Accurate Engie Leggings",
       "entity.allaboutengie.rare_sharko": "Rare Sharko",
       "item.allaboutengie.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
@@ -15223,193 +16242,506 @@
       "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
       "block.allaboutengie.cyberblood_block": "Cyberblood Block",
       "item.aae_items.engi_pickaxe": "Engi Pickaxe",
-      "item.aae_items.dough": "Dough",
-      "item.allaboutengie.engie_sharko_rare_spawn_egg": "Rare Engie Sharko Spawn Egg",
-      "advancements.enraged_engie_tool_obtained.descr": "Obtain your first Enraged Engie tool.",
-      "item.allaboutengie.operators_chestplate": "Operators Chestplate",
       "item.allaboutengie.engies_scythe_pixel": "Pixel Engie\u0027s Scythe",
       "block.allaboutengie.metal_chest_spruce": "Spruce Metal Chest",
       "item.allaboutengie.true_ban_hammer_ncmd": "True Ban Hammer (NO COMMAND)",
-      "entity.allaboutengie.engie_sharko_rare_tamed": "[Tamed] Rare Engie Sharko",
-      "item.aae_items.cheese_puffs_opened": "Cheese Puffs Opened",
-      "block.aae_items.metal_chest_jungle": "Jungle Metal Chest",
-      "item.allaboutengie.large_ban_hammer": "Large Ban Hammer",
-      "advancements.biblically_accurate_essence_obtained.title": "Something more tame at least.",
       "block.allaboutengie.angel_hatted_present": "Angel Hatted Present",
       "item.allaboutengie.exotic_helmet": "Exotic Helmet",
       "entity.allaboutengie.angry_engie": "Angry Engie",
       "entity.allaboutengie.albino_sharko_tamed_zoomies": "[Tamed] Albino Sharko (Zoomies)",
-      "entity.allaboutengie.engie_sharko_rare_2_zoomies_tired": "Rare Engie Sharko (Worn Out)",
       "item.allaboutengie.mythic_sword": "Mythic Sword",
+      "entity.allaboutengie.mythic_sharko_sleep_april_fools": "[Tamed] Mythic Sharko (Sleeping)",
       "block.allaboutengie.deepslate_engie_ore": "Engie Ore",
-      "item.allaboutengie.code_redeemers_boots": "Code Redeemers Boots",
-      "item.allaboutengie.unobtainium_sword": "Unobtainium Sword",
       "item.aae_items.crucifix": "Crucifix",
-      "item.aae_items.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "item.allaboutengie.cheese_balls_unopened": "Cheese Balls Unopened",
-      "entity.allaboutengie.albino_sharko_tamed_zoomies_tired": "[Tamed] Albino Sharko (Worn Out)",
-      "item.allaboutengie.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.outraged_engies_helmet": "Outraged Engie Helmet",
+      "item.allaboutengie.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
       "block.aae_items.old_deepslate_engie_ore": "Engie Ore",
       "item.allaboutengie.uncommon_axe": "Uncommon Axe",
-      "item.allaboutengie.immense_ban_hammer_pixel": "Pixelized Immense Ban Hammer",
       "entity.allaboutengie.mythic_engie": "Mythic Engie",
-      "item.allaboutengie.exotic_shark_helmet": "Exotic Sharko Helmet",
-      "item.aae_items.angry_engie_chestplate": "Angry Engie Chestplate",
-      "entity.allaboutengie.tiger_zoomies_tired": "Tiger (Worn Out)",
       "entity.allaboutengie.buddy_zoomies": "Buddy",
-      "advancements.angry_engie_armor_made.title": "Well that was a waste of time.",
       "advancements.monstrosity_engie_tools_obtained.descr": "Obtain your first Monstrosity Engie tool.",
-      "entity.allaboutengie.outraged_engie": "Outraged Engie",
-      "advancements.enraged_engie_armor_made.title": "Useful!",
       "item.allaboutengie.big_ban_hammer_pixel": "Pixelized Big Ban Hammer",
-      "block.allaboutengie.textboxyeah": "Textbox",
       "item.aae_items.engie_leggings": "Engie Leggings",
       "item.aae_items.mini_ban_hammer_pixel": "Mini Ban Hammer Pixel",
       "item.aae_items.bigger_ban_hammer": "Bigger Ban Hammer",
-      "block.allaboutengie.thanks_for_playing": "Thanks for playing!",
-      "painting.allaboutengie.aae_items_logo.title": "AAE Items Logo",
-      "item.allaboutengie.uncooked_pizza": "Uncooked Pizza",
       "item.allaboutengie.engies_helmet": "Engie Helmet",
       "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
-      "entity.allaboutengie.apollo_zoomies": "Apollo",
-      "item.allaboutengie.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
       "entity.allaboutengie.monstrosity_engie": "Monstrosity Engie",
-      "item.allaboutengie.unobtainium_chestplate": "Unobtainium Chestplate",
       "entity.allaboutengie.exotic_sharko_tamed_zoomies_tired": "[Tamed] Exotic Sharko (Worn Out)",
       "item.aae_items.engie_chestplate": "Engie Chestplate",
-      "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies": "[Tamed] Rare Engie Sharko (Zoomies)",
-      "gamerule.detectiveFindEngie": "Detective Mode",
       "entity.allaboutengie.tiger_lay": "Tiger [Laying]",
-      "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
       "advancements.massive_ban_obtain.title": "Remember lads: NO RULEBREAKING.",
-      "item.allaboutengie.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
       "entity.allaboutengie.albino_sharko_lay": "[Tamed] Albino Sharko (Laying)",
+      "entity.allaboutengie.engie_sharko_sleep_april_fools": "[Tamed] Engie Sharko (Sleeping)",
       "item.allaboutengie.monstrosity_engies_leggings": "Monstrosity Engie Leggings",
       "item.aae_items.biggest_ban_hammer": "Biggest Ban Hammer",
-      "item.allaboutengie.mobs_plaque": "All About Engie (Mobs) Plaque",
       "item.allaboutengie.aae_dev_engie": "DevEngie",
-      "entity.allaboutengie.buddy_zoomies_tired": "Buddy (Worn Out)",
       "entity.allaboutengie.mythic_sharko_tamed": "[Tamed] Mythic Sharko",
-      "block.allaboutengie.cyber_ore": "Cyber Ore",
       "entity.allaboutengie.enraged_speed_8": "Enraged Speed",
-      "item.aae_items.engi_axe": "Engi Axe",
-      "item.allaboutengie.operators_shovel": "Operators Shovel",
       "entity.allaboutengie.enraged_speed_9": "Enraged Speed",
+      "item.allaboutengie.operators_shovel": "Operators Shovel",
+      "item.aae_items.engi_axe": "Engi Axe",
       "advancements.enraged_engie_essence_obtained.title": "I fear no man, but that thing... It scares me.",
       "item.allaboutengie.quizzet_spawn_egg": "Quizzet Spawn Egg",
       "entity.allaboutengie.enraged_speed_6": "Enraged Speed",
-      "item.aae_items.engie_shovel": "Engie Shovel",
-      "item.allaboutengie.mythic_axe": "Mythic Axe",
       "entity.allaboutengie.enraged_speed_7": "Enraged Speed",
       "block.allaboutengie.angry_engie_block": "Angry Engie Block",
       "item.allaboutengie.epic_chestplate": "Epic Chestplate",
       "entity.allaboutengie.enraged_speed_4": "Enraged Speed",
-      "painting.allaboutengie.aae_extras.title": "All About Engie Extras Logo",
       "entity.allaboutengie.enraged_speed_5": "Enraged Speed",
       "item.allaboutengie.enchanted_exotic_cookie": "Enchanted Exotic Cookie",
-      "item.allaboutengie.epic_pickaxe": "Epic Pickaxe",
-      "entity.allaboutengie.sharko_zoomies_tired": "Sharko (Worn Out)",
-      "advancements.engies_scythe_obtained.title": "The weapon that killed He Who Games.",
       "item.allaboutengie.rare_helmet": "Rare Helmet",
-      "item.allaboutengie.cyber_boots": "Cyber Boots",
+      "advancements.engies_scythe_obtained.title": "The weapon that killed He Who Games.",
       "advancements.gotcha_engie.title": "Found him!",
       "painting.allaboutengie.playedbyengie.author": "playedbyengie (clippedbyengie)",
       "item.allaboutengie.big_ban_hammer": "Big Ban Hammer",
-      "item.allaboutengie.dough": "Dough",
-      "item.aae_items.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.aae_items.angry_engie_pickaxe": "Angry Engie Pickaxe",
       "item.allaboutengie.monstrosity_engies_chestplate": "Monstrosity Engie Chestplate",
-      "block.allaboutengie.metal_chest": "Metal Chest",
-      "entity.allaboutengie.pbe_zoomies_tired": "playedbyengie (da boyo) (Worn Out)",
       "item.allaboutengie.biblically_accurate_engie_ban_hammer": "Biblically Accurate Ban Hammer",
       "item.aae_items.cheese": "Cheese",
       "item.allaboutengie.exotic_sharko_cloth": "Exotic Sharko Cloth",
       "item.allaboutengie.uncommon_boots": "Uncommon Boots",
-      "entity.allaboutengie.rare_sharko_zoomies_tired": "Rare Sharko (Worn Out)",
-      "entity.allaboutengie.toby_sleep": "Toby (Sleeping)",
       "item.allaboutengie.engie_shark_boots": "Engie Sharko Boots",
-      "item.allaboutengie.blood_ingot": "Blood Ingot",
       "advancements.outraged_engie_essence_obtained.title": "No, I... I aint talking about that freak, alright?",
-      "item.aae_items.mini_ban_hammer": "Mini Ban Hammer",
-      "item.allaboutengie.biblically_accurate_engie_axe": "Biblically Accurate Engie Axe",
       "item.allaboutengie.legendary_chestplate": "Legendary Chestplate",
-      "entity.allaboutengie.legendary_sharko_sleep": "[Tamed] Legendary Sharko (Sleeping)",
-      "item.allaboutengie.enraged_engie_axe": "Enraged Engie Axe",
       "entity.allaboutengie.sharko_tamed_zoomies_tired": "[Tamed] Sharko (Worn Out)",
-      "entity.allaboutengie.sharko_tamed_zoomies": "[Tamed] Sharko (Zoomies)",
       "advancements.biblically_accurate_ban_obtain.title": "Take a break dude. You\u0027re gonna need it.",
-      "advancements.monstrosity_engie_armor_obtained.descr": "Obtain Monstrosity Engie Armor for the first time.",
-      "entity.allaboutengie.enraged_speed": "Enraged Speed",
       "entity.allaboutengie.engie": "Engie",
-      "item.allaboutengie.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
       "item.allaboutengie.mini_ban_hammer_pixel": "Pixelized Mini Ban Hammer",
       "advancements.gigantic_ban_obtain.title": "DevEngie approved. :D",
       "entity.allaboutengie.enraged_speed_2": "Enraged Speed",
+      "entity.allaboutengie.enraged_speed_3": "Enraged Speed",
       "item.allaboutengie.echdeath": "ECHDEATH",
       "item.allaboutengie.legendary_sword": "Legendary Sword",
-      "gui.allaboutengie.enraged_coin_overlay.label_empty": ":",
-      "entity.allaboutengie.enraged_speed_3": "Enraged Speed",
       "item.allaboutengie.exotic_hoe": "Exotic Hoe",
       "item.allaboutengie.outraged_engie_spawn_egg": "Outraged Engie Spawn Egg",
-      "item.allaboutengie.uncommon_shovel": "Uncommon Shovel",
       "item.aae_items.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
-      "item.allaboutengie.epic_sword": "Epic Sword",
       "block.allaboutengie.blood_block": "Blood Block",
-      "item.allaboutengie.biblically_accurate_engie_spawn_egg": "Biblically Accurate Engie Spawn Egg",
-      "item.allaboutengie.outraged_engie_hoe": "Outraged Engie Hoe",
       "entity.allaboutengie.rare_sharko_tamed_zoomies": "[Tamed] Rare Sharko (Zoomies)",
+      "item.allaboutengie.outraged_engie_hoe": "Outraged Engie Hoe",
+      "entity.allaboutengie.exotic_sharko_sleep_april_fools": "[Tamed] Exotic Sharko (Sleeping)",
       "block.allaboutengie.unobtainium_ore": "Unobtainium Ore",
-      "item.allaboutengie.mammoth_ban_hammer": "Mammoth Ban Hammer",
       "item.allaboutengie.rare_hoe": "Rare Hoe",
-      "item.allaboutengie.biblically_accurate_engie_ban_hammer_pixel": "Pixelized Biblically Accurate Ban Hammer",
-      "item.aae_items.cheese_puffs_unopened": "Cheese Puffs Unopened",
-      "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
       "block.allaboutengie.metal_chest_jungle": "Jungle Metal Chest",
+      "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
       "item.aae_items.true_ban_hammer_ncmd": "True Ban Hammer (NO COMMAND)",
       "entity.allaboutengie.sharko_lay": "[Tamed] Sharko (Laying)",
-      "entity.allaboutengie.engi_fr": "EngiFR",
-      "item.allaboutengie.legendary_shark_chestplate": "Legendary Sharko Chestplate",
-      "item.allaboutengie.engie_shark_chestplate": "Engie Sharko Chestplate",
-      "item.allaboutengie.outraged_engies_boots": "Outraged Engie Boots",
       "painting.allaboutengie.idea_giver_blood.author": "EngieGames, Blood",
       "item.aae_items.enraged_engie_chestplate": "Enraged Engie Chestplate",
       "item.aae_items.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
       "item.allaboutengie.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.shark_boots": "Sharko Boots",
-      "entity.allaboutengie.albino_sharko_sleep": "[Tamed] Albino Sharko (Sleeping)",
       "item.aae_items.engie_axe": "Engie Axe",
+      "entity.allaboutengie.marshal_sleep": "Marshal (Sleeping)",
+      "item.allaboutengie.unobtanium": "Unobtanium",
+      "block.allaboutengie.metal_chest_dark_oak": "Dark Oak Metal Chest",
+      "advancements.angry_engie_essence_obtained.title": "Why is it staring at me.",
+      "item.allaboutengie.rare_sharko_cloth": "Rare Sharko Cloth",
+      "advancements.enraged_engie_tool_obtained.title": "At least I can stop complaining about the other tool set.",
+      "itemGroup.tabzombies": "Zombies",
+      "item.allaboutengie.epic_shark_chestplate": "Epic Sharko Chestplate",
+      "item_group.allaboutengie.mobs": "Mobs",
+      "painting.allaboutengie.developer_engie.author": "[Dev]Engie(Games)",
+      "gamerule.detectiveMode.description": "Learn about lore, sets the in game day to above 100 days with a few different advancements to be obtained.",
+      "itemGroup.tabsharkos": "Sharkos",
+      "item.allaboutengie.cheese": "Cheese",
+      "block.allaboutengie.thanks_for_playing_2": "Thanks for playing!",
+      "block.allaboutengie.thanks_for_playing_3": "Thanks for playing!",
+      "painting.allaboutengie.ech.title": "Ech",
+      "entity.allaboutengie.mythic_sharko_tamed_april_fools": "[Tamed] Mythic Sharko",
+      "item.allaboutengie.operators_axe": "Operators Axe",
+      "entity.allaboutengie.monstrosity_engie_sharko": "Monstrosity Engie",
+      "painting.allaboutengie.aae.title": "All About Engie Logo",
+      "item.allaboutengie.unobtainium_boots": "Unobtainium Boots",
+      "entity.allaboutengie.exotic_engie": "Exotic Engie",
+      "entity.allaboutengie.tiger": "Tiger",
+      "item.aae_items.engie_gem": "Engie Gem",
+      "item.allaboutengie.engi_axe": "Engi Axe",
+      "item.aae_items.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "item.allaboutengie.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "block.allaboutengie.thanks_for_playing_4": "Thanks for playing!",
+      "item.aae_items.operators_pickaxe": "Operators Pickaxe",
+      "item.allaboutengie.mythic_helmet": "Mythic Helmet",
+      "item.allaboutengie.engies_scythe": "Engie\u0027s Scythe",
+      "block.allaboutengie.monstrosity_engie_block": "Monstrosity Engie Block",
+      "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
+      "item.allaboutengie.albino_shark_boots": "Albino Sharko Boots",
+      "entity.allaboutengie.legendary_sharko_tamed_zoomies": "[Tamed] Legendary Sharko (Zoomies)",
+      "entity.allaboutengie.louis_zoomies": "Louis",
+      "item.allaboutengie.sharkos_plaque": "All About Engie (Sharkos) Plaque",
+      "item.allaboutengie.exotic_leggings": "Exotic Leggings",
+      "item.allaboutengie.engie_spawn_egg": "Engie Spawn Egg",
+      "item.allaboutengie.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.allaboutengie.enraged_normal_spawn_egg": "Enraged Normal Spawn Egg",
+      "item.allaboutengie.code_redeemers_leggings": "Code Redeemers Leggings",
+      "entity.allaboutengie.engie_sharko_tamed_zoomies": "[Tamed] Engie Sharko (Zoomies)",
+      "item.allaboutengie.monstrosity_ban_hammer": "A Monstrosity Ban Hammer",
+      "advancements.outraged_engie_armor_obtained.title": "I\u0027ll take it.",
+      "entity.allaboutengie.pbe_lay": "playedbyengie (da boyo) [Laying]",
+      "entity.allaboutengie.mythic_sharko_tamed_zoomies_tired": "[Tamed] Mythic Sharko (Worn Out)",
+      "advancements.ban_obtain.title": "Normal size? I want bigger.",
+      "item.allaboutengie.outraged_engies_chestplate": "Outraged Engie Chestplate",
+      "advancements.found_engie.title": "That took quite long.",
+      "item.allaboutengie.echdeath_pixel": "PIXEL ECHDEATH",
+      "item.aae_items.cracker_dust": "Cracker Dust",
+      "item.allaboutengie.operators_boots": "Operators Boots",
+      "painting.allaboutengie.ez.title": "Enraged Zombies Logo",
+      "advancements.hi_dev_engie.descr": "Meet the developer of All About Engie.",
+      "item.allaboutengie.engi_shovel": "Engi Shovel",
+      "entity.allaboutengie.exotic_sharko": "Exotic Sharko",
+      "item.aae_items.uncooked_pizza": "Uncooked Pizza",
+      "item.allaboutengie.angry_engie_axe": "Angry Engie Axe",
+      "item.allaboutengie.enormous_ban_hammer": "Enormous Ban Hammer",
+      "block.allaboutengie.biblically_accurate_block": "Biblically Accurate Engie Block",
+      "advancements.mini_ban_obtain.descr": "Obtain a Mini Ban Hammer",
+      "entity.allaboutengie.engie_sharko_rare_2_sleep": "[Tamed] Rare Engie Sharko (Sleeping)",
+      "entity.allaboutengie.legendary_sharko": "Legendary Sharko",
+      "entity.allaboutengie.buddy_sleep": "Buddy (Sleeping)",
+      "advancements.gigantic_ban_obtain.descr": "Obtain a Gigantic Ban Hammer",
+      "item.aae_items.operators_hoe": "Operators Hoe",
+      "item.allaboutengie.enchanted_engie_cookie": "Enchanted Engie Cookie",
+      "block.allaboutengie.engie_block": "Engie Block",
+      "advancements.big_ban_obtain.title": "Eh, could be a bit bigger. I don\u0027t mind it.",
+      "item.allaboutengie.engies_chestplate": "Engie Chestplate",
+      "entity.allaboutengie.marshal": "Marshal",
+      "item.aae_items.engi_shovel": "Engi Shovel",
+      "entity.allaboutengie.toby_zoomies_tired": "Toby (Worn Out)",
+      "entity.allaboutengie.toby_zoomies": "Toby",
+      "entity.allaboutengie.exotic_sharko_tamed_zoomies": "[Tamed] Exotic Sharko (Zoomies)",
+      "item.allaboutengie.monstrosity_engie_shovel": "Monstrosity Engie Shovel",
+      "item.allaboutengie.rare_boots": "Rare Boots",
+      "item.allaboutengie.shark_chestplate": "Sharko Chestplate",
+      "item.aae_items.angry_engie_leggings": "Angry Engie Leggings",
+      "painting.allaboutengie.aae_mobs.author": "DevEngie",
+      "item.allaboutengie.biblically_accurate_engie_essence": "Biblically Accurate Engie Essence",
+      "item.allaboutengie.outraged_engie_axe": "Outraged Engie Axe",
+      "item.allaboutengie.uncommon_sword": "Uncommon Sword",
+      "painting.allaboutengie.aae_items.author": "DevEngie",
+      "item.allaboutengie.rare_axe": "Rare Axe",
+      "advancements.comically_massive_obtain.descr": "Redeem DevEngies secret code. ;)",
+      "advancements.colossol_ban_obtain.title": "Lad, PLEASE TAKE A BREAK.",
+      "item.allaboutengie.crucifix": "Crucifix",
+      "item.allaboutengie.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.allaboutengie.albino_shark_leggings": "Albino Sharko Leggings",
+      "advancements.immense_ban_obtain.title": "Are you crazy or something? You really need to take a chill pill.",
+      "item.allaboutengie.blood_chestplate": "Blood Chestplate",
+      "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
+      "entity.allaboutengie.engie_sharko_tamed_zoomies_tired": "[Tamed] Engie Sharko (Worn Out)",
+      "entity.allaboutengie.tiger_sleep": "Tiger (Sleeping)",
+      "item.allaboutengie.bagel_cheese": "Bagel with Cheese",
+      "entity.allaboutengie.apollo_lay": "Apollo [Laying]",
+      "painting.allaboutengie.tiger_shark_cat_onsie.title": "Cat Onsie Tiger Shark",
+      "item.allaboutengie.massive_ban_hammer_pixel": "Pixelized Massive Ban Hammer",
+      "item.allaboutengie.rare_leggings": "Rare Leggings",
+      "entity.allaboutengie.epic_sharko_tamed": "[Tamed] Epic Sharko",
+      "item.allaboutengie.exotic_shark_leggings": "Exotic Sharko Leggings",
+      "entity.allaboutengie.sharko": "Sharko",
+      "entity.allaboutengie.engie_sharko_tamed_april_fools": "[Tamed] Engie Sharko",
+      "item_group.allaboutengie.aae_items_items": "Items",
+      "advancements.biblically_accurate_ban_obtain.descr": "Obtain a Biblically Accurate Ban Hammer",
+      "item.allaboutengie.enraged_engie_hoe": "Enraged Engie Hoe",
+      "entity.allaboutengie.epic_sharko_sleep_april_fools": "[Tamed] Epic Sharko (Sleeping)",
+      "item.allaboutengie.engie_pickaxe": "Engie Pickaxe",
+      "item.aae_items.operators_helmet": "Operators Helmet",
+      "gui.allaboutengie.enragedcoin_overlay.label_01": "0",
+      "entity.allaboutengie.engie_sharko_tamed": "[Tamed] Engie Sharko",
+      "entity.allaboutengie.epic_sharko_lay": "[Tamed] Epic Sharko (Laying)",
+      "item.allaboutengie.mythic_leggings": "Mythic Leggings",
+      "item.allaboutengie.epic_boots": "Epic Boots",
+      "item.allaboutengie.angry_engie_hoe": "Angry Engie Hoe",
+      "entity.allaboutengie.sharko_sleep_april_fools": "[Tamed] Sharko (Sleeping)",
+      "entity.allaboutengie.cbe": "clippedbyengie (da boyo)",
+      "item.allaboutengie.engie_shark_leggings": "Engie Sharko Leggings",
+      "item.allaboutengie.legendary_shark_boots": "Legendary Sharko Boots",
+      "advancements.new_world_new_problem.descr": "Create a world with the new All About Engie gamerule enabled.",
+      "item.allaboutengie.mythic_pickaxe": "Mythic Pickaxe",
+      "item.allaboutengie.comically_massive_ban_hammer_pixel": "Pixelized Comically Massive Ban Hammer",
+      "item.aae_items.operators_axe": "Operators Axe",
+      "item.allaboutengie.operators_hoe": "Operators Hoe",
+      "item.allaboutengie.monstrosity_engie_axe": "Monstrosity Engie Axe",
+      "entity.allaboutengie.atlas_lay": "Atlas [Laying]",
+      "item.allaboutengie.all_about_engie_plaque": "All About Engie Plaque",
+      "entity.allaboutengie.engie_sharko_rare_lay_april_fools": "[Tamed] Rare Engie Sharko (Laying)",
+      "entity.allaboutengie.uncommon_engie": "Uncommon Engie",
+      "entity.allaboutengie.epic_sharko_april_fools": "Epic Sharko",
+      "entity.allaboutengie.exotic_sharko_tamed_april_fools": "[Tamed] Exotic Sharko",
+      "item.allaboutengie.exotic_boots": "Exotic Boots",
+      "block.aae_items.metal_chest": "Metal Chest",
+      "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
+      "advancements.immense_ban_obtain.descr": "Obtain a Immense Ban Hammer",
+      "item.allaboutengie.angry_engies_boots": "Angry Engie Boots",
+      "item.aae_items.enraged_engie_essence": "Enraged Engie Essence",
+      "item.allaboutengie.angry_engie_shovel": "Angry Engie Shovel",
+      "advancements.biblically_accurate_engie_armor_obtained.title": "Hey, this isn\u0027t bad!",
+      "item.allaboutengie.rare_shark_boots": "Rare Sharko Boots",
+      "item.allaboutengie.mythic_shovel": "Mythic Shovel",
+      "itemGroup.tabaae_items_armor": "Armor",
+      "advancements.ban_obtain.descr": "Obtain a Ban Hammer",
+      "item.allaboutengie.biblically_accurate_engie_hoe": "Biblically Accurate Engie Hoe",
+      "block.allaboutengie.old_engie_ore": "Engie Ore",
+      "entity.allaboutengie.epic_sharko_tamed_april_fools": "[Tamed] Epic Sharko",
+      "item.allaboutengie.angry_engie_essence": "Angry Engie Essence",
+      "itemGroup.tabaae_items_items": "Items",
+      "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
+      "item.allaboutengie.enchanted_golden_cookie": "Enchanted Golden Cookie",
+      "item.allaboutengie.legendary_shark_helmet": "Legendary Sharko Helmet",
+      "item.allaboutengie.gigantic_ban_hammer": "Gigantic Ban Hammer",
+      "item.allaboutengie.sharko_april_fools_spawn_egg": "Sharko Spawn Egg",
+      "item.allaboutengie.aae_engie": "playedbyengie (aka clippedbyengie)",
+      "item.aae_items.cooked_pizza": "Cooked Pizza",
+      "entity.allaboutengie.cbe_zoomies": "clippedbyengie (da boyo)",
+      "item.allaboutengie.albino_sharko_spawn_egg": "Albino Sharko Spawn Egg",
+      "item.allaboutengie.common_sword": "Common Sword",
+      "entity.allaboutengie.apollo": "Apollo",
+      "entity.allaboutengie.albino_sharko_lay_april_fools": "[Tamed] Albino Sharko (Laying)",
+      "block.allaboutengie.metal_chest_warped": "Warped Metal Chest",
+      "item.allaboutengie.unobtainium_pickaxe": "Unobtainium Pickaxe",
+      "item.allaboutengie.creator_spawn_egg": "Creator Spawn Egg",
+      "item.allaboutengie.engi_pickaxe": "Engi Pickaxe",
+      "block.allaboutengie.blood_ore": "Blood Ore",
+      "entity.allaboutengie.engie_sharko_rare_tamed_zoomies": "[Tamed] Rare Engie Sharko (Zoomies)",
+      "item.allaboutengie.code_redeemers_hammer": "Code Redeemers Ban Hammer",
+      "advancements.new_world_new_problem.title": "All About Engie: Detective mode edition.",
+      "painting.allaboutengie.aae_extras.author": "DevEngie",
+      "item.allaboutengie.sharko_cloth": "Sharko Cloth",
+      "advancements.hi_dev_engie.title": "Hi DevEngie!",
+      "item.allaboutengie.ban_hammer": "Ban Hammer",
+      "block.allaboutengie.deepslate_unobtainium_ore": "Deepslate Unobtainium Ore",
+      "item.allaboutengie.engie_sharko_april_fools_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.allaboutengie.dimensions_plaque": "All About Engie (Dimensions) Plaque",
+      "block.allaboutengie.enraged_engie_block": "Enraged Engie Block",
+      "item.allaboutengie.unobtainium_chunklet": "Unobtainium Chunklet",
+      "item.aae_items.operators_shovel": "Operators Shovel",
+      "advancements.engie_tool_obtained.descr": "Obtain your first Engie tool.",
+      "item.allaboutengie.enormous_ban_hammer_pixel": "Pixelized Enormous Ban Hammer",
+      "block.aae_items.metal_chest_oak": "Oak Metal Chest",
+      "advancements.outraged_engie_armor_obtained.descr": "Obtain Outraged Engie Armor for the first time.",
+      "item.allaboutengie.engie_gem": "Engie Gem",
+      "entity.allaboutengie.engie_sharko_rare": "Rare Engie Sharko",
+      "painting.allaboutengie.idea_giver_blood.title": "Idea Giver Blood",
+      "entity.allaboutengie.albino_sharko_tamed_april_fools": "[Tamed] Albino Sharko",
+      "entity.allaboutengie.louis_lay": "Louis [Laying]",
+      "entity.allaboutengie.rare_sharko_lay": "[Tamed] Rare Sharko (Laying)",
+      "item.allaboutengie.monstrosity_engies_boots": "Monstrosity Engie Boots",
+      "block.allaboutengie.old_deepslate_engie_ore": "Engie Ore",
+      "item.allaboutengie.monstrosity_engie_sharko_spawn_egg": "Monstrosity Engie Spawn Egg",
+      "entity.allaboutengie.pbe": "playedbyengie (da boyo)",
+      "entity.allaboutengie.epic_sharko_tamed_zoomies": "[Tamed] Epic Sharko (Zoomies)",
+      "item_group.allaboutengie.aae_items_armor": "Armor",
+      "item.allaboutengie.cyberblood_ingot": "Cyberblood Ingot",
+      "entity.allaboutengie.marshal_zoomies_tired": "Marshal (Worn Out)",
+      "item.allaboutengie.cyber_ingot": "Cyber Ingot",
+      "advancements.comically_massive_obtain.title": "DevEngies little secret. ;)",
+      "entity.allaboutengie.mythic_sharko_sleep": "[Tamed] Mythic Sharko (Sleeping)",
+      "advancements.monstrosity_engie_essence_obtained.descr": "Obtain an Monstrosity Engie Essence for the first time.",
+      "item.allaboutengie.common_shovel": "Common Shovel",
+      "item.allaboutengie.shark_helmet": "Sharko Helmet",
+      "item.allaboutengie.blood_boots": "Blood Boots",
+      "advancements.big_ban_obtain.descr": "Obtain a Big Ban Hammer",
+      "item.allaboutengie.angry_engie_sharko_spawn_egg": "Angry Engie Spawn Egg",
+      "item.aae_items.operators_boots": "Operators Boots",
+      "entity.allaboutengie.rare_sharko_tamed_april_fools": "[Tamed] Rare Sharko",
+      "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.aae_items.echdeath": "ECHDEATH",
+      "item.allaboutengie.shark_leggings": "Sharko Leggings",
+      "item.aae_items.angry_engie_axe": "Angry Engie Axe",
+      "item.allaboutengie.cheese_balls_opened": "Cheese Balls Opened",
+      "itemGroup.tabaae_items_food": "Food",
+      "advancements.huge_ban_obtain.descr": "Obtain a Huge Ban Hammer",
+      "advancements.angry_engie_essence_obtained.descr": "Obtain an Angry Engie Essence for the first time.",
+      "item.allaboutengie.blood_helmet": "Blood Helmet",
+      "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
+      "entity.allaboutengie.albino_sharko_sleep_april_fools": "[Tamed] Albino Sharko (Sleeping)",
+      "item.allaboutengie.albino_shark_helmet": "Albino Sharko Helmet",
+      "advancements.massive_ban_obtain.descr": "Obtain a Massive Ban Hammer",
+      "entity.allaboutengie.engie_sharko_rare_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
+      "item.allaboutengie.mythic_sharko_april_fools_spawn_egg": "Mythic Sharko Spawn Egg",
+      "item.allaboutengie.mythic_sharko_cloth": "Mythic Sharko Cloth",
+      "item.aae_items.ban_hammer": "Ban Hammer",
+      "advancements.new_world.descr": "Create a new world with the All About Engie mod installed.",
+      "item.allaboutengie.items_plaque": "All About Engie (Items) Plaque",
+      "entity.allaboutengie.engie_sharko_rare_sleep_april_fools": "[Tamed] Rare Engie Sharko (Sleeping)",
+      "entity.allaboutengie.marshal_zoomies": "Marshal",
+      "item.allaboutengie.mythic_shark_boots": "Mythic Sharko Boots",
+      "entity.allaboutengie.enraged_normal": "Enraged Normal",
+      "entity.allaboutengie.sharko_tamed_april_fools": "[Tamed] Sharko",
+      "entity.allaboutengie.toby_lay": "Toby [Laying]",
+      "item.allaboutengie.outraged_engie_essence": "Outraged Engie Essence",
+      "block.aae_items.metal_chest_warped": "Warped Metal Chest",
+      "advancements.enormous_ban_obtain.descr": "Obtain a Enormous Ban Hammer",
+      "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
+      "advancements.monstrosity_engie_tools_obtained.title": "SO MUCH NOPE!",
+      "item.allaboutengie.common_engie_spawn_egg": "Common Engie Spawn Egg",
+      "entity.allaboutengie.cbe_lay": "clippedbyengie (da boyo) [Laying]",
+      "entity.allaboutengie.albino_sharko_april_fools": "Albino Sharko",
+      "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "advancements.mammoth_ban_obtain.title": "Alright, have fun with this.",
+      "entity.allaboutengie.apollo_zoomies_tired": "Apollo (Worn Out)",
+      "advancements.biblically_accurate_engie_armor_obtained.descr": "Obtain Biblically Accruate Engie Armor for the first time.",
+      "item.allaboutengie.legendary_helmet": "Legendary Helmet",
+      "item.allaboutengie.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "item.allaboutengie.legendary_axe": "Legendary Axe",
+      "item.allaboutengie.enraged_engies_boots": "Enraged Engie Boots",
+      "entity.allaboutengie.engie_sharko_rare_lay": "[Tamed] Rare Engie Sharko (Laying)",
+      "item.allaboutengie.rare_sword": "Rare Sword",
+      "entity.allaboutengie.rare_sharko_sleep": "[Tamed] Rare Sharko (Sleeping)",
+      "item.allaboutengie.monstrosity_engie_essence": "Monstrosity Engie Essence",
+      "item.allaboutengie.epic_shovel": "Epic Shovel",
+      "advancements.monstrosity_engie_essence_obtained.title": "One shudders to imagine what inhuman thoughts lie behind those eyes.",
+      "entity.allaboutengie.buddy_lay": "Buddy [Laying]",
+      "entity.allaboutengie.epic_sharko_sleep": "[Tamed] Epic Sharko (Sleeping)",
+      "entity.allaboutengie.protogen": "Protogen",
+      "entity.aae_items.engie_games_gui": "EngieGames",
+      "item.allaboutengie.enraged_engies_helmet": "Enraged Engie Helmet",
+      "item.allaboutengie.unobtainium_shovel": "Unobtainium Shovel",
+      "entity.allaboutengie.sharko_sleep": "[Tamed] Sharko (Sleeping)",
+      "item.allaboutengie.huge_ban_hammer": "Huge Ban Hammer",
+      "painting.allaboutengie.aae_sharkos.author": "DevEngie",
+      "item.allaboutengie.engie_sharko_spawn_egg": "Engie Sharko Spawn Egg",
+      "item.allaboutengie.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
+      "item.allaboutengie.gigantic_ban_hammer_pixel": "Pixelized Gigantic Ban Hammer",
+      "painting.allaboutengie.aae_world.title": "All About Engie (Just the planets.)",
+      "entity.allaboutengie.legendary_engie": "Legendary Engie",
+      "painting.allaboutengie.developer_engie.title": "Developer Engie",
+      "painting.allaboutengie.playedbyengie.title": "playedbyengie",
+      "item.aae_items.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
+      "item.allaboutengie.mythic_hoe": "Mythic Hoe",
+      "item.aae_items.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.aae_items.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "item.allaboutengie.monstrosity_engie_spawn_egg": "Monstrosity Engie Spawn Egg",
+      "item.allaboutengie.cyberblood_battle_axe": "Cyberblood Battle Axe",
+      "block.allaboutengie.metal_chest_birch": "Birch Metal Chest",
+      "item.allaboutengie.legendary_shark_leggings": "Legendary Sharko Leggings",
+      "entity.allaboutengie.atlas_zoomies_tired": "Atlas (Worn Out)",
+      "item.allaboutengie.blood_leggings": "Blood Leggings",
+      "item.allaboutengie.uncommon_leggings": "Uncommon Leggings",
+      "item.allaboutengie.uncommon_helmet": "Uncommon Helmet",
+      "entity.allaboutengie.engie_sharko_rare_2_lay": "[Tamed] Rare Engie Sharko (Laying)",
+      "block.allaboutengie.metal_chest_acacia": "Acacia Metal Chest",
+      "item.allaboutengie.dough_with_sauce": "Dough With Sauce",
+      "painting.allaboutengie.ech.author": "Fargo\u0027s Souls, Imported by EngieGames",
+      "item.aae_items.true_ban_hammer": "True Ban Hammer (COMMAND)",
+      "item.allaboutengie.common_boots": "Common Boots",
+      "item.allaboutengie.cyber_leggings": "Cyber Leggings",
+      "advancements.engie_armor_made.title": "\"What was noise?\"",
+      "entity.allaboutengie.rare_engie": "Rare Engie",
+      "advancements.outraged_engie_essence_obtained.descr": "Obtain an Outraged Engie Essence for the first time.",
+      "item.allaboutengie.legendary_leggings": "Legendary Leggings",
+      "entity.allaboutengie.mythic_sharko_lay": "[Tamed] Mythic Sharko (Laying)",
+      "item.allaboutengie.cheese_ball": "Cheese Ball",
+      "item.allaboutengie.bagel": "Bagel",
+      "advancements.found_engie.descr": "Have a chat with Engie. GG.",
+      "advancements.engies_scythe_obtained.descr": "Obtain one of Engie\u0027s Scythes.",
+      "entity.allaboutengie.pbe_zoomies": "playedbyengie (da boyo)",
+      "item.aae_items.angry_engie_shovel": "Angry Engie Shovel",
+      "item.allaboutengie.legendary_pickaxe": "Legendary Pickaxe",
+      "block.allaboutengie.metal_chest_oak": "Oak Metal Chest",
+      "entity.allaboutengie.rare_sharko_april_fools": "Rare Sharko",
+      "item.allaboutengie.engie_sharko_rare_2_spawn_egg": "Rare Engie Sharko Spawn Egg",
+      "item.allaboutengie.code_redeemers_helmet": "Code Redeemers Helmet",
+      "advancements.colossol_ban_obtain.descr": "Obtain a Colossal Ban Hammer",
+      "painting.allaboutengie.aae.author": "DevEngie",
+      "item.allaboutengie.albino_shark_chestplate": "Albino Sharko Chestplate",
+      "item.allaboutengie.epic_leggings": "Epic Leggings",
+      "entity.allaboutengie.atlas_zoomies": "Atlas",
+      "entity.allaboutengie.buddy": "Buddy",
+      "item.allaboutengie.ban_hammer_pixel": "Pixelized Ban Hammer",
+      "entity.allaboutengie.biblically_accurate_engie": "Biblically Accurate Engie",
+      "item.allaboutengie.monstrosity_ban_hammer_pixel": "A Pixelized Monstrosity Ban Hammer",
+      "item.allaboutengie.angry_engie_spawn_egg": "Angry Engie Spawn Egg",
+      "item.allaboutengie.exotic_sharko_april_fools_spawn_egg": "Exotic Sharko Spawn Egg",
+      "item.aae_items.enraged_engie_hoe": "Enraged Engie Hoe",
+      "item.allaboutengie.empty_cheese_balls_bin": "Empty Cheese Balls Bin",
+      "entity.allaboutengie.engie_sharko_rare_2_tamed_april_fools": "[Tamed] Rare Engie Sharko",
+      "item.aae_items.dough": "Dough",
+      "item.allaboutengie.engie_sharko_rare_spawn_egg": "Rare Engie Sharko Spawn Egg",
+      "advancements.enraged_engie_tool_obtained.descr": "Obtain your first Enraged Engie tool.",
+      "item.allaboutengie.operators_chestplate": "Operators Chestplate",
+      "entity.allaboutengie.engie_sharko_rare_tamed": "[Tamed] Rare Engie Sharko",
+      "item.aae_items.cheese_puffs_opened": "Cheese Puffs Opened",
+      "block.aae_items.metal_chest_jungle": "Jungle Metal Chest",
+      "item.allaboutengie.large_ban_hammer": "Large Ban Hammer",
+      "advancements.biblically_accurate_essence_obtained.title": "Something more tame at least.",
+      "entity.allaboutengie.engie_sharko_rare_2_zoomies_tired": "Rare Engie Sharko (Worn Out)",
+      "item.allaboutengie.code_redeemers_boots": "Code Redeemers Boots",
+      "item.allaboutengie.unobtainium_sword": "Unobtainium Sword",
+      "item.aae_items.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "item.allaboutengie.cheese_balls_unopened": "Cheese Balls Unopened",
+      "entity.allaboutengie.albino_sharko_tamed_zoomies_tired": "[Tamed] Albino Sharko (Worn Out)",
+      "item.allaboutengie.exotic_shark_helmet": "Exotic Sharko Helmet",
+      "entity.allaboutengie.tiger_zoomies_tired": "Tiger (Worn Out)",
+      "item.aae_items.angry_engie_chestplate": "Angry Engie Chestplate",
+      "advancements.angry_engie_armor_made.title": "Well that was a waste of time.",
+      "entity.allaboutengie.outraged_engie": "Outraged Engie",
+      "advancements.enraged_engie_armor_made.title": "Useful!",
+      "block.allaboutengie.textboxyeah": "Textbox",
+      "block.allaboutengie.thanks_for_playing": "Thanks for playing!",
+      "painting.allaboutengie.aae_items_logo.title": "AAE Items Logo",
+      "item.allaboutengie.uncooked_pizza": "Uncooked Pizza",
+      "entity.allaboutengie.apollo_zoomies": "Apollo",
+      "item.allaboutengie.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.allaboutengie.unobtainium_chestplate": "Unobtainium Chestplate",
+      "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies": "[Tamed] Rare Engie Sharko (Zoomies)",
+      "gamerule.detectiveFindEngie": "Detective Mode",
+      "entity.allaboutengie.engie_sharko_rare_2_lay_april_fools": "[Tamed] Rare Engie Sharko (Laying)",
+      "item.allaboutengie.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "item.allaboutengie.mobs_plaque": "All About Engie (Mobs) Plaque",
+      "entity.allaboutengie.exotic_sharko_april_fools": "Exotic Sharko",
+      "entity.allaboutengie.buddy_zoomies_tired": "Buddy (Worn Out)",
+      "block.allaboutengie.cyber_ore": "Cyber Ore",
+      "item.allaboutengie.mythic_axe": "Mythic Axe",
+      "item.aae_items.engie_shovel": "Engie Shovel",
+      "painting.allaboutengie.aae_extras.title": "All About Engie Extras Logo",
+      "item.allaboutengie.epic_pickaxe": "Epic Pickaxe",
+      "item.allaboutengie.cyber_boots": "Cyber Boots",
+      "item.allaboutengie.dough": "Dough",
+      "entity.allaboutengie.rare_sharko_lay_april_fools": "[Tamed] Rare Sharko (Laying)",
+      "item.aae_items.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.aae_items.angry_engie_pickaxe": "Angry Engie Pickaxe",
+      "entity.allaboutengie.pbe_zoomies_tired": "playedbyengie (da boyo) (Worn Out)",
+      "block.allaboutengie.metal_chest": "Metal Chest",
+      "entity.allaboutengie.engie_sharko_april_fools": "Engie Sharko",
+      "entity.allaboutengie.toby_sleep": "Toby (Sleeping)",
+      "item.allaboutengie.blood_ingot": "Blood Ingot",
+      "item.aae_items.mini_ban_hammer": "Mini Ban Hammer",
+      "item.allaboutengie.biblically_accurate_engie_axe": "Biblically Accurate Engie Axe",
+      "entity.allaboutengie.legendary_sharko_sleep": "[Tamed] Legendary Sharko (Sleeping)",
+      "item.allaboutengie.enraged_engie_axe": "Enraged Engie Axe",
+      "entity.allaboutengie.sharko_tamed_zoomies": "[Tamed] Sharko (Zoomies)",
+      "advancements.monstrosity_engie_armor_obtained.descr": "Obtain Monstrosity Engie Armor for the first time.",
+      "entity.allaboutengie.enraged_speed": "Enraged Speed",
+      "item.allaboutengie.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
+      "gui.allaboutengie.enraged_coin_overlay.label_empty": ":",
+      "item.allaboutengie.uncommon_shovel": "Uncommon Shovel",
+      "item.allaboutengie.epic_sword": "Epic Sword",
+      "item.allaboutengie.biblically_accurate_engie_spawn_egg": "Biblically Accurate Engie Spawn Egg",
+      "item.allaboutengie.biblically_accurate_engie_ban_hammer_pixel": "Pixelized Biblically Accurate Ban Hammer",
+      "item.aae_items.cheese_puffs_unopened": "Cheese Puffs Unopened",
+      "entity.allaboutengie.engi_fr": "EngiFR",
+      "item.allaboutengie.legendary_shark_chestplate": "Legendary Sharko Chestplate",
+      "item.allaboutengie.engie_shark_chestplate": "Engie Sharko Chestplate",
+      "item.allaboutengie.outraged_engies_boots": "Outraged Engie Boots",
+      "entity.allaboutengie.albino_sharko_sleep": "[Tamed] Albino Sharko (Sleeping)",
       "item.allaboutengie.exotic_pickaxe": "Exotic Pickaxe",
       "item.aae_items.angry_engie_helmet": "Angry Engie Helmet",
       "block.aae_items.metal_chest_spruce": "Spruce Metal Chest",
       "item.allaboutengie.rare_chestplate": "Rare Chestplate",
-      "entity.allaboutengie.marshal_sleep": "Marshal (Sleeping)",
       "item_group.allaboutengie.aae_items_food": "Food",
-      "block.allaboutengie.metal_chest_dark_oak": "Dark Oak Metal Chest",
-      "item.allaboutengie.unobtanium": "Unobtanium",
-      "advancements.angry_engie_essence_obtained.title": "Why is it staring at me.",
-      "item.allaboutengie.rare_sharko_cloth": "Rare Sharko Cloth",
       "entity.allaboutengie.exotic_sharko_sleep": "[Tamed] Exotic Sharko (Sleeping)",
       "advancements.biblically_accurate_essence_obtained.descr": "Obtain an Biblically Accurate Engie essence from Biblically Accurate Engie for the first time.",
-      "advancements.enraged_engie_tool_obtained.title": "At least I can stop complaining about the other tool set.",
-      "itemGroup.tabzombies": "Zombies",
-      "entity.allaboutengie.albino_sharko_zoomies": "Albino Sharko (Zoomies)",
       "item.allaboutengie.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
-      "item.allaboutengie.epic_shark_chestplate": "Epic Sharko Chestplate",
+      "item.allaboutengie.albino_sharko_april_fools_spawn_egg": "Albino Sharko Spawn Egg",
       "item.allaboutengie.outraged_engies_leggings": "Outraged Engie Leggings",
       "entity.allaboutengie.cbe_sleep": "clippedbyengie (da boyo) (Sleeping)",
       "item.allaboutengie.rare_engie_spawn_egg": "Rare Engie Spawn Egg",
       "item.allaboutengie.monstrosity_engie_hoe": "Monstrosity Engie Hoe",
       "item.allaboutengie.unobtainium_helmet": "Unobtainium Helmet",
       "advancements.biblically_accurate_tools_obtained.descr": "Obtain your first Biblically Accurate Engie tool.",
-      "item_group.allaboutengie.mobs": "Mobs",
-      "painting.allaboutengie.developer_engie.author": "[Dev]Engie(Games)",
       "entity.allaboutengie.albino_sharko": "Albino Sharko",
       "item.allaboutengie.albino_sharko_cloth": "Albino Sharko Cloth",
       "block.aae_items.metal_table": "Metal Chest",
       "item.allaboutengie.cyberblood_boots": "Cyberblood Boots",
-      "gamerule.detectiveMode.description": "Learn about lore, sets the in game day to above 100 days with a few different advancements to be obtained.",
-      "itemGroup.tabsharkos": "Sharkos",
       "advancements.gotcha_engie.descr": "Get near clippedbyengie. (The player, not the entity.)",
       "item.allaboutengie.cyberblood_katana": "Cyberblood Katana",
       "entity.allaboutengie.enraged_normal_8": "Enraged Normal",
@@ -15421,369 +16753,192 @@
       "entity.allaboutengie.enraged_normal_4": "Enraged Normal",
       "entity.allaboutengie.enraged_normal_5": "Enraged Normal",
       "entity.allaboutengie.enraged_normal_2": "Enraged Normal",
-      "item.allaboutengie.cheese": "Cheese",
       "item.allaboutengie.mythic_chestplate": "Mythic Chestplate",
       "entity.allaboutengie.enraged_normal_3": "Enraged Normal",
-      "entity.allaboutengie.exotic_sharko_zoomies": "Exotic Sharko",
       "item.allaboutengie.epic_shark_leggings": "Epic Sharko Leggings",
-      "entity.allaboutengie.legendary_sharko_zoomies_tired": "Legendary Sharko (Worn Out)",
-      "block.allaboutengie.thanks_for_playing_2": "Thanks for playing!",
-      "block.allaboutengie.thanks_for_playing_3": "Thanks for playing!",
-      "painting.allaboutengie.ech.title": "Ech",
       "item.allaboutengie.mythic_shark_leggings": "Mythic Sharko Leggings",
-      "item.allaboutengie.operators_axe": "Operators Axe",
       "item.allaboutengie.uncommon_pickaxe": "Uncommon Pickaxe",
-      "painting.allaboutengie.aae.title": "All About Engie Logo",
-      "item.allaboutengie.unobtainium_boots": "Unobtainium Boots",
-      "entity.allaboutengie.exotic_engie": "Exotic Engie",
-      "entity.allaboutengie.tiger": "Tiger",
-      "item.aae_items.engie_gem": "Engie Gem",
-      "item.allaboutengie.engi_axe": "Engi Axe",
-      "item.aae_items.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "item.allaboutengie.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "block.allaboutengie.thanks_for_playing_4": "Thanks for playing!",
-      "item.aae_items.operators_pickaxe": "Operators Pickaxe",
       "item.allaboutengie.common_pickaxe": "Common Pickaxe",
-      "item.allaboutengie.mythic_helmet": "Mythic Helmet",
-      "item.allaboutengie.engies_scythe": "Engie\u0027s Scythe",
       "entity.allaboutengie.mad_engie": "Mad Engie",
       "advancements.outraged_tools_obtained.descr": "Obtain your first Outraged Engie tool.",
       "item.aae_items.pizza_slice": "Pizza Slice",
       "item.allaboutengie.enraged_engie_spawn_egg": "Enraged Engie Spawn Egg",
-      "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
       "entity.allaboutengie.sharko_tamed": "[Tamed] Sharko",
-      "block.allaboutengie.monstrosity_engie_block": "Monstrosity Engie Block",
       "painting.allaboutengie.aae_mobs.title": "All About Engie Mobs Logo",
-      "item.allaboutengie.albino_shark_boots": "Albino Sharko Boots",
       "item.allaboutengie.rare_shovel": "Rare Shovel",
-      "entity.allaboutengie.legendary_sharko_tamed_zoomies": "[Tamed] Legendary Sharko (Zoomies)",
-      "item.allaboutengie.bahemoth_ban_hammer": "Bahemoth Ban Hammer",
-      "entity.allaboutengie.louis_zoomies": "Louis",
-      "item.allaboutengie.sharkos_plaque": "All About Engie (Sharkos) Plaque",
-      "item.allaboutengie.exotic_leggings": "Exotic Leggings",
+      "entity.allaboutengie.enraged_engie_sharko": "Enraged Engie",
+      "item.allaboutengie.outraged_engie_sharko_spawn_egg": "Outraged Engie Spawn Egg",
       "painting.allaboutengie.aae_dimensions.author": "DevEngie",
       "item.allaboutengie.uncommon_engie_spawn_egg": "Uncommon Engie Spawn Egg",
-      "item.allaboutengie.engie_spawn_egg": "Engie Spawn Egg",
-      "entity.allaboutengie.epic_sharko_zoomies_tired": "Epic Sharko (Worn Out)",
       "item.aae_items.aae_engie": "EngieGames",
-      "item.allaboutengie.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.allaboutengie.enraged_normal_spawn_egg": "Enraged Normal Spawn Egg",
-      "item.allaboutengie.code_redeemers_leggings": "Code Redeemers Leggings",
-      "entity.allaboutengie.engie_sharko_tamed_zoomies": "[Tamed] Engie Sharko (Zoomies)",
-      "item.allaboutengie.colossal_ban_hammer_pixel": "Pixelized Colossal Ban Hammer",
       "item.allaboutengie.epic_engie_spawn_egg": "Epic Engie Spawn Egg",
       "item.allaboutengie.exotic_shark_boots": "Exotic Sharko Boots",
       "item.allaboutengie.epic_helmet": "Epic Helmet",
-      "advancements.outraged_engie_armor_obtained.title": "I\u0027ll take it.",
       "advancements.engie_gem_obtained.title": "Who trapped bro in there?",
-      "entity.allaboutengie.mythic_sharko_tamed_zoomies_tired": "[Tamed] Mythic Sharko (Worn Out)",
-      "entity.allaboutengie.pbe_lay": "playedbyengie (da boyo) [Laying]",
-      "advancements.ban_obtain.title": "Normal size? I want bigger.",
-      "item.allaboutengie.outraged_engies_chestplate": "Outraged Engie Chestplate",
-      "entity.allaboutengie.mythic_sharko_zoomies": "Mythic Sharko",
-      "advancements.found_engie.title": "That took quite long.",
       "item.allaboutengie.crucifix_pixel": "Pixel Crucifix",
       "entity.allaboutengie.marshal_lay": "Marshal [Laying]",
       "item.allaboutengie.angry_engies_chestplate": "Angry Engie Chestplate",
       "item.allaboutengie.unobtainium_leggings": "Unobtainium Leggings",
-      "item.allaboutengie.echdeath_pixel": "PIXEL ECHDEATH",
-      "item.aae_items.cracker_dust": "Cracker Dust",
-      "item.allaboutengie.operators_boots": "Operators Boots",
-      "painting.allaboutengie.ez.title": "Enraged Zombies Logo",
+      "entity.allaboutengie.engie_sharko_rare_2_sleep_april_fools": "[Tamed] Rare Engie Sharko (Sleeping)",
       "item.allaboutengie.pizza_slice": "Pizza Slice",
-      "advancements.hi_dev_engie.descr": "Meet the developer of All About Engie.",
-      "item.allaboutengie.engi_shovel": "Engi Shovel",
-      "entity.allaboutengie.exotic_sharko": "Exotic Sharko",
-      "item.aae_items.uncooked_pizza": "Uncooked Pizza",
-      "entity.allaboutengie.engie_sharko_zoomies_tired": "Engie Sharko (Worn Out)",
-      "item.allaboutengie.angry_engie_axe": "Angry Engie Axe",
-      "item.allaboutengie.enormous_ban_hammer": "Enormous Ban Hammer",
       "item.allaboutengie.huge_ban_hammer_pixel": "Pixelized Huge Ban Hammer",
       "item.aae_items.operators_chestplate": "Operators Chestplate",
-      "entity.allaboutengie.rare_sharko_zoomies": "Rare Sharko",
       "block.allaboutengie.engie_ore": "Engie Ore",
-      "advancements.mini_ban_obtain.descr": "Obtain a Mini Ban Hammer",
-      "block.allaboutengie.biblically_accurate_block": "Biblically Accurate Engie Block",
       "item.allaboutengie.mythic_shark_helmet": "Mythic Sharko Helmet",
-      "entity.allaboutengie.engie_sharko_rare_2_sleep": "[Tamed] Rare Engie Sharko (Sleeping)",
-      "entity.allaboutengie.legendary_sharko": "Legendary Sharko",
-      "entity.allaboutengie.buddy_sleep": "Buddy (Sleeping)",
-      "item.allaboutengie.immense_ban_hammer": "Immense Ban Hammer",
-      "item.aae_items.ban_hammer_pixel": "Ban Hammer Pixel",
       "item.aae_items.enraged_engie_leggings": "Enraged Engie Leggings",
-      "advancements.gigantic_ban_obtain.descr": "Obtain a Gigantic Ban Hammer",
+      "item.aae_items.ban_hammer_pixel": "Ban Hammer Pixel",
+      "entity.allaboutengie.engie_sharko_rare_april_fools": "Rare Engie Sharko",
+      "item.allaboutengie.comically_massive_ban_hammer": "Comically Massive Ban Hammer",
       "item.allaboutengie.outraged_engie_shovel": "Outraged Engie Shovel",
       "item.allaboutengie.operators_leggings": "Operators Leggings",
+      "entity.allaboutengie.sharko_lay_april_fools": "[Tamed] Sharko (Laying)",
       "entity.allaboutengie.bothan_2net_sleep": "Bothan2net (Sleeping)",
-      "item.aae_items.operators_hoe": "Operators Hoe",
       "item.allaboutengie.exotic_chestplate": "Exotic Chestplate",
-      "item.allaboutengie.enchanted_engie_cookie": "Enchanted Engie Cookie",
       "item.allaboutengie.exotic_shovel": "Exotic Shovel",
-      "block.allaboutengie.engie_block": "Engie Block",
-      "advancements.big_ban_obtain.title": "Eh, could be a bit bigger. I don\u0027t mind it.",
       "item.allaboutengie.monstrosity_engie_pickaxe": "Monstrosity Engie Pickaxe",
       "item.allaboutengie.cyber_helmet": "Cyber Helmet",
       "entity.allaboutengie.albino_sharko_tamed": "[Tamed] Albino Sharko",
       "item.aae_items.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
       "item.allaboutengie.exotic_sword": "Exotic Sword",
-      "item.allaboutengie.engies_chestplate": "Engie Chestplate",
-      "entity.allaboutengie.marshal": "Marshal",
       "item.allaboutengie.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
-      "item.aae_items.engi_shovel": "Engi Shovel",
-      "entity.allaboutengie.toby_zoomies_tired": "Toby (Worn Out)",
-      "entity.allaboutengie.toby_zoomies": "Toby",
-      "entity.allaboutengie.exotic_sharko_tamed_zoomies": "[Tamed] Exotic Sharko (Zoomies)",
-      "item.allaboutengie.monstrosity_engie_shovel": "Monstrosity Engie Shovel",
-      "item.allaboutengie.rare_boots": "Rare Boots",
+      "item.allaboutengie.engie_sharko_rare_april_fools_spawn_egg": "Rare Engie Sharko Spawn Egg",
       "item.aae_items.enraged_engie_boots": "Enraged Engie Boots",
       "item.allaboutengie.enraged_zombies_plaque": "All About Engie (Enraged Zombies) Plaque",
-      "item.allaboutengie.shark_chestplate": "Sharko Chestplate",
-      "item.aae_items.angry_engie_leggings": "Angry Engie Leggings",
-      "painting.allaboutengie.aae_mobs.author": "DevEngie",
       "painting.allaboutengie.aae_sharkos.title": "All About Engie Sharkos Logo",
-      "item.allaboutengie.biblically_accurate_engie_essence": "Biblically Accurate Engie Essence",
       "item.allaboutengie.angry_engies_helmet": "Angry Engie Helmet",
-      "item.allaboutengie.outraged_engie_axe": "Outraged Engie Axe",
       "item.aae_items.bigger_ban_hammer_pixel": "Bigger Ban Hammer Pixel",
-      "item.allaboutengie.uncommon_sword": "Uncommon Sword",
-      "painting.allaboutengie.aae_items.author": "DevEngie",
+      "item.allaboutengie.enraged_engie_sharko_spawn_egg": "Enraged Engie Spawn Egg",
       "gamerule.detectiveFindEngie.description": "Sets day to 100, different beginning to the world.",
-      "item.allaboutengie.rare_axe": "Rare Axe",
       "advancements.enormous_ban_obtain.title": "Holy crap these get big...",
-      "advancements.comically_massive_obtain.descr": "Redeem DevEngies secret code. ;)",
       "item.allaboutengie.exotic_engie_spawn_egg": "Exotic Engie Spawn Egg",
       "item.aae_items.engie_pickaxe": "Engie Pickaxe",
+      "entity.allaboutengie.engie_sharko_rare_tamed_april_fools": "[Tamed] Rare Engie Sharko",
       "item.aae_items.crackers_in_bowl": "Crackers In Bowl",
-      "advancements.colossol_ban_obtain.title": "Lad, PLEASE TAKE A BREAK.",
-      "item.allaboutengie.crucifix": "Crucifix",
-      "item.allaboutengie.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item.allaboutengie.albino_shark_leggings": "Albino Sharko Leggings",
       "entity.allaboutengie.creator": "Creator",
       "item.allaboutengie.outraged_engie_pickaxe": "Outraged Engie Pickaxe",
       "entity.allaboutengie.engie_sharko": "Engie Sharko",
-      "advancements.immense_ban_obtain.title": "Are you crazy or something? You really need to take a chill pill.",
       "painting.allaboutengie.aae_dimensions.title": "All About Engie Dimensions Logo",
-      "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
       "item.aae_items.engie_helmet": "Engie Helmet",
-      "item.allaboutengie.blood_chestplate": "Blood Chestplate",
+      "item.allaboutengie.epic_sharko_april_fools_spawn_egg": "Epic Sharko Spawn Egg",
       "advancements.large_ban_obtain.descr": "Obtain a Large Ban Hammer",
-      "entity.allaboutengie.engie_sharko_tamed_zoomies_tired": "[Tamed] Engie Sharko (Worn Out)",
-      "entity.allaboutengie.tiger_sleep": "Tiger (Sleeping)",
       "item.allaboutengie.exotic_sharko_spawn_egg": "Exotic Sharko Spawn Egg",
-      "item.allaboutengie.bagel_cheese": "Bagel with Cheese",
+      "entity.allaboutengie.legendary_sharko_tamed_april_fools": "[Tamed] Legendary Sharko",
       "item.allaboutengie.angry_engie_pickaxe": "Angry Engie Pickaxe",
-      "entity.allaboutengie.apollo_lay": "Apollo [Laying]",
-      "painting.allaboutengie.tiger_shark_cat_onsie.title": "Cat Onsie Tiger Shark",
-      "item.allaboutengie.massive_ban_hammer_pixel": "Pixelized Massive Ban Hammer",
-      "item.allaboutengie.rare_leggings": "Rare Leggings",
       "item.aae_items.biggest_ban_hammer_pixel": "Biggest Ban Hammer Pixel",
       "item.allaboutengie.enraged_coin": "Enraged Coin",
       "item.allaboutengie.enraged_speed_spawn_egg": "Enraged Speed Spawn Egg",
-      "entity.allaboutengie.albino_sharko_zoomies_tired": "Albino Sharko (Worn Out)",
-      "entity.allaboutengie.epic_sharko_tamed": "[Tamed] Epic Sharko",
       "item.aae_items.angry_engie_hoe": "Angry Engie Hoe",
       "item.allaboutengie.epic_sharko_cloth": "Epic Sharko Cloth",
       "entity.allaboutengie.mythic_sharko": "Mythic Sharko",
       "item.allaboutengie.unobtainium_axe": "Unobtainium Axe",
       "entity.allaboutengie.engie_sharko_sleep": "[Tamed] Engie Sharko (Sleeping)",
-      "item.allaboutengie.exotic_shark_leggings": "Exotic Sharko Leggings",
-      "entity.allaboutengie.sharko": "Sharko",
       "item.allaboutengie.exotic_axe": "Exotic Axe",
       "item.aae_items.engie_hoe": "Engie Hoe",
       "item.aae_items.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
-      "item_group.allaboutengie.aae_items_items": "Items",
+      "entity.allaboutengie.exotic_sharko_lay_april_fools": "[Tamed] Exotic Sharko (Laying)",
       "block.aae_items.thanks_for_playing": "Thanks for playing!",
       "advancements.angry_engie_tool_obtained.title": "I\u0027m mildly disturbed now having this..",
       "item_group.allaboutengie.ban_hammers": "Ban Hammers",
       "entity.allaboutengie.louis_sleep": "Louis (Sleeping)",
       "entity.allaboutengie.epic_sharko_tamed_zoomies_tired": "[Tamed] Epic Sharko (Worn Out)",
-      "advancements.biblically_accurate_ban_obtain.descr": "Obtain a Biblically Accurate Ban Hammer",
-      "item.allaboutengie.enraged_engie_hoe": "Enraged Engie Hoe",
       "item.allaboutengie.bagel_cheese_cooked": "Cooked Bagel with Cheese",
-      "item.allaboutengie.engie_pickaxe": "Engie Pickaxe",
-      "item.aae_items.operators_helmet": "Operators Helmet",
-      "entity.allaboutengie.exotic_sharko_zoomies_tired": "Exotic Sharko (Worn Out)",
       "item.allaboutengie.biblically_accurate_engies_helmet": "Biblically Accurate Engie Helmet",
       "advancements.angry_engie_tool_obtained.descr": "Obtain your first Angry Engie tool.",
-      "gui.allaboutengie.enragedcoin_overlay.label_01": "0",
       "entity.allaboutengie.pbe_sleep": "clippedbyengie (da boyo) (Sleeping)",
       "item.allaboutengie.legendary_hoe": "Legendary Hoe",
+      "entity.allaboutengie.legendary_sharko_sleep_april_fools": "[Tamed] Legendary Sharko (Sleeping)",
       "block.aae_items.angry_engie_block": "Angry Engie Block",
-      "entity.allaboutengie.engie_sharko_tamed": "[Tamed] Engie Sharko",
       "item.allaboutengie.biblically_accurate_engies_chestplate": "Biblically Accurate Engie Chestplate",
-      "entity.allaboutengie.epic_sharko_lay": "[Tamed] Epic Sharko (Laying)",
-      "item.allaboutengie.mythic_leggings": "Mythic Leggings",
-      "item.allaboutengie.epic_boots": "Epic Boots",
       "block.aae_items.metal_chest_birch": "Birch Metal Chest",
       "item.aae_items.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
-      "item.allaboutengie.angry_engie_hoe": "Angry Engie Hoe",
       "itemGroup.tabmobs": "Mobs",
-      "item.allaboutengie.engie_axe": "Engie Axe",
+      "entity.allaboutengie.sharko_april_fools": "Sharko",
       "block.aae_items.deepslate_engie_ore": "Engie Ore",
-      "entity.allaboutengie.cbe": "clippedbyengie (da boyo)",
+      "item.allaboutengie.engie_axe": "Engie Axe",
       "block.aae_items.metal_chest_crimson": "Crimson Metal Chest",
-      "item.allaboutengie.engie_shark_leggings": "Engie Sharko Leggings",
-      "item.allaboutengie.legendary_shark_boots": "Legendary Sharko Boots",
       "entity.allaboutengie.legendary_sharko_lay": "[Tamed] Legendary Sharko (Laying)",
-      "advancements.new_world_new_problem.descr": "Create a world with the new All About Engie gamerule enabled.",
-      "item.allaboutengie.mythic_pickaxe": "Mythic Pickaxe",
       "entity.allaboutengie.common_engie": "Common Engie",
       "block.allaboutengie.cyber_block": "Cyber Block",
       "item.allaboutengie.engie_sharko_cloth": "Engie Sharko Cloth",
-      "item.aae_items.operators_axe": "Operators Axe",
-      "item.allaboutengie.operators_hoe": "Operators Hoe",
-      "item.allaboutengie.monstrosity_engie_axe": "Monstrosity Engie Axe",
-      "item.allaboutengie.extras_plaque": "All About Engie (Extras) Plaque",
+      "entity.allaboutengie.legendary_sharko_lay_april_fools": "[Tamed] Legendary Sharko (Laying)",
       "entity.allaboutengie.atlas": "Atlas",
-      "entity.allaboutengie.atlas_lay": "Atlas [Laying]",
+      "item.allaboutengie.extras_plaque": "All About Engie (Extras) Plaque",
       "painting.allaboutengie.aae_world.author": "DevEngie",
       "itemGroup.tabban_hammers": "Ban Hammers",
       "item.allaboutengie.enraged_engies_chestplate": "Enraged Engie Chestplate",
-      "item.allaboutengie.bahemoth_ban_hammer_pixel": "Pixelized Bahemoth Ban Hammer",
-      "item.allaboutengie.all_about_engie_plaque": "All About Engie Plaque",
-      "entity.allaboutengie.uncommon_engie": "Uncommon Engie",
       "item.allaboutengie.engie_games_spawn_egg": "EngieGames Spawn Egg",
       "item.allaboutengie.cyberblood_chestplate": "Cyberblood Chestplate",
       "entity.allaboutengie.legendary_sharko_tamed": "[Tamed] Legendary Sharko",
       "item.allaboutengie.operators_pickaxe": "Operators Pickaxe",
       "item.allaboutengie.exotic_cookie": "Exotic Cookie",
       "item.allaboutengie.cyber_chestplate": "Cyber Chestplate",
-      "item.allaboutengie.exotic_boots": "Exotic Boots",
-      "block.aae_items.metal_chest": "Metal Chest",
       "item.allaboutengie.common_hoe": "Common Hoe",
       "item.allaboutengie.exotic_shark_chestplate": "Exotic Sharko Chestplate",
-      "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
       "itemGroup.tabpixel_items": "Pixel Items",
       "entity.allaboutengie.epic_engie": "Epic Engie",
-      "advancements.immense_ban_obtain.descr": "Obtain a Immense Ban Hammer",
       "item.allaboutengie.brownies_empty": "Brownies Empty",
+      "entity.allaboutengie.rare_sharko_sleep_april_fools": "[Tamed] Rare Sharko (Sleeping)",
       "block.aae_items.engie_block": "Engie Block",
       "entity.allaboutengie.exotic_sharko_tamed": "[Tamed] Exotic Sharko",
       "item.aae_items.engie_boots": "Engie Boots",
-      "item.allaboutengie.angry_engies_boots": "Angry Engie Boots",
       "advancements.huge_ban_obtain.title": "Uhm... I guess this is cooler than the large one..?",
-      "item.aae_items.enraged_engie_essence": "Enraged Engie Essence",
       "item.allaboutengie.cyberblood_leggings": "Cyberblood Leggings",
       "item.allaboutengie.legendary_shovel": "Legendary Shovel",
-      "item.allaboutengie.angry_engie_shovel": "Angry Engie Shovel",
       "item.allaboutengie.biblically_accurate_engie_pickaxe": "Biblically Accurate Engie Pickaxe",
-      "advancements.biblically_accurate_engie_armor_obtained.title": "Hey, this isn\u0027t bad!",
+      "item.allaboutengie.legendary_sharko_april_fools_spawn_egg": "Legendary Sharko Spawn Egg",
       "item.allaboutengie.mad_engie_spawn_egg": "Mad Engie Spawn Egg",
       "painting.allaboutengie.tiger_shark.author": "EngieGames",
-      "entity.allaboutengie.engie_sharko_rare_2_zoomies": "Rare Engie Sharko",
       "item.allaboutengie.bagel_cooked": "Cooked Bagel",
-      "item.allaboutengie.rare_shark_boots": "Rare Sharko Boots",
       "item.allaboutengie.rare_pickaxe": "Rare Pickaxe",
-      "item.allaboutengie.mythic_shovel": "Mythic Shovel",
       "item.aae_items.angry_engie_essence": "Angry Engie Essence",
       "entity.allaboutengie.enraged_tnt": "Enraged TNT",
       "item.allaboutengie.engie_cookie": "Engie Cookie",
-      "itemGroup.tabaae_items_armor": "Armor",
-      "advancements.ban_obtain.descr": "Obtain a Ban Hammer",
+      "entity.allaboutengie.engie_sharko_rare_2_april_fools": "Rare Engie Sharko",
       "item.allaboutengie.brownie": "Brownie",
       "entity.allaboutengie.enraged_tnt_9": "Enraged TNT",
       "item.aae_items.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
-      "item.allaboutengie.biblically_accurate_engie_hoe": "Biblically Accurate Engie Hoe",
       "item.aae_items.enraged_engie_shovel": "Enraged Engie Shovel",
-      "block.allaboutengie.old_engie_ore": "Engie Ore",
       "item.allaboutengie.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
       "item.allaboutengie.engi_fr_spawn_egg": "EngiFR Spawn Egg",
       "item.allaboutengie.mythic_engie_spawn_egg": "Mythic Engie Spawn Egg",
-      "item.allaboutengie.angry_engie_essence": "Angry Engie Essence",
       "item.allaboutengie.rare_shark_chestplate": "Rare Sharko Chestplate",
       "entity.allaboutengie.enraged_tnt_2": "Enraged TNT",
       "entity.allaboutengie.enraged_tnt_3": "Enraged TNT",
-      "itemGroup.tabaae_items_items": "Items",
-      "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
       "entity.allaboutengie.enraged_tnt_4": "Enraged TNT",
-      "item.allaboutengie.enchanted_golden_cookie": "Enchanted Golden Cookie",
       "entity.allaboutengie.enraged_tnt_5": "Enraged TNT",
       "entity.allaboutengie.enraged_tnt_6": "Enraged TNT",
       "block.aae_items.engie_ore": "Engie Ore",
-      "item.allaboutengie.legendary_shark_helmet": "Legendary Sharko Helmet",
       "entity.allaboutengie.enraged_tnt_7": "Enraged TNT",
-      "item.allaboutengie.gigantic_ban_hammer": "Gigantic Ban Hammer",
       "entity.allaboutengie.enraged_tnt_8": "Enraged TNT",
-      "entity.allaboutengie.engie_sharko_zoomies": "Engie Sharko",
-      "item.aae_items.cooked_pizza": "Cooked Pizza",
       "advancements.new_world.title": "All About Engie.",
-      "item.allaboutengie.aae_engie": "playedbyengie (aka clippedbyengie)",
       "item.aae_items.big_ban_hammer": "Big Ban Hammer",
       "item.allaboutengie.mythic_shark_chestplate": "Mythic Sharko Chestplate",
-      "entity.allaboutengie.cbe_zoomies": "clippedbyengie (da boyo)",
-      "item.allaboutengie.albino_sharko_spawn_egg": "Albino Sharko Spawn Egg",
-      "item.allaboutengie.common_sword": "Common Sword",
-      "entity.allaboutengie.apollo": "Apollo",
-      "block.allaboutengie.metal_chest_warped": "Warped Metal Chest",
       "entity.allaboutengie.rare_sharko_tamed_zoomies_tired": "[Tamed] Rare Sharko (Worn Out)",
       "entity.allaboutengie.enraged_engie": "Enraged Engie",
-      "item.allaboutengie.unobtainium_pickaxe": "Unobtainium Pickaxe",
       "entity.allaboutengie.bothan_2net": "Bothan2net",
-      "item.allaboutengie.creator_spawn_egg": "Creator Spawn Egg",
-      "item.allaboutengie.engi_pickaxe": "Engi Pickaxe",
-      "block.allaboutengie.blood_ore": "Blood Ore",
       "item.aae_items.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
-      "entity.allaboutengie.engie_sharko_rare_tamed_zoomies": "[Tamed] Rare Engie Sharko (Zoomies)",
-      "item.allaboutengie.code_redeemers_hammer": "Code Redeemers Ban Hammer",
-      "advancements.new_world_new_problem.title": "All About Engie: Detective mode edition.",
+      "item.allaboutengie.engie_sharko_rare_2_april_fools_spawn_egg": "Rare Engie Sharko Spawn Egg",
       "painting.allaboutengie.shovel_king.title": "The shovel of King Bothan the great. (Friend wanted me to do it.)",
-      "painting.allaboutengie.aae_extras.author": "DevEngie",
-      "item.allaboutengie.sharko_cloth": "Sharko Cloth",
       "item.allaboutengie.brownies_unopened": "Brownies Unopened",
-      "advancements.hi_dev_engie.title": "Hi DevEngie!",
       "entity.allaboutengie.apollo_sleep": "Apollo (Sleeping)",
       "item.allaboutengie.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
-      "item.allaboutengie.ban_hammer": "Ban Hammer",
       "item.allaboutengie.unobtainium_hoe": "Unobtainium Hoe",
-      "block.allaboutengie.deepslate_unobtainium_ore": "Deepslate Unobtainium Ore",
       "item.allaboutengie.enraged_engie_shovel": "Enraged Engie Shovel",
       "item.allaboutengie.rare_shark_leggings": "Rare Sharko Leggings",
       "item.allaboutengie.protogen_spawn_egg": "Protogen Spawn Egg",
-      "item.allaboutengie.dimensions_plaque": "All About Engie (Dimensions) Plaque",
       "item_group.allaboutengie.pixel_items": "Pixel Items",
-      "block.allaboutengie.enraged_engie_block": "Enraged Engie Block",
       "painting.allaboutengie.aae_items.title": "All About Engie Items Logo",
-      "item.allaboutengie.unobtainium_chunklet": "Unobtainium Chunklet",
-      "item.aae_items.operators_shovel": "Operators Shovel",
-      "advancements.engie_tool_obtained.descr": "Obtain your first Engie tool.",
-      "item.allaboutengie.enormous_ban_hammer_pixel": "Pixelized Enormous Ban Hammer",
       "item.allaboutengie.common_leggings": "Common Leggings",
       "entity.allaboutengie.louis": "Louis",
       "entity.allaboutengie.rare_sharko_tamed": "[Tamed] Rare Sharko",
-      "block.aae_items.metal_chest_oak": "Oak Metal Chest",
-      "advancements.outraged_engie_armor_obtained.descr": "Obtain Outraged Engie Armor for the first time.",
-      "item.allaboutengie.engie_gem": "Engie Gem",
-      "entity.allaboutengie.engie_sharko_rare": "Rare Engie Sharko",
       "item.allaboutengie.legendary_engie_spawn_egg": "Legendary Engie Spawn Egg",
-      "painting.allaboutengie.idea_giver_blood.title": "Idea Giver Blood",
-      "entity.allaboutengie.louis_lay": "Louis [Laying]",
-      "entity.allaboutengie.rare_sharko_lay": "[Tamed] Rare Sharko (Laying)",
-      "item.allaboutengie.monstrosity_engies_boots": "Monstrosity Engie Boots",
-      "item.aae_items.angry_engie_boots": "Angry Engie Boots",
-      "block.allaboutengie.old_deepslate_engie_ore": "Engie Ore",
       "advancements.mammoth_ban_obtain.descr": "Obtain a Mammoth Ban Hammer",
-      "entity.allaboutengie.pbe": "playedbyengie (da boyo)",
+      "item.aae_items.angry_engie_boots": "Angry Engie Boots",
       "item.allaboutengie.blood_battle_axe": "Blood Battle Axe",
-      "entity.allaboutengie.engie_sharko_rare_zoomies": "Rare Engie Sharko",
-      "entity.allaboutengie.epic_sharko_tamed_zoomies": "[Tamed] Epic Sharko (Zoomies)",
-      "item_group.allaboutengie.aae_items_armor": "Armor",
-      "item.allaboutengie.cyberblood_ingot": "Cyberblood Ingot",
-      "entity.allaboutengie.marshal_zoomies_tired": "Marshal (Worn Out)",
-      "item.allaboutengie.cyber_ingot": "Cyber Ingot",
       "item.allaboutengie.epic_shark_boots": "Epic Sharko Boots",
       "entity.allaboutengie.engie_sharko_lay": "[Tamed] Engie Sharko (Laying)",
-      "entity.allaboutengie.legendary_sharko_zoomies": "Legendary Sharko",
-      "advancements.comically_massive_obtain.title": "DevEngies little secret. ;)",
       "entity.allaboutengie.legendary_sharko_tamed_zoomies_tired": "[Tamed] Legendary Sharko (Worn Out)",
-      "entity.allaboutengie.mythic_sharko_sleep": "[Tamed] Mythic Sharko (Sleeping)",
-      "advancements.monstrosity_engie_essence_obtained.descr": "Obtain an Monstrosity Engie Essence for the first time.",
-      "entity.allaboutengie.engie_sharko_rare_zoomies_tired": "Rare Engie Sharko (Worn Out)",
-      "item.allaboutengie.common_shovel": "Common Shovel",
-      "entity.allaboutengie.mythic_sharko_zoomies_tired": "Mythic Sharko (Worn Out)",
-      "item.allaboutengie.shark_helmet": "Sharko Helmet",
-      "item.allaboutengie.blood_boots": "Blood Boots",
       "entity.allaboutengie.engie_sharko_rare_2_tamed": "[Tamed] Rare Engie Sharko",
-      "advancements.big_ban_obtain.descr": "Obtain a Big Ban Hammer",
       "item.allaboutengie.engie_shark_helmet": "Engie Sharko Helmet"
     }
   },
@@ -15989,8 +17144,8 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "3.29.25",
-    "description": "Made with MCreator.",
+    "version": "4.1.25",
+    "description": "Made with MCreator. ",
     "author": "DevEngie",
     "websiteURL": "https://www.twitch.tv/engiegames",
     "license": "MIT License",

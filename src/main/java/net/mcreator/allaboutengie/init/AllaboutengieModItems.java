@@ -71,13 +71,13 @@ import net.mcreator.allaboutengie.item.MonstrosityEngiePickaxeItem;
 import net.mcreator.allaboutengie.item.MonstrosityEngieHoeItem;
 import net.mcreator.allaboutengie.item.MonstrosityEngieEssenceItem;
 import net.mcreator.allaboutengie.item.MonstrosityEngieAxeItem;
+import net.mcreator.allaboutengie.item.MonstrosityBanHammerPixelItem;
+import net.mcreator.allaboutengie.item.MonstrosityBanHammerItem;
 import net.mcreator.allaboutengie.item.MobsPlaqueItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerItem;
-import net.mcreator.allaboutengie.item.MammothBanHammerPixelItem;
-import net.mcreator.allaboutengie.item.MammothBanHammerItem;
 import net.mcreator.allaboutengie.item.LegendarySwordItem;
 import net.mcreator.allaboutengie.item.LegendaryShovelItem;
 import net.mcreator.allaboutengie.item.LegendarySharkoClothItem;
@@ -91,8 +91,6 @@ import net.mcreator.allaboutengie.item.LargeBanHammerItem;
 import net.mcreator.allaboutengie.item.KickBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.KickBanHammerItem;
 import net.mcreator.allaboutengie.item.ItemsPlaqueItem;
-import net.mcreator.allaboutengie.item.ImmenseBanHammerPixelItem;
-import net.mcreator.allaboutengie.item.ImmenseBanHammerItem;
 import net.mcreator.allaboutengie.item.HugeBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.HugeBanHammerItem;
 import net.mcreator.allaboutengie.item.GoldenCookieItem;
@@ -167,8 +165,6 @@ import net.mcreator.allaboutengie.item.CommonPickaxeItem;
 import net.mcreator.allaboutengie.item.CommonItem;
 import net.mcreator.allaboutengie.item.CommonHoeItem;
 import net.mcreator.allaboutengie.item.CommonAxeItem;
-import net.mcreator.allaboutengie.item.ColossolBanHammerItem;
-import net.mcreator.allaboutengie.item.ColossalBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.CodeRedeemersItem;
 import net.mcreator.allaboutengie.item.CodeRedeemersHammerPixelItem;
 import net.mcreator.allaboutengie.item.CodeRedeemersHammerItem;
@@ -347,10 +343,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> GIGANTIC_BAN_HAMMER = REGISTRY.register("gigantic_ban_hammer", () -> new GiganticBanHammerItem());
 	public static final RegistryObject<Item> MASSIVE_BAN_HAMMER = REGISTRY.register("massive_ban_hammer", () -> new MassiveBanHammerItem());
 	public static final RegistryObject<Item> BIBLICALLY_ACCURATE_ENGIE_BAN_HAMMER = REGISTRY.register("biblically_accurate_engie_ban_hammer", () -> new BiblicallyAccuratEngieBanHammerItem());
-	public static final RegistryObject<Item> COLOSSOL_BAN_HAMMER = REGISTRY.register("colossol_ban_hammer", () -> new ColossolBanHammerItem());
-	public static final RegistryObject<Item> IMMENSE_BAN_HAMMER = REGISTRY.register("immense_ban_hammer", () -> new ImmenseBanHammerItem());
-	public static final RegistryObject<Item> MAMMOTH_BAN_HAMMER = REGISTRY.register("mammoth_ban_hammer", () -> new MammothBanHammerItem());
-	public static final RegistryObject<Item> BAHEMOTH_BAN_HAMMER = REGISTRY.register("bahemoth_ban_hammer", () -> new BahemothBanHammerItem());
+	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER = REGISTRY.register("comically_massive_ban_hammer", () -> new BahemothBanHammerItem());
 	public static final RegistryObject<Item> CRUCIFIX_PIXEL = REGISTRY.register("crucifix_pixel", () -> new CrucifixPixelItem());
 	public static final RegistryObject<Item> MINI_BAN_HAMMER_PIXEL = REGISTRY.register("mini_ban_hammer_pixel", () -> new MiniBanHammerPixelItem());
 	public static final RegistryObject<Item> BAN_HAMMER_PIXEL = REGISTRY.register("ban_hammer_pixel", () -> new BanHammerPixelItem());
@@ -361,10 +354,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> GIGANTIC_BAN_HAMMER_PIXEL = REGISTRY.register("gigantic_ban_hammer_pixel", () -> new GiganticBanHammerPixelItem());
 	public static final RegistryObject<Item> MASSIVE_BAN_HAMMER_PIXEL = REGISTRY.register("massive_ban_hammer_pixel", () -> new MassiveBanHammerPixelItem());
 	public static final RegistryObject<Item> BIBLICALLY_ACCURATE_ENGIE_BAN_HAMMER_PIXEL = REGISTRY.register("biblically_accurate_engie_ban_hammer_pixel", () -> new BiblicallyAccurateEngieBanHammerPixelItem());
-	public static final RegistryObject<Item> COLOSSAL_BAN_HAMMER_PIXEL = REGISTRY.register("colossal_ban_hammer_pixel", () -> new ColossalBanHammerPixelItem());
-	public static final RegistryObject<Item> IMMENSE_BAN_HAMMER_PIXEL = REGISTRY.register("immense_ban_hammer_pixel", () -> new ImmenseBanHammerPixelItem());
-	public static final RegistryObject<Item> MAMMOTH_BAN_HAMMER_PIXEL = REGISTRY.register("mammoth_ban_hammer_pixel", () -> new MammothBanHammerPixelItem());
-	public static final RegistryObject<Item> BAHEMOTH_BAN_HAMMER_PIXEL = REGISTRY.register("bahemoth_ban_hammer_pixel", () -> new BahemothBanHammerPixelItem());
+	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER_PIXEL = REGISTRY.register("comically_massive_ban_hammer_pixel", () -> new BahemothBanHammerPixelItem());
 	public static final RegistryObject<Item> GOLDEN_COOKIE = REGISTRY.register("golden_cookie", () -> new GoldenCookieItem());
 	public static final RegistryObject<Item> ENCHANTED_GOLDEN_COOKIE = REGISTRY.register("enchanted_golden_cookie", () -> new EnchantedGoldenCookieItem());
 	public static final RegistryObject<Item> EXOTIC_COOKIE = REGISTRY.register("exotic_cookie", () -> new ExoticCookieItem());
@@ -523,7 +513,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ALBINO_SHARKO_SPAWN_EGG = REGISTRY.register("albino_sharko_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO, -1644826, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> RARE_SHARKO_SPAWN_EGG = REGISTRY.register("rare_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_SHARKO, -1644826, -10450, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_SHARKO, -12434740, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> EPIC_SHARKO_SPAWN_EGG = REGISTRY.register("epic_sharko_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EPIC_SHARKO, -7077695, -5504795, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> LEGENDARY_SHARKO_SPAWN_EGG = REGISTRY.register("legendary_sharko_spawn_egg",
@@ -594,6 +584,36 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TEXTBOXYEAH = block(AllaboutengieModBlocks.TEXTBOXYEAH, null);
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_4 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_4, null);
 	public static final RegistryObject<Item> BROWNIES_EMPTY = REGISTRY.register("brownies_empty", () -> new BrowniesEmptyItem());
+	public static final RegistryObject<Item> ANGRY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("angry_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE_SHARKO, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ENRAGED_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("enraged_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE_SHARKO, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> OUTRAGED_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("outraged_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE_SHARKO, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("monstrosity_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MONSTROSITY_ENGIE_SHARKO, -16777216, -3010263, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO_APRIL_FOOLS, -12420148, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ALBINO_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("albino_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO_APRIL_FOOLS, -1644826, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> RARE_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("rare_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_SHARKO_APRIL_FOOLS, -12434740, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> LEGENDARY_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("legendary_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.LEGENDARY_SHARKO_APRIL_FOOLS, -12544, -7680, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> MYTHIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("mythic_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MYTHIC_SHARKO_APRIL_FOOLS, -1512448, -196818, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> EXOTIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("exotic_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_SHARKO_APRIL_FOOLS, -16714511, -12845059, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ENGIE_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_APRIL_FOOLS, -16250872, -7271155, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_APRIL_FOOLS, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_APRIL_FOOLS, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> EPIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("epic_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EPIC_SHARKO_APRIL_FOOLS, -7077695, -5504795, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER = REGISTRY.register("monstrosity_ban_hammer", () -> new MonstrosityBanHammerItem());
+	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER_PIXEL = REGISTRY.register("monstrosity_ban_hammer_pixel", () -> new MonstrosityBanHammerPixelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ColossolBanHammer"
+      "value": "CUSTOM:MonstrosityBanHammer"
     },
     "name": "monstrosity_ban_craft",
     "namespace": "mod"

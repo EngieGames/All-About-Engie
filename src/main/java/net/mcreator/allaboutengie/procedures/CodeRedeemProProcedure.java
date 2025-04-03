@@ -39,7 +39,7 @@ public class CodeRedeemProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:bahemoth_ban_hammer");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:comically_massive_ban_hammer");
 							}
 						}
 						if ((entity instanceof ServerPlayer _plr3 && _plr3.level instanceof ServerLevel
@@ -78,7 +78,7 @@ public class CodeRedeemProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:bahemoth_ban_hammer_pixel");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:comically_massive_ban_hammer_pixel");
 							}
 						}
 						if ((entity instanceof ServerPlayer _plr7 && _plr7.level instanceof ServerLevel
@@ -172,7 +172,7 @@ public class CodeRedeemProProcedure {
 						return "";
 					}
 				}
-			}).getMessage()).equals("bagel")) {
+			}).getMessage()).equals("april fools")) {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -216,7 +216,7 @@ public class CodeRedeemProProcedure {
 						return "";
 					}
 				}
-			}).getMessage()).equals("Bagel")) {
+			}).getMessage()).equals("April Fools")) {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -260,7 +260,7 @@ public class CodeRedeemProProcedure {
 						return "";
 					}
 				}
-			}).getMessage()).equals("BAGEL")) {
+			}).getMessage()).equals("APRIL FOOLS")) {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -306,14 +306,12 @@ public class CodeRedeemProProcedure {
 					}
 				}
 			}).getMessage()).equals("anallaboutengiechristmas")) {
-				if (AllaboutengieModVariables.seasonwinter == true) {
-					if (AllaboutengieModVariables.decembercodeblock == false) {
-						{
-							Entity _ent = entity;
-							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:angel_hatted_present 16");
-							}
+				if (AllaboutengieModVariables.decembercodeblock == false) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:angel_hatted_present 16");
 						}
 					}
 				}
@@ -326,14 +324,12 @@ public class CodeRedeemProProcedure {
 					}
 				}
 			}).getMessage()).equals("ANALLABOUTENGIECHRISTMAS")) {
-				if (AllaboutengieModVariables.seasonwinter == true) {
-					if (AllaboutengieModVariables.decembercodeblock == false) {
-						{
-							Entity _ent = entity;
-							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:angel_hatted_present 16");
-							}
+				if (AllaboutengieModVariables.decembercodeblock == false) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:angel_hatted_present 16");
 						}
 					}
 				}
@@ -346,14 +342,12 @@ public class CodeRedeemProProcedure {
 					}
 				}
 			}).getMessage()).equals("AnAllAboutEngieChristmas")) {
-				if (AllaboutengieModVariables.seasonwinter == true) {
-					if (AllaboutengieModVariables.decembercodeblock == false) {
-						{
-							Entity _ent = entity;
-							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:angel_hatted_present 16");
-							}
+				if (AllaboutengieModVariables.decembercodeblock == false) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:angel_hatted_present 16");
 						}
 					}
 				}
