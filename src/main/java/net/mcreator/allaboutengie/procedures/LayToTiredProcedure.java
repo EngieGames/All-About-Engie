@@ -41,6 +41,7 @@ import net.mcreator.allaboutengie.entity.LegendarySharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoSleepAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.ExoticSharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoSleepAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareSleepEntity;
@@ -151,7 +152,7 @@ public class LayToTiredProcedure {
 					}
 				});
 			}
-			if (entity instanceof MythicSharkoLayAprilFoolsEntity) {
+			if (entity instanceof ExoticSharkoLayAprilFoolsEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
