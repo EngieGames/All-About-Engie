@@ -42,6 +42,10 @@ import net.mcreator.allaboutengie.entity.ExoticSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoSleepAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayAprilFoolsEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoSleepAprilFoolsEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoSleepAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoRareSleepEntity;
@@ -122,6 +126,19 @@ public class LayToTiredProcedure {
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_sleep_april_fools ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof EpicSharkoLayAprilFoolsEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:epic_sharko_sleep_april_fools ~ ~ ~");
 						}
 					}
 				});
@@ -231,6 +248,19 @@ public class LayToTiredProcedure {
 				});
 			}
 			if (entity instanceof RareSharkoLayEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_sleep ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof EpicSharkoLayEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
 				AllaboutengieMod.queueServerWork(1, () -> {
@@ -451,7 +481,7 @@ public class LayToTiredProcedure {
 					}
 				});
 			}
-		} else if (world instanceof Level _lvl113 && _lvl113.isDay()) {
+		} else if (world instanceof Level _lvl121 && _lvl121.isDay()) {
 			if (entity instanceof SharkoSleepAprilFoolsEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -487,6 +517,19 @@ public class LayToTiredProcedure {
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_lay_april_fools ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof EpicSharkoSleepAprilFoolsEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:epic_sharko_lay_april_fools ~ ~ ~");
 						}
 					}
 				});
@@ -604,6 +647,19 @@ public class LayToTiredProcedure {
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:rare_sharko_lay ~ ~ ~");
+						}
+					}
+				});
+			}
+			if (entity instanceof EpicSharkoSleepEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				AllaboutengieMod.queueServerWork(1, () -> {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:epic_sharko_lay ~ ~ ~");
 						}
 					}
 				});

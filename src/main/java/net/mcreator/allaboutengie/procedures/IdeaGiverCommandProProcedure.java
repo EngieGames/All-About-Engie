@@ -106,7 +106,7 @@ public class IdeaGiverCommandProProcedure {
 				}
 			});
 		}
-		if ((entity.getDisplayName().getString()).equals("GremilingPlayz")) {
+		if ((entity.getDisplayName().getString()).equals("NotGremHere")) {
 			AllaboutengieMod.queueServerWork(1, () -> {
 				{
 					Entity _ent = entity;
@@ -153,7 +153,7 @@ public class IdeaGiverCommandProProcedure {
 				}
 			});
 		}
-		if ((entity.getDisplayName().getString()).equals("[All About Engie Idea Giver] GremilingPlayz")) {
+		if ((entity.getDisplayName().getString()).equals("[All About Engie Idea Giver] NotGremHere")) {
 			AllaboutengieMod.queueServerWork(1, () -> {
 				{
 					Entity _ent = entity;

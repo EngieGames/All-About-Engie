@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "[Tamed] Rare Engie Sharko (Sleeping)",
     "mobLabel": "",
-    "mobModelName": "Modelboyoaprilfoolssit",
-    "mobModelTexture": "engieboyorare2aprilfirstt.png",
+    "mobModelName": "Modelboyoaprilfoolssleep",
+    "mobModelTexture": "engieboyorare2aprilfirsttsleep.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
