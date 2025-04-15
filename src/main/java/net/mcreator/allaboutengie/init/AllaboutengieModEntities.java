@@ -295,6 +295,21 @@ public class AllaboutengieModEntities {
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<MonstrosityEngieEntity>> MONSTROSITY_ENGIE = register("monstrosity_engie", EntityType.Builder.<MonstrosityEngieEntity>of(MonstrosityEngieEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MonstrosityEngieEntity::new).fireImmune().sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<AngryEngieSharkoEntity>> ANGRY_ENGIE_SHARKO = register("angry_engie_sharko",
+			EntityType.Builder.<AngryEngieSharkoEntity>of(AngryEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieSharkoEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EnragedEngieSharkoEntity>> ENRAGED_ENGIE_SHARKO = register("enraged_engie_sharko",
+			EntityType.Builder.<EnragedEngieSharkoEntity>of(EnragedEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieSharkoEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<OutragedEngieSharkoEntity>> OUTRAGED_ENGIE_SHARKO = register("outraged_engie_sharko",
+			EntityType.Builder.<OutragedEngieSharkoEntity>of(OutragedEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OutragedEngieSharkoEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<MonstrosityEngieSharkoEntity>> MONSTROSITY_ENGIE_SHARKO = register("monstrosity_engie_sharko",
+			EntityType.Builder.<MonstrosityEngieSharkoEntity>of(MonstrosityEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(MonstrosityEngieSharkoEntity::new).fireImmune().sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<SharkoEntity>> SHARKO = register("sharko",
 			EntityType.Builder.<SharkoEntity>of(SharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoEntity::new)
 
@@ -333,6 +348,55 @@ public class AllaboutengieModEntities {
 					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<EngieSharkoRare2Entity>> ENGIE_SHARKO_RARE_2 = register("engie_sharko_rare_2",
 			EntityType.Builder.<EngieSharkoRare2Entity>of(EngieSharkoRare2Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieSharkoRare2Entity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<SharkoAprilFoolsEntity>> SHARKO_APRIL_FOOLS = register("sharko_april_fools",
+			EntityType.Builder.<SharkoAprilFoolsEntity>of(SharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<AlbinoSharkoAprilFoolsEntity>> ALBINO_SHARKO_APRIL_FOOLS = register("albino_sharko_april_fools",
+			EntityType.Builder.<AlbinoSharkoAprilFoolsEntity>of(AlbinoSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(AlbinoSharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<RareSharkoAprilFoolsEntity>> RARE_SHARKO_APRIL_FOOLS = register("rare_sharko_april_fools",
+			EntityType.Builder.<RareSharkoAprilFoolsEntity>of(RareSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(RareSharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EpicSharkoAprilFoolsEntity>> EPIC_SHARKO_APRIL_FOOLS = register("epic_sharko_april_fools",
+			EntityType.Builder.<EpicSharkoAprilFoolsEntity>of(EpicSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EpicSharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<LegendarySharkoAprilFoolsEntity>> LEGENDARY_SHARKO_APRIL_FOOLS = register("legendary_sharko_april_fools",
+			EntityType.Builder.<LegendarySharkoAprilFoolsEntity>of(LegendarySharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(LegendarySharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<MythicSharkoAprilFoolsEntity>> MYTHIC_SHARKO_APRIL_FOOLS = register("mythic_sharko_april_fools",
+			EntityType.Builder.<MythicSharkoAprilFoolsEntity>of(MythicSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(MythicSharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<ExoticSharkoAprilFoolsEntity>> EXOTIC_SHARKO_APRIL_FOOLS = register("exotic_sharko_april_fools",
+			EntityType.Builder.<ExoticSharkoAprilFoolsEntity>of(ExoticSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(ExoticSharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EngieSharkoAprilFoolsEntity>> ENGIE_SHARKO_APRIL_FOOLS = register("engie_sharko_april_fools",
+			EntityType.Builder.<EngieSharkoAprilFoolsEntity>of(EngieSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EngieSharkoRareAprilFoolsEntity>> ENGIE_SHARKO_RARE_APRIL_FOOLS = register("engie_sharko_rare_april_fools",
+			EntityType.Builder.<EngieSharkoRareAprilFoolsEntity>of(EngieSharkoRareAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoRareAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<EngieSharkoRare2AprilFoolsEntity>> ENGIE_SHARKO_RARE_2_APRIL_FOOLS = register("engie_sharko_rare_2_april_fools",
+			EntityType.Builder.<EngieSharkoRare2AprilFoolsEntity>of(EngieSharkoRare2AprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoRare2AprilFoolsEntity::new)
 
 					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<TobyEntity>> TOBY = register("toby",
@@ -674,6 +738,105 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<EpicSharkoSleepEntity>of(EpicSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EpicSharkoSleepEntity::new)
 
 					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<SharkoLayAprilFoolsEntity>> SHARKO_LAY_APRIL_FOOLS = register("sharko_lay_april_fools",
+			EntityType.Builder.<SharkoLayAprilFoolsEntity>of(SharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<AlbinoSharkoLayAprilFoolsEntity>> ALBINO_SHARKO_LAY_APRIL_FOOLS = register("albino_sharko_lay_april_fools",
+			EntityType.Builder.<AlbinoSharkoLayAprilFoolsEntity>of(AlbinoSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(AlbinoSharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<RareSharkoLayAprilFoolsEntity>> RARE_SHARKO_LAY_APRIL_FOOLS = register("rare_sharko_lay_april_fools",
+			EntityType.Builder.<RareSharkoLayAprilFoolsEntity>of(RareSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(RareSharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<LegendarySharkoLayAprilFoolsEntity>> LEGENDARY_SHARKO_LAY_APRIL_FOOLS = register("legendary_sharko_lay_april_fools",
+			EntityType.Builder.<LegendarySharkoLayAprilFoolsEntity>of(LegendarySharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(LegendarySharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<MythicSharkoLayAprilFoolsEntity>> MYTHIC_SHARKO_LAY_APRIL_FOOLS = register("mythic_sharko_lay_april_fools",
+			EntityType.Builder.<MythicSharkoLayAprilFoolsEntity>of(MythicSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(MythicSharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<ExoticSharkoLayAprilFoolsEntity>> EXOTIC_SHARKO_LAY_APRIL_FOOLS = register("exotic_sharko_lay_april_fools",
+			EntityType.Builder.<ExoticSharkoLayAprilFoolsEntity>of(ExoticSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(ExoticSharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EngieSharkoLayAprilFoolsEntity>> ENGIE_SHARKO_LAY_APRIL_FOOLS = register("engie_sharko_lay_april_fools",
+			EntityType.Builder.<EngieSharkoLayAprilFoolsEntity>of(EngieSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EngieSharkoRareLayAprilFoolsEntity>> ENGIE_SHARKO_RARE_LAY_APRIL_FOOLS = register("engie_sharko_rare_lay_april_fools",
+			EntityType.Builder.<EngieSharkoRareLayAprilFoolsEntity>of(EngieSharkoRareLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoRareLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EngieSharkoRare2LayAprilFoolsEntity>> ENGIE_SHARKO_RARE_2_LAY_APRIL_FOOLS = register("engie_sharko_rare_2_lay_april_fools",
+			EntityType.Builder.<EngieSharkoRare2LayAprilFoolsEntity>of(EngieSharkoRare2LayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoRare2LayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<SharkoSleepAprilFoolsEntity>> SHARKO_SLEEP_APRIL_FOOLS = register("sharko_sleep_april_fools",
+			EntityType.Builder.<SharkoSleepAprilFoolsEntity>of(SharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(SharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<AlbinoSharkoSleepAprilFoolsEntity>> ALBINO_SHARKO_SLEEP_APRIL_FOOLS = register("albino_sharko_sleep_april_fools",
+			EntityType.Builder.<AlbinoSharkoSleepAprilFoolsEntity>of(AlbinoSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(AlbinoSharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<RareSharkoSleepAprilFoolsEntity>> RARE_SHARKO_SLEEP_APRIL_FOOLS = register("rare_sharko_sleep_april_fools",
+			EntityType.Builder.<RareSharkoSleepAprilFoolsEntity>of(RareSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(RareSharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<LegendarySharkoSleepAprilFoolsEntity>> LEGENDARY_SHARKO_SLEEP_APRIL_FOOLS = register("legendary_sharko_sleep_april_fools",
+			EntityType.Builder.<LegendarySharkoSleepAprilFoolsEntity>of(LegendarySharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(LegendarySharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<MythicSharkoSleepAprilFoolsEntity>> MYTHIC_SHARKO_SLEEP_APRIL_FOOLS = register("mythic_sharko_sleep_april_fools",
+			EntityType.Builder.<MythicSharkoSleepAprilFoolsEntity>of(MythicSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(MythicSharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<ExoticSharkoSleepAprilFoolsEntity>> EXOTIC_SHARKO_SLEEP_APRIL_FOOLS = register("exotic_sharko_sleep_april_fools",
+			EntityType.Builder.<ExoticSharkoSleepAprilFoolsEntity>of(ExoticSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(ExoticSharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EngieSharkoSleepAprilFoolsEntity>> ENGIE_SHARKO_SLEEP_APRIL_FOOLS = register("engie_sharko_sleep_april_fools",
+			EntityType.Builder.<EngieSharkoSleepAprilFoolsEntity>of(EngieSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EngieSharkoRareSleepAprilFoolsEntity>> ENGIE_SHARKO_RARE_SLEEP_APRIL_FOOLS = register("engie_sharko_rare_sleep_april_fools",
+			EntityType.Builder.<EngieSharkoRareSleepAprilFoolsEntity>of(EngieSharkoRareSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoRareSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EngieSharkoRare2SleepAprilFoolsEntity>> ENGIE_SHARKO_RARE_2_SLEEP_APRIL_FOOLS = register("engie_sharko_rare_2_sleep_april_fools",
+			EntityType.Builder.<EngieSharkoRare2SleepAprilFoolsEntity>of(EngieSharkoRare2SleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EngieSharkoRare2SleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EpicSharkoLayAprilFoolsEntity>> EPIC_SHARKO_LAY_APRIL_FOOLS = register("epic_sharko_lay_april_fools",
+			EntityType.Builder.<EpicSharkoLayAprilFoolsEntity>of(EpicSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EpicSharkoLayAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<EpicSharkoSleepAprilFoolsEntity>> EPIC_SHARKO_SLEEP_APRIL_FOOLS = register("epic_sharko_sleep_april_fools",
+			EntityType.Builder.<EpicSharkoSleepAprilFoolsEntity>of(EpicSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EpicSharkoSleepAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.6f));
 	public static final RegistryObject<EntityType<EnragedNormalEntity>> ENRAGED_NORMAL = register("enraged_normal",
 			EntityType.Builder.<EnragedNormalEntity>of(EnragedNormalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedNormalEntity::new)
 
@@ -874,65 +1037,6 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EpicSharkoTamedZoomiesEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<AngryEngieSharkoEntity>> ANGRY_ENGIE_SHARKO = register("angry_engie_sharko",
-			EntityType.Builder.<AngryEngieSharkoEntity>of(AngryEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieSharkoEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EnragedEngieSharkoEntity>> ENRAGED_ENGIE_SHARKO = register("enraged_engie_sharko",
-			EntityType.Builder.<EnragedEngieSharkoEntity>of(EnragedEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieSharkoEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<OutragedEngieSharkoEntity>> OUTRAGED_ENGIE_SHARKO = register("outraged_engie_sharko",
-			EntityType.Builder.<OutragedEngieSharkoEntity>of(OutragedEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OutragedEngieSharkoEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<MonstrosityEngieSharkoEntity>> MONSTROSITY_ENGIE_SHARKO = register("monstrosity_engie_sharko",
-			EntityType.Builder.<MonstrosityEngieSharkoEntity>of(MonstrosityEngieSharkoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(MonstrosityEngieSharkoEntity::new).fireImmune().sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<SharkoAprilFoolsEntity>> SHARKO_APRIL_FOOLS = register("sharko_april_fools",
-			EntityType.Builder.<SharkoAprilFoolsEntity>of(SharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<AlbinoSharkoAprilFoolsEntity>> ALBINO_SHARKO_APRIL_FOOLS = register("albino_sharko_april_fools",
-			EntityType.Builder.<AlbinoSharkoAprilFoolsEntity>of(AlbinoSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(AlbinoSharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<RareSharkoAprilFoolsEntity>> RARE_SHARKO_APRIL_FOOLS = register("rare_sharko_april_fools",
-			EntityType.Builder.<RareSharkoAprilFoolsEntity>of(RareSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(RareSharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<LegendarySharkoAprilFoolsEntity>> LEGENDARY_SHARKO_APRIL_FOOLS = register("legendary_sharko_april_fools",
-			EntityType.Builder.<LegendarySharkoAprilFoolsEntity>of(LegendarySharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(LegendarySharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<MythicSharkoAprilFoolsEntity>> MYTHIC_SHARKO_APRIL_FOOLS = register("mythic_sharko_april_fools",
-			EntityType.Builder.<MythicSharkoAprilFoolsEntity>of(MythicSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(MythicSharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<ExoticSharkoAprilFoolsEntity>> EXOTIC_SHARKO_APRIL_FOOLS = register("exotic_sharko_april_fools",
-			EntityType.Builder.<ExoticSharkoAprilFoolsEntity>of(ExoticSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(ExoticSharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EngieSharkoAprilFoolsEntity>> ENGIE_SHARKO_APRIL_FOOLS = register("engie_sharko_april_fools",
-			EntityType.Builder.<EngieSharkoAprilFoolsEntity>of(EngieSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EngieSharkoRareAprilFoolsEntity>> ENGIE_SHARKO_RARE_APRIL_FOOLS = register("engie_sharko_rare_april_fools",
-			EntityType.Builder.<EngieSharkoRareAprilFoolsEntity>of(EngieSharkoRareAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoRareAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2AprilFoolsEntity>> ENGIE_SHARKO_RARE_2_APRIL_FOOLS = register("engie_sharko_rare_2_april_fools",
-			EntityType.Builder.<EngieSharkoRare2AprilFoolsEntity>of(EngieSharkoRare2AprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoRare2AprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<SharkoTamedAprilFoolsEntity>> SHARKO_TAMED_APRIL_FOOLS = register("sharko_tamed_april_fools",
 			EntityType.Builder.<SharkoTamedAprilFoolsEntity>of(SharkoTamedAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(SharkoTamedAprilFoolsEntity::new)
@@ -948,14 +1052,14 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(RareSharkoTamedAprilFoolsEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<MythicSharkoTamedAprilFoolsEntity>> MYTHIC_SHARKO_TAMED_APRIL_FOOLS = register("mythic_sharko_tamed_april_fools",
-			EntityType.Builder.<MythicSharkoTamedAprilFoolsEntity>of(MythicSharkoTamedAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(MythicSharkoTamedAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<LegendarySharkoTamedAprilFoolsEntity>> LEGENDARY_SHARKO_TAMED_APRIL_FOOLS = register("legendary_sharko_tamed_april_fools",
 			EntityType.Builder.<LegendarySharkoTamedAprilFoolsEntity>of(LegendarySharkoTamedAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(LegendarySharkoTamedAprilFoolsEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<MythicSharkoTamedAprilFoolsEntity>> MYTHIC_SHARKO_TAMED_APRIL_FOOLS = register("mythic_sharko_tamed_april_fools",
+			EntityType.Builder.<MythicSharkoTamedAprilFoolsEntity>of(MythicSharkoTamedAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(MythicSharkoTamedAprilFoolsEntity::new)
 
 					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<ExoticSharkoTamedAprilFoolsEntity>> EXOTIC_SHARKO_TAMED_APRIL_FOOLS = register("exotic_sharko_tamed_april_fools",
@@ -978,115 +1082,11 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRare2TamedAprilFoolsEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<SharkoLayAprilFoolsEntity>> SHARKO_LAY_APRIL_FOOLS = register("sharko_lay_april_fools",
-			EntityType.Builder.<SharkoLayAprilFoolsEntity>of(SharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<AlbinoSharkoLayAprilFoolsEntity>> ALBINO_SHARKO_LAY_APRIL_FOOLS = register("albino_sharko_lay_april_fools",
-			EntityType.Builder.<AlbinoSharkoLayAprilFoolsEntity>of(AlbinoSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(AlbinoSharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<RareSharkoLayAprilFoolsEntity>> RARE_SHARKO_LAY_APRIL_FOOLS = register("rare_sharko_lay_april_fools",
-			EntityType.Builder.<RareSharkoLayAprilFoolsEntity>of(RareSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(RareSharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<LegendarySharkoLayAprilFoolsEntity>> LEGENDARY_SHARKO_LAY_APRIL_FOOLS = register("legendary_sharko_lay_april_fools",
-			EntityType.Builder.<LegendarySharkoLayAprilFoolsEntity>of(LegendarySharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(LegendarySharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<MythicSharkoLayAprilFoolsEntity>> MYTHIC_SHARKO_LAY_APRIL_FOOLS = register("mythic_sharko_lay_april_fools",
-			EntityType.Builder.<MythicSharkoLayAprilFoolsEntity>of(MythicSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(MythicSharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<ExoticSharkoLayAprilFoolsEntity>> EXOTIC_SHARKO_LAY_APRIL_FOOLS = register("exotic_sharko_lay_april_fools",
-			EntityType.Builder.<ExoticSharkoLayAprilFoolsEntity>of(ExoticSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(ExoticSharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoLayAprilFoolsEntity>> ENGIE_SHARKO_LAY_APRIL_FOOLS = register("engie_sharko_lay_april_fools",
-			EntityType.Builder.<EngieSharkoLayAprilFoolsEntity>of(EngieSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRareLayAprilFoolsEntity>> ENGIE_SHARKO_RARE_LAY_APRIL_FOOLS = register("engie_sharko_rare_lay_april_fools",
-			EntityType.Builder.<EngieSharkoRareLayAprilFoolsEntity>of(EngieSharkoRareLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoRareLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2LayAprilFoolsEntity>> ENGIE_SHARKO_RARE_2_LAY_APRIL_FOOLS = register("engie_sharko_rare_2_lay_april_fools",
-			EntityType.Builder.<EngieSharkoRare2LayAprilFoolsEntity>of(EngieSharkoRare2LayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoRare2LayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<SharkoSleepAprilFoolsEntity>> SHARKO_SLEEP_APRIL_FOOLS = register("sharko_sleep_april_fools",
-			EntityType.Builder.<SharkoSleepAprilFoolsEntity>of(SharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(SharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<AlbinoSharkoSleepAprilFoolsEntity>> ALBINO_SHARKO_SLEEP_APRIL_FOOLS = register("albino_sharko_sleep_april_fools",
-			EntityType.Builder.<AlbinoSharkoSleepAprilFoolsEntity>of(AlbinoSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(AlbinoSharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<RareSharkoSleepAprilFoolsEntity>> RARE_SHARKO_SLEEP_APRIL_FOOLS = register("rare_sharko_sleep_april_fools",
-			EntityType.Builder.<RareSharkoSleepAprilFoolsEntity>of(RareSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(RareSharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<LegendarySharkoSleepAprilFoolsEntity>> LEGENDARY_SHARKO_SLEEP_APRIL_FOOLS = register("legendary_sharko_sleep_april_fools",
-			EntityType.Builder.<LegendarySharkoSleepAprilFoolsEntity>of(LegendarySharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(LegendarySharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<MythicSharkoSleepAprilFoolsEntity>> MYTHIC_SHARKO_SLEEP_APRIL_FOOLS = register("mythic_sharko_sleep_april_fools",
-			EntityType.Builder.<MythicSharkoSleepAprilFoolsEntity>of(MythicSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(MythicSharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<ExoticSharkoSleepAprilFoolsEntity>> EXOTIC_SHARKO_SLEEP_APRIL_FOOLS = register("exotic_sharko_sleep_april_fools",
-			EntityType.Builder.<ExoticSharkoSleepAprilFoolsEntity>of(ExoticSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(ExoticSharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoSleepAprilFoolsEntity>> ENGIE_SHARKO_SLEEP_APRIL_FOOLS = register("engie_sharko_sleep_april_fools",
-			EntityType.Builder.<EngieSharkoSleepAprilFoolsEntity>of(EngieSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRareSleepAprilFoolsEntity>> ENGIE_SHARKO_RARE_SLEEP_APRIL_FOOLS = register("engie_sharko_rare_sleep_april_fools",
-			EntityType.Builder.<EngieSharkoRareSleepAprilFoolsEntity>of(EngieSharkoRareSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoRareSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2SleepAprilFoolsEntity>> ENGIE_SHARKO_RARE_2_SLEEP_APRIL_FOOLS = register("engie_sharko_rare_2_sleep_april_fools",
-			EntityType.Builder.<EngieSharkoRare2SleepAprilFoolsEntity>of(EngieSharkoRare2SleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EngieSharkoRare2SleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EpicSharkoAprilFoolsEntity>> EPIC_SHARKO_APRIL_FOOLS = register("epic_sharko_april_fools",
-			EntityType.Builder.<EpicSharkoAprilFoolsEntity>of(EpicSharkoAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EpicSharkoAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<EpicSharkoTamedAprilFoolsEntity>> EPIC_SHARKO_TAMED_APRIL_FOOLS = register("epic_sharko_tamed_april_fools",
 			EntityType.Builder.<EpicSharkoTamedAprilFoolsEntity>of(EpicSharkoTamedAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(EpicSharkoTamedAprilFoolsEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EpicSharkoLayAprilFoolsEntity>> EPIC_SHARKO_LAY_APRIL_FOOLS = register("epic_sharko_lay_april_fools",
-			EntityType.Builder.<EpicSharkoLayAprilFoolsEntity>of(EpicSharkoLayAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EpicSharkoLayAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EpicSharkoSleepAprilFoolsEntity>> EPIC_SHARKO_SLEEP_APRIL_FOOLS = register("epic_sharko_sleep_april_fools",
-			EntityType.Builder.<EpicSharkoSleepAprilFoolsEntity>of(EpicSharkoSleepAprilFoolsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(EpicSharkoSleepAprilFoolsEntity::new)
-
-					.sized(0.7f, 0.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1114,6 +1114,10 @@ public class AllaboutengieModEntities {
 			EnragedEngieEntity.init();
 			AngryCreatorEntity.init();
 			MonstrosityEngieEntity.init();
+			AngryEngieSharkoEntity.init();
+			EnragedEngieSharkoEntity.init();
+			OutragedEngieSharkoEntity.init();
+			MonstrosityEngieSharkoEntity.init();
 			SharkoEntity.init();
 			AlbinoSharkoEntity.init();
 			RareSharkoEntity.init();
@@ -1124,6 +1128,16 @@ public class AllaboutengieModEntities {
 			EngieSharkoEntity.init();
 			EngieSharkoRareEntity.init();
 			EngieSharkoRare2Entity.init();
+			SharkoAprilFoolsEntity.init();
+			AlbinoSharkoAprilFoolsEntity.init();
+			RareSharkoAprilFoolsEntity.init();
+			EpicSharkoAprilFoolsEntity.init();
+			LegendarySharkoAprilFoolsEntity.init();
+			MythicSharkoAprilFoolsEntity.init();
+			ExoticSharkoAprilFoolsEntity.init();
+			EngieSharkoAprilFoolsEntity.init();
+			EngieSharkoRareAprilFoolsEntity.init();
+			EngieSharkoRare2AprilFoolsEntity.init();
 			TobyEntity.init();
 			SharkoLayEntity.init();
 			AlbinoSharkoLayEntity.init();
@@ -1205,6 +1219,26 @@ public class AllaboutengieModEntities {
 			EpicSharkoLayEntity.init();
 			EpicSharkoTamedZoomiesTiredEntity.init();
 			EpicSharkoSleepEntity.init();
+			SharkoLayAprilFoolsEntity.init();
+			AlbinoSharkoLayAprilFoolsEntity.init();
+			RareSharkoLayAprilFoolsEntity.init();
+			LegendarySharkoLayAprilFoolsEntity.init();
+			MythicSharkoLayAprilFoolsEntity.init();
+			ExoticSharkoLayAprilFoolsEntity.init();
+			EngieSharkoLayAprilFoolsEntity.init();
+			EngieSharkoRareLayAprilFoolsEntity.init();
+			EngieSharkoRare2LayAprilFoolsEntity.init();
+			SharkoSleepAprilFoolsEntity.init();
+			AlbinoSharkoSleepAprilFoolsEntity.init();
+			RareSharkoSleepAprilFoolsEntity.init();
+			LegendarySharkoSleepAprilFoolsEntity.init();
+			MythicSharkoSleepAprilFoolsEntity.init();
+			ExoticSharkoSleepAprilFoolsEntity.init();
+			EngieSharkoSleepAprilFoolsEntity.init();
+			EngieSharkoRareSleepAprilFoolsEntity.init();
+			EngieSharkoRare2SleepAprilFoolsEntity.init();
+			EpicSharkoLayAprilFoolsEntity.init();
+			EpicSharkoSleepAprilFoolsEntity.init();
 			EnragedNormalEntity.init();
 			EnragedNormal2Entity.init();
 			EnragedNormal3Entity.init();
@@ -1252,50 +1286,16 @@ public class AllaboutengieModEntities {
 			EngieSharkoRare2TamedZoomiesEntity.init();
 			EpicSharkoTamedEntity.init();
 			EpicSharkoTamedZoomiesEntity.init();
-			AngryEngieSharkoEntity.init();
-			EnragedEngieSharkoEntity.init();
-			OutragedEngieSharkoEntity.init();
-			MonstrosityEngieSharkoEntity.init();
-			SharkoAprilFoolsEntity.init();
-			AlbinoSharkoAprilFoolsEntity.init();
-			RareSharkoAprilFoolsEntity.init();
-			LegendarySharkoAprilFoolsEntity.init();
-			MythicSharkoAprilFoolsEntity.init();
-			ExoticSharkoAprilFoolsEntity.init();
-			EngieSharkoAprilFoolsEntity.init();
-			EngieSharkoRareAprilFoolsEntity.init();
-			EngieSharkoRare2AprilFoolsEntity.init();
 			SharkoTamedAprilFoolsEntity.init();
 			AlbinoSharkoTamedAprilFoolsEntity.init();
 			RareSharkoTamedAprilFoolsEntity.init();
-			MythicSharkoTamedAprilFoolsEntity.init();
 			LegendarySharkoTamedAprilFoolsEntity.init();
+			MythicSharkoTamedAprilFoolsEntity.init();
 			ExoticSharkoTamedAprilFoolsEntity.init();
 			EngieSharkoTamedAprilFoolsEntity.init();
 			EngieSharkoRareTamedAprilFoolsEntity.init();
 			EngieSharkoRare2TamedAprilFoolsEntity.init();
-			SharkoLayAprilFoolsEntity.init();
-			AlbinoSharkoLayAprilFoolsEntity.init();
-			RareSharkoLayAprilFoolsEntity.init();
-			LegendarySharkoLayAprilFoolsEntity.init();
-			MythicSharkoLayAprilFoolsEntity.init();
-			ExoticSharkoLayAprilFoolsEntity.init();
-			EngieSharkoLayAprilFoolsEntity.init();
-			EngieSharkoRareLayAprilFoolsEntity.init();
-			EngieSharkoRare2LayAprilFoolsEntity.init();
-			SharkoSleepAprilFoolsEntity.init();
-			AlbinoSharkoSleepAprilFoolsEntity.init();
-			RareSharkoSleepAprilFoolsEntity.init();
-			LegendarySharkoSleepAprilFoolsEntity.init();
-			MythicSharkoSleepAprilFoolsEntity.init();
-			ExoticSharkoSleepAprilFoolsEntity.init();
-			EngieSharkoSleepAprilFoolsEntity.init();
-			EngieSharkoRareSleepAprilFoolsEntity.init();
-			EngieSharkoRare2SleepAprilFoolsEntity.init();
-			EpicSharkoAprilFoolsEntity.init();
 			EpicSharkoTamedAprilFoolsEntity.init();
-			EpicSharkoLayAprilFoolsEntity.init();
-			EpicSharkoSleepAprilFoolsEntity.init();
 		});
 	}
 
@@ -1320,6 +1320,10 @@ public class AllaboutengieModEntities {
 		event.put(ENRAGED_ENGIE.get(), EnragedEngieEntity.createAttributes().build());
 		event.put(OUTRAGED_ENGIE.get(), AngryCreatorEntity.createAttributes().build());
 		event.put(MONSTROSITY_ENGIE.get(), MonstrosityEngieEntity.createAttributes().build());
+		event.put(ANGRY_ENGIE_SHARKO.get(), AngryEngieSharkoEntity.createAttributes().build());
+		event.put(ENRAGED_ENGIE_SHARKO.get(), EnragedEngieSharkoEntity.createAttributes().build());
+		event.put(OUTRAGED_ENGIE_SHARKO.get(), OutragedEngieSharkoEntity.createAttributes().build());
+		event.put(MONSTROSITY_ENGIE_SHARKO.get(), MonstrosityEngieSharkoEntity.createAttributes().build());
 		event.put(SHARKO.get(), SharkoEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO.get(), AlbinoSharkoEntity.createAttributes().build());
 		event.put(RARE_SHARKO.get(), RareSharkoEntity.createAttributes().build());
@@ -1330,6 +1334,16 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO.get(), EngieSharkoEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE.get(), EngieSharkoRareEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2.get(), EngieSharkoRare2Entity.createAttributes().build());
+		event.put(SHARKO_APRIL_FOOLS.get(), SharkoAprilFoolsEntity.createAttributes().build());
+		event.put(ALBINO_SHARKO_APRIL_FOOLS.get(), AlbinoSharkoAprilFoolsEntity.createAttributes().build());
+		event.put(RARE_SHARKO_APRIL_FOOLS.get(), RareSharkoAprilFoolsEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_APRIL_FOOLS.get(), EpicSharkoAprilFoolsEntity.createAttributes().build());
+		event.put(LEGENDARY_SHARKO_APRIL_FOOLS.get(), LegendarySharkoAprilFoolsEntity.createAttributes().build());
+		event.put(MYTHIC_SHARKO_APRIL_FOOLS.get(), MythicSharkoAprilFoolsEntity.createAttributes().build());
+		event.put(EXOTIC_SHARKO_APRIL_FOOLS.get(), ExoticSharkoAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_APRIL_FOOLS.get(), EngieSharkoAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_RARE_APRIL_FOOLS.get(), EngieSharkoRareAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_RARE_2_APRIL_FOOLS.get(), EngieSharkoRare2AprilFoolsEntity.createAttributes().build());
 		event.put(TOBY.get(), TobyEntity.createAttributes().build());
 		event.put(SHARKO_LAY.get(), SharkoLayEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_LAY.get(), AlbinoSharkoLayEntity.createAttributes().build());
@@ -1411,6 +1425,26 @@ public class AllaboutengieModEntities {
 		event.put(EPIC_SHARKO_LAY.get(), EpicSharkoLayEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED_ZOOMIES_TIRED.get(), EpicSharkoTamedZoomiesTiredEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_SLEEP.get(), EpicSharkoSleepEntity.createAttributes().build());
+		event.put(SHARKO_LAY_APRIL_FOOLS.get(), SharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(ALBINO_SHARKO_LAY_APRIL_FOOLS.get(), AlbinoSharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(RARE_SHARKO_LAY_APRIL_FOOLS.get(), RareSharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(LEGENDARY_SHARKO_LAY_APRIL_FOOLS.get(), LegendarySharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(MYTHIC_SHARKO_LAY_APRIL_FOOLS.get(), MythicSharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(EXOTIC_SHARKO_LAY_APRIL_FOOLS.get(), ExoticSharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_LAY_APRIL_FOOLS.get(), EngieSharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_RARE_LAY_APRIL_FOOLS.get(), EngieSharkoRareLayAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_RARE_2_LAY_APRIL_FOOLS.get(), EngieSharkoRare2LayAprilFoolsEntity.createAttributes().build());
+		event.put(SHARKO_SLEEP_APRIL_FOOLS.get(), SharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(ALBINO_SHARKO_SLEEP_APRIL_FOOLS.get(), AlbinoSharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(RARE_SHARKO_SLEEP_APRIL_FOOLS.get(), RareSharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(LEGENDARY_SHARKO_SLEEP_APRIL_FOOLS.get(), LegendarySharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(MYTHIC_SHARKO_SLEEP_APRIL_FOOLS.get(), MythicSharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(EXOTIC_SHARKO_SLEEP_APRIL_FOOLS.get(), ExoticSharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_SLEEP_APRIL_FOOLS.get(), EngieSharkoSleepAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_RARE_SLEEP_APRIL_FOOLS.get(), EngieSharkoRareSleepAprilFoolsEntity.createAttributes().build());
+		event.put(ENGIE_SHARKO_RARE_2_SLEEP_APRIL_FOOLS.get(), EngieSharkoRare2SleepAprilFoolsEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_LAY_APRIL_FOOLS.get(), EpicSharkoLayAprilFoolsEntity.createAttributes().build());
+		event.put(EPIC_SHARKO_SLEEP_APRIL_FOOLS.get(), EpicSharkoSleepAprilFoolsEntity.createAttributes().build());
 		event.put(ENRAGED_NORMAL.get(), EnragedNormalEntity.createAttributes().build());
 		event.put(ENRAGED_NORMAL_2.get(), EnragedNormal2Entity.createAttributes().build());
 		event.put(ENRAGED_NORMAL_3.get(), EnragedNormal3Entity.createAttributes().build());
@@ -1458,49 +1492,15 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED.get(), EpicSharkoTamedEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED_ZOOMIES.get(), EpicSharkoTamedZoomiesEntity.createAttributes().build());
-		event.put(ANGRY_ENGIE_SHARKO.get(), AngryEngieSharkoEntity.createAttributes().build());
-		event.put(ENRAGED_ENGIE_SHARKO.get(), EnragedEngieSharkoEntity.createAttributes().build());
-		event.put(OUTRAGED_ENGIE_SHARKO.get(), OutragedEngieSharkoEntity.createAttributes().build());
-		event.put(MONSTROSITY_ENGIE_SHARKO.get(), MonstrosityEngieSharkoEntity.createAttributes().build());
-		event.put(SHARKO_APRIL_FOOLS.get(), SharkoAprilFoolsEntity.createAttributes().build());
-		event.put(ALBINO_SHARKO_APRIL_FOOLS.get(), AlbinoSharkoAprilFoolsEntity.createAttributes().build());
-		event.put(RARE_SHARKO_APRIL_FOOLS.get(), RareSharkoAprilFoolsEntity.createAttributes().build());
-		event.put(LEGENDARY_SHARKO_APRIL_FOOLS.get(), LegendarySharkoAprilFoolsEntity.createAttributes().build());
-		event.put(MYTHIC_SHARKO_APRIL_FOOLS.get(), MythicSharkoAprilFoolsEntity.createAttributes().build());
-		event.put(EXOTIC_SHARKO_APRIL_FOOLS.get(), ExoticSharkoAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_APRIL_FOOLS.get(), EngieSharkoAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_APRIL_FOOLS.get(), EngieSharkoRareAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_APRIL_FOOLS.get(), EngieSharkoRare2AprilFoolsEntity.createAttributes().build());
 		event.put(SHARKO_TAMED_APRIL_FOOLS.get(), SharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_TAMED_APRIL_FOOLS.get(), AlbinoSharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(RARE_SHARKO_TAMED_APRIL_FOOLS.get(), RareSharkoTamedAprilFoolsEntity.createAttributes().build());
-		event.put(MYTHIC_SHARKO_TAMED_APRIL_FOOLS.get(), MythicSharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(LEGENDARY_SHARKO_TAMED_APRIL_FOOLS.get(), LegendarySharkoTamedAprilFoolsEntity.createAttributes().build());
+		event.put(MYTHIC_SHARKO_TAMED_APRIL_FOOLS.get(), MythicSharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(EXOTIC_SHARKO_TAMED_APRIL_FOOLS.get(), ExoticSharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_TAMED_APRIL_FOOLS.get(), EngieSharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED_APRIL_FOOLS.get(), EngieSharkoRareTamedAprilFoolsEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2_TAMED_APRIL_FOOLS.get(), EngieSharkoRare2TamedAprilFoolsEntity.createAttributes().build());
-		event.put(SHARKO_LAY_APRIL_FOOLS.get(), SharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(ALBINO_SHARKO_LAY_APRIL_FOOLS.get(), AlbinoSharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(RARE_SHARKO_LAY_APRIL_FOOLS.get(), RareSharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(LEGENDARY_SHARKO_LAY_APRIL_FOOLS.get(), LegendarySharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(MYTHIC_SHARKO_LAY_APRIL_FOOLS.get(), MythicSharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(EXOTIC_SHARKO_LAY_APRIL_FOOLS.get(), ExoticSharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_LAY_APRIL_FOOLS.get(), EngieSharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_LAY_APRIL_FOOLS.get(), EngieSharkoRareLayAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_LAY_APRIL_FOOLS.get(), EngieSharkoRare2LayAprilFoolsEntity.createAttributes().build());
-		event.put(SHARKO_SLEEP_APRIL_FOOLS.get(), SharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(ALBINO_SHARKO_SLEEP_APRIL_FOOLS.get(), AlbinoSharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(RARE_SHARKO_SLEEP_APRIL_FOOLS.get(), RareSharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(LEGENDARY_SHARKO_SLEEP_APRIL_FOOLS.get(), LegendarySharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(MYTHIC_SHARKO_SLEEP_APRIL_FOOLS.get(), MythicSharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(EXOTIC_SHARKO_SLEEP_APRIL_FOOLS.get(), ExoticSharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_SLEEP_APRIL_FOOLS.get(), EngieSharkoSleepAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_SLEEP_APRIL_FOOLS.get(), EngieSharkoRareSleepAprilFoolsEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_SLEEP_APRIL_FOOLS.get(), EngieSharkoRare2SleepAprilFoolsEntity.createAttributes().build());
-		event.put(EPIC_SHARKO_APRIL_FOOLS.get(), EpicSharkoAprilFoolsEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED_APRIL_FOOLS.get(), EpicSharkoTamedAprilFoolsEntity.createAttributes().build());
-		event.put(EPIC_SHARKO_LAY_APRIL_FOOLS.get(), EpicSharkoLayAprilFoolsEntity.createAttributes().build());
-		event.put(EPIC_SHARKO_SLEEP_APRIL_FOOLS.get(), EpicSharkoSleepAprilFoolsEntity.createAttributes().build());
 	}
 }

@@ -5,7 +5,7 @@
     "mobName": "[Tamed] Epic Sharko (Zoomies)",
     "mobLabel": "",
     "mobModelName": "Modelboyozooms",
-    "mobModelTexture": "epicsharkonewzoom.png",
+    "mobModelTexture": "epicsharkonewtamedzoom.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

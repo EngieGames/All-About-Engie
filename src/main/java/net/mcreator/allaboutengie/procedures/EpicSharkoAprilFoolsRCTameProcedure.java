@@ -15,7 +15,7 @@ import net.minecraft.core.particles.ParticleTypes;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
-import net.mcreator.allaboutengie.entity.EpicSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.EpicSharkoTamedAprilFoolsEntity;
 
 public class EpicSharkoAprilFoolsRCTameProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
@@ -26,7 +26,7 @@ public class EpicSharkoAprilFoolsRCTameProcedure {
 				if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.COOKIE) {
 					if (Math.random() >= 0.8) {
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = new EpicSharkoTamedEntity(AllaboutengieModEntities.EPIC_SHARKO_TAMED.get(), _level);
+							Entity entityToSpawn = new EpicSharkoTamedAprilFoolsEntity(AllaboutengieModEntities.EPIC_SHARKO_TAMED_APRIL_FOOLS.get(), _level);
 							entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
 							entityToSpawn.setYBodyRot(entity.getYRot());
 							entityToSpawn.setYHeadRot(entity.getYRot());
@@ -55,7 +55,7 @@ public class EpicSharkoAprilFoolsRCTameProcedure {
 							if (world instanceof ServerLevel _level)
 								_level.sendParticles(ParticleTypes.HEART, x, y, z, 15, 1, 1, 1, 1);
 							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = new EpicSharkoTamedEntity(AllaboutengieModEntities.EPIC_SHARKO_TAMED.get(), _level);
+								Entity entityToSpawn = new EpicSharkoTamedAprilFoolsEntity(AllaboutengieModEntities.EPIC_SHARKO_TAMED_APRIL_FOOLS.get(), _level);
 								entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
 								entityToSpawn.setYBodyRot(entity.getYRot());
 								entityToSpawn.setYHeadRot(entity.getYRot());

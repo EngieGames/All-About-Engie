@@ -114,7 +114,7 @@ public class EpicSharkoTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EpicSharkoTameRCProcedure.execute(entity);
+		EpicSharkoTameRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 

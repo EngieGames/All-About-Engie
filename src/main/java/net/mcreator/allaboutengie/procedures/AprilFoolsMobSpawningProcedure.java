@@ -8,7 +8,7 @@ import java.util.Calendar;
 public class AprilFoolsMobSpawningProcedure {
 	public static boolean execute(LevelAccessor world) {
 		if ((world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD) == Level.OVERWORLD) {
-			if (Calendar.getInstance().get(Calendar.MONTH) == 3 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) <= 15) {
+			if (Calendar.getInstance().get(Calendar.MONTH) == 3 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) <= 16) {
 				return true;
 			} else {
 				return false;

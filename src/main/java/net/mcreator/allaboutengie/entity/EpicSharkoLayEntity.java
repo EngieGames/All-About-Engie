@@ -96,7 +96,7 @@ public class EpicSharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EpicSharkoLayRCProcedure.execute(entity);
+		EpicSharkoLayRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 

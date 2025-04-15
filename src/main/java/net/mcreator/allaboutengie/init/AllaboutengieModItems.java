@@ -344,6 +344,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MASSIVE_BAN_HAMMER = REGISTRY.register("massive_ban_hammer", () -> new MassiveBanHammerItem());
 	public static final RegistryObject<Item> BIBLICALLY_ACCURATE_ENGIE_BAN_HAMMER = REGISTRY.register("biblically_accurate_engie_ban_hammer", () -> new BiblicallyAccuratEngieBanHammerItem());
 	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER = REGISTRY.register("comically_massive_ban_hammer", () -> new BahemothBanHammerItem());
+	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER = REGISTRY.register("monstrosity_ban_hammer", () -> new MonstrosityBanHammerItem());
+	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER_PIXEL = REGISTRY.register("monstrosity_ban_hammer_pixel", () -> new MonstrosityBanHammerPixelItem());
 	public static final RegistryObject<Item> CRUCIFIX_PIXEL = REGISTRY.register("crucifix_pixel", () -> new CrucifixPixelItem());
 	public static final RegistryObject<Item> MINI_BAN_HAMMER_PIXEL = REGISTRY.register("mini_ban_hammer_pixel", () -> new MiniBanHammerPixelItem());
 	public static final RegistryObject<Item> BAN_HAMMER_PIXEL = REGISTRY.register("ban_hammer_pixel", () -> new BanHammerPixelItem());
@@ -409,6 +411,14 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SPAWN_EGG = REGISTRY.register("monstrosity_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MONSTROSITY_ENGIE, -16777216, -3010263, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ANGRY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("angry_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE_SHARKO, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ENRAGED_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("enraged_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE_SHARKO, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> OUTRAGED_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("outraged_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE_SHARKO, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("monstrosity_engie_sharko_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MONSTROSITY_ENGIE_SHARKO, -16777216, -3010263, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENGIES_HELMET = REGISTRY.register("engies_helmet", () -> new EngiesItem.Helmet());
 	public static final RegistryObject<Item> ENGIES_CHESTPLATE = REGISTRY.register("engies_chestplate", () -> new EngiesItem.Chestplate());
 	public static final RegistryObject<Item> ENGIES_LEGGINGS = REGISTRY.register("engies_leggings", () -> new EngiesItem.Leggings());
@@ -528,6 +538,26 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO_APRIL_FOOLS, -12420148, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ALBINO_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("albino_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO_APRIL_FOOLS, -1644826, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> RARE_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("rare_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_SHARKO_APRIL_FOOLS, -12434740, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> EPIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("epic_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EPIC_SHARKO_APRIL_FOOLS, -7077695, -5504795, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> LEGENDARY_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("legendary_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.LEGENDARY_SHARKO_APRIL_FOOLS, -12544, -7680, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> MYTHIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("mythic_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MYTHIC_SHARKO_APRIL_FOOLS, -1512448, -196818, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> EXOTIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("exotic_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_SHARKO_APRIL_FOOLS, -16714511, -12845059, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ENGIE_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_APRIL_FOOLS, -16250872, -7271155, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_APRIL_FOOLS, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
+	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_april_fools_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_APRIL_FOOLS, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
 	public static final RegistryObject<Item> ENRAGED_NORMAL_SPAWN_EGG = REGISTRY.register("enraged_normal_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_NORMAL, -16358652, -7405568, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
 	public static final RegistryObject<Item> ENRAGED_TNT_SPAWN_EGG = REGISTRY.register("enraged_tnt_spawn_egg",
@@ -584,36 +614,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TEXTBOXYEAH = block(AllaboutengieModBlocks.TEXTBOXYEAH, null);
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_4 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_4, null);
 	public static final RegistryObject<Item> BROWNIES_EMPTY = REGISTRY.register("brownies_empty", () -> new BrowniesEmptyItem());
-	public static final RegistryObject<Item> ANGRY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("angry_engie_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE_SHARKO, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> ENRAGED_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("enraged_engie_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE_SHARKO, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> OUTRAGED_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("outraged_engie_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE_SHARKO, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("monstrosity_engie_sharko_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MONSTROSITY_ENGIE_SHARKO, -16777216, -3010263, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
-	public static final RegistryObject<Item> SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.SHARKO_APRIL_FOOLS, -12420148, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> ALBINO_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("albino_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ALBINO_SHARKO_APRIL_FOOLS, -1644826, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> RARE_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("rare_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.RARE_SHARKO_APRIL_FOOLS, -12434740, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> LEGENDARY_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("legendary_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.LEGENDARY_SHARKO_APRIL_FOOLS, -12544, -7680, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> MYTHIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("mythic_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MYTHIC_SHARKO_APRIL_FOOLS, -1512448, -196818, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> EXOTIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("exotic_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_SHARKO_APRIL_FOOLS, -16714511, -12845059, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> ENGIE_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_APRIL_FOOLS, -16250872, -7271155, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_APRIL_FOOLS, -1, -2788547, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> ENGIE_SHARKO_RARE_2_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("engie_sharko_rare_2_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_APRIL_FOOLS, -5329997, -13551280, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> EPIC_SHARKO_APRIL_FOOLS_SPAWN_EGG = REGISTRY.register("epic_sharko_april_fools_spawn_egg",
-			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EPIC_SHARKO_APRIL_FOOLS, -7077695, -5504795, new Item.Properties().tab(AllaboutengieModTabs.TAB_SHARKOS)));
-	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER = REGISTRY.register("monstrosity_ban_hammer", () -> new MonstrosityBanHammerItem());
-	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER_PIXEL = REGISTRY.register("monstrosity_ban_hammer_pixel", () -> new MonstrosityBanHammerPixelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

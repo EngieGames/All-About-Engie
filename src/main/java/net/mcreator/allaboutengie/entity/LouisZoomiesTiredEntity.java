@@ -82,7 +82,7 @@ public class LouisZoomiesTiredEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SharkoZoomTiredTamedTimerProcedure.execute(this);
+		SharkoZoomTiredTamedTimerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

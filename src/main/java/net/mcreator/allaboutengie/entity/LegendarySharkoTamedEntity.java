@@ -114,7 +114,7 @@ public class LegendarySharkoTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		LegendaryTameRCProcedure.execute(entity);
+		LegendaryTameRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 

@@ -113,7 +113,7 @@ public class EngieSharkoRare2TamedAprilFoolsEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EngieRare2SharkoAprilFoolsTameRCProcedure.execute(entity);
+		EngieRare2SharkoAprilFoolsTameRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 

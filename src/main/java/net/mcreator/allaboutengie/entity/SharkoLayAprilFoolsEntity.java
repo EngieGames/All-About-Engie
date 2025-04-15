@@ -98,7 +98,7 @@ public class SharkoLayAprilFoolsEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		SharkoAprilFoolsLayRCProcedure.execute(entity);
+		SharkoAprilFoolsLayRCProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 
