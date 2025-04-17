@@ -99,7 +99,7 @@ public class TigerLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TigerLayRCProcedure.execute(entity);
+		TigerLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

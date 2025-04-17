@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/hwgscythe",
+  "textures": {
+    "0": "allaboutengie:blocks/hwgscythe",
+    "particle": "allaboutengie:items/image2"
+  }
+}

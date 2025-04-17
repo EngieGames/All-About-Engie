@@ -93,6 +93,8 @@ import net.mcreator.allaboutengie.item.KickBanHammerItem;
 import net.mcreator.allaboutengie.item.ItemsPlaqueItem;
 import net.mcreator.allaboutengie.item.HugeBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.HugeBanHammerItem;
+import net.mcreator.allaboutengie.item.HWGScytheItem;
+import net.mcreator.allaboutengie.item.HWGItem;
 import net.mcreator.allaboutengie.item.GoldenCookieItem;
 import net.mcreator.allaboutengie.item.GiganticBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.GiganticBanHammerItem;
@@ -614,6 +616,11 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> TEXTBOXYEAH = block(AllaboutengieModBlocks.TEXTBOXYEAH, null);
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_4 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_4, null);
 	public static final RegistryObject<Item> BROWNIES_EMPTY = REGISTRY.register("brownies_empty", () -> new BrowniesEmptyItem());
+	public static final RegistryObject<Item> HWG_HELMET = REGISTRY.register("hwg_helmet", () -> new HWGItem.Helmet());
+	public static final RegistryObject<Item> HWG_CHESTPLATE = REGISTRY.register("hwg_chestplate", () -> new HWGItem.Chestplate());
+	public static final RegistryObject<Item> HWG_LEGGINGS = REGISTRY.register("hwg_leggings", () -> new HWGItem.Leggings());
+	public static final RegistryObject<Item> HWG_BOOTS = REGISTRY.register("hwg_boots", () -> new HWGItem.Boots());
+	public static final RegistryObject<Item> HWG_SCYTHE = REGISTRY.register("hwg_scythe", () -> new HWGScytheItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

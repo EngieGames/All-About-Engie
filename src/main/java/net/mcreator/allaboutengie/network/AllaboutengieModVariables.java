@@ -83,6 +83,12 @@ public class AllaboutengieModVariables {
 			clone.coincount = original.coincount;
 			clone.browniescount = original.browniescount;
 			clone.cheeseballcount = original.cheeseballcount;
+			clone.PlayerX = original.PlayerX;
+			clone.PlayerY = original.PlayerY;
+			clone.PlayerZ = original.PlayerZ;
+			clone.HHGLookX = original.HHGLookX;
+			clone.HHGLookY = original.HHGLookY;
+			clone.HHGLookZ = original.HHGLookZ;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -150,6 +156,8 @@ public class AllaboutengieModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "allaboutengie_mapvars";
 		public boolean SharkoRetryState = false;
+		public boolean hewhowatches = false;
+		public double nightmare = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -159,11 +167,15 @@ public class AllaboutengieModVariables {
 
 		public void read(CompoundTag nbt) {
 			SharkoRetryState = nbt.getBoolean("SharkoRetryState");
+			hewhowatches = nbt.getBoolean("hewhowatches");
+			nightmare = nbt.getDouble("nightmare");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("SharkoRetryState", SharkoRetryState);
+			nbt.putBoolean("hewhowatches", hewhowatches);
+			nbt.putDouble("nightmare", nightmare);
 			return nbt;
 		}
 
@@ -258,6 +270,12 @@ public class AllaboutengieModVariables {
 		public double coincount = 0;
 		public double browniescount = 0;
 		public double cheeseballcount = 0;
+		public double PlayerX = 0;
+		public double PlayerY = 0;
+		public double PlayerZ = 0;
+		public double HHGLookX = 0;
+		public double HHGLookY = 0;
+		public double HHGLookZ = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -272,6 +290,12 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("coincount", coincount);
 			nbt.putDouble("browniescount", browniescount);
 			nbt.putDouble("cheeseballcount", cheeseballcount);
+			nbt.putDouble("PlayerX", PlayerX);
+			nbt.putDouble("PlayerY", PlayerY);
+			nbt.putDouble("PlayerZ", PlayerZ);
+			nbt.putDouble("HHGLookX", HHGLookX);
+			nbt.putDouble("HHGLookY", HHGLookY);
+			nbt.putDouble("HHGLookZ", HHGLookZ);
 			return nbt;
 		}
 
@@ -283,6 +307,12 @@ public class AllaboutengieModVariables {
 			coincount = nbt.getDouble("coincount");
 			browniescount = nbt.getDouble("browniescount");
 			cheeseballcount = nbt.getDouble("cheeseballcount");
+			PlayerX = nbt.getDouble("PlayerX");
+			PlayerY = nbt.getDouble("PlayerY");
+			PlayerZ = nbt.getDouble("PlayerZ");
+			HHGLookX = nbt.getDouble("HHGLookX");
+			HHGLookY = nbt.getDouble("HHGLookY");
+			HHGLookZ = nbt.getDouble("HHGLookZ");
 		}
 	}
 
@@ -313,6 +343,12 @@ public class AllaboutengieModVariables {
 					variables.coincount = message.data.coincount;
 					variables.browniescount = message.data.browniescount;
 					variables.cheeseballcount = message.data.cheeseballcount;
+					variables.PlayerX = message.data.PlayerX;
+					variables.PlayerY = message.data.PlayerY;
+					variables.PlayerZ = message.data.PlayerZ;
+					variables.HHGLookX = message.data.HHGLookX;
+					variables.HHGLookY = message.data.HHGLookY;
+					variables.HHGLookZ = message.data.HHGLookZ;
 				}
 			});
 			context.setPacketHandled(true);

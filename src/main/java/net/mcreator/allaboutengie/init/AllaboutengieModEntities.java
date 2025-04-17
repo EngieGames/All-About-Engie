@@ -91,6 +91,8 @@ import net.mcreator.allaboutengie.entity.LegendarySharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.LegendaryEngieEntity;
+import net.mcreator.allaboutengie.entity.HeWhoGamesHostileEntity;
+import net.mcreator.allaboutengie.entity.HeWhoGamesEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedEntity;
@@ -1087,6 +1089,10 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EpicSharkoTamedAprilFoolsEntity::new)
 
 					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<HeWhoGamesEntity>> HE_WHO_GAMES = register("he_who_games", EntityType.Builder.<HeWhoGamesEntity>of(HeWhoGamesEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(128)
+			.setUpdateInterval(3).setCustomClientFactory(HeWhoGamesEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HeWhoGamesHostileEntity>> HE_WHO_GAMES_HOSTILE = register("he_who_games_hostile", EntityType.Builder.<HeWhoGamesHostileEntity>of(HeWhoGamesHostileEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HeWhoGamesHostileEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1296,6 +1302,8 @@ public class AllaboutengieModEntities {
 			EngieSharkoRareTamedAprilFoolsEntity.init();
 			EngieSharkoRare2TamedAprilFoolsEntity.init();
 			EpicSharkoTamedAprilFoolsEntity.init();
+			HeWhoGamesEntity.init();
+			HeWhoGamesHostileEntity.init();
 		});
 	}
 
@@ -1502,5 +1510,7 @@ public class AllaboutengieModEntities {
 		event.put(ENGIE_SHARKO_RARE_TAMED_APRIL_FOOLS.get(), EngieSharkoRareTamedAprilFoolsEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_2_TAMED_APRIL_FOOLS.get(), EngieSharkoRare2TamedAprilFoolsEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED_APRIL_FOOLS.get(), EpicSharkoTamedAprilFoolsEntity.createAttributes().build());
+		event.put(HE_WHO_GAMES.get(), HeWhoGamesEntity.createAttributes().build());
+		event.put(HE_WHO_GAMES_HOSTILE.get(), HeWhoGamesHostileEntity.createAttributes().build());
 	}
 }

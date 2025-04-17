@@ -30,7 +30,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.allaboutengie.procedures.EpicSharkoRCTameProcedure;
+import net.mcreator.allaboutengie.procedures.EpicSharkoAprilFoolsRCTameProcedure;
 import net.mcreator.allaboutengie.procedures.AprilFoolsSpawningProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -109,7 +109,7 @@ public class EpicSharkoAprilFoolsEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EpicSharkoRCTameProcedure.execute(world, x, y, z, entity, sourceentity);
+		EpicSharkoAprilFoolsRCTameProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

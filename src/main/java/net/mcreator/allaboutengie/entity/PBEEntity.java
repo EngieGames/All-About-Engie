@@ -117,7 +117,7 @@ public class PBEEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		PBERCProcedure.execute(entity);
+		PBERCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

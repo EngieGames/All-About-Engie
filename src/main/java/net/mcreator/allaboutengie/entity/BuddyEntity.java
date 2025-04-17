@@ -117,7 +117,7 @@ public class BuddyEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		BuddyRCProcedure.execute(entity);
+		BuddyRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

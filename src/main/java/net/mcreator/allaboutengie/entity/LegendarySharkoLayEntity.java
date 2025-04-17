@@ -96,7 +96,7 @@ public class LegendarySharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		LegendaryLayRCProcedure.execute(world, x, y, z, entity);
+		LegendaryLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

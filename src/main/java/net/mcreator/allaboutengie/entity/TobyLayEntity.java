@@ -99,7 +99,7 @@ public class TobyLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		TobyLayRCProcedure.execute(entity);
+		TobyLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

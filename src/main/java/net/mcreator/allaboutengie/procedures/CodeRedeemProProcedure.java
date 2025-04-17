@@ -123,42 +123,84 @@ public class CodeRedeemProProcedure {
 				}
 			}).getMessage()).equals("HeWhoGames")) {
 				if (AllaboutengieModVariables.WorldVariables.get(world).yeah == false) {
-					{
-						Entity _ent = entity;
-						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:engies_scythe");
+					if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == false) {
+						{
+							Entity _ent = entity;
+							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:engies_scythe");
+							}
 						}
-					}
-					if ((entity instanceof ServerPlayer _plr12 && _plr12.level instanceof ServerLevel
-							&& _plr12.getAdvancements().getOrStartProgress(_plr12.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
-						if (entity instanceof ServerPlayer _player) {
-							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
-							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-							if (!_ap.isDone()) {
-								Iterator _iterator = _ap.getRemainingCriteria().iterator();
-								while (_iterator.hasNext())
-									_player.getAdvancements().award(_adv, (String) _iterator.next());
+						{
+							Entity _ent = entity;
+							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(
+										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
+												_ent.level.getServer(), _ent),
+										"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
+							}
+						}
+						if ((entity instanceof ServerPlayer _plr13 && _plr13.level instanceof ServerLevel
+								&& _plr13.getAdvancements().getOrStartProgress(_plr13.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
+							if (entity instanceof ServerPlayer _player) {
+								Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
+								AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+								if (!_ap.isDone()) {
+									Iterator _iterator = _ap.getRemainingCriteria().iterator();
+									while (_iterator.hasNext())
+										_player.getAdvancements().award(_adv, (String) _iterator.next());
+								}
+							}
+						}
+						AllaboutengieModVariables.MapVariables.get(world).hewhowatches = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					} else if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == true) {
+						{
+							Entity _ent = entity;
+							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"There is no going back now...\",\"bold\":true,\"color\":\"black\"}");
 							}
 						}
 					}
 				} else if (AllaboutengieModVariables.WorldVariables.get(world).yeah == true) {
-					{
-						Entity _ent = entity;
-						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:engies_scythe_pixel");
+					if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == false) {
+						{
+							Entity _ent = entity;
+							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:engies_scythe_pixel");
+							}
 						}
-					}
-					if ((entity instanceof ServerPlayer _plr15 && _plr15.level instanceof ServerLevel
-							&& _plr15.getAdvancements().getOrStartProgress(_plr15.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
-						if (entity instanceof ServerPlayer _player) {
-							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
-							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-							if (!_ap.isDone()) {
-								Iterator _iterator = _ap.getRemainingCriteria().iterator();
-								while (_iterator.hasNext())
-									_player.getAdvancements().award(_adv, (String) _iterator.next());
+						{
+							Entity _ent = entity;
+							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(
+										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
+												_ent.level.getServer(), _ent),
+										"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
+							}
+						}
+						if ((entity instanceof ServerPlayer _plr18 && _plr18.level instanceof ServerLevel
+								&& _plr18.getAdvancements().getOrStartProgress(_plr18.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
+							if (entity instanceof ServerPlayer _player) {
+								Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
+								AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+								if (!_ap.isDone()) {
+									Iterator _iterator = _ap.getRemainingCriteria().iterator();
+									while (_iterator.hasNext())
+										_player.getAdvancements().award(_adv, (String) _iterator.next());
+								}
+							}
+						}
+						AllaboutengieModVariables.MapVariables.get(world).hewhowatches = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					} else if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == true) {
+						{
+							Entity _ent = entity;
+							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"There is no going back now...\",\"bold\":true,\"color\":\"black\"}");
 							}
 						}
 					}

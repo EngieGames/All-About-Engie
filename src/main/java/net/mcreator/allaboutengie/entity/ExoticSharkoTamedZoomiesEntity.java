@@ -114,7 +114,7 @@ public class ExoticSharkoTamedZoomiesEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		ExoticTameRCProcedure.execute(world, x, y, z, entity);
+		ExoticTameRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

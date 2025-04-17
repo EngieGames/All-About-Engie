@@ -117,7 +117,7 @@ public class AtlasEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		AtlasRCProcedure.execute(entity);
+		AtlasRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

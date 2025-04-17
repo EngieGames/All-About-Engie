@@ -99,7 +99,7 @@ public class CBELayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		CBELayRCProcedure.execute(entity);
+		CBELayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

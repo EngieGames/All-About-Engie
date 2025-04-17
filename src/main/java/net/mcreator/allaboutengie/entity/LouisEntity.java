@@ -117,7 +117,7 @@ public class LouisEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		LouisRCProcedure.execute(entity);
+		LouisRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

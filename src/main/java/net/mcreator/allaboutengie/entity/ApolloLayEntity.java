@@ -99,7 +99,7 @@ public class ApolloLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		ApolloLayRCProcedure.execute(entity);
+		ApolloLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

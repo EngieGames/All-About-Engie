@@ -32,6 +32,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.allaboutengie.procedures.RareEngieSharko2NameCheckProcedure;
 import net.mcreator.allaboutengie.procedures.EngieRare2SharkoAprilFoolsTameRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -113,8 +114,14 @@ public class EngieSharkoRare2TamedAprilFoolsEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		EngieRare2SharkoAprilFoolsTameRCProcedure.execute(world, x, y, z, entity);
+		EngieRare2SharkoAprilFoolsTameRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		RareEngieSharko2NameCheckProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

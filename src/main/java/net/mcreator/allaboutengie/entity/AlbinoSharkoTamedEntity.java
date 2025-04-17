@@ -114,7 +114,7 @@ public class AlbinoSharkoTamedEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		AlbinoTameRCProcedure.execute(world, x, y, z, entity);
+		AlbinoTameRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

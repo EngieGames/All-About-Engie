@@ -8,6 +8,8 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
+
 import java.util.stream.Collectors;
 import java.util.List;
 import java.util.Comparator;
@@ -25,9 +27,13 @@ public class SharkTamedOnEntityTickUpdateProcedure {
 					if (entityiterator instanceof Player) {
 						{
 							Entity _ent = entity;
-							_ent.teleportTo((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()));
+							_ent.teleportTo(((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX),
+									((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
+									((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ));
 							if (_ent instanceof ServerPlayer _serverPlayer)
-								_serverPlayer.connection.teleport((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), _ent.getYRot(), _ent.getXRot());
+								_serverPlayer.connection.teleport(((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX),
+										((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
+										((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ), _ent.getYRot(), _ent.getXRot());
 						}
 					}
 				}
@@ -41,7 +47,9 @@ public class SharkTamedOnEntityTickUpdateProcedure {
 					for (Entity entityiterator : _entfound) {
 						if (entityiterator instanceof Player) {
 							if (entity instanceof Mob _entity)
-								_entity.getNavigation().moveTo((entityiterator.getX()), (entityiterator.getY()), (entityiterator.getZ()), 1);
+								_entity.getNavigation().moveTo(((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX),
+										((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
+										((entityiterator.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ), 1);
 						}
 					}
 				}

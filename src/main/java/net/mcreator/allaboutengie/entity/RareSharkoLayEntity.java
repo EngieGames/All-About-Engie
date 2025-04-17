@@ -96,7 +96,7 @@ public class RareSharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		RareLayRCProcedure.execute(world, x, y, z, entity);
+		RareLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

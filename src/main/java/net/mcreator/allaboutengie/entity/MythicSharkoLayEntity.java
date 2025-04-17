@@ -96,7 +96,7 @@ public class MythicSharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		MythicLayRCProcedure.execute(entity);
+		MythicLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

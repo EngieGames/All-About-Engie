@@ -4,13 +4,13 @@ license="MIT License"
 
 [[mods]]
 modId="allaboutengie"
-version="4.15.25"
+version="4.17.25"
 displayName="All About Engie"
-credits="yuh"
-displayURL="https://www.twitch.tv/engiegames"
+credits="DevEngie(Games), MCreator, Family Members, and Grem."
+displayURL="https://modrinth.com/user/DevEngie"
 logoFile="logo.png"
 authors="DevEngie"
-description="Made with MCreator. "
+description="A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please."
 
 [[dependencies.allaboutengie]]
     modId="minecraft"

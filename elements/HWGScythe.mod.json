@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "image2",
+    "customModelName": "hwgscythe:default",
+    "name": "He Who Game's Scythe",
+    "specialInfo": [
+      "You finally put the Spirit to rest",
+      "are you happy you finally got this?"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4000.0,
+    "usageCount": 9001,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -99,7 +99,7 @@ public class PBELayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		PBELayRCProcedure.execute(entity);
+		PBELayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

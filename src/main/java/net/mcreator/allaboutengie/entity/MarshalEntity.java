@@ -117,7 +117,7 @@ public class MarshalEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		MarshalRCProcedure.execute(entity);
+		MarshalRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

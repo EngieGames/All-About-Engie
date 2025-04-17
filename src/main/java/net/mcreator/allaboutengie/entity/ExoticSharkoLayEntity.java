@@ -96,7 +96,7 @@ public class ExoticSharkoLayEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		ExoticLayRCProcedure.execute(world, x, y, z, entity);
+		ExoticLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

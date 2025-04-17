@@ -1,0 +1,78 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "hwghelm",
+    "enableBody": true,
+    "textureBody": "hwgchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "hwgleggings",
+    "enableBoots": true,
+    "textureBoots": "hwgboots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "backup_",
+    "helmetName": "HWG Helmet",
+    "bodyName": "HWG Chestplate",
+    "leggingsName": "HWG Leggings",
+    "bootsName": "HWG Boots",
+    "helmetSpecialInfo": [
+      "You finally put the Spirit to rest",
+      "are you happy you finally got this?"
+    ],
+    "bodySpecialInfo": [
+      "You finally put the Spirit to rest",
+      "are you happy you finally got this?"
+    ],
+    "leggingsSpecialInfo": [
+      "You finally put the Spirit to rest",
+      "are you happy you finally got this?"
+    ],
+    "bootsSpecialInfo": [
+      "You finally put the Spirit to rest",
+      "are you happy you finally got this?"
+    ],
+    "helmetModelName": "Modelcustomarmorl",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "hewhogamesarmor.png",
+    "bodyModelName": "Modelcustomarmorl",
+    "bodyModelPart": "Chestplate",
+    "armsModelPartL": "ArmsL",
+    "armsModelPartR": "ArmsR",
+    "bodyModelTexture": "hewhogamesarmor.png",
+    "leggingsModelName": "Modelcustomarmorr",
+    "leggingsModelPartL": "LeggingsL",
+    "leggingsModelPartR": "LeggingsR",
+    "leggingsModelTexture": "hewhogamesarmor.png",
+    "bootsModelName": "Modelcustomarmorl",
+    "bootsModelPartL": "BootsL",
+    "bootsModelPartR": "BootsR",
+    "bootsModelTexture": "hewhogamesarmor.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 300,
+    "damageValueHelmet": 300,
+    "damageValueBody": 300,
+    "damageValueLeggings": 300,
+    "damageValueBoots": 300,
+    "enchantability": 50,
+    "toughness": 10.0,
+    "knockbackResistance": 0.6,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

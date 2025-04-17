@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "The weapon that killed He Who Games.",
-    "achievementDescription": "Obtain one of Engie's Scythes.",
+    "achievementName": "Why did you do it. You just woke up the spirit.",
+    "achievementDescription": "Obtain one of Engie's Scythes while also waking up the spirit..",
     "achievementIcon": {
       "value": "CUSTOM:EngiesScythe"
     },

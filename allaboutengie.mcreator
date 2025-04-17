@@ -2058,26 +2058,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "CrackersFinishEating",
-      "type": "procedure",
-      "sortid": 463,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crackers_finish_eating",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/CrackersFinishEatingProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "AAEItemsFood",
       "type": "tab",
       "sortid": 464,
@@ -3950,6 +3930,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -3983,6 +3967,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -4062,6 +4050,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4095,6 +4087,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -4174,6 +4170,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4207,6 +4207,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -4286,6 +4290,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4319,6 +4327,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -4398,6 +4410,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4432,6 +4448,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -4704,6 +4740,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4737,6 +4777,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -4816,6 +4860,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4849,6 +4897,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -4928,6 +4980,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4961,6 +5017,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -5040,6 +5100,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -5073,6 +5137,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -7995,6 +8063,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8015,6 +8103,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -9983,6 +10091,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10003,6 +10131,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10023,6 +10171,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10043,6 +10211,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10063,6 +10251,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10083,6 +10291,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11693,6 +11921,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11713,6 +11961,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11883,6 +12151,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11903,6 +12191,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11923,6 +12231,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11943,6 +12271,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12057,6 +12405,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12077,6 +12445,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12707,6 +13095,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12727,6 +13135,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -14299,6 +14727,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -14332,6 +14764,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -14418,34 +14854,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/allaboutengie/advancements/colossol_ban_obtain.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "ImmenseBanObtain",
-      "type": "achievement",
-      "sortid": 901,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "immense_ban_obtain",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/immense_ban_obtain.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "MammothBanObtain",
-      "type": "achievement",
-      "sortid": 902,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mammoth_ban_obtain",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/allaboutengie/advancements/mammoth_ban_obtain.json"
         ]
       },
       "path": "~/Advancements"
@@ -15649,6 +16057,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -15682,6 +16094,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -15721,6 +16137,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -15754,6 +16174,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -15793,6 +16217,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -15826,6 +16254,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -15865,6 +16297,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -15898,6 +16334,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -15937,6 +16377,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -15970,6 +16414,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -16341,6 +16789,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -16374,6 +16826,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -16413,6 +16869,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -16446,6 +16906,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -16485,6 +16949,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -16518,6 +16986,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -16557,6 +17029,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -16590,6 +17066,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -16629,6 +17109,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -16662,6 +17146,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -16713,6 +17201,273 @@
         ]
       },
       "path": "~/All Items/Regular/Weapons/Pixel Var"
+    },
+    {
+      "name": "HeWhoGamesOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 967,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HeWhoGamesOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeWhoGamesNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 968,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HeWhoGamesNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeWhoGames",
+      "type": "livingentity",
+      "sortid": 969,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/he_who_games_biome_modifier.json",
+          "src/main/java/net/mcreator/allaboutengie/entity/HeWhoGamesEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/HeWhoGamesRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Norm"
+    },
+    {
+      "name": "PlayerXYZUpdateTick",
+      "type": "procedure",
+      "sortid": 970,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_xyz_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/PlayerXYZUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeWhoGamesHostile",
+      "type": "livingentity",
+      "sortid": 971,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_hostile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/HeWhoGamesHostileEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/HeWhoGamesHostileRenderer.java",
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/he_who_games_hostile_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    },
+    {
+      "name": "HeWhoGamesHostileOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 972,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_hostile_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HeWhoGamesHostileOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HWG",
+      "type": "armor",
+      "sortid": 973,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/item/HWGItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/hwg_chestplate.json",
+          "src/main/resources/assets/allaboutengie/models/item/hwg_boots.json",
+          "src/main/resources/assets/allaboutengie/models/item/hwg_helmet.json",
+          "src/main/resources/assets/allaboutengie/models/item/hwg_leggings.json"
+        ]
+      },
+      "path": "~/All Items/Regular/Armor"
+    },
+    {
+      "name": "HWGScythe",
+      "type": "tool",
+      "sortid": 974,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwg_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/hwg_scythe.json",
+          "src/main/java/net/mcreator/allaboutengie/item/HWGScytheItem.java"
+        ]
+      },
+      "path": "~/All Items/Regular/Weapons"
+    },
+    {
+      "name": "HeWhoGamesHostileNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 975,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_hostile_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HeWhoGamesHostileNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeWhoGamesHostileEntityDies",
+      "type": "procedure",
+      "sortid": 976,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_hostile_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HeWhoGamesHostileEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeWhoGamesHostileThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 977,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games_hostile_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/HeWhoGamesHostileThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -16793,6 +17548,54 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "hewhowatches",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "nightmare",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PlayerX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "PlayerY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "PlayerZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "HHGLookX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "HHGLookY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "HHGLookZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -16804,6 +17607,7 @@
       "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
       "item_group.allaboutengie.zombies": "Zombies",
       "item.allaboutengie.common_axe": "Common Axe",
+      "item.allaboutengie.hwg_scythe": "He Who Game\u0027s Scythe",
       "item.allaboutengie.biblically_accurate_engie_shovel": "Biblically Accurate Engie Shovel",
       "item.allaboutengie.engie_shovel": "Engie Shovel",
       "item.allaboutengie.uncommon_chestplate": "Uncommon Chestplate",
@@ -16820,9 +17624,9 @@
       "item.allaboutengie.mini_ban_hammer": "Mini Ban Hammer",
       "entity.allaboutengie.louis_zoomies_tired": "Louis (Worn Out)",
       "item.allaboutengie.enraged_tnt_spawn_egg": "Enraged TNT Spawn Egg",
-      "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
-      "painting.allaboutengie.shovel_king.author": "Engie, bothan2net",
       "entity.allaboutengie.bothan_2net_zoomies_tired": "Bothan2net (Worn Out)",
+      "painting.allaboutengie.shovel_king.author": "Engie, bothan2net",
+      "item.allaboutengie.large_ban_hammer_pixel": "Pixelized Large Ban Hammer",
       "block.allaboutengie.metal_table": "Metal Chest",
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_helmet": "Cyberblood Helmet",
@@ -16838,8 +17642,8 @@
       "entity.allaboutengie.atlas_sleep": "Atlas (Sleeping)",
       "block.allaboutengie.outraged_engie_block": "Outraged Engie Block",
       "item.aae_items.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "advancements.outraged_tools_obtained.title": "Phew, not much of a waste.",
       "entity.allaboutengie.engie_sharko_lay_april_fools": "[Tamed] Engie Sharko (Laying)",
+      "advancements.outraged_tools_obtained.title": "Phew, not much of a waste.",
       "item.allaboutengie.code_redeemers_chestplate": "Code Redeemers Chestplate",
       "painting.allaboutengie.tiger_shark_cat_onsie.author": "EngieGames",
       "block.aae_items.enraged_engie_block": "Enraged Engie Block",
@@ -16848,6 +17652,7 @@
       "item.allaboutengie.code_redeemers_hammer_pixel": "Pixelized Code Redeemers Hammer",
       "entity.allaboutengie.engie_games": "EngieGames",
       "item.allaboutengie.legendary_sharko_cloth": "Legendary Sharko Cloth",
+      "item.allaboutengie.hwg_helmet": "HWG Helmet",
       "item.allaboutengie.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.epic_sharko_spawn_egg": "Epic Sharko Spawn Egg",
       "item.allaboutengie.cyber_katana": "Cyber Katana",
@@ -16884,14 +17689,15 @@
       "item.allaboutengie.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.sharko_spawn_egg": "Sharko Spawn Egg",
       "item.aae_items.operators_leggings": "Operators Leggings",
-      "item.allaboutengie.rare_sharko_spawn_egg": "Rare Sharko Spawn Egg",
       "item.allaboutengie.cooked_pizza": "Cooked Pizza",
+      "item.allaboutengie.rare_sharko_spawn_egg": "Rare Sharko Spawn Egg",
       "item.allaboutengie.golden_cookie": "Golden Cookie",
       "item.allaboutengie.biblically_accurate_engies_leggings": "Biblically Accurate Engie Leggings",
       "entity.allaboutengie.rare_sharko": "Rare Sharko",
       "item.allaboutengie.mythic_sharko_spawn_egg": "Mythic Sharko Spawn Egg",
       "entity.allaboutengie.bothan_2net_lay": "Bothan2net [Laying]",
       "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "item.allaboutengie.hwg_leggings": "HWG Leggings",
       "block.allaboutengie.cyberblood_block": "Cyberblood Block",
       "item.aae_items.engi_pickaxe": "Engi Pickaxe",
       "item.allaboutengie.engies_scythe_pixel": "Pixel Engie\u0027s Scythe",
@@ -16899,14 +17705,14 @@
       "item.allaboutengie.true_ban_hammer_ncmd": "True Ban Hammer (NO COMMAND)",
       "block.allaboutengie.angel_hatted_present": "Angel Hatted Present",
       "item.allaboutengie.exotic_helmet": "Exotic Helmet",
-      "entity.allaboutengie.albino_sharko_tamed_zoomies": "[Tamed] Albino Sharko (Zoomies)",
       "entity.allaboutengie.angry_engie": "Angry Engie",
+      "entity.allaboutengie.albino_sharko_tamed_zoomies": "[Tamed] Albino Sharko (Zoomies)",
       "item.allaboutengie.mythic_sword": "Mythic Sword",
-      "block.allaboutengie.deepslate_engie_ore": "Engie Ore",
       "entity.allaboutengie.mythic_sharko_sleep_april_fools": "[Tamed] Mythic Sharko (Sleeping)",
+      "block.allaboutengie.deepslate_engie_ore": "Engie Ore",
       "item.aae_items.crucifix": "Crucifix",
-      "item.allaboutengie.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.outraged_engies_helmet": "Outraged Engie Helmet",
+      "item.allaboutengie.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
       "block.aae_items.old_deepslate_engie_ore": "Engie Ore",
       "item.allaboutengie.uncommon_axe": "Uncommon Axe",
       "entity.allaboutengie.mythic_engie": "Mythic Engie",
@@ -16916,14 +17722,14 @@
       "item.aae_items.engie_leggings": "Engie Leggings",
       "item.aae_items.mini_ban_hammer_pixel": "Mini Ban Hammer Pixel",
       "item.aae_items.bigger_ban_hammer": "Bigger Ban Hammer",
-      "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
       "item.allaboutengie.engies_helmet": "Engie Helmet",
+      "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
       "entity.allaboutengie.monstrosity_engie": "Monstrosity Engie",
       "entity.allaboutengie.exotic_sharko_tamed_zoomies_tired": "[Tamed] Exotic Sharko (Worn Out)",
       "item.aae_items.engie_chestplate": "Engie Chestplate",
       "entity.allaboutengie.tiger_lay": "Tiger [Laying]",
-      "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
       "advancements.massive_ban_obtain.title": "Remember lads: NO RULEBREAKING.",
+      "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
       "entity.allaboutengie.albino_sharko_lay": "[Tamed] Albino Sharko (Laying)",
       "entity.allaboutengie.engie_sharko_sleep_april_fools": "[Tamed] Engie Sharko (Sleeping)",
       "item.allaboutengie.monstrosity_engies_leggings": "Monstrosity Engie Leggings",
@@ -16931,20 +17737,20 @@
       "item.allaboutengie.aae_dev_engie": "DevEngie",
       "entity.allaboutengie.mythic_sharko_tamed": "[Tamed] Mythic Sharko",
       "entity.allaboutengie.enraged_speed_8": "Enraged Speed",
-      "item.aae_items.engi_axe": "Engi Axe",
-      "item.allaboutengie.operators_shovel": "Operators Shovel",
       "entity.allaboutengie.enraged_speed_9": "Enraged Speed",
+      "item.allaboutengie.operators_shovel": "Operators Shovel",
+      "item.aae_items.engi_axe": "Engi Axe",
       "advancements.enraged_engie_essence_obtained.title": "I fear no man, but that thing... It scares me.",
       "item.allaboutengie.quizzet_spawn_egg": "Quizzet Spawn Egg",
       "entity.allaboutengie.enraged_speed_6": "Enraged Speed",
       "entity.allaboutengie.enraged_speed_7": "Enraged Speed",
-      "entity.allaboutengie.enraged_speed_4": "Enraged Speed",
-      "item.allaboutengie.epic_chestplate": "Epic Chestplate",
       "block.allaboutengie.angry_engie_block": "Angry Engie Block",
+      "item.allaboutengie.epic_chestplate": "Epic Chestplate",
+      "entity.allaboutengie.enraged_speed_4": "Enraged Speed",
       "entity.allaboutengie.enraged_speed_5": "Enraged Speed",
       "item.allaboutengie.enchanted_exotic_cookie": "Enchanted Exotic Cookie",
       "item.allaboutengie.rare_helmet": "Rare Helmet",
-      "advancements.engies_scythe_obtained.title": "The weapon that killed He Who Games.",
+      "advancements.engies_scythe_obtained.title": "Why did you do it. You just woke up the spirit.",
       "advancements.gotcha_engie.title": "Found him!",
       "painting.allaboutengie.playedbyengie.author": "playedbyengie (clippedbyengie)",
       "item.allaboutengie.big_ban_hammer": "Big Ban Hammer",
@@ -16962,20 +17768,20 @@
       "item.allaboutengie.mini_ban_hammer_pixel": "Pixelized Mini Ban Hammer",
       "advancements.gigantic_ban_obtain.title": "DevEngie approved. :D",
       "entity.allaboutengie.enraged_speed_2": "Enraged Speed",
-      "item.allaboutengie.legendary_sword": "Legendary Sword",
-      "item.allaboutengie.echdeath": "ECHDEATH",
       "entity.allaboutengie.enraged_speed_3": "Enraged Speed",
+      "item.allaboutengie.echdeath": "ECHDEATH",
+      "item.allaboutengie.legendary_sword": "Legendary Sword",
       "item.allaboutengie.exotic_hoe": "Exotic Hoe",
       "item.allaboutengie.outraged_engie_spawn_egg": "Outraged Engie Spawn Egg",
       "item.aae_items.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
       "block.allaboutengie.blood_block": "Blood Block",
-      "item.allaboutengie.outraged_engie_hoe": "Outraged Engie Hoe",
       "entity.allaboutengie.rare_sharko_tamed_zoomies": "[Tamed] Rare Sharko (Zoomies)",
+      "item.allaboutengie.outraged_engie_hoe": "Outraged Engie Hoe",
       "entity.allaboutengie.exotic_sharko_sleep_april_fools": "[Tamed] Exotic Sharko (Sleeping)",
       "block.allaboutengie.unobtainium_ore": "Unobtainium Ore",
       "item.allaboutengie.rare_hoe": "Rare Hoe",
-      "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
       "block.allaboutengie.metal_chest_jungle": "Jungle Metal Chest",
+      "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
       "item.aae_items.true_ban_hammer_ncmd": "True Ban Hammer (NO COMMAND)",
       "entity.allaboutengie.sharko_lay": "[Tamed] Sharko (Laying)",
       "painting.allaboutengie.idea_giver_blood.author": "EngieGames, Blood",
@@ -16985,8 +17791,8 @@
       "item.allaboutengie.shark_boots": "Sharko Boots",
       "item.aae_items.engie_axe": "Engie Axe",
       "entity.allaboutengie.marshal_sleep": "Marshal (Sleeping)",
-      "block.allaboutengie.metal_chest_dark_oak": "Dark Oak Metal Chest",
       "item.allaboutengie.unobtanium": "Unobtanium",
+      "block.allaboutengie.metal_chest_dark_oak": "Dark Oak Metal Chest",
       "advancements.angry_engie_essence_obtained.title": "Why is it staring at me.",
       "item.allaboutengie.rare_sharko_cloth": "Rare Sharko Cloth",
       "advancements.enraged_engie_tool_obtained.title": "At least I can stop complaining about the other tool set.",
@@ -17000,8 +17806,8 @@
       "block.allaboutengie.thanks_for_playing_2": "Thanks for playing!",
       "block.allaboutengie.thanks_for_playing_3": "Thanks for playing!",
       "painting.allaboutengie.ech.title": "Ech",
-      "item.allaboutengie.operators_axe": "Operators Axe",
       "entity.allaboutengie.mythic_sharko_tamed_april_fools": "[Tamed] Mythic Sharko",
+      "item.allaboutengie.operators_axe": "Operators Axe",
       "entity.allaboutengie.monstrosity_engie_sharko": "Monstrosity Engie",
       "painting.allaboutengie.aae.title": "All About Engie Logo",
       "item.allaboutengie.unobtainium_boots": "Unobtainium Boots",
@@ -17015,22 +17821,23 @@
       "item.aae_items.operators_pickaxe": "Operators Pickaxe",
       "item.allaboutengie.mythic_helmet": "Mythic Helmet",
       "item.allaboutengie.engies_scythe": "Engie\u0027s Scythe",
-      "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
       "block.allaboutengie.monstrosity_engie_block": "Monstrosity Engie Block",
+      "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
       "item.allaboutengie.albino_shark_boots": "Albino Sharko Boots",
       "entity.allaboutengie.legendary_sharko_tamed_zoomies": "[Tamed] Legendary Sharko (Zoomies)",
       "entity.allaboutengie.louis_zoomies": "Louis",
-      "item.allaboutengie.exotic_leggings": "Exotic Leggings",
       "item.allaboutengie.sharkos_plaque": "All About Engie (Sharkos) Plaque",
+      "item.allaboutengie.exotic_leggings": "Exotic Leggings",
       "item.allaboutengie.engie_spawn_egg": "Engie Spawn Egg",
+      "entity.allaboutengie.he_who_games": "He Who Games",
       "item.allaboutengie.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.enraged_normal_spawn_egg": "Enraged Normal Spawn Egg",
       "item.allaboutengie.code_redeemers_leggings": "Code Redeemers Leggings",
       "entity.allaboutengie.engie_sharko_tamed_zoomies": "[Tamed] Engie Sharko (Zoomies)",
       "item.allaboutengie.monstrosity_ban_hammer": "A Monstrosity Ban Hammer",
       "advancements.outraged_engie_armor_obtained.title": "I\u0027ll take it.",
-      "entity.allaboutengie.mythic_sharko_tamed_zoomies_tired": "[Tamed] Mythic Sharko (Worn Out)",
       "entity.allaboutengie.pbe_lay": "playedbyengie (da boyo) [Laying]",
+      "entity.allaboutengie.mythic_sharko_tamed_zoomies_tired": "[Tamed] Mythic Sharko (Worn Out)",
       "advancements.ban_obtain.title": "Normal size? I want bigger.",
       "item.allaboutengie.outraged_engies_chestplate": "Outraged Engie Chestplate",
       "advancements.found_engie.title": "That took quite long.",
@@ -17044,8 +17851,8 @@
       "item.aae_items.uncooked_pizza": "Uncooked Pizza",
       "item.allaboutengie.angry_engie_axe": "Angry Engie Axe",
       "item.allaboutengie.enormous_ban_hammer": "Enormous Ban Hammer",
-      "advancements.mini_ban_obtain.descr": "Obtain a Mini Ban Hammer",
       "block.allaboutengie.biblically_accurate_block": "Biblically Accurate Engie Block",
+      "advancements.mini_ban_obtain.descr": "Obtain a Mini Ban Hammer",
       "entity.allaboutengie.engie_sharko_rare_2_sleep": "[Tamed] Rare Engie Sharko (Sleeping)",
       "entity.allaboutengie.legendary_sharko": "Legendary Sharko",
       "entity.allaboutengie.buddy_sleep": "Buddy (Sleeping)",
@@ -17063,8 +17870,8 @@
       "item.allaboutengie.monstrosity_engie_shovel": "Monstrosity Engie Shovel",
       "item.allaboutengie.rare_boots": "Rare Boots",
       "item.allaboutengie.shark_chestplate": "Sharko Chestplate",
-      "painting.allaboutengie.aae_mobs.author": "DevEngie",
       "item.aae_items.angry_engie_leggings": "Angry Engie Leggings",
+      "painting.allaboutengie.aae_mobs.author": "DevEngie",
       "item.allaboutengie.biblically_accurate_engie_essence": "Biblically Accurate Engie Essence",
       "item.allaboutengie.outraged_engie_axe": "Outraged Engie Axe",
       "item.allaboutengie.uncommon_sword": "Uncommon Sword",
@@ -17075,9 +17882,8 @@
       "item.allaboutengie.crucifix": "Crucifix",
       "item.allaboutengie.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.albino_shark_leggings": "Albino Sharko Leggings",
-      "advancements.immense_ban_obtain.title": "Are you crazy or something? You really need to take a chill pill.",
-      "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
       "item.allaboutengie.blood_chestplate": "Blood Chestplate",
+      "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
       "entity.allaboutengie.engie_sharko_tamed_zoomies_tired": "[Tamed] Engie Sharko (Worn Out)",
       "entity.allaboutengie.tiger_sleep": "Tiger (Sleeping)",
       "item.allaboutengie.bagel_cheese": "Bagel with Cheese",
@@ -17120,7 +17926,6 @@
       "item.allaboutengie.exotic_boots": "Exotic Boots",
       "block.aae_items.metal_chest": "Metal Chest",
       "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
-      "advancements.immense_ban_obtain.descr": "Obtain a Immense Ban Hammer",
       "item.allaboutengie.angry_engies_boots": "Angry Engie Boots",
       "item.aae_items.enraged_engie_essence": "Enraged Engie Essence",
       "item.allaboutengie.angry_engie_shovel": "Angry Engie Shovel",
@@ -17133,14 +17938,14 @@
       "block.allaboutengie.old_engie_ore": "Engie Ore",
       "entity.allaboutengie.epic_sharko_tamed_april_fools": "[Tamed] Epic Sharko",
       "item.allaboutengie.angry_engie_essence": "Angry Engie Essence",
-      "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
       "itemGroup.tabaae_items_items": "Items",
+      "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
       "item.allaboutengie.enchanted_golden_cookie": "Enchanted Golden Cookie",
       "item.allaboutengie.legendary_shark_helmet": "Legendary Sharko Helmet",
       "item.allaboutengie.gigantic_ban_hammer": "Gigantic Ban Hammer",
       "item.allaboutengie.sharko_april_fools_spawn_egg": "Sharko Spawn Egg",
-      "item.aae_items.cooked_pizza": "Cooked Pizza",
       "item.allaboutengie.aae_engie": "playedbyengie (aka clippedbyengie)",
+      "item.aae_items.cooked_pizza": "Cooked Pizza",
       "entity.allaboutengie.cbe_zoomies": "clippedbyengie (da boyo)",
       "item.allaboutengie.albino_sharko_spawn_egg": "Albino Sharko Spawn Egg",
       "item.allaboutengie.common_sword": "Common Sword",
@@ -17198,6 +18003,7 @@
       "item.allaboutengie.shark_leggings": "Sharko Leggings",
       "item.aae_items.angry_engie_axe": "Angry Engie Axe",
       "item.allaboutengie.cheese_balls_opened": "Cheese Balls Opened",
+      "item.allaboutengie.hwg_chestplate": "HWG Chestplate",
       "itemGroup.tabaae_items_food": "Food",
       "advancements.huge_ban_obtain.descr": "Obtain a Huge Ban Hammer",
       "advancements.angry_engie_essence_obtained.descr": "Obtain an Angry Engie Essence for the first time.",
@@ -17228,7 +18034,6 @@
       "entity.allaboutengie.cbe_lay": "clippedbyengie (da boyo) [Laying]",
       "entity.allaboutengie.albino_sharko_april_fools": "Albino Sharko",
       "item.allaboutengie.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
-      "advancements.mammoth_ban_obtain.title": "Alright, have fun with this.",
       "entity.allaboutengie.apollo_zoomies_tired": "Apollo (Worn Out)",
       "advancements.biblically_accurate_engie_armor_obtained.descr": "Obtain Biblically Accruate Engie Armor for the first time.",
       "item.allaboutengie.legendary_helmet": "Legendary Helmet",
@@ -17284,7 +18089,7 @@
       "item.allaboutengie.cheese_ball": "Cheese Ball",
       "item.allaboutengie.bagel": "Bagel",
       "advancements.found_engie.descr": "Have a chat with Engie. GG.",
-      "advancements.engies_scythe_obtained.descr": "Obtain one of Engie\u0027s Scythes.",
+      "advancements.engies_scythe_obtained.descr": "Obtain one of Engie\u0027s Scythes while also waking up the spirit..",
       "entity.allaboutengie.pbe_zoomies": "playedbyengie (da boyo)",
       "item.aae_items.angry_engie_shovel": "Angry Engie Shovel",
       "item.allaboutengie.legendary_pickaxe": "Legendary Pickaxe",
@@ -17380,6 +18185,7 @@
       "block.aae_items.metal_chest_spruce": "Spruce Metal Chest",
       "item.allaboutengie.rare_chestplate": "Rare Chestplate",
       "item_group.allaboutengie.aae_items_food": "Food",
+      "entity.allaboutengie.he_who_games_hostile": "He Who Games",
       "entity.allaboutengie.exotic_sharko_sleep": "[Tamed] Exotic Sharko (Sleeping)",
       "advancements.biblically_accurate_essence_obtained.descr": "Obtain an Biblically Accurate Engie essence from Biblically Accurate Engie for the first time.",
       "item.allaboutengie.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
@@ -17454,6 +18260,7 @@
       "item.allaboutengie.exotic_sword": "Exotic Sword",
       "item.allaboutengie.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.engie_sharko_rare_april_fools_spawn_egg": "Rare Engie Sharko Spawn Egg",
+      "item.allaboutengie.hwg_boots": "HWG Boots",
       "item.aae_items.enraged_engie_boots": "Enraged Engie Boots",
       "item.allaboutengie.enraged_zombies_plaque": "All About Engie (Enraged Zombies) Plaque",
       "painting.allaboutengie.aae_sharkos.title": "All About Engie Sharkos Logo",
@@ -17584,7 +18391,6 @@
       "entity.allaboutengie.louis": "Louis",
       "entity.allaboutengie.rare_sharko_tamed": "[Tamed] Rare Sharko",
       "item.allaboutengie.legendary_engie_spawn_egg": "Legendary Engie Spawn Egg",
-      "advancements.mammoth_ban_obtain.descr": "Obtain a Mammoth Ban Hammer",
       "item.aae_items.angry_engie_boots": "Angry Engie Boots",
       "item.allaboutengie.blood_battle_axe": "Blood Battle Axe",
       "item.allaboutengie.epic_shark_boots": "Epic Sharko Boots",
@@ -17830,10 +18636,10 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "4.15.25",
-    "description": "Made with MCreator. ",
+    "version": "4.17.25",
+    "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
-    "websiteURL": "https://www.twitch.tv/engiegames",
+    "websiteURL": "https://modrinth.com/user/DevEngie",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -17843,7 +18649,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "yuh",
+    "credits": "DevEngie(Games), MCreator, Family Members, and Grem.",
     "modElementsPackage": "net.mcreator.allaboutengie",
     "lockBaseModFiles": false
   },
