@@ -114,6 +114,9 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
+    "spawningCondition": {
+      "name": "AprilFoolsDespawning"
+    },
     "spawningProbability": 17,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,

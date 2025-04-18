@@ -120,7 +120,7 @@
     "spawningCondition": {
       "name": "HeWhoGamesHostileNaturalEntitySpawningCondition"
     },
-    "spawningProbability": 1,
+    "spawningProbability": 5,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
