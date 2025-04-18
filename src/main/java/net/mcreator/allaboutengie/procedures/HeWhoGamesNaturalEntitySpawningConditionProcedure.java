@@ -13,7 +13,7 @@ public class HeWhoGamesNaturalEntitySpawningConditionProcedure {
 				return false;
 			}
 		} else if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == false) {
-			return true;
+			return false;
 		}
 		return false;
 	}
