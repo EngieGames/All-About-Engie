@@ -1,8 +1,8 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "hwgscythe",
-		"particle": "hwgscythe"
+		"0": "Downloads/hwgscythe",
+		"particle": "Downloads/hwgscythe"
 	},
 	"elements": [
 		{
@@ -398,7 +398,8 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, -2, 1.5]
+			"translation": [0, -6.5, 1.5],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"thirdperson_lefthand": {
 			"translation": [0, -2, 1.5]

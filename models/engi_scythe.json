@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "AAE SHIT/Items/tex",
-		"particle": "AAE SHIT/Items/tex"
+		"0": "Textures/aae_items/Blocks/scythe",
+		"particle": "Textures/aae_items/Blocks/scythe"
 	},
 	"elements": [
 		{
@@ -2499,8 +2499,7 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 0],
-			"translation": [-4.5, 18, -18.5],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [-2.5, 5.25, -11]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, 0],
@@ -2523,9 +2522,9 @@
 			"scale": [0.3, 0.3, 0.3]
 		},
 		"gui": {
-			"rotation": [47, 13, -53],
-			"translation": [-5.75, 0.75, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"rotation": [38, 22, -53],
+			"translation": [-3.5, 0.75, 0],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"head": {
 			"rotation": [90, 0, 180],

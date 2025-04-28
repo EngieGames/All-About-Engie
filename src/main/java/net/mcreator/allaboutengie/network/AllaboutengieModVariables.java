@@ -158,6 +158,7 @@ public class AllaboutengieModVariables {
 		public boolean SharkoRetryState = false;
 		public boolean hewhowatches = false;
 		public double nightmare = 0;
+		public boolean HHGkilledtoggle = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -169,6 +170,7 @@ public class AllaboutengieModVariables {
 			SharkoRetryState = nbt.getBoolean("SharkoRetryState");
 			hewhowatches = nbt.getBoolean("hewhowatches");
 			nightmare = nbt.getDouble("nightmare");
+			HHGkilledtoggle = nbt.getBoolean("HHGkilledtoggle");
 		}
 
 		@Override
@@ -176,6 +178,7 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("SharkoRetryState", SharkoRetryState);
 			nbt.putBoolean("hewhowatches", hewhowatches);
 			nbt.putDouble("nightmare", nightmare);
+			nbt.putBoolean("HHGkilledtoggle", HHGkilledtoggle);
 			return nbt;
 		}
 
