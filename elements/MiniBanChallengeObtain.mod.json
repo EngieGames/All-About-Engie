@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "You'll need this and the other gear given to you.",
-    "achievementDescription": "Good luck out there my friend.",
+    "achievementName": "Good luck out there my friend, you'll need this.",
+    "achievementDescription": "+Insanity",
     "achievementIcon": {
       "value": "CUSTOM:MiniBanHammer"
     },

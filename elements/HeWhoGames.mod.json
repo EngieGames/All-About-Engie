@@ -118,7 +118,7 @@
       "name": "HeWhoGamesNaturalEntitySpawningCondition"
     },
     "spawningProbability": 5,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [],

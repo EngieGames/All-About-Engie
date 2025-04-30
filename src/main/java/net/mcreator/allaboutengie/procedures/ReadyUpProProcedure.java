@@ -63,7 +63,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr6 && _plr6.level instanceof ServerLevel
@@ -83,7 +83,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -91,7 +91,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -99,7 +99,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -108,7 +108,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -227,7 +227,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr31 && _plr31.level instanceof ServerLevel
@@ -247,7 +247,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -255,7 +255,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -263,7 +263,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -272,7 +272,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -401,7 +401,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr57 && _plr57.level instanceof ServerLevel
@@ -421,7 +421,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -429,7 +429,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -437,7 +437,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -446,7 +446,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -575,7 +575,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr83 && _plr83.level instanceof ServerLevel
@@ -595,7 +595,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -603,7 +603,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -611,7 +611,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -620,7 +620,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -749,7 +749,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr109 && _plr109.level instanceof ServerLevel
@@ -769,7 +769,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -777,7 +777,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -785,7 +785,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -794,7 +794,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -923,7 +923,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr135 && _plr135.level instanceof ServerLevel
@@ -943,7 +943,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -951,7 +951,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -959,7 +959,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -968,7 +968,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -1097,7 +1097,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr161 && _plr161.level instanceof ServerLevel
@@ -1117,7 +1117,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -1125,7 +1125,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -1133,7 +1133,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -1142,7 +1142,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
@@ -1271,7 +1271,7 @@ public class ReadyUpProProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
 					if ((entity instanceof ServerPlayer _plr187 && _plr187.level instanceof ServerLevel
@@ -1291,7 +1291,7 @@ public class ReadyUpProProcedure {
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"And what a beautiful world this is.\",\"bold\":true,\"color\":\"gray\"}");
 							}
 						}
 						AllaboutengieMod.queueServerWork(120, () -> {
@@ -1299,7 +1299,7 @@ public class ReadyUpProProcedure {
 								Entity _ent = entity;
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"Do you know what you just did?\",\"bold\":true,\"color\":\"gray\"}");
 								}
 							}
 							AllaboutengieMod.queueServerWork(100, () -> {
@@ -1307,7 +1307,7 @@ public class ReadyUpProProcedure {
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
-												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You have started the inevitable.\",\"bold\":true,\"color\":\"gray\"}");
 									}
 								}
 								AllaboutengieMod.queueServerWork(120, () -> {
@@ -1316,7 +1316,7 @@ public class ReadyUpProProcedure {
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
 													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-													"tellraw @p {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
+													"tellraw @a {\"text\":\"GOODBYE.\",\"bold\":true,\"color\":\"dark_red\"}");
 										}
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;

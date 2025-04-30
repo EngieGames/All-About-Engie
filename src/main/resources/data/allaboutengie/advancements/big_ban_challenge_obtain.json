@@ -22,5 +22,5 @@
   "rewards": {
     "experience": 10
   },
-  "parent": "allaboutengie:ban_obtain"
+  "parent": "allaboutengie:ban_challenge_obtain"
 }
