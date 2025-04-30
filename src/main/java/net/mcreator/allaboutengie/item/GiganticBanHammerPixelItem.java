@@ -44,6 +44,6 @@ public class GiganticBanHammerPixelItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		GiganticBanObtainProProcedure.execute(entity);
+		GiganticBanObtainProProcedure.execute(world, entity);
 	}
 }

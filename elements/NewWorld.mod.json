@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "All About Engie.",
+    "achievementName": "All About Engie",
     "achievementDescription": "Create a new world with the All About Engie mod installed.",
     "achievementIcon": {
       "value": "CUSTOM:AAEEngie"
     },
-    "background": "Default",
+    "background": "nothingwindy.png",
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": false,

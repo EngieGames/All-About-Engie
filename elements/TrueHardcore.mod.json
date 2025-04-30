@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "HAVE FUN.",
+    "description": "If you enabled this with Hardcore enabled (which is highly recommended) GOOD LUCK, YOU'RE GOING TO NEED IT. Challenge: Obtain the biggest ban hammer possible without death or cheats.",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

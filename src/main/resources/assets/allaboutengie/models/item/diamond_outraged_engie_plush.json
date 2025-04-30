@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/outraged_diamond_plush",
+  "textures": {
+    "1": "allaboutengie:blocks/outrageddiamondwithcape",
+    "particle": "allaboutengie:items/volc"
+  }
+}

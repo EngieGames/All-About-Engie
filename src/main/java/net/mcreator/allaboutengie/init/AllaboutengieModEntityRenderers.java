@@ -84,6 +84,7 @@ import net.mcreator.allaboutengie.client.renderer.LegendarySharkoLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.LegendarySharkoLayAprilFoolsRenderer;
 import net.mcreator.allaboutengie.client.renderer.LegendarySharkoAprilFoolsRenderer;
 import net.mcreator.allaboutengie.client.renderer.LegendaryEngieRenderer;
+import net.mcreator.allaboutengie.client.renderer.InsanityRenderer;
 import net.mcreator.allaboutengie.client.renderer.HeWhoGamesRenderer;
 import net.mcreator.allaboutengie.client.renderer.HeWhoGamesHostileRenderer;
 import net.mcreator.allaboutengie.client.renderer.ExoticSharkoTamedZoomiesTiredRenderer;
@@ -420,5 +421,6 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EPIC_SHARKO_TAMED_APRIL_FOOLS.get(), EpicSharkoTamedAprilFoolsRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.HE_WHO_GAMES.get(), HeWhoGamesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.HE_WHO_GAMES_HOSTILE.get(), HeWhoGamesHostileRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.INSANITY.get(), InsanityRenderer::new);
 	}
 }

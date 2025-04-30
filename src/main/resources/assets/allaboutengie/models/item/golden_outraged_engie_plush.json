@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/outraged_gold_plush",
+  "textures": {
+    "1": "allaboutengie:blocks/outragedgoldwithcape",
+    "particle": "allaboutengie:items/volc"
+  }
+}

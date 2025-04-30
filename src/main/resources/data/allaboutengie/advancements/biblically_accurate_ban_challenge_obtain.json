@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:biblically_accurate_engie_ban_hammer"
+    },
+    "title": {
+      "translate": "advancements.biblically_accurate_ban_challenge_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.biblically_accurate_ban_challenge_obtain.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "biblically_accurate_ban_challenge_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 45
+  },
+  "parent": "allaboutengie:massive_ban_obtain"
+}

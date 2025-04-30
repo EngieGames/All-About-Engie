@@ -91,6 +91,7 @@ import net.mcreator.allaboutengie.entity.LegendarySharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.LegendaryEngieEntity;
+import net.mcreator.allaboutengie.entity.InsanityEntity;
 import net.mcreator.allaboutengie.entity.HeWhoGamesHostileEntity;
 import net.mcreator.allaboutengie.entity.HeWhoGamesEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesTiredEntity;
@@ -1093,6 +1094,10 @@ public class AllaboutengieModEntities {
 			.setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HeWhoGamesEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HeWhoGamesHostileEntity>> HE_WHO_GAMES_HOSTILE = register("he_who_games_hostile", EntityType.Builder.<HeWhoGamesHostileEntity>of(HeWhoGamesHostileEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HeWhoGamesHostileEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<InsanityEntity>> INSANITY = register("insanity",
+			EntityType.Builder.<InsanityEntity>of(InsanityEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(InsanityEntity::new)
+
+					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1304,6 +1309,7 @@ public class AllaboutengieModEntities {
 			EpicSharkoTamedAprilFoolsEntity.init();
 			HeWhoGamesEntity.init();
 			HeWhoGamesHostileEntity.init();
+			InsanityEntity.init();
 		});
 	}
 
@@ -1512,5 +1518,6 @@ public class AllaboutengieModEntities {
 		event.put(EPIC_SHARKO_TAMED_APRIL_FOOLS.get(), EpicSharkoTamedAprilFoolsEntity.createAttributes().build());
 		event.put(HE_WHO_GAMES.get(), HeWhoGamesEntity.createAttributes().build());
 		event.put(HE_WHO_GAMES_HOSTILE.get(), HeWhoGamesHostileEntity.createAttributes().build());
+		event.put(INSANITY.get(), InsanityEntity.createAttributes().build());
 	}
 }

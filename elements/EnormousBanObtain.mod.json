@@ -18,7 +18,7 @@
     "rewardXP": 30,
     "achievementType": "goal",
     "parent": {
-      "value": "CUSTOM:NewWorld"
+      "value": "CUSTOM:HugeBanObtain"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"56\" y=\"95\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

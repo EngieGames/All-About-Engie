@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:enormous_ban_hammer"
+    },
+    "title": {
+      "translate": "advancements.enormous_ban_challenge_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.enormous_ban_challenge_obtain.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enormous_ban_challenge_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "allaboutengie:huge_ban_challenge_obtain"
+}

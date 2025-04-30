@@ -89,6 +89,12 @@ public class AllaboutengieModVariables {
 			clone.HHGLookX = original.HHGLookX;
 			clone.HHGLookY = original.HHGLookY;
 			clone.HHGLookZ = original.HHGLookZ;
+			clone.GoodLuck = original.GoodLuck;
+			clone.playerready = original.playerready;
+			clone.AngryEngieKillCount = original.AngryEngieKillCount;
+			clone.EnragedEngieKillCount = original.EnragedEngieKillCount;
+			clone.OutragedEngieKillCount = original.OutragedEngieKillCount;
+			clone.InsanityKillCount = original.InsanityKillCount;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -159,6 +165,9 @@ public class AllaboutengieModVariables {
 		public boolean hewhowatches = false;
 		public double nightmare = 0;
 		public boolean HHGkilledtoggle = false;
+		public double challengeplayerreadyupcount = 0;
+		public boolean ChallengeToggle = false;
+		public boolean BYEBYE = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -171,6 +180,9 @@ public class AllaboutengieModVariables {
 			hewhowatches = nbt.getBoolean("hewhowatches");
 			nightmare = nbt.getDouble("nightmare");
 			HHGkilledtoggle = nbt.getBoolean("HHGkilledtoggle");
+			challengeplayerreadyupcount = nbt.getDouble("challengeplayerreadyupcount");
+			ChallengeToggle = nbt.getBoolean("ChallengeToggle");
+			BYEBYE = nbt.getBoolean("BYEBYE");
 		}
 
 		@Override
@@ -179,6 +191,9 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("hewhowatches", hewhowatches);
 			nbt.putDouble("nightmare", nightmare);
 			nbt.putBoolean("HHGkilledtoggle", HHGkilledtoggle);
+			nbt.putDouble("challengeplayerreadyupcount", challengeplayerreadyupcount);
+			nbt.putBoolean("ChallengeToggle", ChallengeToggle);
+			nbt.putBoolean("BYEBYE", BYEBYE);
 			return nbt;
 		}
 
@@ -279,6 +294,12 @@ public class AllaboutengieModVariables {
 		public double HHGLookX = 0;
 		public double HHGLookY = 0;
 		public double HHGLookZ = 0;
+		public boolean GoodLuck = false;
+		public boolean playerready = false;
+		public double AngryEngieKillCount = 0;
+		public double EnragedEngieKillCount = 0;
+		public double OutragedEngieKillCount = 0;
+		public double InsanityKillCount = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -299,6 +320,12 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("HHGLookX", HHGLookX);
 			nbt.putDouble("HHGLookY", HHGLookY);
 			nbt.putDouble("HHGLookZ", HHGLookZ);
+			nbt.putBoolean("GoodLuck", GoodLuck);
+			nbt.putBoolean("playerready", playerready);
+			nbt.putDouble("AngryEngieKillCount", AngryEngieKillCount);
+			nbt.putDouble("EnragedEngieKillCount", EnragedEngieKillCount);
+			nbt.putDouble("OutragedEngieKillCount", OutragedEngieKillCount);
+			nbt.putDouble("InsanityKillCount", InsanityKillCount);
 			return nbt;
 		}
 
@@ -316,6 +343,12 @@ public class AllaboutengieModVariables {
 			HHGLookX = nbt.getDouble("HHGLookX");
 			HHGLookY = nbt.getDouble("HHGLookY");
 			HHGLookZ = nbt.getDouble("HHGLookZ");
+			GoodLuck = nbt.getBoolean("GoodLuck");
+			playerready = nbt.getBoolean("playerready");
+			AngryEngieKillCount = nbt.getDouble("AngryEngieKillCount");
+			EnragedEngieKillCount = nbt.getDouble("EnragedEngieKillCount");
+			OutragedEngieKillCount = nbt.getDouble("OutragedEngieKillCount");
+			InsanityKillCount = nbt.getDouble("InsanityKillCount");
 		}
 	}
 
@@ -352,6 +385,12 @@ public class AllaboutengieModVariables {
 					variables.HHGLookX = message.data.HHGLookX;
 					variables.HHGLookY = message.data.HHGLookY;
 					variables.HHGLookZ = message.data.HHGLookZ;
+					variables.GoodLuck = message.data.GoodLuck;
+					variables.playerready = message.data.playerready;
+					variables.AngryEngieKillCount = message.data.AngryEngieKillCount;
+					variables.EnragedEngieKillCount = message.data.EnragedEngieKillCount;
+					variables.OutragedEngieKillCount = message.data.OutragedEngieKillCount;
+					variables.InsanityKillCount = message.data.InsanityKillCount;
 				}
 			});
 			context.setPacketHandled(true);

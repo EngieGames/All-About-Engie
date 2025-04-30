@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/enraged_netherite_plush",
+  "textures": {
+    "1": "allaboutengie:blocks/enragednetheritewithcape",
+    "particle": "allaboutengie:items/volc"
+  }
+}

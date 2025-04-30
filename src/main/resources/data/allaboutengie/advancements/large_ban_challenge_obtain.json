@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:large_ban_hammer"
+    },
+    "title": {
+      "translate": "advancements.large_ban_challenge_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.large_ban_challenge_obtain.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "large_ban_challenge_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "allaboutengie:big_ban_challenge_obtain"
+}

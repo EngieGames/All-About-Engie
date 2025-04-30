@@ -18,7 +18,7 @@
     "rewardXP": 5,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:NewWorld"
+      "value": "CUSTOM:MiniBanObtain"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"56\" y=\"95\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

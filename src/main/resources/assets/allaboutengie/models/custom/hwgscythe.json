@@ -2327,8 +2327,13 @@
     "thirdperson_righthand": {
       "translation": [
         0,
-        -2,
+        -6.5,
         1.5
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
       ]
     },
     "thirdperson_lefthand": {

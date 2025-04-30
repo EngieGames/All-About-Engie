@@ -54,6 +54,6 @@ public class MonstrosityBanHammerItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		BiblicallyAccurateBanObtainProProcedure.execute(entity);
+		BiblicallyAccurateBanObtainProProcedure.execute(world, entity);
 	}
 }

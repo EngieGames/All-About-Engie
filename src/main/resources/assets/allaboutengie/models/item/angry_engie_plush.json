@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/angry_plush",
+  "textures": {
+    "1": "allaboutengie:blocks/angrywithcape",
+    "particle": "allaboutengie:items/volc"
+  }
+}

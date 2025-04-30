@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "allaboutengie:textures/screens/windychallenge.png",
+    "icon": {
+      "item": "allaboutengie:you_are_not_supposed_to_have_this"
+    },
+    "title": {
+      "translate": "advancements.something_is_not_right.title"
+    },
+    "description": {
+      "translate": "advancements.something_is_not_right.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "something_is_not_right": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

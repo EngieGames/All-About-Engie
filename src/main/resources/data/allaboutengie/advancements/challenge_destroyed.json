@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:you_are_not_supposed_to_have_this"
+    },
+    "title": {
+      "translate": "advancements.challenge_destroyed.title"
+    },
+    "description": {
+      "translate": "advancements.challenge_destroyed.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "challenge_destroyed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "allaboutengie:monstrosity_ban_challenge_obtain"
+}

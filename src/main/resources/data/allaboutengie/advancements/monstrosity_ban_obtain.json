@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:monstrosity_ban_hammer"
+    },
+    "title": {
+      "translate": "advancements.monstrosity_ban_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.monstrosity_ban_obtain.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monstrosity_ban_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "allaboutengie:biblically_accurate_ban_obtain"
+}

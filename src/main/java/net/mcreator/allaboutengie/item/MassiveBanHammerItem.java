@@ -44,6 +44,6 @@ public class MassiveBanHammerItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		MassiveBanObtainProProcedure.execute(entity);
+		MassiveBanObtainProProcedure.execute(world, entity);
 	}
 }

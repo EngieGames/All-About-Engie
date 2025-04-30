@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/insanity_diamond_plush",
+  "textures": {
+    "10": "allaboutengie:blocks/insanityplushdiamond",
+    "particle": "allaboutengie:items/volc"
+  }
+}

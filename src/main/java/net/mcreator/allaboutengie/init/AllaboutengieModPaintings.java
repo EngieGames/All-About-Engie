@@ -30,4 +30,7 @@ public class AllaboutengieModPaintings {
 	public static final RegistryObject<PaintingVariant> AAE_DIMENSIONS = REGISTRY.register("aae_dimensions", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> AAE_EXTRAS = REGISTRY.register("aae_extras", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> AAE_SHARKOS = REGISTRY.register("aae_sharkos", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> BROKEN_CODE = REGISTRY.register("broken_code", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> HE_WANNA_TALK = REGISTRY.register("he_wanna_talk", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> NEED_THOUGHTS = REGISTRY.register("need_thoughts", () -> new PaintingVariant(16, 16));
 }
