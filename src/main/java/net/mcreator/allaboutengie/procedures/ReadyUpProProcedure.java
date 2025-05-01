@@ -113,22 +113,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -230,8 +216,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr31 && _plr31.level instanceof ServerLevel
-							&& _plr31.getAdvancements().getOrStartProgress(_plr31.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr29 && _plr29.level instanceof ServerLevel
+							&& _plr29.getAdvancements().getOrStartProgress(_plr29.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -277,22 +263,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -404,8 +376,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr57 && _plr57.level instanceof ServerLevel
-							&& _plr57.getAdvancements().getOrStartProgress(_plr57.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr53 && _plr53.level instanceof ServerLevel
+							&& _plr53.getAdvancements().getOrStartProgress(_plr53.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -451,22 +423,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -578,8 +536,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr83 && _plr83.level instanceof ServerLevel
-							&& _plr83.getAdvancements().getOrStartProgress(_plr83.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr77 && _plr77.level instanceof ServerLevel
+							&& _plr77.getAdvancements().getOrStartProgress(_plr77.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -625,22 +583,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -752,8 +696,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr109 && _plr109.level instanceof ServerLevel
-							&& _plr109.getAdvancements().getOrStartProgress(_plr109.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr101 && _plr101.level instanceof ServerLevel
+							&& _plr101.getAdvancements().getOrStartProgress(_plr101.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -799,22 +743,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -926,8 +856,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr135 && _plr135.level instanceof ServerLevel
-							&& _plr135.getAdvancements().getOrStartProgress(_plr135.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr125 && _plr125.level instanceof ServerLevel
+							&& _plr125.getAdvancements().getOrStartProgress(_plr125.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -973,22 +903,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1100,8 +1016,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr161 && _plr161.level instanceof ServerLevel
-							&& _plr161.getAdvancements().getOrStartProgress(_plr161.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr149 && _plr149.level instanceof ServerLevel
+							&& _plr149.getAdvancements().getOrStartProgress(_plr149.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1147,22 +1063,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1274,8 +1176,8 @@ public class ReadyUpProProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"What a glorious day.\",\"bold\":true,\"color\":\"gray\"}");
 						}
 					}
-					if ((entity instanceof ServerPlayer _plr187 && _plr187.level instanceof ServerLevel
-							&& _plr187.getAdvancements().getOrStartProgress(_plr187.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
+					if ((entity instanceof ServerPlayer _plr173 && _plr173.level instanceof ServerLevel
+							&& _plr173.getAdvancements().getOrStartProgress(_plr173.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"))).isDone()) == false) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:something_is_not_right"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1321,22 +1223,8 @@ public class ReadyUpProProcedure {
 									}
 									AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
 									AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @a darkness 25 25 true");
-										}
-									}
 									if (world instanceof Level _level)
 										_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, _level.getServer());
-									{
-										Entity _ent = entity;
-										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-													_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
-										}
-									}
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
