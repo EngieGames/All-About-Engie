@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "volc",
+    "customModelName": "engieplush:default",
+    "customProperties": {},
+    "states": [],
+    "name": "Engie Plush (Yes, the REAL Engie)",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Given out on Engie's Birthday. You should at least take a look at the other things he gave you in return."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/mad_plush",
+  "textures": {
+    "10": "allaboutengie:blocks/madengie",
+    "particle": "allaboutengie:items/volc"
+  }
+}

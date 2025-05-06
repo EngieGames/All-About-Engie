@@ -168,6 +168,8 @@ public class AllaboutengieModVariables {
 		public double challengeplayerreadyupcount = 0;
 		public boolean ChallengeToggle = false;
 		public boolean BYEBYE = false;
+		public boolean Birthday = false;
+		public boolean WELCOMETOINSANITY = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -183,6 +185,8 @@ public class AllaboutengieModVariables {
 			challengeplayerreadyupcount = nbt.getDouble("challengeplayerreadyupcount");
 			ChallengeToggle = nbt.getBoolean("ChallengeToggle");
 			BYEBYE = nbt.getBoolean("BYEBYE");
+			Birthday = nbt.getBoolean("Birthday");
+			WELCOMETOINSANITY = nbt.getBoolean("WELCOMETOINSANITY");
 		}
 
 		@Override
@@ -194,6 +198,8 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("challengeplayerreadyupcount", challengeplayerreadyupcount);
 			nbt.putBoolean("ChallengeToggle", ChallengeToggle);
 			nbt.putBoolean("BYEBYE", BYEBYE);
+			nbt.putBoolean("Birthday", Birthday);
+			nbt.putBoolean("WELCOMETOINSANITY", WELCOMETOINSANITY);
 			return nbt;
 		}
 

@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -46,7 +45,6 @@ public class BiblicallyAccurateEngieEntity extends PathfinderMob {
 		maxUpStep = 1f;
 		xpReward = 525;
 		setNoAi(false);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -77,11 +75,6 @@ public class BiblicallyAccurateEngieEntity extends PathfinderMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
@@ -124,8 +117,7 @@ public class BiblicallyAccurateEngieEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(AllaboutengieModEntities.BIBLICALLY_ACCURATE_ENGIE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
+		SpawnPlacements.register(AllaboutengieModEntities.BIBLICALLY_ACCURATE_ENGIE.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

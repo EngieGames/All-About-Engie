@@ -2627,7 +2627,12 @@
         "files": [
           "src/main/java/net/mcreator/allaboutengie/procedures/BirthdayMainProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Procedures"
     },
@@ -18118,15 +18123,15 @@
       "path": "~/All Items/Exclusive/PLUSH HAVEN"
     },
     {
-      "name": "AngryEngieEntityDies",
+      "name": "PlushSpawning",
       "type": "procedure",
       "sortid": 1022,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "angry_engie_entity_dies",
+      "registry_name": "plush_spawning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/AngryEngieEntityDiesProcedure.java"
+          "src/main/java/net/mcreator/allaboutengie/procedures/PlushSpawningProcedure.java"
         ],
         "dependencies": [
           {
@@ -18134,16 +18139,8 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
+            "name": "sourceentity",
+            "type": "entity"
           },
           {
             "name": "world",
@@ -18154,104 +18151,50 @@
       "path": "~/Procedures"
     },
     {
-      "name": "EnragedEngieEntityDies",
-      "type": "procedure",
+      "name": "MadEngiePlush",
+      "type": "item",
       "sortid": 1023,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enraged_engie_entity_dies",
+      "registry_name": "mad_engie_plush",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/EnragedEngieEntityDiesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/allaboutengie/item/MadEngiePlushItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/mad_engie_plush.json"
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/All Items/Exclusive/PLUSH HAVEN"
     },
     {
-      "name": "AngryCreatorEntityDies",
-      "type": "procedure",
+      "name": "EngiePlush",
+      "type": "item",
       "sortid": 1024,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "angry_creator_entity_dies",
+      "registry_name": "engie_plush",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/AngryCreatorEntityDiesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/allaboutengie/item/EngiePlushItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/engie_plush.json"
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/All Items/Exclusive/PLUSH HAVEN"
     },
     {
-      "name": "InsanityEntityDies",
+      "name": "BirthdayPro",
       "type": "procedure",
       "sortid": 1025,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "insanity_entity_dies",
+      "registry_name": "birthday_pro",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/InsanityEntityDiesProcedure.java"
+          "src/main/java/net/mcreator/allaboutengie/procedures/BirthdayProProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -18448,6 +18391,18 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "Birthday",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "WELCOMETOINSANITY",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -18546,6 +18501,7 @@
       "advancements.biblically_accurate_tools_obtained.title": "I\u0027ll take your entire stock.",
       "block.aae_items.old_engie_ore": "Engie Ore",
       "item.allaboutengie.epic_hoe": "Epic Hoe",
+      "item.allaboutengie.mad_engie_plush": "Mad Engie Plush",
       "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
       "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.allaboutengie.angry_engies_leggings": "Angry Engie Leggings",
@@ -19057,6 +19013,7 @@
       "entity.allaboutengie.sharko_tamed_zoomies": "[Tamed] Sharko (Zoomies)",
       "advancements.monstrosity_engie_armor_obtained.descr": "Obtain Monstrosity Engie Armor for the first time.",
       "entity.allaboutengie.enraged_speed": "Enraged Speed",
+      "item.allaboutengie.engie_plush": "Engie Plush (Yes, the REAL Engie)",
       "item.allaboutengie.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
       "advancements.mini_ban_challenge_obtain.title": "Good luck out there my friend, you\u0027ll need this.",
       "gui.allaboutengie.enraged_coin_overlay.label_empty": ":",
@@ -19549,7 +19506,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "4.30.25.2",
+    "version": "5.5.25",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

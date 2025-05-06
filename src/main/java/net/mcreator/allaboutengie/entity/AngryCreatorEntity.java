@@ -37,7 +37,6 @@ import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.allaboutengie.procedures.MonsterNaturalEntitySpawningConditionProcedure;
 import net.mcreator.allaboutengie.procedures.DamageonspawnProcedure;
-import net.mcreator.allaboutengie.procedures.AngryCreatorEntityDiesProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -97,12 +96,6 @@ public class AngryCreatorEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
-	}
-
-	@Override
-	public void die(DamageSource source) {
-		super.die(source);
-		AngryCreatorEntityDiesProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

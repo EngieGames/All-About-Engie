@@ -84,6 +84,7 @@ import net.mcreator.allaboutengie.item.MiniBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerItem;
+import net.mcreator.allaboutengie.item.MadEngiePlushItem;
 import net.mcreator.allaboutengie.item.LegendarySwordItem;
 import net.mcreator.allaboutengie.item.LegendaryShovelItem;
 import net.mcreator.allaboutengie.item.LegendarySharkoClothItem;
@@ -145,6 +146,7 @@ import net.mcreator.allaboutengie.item.EngiesItem;
 import net.mcreator.allaboutengie.item.EngieShovelItem;
 import net.mcreator.allaboutengie.item.EngieSharkoClothItem;
 import net.mcreator.allaboutengie.item.EngieSharkItem;
+import net.mcreator.allaboutengie.item.EngiePlushItem;
 import net.mcreator.allaboutengie.item.EngiePickaxeItem;
 import net.mcreator.allaboutengie.item.EngieHoeItem;
 import net.mcreator.allaboutengie.item.EngieGemItem;
@@ -657,6 +659,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> NETHERITE_OUTRAGED_ENGIE_PLUSH = REGISTRY.register("netherite_outraged_engie_plush", () -> new NetheriteOutragedEngiePlushItem());
 	public static final RegistryObject<Item> NETHERITE_INSANITY_PLUSH = REGISTRY.register("netherite_insanity_plush", () -> new NetheriteInsanityPlushItem());
 	public static final RegistryObject<Item> ENRAGED_INSANITY_PLUSH = REGISTRY.register("enraged_insanity_plush", () -> new EnragedInsanityPlushItem());
+	public static final RegistryObject<Item> MAD_ENGIE_PLUSH = REGISTRY.register("mad_engie_plush", () -> new MadEngiePlushItem());
+	public static final RegistryObject<Item> ENGIE_PLUSH = REGISTRY.register("engie_plush", () -> new EngiePlushItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

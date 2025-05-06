@@ -96,9 +96,6 @@
     "stepSound": {
       "value": ""
     },
-    "whenMobDies": {
-      "name": "AngryCreatorEntityDies"
-    },
     "onInitialSpawn": {
       "name": "Damageonspawn"
     },

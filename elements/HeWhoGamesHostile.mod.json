@@ -116,7 +116,7 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
-    "doesDespawnWhenIdle": false,
+    "doesDespawnWhenIdle": true,
     "spawningCondition": {
       "name": "HeWhoGamesHostileNaturalEntitySpawningCondition"
     },

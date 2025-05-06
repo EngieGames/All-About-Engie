@@ -30,7 +30,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.InsanityNaturalEntitySpawningConditionProcedure;
-import net.mcreator.allaboutengie.procedures.InsanityEntityDiesProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class InsanityEntity extends PathfinderMob {
@@ -81,12 +80,6 @@ public class InsanityEntity extends PathfinderMob {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
-	}
-
-	@Override
-	public void die(DamageSource source) {
-		super.die(source);
-		InsanityEntityDiesProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

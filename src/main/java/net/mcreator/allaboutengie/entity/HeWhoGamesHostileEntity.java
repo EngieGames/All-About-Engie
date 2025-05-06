@@ -45,7 +45,6 @@ public class HeWhoGamesHostileEntity extends PathfinderMob {
 		maxUpStep = 1f;
 		xpReward = 500;
 		setNoAi(false);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -75,11 +74,6 @@ public class HeWhoGamesHostileEntity extends PathfinderMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
