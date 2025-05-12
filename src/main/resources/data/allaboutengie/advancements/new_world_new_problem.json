@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "allaboutengie:textures/screens/aaeadvancementbackgrounddetective.png",
     "icon": {
       "item": "allaboutengie:aae_engie"
     },

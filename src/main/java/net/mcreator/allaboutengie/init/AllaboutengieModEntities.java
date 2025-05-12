@@ -180,6 +180,9 @@ import net.mcreator.allaboutengie.entity.EngieGamesEntity;
 import net.mcreator.allaboutengie.entity.EngiFREntity;
 import net.mcreator.allaboutengie.entity.EngiEntity;
 import net.mcreator.allaboutengie.entity.CreatorEntity;
+import net.mcreator.allaboutengie.entity.CosmoSleepEntity;
+import net.mcreator.allaboutengie.entity.CosmoLayEntity;
+import net.mcreator.allaboutengie.entity.CosmoEntity;
 import net.mcreator.allaboutengie.entity.CommonEngieEntity;
 import net.mcreator.allaboutengie.entity.CBEZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.CBEZoomiesEntity;
@@ -196,6 +199,46 @@ import net.mcreator.allaboutengie.entity.Bothan2netZoomiesEntity;
 import net.mcreator.allaboutengie.entity.Bothan2netSleepEntity;
 import net.mcreator.allaboutengie.entity.Bothan2netLayEntity;
 import net.mcreator.allaboutengie.entity.Bothan2netEntity;
+import net.mcreator.allaboutengie.entity.BigSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigSharkoEntity;
+import net.mcreator.allaboutengie.entity.BigRareSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigRareSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigRareSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigRareSharkoEntity;
+import net.mcreator.allaboutengie.entity.BigMythicSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigMythicSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigMythicSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigMythicSharkoEntity;
+import net.mcreator.allaboutengie.entity.BigLegendarySharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigLegendarySharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigLegendarySharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigLegendarySharkoEntity;
+import net.mcreator.allaboutengie.entity.BigExoticSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigExoticSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigExoticSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigExoticSharkoEntity;
+import net.mcreator.allaboutengie.entity.BigEpicSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigEpicSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigEpicSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigEpicSharkoEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRareTamedEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRareSleepEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRareLayEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRareEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2TamedEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2SleepEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2LayEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2Entity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoEntity;
+import net.mcreator.allaboutengie.entity.BigAlbinoSharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.BigAlbinoSharkoSleepEntity;
+import net.mcreator.allaboutengie.entity.BigAlbinoSharkoLayEntity;
+import net.mcreator.allaboutengie.entity.BigAlbinoSharkoEntity;
 import net.mcreator.allaboutengie.entity.BiblicallyAccurateEngieEntity;
 import net.mcreator.allaboutengie.entity.AtlasZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.AtlasZoomiesEntity;
@@ -1098,6 +1141,193 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<InsanityEntity>of(InsanityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(InsanityEntity::new)
 
 					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<BigSharkoEntity>> BIG_SHARKO = register("big_sharko",
+			EntityType.Builder.<BigSharkoEntity>of(BigSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigAlbinoSharkoEntity>> BIG_ALBINO_SHARKO = register("big_albino_sharko",
+			EntityType.Builder.<BigAlbinoSharkoEntity>of(BigAlbinoSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigAlbinoSharkoEntity::new)
+
+					.sized(14f, 1.8f));
+	public static final RegistryObject<EntityType<BigRareSharkoEntity>> BIG_RARE_SHARKO = register("big_rare_sharko",
+			EntityType.Builder.<BigRareSharkoEntity>of(BigRareSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEpicSharkoEntity>> BIG_EPIC_SHARKO = register("big_epic_sharko",
+			EntityType.Builder.<BigEpicSharkoEntity>of(BigEpicSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEpicSharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigLegendarySharkoEntity>> BIG_LEGENDARY_SHARKO = register("big_legendary_sharko",
+			EntityType.Builder.<BigLegendarySharkoEntity>of(BigLegendarySharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigLegendarySharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigMythicSharkoEntity>> BIG_MYTHIC_SHARKO = register("big_mythic_sharko",
+			EntityType.Builder.<BigMythicSharkoEntity>of(BigMythicSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigMythicSharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigExoticSharkoEntity>> BIG_EXOTIC_SHARKO = register("big_exotic_sharko",
+			EntityType.Builder.<BigExoticSharkoEntity>of(BigExoticSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigExoticSharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEngieSharkoEntity>> BIG_ENGIE_SHARKO = register("big_engie_sharko",
+			EntityType.Builder.<BigEngieSharkoEntity>of(BigEngieSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRareEntity>> BIG_ENGIE_SHARKO_RARE = register("big_engie_sharko_rare",
+			EntityType.Builder.<BigEngieSharkoRareEntity>of(BigEngieSharkoRareEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoRareEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2Entity>> BIG_ENGIE_SHARKO_RARE_2 = register("big_engie_sharko_rare_2",
+			EntityType.Builder.<BigEngieSharkoRare2Entity>of(BigEngieSharkoRare2Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoRare2Entity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigSharkoTamedEntity>> BIG_SHARKO_TAMED = register("big_sharko_tamed",
+			EntityType.Builder.<BigSharkoTamedEntity>of(BigSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigAlbinoSharkoTamedEntity>> BIG_ALBINO_SHARKO_TAMED = register("big_albino_sharko_tamed",
+			EntityType.Builder.<BigAlbinoSharkoTamedEntity>of(BigAlbinoSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigAlbinoSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigRareSharkoTamedEntity>> BIG_RARE_SHARKO_TAMED = register("big_rare_sharko_tamed",
+			EntityType.Builder.<BigRareSharkoTamedEntity>of(BigRareSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigLegendarySharkoTamedEntity>> BIG_LEGENDARY_SHARKO_TAMED = register("big_legendary_sharko_tamed",
+			EntityType.Builder.<BigLegendarySharkoTamedEntity>of(BigLegendarySharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigLegendarySharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigMythicSharkoTamedEntity>> BIG_MYTHIC_SHARKO_TAMED = register("big_mythic_sharko_tamed",
+			EntityType.Builder.<BigMythicSharkoTamedEntity>of(BigMythicSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigMythicSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigExoticSharkoTamedEntity>> BIG_EXOTIC_SHARKO_TAMED = register("big_exotic_sharko_tamed",
+			EntityType.Builder.<BigExoticSharkoTamedEntity>of(BigExoticSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigExoticSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEngieSharkoTamedEntity>> BIG_ENGIE_SHARKO_TAMED = register("big_engie_sharko_tamed",
+			EntityType.Builder.<BigEngieSharkoTamedEntity>of(BigEngieSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRareTamedEntity>> BIG_ENGIE_SHARKO_RARE_TAMED = register("big_engie_sharko_rare_tamed",
+			EntityType.Builder.<BigEngieSharkoRareTamedEntity>of(BigEngieSharkoRareTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigEngieSharkoRareTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2TamedEntity>> BIG_ENGIE_SHARKO_RARE_2_TAMED = register("big_engie_sharko_rare_2_tamed",
+			EntityType.Builder.<BigEngieSharkoRare2TamedEntity>of(BigEngieSharkoRare2TamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigEngieSharkoRare2TamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigSharkoLayEntity>> BIG_SHARKO_LAY = register("big_sharko_lay",
+			EntityType.Builder.<BigSharkoLayEntity>of(BigSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigAlbinoSharkoLayEntity>> BIG_ALBINO_SHARKO_LAY = register("big_albino_sharko_lay",
+			EntityType.Builder.<BigAlbinoSharkoLayEntity>of(BigAlbinoSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigAlbinoSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigRareSharkoLayEntity>> BIG_RARE_SHARKO_LAY = register("big_rare_sharko_lay",
+			EntityType.Builder.<BigRareSharkoLayEntity>of(BigRareSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigLegendarySharkoLayEntity>> BIG_LEGENDARY_SHARKO_LAY = register("big_legendary_sharko_lay",
+			EntityType.Builder.<BigLegendarySharkoLayEntity>of(BigLegendarySharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigLegendarySharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigMythicSharkoLayEntity>> BIG_MYTHIC_SHARKO_LAY = register("big_mythic_sharko_lay",
+			EntityType.Builder.<BigMythicSharkoLayEntity>of(BigMythicSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigMythicSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigExoticSharkoLayEntity>> BIG_EXOTIC_SHARKO_LAY = register("big_exotic_sharko_lay",
+			EntityType.Builder.<BigExoticSharkoLayEntity>of(BigExoticSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigExoticSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEngieSharkoLayEntity>> BIG_ENGIE_SHARKO_LAY = register("big_engie_sharko_lay",
+			EntityType.Builder.<BigEngieSharkoLayEntity>of(BigEngieSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRareLayEntity>> BIG_ENGIE_SHARKO_RARE_LAY = register("big_engie_sharko_rare_lay",
+			EntityType.Builder.<BigEngieSharkoRareLayEntity>of(BigEngieSharkoRareLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigEngieSharkoRareLayEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2LayEntity>> BIG_ENGIE_SHARKO_RARE_2_LAY = register("big_engie_sharko_rare_2_lay",
+			EntityType.Builder.<BigEngieSharkoRare2LayEntity>of(BigEngieSharkoRare2LayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigEngieSharkoRare2LayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigSharkoSleepEntity>> BIG_SHARKO_SLEEP = register("big_sharko_sleep",
+			EntityType.Builder.<BigSharkoSleepEntity>of(BigSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigAlbinoSharkoSleepEntity>> BIG_ALBINO_SHARKO_SLEEP = register("big_albino_sharko_sleep",
+			EntityType.Builder.<BigAlbinoSharkoSleepEntity>of(BigAlbinoSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigAlbinoSharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigRareSharkoSleepEntity>> BIG_RARE_SHARKO_SLEEP = register("big_rare_sharko_sleep",
+			EntityType.Builder.<BigRareSharkoSleepEntity>of(BigRareSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoSleepEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<BigLegendarySharkoSleepEntity>> BIG_LEGENDARY_SHARKO_SLEEP = register("big_legendary_sharko_sleep",
+			EntityType.Builder.<BigLegendarySharkoSleepEntity>of(BigLegendarySharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigLegendarySharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigMythicSharkoSleepEntity>> BIG_MYTHIC_SHARKO_SLEEP = register("big_mythic_sharko_sleep",
+			EntityType.Builder.<BigMythicSharkoSleepEntity>of(BigMythicSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigMythicSharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigExoticSharkoSleepEntity>> BIG_EXOTIC_SHARKO_SLEEP = register("big_exotic_sharko_sleep",
+			EntityType.Builder.<BigExoticSharkoSleepEntity>of(BigExoticSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigExoticSharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEngieSharkoSleepEntity>> BIG_ENGIE_SHARKO_SLEEP = register("big_engie_sharko_sleep",
+			EntityType.Builder.<BigEngieSharkoSleepEntity>of(BigEngieSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRareSleepEntity>> BIG_ENGIE_SHARKO_RARE_SLEEP = register("big_engie_sharko_rare_sleep",
+			EntityType.Builder.<BigEngieSharkoRareSleepEntity>of(BigEngieSharkoRareSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigEngieSharkoRareSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2SleepEntity>> BIG_ENGIE_SHARKO_RARE_2_SLEEP = register("big_engie_sharko_rare_2_sleep",
+			EntityType.Builder.<BigEngieSharkoRare2SleepEntity>of(BigEngieSharkoRare2SleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(BigEngieSharkoRare2SleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEpicSharkoTamedEntity>> BIG_EPIC_SHARKO_TAMED = register("big_epic_sharko_tamed",
+			EntityType.Builder.<BigEpicSharkoTamedEntity>of(BigEpicSharkoTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEpicSharkoTamedEntity::new)
+
+					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<BigEpicSharkoLayEntity>> BIG_EPIC_SHARKO_LAY = register("big_epic_sharko_lay",
+			EntityType.Builder.<BigEpicSharkoLayEntity>of(BigEpicSharkoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEpicSharkoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<BigEpicSharkoSleepEntity>> BIG_EPIC_SHARKO_SLEEP = register("big_epic_sharko_sleep",
+			EntityType.Builder.<BigEpicSharkoSleepEntity>of(BigEpicSharkoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEpicSharkoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<CosmoEntity>> COSMO = register("cosmo",
+			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
+
+					.sized(1.4f, 1.4f));
+	public static final RegistryObject<EntityType<CosmoSleepEntity>> COSMO_SLEEP = register("cosmo_sleep",
+			EntityType.Builder.<CosmoSleepEntity>of(CosmoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoSleepEntity::new)
+
+					.sized(1.4f, 1.2f));
+	public static final RegistryObject<EntityType<CosmoLayEntity>> COSMO_LAY = register("cosmo_lay",
+			EntityType.Builder.<CosmoLayEntity>of(CosmoLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoLayEntity::new)
+
+					.sized(1.4f, 1.2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1310,6 +1540,49 @@ public class AllaboutengieModEntities {
 			HeWhoGamesEntity.init();
 			HeWhoGamesHostileEntity.init();
 			InsanityEntity.init();
+			BigSharkoEntity.init();
+			BigAlbinoSharkoEntity.init();
+			BigRareSharkoEntity.init();
+			BigEpicSharkoEntity.init();
+			BigLegendarySharkoEntity.init();
+			BigMythicSharkoEntity.init();
+			BigExoticSharkoEntity.init();
+			BigEngieSharkoEntity.init();
+			BigEngieSharkoRareEntity.init();
+			BigEngieSharkoRare2Entity.init();
+			BigSharkoTamedEntity.init();
+			BigAlbinoSharkoTamedEntity.init();
+			BigRareSharkoTamedEntity.init();
+			BigLegendarySharkoTamedEntity.init();
+			BigMythicSharkoTamedEntity.init();
+			BigExoticSharkoTamedEntity.init();
+			BigEngieSharkoTamedEntity.init();
+			BigEngieSharkoRareTamedEntity.init();
+			BigEngieSharkoRare2TamedEntity.init();
+			BigSharkoLayEntity.init();
+			BigAlbinoSharkoLayEntity.init();
+			BigRareSharkoLayEntity.init();
+			BigLegendarySharkoLayEntity.init();
+			BigMythicSharkoLayEntity.init();
+			BigExoticSharkoLayEntity.init();
+			BigEngieSharkoLayEntity.init();
+			BigEngieSharkoRareLayEntity.init();
+			BigEngieSharkoRare2LayEntity.init();
+			BigSharkoSleepEntity.init();
+			BigAlbinoSharkoSleepEntity.init();
+			BigRareSharkoSleepEntity.init();
+			BigLegendarySharkoSleepEntity.init();
+			BigMythicSharkoSleepEntity.init();
+			BigExoticSharkoSleepEntity.init();
+			BigEngieSharkoSleepEntity.init();
+			BigEngieSharkoRareSleepEntity.init();
+			BigEngieSharkoRare2SleepEntity.init();
+			BigEpicSharkoTamedEntity.init();
+			BigEpicSharkoLayEntity.init();
+			BigEpicSharkoSleepEntity.init();
+			CosmoEntity.init();
+			CosmoSleepEntity.init();
+			CosmoLayEntity.init();
 		});
 	}
 
@@ -1519,5 +1792,48 @@ public class AllaboutengieModEntities {
 		event.put(HE_WHO_GAMES.get(), HeWhoGamesEntity.createAttributes().build());
 		event.put(HE_WHO_GAMES_HOSTILE.get(), HeWhoGamesHostileEntity.createAttributes().build());
 		event.put(INSANITY.get(), InsanityEntity.createAttributes().build());
+		event.put(BIG_SHARKO.get(), BigSharkoEntity.createAttributes().build());
+		event.put(BIG_ALBINO_SHARKO.get(), BigAlbinoSharkoEntity.createAttributes().build());
+		event.put(BIG_RARE_SHARKO.get(), BigRareSharkoEntity.createAttributes().build());
+		event.put(BIG_EPIC_SHARKO.get(), BigEpicSharkoEntity.createAttributes().build());
+		event.put(BIG_LEGENDARY_SHARKO.get(), BigLegendarySharkoEntity.createAttributes().build());
+		event.put(BIG_MYTHIC_SHARKO.get(), BigMythicSharkoEntity.createAttributes().build());
+		event.put(BIG_EXOTIC_SHARKO.get(), BigExoticSharkoEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO.get(), BigEngieSharkoEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE.get(), BigEngieSharkoRareEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_2.get(), BigEngieSharkoRare2Entity.createAttributes().build());
+		event.put(BIG_SHARKO_TAMED.get(), BigSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_ALBINO_SHARKO_TAMED.get(), BigAlbinoSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_RARE_SHARKO_TAMED.get(), BigRareSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_LEGENDARY_SHARKO_TAMED.get(), BigLegendarySharkoTamedEntity.createAttributes().build());
+		event.put(BIG_MYTHIC_SHARKO_TAMED.get(), BigMythicSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_EXOTIC_SHARKO_TAMED.get(), BigExoticSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_TAMED.get(), BigEngieSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_TAMED.get(), BigEngieSharkoRareTamedEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_2_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
+		event.put(BIG_SHARKO_LAY.get(), BigSharkoLayEntity.createAttributes().build());
+		event.put(BIG_ALBINO_SHARKO_LAY.get(), BigAlbinoSharkoLayEntity.createAttributes().build());
+		event.put(BIG_RARE_SHARKO_LAY.get(), BigRareSharkoLayEntity.createAttributes().build());
+		event.put(BIG_LEGENDARY_SHARKO_LAY.get(), BigLegendarySharkoLayEntity.createAttributes().build());
+		event.put(BIG_MYTHIC_SHARKO_LAY.get(), BigMythicSharkoLayEntity.createAttributes().build());
+		event.put(BIG_EXOTIC_SHARKO_LAY.get(), BigExoticSharkoLayEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_LAY.get(), BigEngieSharkoLayEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_LAY.get(), BigEngieSharkoRareLayEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_2_LAY.get(), BigEngieSharkoRare2LayEntity.createAttributes().build());
+		event.put(BIG_SHARKO_SLEEP.get(), BigSharkoSleepEntity.createAttributes().build());
+		event.put(BIG_ALBINO_SHARKO_SLEEP.get(), BigAlbinoSharkoSleepEntity.createAttributes().build());
+		event.put(BIG_RARE_SHARKO_SLEEP.get(), BigRareSharkoSleepEntity.createAttributes().build());
+		event.put(BIG_LEGENDARY_SHARKO_SLEEP.get(), BigLegendarySharkoSleepEntity.createAttributes().build());
+		event.put(BIG_MYTHIC_SHARKO_SLEEP.get(), BigMythicSharkoSleepEntity.createAttributes().build());
+		event.put(BIG_EXOTIC_SHARKO_SLEEP.get(), BigExoticSharkoSleepEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_SLEEP.get(), BigEngieSharkoSleepEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_SLEEP.get(), BigEngieSharkoRareSleepEntity.createAttributes().build());
+		event.put(BIG_ENGIE_SHARKO_RARE_2_SLEEP.get(), BigEngieSharkoRare2SleepEntity.createAttributes().build());
+		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
+		event.put(BIG_EPIC_SHARKO_LAY.get(), BigEpicSharkoLayEntity.createAttributes().build());
+		event.put(BIG_EPIC_SHARKO_SLEEP.get(), BigEpicSharkoSleepEntity.createAttributes().build());
+		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
+		event.put(COSMO_SLEEP.get(), CosmoSleepEntity.createAttributes().build());
+		event.put(COSMO_LAY.get(), CosmoLayEntity.createAttributes().build());
 	}
 }

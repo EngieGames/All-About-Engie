@@ -95,6 +95,7 @@ public class AllaboutengieModVariables {
 			clone.EnragedEngieKillCount = original.EnragedEngieKillCount;
 			clone.OutragedEngieKillCount = original.OutragedEngieKillCount;
 			clone.InsanityKillCount = original.InsanityKillCount;
+			clone.Debug = original.Debug;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -306,6 +307,7 @@ public class AllaboutengieModVariables {
 		public double EnragedEngieKillCount = 0;
 		public double OutragedEngieKillCount = 0;
 		public double InsanityKillCount = 0;
+		public boolean Debug = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -332,6 +334,7 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("EnragedEngieKillCount", EnragedEngieKillCount);
 			nbt.putDouble("OutragedEngieKillCount", OutragedEngieKillCount);
 			nbt.putDouble("InsanityKillCount", InsanityKillCount);
+			nbt.putBoolean("Debug", Debug);
 			return nbt;
 		}
 
@@ -355,6 +358,7 @@ public class AllaboutengieModVariables {
 			EnragedEngieKillCount = nbt.getDouble("EnragedEngieKillCount");
 			OutragedEngieKillCount = nbt.getDouble("OutragedEngieKillCount");
 			InsanityKillCount = nbt.getDouble("InsanityKillCount");
+			Debug = nbt.getBoolean("Debug");
 		}
 	}
 
@@ -397,6 +401,7 @@ public class AllaboutengieModVariables {
 					variables.EnragedEngieKillCount = message.data.EnragedEngieKillCount;
 					variables.OutragedEngieKillCount = message.data.OutragedEngieKillCount;
 					variables.InsanityKillCount = message.data.InsanityKillCount;
+					variables.Debug = message.data.Debug;
 				}
 			});
 			context.setPacketHandled(true);

@@ -18,7 +18,7 @@
     "damageVsEntity": 150.0,
     "usageCount": 2500,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:MonstrosityEngieEssence"
