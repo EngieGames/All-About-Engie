@@ -41,7 +41,7 @@ public class MutationchanceProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() >= 0.1) {
+		if (Math.random() <= 0.1) {
 			if (entity instanceof EnragedNormalEntity) {
 				if (Mth.nextInt(RandomSource.create(), 1, 8) == 1) {
 					if (world instanceof ServerLevel _level) {

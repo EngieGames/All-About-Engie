@@ -193,6 +193,7 @@ import net.mcreator.allaboutengie.item.CheesePuffsUnopenedItem;
 import net.mcreator.allaboutengie.item.CheesePuffsOpenedItem;
 import net.mcreator.allaboutengie.item.CheeseItem;
 import net.mcreator.allaboutengie.item.CheeseBallItem;
+import net.mcreator.allaboutengie.item.ByeByeThereItem;
 import net.mcreator.allaboutengie.item.BrowniesUnopenedItem;
 import net.mcreator.allaboutengie.item.BrowniesOpenedItem;
 import net.mcreator.allaboutengie.item.BrowniesEmptyItem;
@@ -661,6 +662,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENRAGED_INSANITY_PLUSH = REGISTRY.register("enraged_insanity_plush", () -> new EnragedInsanityPlushItem());
 	public static final RegistryObject<Item> MAD_ENGIE_PLUSH = REGISTRY.register("mad_engie_plush", () -> new MadEngiePlushItem());
 	public static final RegistryObject<Item> ENGIE_PLUSH = REGISTRY.register("engie_plush", () -> new EngiePlushItem());
+	public static final RegistryObject<Item> BYE_BYE_THERE = REGISTRY.register("bye_bye_there", () -> new ByeByeThereItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

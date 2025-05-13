@@ -6,6 +6,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
+import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 public class BirthdayProProcedure {
@@ -13,6 +14,8 @@ public class BirthdayProProcedure {
 		if (entity == null)
 			return;
 		if (Math.random() <= 0.005) {
+			AllaboutengieModVariables.MapVariables.get(world).birthdaystart = true;
+			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -183,6 +186,8 @@ public class BirthdayProProcedure {
 							"tellraw @a {\"text\":\"Todays Date without year: May 25th\\nSpecial Event for AAE: Engie's Birthday.\\nDescription: Happy birthday Engie. You're a year older.\",\"bold\":true,\"color\":\"yellow\"}");
 				}
 			}
+			AllaboutengieModVariables.MapVariables.get(world).birthdaystart = true;
+			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 		}
 	}
 }

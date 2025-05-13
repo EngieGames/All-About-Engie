@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
+import net.mcreator.allaboutengie.init.AllaboutengieModSounds;
 import net.mcreator.allaboutengie.init.AllaboutengieModPaintings;
 import net.mcreator.allaboutengie.init.AllaboutengieModMenus;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
@@ -56,7 +57,7 @@ public class AllaboutengieMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		AllaboutengieModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AllaboutengieModSounds.REGISTRY.register(bus);
 		AllaboutengieModBlocks.REGISTRY.register(bus);
 		AllaboutengieModItems.REGISTRY.register(bus);
 		AllaboutengieModEntities.REGISTRY.register(bus);

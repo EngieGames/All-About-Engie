@@ -25,6 +25,8 @@ import net.mcreator.allaboutengie.client.model.Modelengiedaboyosit;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyo;
 import net.mcreator.allaboutengie.client.model.Modelcustomarmorr;
 import net.mcreator.allaboutengie.client.model.Modelcustomarmorl;
+import net.mcreator.allaboutengie.client.model.Modelcosmodabigboyotired;
+import net.mcreator.allaboutengie.client.model.Modelcosmodabigboyosit;
 import net.mcreator.allaboutengie.client.model.Modelcosmodabigboyo;
 import net.mcreator.allaboutengie.client.model.Modelboyozoomtired;
 import net.mcreator.allaboutengie.client.model.Modelboyozooms;
@@ -71,7 +73,9 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modeloutraged_new.LAYER_LOCATION, Modeloutraged_new::createBodyLayer);
 		event.registerLayerDefinition(Modelengiedaboyotired.LAYER_LOCATION, Modelengiedaboyotired::createBodyLayer);
 		event.registerLayerDefinition(Modelbigboyotired.LAYER_LOCATION, Modelbigboyotired::createBodyLayer);
+		event.registerLayerDefinition(Modelcosmodabigboyotired.LAYER_LOCATION, Modelcosmodabigboyotired::createBodyLayer);
 		event.registerLayerDefinition(Modelengiedaboyosit.LAYER_LOCATION, Modelengiedaboyosit::createBodyLayer);
+		event.registerLayerDefinition(Modelcosmodabigboyosit.LAYER_LOCATION, Modelcosmodabigboyosit::createBodyLayer);
 		event.registerLayerDefinition(Modeltobysit.LAYER_LOCATION, Modeltobysit::createBodyLayer);
 		event.registerLayerDefinition(Modelangry_new.LAYER_LOCATION, Modelangry_new::createBodyLayer);
 		event.registerLayerDefinition(Modelboyo.LAYER_LOCATION, Modelboyo::createBodyLayer);

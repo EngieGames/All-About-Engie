@@ -171,6 +171,7 @@ public class AllaboutengieModVariables {
 		public boolean BYEBYE = false;
 		public boolean Birthday = false;
 		public boolean WELCOMETOINSANITY = false;
+		public boolean birthdaystart = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -188,6 +189,7 @@ public class AllaboutengieModVariables {
 			BYEBYE = nbt.getBoolean("BYEBYE");
 			Birthday = nbt.getBoolean("Birthday");
 			WELCOMETOINSANITY = nbt.getBoolean("WELCOMETOINSANITY");
+			birthdaystart = nbt.getBoolean("birthdaystart");
 		}
 
 		@Override
@@ -201,6 +203,7 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("BYEBYE", BYEBYE);
 			nbt.putBoolean("Birthday", Birthday);
 			nbt.putBoolean("WELCOMETOINSANITY", WELCOMETOINSANITY);
+			nbt.putBoolean("birthdaystart", birthdaystart);
 			return nbt;
 		}
 

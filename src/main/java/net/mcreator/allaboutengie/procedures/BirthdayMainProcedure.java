@@ -25,21 +25,24 @@ public class BirthdayMainProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
-		if (Calendar.getInstance().get(Calendar.MONTH) == 2 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 20) {
+		if (Calendar.getInstance().get(Calendar.MONTH) == 1 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 20) {
 			AllaboutengieModVariables.seasonspring = true;
 			AllaboutengieModVariables.seasonsummer = false;
 			AllaboutengieModVariables.seasonautumn = false;
 			AllaboutengieModVariables.seasonwinter = false;
-		} else if (Calendar.getInstance().get(Calendar.MONTH) == 5 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 20) {
+		} else if (Calendar.getInstance().get(Calendar.MONTH) == 4 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 20) {
 			AllaboutengieModVariables.seasonspring = false;
 			AllaboutengieModVariables.seasonsummer = true;
 			AllaboutengieModVariables.seasonautumn = false;
 			AllaboutengieModVariables.seasonwinter = false;
-			if (Calendar.getInstance().get(Calendar.MONTH) == 5 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) == 25) {
+			if (Calendar.getInstance().get(Calendar.MONTH) == 4 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 25 && Calendar.getInstance().get(Calendar.MONTH) == 4 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) <= 31) {
 				AllaboutengieModVariables.MapVariables.get(world).Birthday = true;
 				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			} else {
+				AllaboutengieModVariables.MapVariables.get(world).Birthday = false;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			}
-		} else if (Calendar.getInstance().get(Calendar.MONTH) == 8 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 20) {
+		} else if (Calendar.getInstance().get(Calendar.MONTH) == 7 && Calendar.getInstance().get(Calendar.DAY_OF_MONTH) >= 20) {
 			AllaboutengieModVariables.seasonspring = false;
 			AllaboutengieModVariables.seasonsummer = false;
 			AllaboutengieModVariables.seasonautumn = true;

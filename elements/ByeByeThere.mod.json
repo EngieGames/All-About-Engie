@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Bye Bye There (TCToP)",
+    "texture": "byebyethere",
+    "description": "Mr. Sauceman - Bye Bye There (TCToP)",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [
+      "Pizza Tower"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:byebyethere"
+    },
+    "lengthInTicks": 7560,
+    "analogOutput": 15
+  }
+}
