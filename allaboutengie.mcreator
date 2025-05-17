@@ -11115,30 +11115,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "LayToTired",
-      "type": "procedure",
-      "sortid": 748,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lay_to_tired",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/LayToTiredProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "SharkoTamedZoomTimer",
       "type": "procedure",
       "sortid": 749,
@@ -20200,6 +20176,54 @@
         ]
       },
       "path": "~/All Items/Exclusive/PLUSH HAVEN"
+    },
+    {
+      "name": "SharkoChanceForSleep",
+      "type": "procedure",
+      "sortid": 1109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_chance_for_sleep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoChanceForSleepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SharkoChanceForLay",
+      "type": "procedure",
+      "sortid": 1110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_chance_for_lay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoChanceForLayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [

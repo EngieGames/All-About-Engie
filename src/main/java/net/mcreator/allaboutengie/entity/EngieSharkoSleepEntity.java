@@ -18,6 +18,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.allaboutengie.procedures.SharkoChanceForLayProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class EngieSharkoSleepEntity extends PathfinderMob {
@@ -73,6 +74,12 @@ public class EngieSharkoSleepEntity extends PathfinderMob {
 		if (source == DamageSource.DROWN)
 			return false;
 		return super.hurt(source, amount);
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		SharkoChanceForLayProcedure.execute(this.level, this);
 	}
 
 	public static void init() {

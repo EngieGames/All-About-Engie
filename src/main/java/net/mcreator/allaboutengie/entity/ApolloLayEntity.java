@@ -26,6 +26,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.allaboutengie.procedures.SharkoChanceForSleepProcedure;
 import net.mcreator.allaboutengie.procedures.ApolloLayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -101,6 +102,12 @@ public class ApolloLayEntity extends PathfinderMob {
 
 		ApolloLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		SharkoChanceForSleepProcedure.execute(this.level, this);
 	}
 
 	public static void init() {

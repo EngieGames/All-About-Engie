@@ -96,8 +96,8 @@
     "stepSound": {
       "value": ""
     },
-    "onRightClickedOn": {
-      "name": "TigerLayRC"
+    "onMobTickUpdate": {
+      "name": "SharkoChanceForLay"
     },
     "hasAI": true,
     "aiBase": "(none)",

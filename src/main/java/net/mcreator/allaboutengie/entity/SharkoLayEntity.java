@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.SharkoLayRCProcedure;
+import net.mcreator.allaboutengie.procedures.SharkoChanceForSleepProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class SharkoLayEntity extends PathfinderMob {
@@ -100,6 +101,12 @@ public class SharkoLayEntity extends PathfinderMob {
 
 		SharkoLayRCProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		SharkoChanceForSleepProcedure.execute(this.level, this);
 	}
 
 	public static void init() {
