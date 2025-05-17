@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -109,7 +108,6 @@ public class BigEngieSharkoRareTamedEntity extends PathfinderMob {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
 		super.mobInteract(sourceentity, hand);
-		sourceentity.startRiding(this);
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
@@ -124,37 +122,6 @@ public class BigEngieSharkoRareTamedEntity extends PathfinderMob {
 	public void baseTick() {
 		super.baseTick();
 		SharkTamedOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
-	}
-
-	@Override
-	public void travel(Vec3 dir) {
-		Entity entity = this.getPassengers().isEmpty() ? null : (Entity) this.getPassengers().get(0);
-		if (this.isVehicle()) {
-			this.setYRot(entity.getYRot());
-			this.yRotO = this.getYRot();
-			this.setXRot(entity.getXRot() * 0.5F);
-			this.setRot(this.getYRot(), this.getXRot());
-			this.flyingSpeed = this.getSpeed() * 0.15F;
-			this.yBodyRot = entity.getYRot();
-			this.yHeadRot = entity.getYRot();
-			if (entity instanceof LivingEntity passenger) {
-				this.setSpeed((float) this.getAttributeValue(Attributes.MOVEMENT_SPEED));
-				float forward = passenger.zza;
-				float strafe = passenger.xxa;
-				super.travel(new Vec3(strafe, 0, forward));
-			}
-			this.animationSpeedOld = this.animationSpeed;
-			double d1 = this.getX() - this.xo;
-			double d0 = this.getZ() - this.zo;
-			float f1 = (float) Math.sqrt(d1 * d1 + d0 * d0) * 4;
-			if (f1 > 1.0F)
-				f1 = 1.0F;
-			this.animationSpeed += (f1 - this.animationSpeed) * 0.4F;
-			this.animationPosition += this.animationSpeed;
-			return;
-		}
-		this.flyingSpeed = 0.02F;
-		super.travel(dir);
 	}
 
 	public static void init() {

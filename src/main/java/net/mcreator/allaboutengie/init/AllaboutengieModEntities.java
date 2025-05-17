@@ -1319,7 +1319,7 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<CosmoEntity>> COSMO = register("cosmo",
 			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
 
-					.sized(1.4f, 1.4f));
+					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<CosmoSleepEntity>> COSMO_SLEEP = register("cosmo_sleep",
 			EntityType.Builder.<CosmoSleepEntity>of(CosmoSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoSleepEntity::new)
 

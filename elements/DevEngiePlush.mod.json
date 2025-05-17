@@ -4,10 +4,10 @@
   "definition": {
     "renderType": 1,
     "texture": "volc",
-    "customModelName": "engieplush:default",
+    "customModelName": "devengieplush:default",
     "customProperties": {},
     "states": [],
-    "name": "EngieGames Plush (Yes, the REAL EngieGames)",
+    "name": "DevEngie Plush (Yes, the REAL DevEngie)",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "No creative tab entry"
@@ -27,7 +27,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "The streamer himself in your hands. Thanks for playing All About Engie."
+      "Hey, I see you're the type to read special info about items.",
+      "Allow me to let you in on a secret about the mod.",
+      "The mod wasn't made for just fun and games.",
+      "It was made as an introduction, a story, and personality about me.",
+      "Thanks for playing All About Engie."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

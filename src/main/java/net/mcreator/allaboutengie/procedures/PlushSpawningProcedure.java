@@ -45,7 +45,7 @@ public class PlushSpawningProcedure {
 		if (sourceentity instanceof Player) {
 			if (entity instanceof MadEngieEntity) {
 				AllaboutengieMod.queueServerWork(1, () -> {
-					if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount == 120) {
+					if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).MadEngieKillCount == 12) {
 						if (world instanceof Level _level && !_level.isClientSide()) {
 							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.MAD_ENGIE_PLUSH.get()));
 							entityToSpawn.setPickUpDelay(10);

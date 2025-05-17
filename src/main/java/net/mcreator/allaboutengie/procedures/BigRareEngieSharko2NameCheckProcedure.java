@@ -12,9 +12,9 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
-import net.mcreator.allaboutengie.entity.EngieSharkoRare2SleepEntity;
-import net.mcreator.allaboutengie.entity.EngieSharkoRare2LayEntity;
 import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2TamedEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2SleepEntity;
+import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2LayEntity;
 
 import java.util.stream.Collectors;
 import java.util.List;
@@ -73,7 +73,7 @@ public class BigRareEngieSharko2NameCheckProcedure {
 					}
 				}
 			}
-		} else if (entity instanceof EngieSharkoRare2LayEntity) {
+		} else if (entity instanceof BigEngieSharkoRare2LayEntity) {
 			if ((entity.getDisplayName().getString()).equals("Cosmo")) {
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -85,7 +85,7 @@ public class BigRareEngieSharko2NameCheckProcedure {
 					}
 				}
 			}
-		} else if (entity instanceof EngieSharkoRare2SleepEntity) {
+		} else if (entity instanceof BigEngieSharkoRare2SleepEntity) {
 			if ((entity.getDisplayName().getString()).equals("Cosmo")) {
 				if (!entity.level.isClientSide())
 					entity.discard();

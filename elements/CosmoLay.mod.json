@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Cosmo (Laying)",
     "mobLabel": "Cosmo",
-    "mobModelName": "Modelbigboyosit",
+    "mobModelName": "Modelcosmodabigboyosit",
     "mobModelTexture": "cosmo.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {

@@ -169,6 +169,7 @@ import net.mcreator.allaboutengie.item.DiamondInsanityPlushItem;
 import net.mcreator.allaboutengie.item.DiamondEnragedEngiePlushItem;
 import net.mcreator.allaboutengie.item.DiamondAngryEngiePlushItem;
 import net.mcreator.allaboutengie.item.DeveloperItem;
+import net.mcreator.allaboutengie.item.DevEngiePlushItem;
 import net.mcreator.allaboutengie.item.CyberbloodKatanaItem;
 import net.mcreator.allaboutengie.item.CyberbloodItem;
 import net.mcreator.allaboutengie.item.CyberbloodIngotItem;
@@ -663,6 +664,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MAD_ENGIE_PLUSH = REGISTRY.register("mad_engie_plush", () -> new MadEngiePlushItem());
 	public static final RegistryObject<Item> ENGIE_PLUSH = REGISTRY.register("engie_plush", () -> new EngiePlushItem());
 	public static final RegistryObject<Item> BYE_BYE_THERE = REGISTRY.register("bye_bye_there", () -> new ByeByeThereItem());
+	public static final RegistryObject<Item> DEV_ENGIE_PLUSH = REGISTRY.register("dev_engie_plush", () -> new DevEngiePlushItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

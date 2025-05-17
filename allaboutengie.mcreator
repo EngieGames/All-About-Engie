@@ -20161,6 +20161,45 @@
         ]
       },
       "path": "~/All Items/Exclusive"
+    },
+    {
+      "name": "MobDeathCount",
+      "type": "procedure",
+      "sortid": 1107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_death_count",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MobDeathCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DevEngiePlush",
+      "type": "item",
+      "sortid": 1108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_engie_plush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/item/DevEngiePlushItem.java",
+          "src/main/resources/assets/allaboutengie/models/item/dev_engie_plush.json"
+        ]
+      },
+      "path": "~/All Items/Exclusive/PLUSH HAVEN"
     }
   ],
   "variable_elements": [
@@ -20363,16 +20402,16 @@
       "value": "false"
     },
     {
-      "name": "Debug",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
-    },
-    {
       "name": "birthdaystart",
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "MadEngieKillCount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -20909,6 +20948,7 @@
       "item.allaboutengie.gigantic_ban_hammer_pixel": "Pixelized Gigantic Ban Hammer",
       "painting.allaboutengie.aae_world.title": "All About Engie (Just the planets.)",
       "entity.allaboutengie.legendary_engie": "Legendary Engie",
+      "item.allaboutengie.dev_engie_plush": "DevEngie Plush (Yes, the REAL DevEngie)",
       "painting.allaboutengie.developer_engie.title": "Developer Engie",
       "painting.allaboutengie.playedbyengie.title": "playedbyengie",
       "entity.allaboutengie.cosmo_lay": "Cosmo (Laying)",
@@ -21029,7 +21069,7 @@
       "entity.allaboutengie.sharko_tamed_zoomies": "[Tamed] Sharko (Zoomies)",
       "advancements.monstrosity_engie_armor_obtained.descr": "Obtain Monstrosity Engie Armor for the first time.",
       "entity.allaboutengie.enraged_speed": "Enraged Speed",
-      "item.allaboutengie.engie_plush": "Engie Plush (Yes, the REAL Engie)",
+      "item.allaboutengie.engie_plush": "EngieGames Plush (Yes, the REAL EngieGames)",
       "item.allaboutengie.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
       "advancements.mini_ban_challenge_obtain.title": "Good luck out there my friend, you\u0027ll need this.",
       "gui.allaboutengie.enraged_coin_overlay.label_empty": ":",
@@ -21540,13 +21580,14 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "5.13.25",
+    "version": "5.17.25",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/EngieGames/All-About-Engie/refs/heads/master/ModUpdateCheck.json",
     "modPicture": "allaboutengie",
     "requiredMods": [],
     "dependencies": [],

@@ -5,7 +5,7 @@
     "mobName": "EngieGames",
     "mobLabel": "",
     "mobModelName": "ModelEngieGames",
-    "mobModelTexture": "engiegames.png",
+    "mobModelTexture": "engiegamesentity.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false

@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.CosmoLayEntity;
-import net.mcreator.allaboutengie.client.model.Modelbigboyosit;
+import net.mcreator.allaboutengie.client.model.Modelcosmodabigboyosit;
 
-public class CosmoLayRenderer extends MobRenderer<CosmoLayEntity, Modelbigboyosit<CosmoLayEntity>> {
+public class CosmoLayRenderer extends MobRenderer<CosmoLayEntity, Modelcosmodabigboyosit<CosmoLayEntity>> {
 	public CosmoLayRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelbigboyosit(context.bakeLayer(Modelbigboyosit.LAYER_LOCATION)), 1f);
+		super(context, new Modelcosmodabigboyosit(context.bakeLayer(Modelcosmodabigboyosit.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

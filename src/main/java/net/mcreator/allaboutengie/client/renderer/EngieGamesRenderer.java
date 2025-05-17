@@ -15,6 +15,6 @@ public class EngieGamesRenderer extends MobRenderer<EngieGamesEntity, ModelEngie
 
 	@Override
 	public ResourceLocation getTextureLocation(EngieGamesEntity entity) {
-		return new ResourceLocation("allaboutengie:textures/entities/engiegames.png");
+		return new ResourceLocation("allaboutengie:textures/entities/engiegamesentity.png");
 	}
 }

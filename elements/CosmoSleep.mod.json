@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Cosmo",
     "mobLabel": "Cosmo (Sleeping)",
-    "mobModelName": "Modelbigboyotired",
+    "mobModelName": "Modelcosmodabigboyotired",
     "mobModelTexture": "cosmosleeping.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {

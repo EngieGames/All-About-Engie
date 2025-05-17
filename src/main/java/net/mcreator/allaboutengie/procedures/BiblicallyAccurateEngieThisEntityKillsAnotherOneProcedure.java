@@ -14,7 +14,7 @@ public class BiblicallyAccurateEngieThisEntityKillsAnotherOneProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Monster) {
-			if (Math.random() <= 0.15) {
+			if (Math.random() <= 0.05) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.BIBLICALLY_ACCURATE_ENGIE_ESSENCE.get()));
 					entityToSpawn.setPickUpDelay(10);
