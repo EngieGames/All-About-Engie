@@ -33,4 +33,5 @@ public class AllaboutengieModPaintings {
 	public static final RegistryObject<PaintingVariant> BROKEN_CODE = REGISTRY.register("broken_code", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> HE_WANNA_TALK = REGISTRY.register("he_wanna_talk", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> NEED_THOUGHTS = REGISTRY.register("need_thoughts", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> I_BE_CODING = REGISTRY.register("i_be_coding", () -> new PaintingVariant(16, 16));
 }

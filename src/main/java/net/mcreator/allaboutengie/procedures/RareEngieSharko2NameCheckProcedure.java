@@ -172,35 +172,57 @@ public class RareEngieSharko2NameCheckProcedure {
 			}
 		} else if (entity instanceof EngieSharkoRare2LayAprilFoolsEntity) {
 			if (!(world instanceof Level _lvl41 && _lvl41.isDay())) {
-				if (Math.random() <= 0.5) {
-					if (entity instanceof EngieSharkoRare2LayAprilFoolsEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep_april_fools ~ ~ ~");
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.5) {
+						if (entity instanceof EngieSharkoRare2LayAprilFoolsEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep_april_fools ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
-			} else if (world instanceof Level _lvl46 && _lvl46.isDay()) {
-				if (Math.random() <= 0.15) {
-					if (entity instanceof EngieSharkoRare2LayAprilFoolsEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep_april_fools ~ ~ ~");
+			} else if (world instanceof Level _lvl49 && _lvl49.isDay()) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.0005) {
+						if (entity instanceof EngieSharkoRare2LayAprilFoolsEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep_april_fools ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
 			}
@@ -306,36 +328,58 @@ public class RareEngieSharko2NameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof EngieSharkoRare2SleepAprilFoolsEntity) {
-			if (!(world instanceof Level _lvl82 && _lvl82.isDay())) {
-				if (Math.random() <= 0.15) {
-					if (entity instanceof EngieSharkoRare2SleepAprilFoolsEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay_april_fools ~ ~ ~");
+			if (!(world instanceof Level _lvl88 && _lvl88.isDay())) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.0005) {
+						if (entity instanceof EngieSharkoRare2SleepAprilFoolsEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay_april_fools ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
-			} else if (world instanceof Level _lvl87 && _lvl87.isDay()) {
-				if (Math.random() <= 0.5) {
-					if (entity instanceof EngieSharkoRare2SleepAprilFoolsEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay_april_fools ~ ~ ~");
+			} else if (world instanceof Level _lvl96 && _lvl96.isDay()) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.5) {
+						if (entity instanceof EngieSharkoRare2SleepAprilFoolsEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay_april_fools ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
 			}
@@ -850,36 +894,58 @@ public class RareEngieSharko2NameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof EngieSharkoRare2LayEntity) {
-			if (!(world instanceof Level _lvl246 && _lvl246.isDay())) {
-				if (Math.random() <= 0.5) {
-					if (entity instanceof EngieSharkoRare2LayEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep ~ ~ ~");
+			if (!(world instanceof Level _lvl258 && _lvl258.isDay())) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.5) {
+						if (entity instanceof EngieSharkoRare2LayEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
-			} else if (world instanceof Level _lvl251 && _lvl251.isDay()) {
-				if (Math.random() <= 0.15) {
-					if (entity instanceof EngieSharkoRare2LayEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep ~ ~ ~");
+			} else if (world instanceof Level _lvl266 && _lvl266.isDay()) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.0005) {
+						if (entity instanceof EngieSharkoRare2LayEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_sleep ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
 			}
@@ -985,36 +1051,58 @@ public class RareEngieSharko2NameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof EngieSharkoRare2SleepEntity) {
-			if (!(world instanceof Level _lvl287 && _lvl287.isDay())) {
-				if (Math.random() <= 0.15) {
-					if (entity instanceof EngieSharkoRare2SleepEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay ~ ~ ~");
+			if (!(world instanceof Level _lvl305 && _lvl305.isDay())) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
+					entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.0005) {
+						if (entity instanceof EngieSharkoRare2SleepEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
-			} else if (world instanceof Level _lvl292 && _lvl292.isDay()) {
-				if (Math.random() <= 0.5) {
-					if (entity instanceof EngieSharkoRare2SleepEntity) {
-						if (!entity.level.isClientSide())
-							entity.discard();
-						AllaboutengieMod.queueServerWork(1, () -> {
-							{
-								Entity _ent = entity;
-								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay ~ ~ ~");
+			} else if (world instanceof Level _lvl313 && _lvl313.isDay()) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
+					entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.5) {
+						if (entity instanceof EngieSharkoRare2SleepEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay ~ ~ ~");
+									}
 								}
-							}
-						});
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
 			}
