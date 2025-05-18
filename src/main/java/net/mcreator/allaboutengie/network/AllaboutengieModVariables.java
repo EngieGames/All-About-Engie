@@ -174,6 +174,7 @@ public class AllaboutengieModVariables {
 		public boolean birthdaystart = false;
 		public boolean SharkoLayCD = false;
 		public boolean SharkoSleepCD = false;
+		public boolean madlads = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -194,6 +195,7 @@ public class AllaboutengieModVariables {
 			birthdaystart = nbt.getBoolean("birthdaystart");
 			SharkoLayCD = nbt.getBoolean("SharkoLayCD");
 			SharkoSleepCD = nbt.getBoolean("SharkoSleepCD");
+			madlads = nbt.getBoolean("madlads");
 		}
 
 		@Override
@@ -210,6 +212,7 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("birthdaystart", birthdaystart);
 			nbt.putBoolean("SharkoLayCD", SharkoLayCD);
 			nbt.putBoolean("SharkoSleepCD", SharkoSleepCD);
+			nbt.putBoolean("madlads", madlads);
 			return nbt;
 		}
 

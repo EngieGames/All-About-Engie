@@ -20460,6 +20460,12 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "madlads",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -20479,7 +20485,7 @@
       "item.allaboutengie.common_chestplate": "Common Chestplate",
       "item.allaboutengie.rare_shark_helmet": "Rare Sharko Helmet",
       "item_group.allaboutengie.zombies": "Zombies",
-      "advancements.massive_ban_challenge_obtain.title": "...",
+      "advancements.massive_ban_challenge_obtain.title": ".......",
       "item.allaboutengie.common_axe": "Common Axe",
       "item.allaboutengie.hwg_scythe": "He Who Game\u0027s Scythe",
       "item.allaboutengie.biblically_accurate_engie_shovel": "Biblically Accurate Engie Shovel",
@@ -21630,7 +21636,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "5.17.25.2",
+    "version": "5.17.25.3",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

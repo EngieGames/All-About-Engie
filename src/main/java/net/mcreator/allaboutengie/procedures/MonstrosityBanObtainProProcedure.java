@@ -29,7 +29,11 @@ public class MonstrosityBanObtainProProcedure {
 					}
 				}
 			}
-			ChallengeCompletionProcedure.execute(world, entity);
+			if (AllaboutengieModVariables.MapVariables.get(world).madlads == false) {
+				ChallengeCompletionProcedure.execute(world, entity);
+				AllaboutengieModVariables.MapVariables.get(world).madlads = true;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			}
 		} else {
 			if ((entity instanceof ServerPlayer _plr2 && _plr2.level instanceof ServerLevel
 					&& _plr2.getAdvancements().getOrStartProgress(_plr2.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:monstrosity_ban_obtain"))).isDone()) == false) {

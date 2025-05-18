@@ -11,7 +11,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.allaboutengie.procedures.BiblicallyAccurateBanObtainProProcedure;
+import net.mcreator.allaboutengie.procedures.MonstrosityBanObtainProProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModTabs;
 
 import java.util.List;
@@ -54,6 +54,6 @@ public class MonstrosityBanHammerItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		BiblicallyAccurateBanObtainProProcedure.execute(world, entity);
+		MonstrosityBanObtainProProcedure.execute(world, entity);
 	}
 }
