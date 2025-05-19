@@ -38,6 +38,8 @@ import net.mcreator.allaboutengie.block.DeepslateEngieOreBlock;
 import net.mcreator.allaboutengie.block.CyberbloodBlockBlock;
 import net.mcreator.allaboutengie.block.CyberOreBlock;
 import net.mcreator.allaboutengie.block.CyberBlockBlock;
+import net.mcreator.allaboutengie.block.ChallengeModeTrophySoloBlock;
+import net.mcreator.allaboutengie.block.ChallengeModeTrophyMultiplayerBlock;
 import net.mcreator.allaboutengie.block.BloodOreBlock;
 import net.mcreator.allaboutengie.block.BloodBlockBlock;
 import net.mcreator.allaboutengie.block.BiblicallyAccurateBlockBlock;
@@ -80,4 +82,6 @@ public class AllaboutengieModBlocks {
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_3 = REGISTRY.register("thanks_for_playing_3", () -> new ThanksForPlaying3Block());
 	public static final RegistryObject<Block> TEXTBOXYEAH = REGISTRY.register("textboxyeah", () -> new TextboxyeahBlock());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_4 = REGISTRY.register("thanks_for_playing_4", () -> new ThanksForPlaying4Block());
+	public static final RegistryObject<Block> CHALLENGE_MODE_TROPHY_SOLO = REGISTRY.register("challenge_mode_trophy_solo", () -> new ChallengeModeTrophySoloBlock());
+	public static final RegistryObject<Block> CHALLENGE_MODE_TROPHY_MULTIPLAYER = REGISTRY.register("challenge_mode_trophy_multiplayer", () -> new ChallengeModeTrophyMultiplayerBlock());
 }

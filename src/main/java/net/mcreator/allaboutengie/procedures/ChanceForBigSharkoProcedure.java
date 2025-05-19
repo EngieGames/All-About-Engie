@@ -32,7 +32,7 @@ public class ChanceForBigSharkoProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() <= 0.1) {
+		if (Math.random() <= 0.25) {
 			if (entity instanceof SharkoEntity) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new BigSharkoEntity(AllaboutengieModEntities.BIG_SHARKO.get(), _level);

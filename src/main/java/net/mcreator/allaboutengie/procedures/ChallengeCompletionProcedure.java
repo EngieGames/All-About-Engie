@@ -12,6 +12,7 @@ import net.minecraft.commands.CommandSource;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
+import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 import java.util.Iterator;
@@ -70,6 +71,10 @@ public class ChallengeCompletionProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12600000");
 							}
 						}
+						AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+						AllaboutengieModVariables.MapVariables.get(world).BYEBYE = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					} else {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:challenge_destroyed"));
@@ -96,6 +101,10 @@ public class ChallengeCompletionProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12600000");
 							}
 						}
+						AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+						AllaboutengieModVariables.MapVariables.get(world).BYEBYE = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				});
 			});

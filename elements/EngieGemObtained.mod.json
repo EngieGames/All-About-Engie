@@ -30,7 +30,8 @@
       "MiniBanCraft",
       "BanCraft",
       "BigBanCraft",
-      "LargeBanCraft"
+      "LargeBanCraft",
+      "EngieBundleCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,

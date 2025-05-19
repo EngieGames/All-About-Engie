@@ -1,0 +1,16 @@
+{
+  "parent": "allaboutengie:custom/challengemodetrophysolo",
+  "textures": {
+    "all": "allaboutengie:blocks/engiegames",
+    "particle": "allaboutengie:blocks/engiegames",
+    "1": "allaboutengie:blocks/engiegames",
+    "2": "allaboutengie:blocks/boxengiesface",
+    "3": "allaboutengie:blocks/engiegamescard2",
+    "4": "allaboutengie:blocks/engieplayscard2",
+    "5": "allaboutengie:blocks/angelhatandextra",
+    "6": "allaboutengie:blocks/scarf",
+    "7": "allaboutengie:blocks/engiebundletext",
+    "8": "allaboutengie:blocks/monstrosity"
+  },
+  "render_type": "translucent"
+}

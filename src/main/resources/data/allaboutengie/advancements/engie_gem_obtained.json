@@ -51,7 +51,8 @@
       "allaboutengie:mini_ban_craft",
       "allaboutengie:ban_craft",
       "allaboutengie:big_ban_craft",
-      "allaboutengie:large_ban_craft"
+      "allaboutengie:large_ban_craft",
+      "allaboutengie:engie_bundle_craft"
     ]
   },
   "parent": "allaboutengie:new_world"

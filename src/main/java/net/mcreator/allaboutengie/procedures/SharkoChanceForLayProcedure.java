@@ -63,7 +63,7 @@ public class SharkoChanceForLayProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				}
 			} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
-				if (Math.random() <= 0.0005) {
+				if (Math.random() > 0.0005) {
 					if (entity instanceof BigSharkoSleepEntity) {
 						if (!entity.level.isClientSide())
 							entity.discard();
@@ -692,7 +692,7 @@ public class SharkoChanceForLayProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				}
 			} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
-				if (Math.random() <= 0.5) {
+				if (Math.random() <= 0.0005) {
 					if (entity instanceof BigSharkoSleepEntity) {
 						if (!entity.level.isClientSide())
 							entity.discard();

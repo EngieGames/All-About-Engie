@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.allaboutengie.client.gui.MetalChestUIScreen;
+import net.mcreator.allaboutengie.client.gui.MetalBundleUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AllaboutengieModScreens {
@@ -19,6 +20,7 @@ public class AllaboutengieModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(AllaboutengieModMenus.METAL_CHEST_UI.get(), MetalChestUIScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.METAL_BUNDLE_UI.get(), MetalBundleUIScreen::new);
 		});
 	}
 }

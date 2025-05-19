@@ -844,6 +844,40 @@ public class AAEAllCommandsProcedure {
 					}
 				}
 			}
+		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("Debug")) {
+			if ((StringArgumentType.getString(arguments, "AltType")).equals("ChallengeToggle")) {
+				if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true) {
+					AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == false) {
+					AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				}
+				if (AllaboutengieModVariables.MapVariables.get(world).BYEBYE == true) {
+					AllaboutengieModVariables.MapVariables.get(world).BYEBYE = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (AllaboutengieModVariables.MapVariables.get(world).BYEBYE == false) {
+					AllaboutengieModVariables.MapVariables.get(world).BYEBYE = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				}
+			}
+		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("debug")) {
+			if ((StringArgumentType.getString(arguments, "AltType")).equals("challengetoggle")) {
+				if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true) {
+					AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == false) {
+					AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				}
+				if (AllaboutengieModVariables.MapVariables.get(world).BYEBYE == true) {
+					AllaboutengieModVariables.MapVariables.get(world).BYEBYE = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (AllaboutengieModVariables.MapVariables.get(world).BYEBYE == false) {
+					AllaboutengieModVariables.MapVariables.get(world).BYEBYE = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				}
+			}
 		}
 	}
 }

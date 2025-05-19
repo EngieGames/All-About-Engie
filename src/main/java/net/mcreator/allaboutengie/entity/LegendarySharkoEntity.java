@@ -31,6 +31,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.LegendaryRCTameProcedure;
+import net.mcreator.allaboutengie.procedures.ChanceForBigSharkoProcedure;
 import net.mcreator.allaboutengie.procedures.AprilFoolsDespawningProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -111,6 +112,12 @@ public class LegendarySharkoEntity extends PathfinderMob {
 
 		LegendaryRCTameProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		ChanceForBigSharkoProcedure.execute(this.level, this);
 	}
 
 	public static void init() {

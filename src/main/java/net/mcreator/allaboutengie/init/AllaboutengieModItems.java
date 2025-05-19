@@ -151,6 +151,7 @@ import net.mcreator.allaboutengie.item.EngiePickaxeItem;
 import net.mcreator.allaboutengie.item.EngieHoeItem;
 import net.mcreator.allaboutengie.item.EngieGemItem;
 import net.mcreator.allaboutengie.item.EngieCookieItem;
+import net.mcreator.allaboutengie.item.EngieBundleItem;
 import net.mcreator.allaboutengie.item.EngieAxeItem;
 import net.mcreator.allaboutengie.item.EngiShovelItem;
 import net.mcreator.allaboutengie.item.EngiPickaxeItem;
@@ -665,6 +666,9 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGIE_PLUSH = REGISTRY.register("engie_plush", () -> new EngiePlushItem());
 	public static final RegistryObject<Item> BYE_BYE_THERE = REGISTRY.register("bye_bye_there", () -> new ByeByeThereItem());
 	public static final RegistryObject<Item> DEV_ENGIE_PLUSH = REGISTRY.register("dev_engie_plush", () -> new DevEngiePlushItem());
+	public static final RegistryObject<Item> ENGIE_BUNDLE = REGISTRY.register("engie_bundle", () -> new EngieBundleItem());
+	public static final RegistryObject<Item> CHALLENGE_MODE_TROPHY_SOLO = block(AllaboutengieModBlocks.CHALLENGE_MODE_TROPHY_SOLO, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
+	public static final RegistryObject<Item> CHALLENGE_MODE_TROPHY_MULTIPLAYER = block(AllaboutengieModBlocks.CHALLENGE_MODE_TROPHY_MULTIPLAYER, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
