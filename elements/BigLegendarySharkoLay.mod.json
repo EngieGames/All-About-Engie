@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "[Tamed] Legendary Sharko (Laying)",
     "mobLabel": "",
-    "mobModelName": "Modelboyosit",
+    "mobModelName": "Modelbigboyosit",
     "mobModelTexture": "biglegendarysharkonewtamed.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
