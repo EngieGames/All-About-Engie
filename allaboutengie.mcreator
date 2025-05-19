@@ -20329,9 +20329,33 @@
       "path": "~/Recipes"
     },
     {
+      "name": "ChallengeModeAdvancementCheck",
+      "type": "procedure",
+      "sortid": 1119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "challenge_mode_advancement_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/ChallengeModeAdvancementCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
       "name": "ChallengeModeTrophySolo",
       "type": "block",
-      "sortid": 1117,
+      "sortid": 1120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "challenge_mode_trophy_solo",
@@ -20348,7 +20372,7 @@
     {
       "name": "ChallengeModeTrophyMultiplayer",
       "type": "block",
-      "sortid": 1118,
+      "sortid": 1121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "challenge_mode_trophy_multiplayer",
@@ -20590,6 +20614,18 @@
       "name": "madlads",
       "type": "logic",
       "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "solotrophyobtained",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "multiplayertrophyobtained",
+      "type": "logic",
+      "scope": "player_persistent",
       "value": "false"
     }
   ],

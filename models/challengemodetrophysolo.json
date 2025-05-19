@@ -1,15 +1,15 @@
 {
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "engiegames",
-		"2": "16101613",
-		"3": "EngieGamesCard2",
-		"4": "EngiePlaysCard2",
-		"5": "AngelHatAndExtra",
-		"6": "scarf",
-		"7": "monstrosity",
-		"8": "TrophyStand",
-		"particle": "engiegames"
+		"1": "Downloads/engiegames",
+		"2": "Downloads/16101613",
+		"3": "Downloads/EngieGamesCard2",
+		"4": "Downloads/EngiePlaysCard2",
+		"5": "Downloads/AngelHatAndExtra",
+		"6": "Downloads/scarf",
+		"7": "Textures/aae_items/Blocks/monstrosity",
+		"8": "Downloads/TrophyStand",
+		"particle": "Downloads/engiegames"
 	},
 	"elements": [
 		{

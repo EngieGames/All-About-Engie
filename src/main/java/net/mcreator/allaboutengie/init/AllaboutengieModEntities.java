@@ -1148,7 +1148,7 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<BigAlbinoSharkoEntity>> BIG_ALBINO_SHARKO = register("big_albino_sharko",
 			EntityType.Builder.<BigAlbinoSharkoEntity>of(BigAlbinoSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigAlbinoSharkoEntity::new)
 
-					.sized(14f, 1.8f));
+					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<BigRareSharkoEntity>> BIG_RARE_SHARKO = register("big_rare_sharko",
 			EntityType.Builder.<BigRareSharkoEntity>of(BigRareSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigRareSharkoEntity::new)
 

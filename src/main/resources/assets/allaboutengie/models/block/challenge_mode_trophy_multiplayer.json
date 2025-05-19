@@ -4,15 +4,15 @@
     "all": "allaboutengie:blocks/devengie",
     "particle": "allaboutengie:blocks/devengie",
     "1": "allaboutengie:blocks/engiegames",
-    "2": "allaboutengie:blocks/boxengiesface",
+    "2": "allaboutengie:blocks/16101613",
     "3": "allaboutengie:blocks/engiegamescard2",
     "4": "allaboutengie:blocks/engieplayscard2",
     "5": "allaboutengie:blocks/angelhatandextra",
     "6": "allaboutengie:blocks/scarf",
-    "7": "allaboutengie:blocks/engiebundletext",
-    "8": "allaboutengie:blocks/monstrosity",
+    "7": "allaboutengie:blocks/monstrosity",
+    "8": "allaboutengie:blocks/trophystand",
     "9": "allaboutengie:blocks/devengie",
     "10": "allaboutengie:blocks/scarfdevengie"
   },
-  "render_type": "translucent"
+  "render_type": "cutout_mipped"
 }

@@ -96,6 +96,8 @@ public class AllaboutengieModVariables {
 			clone.OutragedEngieKillCount = original.OutragedEngieKillCount;
 			clone.InsanityKillCount = original.InsanityKillCount;
 			clone.MadEngieKillCount = original.MadEngieKillCount;
+			clone.solotrophyobtained = original.solotrophyobtained;
+			clone.multiplayertrophyobtained = original.multiplayertrophyobtained;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -320,6 +322,8 @@ public class AllaboutengieModVariables {
 		public double OutragedEngieKillCount = 0;
 		public double InsanityKillCount = 0;
 		public double MadEngieKillCount = 0;
+		public boolean solotrophyobtained = false;
+		public boolean multiplayertrophyobtained = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -347,6 +351,8 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("OutragedEngieKillCount", OutragedEngieKillCount);
 			nbt.putDouble("InsanityKillCount", InsanityKillCount);
 			nbt.putDouble("MadEngieKillCount", MadEngieKillCount);
+			nbt.putBoolean("solotrophyobtained", solotrophyobtained);
+			nbt.putBoolean("multiplayertrophyobtained", multiplayertrophyobtained);
 			return nbt;
 		}
 
@@ -371,6 +377,8 @@ public class AllaboutengieModVariables {
 			OutragedEngieKillCount = nbt.getDouble("OutragedEngieKillCount");
 			InsanityKillCount = nbt.getDouble("InsanityKillCount");
 			MadEngieKillCount = nbt.getDouble("MadEngieKillCount");
+			solotrophyobtained = nbt.getBoolean("solotrophyobtained");
+			multiplayertrophyobtained = nbt.getBoolean("multiplayertrophyobtained");
 		}
 	}
 
@@ -414,6 +422,8 @@ public class AllaboutengieModVariables {
 					variables.OutragedEngieKillCount = message.data.OutragedEngieKillCount;
 					variables.InsanityKillCount = message.data.InsanityKillCount;
 					variables.MadEngieKillCount = message.data.MadEngieKillCount;
+					variables.solotrophyobtained = message.data.solotrophyobtained;
+					variables.multiplayertrophyobtained = message.data.multiplayertrophyobtained;
 				}
 			});
 			context.setPacketHandled(true);

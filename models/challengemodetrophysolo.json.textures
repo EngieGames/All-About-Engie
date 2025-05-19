@@ -3,13 +3,13 @@
     "default": {
       "map": {
         "1": "engiegames",
-        "2": "boxengiesface",
+        "2": "16101613",
         "3": "engiegamescard2",
         "4": "engieplayscard2",
         "5": "angelhatandextra",
         "6": "scarf",
-        "7": "engiebundletext",
-        "8": "monstrosity"
+        "7": "monstrosity",
+        "8": "trophystand"
       },
       "name": "default"
     }
