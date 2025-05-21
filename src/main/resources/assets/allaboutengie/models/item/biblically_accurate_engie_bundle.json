@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/biblically_accurate_engie_bundle",
+  "textures": {
+    "0": "allaboutengie:blocks/biblicallyaccurateengiebundletext",
+    "particle": "allaboutengie:items/engie_bundle"
+  }
+}

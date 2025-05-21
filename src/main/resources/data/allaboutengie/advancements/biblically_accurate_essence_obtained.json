@@ -33,7 +33,22 @@
     }
   },
   "rewards": {
-    "experience": 50
+    "experience": 50,
+    "recipes": [
+      "allaboutengie:biblically_accurate_engie_bundle_craft",
+      "allaboutengie:biblically_accurate_engie_block_1",
+      "allaboutengie:biblically_accurate_engie_items_1",
+      "allaboutengie:biblically_ban_craft",
+      "allaboutengie:biblically_accurate_engie_axe_1",
+      "allaboutengie:biblically_accurate_engie_axe_2",
+      "allaboutengie:biblically_accurate_engie_pickaxe_1",
+      "allaboutengie:biblically_accurate_engie_shovel_1",
+      "allaboutengie:biblically_accurate_engie_hoe_1",
+      "allaboutengie:biblically_accurate_engie_hoe_2",
+      "allaboutengie:biblically_accurate_engie_chestplate_1",
+      "allaboutengie:biblically_accurate_engie_leggings_1",
+      "allaboutengie:biblically_accurate_engie_boots_1"
+    ]
   },
   "parent": "allaboutengie:outraged_engie_essence_obtained"
 }

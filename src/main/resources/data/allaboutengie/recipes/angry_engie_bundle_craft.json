@@ -1,0 +1,42 @@
+{
+  "group": "engiebundle",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "4": {
+      "item": "minecraft:white_dye"
+    },
+    "5": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "6": {
+      "item": "minecraft:leather"
+    },
+    "7": {
+      "item": "allaboutengie:angry_engie_essence"
+    },
+    "8": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:angry_engie_bundle",
+    "count": 1
+  }
+}

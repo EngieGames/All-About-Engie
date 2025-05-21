@@ -77,11 +77,11 @@ public class AllaboutengieModBlocks {
 	public static final RegistryObject<Block> OLD_ENGIE_ORE = REGISTRY.register("old_engie_ore", () -> new OldEngieOreBlock());
 	public static final RegistryObject<Block> OLD_DEEPSLATE_ENGIE_ORE = REGISTRY.register("old_deepslate_engie_ore", () -> new OldDeepslateEngieOreBlock());
 	public static final RegistryObject<Block> ANGEL_HATTED_PRESENT = REGISTRY.register("angel_hatted_present", () -> new AngelHattedPresentBlock());
+	public static final RegistryObject<Block> CHALLENGE_MODE_TROPHY_SOLO = REGISTRY.register("challenge_mode_trophy_solo", () -> new ChallengeModeTrophySoloBlock());
+	public static final RegistryObject<Block> CHALLENGE_MODE_TROPHY_MULTIPLAYER = REGISTRY.register("challenge_mode_trophy_multiplayer", () -> new ChallengeModeTrophyMultiplayerBlock());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING = REGISTRY.register("thanks_for_playing", () -> new ThanksForPlayingBlock());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_2 = REGISTRY.register("thanks_for_playing_2", () -> new ThanksForPlaying2Block());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_3 = REGISTRY.register("thanks_for_playing_3", () -> new ThanksForPlaying3Block());
 	public static final RegistryObject<Block> TEXTBOXYEAH = REGISTRY.register("textboxyeah", () -> new TextboxyeahBlock());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_4 = REGISTRY.register("thanks_for_playing_4", () -> new ThanksForPlaying4Block());
-	public static final RegistryObject<Block> CHALLENGE_MODE_TROPHY_SOLO = REGISTRY.register("challenge_mode_trophy_solo", () -> new ChallengeModeTrophySoloBlock());
-	public static final RegistryObject<Block> CHALLENGE_MODE_TROPHY_MULTIPLAYER = REGISTRY.register("challenge_mode_trophy_multiplayer", () -> new ChallengeModeTrophyMultiplayerBlock());
 }

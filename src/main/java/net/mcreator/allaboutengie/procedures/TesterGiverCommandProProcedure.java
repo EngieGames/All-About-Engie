@@ -58,8 +58,16 @@ public class TesterGiverCommandProProcedure {
 					}
 				}
 			});
-		}
-		if ((entity.getDisplayName().getString()).equals("[All About Engie Tester] Dragons23")) {
+			AllaboutengieMod.queueServerWork(6, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:tester_engie_bundle");
+					}
+				}
+			});
+		} else if ((entity.getDisplayName().getString()).equals("[All About Engie Tester] Dragons23")) {
 			AllaboutengieMod.queueServerWork(1, () -> {
 				{
 					Entity _ent = entity;
@@ -105,6 +113,23 @@ public class TesterGiverCommandProProcedure {
 					}
 				}
 			});
+			AllaboutengieMod.queueServerWork(6, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:tester_engie_bundle");
+					}
+				}
+			});
+		} else {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Sorry, but only confirmed Testers can use this gear option.\",\"color\":\"red\"}");
+				}
+			}
 		}
 	}
 }

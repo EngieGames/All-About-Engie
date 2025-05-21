@@ -39,7 +39,7 @@ public class MetalBundleUIMenu extends AbstractContainerMenu implements Supplier
 	private BlockEntity boundBlockEntity = null;
 
 	public MetalBundleUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(AllaboutengieModMenus.METAL_BUNDLE_UI.get(), id);
+		super(AllaboutengieModMenus.ENGIE_BUNDLE_UI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(50);

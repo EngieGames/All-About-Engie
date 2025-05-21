@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/tester_engie_bundle",
+  "textures": {
+    "0": "allaboutengie:blocks/testerengiebundletext",
+    "particle": "allaboutengie:items/engie_bundle"
+  }
+}

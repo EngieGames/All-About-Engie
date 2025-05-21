@@ -48,7 +48,8 @@
       "allaboutengie:big_ban_craft",
       "allaboutengie:large_ban_craft",
       "allaboutengie:huge_ban_craft",
-      "allaboutengie:enormous_ban_craft"
+      "allaboutengie:enormous_ban_craft",
+      "allaboutengie:enraged_engie_bundle_craft"
     ]
   },
   "parent": "allaboutengie:angry_engie_essence_obtained"

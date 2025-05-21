@@ -39,7 +39,7 @@ public class MetalBundleUIScreen extends AbstractContainerScreen<MetalBundleUIMe
 		this.imageHeight = 230;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("allaboutengie:textures/screens/metal_bundle_ui.png");
+	private static final ResourceLocation texture = new ResourceLocation("allaboutengie:textures/screens/engie_bundle_ui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -93,16 +93,16 @@ public class MetalBundleUIScreen extends AbstractContainerScreen<MetalBundleUIMe
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		ChangeBundleName = new EditBox(this.font, this.leftPos + 4, this.topPos + 5, 120, 20, Component.translatable("gui.allaboutengie.metal_bundle_ui.ChangeBundleName")) {
+		ChangeBundleName = new EditBox(this.font, this.leftPos + 4, this.topPos + 5, 120, 20, Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName")) {
 			{
-				setSuggestion(Component.translatable("gui.allaboutengie.metal_bundle_ui.ChangeBundleName").getString());
+				setSuggestion(Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName").getString());
 			}
 
 			@Override
 			public void insertText(String text) {
 				super.insertText(text);
 				if (getValue().isEmpty())
-					setSuggestion(Component.translatable("gui.allaboutengie.metal_bundle_ui.ChangeBundleName").getString());
+					setSuggestion(Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName").getString());
 				else
 					setSuggestion(null);
 			}
@@ -111,7 +111,7 @@ public class MetalBundleUIScreen extends AbstractContainerScreen<MetalBundleUIMe
 			public void moveCursorTo(int pos) {
 				super.moveCursorTo(pos);
 				if (getValue().isEmpty())
-					setSuggestion(Component.translatable("gui.allaboutengie.metal_bundle_ui.ChangeBundleName").getString());
+					setSuggestion(Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName").getString());
 				else
 					setSuggestion(null);
 			}
@@ -119,7 +119,7 @@ public class MetalBundleUIScreen extends AbstractContainerScreen<MetalBundleUIMe
 		ChangeBundleName.setMaxLength(32767);
 		guistate.put("text:ChangeBundleName", ChangeBundleName);
 		this.addWidget(this.ChangeBundleName);
-		button_set_name = new Button(this.leftPos + 128, this.topPos + 5, 66, 20, Component.translatable("gui.allaboutengie.metal_bundle_ui.button_set_name"), e -> {
+		button_set_name = new Button(this.leftPos + 128, this.topPos + 5, 66, 20, Component.translatable("gui.allaboutengie.engie_bundle_ui.button_set_name"), e -> {
 			if (true) {
 				AllaboutengieMod.PACKET_HANDLER.sendToServer(new MetalBundleUIButtonMessage(0, x, y, z));
 				MetalBundleUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

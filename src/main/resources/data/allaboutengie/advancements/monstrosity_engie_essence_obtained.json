@@ -35,19 +35,20 @@
   "rewards": {
     "experience": 60,
     "recipes": [
-      "allaboutengie:outraged_engie_axe_1",
-      "allaboutengie:outraged_engie_axe_2",
-      "allaboutengie:outraged_engie_pickaxe_1",
-      "allaboutengie:outraged_engie_shovel_1",
-      "allaboutengie:outraged_engie_hoe_1",
-      "allaboutengie:outraged_engie_hoe_2",
-      "allaboutengie:outraged_engie_helmet_1",
-      "allaboutengie:outraged_engie_chestplate_1",
-      "allaboutengie:outraged_engie_leggings_1",
-      "allaboutengie:outraged_engie_boots_1",
-      "allaboutengie:enormous_ban_craft",
-      "allaboutengie:gigantic_ban_craft",
-      "allaboutengie:massive_ban_craft"
+      "allaboutengie:monstrosity_ban_craft",
+      "allaboutengie:monstrosity_to_block",
+      "allaboutengie:monstrosity_to_item",
+      "allaboutengie:monstrosity_engie_axe_1",
+      "allaboutengie:monstrosity_engie_axe_2",
+      "allaboutengie:monstrosity_engie_pickaxe_1",
+      "allaboutengie:monstrosity_engie_shovel_1",
+      "allaboutengie:monstrosity_engie_hoe_1",
+      "allaboutengie:monstrosity_engie_hoe_2",
+      "allaboutengie:monstrosity_engie_helmet_1",
+      "allaboutengie:monstrosity_engie_chestplate_1",
+      "allaboutengie:monstrosity_engie_leggings_1",
+      "allaboutengie:monstrosity_engie_boots_1",
+      "allaboutengie:monstrosity_engie_bundle_craft"
     ]
   },
   "parent": "allaboutengie:biblically_accurate_essence_obtained"

@@ -58,8 +58,16 @@ public class DeveloperCommandProProcedure {
 					}
 				}
 			});
-		}
-		if ((entity.getDisplayName().getString()).equals("[AAE Developer] Dev")) {
+			AllaboutengieMod.queueServerWork(6, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give Dev allaboutengie:developer_engie_bundle");
+					}
+				}
+			});
+		} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] Dev")) {
 			AllaboutengieMod.queueServerWork(1, () -> {
 				{
 					Entity _ent = entity;
@@ -105,14 +113,22 @@ public class DeveloperCommandProProcedure {
 					}
 				}
 			});
-		}
-		if ((entity.getDisplayName().getString()).equals("DevEngie")) {
+			AllaboutengieMod.queueServerWork(6, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give Dev allaboutengie:developer_engie_bundle");
+					}
+				}
+			});
+		} else if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 			AllaboutengieMod.queueServerWork(1, () -> {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_helmet");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_helmet");
 					}
 				}
 			});
@@ -121,7 +137,7 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_chestplate");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_chestplate");
 					}
 				}
 			});
@@ -130,7 +146,7 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_leggings");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_leggings");
 					}
 				}
 			});
@@ -139,7 +155,7 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_boots");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_boots");
 					}
 				}
 			});
@@ -148,18 +164,26 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:true_ban_hammer_ncmd");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:true_ban_hammer_ncmd");
 					}
 				}
 			});
-		}
-		if ((entity.getDisplayName().getString()).equals("[AAE Developer] DevEngie")) {
+			AllaboutengieMod.queueServerWork(6, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_engie_bundle");
+					}
+				}
+			});
+		} else if ((entity.getDisplayName().getString()).equals("[AAE Developer] DevEngie")) {
 			AllaboutengieMod.queueServerWork(1, () -> {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_helmet");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_helmet");
 					}
 				}
 			});
@@ -168,7 +192,7 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_chestplate");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_chestplate");
 					}
 				}
 			});
@@ -177,7 +201,7 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_leggings");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_leggings");
 					}
 				}
 			});
@@ -186,7 +210,7 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:developer_boots");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_boots");
 					}
 				}
 			});
@@ -195,10 +219,27 @@ public class DeveloperCommandProProcedure {
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give clippedbyengie allaboutengie:true_ban_hammer_ncmd");
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:true_ban_hammer_ncmd");
 					}
 				}
 			});
+			AllaboutengieMod.queueServerWork(6, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give DevEngie allaboutengie:developer_engie_bundle");
+					}
+				}
+			});
+		} else {
+			{
+				Entity _ent = entity;
+				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Sorry, but only DevEngie can use this gear option.\",\"color\":\"red\"}");
+				}
+			}
 		}
 	}
 }
