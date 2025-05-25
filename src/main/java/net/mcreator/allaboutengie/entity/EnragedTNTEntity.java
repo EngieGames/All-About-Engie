@@ -80,7 +80,7 @@ public class EnragedTNTEntity extends Monster {
 
 	@Override
 	public MobType getMobType() {
-		return MobType.UNDEFINED;
+		return MobType.UNDEAD;
 	}
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {

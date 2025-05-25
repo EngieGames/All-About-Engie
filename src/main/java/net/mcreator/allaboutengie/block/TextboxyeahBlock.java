@@ -4,6 +4,7 @@ package net.mcreator.allaboutengie.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -16,14 +17,18 @@ import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import java.util.List;
+import java.util.Collections;
 
 public class TextboxyeahBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public TextboxyeahBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(64000f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -68,5 +73,13 @@ public class TextboxyeahBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	}
+
+	@Override
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+		if (!dropsOriginal.isEmpty())
+			return dropsOriginal;
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

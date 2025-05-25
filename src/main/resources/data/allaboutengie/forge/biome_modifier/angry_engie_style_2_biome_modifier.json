@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "allaboutengie:angry_engie_style_2",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

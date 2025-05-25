@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "presenttextbirthday",
+        "1": "angelhatpresenttextbirthday"
+      },
+      "name": "default"
+    }
+  }
+}

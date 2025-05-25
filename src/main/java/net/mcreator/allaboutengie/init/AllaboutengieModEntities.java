@@ -55,6 +55,7 @@ import net.mcreator.allaboutengie.entity.PBEZoomiesEntity;
 import net.mcreator.allaboutengie.entity.PBESleepEntity;
 import net.mcreator.allaboutengie.entity.PBELayEntity;
 import net.mcreator.allaboutengie.entity.PBEEntity;
+import net.mcreator.allaboutengie.entity.OutragedEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.OutragedEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.MythicSharkoTamedZoomiesEntity;
@@ -143,6 +144,8 @@ import net.mcreator.allaboutengie.entity.EnragedNormal5Entity;
 import net.mcreator.allaboutengie.entity.EnragedNormal4Entity;
 import net.mcreator.allaboutengie.entity.EnragedNormal3Entity;
 import net.mcreator.allaboutengie.entity.EnragedNormal2Entity;
+import net.mcreator.allaboutengie.entity.EnragedEngieStyle3Entity;
+import net.mcreator.allaboutengie.entity.EnragedEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.EnragedEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.EnragedEngieEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedZoomiesTiredEntity;
@@ -250,6 +253,7 @@ import net.mcreator.allaboutengie.entity.ApolloZoomiesEntity;
 import net.mcreator.allaboutengie.entity.ApolloSleepEntity;
 import net.mcreator.allaboutengie.entity.ApolloLayEntity;
 import net.mcreator.allaboutengie.entity.ApolloEntity;
+import net.mcreator.allaboutengie.entity.AngryEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.AngryEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.AngryEngieEntity;
 import net.mcreator.allaboutengie.entity.AngryCreatorEntity;
@@ -331,12 +335,28 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<AngryEngieEntity>of(AngryEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieEntity::new)
 
 					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<AngryEngieStyle2Entity>> ANGRY_ENGIE_STYLE_2 = register("angry_engie_style_2",
+			EntityType.Builder.<AngryEngieStyle2Entity>of(AngryEngieStyle2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieStyle2Entity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<EnragedEngieEntity>> ENRAGED_ENGIE = register("enraged_engie",
 			EntityType.Builder.<EnragedEngieEntity>of(EnragedEngieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieEntity::new)
 
 					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EnragedEngieStyle2Entity>> ENRAGED_ENGIE_STYLE_2 = register("enraged_engie_style_2",
+			EntityType.Builder.<EnragedEngieStyle2Entity>of(EnragedEngieStyle2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieStyle2Entity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EnragedEngieStyle3Entity>> ENRAGED_ENGIE_STYLE_3 = register("enraged_engie_style_3",
+			EntityType.Builder.<EnragedEngieStyle3Entity>of(EnragedEngieStyle3Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnragedEngieStyle3Entity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<AngryCreatorEntity>> OUTRAGED_ENGIE = register("outraged_engie",
 			EntityType.Builder.<AngryCreatorEntity>of(AngryCreatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryCreatorEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<OutragedEngieStyle2Entity>> OUTRAGED_ENGIE_STYLE_2 = register("outraged_engie_style_2",
+			EntityType.Builder.<OutragedEngieStyle2Entity>of(OutragedEngieStyle2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OutragedEngieStyle2Entity::new)
 
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<MonstrosityEngieEntity>> MONSTROSITY_ENGIE = register("monstrosity_engie", EntityType.Builder.<MonstrosityEngieEntity>of(MonstrosityEngieEntity::new, MobCategory.MONSTER)
@@ -1352,8 +1372,12 @@ public class AllaboutengieModEntities {
 			MythicEngieEntity.init();
 			ExoticEngieEntity.init();
 			AngryEngieEntity.init();
+			AngryEngieStyle2Entity.init();
 			EnragedEngieEntity.init();
+			EnragedEngieStyle2Entity.init();
+			EnragedEngieStyle3Entity.init();
 			AngryCreatorEntity.init();
+			OutragedEngieStyle2Entity.init();
 			MonstrosityEngieEntity.init();
 			AngryEngieSharkoEntity.init();
 			EnragedEngieSharkoEntity.init();
@@ -1604,8 +1628,12 @@ public class AllaboutengieModEntities {
 		event.put(MYTHIC_ENGIE.get(), MythicEngieEntity.createAttributes().build());
 		event.put(EXOTIC_ENGIE.get(), ExoticEngieEntity.createAttributes().build());
 		event.put(ANGRY_ENGIE.get(), AngryEngieEntity.createAttributes().build());
+		event.put(ANGRY_ENGIE_STYLE_2.get(), AngryEngieStyle2Entity.createAttributes().build());
 		event.put(ENRAGED_ENGIE.get(), EnragedEngieEntity.createAttributes().build());
+		event.put(ENRAGED_ENGIE_STYLE_2.get(), EnragedEngieStyle2Entity.createAttributes().build());
+		event.put(ENRAGED_ENGIE_STYLE_3.get(), EnragedEngieStyle3Entity.createAttributes().build());
 		event.put(OUTRAGED_ENGIE.get(), AngryCreatorEntity.createAttributes().build());
+		event.put(OUTRAGED_ENGIE_STYLE_2.get(), OutragedEngieStyle2Entity.createAttributes().build());
 		event.put(MONSTROSITY_ENGIE.get(), MonstrosityEngieEntity.createAttributes().build());
 		event.put(ANGRY_ENGIE_SHARKO.get(), AngryEngieSharkoEntity.createAttributes().build());
 		event.put(ENRAGED_ENGIE_SHARKO.get(), EnragedEngieSharkoEntity.createAttributes().build());

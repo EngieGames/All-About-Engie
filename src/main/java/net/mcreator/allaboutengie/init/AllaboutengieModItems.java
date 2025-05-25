@@ -147,11 +147,13 @@ import net.mcreator.allaboutengie.item.EnormousBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.EnormousBanHammerItem;
 import net.mcreator.allaboutengie.item.EngiesScythePixelItem;
 import net.mcreator.allaboutengie.item.EngiesScytheItem;
+import net.mcreator.allaboutengie.item.EngiesOwnEngieBundleItem;
 import net.mcreator.allaboutengie.item.EngiesItem;
 import net.mcreator.allaboutengie.item.EngieShovelItem;
 import net.mcreator.allaboutengie.item.EngieSharkoClothItem;
 import net.mcreator.allaboutengie.item.EngieSharkItem;
 import net.mcreator.allaboutengie.item.EngiePlushItem;
+import net.mcreator.allaboutengie.item.EngiePlaqueItem;
 import net.mcreator.allaboutengie.item.EngiePickaxeItem;
 import net.mcreator.allaboutengie.item.EngieHoeItem;
 import net.mcreator.allaboutengie.item.EngieGemItem;
@@ -465,10 +467,18 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.EXOTIC_ENGIE, -4310213, -11534368, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ANGRY_ENGIE_SPAWN_EGG = REGISTRY.register("angry_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ANGRY_ENGIE_STYLE_2_SPAWN_EGG = REGISTRY.register("angry_engie_style_2_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ANGRY_ENGIE_STYLE_2, -16777216, -1, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENRAGED_ENGIE_SPAWN_EGG = REGISTRY.register("enraged_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ENRAGED_ENGIE_STYLE_2_SPAWN_EGG = REGISTRY.register("enraged_engie_style_2_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE_STYLE_2, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> ENRAGED_ENGIE_STYLE_3_SPAWN_EGG = REGISTRY.register("enraged_engie_style_3_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_ENGIE_STYLE_3, -16777216, -10092544, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> OUTRAGED_ENGIE_SPAWN_EGG = REGISTRY.register("outraged_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> OUTRAGED_ENGIE_STYLE_2_SPAWN_EGG = REGISTRY.register("outraged_engie_style_2_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE_STYLE_2, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SPAWN_EGG = REGISTRY.register("monstrosity_engie_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MONSTROSITY_ENGIE, -16777216, -3010263, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ANGRY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("angry_engie_sharko_spawn_egg",
@@ -689,6 +699,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> IDEAGIVER_ENGIE_BUNDLE = REGISTRY.register("ideagiver_engie_bundle", () -> new IdeagiverEngieBundleItem());
 	public static final RegistryObject<Item> TESTER_ENGIE_BUNDLE = REGISTRY.register("tester_engie_bundle", () -> new TesterEngieBundleItem());
 	public static final RegistryObject<Item> CONTENT_CREATOR_ENGIE_BUNDLE = REGISTRY.register("content_creator_engie_bundle", () -> new ContentCreatorEngieBundleItem());
+	public static final RegistryObject<Item> ENGIES_OWN_ENGIE_BUNDLE = REGISTRY.register("engies_own_engie_bundle", () -> new EngiesOwnEngieBundleItem());
+	public static final RegistryObject<Item> ENGIE_PLAQUE = REGISTRY.register("engie_plaque", () -> new EngiePlaqueItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

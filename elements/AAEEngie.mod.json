@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "engie",
+    "texture": "youhavechosendeathnotext",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

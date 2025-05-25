@@ -16,6 +16,7 @@ import net.mcreator.allaboutengie.client.gui.MonstrosityEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.MetalChestUIScreen;
 import net.mcreator.allaboutengie.client.gui.MetalBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.EnragedEngieBundleUIScreen;
+import net.mcreator.allaboutengie.client.gui.EngiesOwnEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.ETCEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.CreativeEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.BiblicallyAccurateEngieBundleUIScreen;
@@ -35,6 +36,7 @@ public class AllaboutengieModScreens {
 			MenuScreens.register(AllaboutengieModMenus.MONSTROSITY_ENGIE_BUNDLE_UI.get(), MonstrosityEngieBundleUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ETC_ENGIE_BUNDLE_UI.get(), ETCEngieBundleUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.CREATIVE_ENGIE_BUNDLE_UI.get(), CreativeEngieBundleUIScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.ENGIES_OWN_ENGIE_BUNDLE_UI.get(), EngiesOwnEngieBundleUIScreen::new);
 		});
 	}
 }
