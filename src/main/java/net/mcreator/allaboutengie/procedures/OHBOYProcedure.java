@@ -39,7 +39,7 @@ public class OHBOYProcedure {
 				}
 			} else if (AllaboutengieModVariables.MapVariables.get(world).riskcooldown == false) {
 				if (AllaboutengieModVariables.MapVariables.get(world).Risk == 1) {
-					if (Math.random() >= 0.005) {
+					if (Math.random() <= 0.0005) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Low\"");
@@ -59,7 +59,7 @@ public class OHBOYProcedure {
 						AllaboutengieMod.LOGGER.info("Added +1 to DoomsDay \"Low\" risk fail count.");
 					}
 				} else if (AllaboutengieModVariables.MapVariables.get(world).Risk == 2) {
-					if (Math.random() >= 0.007) {
+					if (Math.random() <= 0.007) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Medium\"");
@@ -79,7 +79,7 @@ public class OHBOYProcedure {
 						AllaboutengieMod.LOGGER.info("Added +1 to DoomsDay \"Medium\" risk fail count.");
 					}
 				} else if (AllaboutengieModVariables.MapVariables.get(world).Risk == 3) {
-					if (Math.random() >= 0.013) {
+					if (Math.random() <= 0.013) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"High\"");
@@ -99,7 +99,7 @@ public class OHBOYProcedure {
 						AllaboutengieMod.LOGGER.info("Added +1 to DoomsDay \"High\" risk fail count.");
 					}
 				} else if (AllaboutengieModVariables.MapVariables.get(world).Risk == 4) {
-					if (Math.random() >= 0.02) {
+					if (Math.random() <= 0.02) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Extreme\"");
