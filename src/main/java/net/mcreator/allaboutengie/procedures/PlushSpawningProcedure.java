@@ -14,11 +14,15 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
+import net.mcreator.allaboutengie.entity.OutragedEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.OutragedEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.MadEngieEntity;
 import net.mcreator.allaboutengie.entity.InsanityEntity;
+import net.mcreator.allaboutengie.entity.EnragedEngieStyle3Entity;
+import net.mcreator.allaboutengie.entity.EnragedEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.EnragedEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.EnragedEngieEntity;
+import net.mcreator.allaboutengie.entity.AngryEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.AngryEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.AngryEngieEntity;
 import net.mcreator.allaboutengie.entity.AngryCreatorEntity;
@@ -55,6 +59,45 @@ public class PlushSpawningProcedure {
 					}
 				});
 			} else if (entity instanceof AngryEngieEntity) {
+				{
+					double _setval = (sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount + 1;
+					sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.AngryEngieKillCount = _setval;
+						capability.syncPlayerVariables(sourceentity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(1, () -> {
+					if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount == 125) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.ANGRY_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount == 250) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.GOLDEN_ANGRY_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount == 375) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.DIAMOND_ANGRY_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount == 500) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.NETHERITE_ANGRY_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					}
+				});
+			} else if (entity instanceof AngryEngieStyle2Entity) {
 				{
 					double _setval = (sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).AngryEngieKillCount + 1;
 					sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -210,7 +253,124 @@ public class PlushSpawningProcedure {
 						}
 					}
 				});
+			} else if (entity instanceof EnragedEngieStyle2Entity) {
+				{
+					double _setval = (sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount + 1;
+					sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.EnragedEngieKillCount = _setval;
+						capability.syncPlayerVariables(sourceentity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(1, () -> {
+					if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 125) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 250) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.GOLDEN_ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 375) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.DIAMOND_ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 500) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.NETHERITE_ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					}
+				});
+			} else if (entity instanceof EnragedEngieStyle3Entity) {
+				{
+					double _setval = (sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount + 1;
+					sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.EnragedEngieKillCount = _setval;
+						capability.syncPlayerVariables(sourceentity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(1, () -> {
+					if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 125) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 250) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.GOLDEN_ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 375) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.DIAMOND_ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).EnragedEngieKillCount == 500) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.NETHERITE_ENRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					}
+				});
 			} else if (entity instanceof AngryCreatorEntity) {
+				{
+					double _setval = (sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).OutragedEngieKillCount + 1;
+					sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.OutragedEngieKillCount = _setval;
+						capability.syncPlayerVariables(sourceentity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(1, () -> {
+					if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).OutragedEngieKillCount == 125) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.OUTRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).OutragedEngieKillCount == 250) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.GOLDEN_OUTRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).OutragedEngieKillCount == 375) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.DIAMOND_OUTRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).OutragedEngieKillCount == 500) {
+						if (world instanceof Level _level && !_level.isClientSide()) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(AllaboutengieModItems.NETHERITE_OUTRAGED_ENGIE_PLUSH.get()));
+							entityToSpawn.setPickUpDelay(10);
+							entityToSpawn.setUnlimitedLifetime();
+							_level.addFreshEntity(entityToSpawn);
+						}
+					}
+				});
+			} else if (entity instanceof OutragedEngieStyle2Entity) {
 				{
 					double _setval = (sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).OutragedEngieKillCount + 1;
 					sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

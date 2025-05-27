@@ -37,10 +37,10 @@ import java.util.function.Supplier;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AllaboutengieModVariables {
 	public static boolean decembercodeblock = true;
-	public static boolean seasonwinter = false;
 	public static boolean seasonautumn = false;
-	public static boolean seasonsummer = false;
 	public static boolean seasonspring = false;
+	public static boolean seasonsummer = false;
+	public static boolean seasonwinter = false;
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -78,26 +78,33 @@ public class AllaboutengieModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-			clone.detecstart = original.detecstart;
-			clone.coderedeemblock = original.coderedeemblock;
-			clone.coincount = original.coincount;
+			clone.AngryEngieKillCount = original.AngryEngieKillCount;
 			clone.browniescount = original.browniescount;
 			clone.cheeseballcount = original.cheeseballcount;
-			clone.PlayerX = original.PlayerX;
-			clone.PlayerY = original.PlayerY;
-			clone.PlayerZ = original.PlayerZ;
+			clone.coincount = original.coincount;
+			clone.EnragedEngieKillCount = original.EnragedEngieKillCount;
 			clone.HHGLookX = original.HHGLookX;
 			clone.HHGLookY = original.HHGLookY;
 			clone.HHGLookZ = original.HHGLookZ;
-			clone.GoodLuck = original.GoodLuck;
-			clone.playerready = original.playerready;
-			clone.AngryEngieKillCount = original.AngryEngieKillCount;
-			clone.EnragedEngieKillCount = original.EnragedEngieKillCount;
-			clone.OutragedEngieKillCount = original.OutragedEngieKillCount;
 			clone.InsanityKillCount = original.InsanityKillCount;
+			clone.lightningX = original.lightningX;
+			clone.lightningY = original.lightningY;
+			clone.lightningZ = original.lightningZ;
 			clone.MadEngieKillCount = original.MadEngieKillCount;
-			clone.solotrophyobtained = original.solotrophyobtained;
+			clone.OutragedEngieKillCount = original.OutragedEngieKillCount;
+			clone.PlayerX = original.PlayerX;
+			clone.PlayerY = original.PlayerY;
+			clone.PlayerZ = original.PlayerZ;
+			clone.coderedeemblock = original.coderedeemblock;
+			clone.detecstart = original.detecstart;
+			clone.DoomsdayAlive = original.DoomsdayAlive;
+			clone.DoomsDayDead = original.DoomsDayDead;
+			clone.GoodLuck = original.GoodLuck;
+			clone.healthreductiondday = original.healthreductiondday;
 			clone.multiplayertrophyobtained = original.multiplayertrophyobtained;
+			clone.playerready = original.playerready;
+			clone.solotrophyobtained = original.solotrophyobtained;
+			clone.BlockDeathAliveCOunt = original.BlockDeathAliveCOunt;
 			if (!event.isWasDeath()) {
 				clone.firstplay = original.firstplay;
 			}
@@ -164,19 +171,48 @@ public class AllaboutengieModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "allaboutengie_mapvars";
-		public boolean SharkoRetryState = false;
-		public boolean hewhowatches = false;
-		public double nightmare = 0;
-		public boolean HHGkilledtoggle = false;
-		public double challengeplayerreadyupcount = 0;
-		public boolean ChallengeToggle = false;
-		public boolean BYEBYE = false;
+		public double challengeplayerreadyupcount = 0.0;
+		public double DoomsDayAliveCount = 0.0;
+		public double DoomsdayDeathCount = 0.0;
+		public double DoomsdayRiskFailCount = 0.0;
+		public double nightmare = 0.0;
+		public double Risk = 0.0;
+		public double risknumberattempts = 0.0;
+		public double timebeforespecial = 0.0;
 		public boolean Birthday = false;
-		public boolean WELCOMETOINSANITY = false;
 		public boolean birthdaystart = false;
-		public boolean SharkoLayCD = false;
-		public boolean SharkoSleepCD = false;
+		public boolean BYEBYE = false;
+		public boolean ChallengeToggle = false;
+		public boolean darknesscooldown = false;
+		public boolean ddaystart = false;
+		public boolean DoomsdayDialogueStart = false;
+		public boolean doomsdaymainsongstart = false;
+		public boolean hewhowatches = false;
+		public boolean HHGkilledtoggle = false;
+		public boolean lightningcooldowndday = false;
 		public boolean madlads = false;
+		public boolean OHBOY = false;
+		public boolean OHNO = false;
+		public boolean riskcheckedstart = false;
+		public boolean riskcooldown = true;
+		public boolean SharkoLayCD = false;
+		public boolean SharkoRetryState = false;
+		public boolean SharkoSleepCD = false;
+		public boolean WELCOMETOINSANITY = false;
+		public boolean GOODBYE = false;
+		public boolean SDDAY = false;
+		public boolean DoomsdayEeriePlayOnce = false;
+		public boolean DoomsDayStart = false;
+		public boolean ddaytimenighttimerblock = false;
+		public boolean ddaydialoguetimeblock = false;
+		public boolean sddaydialoguetimeblock = false;
+		public boolean NDoomsdayStartMusicBlock = true;
+		public boolean SDoomsdayStartMusicBlock = true;
+		public boolean waittildoomsday = false;
+		public boolean SDoomsdayStartMusicBlock2 = true;
+		public boolean SDDAYtypetoggle = false;
+		public boolean DDAYtypetoggle = false;
+		public double PlayerWorldCount = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -185,36 +221,94 @@ public class AllaboutengieModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
-			SharkoRetryState = nbt.getBoolean("SharkoRetryState");
-			hewhowatches = nbt.getBoolean("hewhowatches");
-			nightmare = nbt.getDouble("nightmare");
-			HHGkilledtoggle = nbt.getBoolean("HHGkilledtoggle");
 			challengeplayerreadyupcount = nbt.getDouble("challengeplayerreadyupcount");
-			ChallengeToggle = nbt.getBoolean("ChallengeToggle");
-			BYEBYE = nbt.getBoolean("BYEBYE");
+			DoomsDayAliveCount = nbt.getDouble("DoomsDayAliveCount");
+			DoomsdayDeathCount = nbt.getDouble("DoomsdayDeathCount");
+			DoomsdayRiskFailCount = nbt.getDouble("DoomsdayRiskFailCount");
+			nightmare = nbt.getDouble("nightmare");
+			Risk = nbt.getDouble("Risk");
+			risknumberattempts = nbt.getDouble("risknumberattempts");
+			timebeforespecial = nbt.getDouble("timebeforespecial");
 			Birthday = nbt.getBoolean("Birthday");
-			WELCOMETOINSANITY = nbt.getBoolean("WELCOMETOINSANITY");
 			birthdaystart = nbt.getBoolean("birthdaystart");
-			SharkoLayCD = nbt.getBoolean("SharkoLayCD");
-			SharkoSleepCD = nbt.getBoolean("SharkoSleepCD");
+			BYEBYE = nbt.getBoolean("BYEBYE");
+			ChallengeToggle = nbt.getBoolean("ChallengeToggle");
+			darknesscooldown = nbt.getBoolean("darknesscooldown");
+			ddaystart = nbt.getBoolean("ddaystart");
+			DoomsdayDialogueStart = nbt.getBoolean("DoomsdayDialogueStart");
+			doomsdaymainsongstart = nbt.getBoolean("doomsdaymainsongstart");
+			hewhowatches = nbt.getBoolean("hewhowatches");
+			HHGkilledtoggle = nbt.getBoolean("HHGkilledtoggle");
+			lightningcooldowndday = nbt.getBoolean("lightningcooldowndday");
 			madlads = nbt.getBoolean("madlads");
+			OHBOY = nbt.getBoolean("OHBOY");
+			OHNO = nbt.getBoolean("OHNO");
+			riskcheckedstart = nbt.getBoolean("riskcheckedstart");
+			riskcooldown = nbt.getBoolean("riskcooldown");
+			SharkoLayCD = nbt.getBoolean("SharkoLayCD");
+			SharkoRetryState = nbt.getBoolean("SharkoRetryState");
+			SharkoSleepCD = nbt.getBoolean("SharkoSleepCD");
+			WELCOMETOINSANITY = nbt.getBoolean("WELCOMETOINSANITY");
+			GOODBYE = nbt.getBoolean("GOODBYE");
+			SDDAY = nbt.getBoolean("SDDAY");
+			DoomsdayEeriePlayOnce = nbt.getBoolean("DoomsdayEeriePlayOnce");
+			DoomsDayStart = nbt.getBoolean("DoomsDayStart");
+			ddaytimenighttimerblock = nbt.getBoolean("ddaytimenighttimerblock");
+			ddaydialoguetimeblock = nbt.getBoolean("ddaydialoguetimeblock");
+			sddaydialoguetimeblock = nbt.getBoolean("sddaydialoguetimeblock");
+			NDoomsdayStartMusicBlock = nbt.getBoolean("NDoomsdayStartMusicBlock");
+			SDoomsdayStartMusicBlock = nbt.getBoolean("SDoomsdayStartMusicBlock");
+			waittildoomsday = nbt.getBoolean("waittildoomsday");
+			SDoomsdayStartMusicBlock2 = nbt.getBoolean("SDoomsdayStartMusicBlock2");
+			SDDAYtypetoggle = nbt.getBoolean("SDDAYtypetoggle");
+			DDAYtypetoggle = nbt.getBoolean("DDAYtypetoggle");
+			PlayerWorldCount = nbt.getDouble("PlayerWorldCount");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
-			nbt.putBoolean("SharkoRetryState", SharkoRetryState);
-			nbt.putBoolean("hewhowatches", hewhowatches);
-			nbt.putDouble("nightmare", nightmare);
-			nbt.putBoolean("HHGkilledtoggle", HHGkilledtoggle);
 			nbt.putDouble("challengeplayerreadyupcount", challengeplayerreadyupcount);
-			nbt.putBoolean("ChallengeToggle", ChallengeToggle);
-			nbt.putBoolean("BYEBYE", BYEBYE);
+			nbt.putDouble("DoomsDayAliveCount", DoomsDayAliveCount);
+			nbt.putDouble("DoomsdayDeathCount", DoomsdayDeathCount);
+			nbt.putDouble("DoomsdayRiskFailCount", DoomsdayRiskFailCount);
+			nbt.putDouble("nightmare", nightmare);
+			nbt.putDouble("Risk", Risk);
+			nbt.putDouble("risknumberattempts", risknumberattempts);
+			nbt.putDouble("timebeforespecial", timebeforespecial);
 			nbt.putBoolean("Birthday", Birthday);
-			nbt.putBoolean("WELCOMETOINSANITY", WELCOMETOINSANITY);
 			nbt.putBoolean("birthdaystart", birthdaystart);
-			nbt.putBoolean("SharkoLayCD", SharkoLayCD);
-			nbt.putBoolean("SharkoSleepCD", SharkoSleepCD);
+			nbt.putBoolean("BYEBYE", BYEBYE);
+			nbt.putBoolean("ChallengeToggle", ChallengeToggle);
+			nbt.putBoolean("darknesscooldown", darknesscooldown);
+			nbt.putBoolean("ddaystart", ddaystart);
+			nbt.putBoolean("DoomsdayDialogueStart", DoomsdayDialogueStart);
+			nbt.putBoolean("doomsdaymainsongstart", doomsdaymainsongstart);
+			nbt.putBoolean("hewhowatches", hewhowatches);
+			nbt.putBoolean("HHGkilledtoggle", HHGkilledtoggle);
+			nbt.putBoolean("lightningcooldowndday", lightningcooldowndday);
 			nbt.putBoolean("madlads", madlads);
+			nbt.putBoolean("OHBOY", OHBOY);
+			nbt.putBoolean("OHNO", OHNO);
+			nbt.putBoolean("riskcheckedstart", riskcheckedstart);
+			nbt.putBoolean("riskcooldown", riskcooldown);
+			nbt.putBoolean("SharkoLayCD", SharkoLayCD);
+			nbt.putBoolean("SharkoRetryState", SharkoRetryState);
+			nbt.putBoolean("SharkoSleepCD", SharkoSleepCD);
+			nbt.putBoolean("WELCOMETOINSANITY", WELCOMETOINSANITY);
+			nbt.putBoolean("GOODBYE", GOODBYE);
+			nbt.putBoolean("SDDAY", SDDAY);
+			nbt.putBoolean("DoomsdayEeriePlayOnce", DoomsdayEeriePlayOnce);
+			nbt.putBoolean("DoomsDayStart", DoomsDayStart);
+			nbt.putBoolean("ddaytimenighttimerblock", ddaytimenighttimerblock);
+			nbt.putBoolean("ddaydialoguetimeblock", ddaydialoguetimeblock);
+			nbt.putBoolean("sddaydialoguetimeblock", sddaydialoguetimeblock);
+			nbt.putBoolean("NDoomsdayStartMusicBlock", NDoomsdayStartMusicBlock);
+			nbt.putBoolean("SDoomsdayStartMusicBlock", SDoomsdayStartMusicBlock);
+			nbt.putBoolean("waittildoomsday", waittildoomsday);
+			nbt.putBoolean("SDoomsdayStartMusicBlock2", SDoomsdayStartMusicBlock2);
+			nbt.putBoolean("SDDAYtypetoggle", SDDAYtypetoggle);
+			nbt.putBoolean("DDAYtypetoggle", DDAYtypetoggle);
+			nbt.putDouble("PlayerWorldCount", PlayerWorldCount);
 			return nbt;
 		}
 
@@ -303,27 +397,34 @@ public class AllaboutengieModVariables {
 	}
 
 	public static class PlayerVariables {
-		public boolean firstplay = false;
-		public boolean detecstart = false;
+		public double AngryEngieKillCount = 0.0;
+		public double browniescount = 0.0;
+		public double cheeseballcount = 0.0;
+		public double coincount = 0.0;
+		public double EnragedEngieKillCount = 0.0;
+		public double HHGLookX = 0.0;
+		public double HHGLookY = 0.0;
+		public double HHGLookZ = 0.0;
+		public double InsanityKillCount = 0.0;
+		public double lightningX = 0.0;
+		public double lightningY = 0.0;
+		public double lightningZ = 0.0;
+		public double MadEngieKillCount = 0.0;
+		public double OutragedEngieKillCount = 0.0;
+		public double PlayerX = 0.0;
+		public double PlayerY = 0.0;
+		public double PlayerZ = 0.0;
 		public boolean coderedeemblock = false;
-		public double coincount = 0;
-		public double browniescount = 0;
-		public double cheeseballcount = 0;
-		public double PlayerX = 0;
-		public double PlayerY = 0;
-		public double PlayerZ = 0;
-		public double HHGLookX = 0;
-		public double HHGLookY = 0;
-		public double HHGLookZ = 0;
+		public boolean detecstart = false;
+		public boolean DoomsdayAlive = false;
+		public boolean DoomsDayDead = true;
+		public boolean firstplay = false;
 		public boolean GoodLuck = false;
-		public boolean playerready = false;
-		public double AngryEngieKillCount = 0;
-		public double EnragedEngieKillCount = 0;
-		public double OutragedEngieKillCount = 0;
-		public double InsanityKillCount = 0;
-		public double MadEngieKillCount = 0;
-		public boolean solotrophyobtained = false;
+		public boolean healthreductiondday = false;
 		public boolean multiplayertrophyobtained = false;
+		public boolean playerready = false;
+		public boolean solotrophyobtained = false;
+		public boolean BlockDeathAliveCOunt = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -332,53 +433,67 @@ public class AllaboutengieModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putBoolean("firstplay", firstplay);
-			nbt.putBoolean("detecstart", detecstart);
-			nbt.putBoolean("coderedeemblock", coderedeemblock);
-			nbt.putDouble("coincount", coincount);
+			nbt.putDouble("AngryEngieKillCount", AngryEngieKillCount);
 			nbt.putDouble("browniescount", browniescount);
 			nbt.putDouble("cheeseballcount", cheeseballcount);
-			nbt.putDouble("PlayerX", PlayerX);
-			nbt.putDouble("PlayerY", PlayerY);
-			nbt.putDouble("PlayerZ", PlayerZ);
+			nbt.putDouble("coincount", coincount);
+			nbt.putDouble("EnragedEngieKillCount", EnragedEngieKillCount);
 			nbt.putDouble("HHGLookX", HHGLookX);
 			nbt.putDouble("HHGLookY", HHGLookY);
 			nbt.putDouble("HHGLookZ", HHGLookZ);
-			nbt.putBoolean("GoodLuck", GoodLuck);
-			nbt.putBoolean("playerready", playerready);
-			nbt.putDouble("AngryEngieKillCount", AngryEngieKillCount);
-			nbt.putDouble("EnragedEngieKillCount", EnragedEngieKillCount);
-			nbt.putDouble("OutragedEngieKillCount", OutragedEngieKillCount);
 			nbt.putDouble("InsanityKillCount", InsanityKillCount);
+			nbt.putDouble("lightningX", lightningX);
+			nbt.putDouble("lightningY", lightningY);
+			nbt.putDouble("lightningZ", lightningZ);
 			nbt.putDouble("MadEngieKillCount", MadEngieKillCount);
-			nbt.putBoolean("solotrophyobtained", solotrophyobtained);
+			nbt.putDouble("OutragedEngieKillCount", OutragedEngieKillCount);
+			nbt.putDouble("PlayerX", PlayerX);
+			nbt.putDouble("PlayerY", PlayerY);
+			nbt.putDouble("PlayerZ", PlayerZ);
+			nbt.putBoolean("coderedeemblock", coderedeemblock);
+			nbt.putBoolean("detecstart", detecstart);
+			nbt.putBoolean("DoomsdayAlive", DoomsdayAlive);
+			nbt.putBoolean("DoomsDayDead", DoomsDayDead);
+			nbt.putBoolean("firstplay", firstplay);
+			nbt.putBoolean("GoodLuck", GoodLuck);
+			nbt.putBoolean("healthreductiondday", healthreductiondday);
 			nbt.putBoolean("multiplayertrophyobtained", multiplayertrophyobtained);
+			nbt.putBoolean("playerready", playerready);
+			nbt.putBoolean("solotrophyobtained", solotrophyobtained);
+			nbt.putBoolean("BlockDeathAliveCOunt", BlockDeathAliveCOunt);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
-			firstplay = nbt.getBoolean("firstplay");
-			detecstart = nbt.getBoolean("detecstart");
-			coderedeemblock = nbt.getBoolean("coderedeemblock");
-			coincount = nbt.getDouble("coincount");
+			AngryEngieKillCount = nbt.getDouble("AngryEngieKillCount");
 			browniescount = nbt.getDouble("browniescount");
 			cheeseballcount = nbt.getDouble("cheeseballcount");
-			PlayerX = nbt.getDouble("PlayerX");
-			PlayerY = nbt.getDouble("PlayerY");
-			PlayerZ = nbt.getDouble("PlayerZ");
+			coincount = nbt.getDouble("coincount");
+			EnragedEngieKillCount = nbt.getDouble("EnragedEngieKillCount");
 			HHGLookX = nbt.getDouble("HHGLookX");
 			HHGLookY = nbt.getDouble("HHGLookY");
 			HHGLookZ = nbt.getDouble("HHGLookZ");
-			GoodLuck = nbt.getBoolean("GoodLuck");
-			playerready = nbt.getBoolean("playerready");
-			AngryEngieKillCount = nbt.getDouble("AngryEngieKillCount");
-			EnragedEngieKillCount = nbt.getDouble("EnragedEngieKillCount");
-			OutragedEngieKillCount = nbt.getDouble("OutragedEngieKillCount");
 			InsanityKillCount = nbt.getDouble("InsanityKillCount");
+			lightningX = nbt.getDouble("lightningX");
+			lightningY = nbt.getDouble("lightningY");
+			lightningZ = nbt.getDouble("lightningZ");
 			MadEngieKillCount = nbt.getDouble("MadEngieKillCount");
-			solotrophyobtained = nbt.getBoolean("solotrophyobtained");
+			OutragedEngieKillCount = nbt.getDouble("OutragedEngieKillCount");
+			PlayerX = nbt.getDouble("PlayerX");
+			PlayerY = nbt.getDouble("PlayerY");
+			PlayerZ = nbt.getDouble("PlayerZ");
+			coderedeemblock = nbt.getBoolean("coderedeemblock");
+			detecstart = nbt.getBoolean("detecstart");
+			DoomsdayAlive = nbt.getBoolean("DoomsdayAlive");
+			DoomsDayDead = nbt.getBoolean("DoomsDayDead");
+			firstplay = nbt.getBoolean("firstplay");
+			GoodLuck = nbt.getBoolean("GoodLuck");
+			healthreductiondday = nbt.getBoolean("healthreductiondday");
 			multiplayertrophyobtained = nbt.getBoolean("multiplayertrophyobtained");
+			playerready = nbt.getBoolean("playerready");
+			solotrophyobtained = nbt.getBoolean("solotrophyobtained");
+			BlockDeathAliveCOunt = nbt.getBoolean("BlockDeathAliveCOunt");
 		}
 	}
 
@@ -403,27 +518,34 @@ public class AllaboutengieModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-					variables.firstplay = message.data.firstplay;
-					variables.detecstart = message.data.detecstart;
-					variables.coderedeemblock = message.data.coderedeemblock;
-					variables.coincount = message.data.coincount;
+					variables.AngryEngieKillCount = message.data.AngryEngieKillCount;
 					variables.browniescount = message.data.browniescount;
 					variables.cheeseballcount = message.data.cheeseballcount;
-					variables.PlayerX = message.data.PlayerX;
-					variables.PlayerY = message.data.PlayerY;
-					variables.PlayerZ = message.data.PlayerZ;
+					variables.coincount = message.data.coincount;
+					variables.EnragedEngieKillCount = message.data.EnragedEngieKillCount;
 					variables.HHGLookX = message.data.HHGLookX;
 					variables.HHGLookY = message.data.HHGLookY;
 					variables.HHGLookZ = message.data.HHGLookZ;
-					variables.GoodLuck = message.data.GoodLuck;
-					variables.playerready = message.data.playerready;
-					variables.AngryEngieKillCount = message.data.AngryEngieKillCount;
-					variables.EnragedEngieKillCount = message.data.EnragedEngieKillCount;
-					variables.OutragedEngieKillCount = message.data.OutragedEngieKillCount;
 					variables.InsanityKillCount = message.data.InsanityKillCount;
+					variables.lightningX = message.data.lightningX;
+					variables.lightningY = message.data.lightningY;
+					variables.lightningZ = message.data.lightningZ;
 					variables.MadEngieKillCount = message.data.MadEngieKillCount;
-					variables.solotrophyobtained = message.data.solotrophyobtained;
+					variables.OutragedEngieKillCount = message.data.OutragedEngieKillCount;
+					variables.PlayerX = message.data.PlayerX;
+					variables.PlayerY = message.data.PlayerY;
+					variables.PlayerZ = message.data.PlayerZ;
+					variables.coderedeemblock = message.data.coderedeemblock;
+					variables.detecstart = message.data.detecstart;
+					variables.DoomsdayAlive = message.data.DoomsdayAlive;
+					variables.DoomsDayDead = message.data.DoomsDayDead;
+					variables.firstplay = message.data.firstplay;
+					variables.GoodLuck = message.data.GoodLuck;
+					variables.healthreductiondday = message.data.healthreductiondday;
 					variables.multiplayertrophyobtained = message.data.multiplayertrophyobtained;
+					variables.playerready = message.data.playerready;
+					variables.solotrophyobtained = message.data.solotrophyobtained;
+					variables.BlockDeathAliveCOunt = message.data.BlockDeathAliveCOunt;
 				}
 			});
 			context.setPacketHandled(true);

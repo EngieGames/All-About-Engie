@@ -21226,203 +21226,746 @@
         ]
       },
       "path": "~/All Items/Other"
+    },
+    {
+      "name": "EngiesBirthdayBundleUI",
+      "type": "gui",
+      "sortid": 1151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_birthday_bundle_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/world/inventory/EngiesBirthdayBundleUIMenu.java",
+          "src/main/java/net/mcreator/allaboutengie/network/EngiesBirthdayBundleUIButtonMessage.java",
+          "src/main/java/net/mcreator/allaboutengie/client/gui/EngiesBirthdayBundleUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "EngiesBirthdayBundle",
+      "type": "item",
+      "sortid": 1152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_birthday_bundle25",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/allaboutengie/models/item/engies_birthday_bundle25.json",
+          "src/main/java/net/mcreator/allaboutengie/item/EngiesBirthdayBundleItem.java",
+          "src/main/java/net/mcreator/allaboutengie/item/inventory/EngiesBirthdayBundleInventoryCapability.java"
+        ]
+      },
+      "path": "~/All Items/Regular/Items"
+    },
+    {
+      "name": "EngiesBirthdayBundleNameChange",
+      "type": "procedure",
+      "sortid": 1153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_birthday_bundle_name_change",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngiesBirthdayBundleNameChangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngiesBirthdayBundleDisplayNameCheck",
+      "type": "procedure",
+      "sortid": 1154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_birthday_bundle_display_name_check",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngiesBirthdayBundleDisplayNameCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OhNo",
+      "type": "procedure",
+      "sortid": 1155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_no",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/OhNoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OHBOY",
+      "type": "procedure",
+      "sortid": 1156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohboy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/OHBOYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RiskCheck",
+      "type": "procedure",
+      "sortid": 1157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "risk_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/RiskCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsdayChaos",
+      "type": "procedure",
+      "sortid": 1158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_chaos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsdayChaosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsdayDialogue",
+      "type": "procedure",
+      "sortid": 1159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_dialogue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsdayDialogueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TimeCheck",
+      "type": "procedure",
+      "sortid": 1161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TimeCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Conqueror",
+      "type": "achievement",
+      "sortid": 1162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conqueror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/conqueror.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RISE",
+      "type": "achievement",
+      "sortid": 1163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rise",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/rise.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SDDAYConqueror",
+      "type": "achievement",
+      "sortid": 1164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdday_conqueror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/allaboutengie/advancements/sdday_conqueror.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SuperDoomsday",
+      "type": "gamerule",
+      "sortid": 1165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_doomsday",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Gamerule"
+    },
+    {
+      "name": "DoomsDayMobsFightEachotherToggle",
+      "type": "procedure",
+      "sortid": 1166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_mobs_fight_eachother_toggle",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayMobsFightEachotherToggleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "YellowLightning",
+      "type": "livingentity",
+      "sortid": 1167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/YellowLightningRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/YellowLightningEntity.java"
+        ]
+      },
+      "path": "~/Mobs/hm"
+    },
+    {
+      "name": "BlueBurst",
+      "type": "livingentity",
+      "sortid": 1168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_burst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/BlueBurstRenderer.java",
+          "src/main/java/net/mcreator/allaboutengie/entity/BlueBurstEntity.java"
+        ]
+      },
+      "path": "~/Mobs/hm"
+    },
+    {
+      "name": "Normal",
+      "type": "livingentity",
+      "sortid": 1169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/NormalEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/NormalRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/hm"
+    },
+    {
+      "name": "MOAB",
+      "type": "livingentity",
+      "sortid": 1170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/MOABEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/MOABRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/hm"
+    },
+    {
+      "name": "MissileTickUpdate",
+      "type": "procedure",
+      "sortid": 1171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missile_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/MissileTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayDeathCheck",
+      "type": "procedure",
+      "sortid": 1172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_death_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayDeathCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsdayAliveCountUICheck",
+      "type": "procedure",
+      "sortid": 1173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_alive_count_ui_check",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsdayAliveCountUICheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsdayDeadCountUICheck",
+      "type": "procedure",
+      "sortid": 1174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomsday_dead_count_ui_check",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsdayDeadCountUICheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayAliveDeathCountDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 1175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_alive_death_count_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayAliveDeathCountDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayAliveDeathCount",
+      "type": "overlay",
+      "sortid": 1176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_alive_death_count",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/screens/DoomsDayAliveDeathCountOverlay.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "PureInsanity",
+      "type": "livingentity",
+      "sortid": 1178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_insanity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/entity/PureInsanityEntity.java",
+          "src/main/java/net/mcreator/allaboutengie/client/renderer/PureInsanityRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    },
+    {
+      "name": "InsanityGetsStruckByLightning",
+      "type": "procedure",
+      "sortid": 1180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insanity_gets_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/InsanityGetsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SDDAYToggle",
+      "type": "procedure",
+      "sortid": 1182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdday_toggle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SDDAYToggleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PlayerWorldCount",
+      "type": "procedure",
+      "sortid": 1183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_world_count",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/PlayerWorldCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
     {
-      "name": "yeah",
-      "type": "logic",
-      "scope": "world",
-      "value": "false"
-    },
-    {
-      "name": "firstplay",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "false"
-    },
-    {
-      "name": "detecstart",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
-    },
-    {
-      "name": "coderedeemblock",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
-    },
-    {
-      "name": "decembercodeblock",
-      "type": "logic",
-      "scope": "global",
-      "value": "true"
-    },
-    {
-      "name": "seasonwinter",
-      "type": "logic",
-      "scope": "global",
-      "value": "false"
-    },
-    {
-      "name": "seasonautumn",
-      "type": "logic",
-      "scope": "global",
-      "value": "false"
-    },
-    {
-      "name": "seasonsummer",
-      "type": "logic",
-      "scope": "global",
-      "value": "false"
-    },
-    {
-      "name": "seasonspring",
-      "type": "logic",
-      "scope": "global",
-      "value": "false"
-    },
-    {
-      "name": "coincount",
+      "name": "AngryEngieKillCount",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "browniescount",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "cheeseballcount",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "SharkoRetryState",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "hewhowatches",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "nightmare",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
-    },
-    {
-      "name": "PlayerX",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "PlayerY",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "PlayerZ",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "HHGLookX",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "HHGLookY",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "HHGLookZ",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "HHGkilledtoggle",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "GoodLuck",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "challengeplayerreadyupcount",
       "type": "number",
       "scope": "map",
-      "value": "0"
+      "value": "0.0"
     },
     {
-      "name": "ChallengeToggle",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "playerready",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
-    },
-    {
-      "name": "BYEBYE",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "AngryEngieKillCount",
+      "name": "cheeseballcount",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
+    },
+    {
+      "name": "coincount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "DoomsDayAliveCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "DoomsdayDeathCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "DoomsdayRiskFailCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
     },
     {
       "name": "EnragedEngieKillCount",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
-      "name": "OutragedEngieKillCount",
+      "name": "HHGLookX",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
+    },
+    {
+      "name": "HHGLookY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "HHGLookZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     },
     {
       "name": "InsanityKillCount",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
+    },
+    {
+      "name": "lightningX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "lightningY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "lightningZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "MadEngieKillCount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "nightmare",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "OutragedEngieKillCount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "Risk",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "risknumberattempts",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "timebeforespecial",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
     },
     {
       "name": "Birthday",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "WELCOMETOINSANITY",
       "type": "logic",
       "scope": "map",
       "value": "false"
@@ -21434,19 +21977,103 @@
       "value": "false"
     },
     {
-      "name": "MadEngieKillCount",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "SharkoLayCD",
+      "name": "BYEBYE",
       "type": "logic",
       "scope": "map",
       "value": "false"
     },
     {
-      "name": "SharkoSleepCD",
+      "name": "ChallengeToggle",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "coderedeemblock",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "darknesscooldown",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "ddaystart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "decembercodeblock",
+      "type": "logic",
+      "scope": "global",
+      "value": "true"
+    },
+    {
+      "name": "detecstart",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "DoomsdayAlive",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "DoomsDayDead",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "DoomsdayDialogueStart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "doomsdaymainsongstart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "firstplay",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "GoodLuck",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "healthreductiondday",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hewhowatches",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "HHGkilledtoggle",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "lightningcooldowndday",
       "type": "logic",
       "scope": "map",
       "value": "false"
@@ -21458,16 +22085,190 @@
       "value": "false"
     },
     {
+      "name": "multiplayertrophyobtained",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "OHBOY",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "OHNO",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "playerready",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "riskcheckedstart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "riskcooldown",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "seasonautumn",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "seasonspring",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "seasonsummer",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "seasonwinter",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "SharkoLayCD",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SharkoRetryState",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SharkoSleepCD",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
       "name": "solotrophyobtained",
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
     },
     {
-      "name": "multiplayertrophyobtained",
+      "name": "WELCOMETOINSANITY",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "yeah",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "BlockDeathAliveCOunt",
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "GOODBYE",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SDDAY",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "DoomsdayEeriePlayOnce",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "DoomsDayStart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "ddaytimenighttimerblock",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "ddaydialoguetimeblock",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "sddaydialoguetimeblock",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "NDoomsdayStartMusicBlock",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "SDoomsdayStartMusicBlock",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "waittildoomsday",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SDoomsdayStartMusicBlock2",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "SDDAYtypetoggle",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "DDAYtypetoggle",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "PlayerWorldCount",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -21478,6 +22279,30 @@
       ],
       "category": "record",
       "subtitle": "Mr. Sauceman - Bye Bye There (TCToP)"
+    },
+    {
+      "name": "doomsday_eerie",
+      "files": [
+        "doomsdayeerie"
+      ],
+      "category": "ambient",
+      "subtitle": "Doomsday is here."
+    },
+    {
+      "name": "doomsday_start",
+      "files": [
+        "doomsdayphase1"
+      ],
+      "category": "ambient",
+      "subtitle": "GOOD LUCK"
+    },
+    {
+      "name": "doomsday_eerie_2",
+      "files": [
+        "doomsdayeerie2"
+      ],
+      "category": "ambient",
+      "subtitle": "SUPER DOOMSDAY"
     }
   ],
   "language_map": {
@@ -21527,6 +22352,7 @@
       "block.aae_items.metal_chest_acacia": "Acacia Metal Chest",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
       "entity.allaboutengie.exotic_sharko_lay": "[Tamed] Exotic Sharko (Laying)",
+      "advancements.rise.descr": "Encounter SUPER DOOMSDAY - Doomsday that occurs with the SUPER DOOMSDAY Modifier on.",
       "item.allaboutengie.uncommon_hoe": "Uncommon Hoe",
       "entity.allaboutengie.outraged_engie_sharko": "Outraged Engie",
       "entity.allaboutengie.atlas_sleep": "Atlas (Sleeping)",
@@ -21560,6 +22386,7 @@
       "item.allaboutengie.monstrosity_engies_helmet": "Monstrosity Engie Helmet",
       "item.allaboutengie.rare_sharko_april_fools_spawn_egg": "Rare Sharko Spawn Egg",
       "painting.allaboutengie.ez.author": "DevEngie",
+      "entity.allaboutengie.blue_burst": "Blue Burst",
       "gui.allaboutengie.creative_engie_bundle_ui.ChangeBundleName": "Creative mode be like:",
       "item.allaboutengie.operators_helmet": "Operators Helmet",
       "item.allaboutengie.biblically_accurate_engies_boots": "Biblically Accurate Engie Boots",
@@ -21574,6 +22401,7 @@
       "entity.allaboutengie.angry_engie_sharko": "Angry Engie",
       "item.aae_items.big_ban_hammer_pixel": "Big Ban Hammer Pixel",
       "entity.allaboutengie.big_engie_sharko_rare_2_sleep": "[Tamed] {Big} Rare Engie Sharko (Sleeping)",
+      "advancements.conqueror.descr": "Survive the end of the world.",
       "item.allaboutengie.engie_hoe": "Engie Hoe",
       "item_group.allaboutengie.sharkos": "Sharkos",
       "item.aae_items.dough_with_sauce": "Dough With Sauce",
@@ -21624,6 +22452,7 @@
       "block.aae_items.old_deepslate_engie_ore": "Engie Ore",
       "item.allaboutengie.uncommon_axe": "Uncommon Axe",
       "painting.allaboutengie.need_thoughts.title": "Head Empty, Need Thoughts",
+      "advancements.sdday_conqueror.descr": "Survive the full wrath of Mother Nature.",
       "entity.allaboutengie.mythic_engie": "Mythic Engie",
       "entity.allaboutengie.buddy_zoomies": "Buddy",
       "advancements.monstrosity_engie_tools_obtained.descr": "Obtain your first Monstrosity Engie tool.",
@@ -21637,6 +22466,7 @@
       "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
       "entity.allaboutengie.monstrosity_engie": "Monstrosity Engie",
       "entity.allaboutengie.exotic_sharko_tamed_zoomies_tired": "[Tamed] Exotic Sharko (Worn Out)",
+      "entity.allaboutengie.yellow_lightning": "Yellow Lightning",
       "item.aae_items.engie_chestplate": "Engie Chestplate",
       "entity.allaboutengie.tiger_lay": "Tiger [Laying]",
       "advancements.massive_ban_obtain.title": "Remember lads: NO RULEBREAKING.",
@@ -21648,6 +22478,7 @@
       "item.allaboutengie.aae_dev_engie": "DevEngie (real)",
       "gui.allaboutengie.creative_engie_bundle_ui.button_set_name": "Set Name",
       "entity.allaboutengie.mythic_sharko_tamed": "[Tamed] Mythic Sharko",
+      "gui.allaboutengie.creative_engie_bundle_ui.button_next_page": "Next Page",
       "advancements.ban_challenge_obtain.descr": "You\u0027re still going to need the luck.",
       "entity.allaboutengie.enraged_speed_8": "Enraged Speed",
       "entity.allaboutengie.enraged_speed_9": "Enraged Speed",
@@ -21668,6 +22499,7 @@
       "item.allaboutengie.rare_helmet": "Rare Helmet",
       "painting.allaboutengie.playedbyengie.author": "playedbyengie (clippedbyengie)",
       "item.allaboutengie.big_ban_hammer": "Big Ban Hammer",
+      "item.allaboutengie.engies_birthday_bundle25": "Engies Birthday Bundle (2025)",
       "item.allaboutengie.monstrosity_engies_chestplate": "Monstrosity Engie Chestplate",
       "item.allaboutengie.biblically_accurate_engie_ban_hammer": "Biblically Accurate Ban Hammer",
       "item.aae_items.cheese": "Cheese",
@@ -21681,6 +22513,7 @@
       "advancements.biblically_accurate_ban_obtain.title": "Take a break dude. You\u0027re gonna need it.",
       "entity.allaboutengie.engie": "Engie",
       "item.allaboutengie.mini_ban_hammer_pixel": "Pixelized Mini Ban Hammer",
+      "entity.allaboutengie.moab": "M.O.A.B",
       "entity.allaboutengie.enraged_speed_2": "Enraged Speed",
       "advancements.gigantic_ban_obtain.title": "DevEngie approved. :D",
       "entity.allaboutengie.enraged_speed_3": "Enraged Speed",
@@ -21791,6 +22624,7 @@
       "item.allaboutengie.enchanted_engie_cookie": "Enchanted Engie Cookie",
       "block.allaboutengie.engie_block": "Engie Block",
       "advancements.big_ban_obtain.title": "Eh, could be a bit bigger. I don\u0027t mind it.",
+      "entity.allaboutengie.normal": "Normal",
       "item.allaboutengie.engies_chestplate": "Engie Chestplate",
       "entity.allaboutengie.marshal": "Marshal",
       "item.aae_items.engi_shovel": "Engi Shovel",
@@ -21809,6 +22643,7 @@
       "item.allaboutengie.rare_axe": "Rare Axe",
       "advancements.comically_massive_obtain.descr": "Redeem DevEngies secret code. ;)",
       "entity.allaboutengie.big_sharko": "{Big} Sharko",
+      "advancements.rise.title": "Rise",
       "item.allaboutengie.crucifix": "Crucifix",
       "item.allaboutengie.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.albino_shark_leggings": "Albino Sharko Leggings",
@@ -21823,6 +22658,7 @@
       "item.allaboutengie.massive_ban_hammer_pixel": "Pixelized Massive Ban Hammer",
       "item.allaboutengie.rare_leggings": "Rare Leggings",
       "entity.allaboutengie.epic_sharko_tamed": "[Tamed] Epic Sharko",
+      "subtitles.doomsday_eerie": "Doomsday is here.",
       "item.allaboutengie.exotic_shark_leggings": "Exotic Sharko Leggings",
       "entity.allaboutengie.sharko": "Sharko",
       "entity.allaboutengie.engie_sharko_tamed_april_fools": "[Tamed] Engie Sharko",
@@ -21878,6 +22714,7 @@
       "block.allaboutengie.old_engie_ore": "Engie Ore",
       "entity.allaboutengie.epic_sharko_tamed_april_fools": "[Tamed] Epic Sharko",
       "item.allaboutengie.angry_engie_essence": "Angry Engie Essence",
+      "gui.allaboutengie.creative_engie_bundle_ui.label_page_15": "Page 1/5",
       "item.allaboutengie.legendary_sharko_spawn_egg": "Legendary Sharko Spawn Egg",
       "itemGroup.tabaae_items_items": "Items",
       "item.allaboutengie.enchanted_golden_cookie": "Enchanted Golden Cookie",
@@ -21896,6 +22733,7 @@
       "item.allaboutengie.unobtainium_pickaxe": "Unobtainium Pickaxe",
       "entity.allaboutengie.big_sharko_tamed": "[Tamed] {Big} Sharko",
       "item.allaboutengie.creator_spawn_egg": "Creator Spawn Egg",
+      "entity.allaboutengie.pure_insanity": "Pure Insanity",
       "item.allaboutengie.engi_pickaxe": "Engi Pickaxe",
       "block.allaboutengie.blood_ore": "Blood Ore",
       "entity.allaboutengie.engie_sharko_rare_tamed_zoomies": "[Tamed] Rare Engie Sharko (Zoomies)",
@@ -21906,6 +22744,7 @@
       "item.allaboutengie.sharko_cloth": "Sharko Cloth",
       "advancements.hi_dev_engie.title": "Hi DevEngie!",
       "item.allaboutengie.netherite_outraged_engie_plush": "Netherite Outraged Engie Plush",
+      "gui.allaboutengie.engies_birthday_bundle_ui.button_set_name": "Set Name",
       "entity.allaboutengie.big_exotic_sharko": "{Big} Exotic Sharko",
       "item.allaboutengie.ban_hammer": "Ban Hammer",
       "block.allaboutengie.deepslate_unobtainium_ore": "Deepslate Unobtainium Ore",
@@ -21956,6 +22795,7 @@
       "item.aae_items.angry_engie_axe": "Angry Engie Axe",
       "item.allaboutengie.diamond_angry_engie_plush": "Diamond Angry Engie Plush",
       "gamerule.trueHardcore.description": "If you enabled this with Hardcore enabled (which is highly recommended) GOOD LUCK, YOU\u0027RE GOING TO NEED IT. Challenge: Obtain the biggest ban hammer possible without death or cheats.",
+      "subtitles.doomsday_eerie_2": "SUPER DOOMSDAY",
       "item.allaboutengie.cheese_balls_opened": "Cheese Balls Opened",
       "item.allaboutengie.hwg_chestplate": "HWG Chestplate",
       "itemGroup.tabaae_items_food": "Food",
@@ -22091,6 +22931,7 @@
       "item.allaboutengie.engie_plaque": "Engie Plaque",
       "item.aae_items.cheese_puffs_opened": "Cheese Puffs Opened",
       "block.aae_items.metal_chest_jungle": "Jungle Metal Chest",
+      "advancements.conqueror.title": "Conqueror",
       "item.allaboutengie.large_ban_hammer": "Large Ban Hammer",
       "painting.allaboutengie.i_be_coding.author": "DevEngie",
       "advancements.biblically_accurate_essence_obtained.title": "Something more tame at least.",
@@ -22101,10 +22942,12 @@
       "item.aae_items.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.cheese_balls_unopened": "Cheese Balls Unopened",
       "entity.allaboutengie.albino_sharko_tamed_zoomies_tired": "[Tamed] Albino Sharko (Worn Out)",
+      "advancements.sdday_conqueror.title": "Overachiever",
       "item.allaboutengie.exotic_shark_helmet": "Exotic Sharko Helmet",
       "entity.allaboutengie.tiger_zoomies_tired": "Tiger (Worn Out)",
       "item.aae_items.angry_engie_chestplate": "Angry Engie Chestplate",
       "advancements.angry_engie_armor_made.title": "Well that was a waste of time.",
+      "gamerule.superDoomsday": "Super Doomsday",
       "entity.allaboutengie.outraged_engie": "Outraged Engie",
       "painting.allaboutengie.i_be_coding.title": "I be coding without a clue",
       "advancements.enraged_engie_armor_made.title": "Useful!",
@@ -22167,6 +23010,7 @@
       "item.allaboutengie.legendary_shark_chestplate": "Legendary Sharko Chestplate",
       "item.allaboutengie.engie_shark_chestplate": "Engie Sharko Chestplate",
       "item.allaboutengie.outraged_engies_boots": "Outraged Engie Boots",
+      "gamerule.superDoomsday.description": "Toggle if Mother Nature herself should go all out.",
       "entity.allaboutengie.albino_sharko_sleep": "[Tamed] Albino Sharko (Sleeping)",
       "item.allaboutengie.exotic_pickaxe": "Exotic Pickaxe",
       "item.aae_items.angry_engie_helmet": "Angry Engie Helmet",
@@ -22327,6 +23171,7 @@
       "block.aae_items.metal_chest_crimson": "Crimson Metal Chest",
       "entity.allaboutengie.legendary_sharko_lay": "[Tamed] Legendary Sharko (Laying)",
       "entity.allaboutengie.common_engie": "Common Engie",
+      "subtitles.doomsday_start": "GOOD LUCK",
       "block.allaboutengie.cyber_block": "Cyber Block",
       "item.allaboutengie.engie_sharko_cloth": "Engie Sharko Cloth",
       "entity.allaboutengie.legendary_sharko_lay_april_fools": "[Tamed] Legendary Sharko (Laying)",
@@ -22405,6 +23250,7 @@
       "item.allaboutengie.unobtainium_hoe": "Unobtainium Hoe",
       "item.allaboutengie.enraged_engie_shovel": "Enraged Engie Shovel",
       "item.allaboutengie.rare_shark_leggings": "Rare Sharko Leggings",
+      "gui.allaboutengie.engies_birthday_bundle_ui.ChangeBundleName": "Thanks!",
       "item.allaboutengie.protogen_spawn_egg": "Protogen Spawn Egg",
       "item_group.allaboutengie.pixel_items": "Pixel Items",
       "item.allaboutengie.enraged_engie_style_2_spawn_egg": "Enraged Engie (Style 2) Spawn Egg",
@@ -22647,6 +23493,10 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "hm",
+            "children": []
           }
         ]
       },
@@ -22679,7 +23529,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "5.25.25",
+    "version": "5.26.25",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

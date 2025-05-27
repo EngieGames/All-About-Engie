@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.allaboutengie.client.renderer.YellowLightningRenderer;
 import net.mcreator.allaboutengie.client.renderer.UncommonEngieRenderer;
 import net.mcreator.allaboutengie.client.renderer.TobyZoomiesTiredRenderer;
 import net.mcreator.allaboutengie.client.renderer.TobyZoomiesRenderer;
@@ -42,6 +43,7 @@ import net.mcreator.allaboutengie.client.renderer.RareSharkoLayAprilFoolsRendere
 import net.mcreator.allaboutengie.client.renderer.RareSharkoAprilFoolsRenderer;
 import net.mcreator.allaboutengie.client.renderer.RareEngieRenderer;
 import net.mcreator.allaboutengie.client.renderer.QuizzetRenderer;
+import net.mcreator.allaboutengie.client.renderer.PureInsanityRenderer;
 import net.mcreator.allaboutengie.client.renderer.ProtogenRenderer;
 import net.mcreator.allaboutengie.client.renderer.PBEZoomiesTiredRenderer;
 import net.mcreator.allaboutengie.client.renderer.PBEZoomiesRenderer;
@@ -50,6 +52,7 @@ import net.mcreator.allaboutengie.client.renderer.PBERenderer;
 import net.mcreator.allaboutengie.client.renderer.PBELayRenderer;
 import net.mcreator.allaboutengie.client.renderer.OutragedEngieStyle2Renderer;
 import net.mcreator.allaboutengie.client.renderer.OutragedEngieSharkoRenderer;
+import net.mcreator.allaboutengie.client.renderer.NormalRenderer;
 import net.mcreator.allaboutengie.client.renderer.MythicSharkoTamedZoomiesTiredRenderer;
 import net.mcreator.allaboutengie.client.renderer.MythicSharkoTamedZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.MythicSharkoTamedRenderer;
@@ -69,6 +72,7 @@ import net.mcreator.allaboutengie.client.renderer.MarshalSleepRenderer;
 import net.mcreator.allaboutengie.client.renderer.MarshalRenderer;
 import net.mcreator.allaboutengie.client.renderer.MarshalLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.MadEngieRenderer;
+import net.mcreator.allaboutengie.client.renderer.MOABRenderer;
 import net.mcreator.allaboutengie.client.renderer.LouisZoomiesTiredRenderer;
 import net.mcreator.allaboutengie.client.renderer.LouisZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.LouisSleepRenderer;
@@ -195,6 +199,7 @@ import net.mcreator.allaboutengie.client.renderer.Bothan2netZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.Bothan2netSleepRenderer;
 import net.mcreator.allaboutengie.client.renderer.Bothan2netRenderer;
 import net.mcreator.allaboutengie.client.renderer.Bothan2netLayRenderer;
+import net.mcreator.allaboutengie.client.renderer.BlueBurstRenderer;
 import net.mcreator.allaboutengie.client.renderer.BigSharkoTamedRenderer;
 import net.mcreator.allaboutengie.client.renderer.BigSharkoSleepRenderer;
 import net.mcreator.allaboutengie.client.renderer.BigSharkoRenderer;
@@ -516,5 +521,10 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO.get(), CosmoRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.YELLOW_LIGHTNING.get(), YellowLightningRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BLUE_BURST.get(), BlueBurstRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.NORMAL.get(), NormalRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.MOAB.get(), MOABRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PURE_INSANITY.get(), PureInsanityRenderer::new);
 	}
 }

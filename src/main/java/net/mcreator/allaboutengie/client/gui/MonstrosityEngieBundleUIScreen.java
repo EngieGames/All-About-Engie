@@ -119,7 +119,7 @@ public class MonstrosityEngieBundleUIScreen extends AbstractContainerScreen<Mons
 		ChangeBundleName.setMaxLength(32767);
 		guistate.put("text:ChangeBundleName", ChangeBundleName);
 		this.addWidget(this.ChangeBundleName);
-		button_set_name = new Button(this.leftPos + 128, this.topPos + 6, 66, 20, Component.translatable("gui.allaboutengie.monstrosity_engie_bundle_ui.button_set_name"), e -> {
+		button_set_name = new Button(this.leftPos + 129, this.topPos + 6, 66, 20, Component.translatable("gui.allaboutengie.monstrosity_engie_bundle_ui.button_set_name"), e -> {
 			if (true) {
 				AllaboutengieMod.PACKET_HANDLER.sendToServer(new MonstrosityEngieBundleUIButtonMessage(0, x, y, z));
 				MonstrosityEngieBundleUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

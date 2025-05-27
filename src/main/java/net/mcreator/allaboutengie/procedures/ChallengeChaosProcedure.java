@@ -106,7 +106,7 @@ public class ChallengeChaosProcedure {
 					}
 				}
 			}
-		} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true && ModList.get().isLoaded("weather2")) {
+		} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true && ModList.get().isLoaded("weather2") == true) {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -135,7 +135,7 @@ public class ChallengeChaosProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set 12618000");
 				}
 			}
-		} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true && ModList.get().isLoaded("enhancedcelestials")) {
+		} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true && ModList.get().isLoaded("enhancedcelestials") == true) {
 			if (AllaboutengieModVariables.MapVariables.get(world).BYEBYE == true) {
 				{
 					Entity _ent = entity;

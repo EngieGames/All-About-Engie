@@ -17,6 +17,7 @@ import net.minecraft.advancements.Advancement;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
+import net.mcreator.allaboutengie.AllaboutengieMod;
 
 import javax.annotation.Nullable;
 
@@ -39,7 +40,14 @@ public class DetectiveGameruleProcedure {
 		if (entity == null)
 			return;
 		if (AllaboutengieModVariables.MapVariables.get(world).Birthday == false && world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_MODE) == false) {
-			if (!(entity instanceof ServerPlayer _plr1 && _plr1.level instanceof ServerLevel && _plr1.getAdvancements().getOrStartProgress(_plr1.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"))).isDone())) {
+			if (AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart == false) {
+				AllaboutengieMod.queueServerWork(5, () -> {
+					RiskCheckProcedure.execute(world, entity);
+				});
+				AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart = true;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			}
+			if (!(entity instanceof ServerPlayer _plr2 && _plr2.level instanceof ServerLevel && _plr2.getAdvancements().getOrStartProgress(_plr2.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"))).isDone())) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -58,9 +66,16 @@ public class DetectiveGameruleProcedure {
 				});
 			}
 		} else if (AllaboutengieModVariables.MapVariables.get(world).Birthday == false && world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_MODE) == true) {
+			if (AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart == false) {
+				AllaboutengieMod.queueServerWork(5, () -> {
+					RiskCheckProcedure.execute(world, entity);
+				});
+				AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart = true;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			}
 			if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).detecstart == false) {
-				if (!(entity instanceof ServerPlayer _plr4 && _plr4.level instanceof ServerLevel
-						&& _plr4.getAdvancements().getOrStartProgress(_plr4.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"))).isDone())) {
+				if (!(entity instanceof ServerPlayer _plr6 && _plr6.level instanceof ServerLevel
+						&& _plr6.getAdvancements().getOrStartProgress(_plr6.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"))).isDone())) {
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -96,10 +111,18 @@ public class DetectiveGameruleProcedure {
 				}
 			}
 		} else if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true && world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_MODE) == false) {
+			if (AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart == false) {
+				AllaboutengieMod.queueServerWork(5, () -> {
+					RiskCheckProcedure.execute(world, entity);
+				});
+				AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart = true;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			}
 			if (AllaboutengieModVariables.MapVariables.get(world).birthdaystart == false) {
 				BirthdayProProcedure.execute(world, entity);
 			}
-			if (!(entity instanceof ServerPlayer _plr9 && _plr9.level instanceof ServerLevel && _plr9.getAdvancements().getOrStartProgress(_plr9.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"))).isDone())) {
+			if (!(entity instanceof ServerPlayer _plr12 && _plr12.level instanceof ServerLevel
+					&& _plr12.getAdvancements().getOrStartProgress(_plr12.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"))).isDone())) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -118,12 +141,19 @@ public class DetectiveGameruleProcedure {
 				});
 			}
 		} else if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true && world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DETECTIVE_MODE) == true) {
+			if (AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart == false) {
+				AllaboutengieMod.queueServerWork(5, () -> {
+					RiskCheckProcedure.execute(world, entity);
+				});
+				AllaboutengieModVariables.MapVariables.get(world).riskcheckedstart = true;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			}
 			if (AllaboutengieModVariables.MapVariables.get(world).birthdaystart == false) {
 				BirthdayProProcedure.execute(world, entity);
 			}
 			if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).detecstart == false) {
-				if (!(entity instanceof ServerPlayer _plr12 && _plr12.level instanceof ServerLevel
-						&& _plr12.getAdvancements().getOrStartProgress(_plr12.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"))).isDone())) {
+				if (!(entity instanceof ServerPlayer _plr16 && _plr16.level instanceof ServerLevel
+						&& _plr16.getAdvancements().getOrStartProgress(_plr16.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"))).isDone())) {
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:new_world_new_problem"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

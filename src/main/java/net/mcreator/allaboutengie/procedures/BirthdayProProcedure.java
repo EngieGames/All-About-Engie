@@ -180,10 +180,11 @@ public class BirthdayProProcedure {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-					_ent.getServer().getCommands().performPrefixedCommand(
-							new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
-									_ent.level.getServer(), _ent),
-							"tellraw @a {\"text\":\"Todays Date without year: May 25th\\nSpecial Event for AAE: Engie's Birthday.\\nDescription: Happy birthday Engie. You're a year older.\",\"bold\":true,\"color\":\"yellow\"}");
+					_ent.getServer().getCommands()
+							.performPrefixedCommand(
+									new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
+											_ent.level.getServer(), _ent),
+									"tellraw @a {\"text\":\"It looks like Engies birthday is today and lasting the rest of the month! Make sure to wish Engie a Happy Birthday!\",\"bold\":true,\"color\":\"yellow\"}");
 				}
 			}
 			AllaboutengieModVariables.MapVariables.get(world).birthdaystart = true;

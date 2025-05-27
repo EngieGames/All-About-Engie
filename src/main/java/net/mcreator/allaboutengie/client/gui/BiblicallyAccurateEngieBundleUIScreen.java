@@ -80,7 +80,7 @@ public class BiblicallyAccurateEngieBundleUIScreen extends AbstractContainerScre
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack,
 
-				BiblicallyAccurateEngieBundleDisplayNameCheckProcedure.execute(entity), 4, 29, -12829636);
+				BiblicallyAccurateEngieBundleDisplayNameCheckProcedure.execute(entity), 5, 29, -12829636);
 	}
 
 	@Override
@@ -93,7 +93,7 @@ public class BiblicallyAccurateEngieBundleUIScreen extends AbstractContainerScre
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		ChangeBundleName = new EditBox(this.font, this.leftPos + 4, this.topPos + 6, 120, 20, Component.translatable("gui.allaboutengie.biblically_accurate_engie_bundle_ui.ChangeBundleName")) {
+		ChangeBundleName = new EditBox(this.font, this.leftPos + 5, this.topPos + 6, 120, 20, Component.translatable("gui.allaboutengie.biblically_accurate_engie_bundle_ui.ChangeBundleName")) {
 			{
 				setSuggestion(Component.translatable("gui.allaboutengie.biblically_accurate_engie_bundle_ui.ChangeBundleName").getString());
 			}
@@ -119,7 +119,7 @@ public class BiblicallyAccurateEngieBundleUIScreen extends AbstractContainerScre
 		ChangeBundleName.setMaxLength(32767);
 		guistate.put("text:ChangeBundleName", ChangeBundleName);
 		this.addWidget(this.ChangeBundleName);
-		button_set_name = new Button(this.leftPos + 127, this.topPos + 6, 66, 20, Component.translatable("gui.allaboutengie.biblically_accurate_engie_bundle_ui.button_set_name"), e -> {
+		button_set_name = new Button(this.leftPos + 129, this.topPos + 6, 66, 20, Component.translatable("gui.allaboutengie.biblically_accurate_engie_bundle_ui.button_set_name"), e -> {
 			if (true) {
 				AllaboutengieMod.PACKET_HANDLER.sendToServer(new BiblicallyAccurateEngieBundleUIButtonMessage(0, x, y, z));
 				BiblicallyAccurateEngieBundleUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

@@ -93,7 +93,7 @@ public class MetalBundleUIScreen extends AbstractContainerScreen<MetalBundleUIMe
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		ChangeBundleName = new EditBox(this.font, this.leftPos + 4, this.topPos + 5, 120, 20, Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName")) {
+		ChangeBundleName = new EditBox(this.font, this.leftPos + 5, this.topPos + 5, 120, 20, Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName")) {
 			{
 				setSuggestion(Component.translatable("gui.allaboutengie.engie_bundle_ui.ChangeBundleName").getString());
 			}
@@ -119,7 +119,7 @@ public class MetalBundleUIScreen extends AbstractContainerScreen<MetalBundleUIMe
 		ChangeBundleName.setMaxLength(32767);
 		guistate.put("text:ChangeBundleName", ChangeBundleName);
 		this.addWidget(this.ChangeBundleName);
-		button_set_name = new Button(this.leftPos + 128, this.topPos + 5, 66, 20, Component.translatable("gui.allaboutengie.engie_bundle_ui.button_set_name"), e -> {
+		button_set_name = new Button(this.leftPos + 130, this.topPos + 5, 66, 20, Component.translatable("gui.allaboutengie.engie_bundle_ui.button_set_name"), e -> {
 			if (true) {
 				AllaboutengieMod.PACKET_HANDLER.sendToServer(new MetalBundleUIButtonMessage(0, x, y, z));
 				MetalBundleUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

@@ -50,10 +50,10 @@ public class EnragedCoinOverlayOverlay {
 			RenderSystem.setShaderTexture(0, new ResourceLocation("allaboutengie:textures/screens/enragedcoinicon.png"));
 			Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -213, posY + 104, 0, 0, 16, 16, 16, 16);
 
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.allaboutengie.enraged_coin_overlay.label_empty"), posX + -194, posY + 107, -1);
+			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.allaboutengie.enraged_coin_overlay.label_empty"), posX + -196, posY + 107, -1);
 			Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					CoinammountcountProcedure.execute(entity), posX + -188, posY + 107, -1);
+					CoinammountcountProcedure.execute(entity), posX + -190, posY + 107, -1);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

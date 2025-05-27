@@ -27,6 +27,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
@@ -36,6 +37,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.allaboutengie.procedures.MonsterNaturalEntitySpawningConditionProcedure;
+import net.mcreator.allaboutengie.procedures.DoomsDayMobsFightEachotherToggleProcedure;
 import net.mcreator.allaboutengie.procedures.DamageonspawnProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
@@ -62,20 +64,41 @@ public class AngryCreatorEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayer.class, false, false));
-		this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, (float) 6));
-		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
-		this.targetSelector.addGoal(7, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(9, new FloatGoal(this));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, true, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayer.class, true, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Monster.class, true, false) {
+			@Override
+			public boolean canUse() {
+				double x = AngryCreatorEntity.this.getX();
+				double y = AngryCreatorEntity.this.getY();
+				double z = AngryCreatorEntity.this.getZ();
+				Entity entity = AngryCreatorEntity.this;
+				Level world = AngryCreatorEntity.this.level;
+				return super.canUse() && DoomsDayMobsFightEachotherToggleProcedure.execute(world);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = AngryCreatorEntity.this.getX();
+				double y = AngryCreatorEntity.this.getY();
+				double z = AngryCreatorEntity.this.getZ();
+				Entity entity = AngryCreatorEntity.this;
+				Level world = AngryCreatorEntity.this.level;
+				return super.canContinueToUse() && DoomsDayMobsFightEachotherToggleProcedure.execute(world);
+			}
+		});
+		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, (float) 6));
+		this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
+		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(10, new FloatGoal(this));
 	}
 
 	@Override

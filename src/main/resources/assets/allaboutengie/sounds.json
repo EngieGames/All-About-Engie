@@ -7,5 +7,32 @@
         "stream": true
       }
     ]
+  },
+  "doomsday_eerie": {
+    "subtitle": "subtitles.doomsday_eerie",
+    "sounds": [
+      {
+        "name": "allaboutengie:doomsdayeerie",
+        "stream": false
+      }
+    ]
+  },
+  "doomsday_start": {
+    "subtitle": "subtitles.doomsday_start",
+    "sounds": [
+      {
+        "name": "allaboutengie:doomsdayphase1",
+        "stream": false
+      }
+    ]
+  },
+  "doomsday_eerie_2": {
+    "subtitle": "subtitles.doomsday_eerie_2",
+    "sounds": [
+      {
+        "name": "allaboutengie:doomsdayeerie2",
+        "stream": false
+      }
+    ]
   }
 }

@@ -17,6 +17,7 @@ import net.mcreator.allaboutengie.world.inventory.MetalChestUIMenu;
 import net.mcreator.allaboutengie.world.inventory.MetalBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EnragedEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EngiesOwnEngieBundleUIMenu;
+import net.mcreator.allaboutengie.world.inventory.EngiesBirthdayBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.ETCEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.CreativeEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.BiblicallyAccurateEngieBundleUIMenu;
@@ -36,4 +37,5 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<ETCEngieBundleUIMenu>> ETC_ENGIE_BUNDLE_UI = REGISTRY.register("etc_engie_bundle_ui", () -> IForgeMenuType.create(ETCEngieBundleUIMenu::new));
 	public static final RegistryObject<MenuType<CreativeEngieBundleUIMenu>> CREATIVE_ENGIE_BUNDLE_UI = REGISTRY.register("creative_engie_bundle_ui", () -> IForgeMenuType.create(CreativeEngieBundleUIMenu::new));
 	public static final RegistryObject<MenuType<EngiesOwnEngieBundleUIMenu>> ENGIES_OWN_ENGIE_BUNDLE_UI = REGISTRY.register("engies_own_engie_bundle_ui", () -> IForgeMenuType.create(EngiesOwnEngieBundleUIMenu::new));
+	public static final RegistryObject<MenuType<EngiesBirthdayBundleUIMenu>> ENGIES_BIRTHDAY_BUNDLE_UI = REGISTRY.register("engies_birthday_bundle_ui", () -> IForgeMenuType.create(EngiesBirthdayBundleUIMenu::new));
 }
