@@ -41,6 +41,8 @@ public class DoomsdayDialogueProcedure {
 		if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
 			AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
 			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			AllaboutengieMod.queueServerWork(1, () -> {
 				if (AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart == true) {
 					if (AllaboutengieModVariables.MapVariables.get(world).DoomsdayEeriePlayOnce == false) {
@@ -58,30 +60,9 @@ public class DoomsdayDialogueProcedure {
 						entity.getPersistentData().putDouble("TimeUntilNightDDAY", (entity.getPersistentData().getDouble("TimeUntilNightDDAY") + 0.05));
 						if (entity.getPersistentData().getDouble("TimeUntilNightDDAY") >= 42) {
 							{
-								boolean _setval = false;
-								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.DDAYDeathNoSpam = _setval;
-									capability.syncPlayerVariables(entity);
-								});
-							}
-							{
-								boolean _setval = false;
-								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.DDAYAliveNoSpam = _setval;
-									capability.syncPlayerVariables(entity);
-								});
-							}
-							{
 								boolean _setval = true;
 								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 									capability.DoomsdayAlive = _setval;
-									capability.syncPlayerVariables(entity);
-								});
-							}
-							{
-								boolean _setval = false;
-								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.DoomsDayDead = _setval;
 									capability.syncPlayerVariables(entity);
 								});
 							}

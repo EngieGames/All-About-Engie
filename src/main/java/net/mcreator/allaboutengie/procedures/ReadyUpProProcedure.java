@@ -59,6 +59,10 @@ public class ReadyUpProProcedure {
 			}
 			if (world.players().size() == 1) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 1) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -209,6 +213,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 2) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 2) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -369,6 +377,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 3) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 3) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -529,6 +541,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 4) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 4) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -689,6 +705,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 5) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 5) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -849,6 +869,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 6) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 6) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1009,6 +1033,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 7) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 7) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1169,6 +1197,10 @@ public class ReadyUpProProcedure {
 				}
 			} else if (world.players().size() == 8) {
 				if (AllaboutengieModVariables.MapVariables.get(world).challengeplayerreadyupcount == 8) {
+					if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {

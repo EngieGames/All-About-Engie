@@ -48,6 +48,14 @@ public class ChallengeCompletionProcedure {
 				}
 				AllaboutengieMod.queueServerWork(160, () -> {
 					if (world.players().size() > 1) {
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -83,6 +91,14 @@ public class ChallengeCompletionProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).BYEBYE = false;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					} else {
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {

@@ -2019,8 +2019,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2041,6 +2039,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2082,8 +2088,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2104,6 +2108,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2145,8 +2157,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2167,6 +2177,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2208,8 +2226,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2230,6 +2246,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2271,8 +2295,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2293,6 +2315,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2334,8 +2364,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2356,6 +2384,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2417,8 +2453,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2439,6 +2473,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2480,8 +2522,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2502,6 +2542,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2543,8 +2591,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2565,6 +2611,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2606,8 +2660,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2628,6 +2680,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2669,8 +2729,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2691,6 +2749,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;
@@ -2732,8 +2798,6 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2754,6 +2818,14 @@ public class AAEAllCommandsProcedure {
 							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
 							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						});
+						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.queueServerWork(5, () -> {
+								if (world instanceof ServerLevel _level)
+									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+							});
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
 						{
 							Entity _ent = entity;

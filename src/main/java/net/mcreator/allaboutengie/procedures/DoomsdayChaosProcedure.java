@@ -67,9 +67,9 @@ public class DoomsdayChaosProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.NEUTRAL, 1, 1);
+								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.AMBIENT, (float) 0.5, 1);
 							} else {
-								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.NEUTRAL, 1, 1, false);
+								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.AMBIENT, (float) 0.5, 1, false);
 							}
 						}
 					}
@@ -100,6 +100,13 @@ public class DoomsdayChaosProcedure {
 					}
 				}
 				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect clear @a");
+					}
+				}
+				{
 					boolean _setval = false;
 					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.healthreductiondday = _setval;
@@ -122,12 +129,25 @@ public class DoomsdayChaosProcedure {
 				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				AllaboutengieModVariables.MapVariables.get(world).ddaydialoguetimeblock = false;
 				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				{
+					boolean _setval = false;
+					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.healthreductiondday = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				if (world instanceof ServerLevel _level)
-					_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 				if (world instanceof Level _level)
 					_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+				if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
+					AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieMod.queueServerWork(5, () -> {
+						if (world instanceof ServerLevel _level)
+							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+					});
+				}
 				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.TRUE_HARDCORE) == false) {
 					{
 						Entity _ent = entity;
@@ -138,8 +158,8 @@ public class DoomsdayChaosProcedure {
 					}
 				}
 				if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).DoomsdayAlive == true) {
-					if (!(entity instanceof ServerPlayer _plr17 && _plr17.level instanceof ServerLevel
-							&& _plr17.getAdvancements().getOrStartProgress(_plr17.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"))).isDone())) {
+					if (!(entity instanceof ServerPlayer _plr19 && _plr19.level instanceof ServerLevel
+							&& _plr19.getAdvancements().getOrStartProgress(_plr19.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"))).isDone())) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

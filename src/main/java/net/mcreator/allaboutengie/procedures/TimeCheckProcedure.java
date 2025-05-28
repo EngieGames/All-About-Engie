@@ -25,29 +25,8 @@ public class TimeCheckProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
-		if (AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart == false) {
+		if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == false) {
 			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = world.dayTime();
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = world.dayTime();
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == false) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = world.dayTime();
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == false) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = world.dayTime();
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart == true) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = AllaboutengieModVariables.MapVariables.get(world).timebeforespecial;
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = AllaboutengieModVariables.MapVariables.get(world).timebeforespecial;
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).ChallengeToggle == true) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = AllaboutengieModVariables.MapVariables.get(world).timebeforespecial;
-			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-		} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true) {
-			AllaboutengieModVariables.MapVariables.get(world).timebeforespecial = AllaboutengieModVariables.MapVariables.get(world).timebeforespecial;
 			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 		}
 	}

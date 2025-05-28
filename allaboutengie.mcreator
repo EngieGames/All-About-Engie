@@ -21828,54 +21828,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "DoomsDayAliveCountCheck",
-      "type": "procedure",
-      "sortid": 1187,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dooms_day_alive_count_check",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayAliveCountCheckProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "DoomsDayDeadCountCheck",
-      "type": "procedure",
-      "sortid": 1188,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dooms_day_dead_count_check",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayDeadCountCheckProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "TimeCheckReturnTime",
       "type": "procedure",
       "sortid": 1189,
@@ -21964,6 +21916,90 @@
         ]
       },
       "path": "~/Keybinds"
+    },
+    {
+      "name": "DoomsDayAliveCheck",
+      "type": "procedure",
+      "sortid": 1194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_alive_check",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayAliveCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayDeadCheck",
+      "type": "procedure",
+      "sortid": 1195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_dead_check",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayDeadCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayAliveOverlayCheck",
+      "type": "procedure",
+      "sortid": 1196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_alive_overlay_check",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayAliveOverlayCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayDeadOverlayCheck",
+      "type": "procedure",
+      "sortid": 1197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_dead_overlay_check",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayDeadOverlayCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -22176,12 +22212,6 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
-    },
-    {
-      "name": "DoomsDayDead",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "true"
     },
     {
       "name": "DoomsdayDialogueStart",
@@ -22430,18 +22460,6 @@
       "value": "false"
     },
     {
-      "name": "DDAYDeathNoSpam",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
-    },
-    {
-      "name": "DDAYAliveNoSpam",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
-    },
-    {
       "name": "timeoverlaytoggle",
       "type": "logic",
       "scope": "player_persistent",
@@ -22451,6 +22469,12 @@
       "name": "SharkoRideToggle",
       "type": "logic",
       "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "timecheckstop",
+      "type": "logic",
+      "scope": "map",
       "value": "false"
     }
   ],
@@ -23717,7 +23741,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "5.28.25",
+    "version": "5.28.25.2",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

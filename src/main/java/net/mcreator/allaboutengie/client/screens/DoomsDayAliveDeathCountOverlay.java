@@ -13,9 +13,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.allaboutengie.procedures.DoomsdayDeadCountUICheckProcedure;
-import net.mcreator.allaboutengie.procedures.DoomsdayAliveCountUICheckProcedure;
+import net.mcreator.allaboutengie.procedures.DoomsDayDeadOverlayCheckProcedure;
+import net.mcreator.allaboutengie.procedures.DoomsDayDeadCheckProcedure;
+import net.mcreator.allaboutengie.procedures.DoomsDayAliveOverlayCheckProcedure;
 import net.mcreator.allaboutengie.procedures.DoomsDayAliveDeathCountDisplayOverlayIngameProcedure;
+import net.mcreator.allaboutengie.procedures.DoomsDayAliveCheckProcedure;
 
 @Mod.EventBusSubscriber({Dist.CLIENT})
 public class DoomsDayAliveDeathCountOverlay {
@@ -37,12 +39,14 @@ public class DoomsDayAliveDeathCountOverlay {
 			z = entity.getZ();
 		}
 		if (DoomsDayAliveDeathCountDisplayOverlayIngameProcedure.execute(world)) {
-			Minecraft.getInstance().font.draw(event.getPoseStack(),
+			if (DoomsDayAliveOverlayCheckProcedure.execute(entity))
+				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					DoomsdayAliveCountUICheckProcedure.execute(world), posX + -213, posY + -120, -16711936);
-			Minecraft.getInstance().font.draw(event.getPoseStack(),
+						DoomsDayAliveCheckProcedure.execute(entity), posX + -213, posY + -120, -16711936);
+			if (DoomsDayDeadOverlayCheckProcedure.execute(entity))
+				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-					DoomsdayDeadCountUICheckProcedure.execute(world), posX + -213, posY + -110, -65536);
+						DoomsDayDeadCheckProcedure.execute(entity), posX + -213, posY + -120, -65536);
 		}
 	}
 }

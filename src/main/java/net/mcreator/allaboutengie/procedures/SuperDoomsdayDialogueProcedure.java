@@ -46,6 +46,8 @@ public class SuperDoomsdayDialogueProcedure {
 		if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false && AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
 			AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
 			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
+			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			AllaboutengieMod.queueServerWork(1, () -> {
 				if (AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
 					if (AllaboutengieModVariables.MapVariables.get(world).SuperDoomsdayEeriePlayOnce == false) {
@@ -63,30 +65,9 @@ public class SuperDoomsdayDialogueProcedure {
 						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", (entity.getPersistentData().getDouble("TimeUntilNightSDDAY") + 0.05));
 						if (entity.getPersistentData().getDouble("TimeUntilNightSDDAY") >= 42) {
 							{
-								boolean _setval = false;
-								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.DDAYDeathNoSpam = _setval;
-									capability.syncPlayerVariables(entity);
-								});
-							}
-							{
-								boolean _setval = false;
-								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.DDAYAliveNoSpam = _setval;
-									capability.syncPlayerVariables(entity);
-								});
-							}
-							{
 								boolean _setval = true;
 								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 									capability.DoomsdayAlive = _setval;
-									capability.syncPlayerVariables(entity);
-								});
-							}
-							{
-								boolean _setval = false;
-								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.DoomsDayDead = _setval;
 									capability.syncPlayerVariables(entity);
 								});
 							}
