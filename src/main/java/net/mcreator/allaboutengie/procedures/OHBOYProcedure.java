@@ -42,7 +42,31 @@ public class OHBOYProcedure {
 					if (Math.random() <= 0.0005) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Low\"");
+						if (Math.random() <= 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Low\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Low\"");
+							}
+						} else if (Math.random() > 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Low\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Low\"");
+							}
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).DoomsdayRiskFailCount >= 50) {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 2;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -62,7 +86,31 @@ public class OHBOYProcedure {
 					if (Math.random() <= 0.007) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Medium\"");
+						if (Math.random() <= 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Medium\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Medium\"");
+							}
+						} else if (Math.random() > 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Medium\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Medium\"");
+							}
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).DoomsdayRiskFailCount >= 50) {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 3;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -82,7 +130,31 @@ public class OHBOYProcedure {
 					if (Math.random() <= 0.013) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"High\"");
+						if (Math.random() <= 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"High\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"High\"");
+							}
+						} else if (Math.random() > 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"High\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"High\"");
+							}
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).DoomsdayRiskFailCount >= 50) {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 4;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -102,7 +174,31 @@ public class OHBOYProcedure {
 					if (Math.random() <= 0.02) {
 						AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-						AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Extreme\"");
+						if (Math.random() <= 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Extreme\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Extreme\"");
+							}
+						} else if (Math.random() > 0.05) {
+							if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+								AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Extreme\"");
+							} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+								AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+								AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Extreme\"");
+							}
+						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).DoomsdayRiskFailCount >= 50) {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 5;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -121,7 +217,31 @@ public class OHBOYProcedure {
 				} else if (AllaboutengieModVariables.MapVariables.get(world).Risk == 5) {
 					AllaboutengieModVariables.MapVariables.get(world).OHBOY = true;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-					AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Guaranteed\"");
+					if (Math.random() <= 0.05) {
+						if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+							AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = true;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Guaranteed\"");
+						} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+							AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.LOGGER.info("Spawned Super DoomsDay with the risk of \"Guaranteed\"");
+						}
+					} else if (Math.random() > 0.05) {
+						if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == true) {
+							AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle = false;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Guaranteed\"");
+						} else if (AllaboutengieModVariables.MapVariables.get(world).SDDAYToggle == false) {
+							AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
+							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							AllaboutengieMod.LOGGER.info("Spawned DoomsDay with the risk of \"Guaranteed\"");
+						}
+					}
 				}
 			}
 		}

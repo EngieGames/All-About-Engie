@@ -23,7 +23,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class BigEngieSharkoRare2SleepEntity extends PathfinderMob {
 	public BigEngieSharkoRare2SleepEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2_SLEEP.get(), world);
+		this(AllaboutengieModEntities.BIG_TIGER_SHARKO_SLEEP.get(), world);
 	}
 
 	public BigEngieSharkoRare2SleepEntity(EntityType<BigEngieSharkoRare2SleepEntity> type, Level world) {

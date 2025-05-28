@@ -97,15 +97,19 @@ public class AllaboutengieModVariables {
 			clone.PlayerZ = original.PlayerZ;
 			clone.coderedeemblock = original.coderedeemblock;
 			clone.detecstart = original.detecstart;
-			clone.DoomsdayAlive = original.DoomsdayAlive;
-			clone.DoomsDayDead = original.DoomsDayDead;
 			clone.GoodLuck = original.GoodLuck;
 			clone.healthreductiondday = original.healthreductiondday;
 			clone.multiplayertrophyobtained = original.multiplayertrophyobtained;
 			clone.playerready = original.playerready;
 			clone.solotrophyobtained = original.solotrophyobtained;
 			clone.BlockDeathAliveCOunt = original.BlockDeathAliveCOunt;
+			clone.DDAYDeathNoSpam = original.DDAYDeathNoSpam;
+			clone.DDAYAliveNoSpam = original.DDAYAliveNoSpam;
+			clone.timeoverlaytoggle = original.timeoverlaytoggle;
+			clone.SharkoRideToggle = original.SharkoRideToggle;
 			if (!event.isWasDeath()) {
+				clone.DoomsdayAlive = original.DoomsdayAlive;
+				clone.DoomsDayDead = original.DoomsDayDead;
 				clone.firstplay = original.firstplay;
 			}
 		}
@@ -200,19 +204,20 @@ public class AllaboutengieModVariables {
 		public boolean SharkoSleepCD = false;
 		public boolean WELCOMETOINSANITY = false;
 		public boolean GOODBYE = false;
-		public boolean SDDAY = false;
 		public boolean DoomsdayEeriePlayOnce = false;
 		public boolean DoomsDayStart = false;
 		public boolean ddaytimenighttimerblock = false;
 		public boolean ddaydialoguetimeblock = false;
-		public boolean sddaydialoguetimeblock = false;
-		public boolean NDoomsdayStartMusicBlock = true;
-		public boolean SDoomsdayStartMusicBlock = true;
 		public boolean waittildoomsday = false;
-		public boolean SDoomsdayStartMusicBlock2 = true;
-		public boolean SDDAYtypetoggle = false;
-		public boolean DDAYtypetoggle = false;
 		public double PlayerWorldCount = 0;
+		public boolean sddaystart = false;
+		public boolean sdoomsdaymainsongstart = false;
+		public boolean SuperDoomsDayStart = false;
+		public boolean waittilsdoomsday = false;
+		public boolean sddaydialoguetimeblock = false;
+		public boolean sddaytimenighttimerblock = false;
+		public boolean SuperDoomsdayEeriePlayOnce = false;
+		public boolean SDDAYToggle = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -250,19 +255,20 @@ public class AllaboutengieModVariables {
 			SharkoSleepCD = nbt.getBoolean("SharkoSleepCD");
 			WELCOMETOINSANITY = nbt.getBoolean("WELCOMETOINSANITY");
 			GOODBYE = nbt.getBoolean("GOODBYE");
-			SDDAY = nbt.getBoolean("SDDAY");
 			DoomsdayEeriePlayOnce = nbt.getBoolean("DoomsdayEeriePlayOnce");
 			DoomsDayStart = nbt.getBoolean("DoomsDayStart");
 			ddaytimenighttimerblock = nbt.getBoolean("ddaytimenighttimerblock");
 			ddaydialoguetimeblock = nbt.getBoolean("ddaydialoguetimeblock");
-			sddaydialoguetimeblock = nbt.getBoolean("sddaydialoguetimeblock");
-			NDoomsdayStartMusicBlock = nbt.getBoolean("NDoomsdayStartMusicBlock");
-			SDoomsdayStartMusicBlock = nbt.getBoolean("SDoomsdayStartMusicBlock");
 			waittildoomsday = nbt.getBoolean("waittildoomsday");
-			SDoomsdayStartMusicBlock2 = nbt.getBoolean("SDoomsdayStartMusicBlock2");
-			SDDAYtypetoggle = nbt.getBoolean("SDDAYtypetoggle");
-			DDAYtypetoggle = nbt.getBoolean("DDAYtypetoggle");
 			PlayerWorldCount = nbt.getDouble("PlayerWorldCount");
+			sddaystart = nbt.getBoolean("sddaystart");
+			sdoomsdaymainsongstart = nbt.getBoolean("sdoomsdaymainsongstart");
+			SuperDoomsDayStart = nbt.getBoolean("SuperDoomsDayStart");
+			waittilsdoomsday = nbt.getBoolean("waittilsdoomsday");
+			sddaydialoguetimeblock = nbt.getBoolean("sddaydialoguetimeblock");
+			sddaytimenighttimerblock = nbt.getBoolean("sddaytimenighttimerblock");
+			SuperDoomsdayEeriePlayOnce = nbt.getBoolean("SuperDoomsdayEeriePlayOnce");
+			SDDAYToggle = nbt.getBoolean("SDDAYToggle");
 		}
 
 		@Override
@@ -296,19 +302,20 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("SharkoSleepCD", SharkoSleepCD);
 			nbt.putBoolean("WELCOMETOINSANITY", WELCOMETOINSANITY);
 			nbt.putBoolean("GOODBYE", GOODBYE);
-			nbt.putBoolean("SDDAY", SDDAY);
 			nbt.putBoolean("DoomsdayEeriePlayOnce", DoomsdayEeriePlayOnce);
 			nbt.putBoolean("DoomsDayStart", DoomsDayStart);
 			nbt.putBoolean("ddaytimenighttimerblock", ddaytimenighttimerblock);
 			nbt.putBoolean("ddaydialoguetimeblock", ddaydialoguetimeblock);
-			nbt.putBoolean("sddaydialoguetimeblock", sddaydialoguetimeblock);
-			nbt.putBoolean("NDoomsdayStartMusicBlock", NDoomsdayStartMusicBlock);
-			nbt.putBoolean("SDoomsdayStartMusicBlock", SDoomsdayStartMusicBlock);
 			nbt.putBoolean("waittildoomsday", waittildoomsday);
-			nbt.putBoolean("SDoomsdayStartMusicBlock2", SDoomsdayStartMusicBlock2);
-			nbt.putBoolean("SDDAYtypetoggle", SDDAYtypetoggle);
-			nbt.putBoolean("DDAYtypetoggle", DDAYtypetoggle);
 			nbt.putDouble("PlayerWorldCount", PlayerWorldCount);
+			nbt.putBoolean("sddaystart", sddaystart);
+			nbt.putBoolean("sdoomsdaymainsongstart", sdoomsdaymainsongstart);
+			nbt.putBoolean("SuperDoomsDayStart", SuperDoomsDayStart);
+			nbt.putBoolean("waittilsdoomsday", waittilsdoomsday);
+			nbt.putBoolean("sddaydialoguetimeblock", sddaydialoguetimeblock);
+			nbt.putBoolean("sddaytimenighttimerblock", sddaytimenighttimerblock);
+			nbt.putBoolean("SuperDoomsdayEeriePlayOnce", SuperDoomsdayEeriePlayOnce);
+			nbt.putBoolean("SDDAYToggle", SDDAYToggle);
 			return nbt;
 		}
 
@@ -425,6 +432,10 @@ public class AllaboutengieModVariables {
 		public boolean playerready = false;
 		public boolean solotrophyobtained = false;
 		public boolean BlockDeathAliveCOunt = false;
+		public boolean DDAYDeathNoSpam = false;
+		public boolean DDAYAliveNoSpam = false;
+		public boolean timeoverlaytoggle = false;
+		public boolean SharkoRideToggle = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -461,6 +472,10 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("playerready", playerready);
 			nbt.putBoolean("solotrophyobtained", solotrophyobtained);
 			nbt.putBoolean("BlockDeathAliveCOunt", BlockDeathAliveCOunt);
+			nbt.putBoolean("DDAYDeathNoSpam", DDAYDeathNoSpam);
+			nbt.putBoolean("DDAYAliveNoSpam", DDAYAliveNoSpam);
+			nbt.putBoolean("timeoverlaytoggle", timeoverlaytoggle);
+			nbt.putBoolean("SharkoRideToggle", SharkoRideToggle);
 			return nbt;
 		}
 
@@ -494,6 +509,10 @@ public class AllaboutengieModVariables {
 			playerready = nbt.getBoolean("playerready");
 			solotrophyobtained = nbt.getBoolean("solotrophyobtained");
 			BlockDeathAliveCOunt = nbt.getBoolean("BlockDeathAliveCOunt");
+			DDAYDeathNoSpam = nbt.getBoolean("DDAYDeathNoSpam");
+			DDAYAliveNoSpam = nbt.getBoolean("DDAYAliveNoSpam");
+			timeoverlaytoggle = nbt.getBoolean("timeoverlaytoggle");
+			SharkoRideToggle = nbt.getBoolean("SharkoRideToggle");
 		}
 	}
 
@@ -546,6 +565,10 @@ public class AllaboutengieModVariables {
 					variables.playerready = message.data.playerready;
 					variables.solotrophyobtained = message.data.solotrophyobtained;
 					variables.BlockDeathAliveCOunt = message.data.BlockDeathAliveCOunt;
+					variables.DDAYDeathNoSpam = message.data.DDAYDeathNoSpam;
+					variables.DDAYAliveNoSpam = message.data.DDAYAliveNoSpam;
+					variables.timeoverlaytoggle = message.data.timeoverlaytoggle;
+					variables.SharkoRideToggle = message.data.SharkoRideToggle;
 				}
 			});
 			context.setPacketHandled(true);

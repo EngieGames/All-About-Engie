@@ -307,7 +307,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_SHARKO.get(), ExoticSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO.get(), EngieSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE.get(), EngieSharkoRareRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2.get(), EngieSharkoRare2Renderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SHARKO.get(), EngieSharkoRare2Renderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO_APRIL_FOOLS.get(), SharkoAprilFoolsRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ALBINO_SHARKO_APRIL_FOOLS.get(), AlbinoSharkoAprilFoolsRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_SHARKO_APRIL_FOOLS.get(), RareSharkoAprilFoolsRenderer::new);
@@ -327,7 +327,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_SHARKO_LAY.get(), ExoticSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_LAY.get(), EngieSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_LAY.get(), EngieSharkoRareLayRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_LAY.get(), EngieSharkoRare2LayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SHARKO_LAY.get(), EngieSharkoRare2LayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.TOBY_LAY.get(), TobyLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MARSHAL.get(), MarshalRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MARSHAL_LAY.get(), MarshalLayRenderer::new);
@@ -352,7 +352,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED_ZOOMIES_TIRED.get(), ExoticSharkoTamedZoomiesTiredRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_TAMED_ZOOMIES_TIRED.get(), EngieSharkoTamedZoomiesTiredRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED_ZOOMIES_TIRED.get(), EngieSharkoRareTamedZoomiesTiredRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES_TIRED.get(), EngieSharkoRare2TamedZoomiesTiredRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SHARKO_TAMED_ZOOMIES_TIRED.get(), EngieSharkoRare2TamedZoomiesTiredRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.TOBY_SLEEP.get(), TobySleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MARSHAL_SLEEP.get(), MarshalSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SLEEP.get(), TigerSleepRenderer::new);
@@ -365,7 +365,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_SHARKO_SLEEP.get(), ExoticSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_SLEEP.get(), EngieSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_SLEEP.get(), EngieSharkoRareSleepRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_SLEEP.get(), EngieSharkoRare2SleepRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SHARKO_SLEEP.get(), EngieSharkoRare2SleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BUDDY.get(), BuddyRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BUDDY_LAY.get(), BuddyLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BUDDY_ZOOMIES.get(), BuddyZoomiesRenderer::new);
@@ -428,7 +428,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EXOTIC_SHARKO.get(), BigExoticSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO.get(), BigEngieSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE.get(), BigEngieSharkoRareRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2.get(), BigEngieSharkoRare2Renderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO.get(), BigEngieSharkoRare2Renderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_SHARKO_LAY.get(), BigSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ALBINO_SHARKO_LAY.get(), BigAlbinoSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_RARE_SHARKO_LAY.get(), BigRareSharkoLayRenderer::new);
@@ -437,7 +437,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EXOTIC_SHARKO_LAY.get(), BigExoticSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_LAY.get(), BigEngieSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_LAY.get(), BigEngieSharkoRareLayRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2_LAY.get(), BigEngieSharkoRare2LayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_LAY.get(), BigEngieSharkoRare2LayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_SHARKO_SLEEP.get(), BigSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ALBINO_SHARKO_SLEEP.get(), BigAlbinoSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_RARE_SHARKO_SLEEP.get(), BigRareSharkoSleepRenderer::new);
@@ -446,7 +446,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EXOTIC_SHARKO_SLEEP.get(), BigExoticSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_SLEEP.get(), BigEngieSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_SLEEP.get(), BigEngieSharkoRareSleepRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2_SLEEP.get(), BigEngieSharkoRare2SleepRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_SLEEP.get(), BigEngieSharkoRare2SleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_LAY.get(), BigEpicSharkoLayRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_SLEEP.get(), BigEpicSharkoSleepRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO_SLEEP.get(), CosmoSleepRenderer::new);
@@ -488,7 +488,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED.get(), ExoticSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_TAMED.get(), EngieSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED.get(), EngieSharkoRareTamedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), EngieSharkoRare2TamedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SHARKO_TAMED.get(), EngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO_TAMED_ZOOMIES.get(), SharkoTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ALBINO_SHARKO_TAMED_ZOOMIES.get(), AlbinoSharkoTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_SHARKO_TAMED_ZOOMIES.get(), RareSharkoTamedZoomiesRenderer::new);
@@ -497,7 +497,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.EXOTIC_SHARKO_TAMED_ZOOMIES.get(), ExoticSharkoTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_TAMED_ZOOMIES.get(), EngieSharkoRareTamedZoomiesRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.TIGER_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.EPIC_SHARKO_TAMED.get(), EpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.EPIC_SHARKO_TAMED_ZOOMIES.get(), EpicSharkoTamedZoomiesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO_TAMED_APRIL_FOOLS.get(), SharkoTamedAprilFoolsRenderer::new);
@@ -518,7 +518,7 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EXOTIC_SHARKO_TAMED.get(), BigExoticSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_TAMED.get(), BigEngieSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_TAMED.get(), BigEngieSharkoRareTamedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO.get(), CosmoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.YELLOW_LIGHTNING.get(), YellowLightningRenderer::new);

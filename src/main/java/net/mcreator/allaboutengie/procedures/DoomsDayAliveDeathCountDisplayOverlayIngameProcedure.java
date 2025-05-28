@@ -6,7 +6,9 @@ import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 
 public class DoomsDayAliveDeathCountDisplayOverlayIngameProcedure {
 	public static boolean execute(LevelAccessor world) {
-		if (AllaboutengieModVariables.MapVariables.get(world).ddaystart == true) {
+		if (AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart == true) {
+			return true;
+		} else if (AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
 			return true;
 		}
 		return false;

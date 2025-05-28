@@ -4,7 +4,7 @@
     "type": "forge:any"
   },
   "spawners": {
-    "type": "allaboutengie:engie_sharko_rare_2",
+    "type": "allaboutengie:tiger_sharko",
     "weight": 1,
     "minCount": 1,
     "maxCount": 8

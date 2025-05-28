@@ -419,7 +419,7 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<EngieSharkoRareEntity>of(EngieSharkoRareEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieSharkoRareEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2Entity>> ENGIE_SHARKO_RARE_2 = register("engie_sharko_rare_2",
+	public static final RegistryObject<EntityType<EngieSharkoRare2Entity>> TIGER_SHARKO = register("tiger_sharko",
 			EntityType.Builder.<EngieSharkoRare2Entity>of(EngieSharkoRare2Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieSharkoRare2Entity::new)
 
 					.sized(0.7f, 0.9f));
@@ -508,7 +508,7 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<EngieSharkoRareLayEntity>of(EngieSharkoRareLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieSharkoRareLayEntity::new)
 
 					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2LayEntity>> ENGIE_SHARKO_RARE_2_LAY = register("engie_sharko_rare_2_lay",
+	public static final RegistryObject<EntityType<EngieSharkoRare2LayEntity>> TIGER_SHARKO_LAY = register("tiger_sharko_lay",
 			EntityType.Builder.<EngieSharkoRare2LayEntity>of(EngieSharkoRare2LayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieSharkoRare2LayEntity::new)
 
 					.sized(0.7f, 0.6f));
@@ -617,7 +617,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRareTamedZoomiesTiredEntity::new)
 
 					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2TamedZoomiesTiredEntity>> ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES_TIRED = register("engie_sharko_rare_2_tamed_zoomies_tired",
+	public static final RegistryObject<EntityType<EngieSharkoRare2TamedZoomiesTiredEntity>> TIGER_SHARKO_TAMED_ZOOMIES_TIRED = register("tiger_sharko_tamed_zoomies_tired",
 			EntityType.Builder.<EngieSharkoRare2TamedZoomiesTiredEntity>of(EngieSharkoRare2TamedZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(EngieSharkoRare2TamedZoomiesTiredEntity::new)
 
@@ -672,7 +672,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRareSleepEntity::new)
 
 					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2SleepEntity>> ENGIE_SHARKO_RARE_2_SLEEP = register("engie_sharko_rare_2_sleep",
+	public static final RegistryObject<EntityType<EngieSharkoRare2SleepEntity>> TIGER_SHARKO_SLEEP = register("tiger_sharko_sleep",
 			EntityType.Builder.<EngieSharkoRare2SleepEntity>of(EngieSharkoRare2SleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(EngieSharkoRare2SleepEntity::new)
 
@@ -941,12 +941,12 @@ public class AllaboutengieModEntities {
 	public static final RegistryObject<EntityType<BigEngieSharkoEntity>> BIG_ENGIE_SHARKO = register("big_engie_sharko",
 			EntityType.Builder.<BigEngieSharkoEntity>of(BigEngieSharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoEntity::new)
 
-					.sized(1.4f, 1.8f));
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BigEngieSharkoRareEntity>> BIG_ENGIE_SHARKO_RARE = register("big_engie_sharko_rare",
 			EntityType.Builder.<BigEngieSharkoRareEntity>of(BigEngieSharkoRareEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoRareEntity::new)
 
 					.sized(1.4f, 1.8f));
-	public static final RegistryObject<EntityType<BigEngieSharkoRare2Entity>> BIG_ENGIE_SHARKO_RARE_2 = register("big_engie_sharko_rare_2",
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2Entity>> BIG_TIGER_SHARKO = register("big_tiger_sharko",
 			EntityType.Builder.<BigEngieSharkoRare2Entity>of(BigEngieSharkoRare2Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigEngieSharkoRare2Entity::new)
 
 					.sized(1.4f, 1.8f));
@@ -984,7 +984,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(BigEngieSharkoRareLayEntity::new)
 
 					.sized(0.7f, 0.6f));
-	public static final RegistryObject<EntityType<BigEngieSharkoRare2LayEntity>> BIG_ENGIE_SHARKO_RARE_2_LAY = register("big_engie_sharko_rare_2_lay",
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2LayEntity>> BIG_TIGER_SHARKO_LAY = register("big_tiger_sharko_lay",
 			EntityType.Builder.<BigEngieSharkoRare2LayEntity>of(BigEngieSharkoRare2LayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(BigEngieSharkoRare2LayEntity::new)
 
@@ -1026,7 +1026,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(BigEngieSharkoRareSleepEntity::new)
 
 					.sized(1.4f, 1.2f));
-	public static final RegistryObject<EntityType<BigEngieSharkoRare2SleepEntity>> BIG_ENGIE_SHARKO_RARE_2_SLEEP = register("big_engie_sharko_rare_2_sleep",
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2SleepEntity>> BIG_TIGER_SHARKO_SLEEP = register("big_tiger_sharko_sleep",
 			EntityType.Builder.<BigEngieSharkoRare2SleepEntity>of(BigEngieSharkoRare2SleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(BigEngieSharkoRare2SleepEntity::new)
 
@@ -1193,7 +1193,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRareTamedEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2TamedEntity>> ENGIE_SHARKO_RARE_2_TAMED = register("engie_sharko_rare_2_tamed",
+	public static final RegistryObject<EntityType<EngieSharkoRare2TamedEntity>> TIGER_SHARKO_TAMED = register("tiger_sharko_tamed",
 			EntityType.Builder.<EngieSharkoRare2TamedEntity>of(EngieSharkoRare2TamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(EngieSharkoRare2TamedEntity::new)
 
@@ -1237,7 +1237,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(EngieSharkoRareTamedZoomiesEntity::new)
 
 					.sized(0.7f, 0.9f));
-	public static final RegistryObject<EntityType<EngieSharkoRare2TamedZoomiesEntity>> ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES = register("engie_sharko_rare_2_tamed_zoomies",
+	public static final RegistryObject<EntityType<EngieSharkoRare2TamedZoomiesEntity>> TIGER_SHARKO_TAMED_ZOOMIES = register("tiger_sharko_tamed_zoomies",
 			EntityType.Builder.<EngieSharkoRare2TamedZoomiesEntity>of(EngieSharkoRare2TamedZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(EngieSharkoRare2TamedZoomiesEntity::new)
 
@@ -1338,7 +1338,7 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(BigEngieSharkoRareTamedEntity::new)
 
 					.sized(1.4f, 1.8f));
-	public static final RegistryObject<EntityType<BigEngieSharkoRare2TamedEntity>> BIG_ENGIE_SHARKO_RARE_2_TAMED = register("big_engie_sharko_rare_2_tamed",
+	public static final RegistryObject<EntityType<BigEngieSharkoRare2TamedEntity>> BIG_TIGER_SHARKO_TAMED = register("big_tiger_sharko_tamed",
 			EntityType.Builder.<BigEngieSharkoRare2TamedEntity>of(BigEngieSharkoRare2TamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(BigEngieSharkoRare2TamedEntity::new)
 
@@ -1669,7 +1669,7 @@ public class AllaboutengieModEntities {
 		event.put(EXOTIC_SHARKO.get(), ExoticSharkoEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO.get(), EngieSharkoEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE.get(), EngieSharkoRareEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2.get(), EngieSharkoRare2Entity.createAttributes().build());
+		event.put(TIGER_SHARKO.get(), EngieSharkoRare2Entity.createAttributes().build());
 		event.put(SHARKO_APRIL_FOOLS.get(), SharkoAprilFoolsEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_APRIL_FOOLS.get(), AlbinoSharkoAprilFoolsEntity.createAttributes().build());
 		event.put(RARE_SHARKO_APRIL_FOOLS.get(), RareSharkoAprilFoolsEntity.createAttributes().build());
@@ -1689,7 +1689,7 @@ public class AllaboutengieModEntities {
 		event.put(EXOTIC_SHARKO_LAY.get(), ExoticSharkoLayEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_LAY.get(), EngieSharkoLayEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_LAY.get(), EngieSharkoRareLayEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_LAY.get(), EngieSharkoRare2LayEntity.createAttributes().build());
+		event.put(TIGER_SHARKO_LAY.get(), EngieSharkoRare2LayEntity.createAttributes().build());
 		event.put(TOBY_LAY.get(), TobyLayEntity.createAttributes().build());
 		event.put(MARSHAL.get(), MarshalEntity.createAttributes().build());
 		event.put(MARSHAL_LAY.get(), MarshalLayEntity.createAttributes().build());
@@ -1714,7 +1714,7 @@ public class AllaboutengieModEntities {
 		event.put(EXOTIC_SHARKO_TAMED_ZOOMIES_TIRED.get(), ExoticSharkoTamedZoomiesTiredEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_TAMED_ZOOMIES_TIRED.get(), EngieSharkoTamedZoomiesTiredEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED_ZOOMIES_TIRED.get(), EngieSharkoRareTamedZoomiesTiredEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES_TIRED.get(), EngieSharkoRare2TamedZoomiesTiredEntity.createAttributes().build());
+		event.put(TIGER_SHARKO_TAMED_ZOOMIES_TIRED.get(), EngieSharkoRare2TamedZoomiesTiredEntity.createAttributes().build());
 		event.put(TOBY_SLEEP.get(), TobySleepEntity.createAttributes().build());
 		event.put(MARSHAL_SLEEP.get(), MarshalSleepEntity.createAttributes().build());
 		event.put(TIGER_SLEEP.get(), TigerSleepEntity.createAttributes().build());
@@ -1727,7 +1727,7 @@ public class AllaboutengieModEntities {
 		event.put(EXOTIC_SHARKO_SLEEP.get(), ExoticSharkoSleepEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_SLEEP.get(), EngieSharkoSleepEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_SLEEP.get(), EngieSharkoRareSleepEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_SLEEP.get(), EngieSharkoRare2SleepEntity.createAttributes().build());
+		event.put(TIGER_SHARKO_SLEEP.get(), EngieSharkoRare2SleepEntity.createAttributes().build());
 		event.put(BUDDY.get(), BuddyEntity.createAttributes().build());
 		event.put(BUDDY_LAY.get(), BuddyLayEntity.createAttributes().build());
 		event.put(BUDDY_ZOOMIES.get(), BuddyZoomiesEntity.createAttributes().build());
@@ -1790,7 +1790,7 @@ public class AllaboutengieModEntities {
 		event.put(BIG_EXOTIC_SHARKO.get(), BigExoticSharkoEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO.get(), BigEngieSharkoEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_RARE.get(), BigEngieSharkoRareEntity.createAttributes().build());
-		event.put(BIG_ENGIE_SHARKO_RARE_2.get(), BigEngieSharkoRare2Entity.createAttributes().build());
+		event.put(BIG_TIGER_SHARKO.get(), BigEngieSharkoRare2Entity.createAttributes().build());
 		event.put(BIG_SHARKO_LAY.get(), BigSharkoLayEntity.createAttributes().build());
 		event.put(BIG_ALBINO_SHARKO_LAY.get(), BigAlbinoSharkoLayEntity.createAttributes().build());
 		event.put(BIG_RARE_SHARKO_LAY.get(), BigRareSharkoLayEntity.createAttributes().build());
@@ -1799,7 +1799,7 @@ public class AllaboutengieModEntities {
 		event.put(BIG_EXOTIC_SHARKO_LAY.get(), BigExoticSharkoLayEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_LAY.get(), BigEngieSharkoLayEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_RARE_LAY.get(), BigEngieSharkoRareLayEntity.createAttributes().build());
-		event.put(BIG_ENGIE_SHARKO_RARE_2_LAY.get(), BigEngieSharkoRare2LayEntity.createAttributes().build());
+		event.put(BIG_TIGER_SHARKO_LAY.get(), BigEngieSharkoRare2LayEntity.createAttributes().build());
 		event.put(BIG_SHARKO_SLEEP.get(), BigSharkoSleepEntity.createAttributes().build());
 		event.put(BIG_ALBINO_SHARKO_SLEEP.get(), BigAlbinoSharkoSleepEntity.createAttributes().build());
 		event.put(BIG_RARE_SHARKO_SLEEP.get(), BigRareSharkoSleepEntity.createAttributes().build());
@@ -1808,7 +1808,7 @@ public class AllaboutengieModEntities {
 		event.put(BIG_EXOTIC_SHARKO_SLEEP.get(), BigExoticSharkoSleepEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_SLEEP.get(), BigEngieSharkoSleepEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_RARE_SLEEP.get(), BigEngieSharkoRareSleepEntity.createAttributes().build());
-		event.put(BIG_ENGIE_SHARKO_RARE_2_SLEEP.get(), BigEngieSharkoRare2SleepEntity.createAttributes().build());
+		event.put(BIG_TIGER_SHARKO_SLEEP.get(), BigEngieSharkoRare2SleepEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_LAY.get(), BigEpicSharkoLayEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_SLEEP.get(), BigEpicSharkoSleepEntity.createAttributes().build());
 		event.put(COSMO_SLEEP.get(), CosmoSleepEntity.createAttributes().build());
@@ -1850,7 +1850,7 @@ public class AllaboutengieModEntities {
 		event.put(EXOTIC_SHARKO_TAMED.get(), ExoticSharkoTamedEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_TAMED.get(), EngieSharkoTamedEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED.get(), EngieSharkoRareTamedEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_TAMED.get(), EngieSharkoRare2TamedEntity.createAttributes().build());
+		event.put(TIGER_SHARKO_TAMED.get(), EngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(SHARKO_TAMED_ZOOMIES.get(), SharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_TAMED_ZOOMIES.get(), AlbinoSharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(RARE_SHARKO_TAMED_ZOOMIES.get(), RareSharkoTamedZoomiesEntity.createAttributes().build());
@@ -1859,7 +1859,7 @@ public class AllaboutengieModEntities {
 		event.put(EXOTIC_SHARKO_TAMED_ZOOMIES.get(), ExoticSharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(ENGIE_SHARKO_RARE_TAMED_ZOOMIES.get(), EngieSharkoRareTamedZoomiesEntity.createAttributes().build());
-		event.put(ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesEntity.createAttributes().build());
+		event.put(TIGER_SHARKO_TAMED_ZOOMIES.get(), EngieSharkoRare2TamedZoomiesEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED.get(), EpicSharkoTamedEntity.createAttributes().build());
 		event.put(EPIC_SHARKO_TAMED_ZOOMIES.get(), EpicSharkoTamedZoomiesEntity.createAttributes().build());
 		event.put(SHARKO_TAMED_APRIL_FOOLS.get(), SharkoTamedAprilFoolsEntity.createAttributes().build());
@@ -1880,7 +1880,7 @@ public class AllaboutengieModEntities {
 		event.put(BIG_EXOTIC_SHARKO_TAMED.get(), BigExoticSharkoTamedEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_TAMED.get(), BigEngieSharkoTamedEntity.createAttributes().build());
 		event.put(BIG_ENGIE_SHARKO_RARE_TAMED.get(), BigEngieSharkoRareTamedEntity.createAttributes().build());
-		event.put(BIG_ENGIE_SHARKO_RARE_2_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
+		event.put(BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
 		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
 		event.put(YELLOW_LIGHTNING.get(), YellowLightningEntity.createAttributes().build());

@@ -3,6 +3,7 @@ package net.mcreator.allaboutengie.procedures;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
@@ -15,6 +16,7 @@ import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2TamedEntity;
 import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2SleepEntity;
 import net.mcreator.allaboutengie.entity.BigEngieSharkoRare2LayEntity;
+import net.mcreator.allaboutengie.AllaboutengieMod;
 
 import java.util.stream.Collectors;
 import java.util.List;
@@ -74,6 +76,61 @@ public class BigRareEngieSharko2NameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof BigEngieSharkoRare2LayEntity) {
+			if (!(world instanceof Level _lvl14 && _lvl14.isDay())) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.5) {
+						if (entity instanceof BigEngieSharkoRare2LayEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:big_tiger_sharko_sleep ~ ~ ~");
+									}
+								}
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				}
+			} else if (world instanceof Level _lvl22 && _lvl22.isDay()) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
+					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.0005) {
+						if (entity instanceof BigEngieSharkoRare2LayEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:big_tiger_sharko_sleep ~ ~ ~");
+									}
+								}
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				}
+			}
 			if ((entity.getDisplayName().getString()).equals("Cosmo")) {
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -86,6 +143,61 @@ public class BigRareEngieSharko2NameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof BigEngieSharkoRare2SleepEntity) {
+			if (!(world instanceof Level _lvl34 && _lvl34.isDay())) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
+					entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.0005) {
+						if (entity instanceof BigEngieSharkoRare2SleepEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:big_tiger_sharko_lay ~ ~ ~");
+									}
+								}
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				}
+			} else if (world instanceof Level _lvl42 && _lvl42.isDay()) {
+				if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
+					entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
+					if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				} else if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == false) {
+					if (Math.random() <= 0.5) {
+						if (entity instanceof BigEngieSharkoRare2SleepEntity) {
+							if (!entity.level.isClientSide())
+								entity.discard();
+							AllaboutengieMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null,
+												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:big_tiger_sharko_lay ~ ~ ~");
+									}
+								}
+							});
+						}
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					}
+				}
+			}
 			if ((entity.getDisplayName().getString()).equals("Cosmo")) {
 				if (!entity.level.isClientSide())
 					entity.discard();

@@ -25,7 +25,7 @@ public class EngieRare2RCTameProcedure {
 			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == AllaboutengieModItems.ENGIE_COOKIE.get()) {
 				if (Math.random() >= 0.8) {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), _level);
+						Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.TIGER_SHARKO_TAMED.get(), _level);
 						entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
 						entityToSpawn.setYBodyRot(entity.getYRot());
 						entityToSpawn.setYHeadRot(entity.getYRot());
@@ -54,7 +54,7 @@ public class EngieRare2RCTameProcedure {
 						if (world instanceof ServerLevel _level)
 							_level.sendParticles(ParticleTypes.HEART, x, y, z, 15, 1, 1, 1, 1);
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED.get(), _level);
+							Entity entityToSpawn = new EngieSharkoRare2TamedEntity(AllaboutengieModEntities.TIGER_SHARKO_TAMED.get(), _level);
 							entityToSpawn.moveTo(x, y, z, entity.getYRot(), entity.getXRot());
 							entityToSpawn.setYBodyRot(entity.getYRot());
 							entityToSpawn.setYHeadRot(entity.getYRot());

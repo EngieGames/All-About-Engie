@@ -31,7 +31,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class EngieSharkoRare2LayEntity extends PathfinderMob {
 	public EngieSharkoRare2LayEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_LAY.get(), world);
+		this(AllaboutengieModEntities.TIGER_SHARKO_LAY.get(), world);
 	}
 
 	public EngieSharkoRare2LayEntity(EntityType<EngieSharkoRare2LayEntity> type, Level world) {

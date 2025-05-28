@@ -3527,13 +3527,13 @@
       "sortid": 255,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "engie_sharko_rare_2",
+      "registry_name": "tiger_sharko",
       "metadata": {
         "files": [
+          "src/main/resources/data/allaboutengie/forge/biome_modifier/tiger_sharko_biome_modifier.json",
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2Renderer.java",
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2Entity.java",
-          "src/main/resources/assets/allaboutengie/models/item/engie_sharko_rare_2_spawn_egg.json",
-          "src/main/resources/data/allaboutengie/forge/biome_modifier/engie_sharko_rare_2_biome_modifier.json"
+          "src/main/resources/assets/allaboutengie/models/item/tiger_sharko_spawn_egg.json"
         ]
       },
       "path": "~/Mobs/Sharkos/Regular/UnTamed"
@@ -3664,7 +3664,7 @@
       "sortid": 591,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "engie_sharko_rare_2_tamed",
+      "registry_name": "tiger_sharko_tamed",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2TamedRenderer.java",
@@ -3799,7 +3799,7 @@
       "sortid": 275,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "engie_sharko_rare_2_lay",
+      "registry_name": "tiger_sharko_lay",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2LayRenderer.java",
@@ -10628,7 +10628,7 @@
       "sortid": 805,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "engie_sharko_rare_2_tamed_zoomies",
+      "registry_name": "tiger_sharko_tamed_zoomies",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/EngieSharkoRare2TamedZoomiesEntity.java",
@@ -10838,7 +10838,7 @@
       "sortid": 300,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "engie_sharko_rare_2_tamed_zoomies_tired",
+      "registry_name": "tiger_sharko_tamed_zoomies_tired",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2TamedZoomiesTiredRenderer.java",
@@ -11033,7 +11033,7 @@
       "sortid": 313,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "engie_sharko_rare_2_sleep",
+      "registry_name": "tiger_sharko_sleep",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/EngieSharkoRare2SleepRenderer.java",
@@ -18237,7 +18237,7 @@
       "sortid": 376,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_engie_sharko_rare_2",
+      "registry_name": "big_tiger_sharko",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/BigEngieSharkoRare2Entity.java",
@@ -18372,7 +18372,7 @@
       "sortid": 1065,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_engie_sharko_rare_2_tamed",
+      "registry_name": "big_tiger_sharko_tamed",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/entity/BigEngieSharkoRare2TamedEntity.java",
@@ -18507,7 +18507,7 @@
       "sortid": 385,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_engie_sharko_rare_2_lay",
+      "registry_name": "big_tiger_sharko_lay",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BigEngieSharkoRare2LayRenderer.java",
@@ -18642,7 +18642,7 @@
       "sortid": 394,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "big_engie_sharko_rare_2_sleep",
+      "registry_name": "big_tiger_sharko_sleep",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/allaboutengie/client/renderer/BigEngieSharkoRare2SleepRenderer.java",
@@ -21507,19 +21507,6 @@
       "path": "~/Advancements"
     },
     {
-      "name": "SuperDoomsday",
-      "type": "gamerule",
-      "sortid": 1165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "super_doomsday",
-      "metadata": {
-        "files": [],
-        "type": "logic"
-      },
-      "path": "~/Gamerule"
-    },
-    {
       "name": "DoomsDayMobsFightEachotherToggle",
       "type": "procedure",
       "sortid": 1166,
@@ -21627,30 +21614,6 @@
           {
             "name": "z",
             "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "DoomsDayDeathCheck",
-      "type": "procedure",
-      "sortid": 1172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dooms_day_death_check",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayDeathCheckProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
           },
           {
             "name": "world",
@@ -21773,26 +21736,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "SDDAYToggle",
-      "type": "procedure",
-      "sortid": 1182,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sdday_toggle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/allaboutengie/procedures/SDDAYToggleProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "PlayerWorldCount",
       "type": "procedure",
       "sortid": 1183,
@@ -21811,6 +21754,216 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "SuperDoomsdayDialogue",
+      "type": "procedure",
+      "sortid": 1185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_doomsday_dialogue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SuperDoomsdayDialogueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SuperDoomsdayChaos",
+      "type": "procedure",
+      "sortid": 1186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_doomsday_chaos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SuperDoomsdayChaosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayAliveCountCheck",
+      "type": "procedure",
+      "sortid": 1187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_alive_count_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayAliveCountCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DoomsDayDeadCountCheck",
+      "type": "procedure",
+      "sortid": 1188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dooms_day_dead_count_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/DoomsDayDeadCountCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TimeCheckReturnTime",
+      "type": "procedure",
+      "sortid": 1189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_check_return_time",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TimeCheckReturnTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TimeCheckOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 1190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_check_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/TimeCheckOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TimeCheckOverlay",
+      "type": "overlay",
+      "sortid": 1191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_check_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/client/screens/TimeCheckOverlayOverlay.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "SharkoRideToggleOnKeyReleased",
+      "type": "procedure",
+      "sortid": 1192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_ride_toggle_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/SharkoRideToggleOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SharkoRideToggle",
+      "type": "keybind",
+      "sortid": 1193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharko_ride_toggle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/network/SharkoRideToggleMessage.java"
+        ]
+      },
+      "path": "~/Keybinds"
     }
   ],
   "variable_elements": [
@@ -22021,13 +22174,13 @@
     {
       "name": "DoomsdayAlive",
       "type": "logic",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "false"
     },
     {
       "name": "DoomsDayDead",
       "type": "logic",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "true"
     },
     {
@@ -22193,12 +22346,6 @@
       "value": "false"
     },
     {
-      "name": "SDDAY",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
       "name": "DoomsdayEeriePlayOnce",
       "type": "logic",
       "scope": "map",
@@ -22223,43 +22370,7 @@
       "value": "false"
     },
     {
-      "name": "sddaydialoguetimeblock",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "NDoomsdayStartMusicBlock",
-      "type": "logic",
-      "scope": "map",
-      "value": "true"
-    },
-    {
-      "name": "SDoomsdayStartMusicBlock",
-      "type": "logic",
-      "scope": "map",
-      "value": "true"
-    },
-    {
       "name": "waittildoomsday",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "SDoomsdayStartMusicBlock2",
-      "type": "logic",
-      "scope": "map",
-      "value": "true"
-    },
-    {
-      "name": "SDDAYtypetoggle",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "DDAYtypetoggle",
       "type": "logic",
       "scope": "map",
       "value": "false"
@@ -22269,6 +22380,78 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "sddaystart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "sdoomsdaymainsongstart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SuperDoomsDayStart",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "waittilsdoomsday",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "sddaydialoguetimeblock",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "sddaytimenighttimerblock",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SuperDoomsdayEeriePlayOnce",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SDDAYToggle",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "DDAYDeathNoSpam",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "DDAYAliveNoSpam",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "timeoverlaytoggle",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "SharkoRideToggle",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -22346,13 +22529,12 @@
       "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.cyberblood_helmet": "Cyberblood Helmet",
       "entity.allaboutengie.toby": "Toby",
-      "entity.allaboutengie.engie_sharko_rare_2": "Rare Engie Sharko",
       "item.allaboutengie.mythic_boots": "Mythic Boots",
       "entity.allaboutengie.tiger_zoomies": "Tiger",
       "block.aae_items.metal_chest_acacia": "Acacia Metal Chest",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
       "entity.allaboutengie.exotic_sharko_lay": "[Tamed] Exotic Sharko (Laying)",
-      "advancements.rise.descr": "Encounter SUPER DOOMSDAY - Doomsday that occurs with the SUPER DOOMSDAY Modifier on.",
+      "advancements.rise.descr": "Encounter SUPER DOOMSDAY - Doomsday that occurs due to the SUPER DOOMSDAY modifier being chosen.",
       "item.allaboutengie.uncommon_hoe": "Uncommon Hoe",
       "entity.allaboutengie.outraged_engie_sharko": "Outraged Engie",
       "entity.allaboutengie.atlas_sleep": "Atlas (Sleeping)",
@@ -22400,7 +22582,6 @@
       "entity.allaboutengie.legendary_sharko_april_fools": "Legendary Sharko",
       "entity.allaboutengie.angry_engie_sharko": "Angry Engie",
       "item.aae_items.big_ban_hammer_pixel": "Big Ban Hammer Pixel",
-      "entity.allaboutengie.big_engie_sharko_rare_2_sleep": "[Tamed] {Big} Rare Engie Sharko (Sleeping)",
       "advancements.conqueror.descr": "Survive the end of the world.",
       "item.allaboutengie.engie_hoe": "Engie Hoe",
       "item_group.allaboutengie.sharkos": "Sharkos",
@@ -22460,10 +22641,8 @@
       "item.allaboutengie.big_ban_hammer_pixel": "Pixelized Big Ban Hammer",
       "item.aae_items.engie_leggings": "Engie Leggings",
       "item.aae_items.mini_ban_hammer_pixel": "Mini Ban Hammer Pixel",
-      "entity.allaboutengie.big_engie_sharko_rare_2_lay": "[Tamed] {Big} Rare Engie Sharko (Laying)",
       "item.aae_items.bigger_ban_hammer": "Bigger Ban Hammer",
       "item.allaboutengie.engies_helmet": "Engie Helmet",
-      "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies_tired": "[Tamed] Rare Engie Sharko (Worn Out)",
       "entity.allaboutengie.monstrosity_engie": "Monstrosity Engie",
       "entity.allaboutengie.exotic_sharko_tamed_zoomies_tired": "[Tamed] Exotic Sharko (Worn Out)",
       "entity.allaboutengie.yellow_lightning": "Yellow Lightning",
@@ -22536,7 +22715,6 @@
       "painting.allaboutengie.idea_giver_blood.author": "EngieGames, Blood",
       "item.aae_items.enraged_engie_chestplate": "Enraged Engie Chestplate",
       "item.aae_items.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
-      "entity.allaboutengie.big_engie_sharko_rare_2": "{Big} Rare Engie Sharko",
       "item.allaboutengie.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
       "item.allaboutengie.shark_boots": "Sharko Boots",
       "item.aae_items.engie_axe": "Engie Axe",
@@ -22578,6 +22756,7 @@
       "entity.allaboutengie.big_legendary_sharko_lay": "[Tamed] Legendary Sharko (Laying)",
       "advancements.something_is_not_right.title": "I don\u0027t feel safe.",
       "item.allaboutengie.mythic_helmet": "Mythic Helmet",
+      "entity.allaboutengie.big_tiger_sharko": "{Big} Rare Engie Sharko",
       "item.allaboutengie.engies_scythe": "Engie\u0027s Scythe",
       "block.allaboutengie.monstrosity_engie_block": "Monstrosity Engie Block",
       "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
@@ -22614,12 +22793,12 @@
       "item.allaboutengie.enormous_ban_hammer": "Enormous Ban Hammer",
       "block.allaboutengie.biblically_accurate_block": "Biblically Accurate Engie Block",
       "advancements.mini_ban_obtain.descr": "Obtain a Mini Ban Hammer",
-      "entity.allaboutengie.engie_sharko_rare_2_sleep": "[Tamed] Rare Engie Sharko (Sleeping)",
       "entity.allaboutengie.legendary_sharko": "Legendary Sharko",
       "entity.allaboutengie.buddy_sleep": "Buddy (Sleeping)",
       "advancements.gigantic_ban_obtain.descr": "Obtain a Gigantic Ban Hammer",
       "item.allaboutengie.insanity_plush": "Insanity Plush",
       "item.aae_items.operators_hoe": "Operators Hoe",
+      "entity.allaboutengie.big_tiger_sharko_sleep": "[Tamed] {Big} Rare Engie Sharko (Sleeping)",
       "advancements.huge_ban_challenge_obtain.title": "....",
       "item.allaboutengie.enchanted_engie_cookie": "Enchanted Engie Cookie",
       "block.allaboutengie.engie_block": "Engie Block",
@@ -22657,6 +22836,7 @@
       "painting.allaboutengie.tiger_shark_cat_onsie.title": "Cat Onsie Tiger Shark",
       "item.allaboutengie.massive_ban_hammer_pixel": "Pixelized Massive Ban Hammer",
       "item.allaboutengie.rare_leggings": "Rare Leggings",
+      "key.allaboutengie.sharko_ride_toggle": "Sharko Ride Toggle",
       "entity.allaboutengie.epic_sharko_tamed": "[Tamed] Epic Sharko",
       "subtitles.doomsday_eerie": "Doomsday is here.",
       "item.allaboutengie.exotic_shark_leggings": "Exotic Sharko Leggings",
@@ -22698,6 +22878,7 @@
       "entity.allaboutengie.exotic_sharko_tamed_april_fools": "[Tamed] Exotic Sharko",
       "item.allaboutengie.exotic_boots": "Exotic Boots",
       "block.aae_items.metal_chest": "Metal Chest",
+      "entity.allaboutengie.tiger_sharko_tamed": "[Tamed] Tiger Sharko",
       "block.allaboutengie.metal_chest_crimson": "Crimson Metal Chest",
       "entity.allaboutengie.angry_engie_style_2": "Angry Engie (Style 2)",
       "item.allaboutengie.enraged_engie_bundle": "Enraged Engie Bundle",
@@ -22721,7 +22902,6 @@
       "item.allaboutengie.legendary_shark_helmet": "Legendary Sharko Helmet",
       "item.allaboutengie.gigantic_ban_hammer": "Gigantic Ban Hammer",
       "item.allaboutengie.sharko_april_fools_spawn_egg": "Sharko Spawn Egg",
-      "entity.allaboutengie.big_engie_sharko_rare_2_tamed": "[Tamed] {Big} Rare Engie Sharko",
       "item.aae_items.cooked_pizza": "Cooked Pizza",
       "item.allaboutengie.aae_engie": "EngieGames (real)",
       "entity.allaboutengie.cbe_zoomies": "clippedbyengie (da boyo)",
@@ -22786,6 +22966,7 @@
       "advancements.big_ban_obtain.descr": "Obtain a Big Ban Hammer",
       "gui.allaboutengie.engies_own_engie_bundle_ui.button_set_name": "Set Name",
       "item.allaboutengie.angry_engie_sharko_spawn_egg": "Angry Engie Spawn Egg",
+      "entity.allaboutengie.big_tiger_sharko_lay": "[Tamed] {Big} Rare Engie Sharko (Laying)",
       "item.aae_items.operators_boots": "Operators Boots",
       "entity.allaboutengie.rare_sharko_tamed_april_fools": "[Tamed] Rare Sharko",
       "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
@@ -22796,6 +22977,7 @@
       "item.allaboutengie.diamond_angry_engie_plush": "Diamond Angry Engie Plush",
       "gamerule.trueHardcore.description": "If you enabled this with Hardcore enabled (which is highly recommended) GOOD LUCK, YOU\u0027RE GOING TO NEED IT. Challenge: Obtain the biggest ban hammer possible without death or cheats.",
       "subtitles.doomsday_eerie_2": "SUPER DOOMSDAY",
+      "entity.allaboutengie.tiger_sharko_lay": "[Tamed] Tiger Sharko (Laying)",
       "item.allaboutengie.cheese_balls_opened": "Cheese Balls Opened",
       "item.allaboutengie.hwg_chestplate": "HWG Chestplate",
       "itemGroup.tabaae_items_food": "Food",
@@ -22804,6 +22986,7 @@
       "entity.allaboutengie.big_mythic_sharko_sleep": "[Tamed] {Big} Mythic Sharko (Sleeping)",
       "item.allaboutengie.blood_helmet": "Blood Helmet",
       "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
+      "item.allaboutengie.tiger_sharko_spawn_egg": "Tiger Sharko Spawn Egg",
       "entity.allaboutengie.albino_sharko_sleep_april_fools": "[Tamed] Albino Sharko (Sleeping)",
       "item.allaboutengie.albino_shark_helmet": "Albino Sharko Helmet",
       "advancements.massive_ban_obtain.descr": "Obtain a Massive Ban Hammer",
@@ -22880,10 +23063,10 @@
       "item.allaboutengie.legendary_shark_leggings": "Legendary Sharko Leggings",
       "entity.allaboutengie.atlas_zoomies_tired": "Atlas (Worn Out)",
       "item.allaboutengie.blood_leggings": "Blood Leggings",
+      "entity.allaboutengie.tiger_sharko_tamed_zoomies_tired": "[Tamed] Tiger Sharko (Worn Out)",
       "subtitles.byebyethere": "Mr. Sauceman - Bye Bye There (TCToP)",
       "item.allaboutengie.uncommon_leggings": "Uncommon Leggings",
       "item.allaboutengie.uncommon_helmet": "Uncommon Helmet",
-      "entity.allaboutengie.engie_sharko_rare_2_lay": "[Tamed] Rare Engie Sharko (Laying)",
       "block.allaboutengie.metal_chest_acacia": "Acacia Metal Chest",
       "item.allaboutengie.dough_with_sauce": "Dough With Sauce",
       "painting.allaboutengie.ech.author": "Fargo\u0027s Souls, Imported by EngieGames",
@@ -22905,7 +23088,6 @@
       "item.allaboutengie.legendary_pickaxe": "Legendary Pickaxe",
       "block.allaboutengie.metal_chest_oak": "Oak Metal Chest",
       "entity.allaboutengie.rare_sharko_april_fools": "Rare Sharko",
-      "item.allaboutengie.engie_sharko_rare_2_spawn_egg": "Rare Engie Sharko Spawn Egg",
       "item.allaboutengie.code_redeemers_helmet": "Code Redeemers Helmet",
       "item.allaboutengie.outraged_engie_plush": "Outraged Engie Plush",
       "painting.allaboutengie.aae.author": "DevEngie",
@@ -22959,7 +23141,6 @@
       "item.allaboutengie.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.allaboutengie.unobtainium_chestplate": "Unobtainium Chestplate",
       "entity.allaboutengie.big_legendary_sharko_tamed": "[Tamed] {Big} Legendary Sharko",
-      "entity.allaboutengie.engie_sharko_rare_2_tamed_zoomies": "[Tamed] Rare Engie Sharko (Zoomies)",
       "gamerule.detectiveFindEngie": "Detective Mode",
       "entity.allaboutengie.engie_sharko_rare_2_lay_april_fools": "[Tamed] Rare Engie Sharko (Laying)",
       "item.allaboutengie.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
@@ -23050,6 +23231,7 @@
       "item.allaboutengie.epic_shark_leggings": "Epic Sharko Leggings",
       "item.allaboutengie.mythic_shark_leggings": "Mythic Sharko Leggings",
       "item.allaboutengie.uncommon_pickaxe": "Uncommon Pickaxe",
+      "entity.allaboutengie.tiger_sharko_tamed_zoomies": "[Tamed] Tiger Sharko (Zoomies)",
       "item.allaboutengie.common_pickaxe": "Common Pickaxe",
       "advancements.monstrosity_ban_challenge_obtain.descr": "You did it. You can take a break from this now.",
       "entity.allaboutengie.mad_engie": "Mad Engie",
@@ -23145,6 +23327,7 @@
       "item.allaboutengie.unobtainium_axe": "Unobtainium Axe",
       "entity.allaboutengie.engie_sharko_sleep": "[Tamed] Engie Sharko (Sleeping)",
       "item.allaboutengie.exotic_axe": "Exotic Axe",
+      "entity.allaboutengie.tiger_sharko_sleep": "[Tamed] Tiger Sharko (Sleeping)",
       "item.aae_items.engie_hoe": "Engie Hoe",
       "item.aae_items.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
       "entity.allaboutengie.exotic_sharko_lay_april_fools": "[Tamed] Exotic Sharko (Laying)",
@@ -23242,6 +23425,7 @@
       "item.aae_items.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
       "item.allaboutengie.engie_sharko_rare_2_april_fools_spawn_egg": "Rare Engie Sharko Spawn Egg",
       "painting.allaboutengie.shovel_king.title": "The shovel of King Bothan the great. (Friend wanted me to do it.)",
+      "entity.allaboutengie.tiger_sharko": "Tiger Sharko",
       "item.allaboutengie.bye_bye_there.desc": "Mr. Sauceman - Bye Bye There (TCToP)",
       "item.allaboutengie.brownies_unopened": "Brownies Unopened",
       "item.allaboutengie.angry_engie_bundle": "Angry Engie Bundle",
@@ -23268,7 +23452,7 @@
       "entity.allaboutengie.engie_sharko_lay": "[Tamed] Engie Sharko (Laying)",
       "advancements.monstrosity_ban_challenge_obtain.title": "........",
       "entity.allaboutengie.legendary_sharko_tamed_zoomies_tired": "[Tamed] Legendary Sharko (Worn Out)",
-      "entity.allaboutengie.engie_sharko_rare_2_tamed": "[Tamed] Rare Engie Sharko",
+      "entity.allaboutengie.big_tiger_sharko_tamed": "[Tamed] {Big} Tiger Sharko",
       "item.allaboutengie.engie_shark_helmet": "Engie Sharko Helmet"
     }
   },
@@ -23523,13 +23707,17 @@
       {
         "name": "Tags",
         "children": []
+      },
+      {
+        "name": "Keybinds",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "5.27.25",
+    "version": "5.28.25",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

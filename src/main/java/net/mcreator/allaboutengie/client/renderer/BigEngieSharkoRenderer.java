@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.BigEngieSharkoEntity;
-import net.mcreator.allaboutengie.client.model.Modelboyo;
+import net.mcreator.allaboutengie.client.model.Modelbigboyo;
 
-public class BigEngieSharkoRenderer extends MobRenderer<BigEngieSharkoEntity, Modelboyo<BigEngieSharkoEntity>> {
+public class BigEngieSharkoRenderer extends MobRenderer<BigEngieSharkoEntity, Modelbigboyo<BigEngieSharkoEntity>> {
 	public BigEngieSharkoRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelboyo(context.bakeLayer(Modelboyo.LAYER_LOCATION)), 1f);
+		super(context, new Modelbigboyo(context.bakeLayer(Modelbigboyo.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

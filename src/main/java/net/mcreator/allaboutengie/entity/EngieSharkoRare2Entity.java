@@ -44,7 +44,7 @@ import javax.annotation.Nullable;
 
 public class EngieSharkoRare2Entity extends PathfinderMob {
 	public EngieSharkoRare2Entity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2.get(), world);
+		this(AllaboutengieModEntities.TIGER_SHARKO.get(), world);
 	}
 
 	public EngieSharkoRare2Entity(EntityType<EngieSharkoRare2Entity> type, Level world) {
@@ -129,7 +129,7 @@ public class EngieSharkoRare2Entity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+		SpawnPlacements.register(AllaboutengieModEntities.TIGER_SHARKO.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();

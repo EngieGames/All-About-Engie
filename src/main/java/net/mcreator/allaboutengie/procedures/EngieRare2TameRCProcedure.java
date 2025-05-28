@@ -137,7 +137,7 @@ public class EngieRare2TameRCProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_2_lay ~ ~ ~");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:tiger_sharko_lay ~ ~ ~");
 				}
 			}
 			AllaboutengieMod.queueServerWork(1, () -> {
@@ -146,7 +146,7 @@ public class EngieRare2TameRCProcedure {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
 				}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRare2LayEntity) {
-					if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko")) {
+					if (!(entity.getDisplayName().getString()).equals("[Tamed] Tiger Sharko")) {
 						((Entity) world.getEntitiesOfClass(EngieSharkoRare2LayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
 							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));

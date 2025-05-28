@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Sharko Ride Toggle",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyReleased": {
+      "name": "SharkoRideToggleOnKeyReleased"
+    }
+  }
+}

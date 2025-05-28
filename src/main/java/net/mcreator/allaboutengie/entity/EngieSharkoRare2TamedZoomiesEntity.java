@@ -33,7 +33,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class EngieSharkoRare2TamedZoomiesEntity extends PathfinderMob {
 	public EngieSharkoRare2TamedZoomiesEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.ENGIE_SHARKO_RARE_2_TAMED_ZOOMIES.get(), world);
+		this(AllaboutengieModEntities.TIGER_SHARKO_TAMED_ZOOMIES.get(), world);
 	}
 
 	public EngieSharkoRare2TamedZoomiesEntity(EntityType<EngieSharkoRare2TamedZoomiesEntity> type, Level world) {

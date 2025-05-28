@@ -33,7 +33,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class BigEngieSharkoRare2Entity extends PathfinderMob {
 	public BigEngieSharkoRare2Entity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2.get(), world);
+		this(AllaboutengieModEntities.BIG_TIGER_SHARKO.get(), world);
 	}
 
 	public BigEngieSharkoRare2Entity(EntityType<BigEngieSharkoRare2Entity> type, Level world) {

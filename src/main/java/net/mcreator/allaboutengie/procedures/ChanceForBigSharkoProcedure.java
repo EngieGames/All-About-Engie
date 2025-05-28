@@ -125,7 +125,7 @@ public class ChanceForBigSharkoProcedure {
 					entity.discard();
 			} else if (entity instanceof EngieSharkoRare2Entity) {
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new BigEngieSharkoRare2Entity(AllaboutengieModEntities.BIG_ENGIE_SHARKO_RARE_2.get(), _level);
+					Entity entityToSpawn = new BigEngieSharkoRare2Entity(AllaboutengieModEntities.BIG_TIGER_SHARKO.get(), _level);
 					entityToSpawn.moveTo((entity.getX()), (entity.getY()), (entity.getZ()), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
 						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
