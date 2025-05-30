@@ -57,7 +57,7 @@ public class AAEAllCommandsProcedure {
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("Pixelify")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("Toggle")) {
-				if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
+				if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
 						_player.displayClientMessage(Component.literal("Toggled pixel items on."), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = true;
@@ -79,7 +79,7 @@ public class AAEAllCommandsProcedure {
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("pixelify")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("toggle")) {
-				if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
+				if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
 						_player.displayClientMessage(Component.literal("Toggled pixel items on."), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = true;
@@ -1043,6 +1043,31 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
+				if ((StringArgumentType.getString(arguments, "Code")).equals("hotlinemiami2")) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
+						}
+					}
+				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HotlineMiami2")) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
+						}
+					}
+				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HOTLINEMIAMI2")) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
+						}
+					}
+				}
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("code")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("redeem")) {
@@ -1063,8 +1088,8 @@ public class AAEAllCommandsProcedure {
 											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:bye_bye_there");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr179 && _plr179.level instanceof ServerLevel
-									&& _plr179.getAdvancements().getOrStartProgress(_plr179.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
+							if ((entity instanceof ServerPlayer _plr185 && _plr185.level instanceof ServerLevel
+									&& _plr185.getAdvancements().getOrStartProgress(_plr185.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
 								if (entity instanceof ServerPlayer _player) {
 									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"));
 									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1109,8 +1134,8 @@ public class AAEAllCommandsProcedure {
 											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:bye_bye_there");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr184 && _plr184.level instanceof ServerLevel
-									&& _plr184.getAdvancements().getOrStartProgress(_plr184.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
+							if ((entity instanceof ServerPlayer _plr190 && _plr190.level instanceof ServerLevel
+									&& _plr190.getAdvancements().getOrStartProgress(_plr190.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
 								if (entity instanceof ServerPlayer _player) {
 									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"));
 									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1160,8 +1185,8 @@ public class AAEAllCommandsProcedure {
 											"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr190 && _plr190.level instanceof ServerLevel
-									&& _plr190.getAdvancements().getOrStartProgress(_plr190.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
+							if ((entity instanceof ServerPlayer _plr196 && _plr196.level instanceof ServerLevel
+									&& _plr196.getAdvancements().getOrStartProgress(_plr196.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
 								if (entity instanceof ServerPlayer _player) {
 									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
 									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1201,8 +1226,8 @@ public class AAEAllCommandsProcedure {
 											"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr195 && _plr195.level instanceof ServerLevel
-									&& _plr195.getAdvancements().getOrStartProgress(_plr195.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
+							if ((entity instanceof ServerPlayer _plr201 && _plr201.level instanceof ServerLevel
+									&& _plr201.getAdvancements().getOrStartProgress(_plr201.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
 								if (entity instanceof ServerPlayer _player) {
 									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
 									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1985,6 +2010,31 @@ public class AAEAllCommandsProcedure {
 											"tellraw @p [\"\",{\"text\":\"<\"},{\"text\":\"[\",\"color\":\"red\"},{\"text\":\"All \",\"color\":\"green\"},{\"text\":\"About\",\"color\":\"yellow\"},{\"text\":\" Engie \",\"color\":\"red\"},{\"text\":\"Content Creator\",\"color\":\"gold\"},{\"text\":\"]\",\"color\":\"red\"},{\"text\":\" EngieGamesOnTTV\",\"color\":\"gold\"},{\"text\":\"> 5/25 (MM/DD).\"}]");
 								}
 							}
+						}
+					}
+				}
+				if ((StringArgumentType.getString(arguments, "Code")).equals("hotlinemiami2")) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
+						}
+					}
+				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HotlineMiami2")) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
+						}
+					}
+				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HOTLINEMIAMI2")) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
 						}
 					}
 				}

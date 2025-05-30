@@ -22,6 +22,12 @@ import net.mcreator.allaboutengie.world.inventory.ETCEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.CreativeEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.BiblicallyAccurateEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.AngryEngieBundleUIMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiWeaponsMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiToolsMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiPassiveMobsMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiHostileMobsMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiHomeMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiArmorMenu;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 public class AllaboutengieModMenus {
@@ -38,4 +44,10 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<CreativeEngieBundleUIMenu>> CREATIVE_ENGIE_BUNDLE_UI = REGISTRY.register("creative_engie_bundle_ui", () -> IForgeMenuType.create(CreativeEngieBundleUIMenu::new));
 	public static final RegistryObject<MenuType<EngiesOwnEngieBundleUIMenu>> ENGIES_OWN_ENGIE_BUNDLE_UI = REGISTRY.register("engies_own_engie_bundle_ui", () -> IForgeMenuType.create(EngiesOwnEngieBundleUIMenu::new));
 	public static final RegistryObject<MenuType<EngiesBirthdayBundleUIMenu>> ENGIES_BIRTHDAY_BUNDLE_UI = REGISTRY.register("engies_birthday_bundle_ui", () -> IForgeMenuType.create(EngiesBirthdayBundleUIMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiHomeMenu>> ALL_ABOUT_ENGIE_WIKI_HOME = REGISTRY.register("all_about_engie_wiki_home", () -> IForgeMenuType.create(AllAboutEngieWikiHomeMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiHostileMobsMenu>> ALL_ABOUT_ENGIE_WIKI_HOSTILE_MOBS = REGISTRY.register("all_about_engie_wiki_hostile_mobs", () -> IForgeMenuType.create(AllAboutEngieWikiHostileMobsMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiPassiveMobsMenu>> ALL_ABOUT_ENGIE_WIKI_PASSIVE_MOBS = REGISTRY.register("all_about_engie_wiki_passive_mobs", () -> IForgeMenuType.create(AllAboutEngieWikiPassiveMobsMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiWeaponsMenu>> ALL_ABOUT_ENGIE_WIKI_WEAPONS = REGISTRY.register("all_about_engie_wiki_weapons", () -> IForgeMenuType.create(AllAboutEngieWikiWeaponsMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiToolsMenu>> ALL_ABOUT_ENGIE_WIKI_TOOLS = REGISTRY.register("all_about_engie_wiki_tools", () -> IForgeMenuType.create(AllAboutEngieWikiToolsMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiArmorMenu>> ALL_ABOUT_ENGIE_WIKI_ARMOR = REGISTRY.register("all_about_engie_wiki_armor", () -> IForgeMenuType.create(AllAboutEngieWikiArmorMenu::new));
 }

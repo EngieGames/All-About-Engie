@@ -1,0 +1,189 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_about",
+          "text": {
+            "fixedValue": "About"
+          },
+          "color": {
+            "value": -171,
+            "falpha": 0.0
+          },
+          "x": 21,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_all1",
+          "text": {
+            "fixedValue": "All"
+          },
+          "color": {
+            "value": -11141291,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_engie",
+          "text": {
+            "fixedValue": "Engie"
+          },
+          "color": {
+            "value": -43691,
+            "falpha": 0.0
+          },
+          "x": 52,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wiki",
+          "text": {
+            "fixedValue": "Wiki"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hostile_mobs",
+          "text": {
+            "fixedValue": "/Hostile Mobs"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 104,
+          "y": 0
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_mad_engie",
+          "text": "Mad Engie",
+          "width": 72,
+          "height": 20,
+          "x": 0,
+          "y": 11
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_angry_engie",
+          "text": "Angry Engie",
+          "width": 82,
+          "height": 20,
+          "x": 0,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enraged_engie",
+          "text": "Enraged Engie",
+          "width": 93,
+          "height": 20,
+          "x": 0,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_outraged_engie",
+          "text": "Outraged Engie",
+          "width": 98,
+          "height": 20,
+          "x": 0,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_monstrosity_engie",
+          "text": "Monstrosity Engie",
+          "width": 114,
+          "height": 20,
+          "x": 0,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_insanity",
+          "text": "Insanity",
+          "width": 67,
+          "height": 20,
+          "x": 0,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pure_insanity",
+          "text": "Pure Insanity",
+          "width": 93,
+          "height": 20,
+          "x": 0,
+          "y": 142
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_challenge_modesuper_doomsday",
+          "text": {
+            "fixedValue": "--Challenge Mode/Super Doomsday Exclusive--"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 111
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

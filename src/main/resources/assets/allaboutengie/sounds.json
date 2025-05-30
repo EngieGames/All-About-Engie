@@ -34,5 +34,14 @@
         "stream": false
       }
     ]
+  },
+  "hotlinemiami2-run": {
+    "subtitle": "subtitles.hotlinemiami2-run",
+    "sounds": [
+      {
+        "name": "allaboutengie:hotline-miami-2-run",
+        "stream": true
+      }
+    ]
   }
 }

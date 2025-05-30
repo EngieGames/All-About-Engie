@@ -105,6 +105,7 @@ import net.mcreator.allaboutengie.item.InsanityPlushItem;
 import net.mcreator.allaboutengie.item.IdeagiverEngieBundleItem;
 import net.mcreator.allaboutengie.item.HugeBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.HugeBanHammerItem;
+import net.mcreator.allaboutengie.item.HotlineMiami2RunItem;
 import net.mcreator.allaboutengie.item.HWGScytheItem;
 import net.mcreator.allaboutengie.item.HWGItem;
 import net.mcreator.allaboutengie.item.GoldenOutragedEngiePlushItem;
@@ -703,6 +704,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGIES_OWN_ENGIE_BUNDLE = REGISTRY.register("engies_own_engie_bundle", () -> new EngiesOwnEngieBundleItem());
 	public static final RegistryObject<Item> ENGIE_PLAQUE = REGISTRY.register("engie_plaque", () -> new EngiePlaqueItem());
 	public static final RegistryObject<Item> ENGIES_BIRTHDAY_BUNDLE25 = REGISTRY.register("engies_birthday_bundle25", () -> new EngiesBirthdayBundleItem());
+	public static final RegistryObject<Item> HOTLINE_MIAMI_2_RUN = REGISTRY.register("hotline_miami_2_run", () -> new HotlineMiami2RunItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

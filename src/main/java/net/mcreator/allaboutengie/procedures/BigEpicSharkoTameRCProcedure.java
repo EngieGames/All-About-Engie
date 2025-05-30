@@ -26,7 +26,7 @@ public class BigEpicSharkoTameRCProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).SharkoRideToggle == false) {
+		if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).SharkoRideToggle == false) {
 			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.COOKIE
 					|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.COOKIE) {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) >= (entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1)) {
@@ -131,7 +131,7 @@ public class BigEpicSharkoTameRCProcedure {
 					}
 				});
 			}
-		} else if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).SharkoRideToggle == true) {
+		} else if ((sourceentity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).SharkoRideToggle == true) {
 			sourceentity.startRiding(entity);
 		}
 	}

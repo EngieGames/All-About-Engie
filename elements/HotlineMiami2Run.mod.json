@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Hotline Miami 2 OST - Run",
+    "texture": "hotlinemiami2run",
+    "description": "iamthekidyouknowwhatimean - Run",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [
+      "Hotline Miami 2."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:hotlinemiami2-run"
+    },
+    "lengthInTicks": 6960,
+    "analogOutput": 15
+  }
+}

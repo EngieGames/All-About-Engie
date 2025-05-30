@@ -1,0 +1,148 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_about",
+          "text": {
+            "fixedValue": "About"
+          },
+          "color": {
+            "value": -171,
+            "falpha": 0.0
+          },
+          "x": 21,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_all1",
+          "text": {
+            "fixedValue": "All"
+          },
+          "color": {
+            "value": -11141291,
+            "falpha": 0.0
+          },
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_engie",
+          "text": {
+            "fixedValue": "Engie"
+          },
+          "color": {
+            "value": -43691,
+            "falpha": 0.0
+          },
+          "x": 52,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wiki",
+          "text": {
+            "fixedValue": "Wiki"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 0
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hostile_mobs",
+          "text": "Hostile Mobs",
+          "width": 87,
+          "height": 20,
+          "x": 0,
+          "y": 11
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_passive_mobs",
+          "text": "Passive Mobs",
+          "width": 87,
+          "height": 20,
+          "x": 0,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_tools",
+          "text": "Tools",
+          "width": 51,
+          "height": 20,
+          "x": 0,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_weapons",
+          "text": "Weapons",
+          "width": 61,
+          "height": 20,
+          "x": 0,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_armor",
+          "text": "Armor",
+          "width": 51,
+          "height": 20,
+          "x": 0,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_items",
+          "text": "Items",
+          "width": 51,
+          "height": 20,
+          "x": 0,
+          "y": 111
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

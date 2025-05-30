@@ -105,6 +105,7 @@ public class AllaboutengieModVariables {
 			clone.BlockDeathAliveCOunt = original.BlockDeathAliveCOunt;
 			clone.timeoverlaytoggle = original.timeoverlaytoggle;
 			clone.SharkoRideToggle = original.SharkoRideToggle;
+			clone.TrueHardcoreLifeCount = original.TrueHardcoreLifeCount;
 			if (!event.isWasDeath()) {
 				clone.DoomsdayAlive = original.DoomsdayAlive;
 				clone.firstplay = original.firstplay;
@@ -433,6 +434,7 @@ public class AllaboutengieModVariables {
 		public boolean BlockDeathAliveCOunt = false;
 		public boolean timeoverlaytoggle = false;
 		public boolean SharkoRideToggle = false;
+		public double TrueHardcoreLifeCount = 5.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -470,6 +472,7 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("BlockDeathAliveCOunt", BlockDeathAliveCOunt);
 			nbt.putBoolean("timeoverlaytoggle", timeoverlaytoggle);
 			nbt.putBoolean("SharkoRideToggle", SharkoRideToggle);
+			nbt.putDouble("TrueHardcoreLifeCount", TrueHardcoreLifeCount);
 			return nbt;
 		}
 
@@ -504,6 +507,7 @@ public class AllaboutengieModVariables {
 			BlockDeathAliveCOunt = nbt.getBoolean("BlockDeathAliveCOunt");
 			timeoverlaytoggle = nbt.getBoolean("timeoverlaytoggle");
 			SharkoRideToggle = nbt.getBoolean("SharkoRideToggle");
+			TrueHardcoreLifeCount = nbt.getDouble("TrueHardcoreLifeCount");
 		}
 	}
 
@@ -557,6 +561,7 @@ public class AllaboutengieModVariables {
 					variables.BlockDeathAliveCOunt = message.data.BlockDeathAliveCOunt;
 					variables.timeoverlaytoggle = message.data.timeoverlaytoggle;
 					variables.SharkoRideToggle = message.data.SharkoRideToggle;
+					variables.TrueHardcoreLifeCount = message.data.TrueHardcoreLifeCount;
 				}
 			});
 			context.setPacketHandled(true);
