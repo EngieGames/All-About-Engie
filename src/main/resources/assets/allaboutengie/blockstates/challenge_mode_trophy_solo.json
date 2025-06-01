@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "allaboutengie:block/challenge_mode_trophy_solo"
+    },
+    "facing=east": {
+      "model": "allaboutengie:block/challenge_mode_trophy_solo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "allaboutengie:block/challenge_mode_trophy_solo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "allaboutengie:block/challenge_mode_trophy_solo",
+      "y": 270
     }
   }
 }

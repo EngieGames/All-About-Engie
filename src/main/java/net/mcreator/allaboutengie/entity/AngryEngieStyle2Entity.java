@@ -27,6 +27,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
@@ -36,6 +37,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.allaboutengie.procedures.MonsterNaturalEntitySpawningConditionProcedure;
+import net.mcreator.allaboutengie.procedures.DoomsDayMobsFightEachotherToggleProcedure;
 import net.mcreator.allaboutengie.procedures.DamageonspawnProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
@@ -71,7 +73,27 @@ public class AngryEngieStyle2Entity extends Monster {
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, true, false));
 		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayer.class, true, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Monster.class, true, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Monster.class, true, false) {
+			@Override
+			public boolean canUse() {
+				double x = AngryEngieStyle2Entity.this.getX();
+				double y = AngryEngieStyle2Entity.this.getY();
+				double z = AngryEngieStyle2Entity.this.getZ();
+				Entity entity = AngryEngieStyle2Entity.this;
+				Level world = AngryEngieStyle2Entity.this.level;
+				return super.canUse() && DoomsDayMobsFightEachotherToggleProcedure.execute(world);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = AngryEngieStyle2Entity.this.getX();
+				double y = AngryEngieStyle2Entity.this.getY();
+				double z = AngryEngieStyle2Entity.this.getZ();
+				Entity entity = AngryEngieStyle2Entity.this;
+				Level world = AngryEngieStyle2Entity.this.level;
+				return super.canContinueToUse() && DoomsDayMobsFightEachotherToggleProcedure.execute(world);
+			}
+		});
 		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, (float) 6));
 		this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
 		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));

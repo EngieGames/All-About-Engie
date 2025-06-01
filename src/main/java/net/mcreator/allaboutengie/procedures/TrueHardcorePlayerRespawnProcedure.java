@@ -17,6 +17,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
+import net.mcreator.allaboutengie.AllaboutengieMod;
 
 import javax.annotation.Nullable;
 
@@ -43,20 +44,6 @@ public class TrueHardcorePlayerRespawnProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				if (new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayer _serverPlayer) {
-							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
-						}
-						return false;
-					}
-				}.checkGamemode(entity)) {
-					if (entity instanceof ServerPlayer _player)
-						_player.setGameMode(GameType.SURVIVAL);
-				}
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -74,20 +61,29 @@ public class TrueHardcorePlayerRespawnProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				if (new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayer _serverPlayer) {
-							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
 						}
-						return false;
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
 					}
-				}.checkGamemode(entity)) {
-					if (entity instanceof ServerPlayer _player)
-						_player.setGameMode(GameType.SURVIVAL);
-				}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -104,20 +100,29 @@ public class TrueHardcorePlayerRespawnProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				if (new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayer _serverPlayer) {
-							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
 						}
-						return false;
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
 					}
-				}.checkGamemode(entity)) {
-					if (entity instanceof ServerPlayer _player)
-						_player.setGameMode(GameType.SURVIVAL);
-				}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -134,20 +139,29 @@ public class TrueHardcorePlayerRespawnProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				if (new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayer _serverPlayer) {
-							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
 						}
-						return false;
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
 					}
-				}.checkGamemode(entity)) {
-					if (entity instanceof ServerPlayer _player)
-						_player.setGameMode(GameType.SURVIVAL);
-				}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -163,20 +177,29 @@ public class TrueHardcorePlayerRespawnProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				if (new Object() {
-					public boolean checkGamemode(Entity _ent) {
-						if (_ent instanceof ServerPlayer _serverPlayer) {
-							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
 						}
-						return false;
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
 					}
-				}.checkGamemode(entity)) {
-					if (entity instanceof ServerPlayer _player)
-						_player.setGameMode(GameType.SURVIVAL);
-				}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -184,6 +207,204 @@ public class TrueHardcorePlayerRespawnProcedure {
 								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Hey, looks like you died... Well guess you have 4 lives remaining.\",\"bold\":true,\"color\":\"gold\"}");
 					}
 				}
+			} else if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount == 6) {
+				{
+					double _setval = (entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount - 1;
+					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.TrueHardcoreLifeCount = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
+					}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Hey, looks like you died... Well guess you have 5 lives remaining.\",\"bold\":true,\"color\":\"gold\"}");
+					}
+				}
+			} else if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount == 7) {
+				{
+					double _setval = (entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount - 1;
+					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.TrueHardcoreLifeCount = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
+					}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Hey, looks like you died... Well guess you have 6 lives remaining.\",\"bold\":true,\"color\":\"gold\"}");
+					}
+				}
+			} else if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount == 8) {
+				{
+					double _setval = (entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount - 1;
+					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.TrueHardcoreLifeCount = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
+					}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Hey, looks like you died... Well guess you have 7 lives remaining.\",\"bold\":true,\"color\":\"gold\"}");
+					}
+				}
+			} else if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount == 9) {
+				{
+					double _setval = (entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount - 1;
+					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.TrueHardcoreLifeCount = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
+					}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Hey, looks like you died... Well guess you have 8 lives remaining.\",\"bold\":true,\"color\":\"gold\"}");
+					}
+				}
+			} else if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount == 10) {
+				{
+					double _setval = (entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).TrueHardcoreLifeCount - 1;
+					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.TrueHardcoreLifeCount = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				AllaboutengieMod.queueServerWork(5, () -> {
+					if (new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SPECTATOR;
+							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SPECTATOR;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						if (entity instanceof ServerPlayer _player)
+							_player.setGameMode(GameType.SURVIVAL);
+					}
+					{
+						boolean _setval = false;
+						entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.RespawnTrueHardcoreGraceStart = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				});
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"Hey, looks like you died... Well guess you have 9 lives remaining.\",\"bold\":true,\"color\":\"gold\"}");
+					}
+				}
+			}
+		} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.TRUE_HARDCORE) == false) {
+			{
+				boolean _setval = false;
+				entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.RespawnNormInstantHealth = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
 		}
 	}

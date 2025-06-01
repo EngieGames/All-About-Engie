@@ -22071,6 +22071,21 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "AllAboutEngieWikiItems",
+      "type": "gui",
+      "sortid": 1206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_about_engie_wiki_items",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/world/inventory/AllAboutEngieWikiItemsMenu.java",
+          "src/main/java/net/mcreator/allaboutengie/client/gui/AllAboutEngieWikiItemsScreen.java"
+        ]
+      },
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [
@@ -22552,7 +22567,19 @@
       "name": "TrueHardcoreLifeCount",
       "type": "number",
       "scope": "player_persistent",
-      "value": "5.0"
+      "value": "10.0"
+    },
+    {
+      "name": "RespawnNormInstantHealth",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "RespawnTrueHardcoreGraceStart",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -22646,6 +22673,7 @@
       "entity.allaboutengie.tiger_zoomies": "Tiger",
       "block.aae_items.metal_chest_acacia": "Acacia Metal Chest",
       "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
+      "gui.allaboutengie.all_about_engie_wiki_items.label_engie": "Engie",
       "entity.allaboutengie.exotic_sharko_lay": "[Tamed] Exotic Sharko (Laying)",
       "advancements.rise.descr": "Encounter SUPER DOOMSDAY - Doomsday that occurs due to the SUPER DOOMSDAY modifier being chosen.",
       "item.allaboutengie.uncommon_hoe": "Uncommon Hoe",
@@ -22715,6 +22743,7 @@
       "item.allaboutengie.mad_engie_plush": "Mad Engie Plush",
       "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
       "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "gui.allaboutengie.all_about_engie_wiki_items.button_exclusive_items": "Exclusive Items",
       "gui.allaboutengie.all_about_engie_wiki_hostile_mobs.label_all1": "All",
       "item.allaboutengie.angry_engies_leggings": "Angry Engie Leggings",
       "item.allaboutengie.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
@@ -22784,6 +22813,7 @@
       "entity.allaboutengie.mythic_sharko_tamed": "[Tamed] Mythic Sharko",
       "gui.allaboutengie.creative_engie_bundle_ui.button_next_page": "Next Page",
       "advancements.ban_challenge_obtain.descr": "You\u0027re still going to need the luck.",
+      "gui.allaboutengie.all_about_engie_wiki_items.label_wiki": "Wiki",
       "entity.allaboutengie.enraged_speed_8": "Enraged Speed",
       "entity.allaboutengie.enraged_speed_9": "Enraged Speed",
       "item.allaboutengie.operators_shovel": "Operators Shovel",
@@ -22866,6 +22896,7 @@
       "advancements.challenge_destroyed.descr": "Beat the challenge mode by yourself. Congratulations my friend.",
       "gui.allaboutengie.all_about_engie_wiki_armor.label_all1": "All",
       "item_group.allaboutengie.mobs": "Mobs",
+      "gui.allaboutengie.all_about_engie_wiki_items.button_hostile_mob_tools": "Hostile Mob Tools",
       "painting.allaboutengie.developer_engie.author": "[Dev]Engie(Games)",
       "gamerule.detectiveMode.description": "Learn about lore, sets the in game day to above 100 days with a few different advancements to be obtained.",
       "itemGroup.tabsharkos": "Sharkos",
@@ -22889,7 +22920,7 @@
       "item.allaboutengie.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
       "block.allaboutengie.thanks_for_playing_4": "Thanks for playing!",
       "item.aae_items.operators_pickaxe": "Operators Pickaxe",
-      "entity.allaboutengie.big_legendary_sharko_lay": "[Tamed] Legendary Sharko (Laying)",
+      "entity.allaboutengie.big_legendary_sharko_lay": "[Tamed] {Big} Legendary Sharko (Laying)",
       "gui.allaboutengie.all_about_engie_wiki_tools.label_engie": "Engie",
       "advancements.something_is_not_right.title": "I don\u0027t feel safe.",
       "item.allaboutengie.mythic_helmet": "Mythic Helmet",
@@ -22909,6 +22940,7 @@
       "item.allaboutengie.enraged_normal_spawn_egg": "Enraged Normal Spawn Egg",
       "item.allaboutengie.code_redeemers_leggings": "Code Redeemers Leggings",
       "entity.allaboutengie.engie_sharko_tamed_zoomies": "[Tamed] Engie Sharko (Zoomies)",
+      "gui.allaboutengie.all_about_engie_wiki_items.button_regular_items": "Regular Items",
       "gui.allaboutengie.all_about_engie_wiki_passive_mobs.label_challenge_modesuper_doomsday": "--Challenge Mode/Super Doomsday Exclusive--",
       "item.allaboutengie.monstrosity_ban_hammer": "A Monstrosity Ban Hammer",
       "advancements.outraged_engie_armor_obtained.title": "I\u0027ll take it.",
@@ -23072,6 +23104,7 @@
       "item.allaboutengie.code_redeemers_hammer": "Code Redeemers Ban Hammer",
       "advancements.new_world_new_problem.title": "All About Engie: Detective mode edition.",
       "advancements.gigantic_ban_challenge_obtain.title": "......",
+      "gui.allaboutengie.all_about_engie_wiki_items.button_rarity_engie_tools": "Rarity Engie Tools",
       "painting.allaboutengie.aae_extras.author": "DevEngie",
       "item.allaboutengie.sharko_cloth": "Sharko Cloth",
       "gui.allaboutengie.all_about_engie_wiki_home.label_all1": "All",
@@ -23199,6 +23232,7 @@
       "entity.allaboutengie.epic_sharko_sleep": "[Tamed] Epic Sharko (Sleeping)",
       "entity.allaboutengie.protogen": "Protogen",
       "entity.aae_items.engie_games_gui": "EngieGames",
+      "gui.allaboutengie.all_about_engie_wiki_items.label_all1": "All",
       "item.allaboutengie.enraged_engies_helmet": "Enraged Engie Helmet",
       "item.allaboutengie.unobtainium_shovel": "Unobtainium Shovel",
       "entity.allaboutengie.sharko_sleep": "[Tamed] Sharko (Sleeping)",
@@ -23444,6 +23478,7 @@
       "gui.allaboutengie.angry_engie_bundle_ui.button_set_name": "Set Name",
       "item.allaboutengie.pizza_slice": "Pizza Slice",
       "advancements.biblically_accurate_ban_challenge_obtain.descr": "ONE AWAY.",
+      "gui.allaboutengie.all_about_engie_wiki_items.label_about": "About",
       "item.allaboutengie.huge_ban_hammer_pixel": "Pixelized Huge Ban Hammer",
       "entity.allaboutengie.outraged_engie_style_2": "Outraged Engie (Style 2)",
       "item.aae_items.operators_chestplate": "Operators Chestplate",
@@ -23506,6 +23541,7 @@
       "item.allaboutengie.angry_engie_pickaxe": "Angry Engie Pickaxe",
       "item.aae_items.biggest_ban_hammer_pixel": "Biggest Ban Hammer Pixel",
       "item.allaboutengie.enraged_coin": "Enraged Coin",
+      "gui.allaboutengie.all_about_engie_wiki_items.label_hostile_mobs": "/Items",
       "gui.allaboutengie.all_about_engie_wiki_passive_mobs.label_wiki": "Wiki",
       "item.allaboutengie.enraged_speed_spawn_egg": "Enraged Speed Spawn Egg",
       "gui.allaboutengie.etc_engie_bundle_ui.ChangeBundleName": "You\u0027re Special!",
@@ -23920,7 +23956,7 @@
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "5.29.25",
+    "version": "6.1.25",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

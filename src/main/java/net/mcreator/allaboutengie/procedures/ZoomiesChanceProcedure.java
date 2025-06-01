@@ -333,7 +333,7 @@ public class ZoomiesChanceProcedure {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
 					}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRare2TamedZoomiesEntity) {
-						if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko")) {
+						if (!(entity.getDisplayName().getString()).equals("[Tamed] Tiger Sharko")) {
 							((Entity) world.getEntitiesOfClass(EngieSharkoRare2TamedZoomiesEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
 								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));

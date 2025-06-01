@@ -109,6 +109,8 @@ public class AllaboutengieModVariables {
 			if (!event.isWasDeath()) {
 				clone.DoomsdayAlive = original.DoomsdayAlive;
 				clone.firstplay = original.firstplay;
+				clone.RespawnNormInstantHealth = original.RespawnNormInstantHealth;
+				clone.RespawnTrueHardcoreGraceStart = original.RespawnTrueHardcoreGraceStart;
 			}
 		}
 
@@ -434,7 +436,9 @@ public class AllaboutengieModVariables {
 		public boolean BlockDeathAliveCOunt = false;
 		public boolean timeoverlaytoggle = false;
 		public boolean SharkoRideToggle = false;
-		public double TrueHardcoreLifeCount = 5.0;
+		public double TrueHardcoreLifeCount = 10.0;
+		public boolean RespawnNormInstantHealth = false;
+		public boolean RespawnTrueHardcoreGraceStart = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -473,6 +477,8 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("timeoverlaytoggle", timeoverlaytoggle);
 			nbt.putBoolean("SharkoRideToggle", SharkoRideToggle);
 			nbt.putDouble("TrueHardcoreLifeCount", TrueHardcoreLifeCount);
+			nbt.putBoolean("RespawnNormInstantHealth", RespawnNormInstantHealth);
+			nbt.putBoolean("RespawnTrueHardcoreGraceStart", RespawnTrueHardcoreGraceStart);
 			return nbt;
 		}
 
@@ -508,6 +514,8 @@ public class AllaboutengieModVariables {
 			timeoverlaytoggle = nbt.getBoolean("timeoverlaytoggle");
 			SharkoRideToggle = nbt.getBoolean("SharkoRideToggle");
 			TrueHardcoreLifeCount = nbt.getDouble("TrueHardcoreLifeCount");
+			RespawnNormInstantHealth = nbt.getBoolean("RespawnNormInstantHealth");
+			RespawnTrueHardcoreGraceStart = nbt.getBoolean("RespawnTrueHardcoreGraceStart");
 		}
 	}
 
@@ -562,6 +570,8 @@ public class AllaboutengieModVariables {
 					variables.timeoverlaytoggle = message.data.timeoverlaytoggle;
 					variables.SharkoRideToggle = message.data.SharkoRideToggle;
 					variables.TrueHardcoreLifeCount = message.data.TrueHardcoreLifeCount;
+					variables.RespawnNormInstantHealth = message.data.RespawnNormInstantHealth;
+					variables.RespawnTrueHardcoreGraceStart = message.data.RespawnTrueHardcoreGraceStart;
 				}
 			});
 			context.setPacketHandled(true);

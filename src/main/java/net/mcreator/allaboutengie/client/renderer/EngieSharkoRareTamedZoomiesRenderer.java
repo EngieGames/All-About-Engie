@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.allaboutengie.entity.EngieSharkoRareTamedZoomiesEntity;
-import net.mcreator.allaboutengie.client.model.Modelboyo;
+import net.mcreator.allaboutengie.client.model.Modelboyozooms;
 
-public class EngieSharkoRareTamedZoomiesRenderer extends MobRenderer<EngieSharkoRareTamedZoomiesEntity, Modelboyo<EngieSharkoRareTamedZoomiesEntity>> {
+public class EngieSharkoRareTamedZoomiesRenderer extends MobRenderer<EngieSharkoRareTamedZoomiesEntity, Modelboyozooms<EngieSharkoRareTamedZoomiesEntity>> {
 	public EngieSharkoRareTamedZoomiesRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelboyo(context.bakeLayer(Modelboyo.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelboyozooms(context.bakeLayer(Modelboyozooms.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

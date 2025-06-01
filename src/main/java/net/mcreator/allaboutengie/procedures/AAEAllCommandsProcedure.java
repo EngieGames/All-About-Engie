@@ -2069,6 +2069,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2083,12 +2087,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2138,6 +2138,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2152,12 +2156,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2207,6 +2207,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2221,12 +2225,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2276,6 +2276,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2290,12 +2294,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2345,6 +2345,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2359,12 +2363,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2414,6 +2414,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2428,12 +2432,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2503,6 +2503,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2517,12 +2521,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2572,6 +2572,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2586,12 +2590,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2641,6 +2641,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2655,12 +2659,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2710,6 +2710,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2724,12 +2728,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2779,6 +2779,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2793,12 +2797,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -2848,6 +2848,10 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (world instanceof Level _level)
 							_level.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(true, _level.getServer());
+						entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
+						entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
+						entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
 						{
 							Entity _ent = entity;
 							if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2862,12 +2866,8 @@ public class AAEAllCommandsProcedure {
 										_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a ambient allaboutengie:doomsday_eerie");
 							}
 						}
-						AllaboutengieMod.queueServerWork(1, () -> {
-							entity.getPersistentData().putDouble("TimeUntilNightDDAY", 0);
-							entity.getPersistentData().putDouble("DialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", 0);
-							entity.getPersistentData().putDouble("TimeUntilNightSDDAY", 0);
-						});
+						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
 							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);

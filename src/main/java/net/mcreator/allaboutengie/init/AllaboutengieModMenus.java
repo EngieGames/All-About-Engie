@@ -25,6 +25,7 @@ import net.mcreator.allaboutengie.world.inventory.AngryEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiWeaponsMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiToolsMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiPassiveMobsMenu;
+import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiItemsMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiHostileMobsMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiHomeMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiArmorMenu;
@@ -50,4 +51,5 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<AllAboutEngieWikiWeaponsMenu>> ALL_ABOUT_ENGIE_WIKI_WEAPONS = REGISTRY.register("all_about_engie_wiki_weapons", () -> IForgeMenuType.create(AllAboutEngieWikiWeaponsMenu::new));
 	public static final RegistryObject<MenuType<AllAboutEngieWikiToolsMenu>> ALL_ABOUT_ENGIE_WIKI_TOOLS = REGISTRY.register("all_about_engie_wiki_tools", () -> IForgeMenuType.create(AllAboutEngieWikiToolsMenu::new));
 	public static final RegistryObject<MenuType<AllAboutEngieWikiArmorMenu>> ALL_ABOUT_ENGIE_WIKI_ARMOR = REGISTRY.register("all_about_engie_wiki_armor", () -> IForgeMenuType.create(AllAboutEngieWikiArmorMenu::new));
+	public static final RegistryObject<MenuType<AllAboutEngieWikiItemsMenu>> ALL_ABOUT_ENGIE_WIKI_ITEMS = REGISTRY.register("all_about_engie_wiki_items", () -> IForgeMenuType.create(AllAboutEngieWikiItemsMenu::new));
 }

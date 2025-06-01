@@ -25,6 +25,7 @@ import net.mcreator.allaboutengie.client.gui.AngryEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiWeaponsScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiToolsScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiPassiveMobsScreen;
+import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiItemsScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiHostileMobsScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiHomeScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiArmorScreen;
@@ -51,6 +52,7 @@ public class AllaboutengieModScreens {
 			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_WEAPONS.get(), AllAboutEngieWikiWeaponsScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_TOOLS.get(), AllAboutEngieWikiToolsScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_ARMOR.get(), AllAboutEngieWikiArmorScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_ITEMS.get(), AllAboutEngieWikiItemsScreen::new);
 		});
 	}
 }
