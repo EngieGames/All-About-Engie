@@ -1,0 +1,74 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "superdoomsdayarmoritembase",
+    "enableBody": true,
+    "textureBody": "superdoomsdayarmoritembase",
+    "enableLeggings": true,
+    "textureLeggings": "superdoomsdayarmoritembase",
+    "enableBoots": true,
+    "textureBoots": "superdoomsdayarmoritembase",
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsArmor"
+    },
+    "armorTextureFile": "backup_",
+    "helmetName": "Super DoomsDay Helmet",
+    "bodyName": "Super DoomsDay Chestplate",
+    "leggingsName": "Super DoomsDay Leggings",
+    "bootsName": "Super DoomsDay Boots",
+    "helmetSpecialInfo": [
+      "Congratulations!"
+    ],
+    "bodySpecialInfo": [
+      "Congratulations"
+    ],
+    "leggingsSpecialInfo": [
+      "Congratulations"
+    ],
+    "bootsSpecialInfo": [
+      "Congratulations"
+    ],
+    "helmetModelName": "Modelengiegamesarmorl1",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "superdoomsdayarmorlayer1.png",
+    "bodyModelName": "Modelengiegamesarmorl1",
+    "bodyModelPart": "body",
+    "armsModelPartL": "left_arm",
+    "armsModelPartR": "right_arm",
+    "bodyModelTexture": "superdoomsdayarmorlayer1.png",
+    "leggingsModelName": "Modelengiegamesarmorl2",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "superdoomsdayarmorlayer2.png",
+    "bootsModelName": "Modelengiegamesarmorl1",
+    "bootsModelPartL": "left_shoe",
+    "bootsModelPartR": "right_shoe",
+    "bootsModelTexture": "superdoomsdayarmorlayer1.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 300,
+    "damageValueHelmet": 300,
+    "damageValueBody": 300,
+    "damageValueLeggings": 300,
+    "damageValueBoots": 300,
+    "enchantability": 40,
+    "toughness": 9.0,
+    "knockbackResistance": 0.6,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

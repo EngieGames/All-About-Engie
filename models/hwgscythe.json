@@ -402,7 +402,8 @@
 			"scale": [1.25, 1.25, 1.25]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, -2, 1.5]
+			"translation": [0, -2, 1.5],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 0, -30]
@@ -419,6 +420,8 @@
 			"scale": [1.5, 1.5, 1.5]
 		},
 		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, -9.75, 0],
 			"scale": [1.5, 1.5, 1.5]
 		}
 	},

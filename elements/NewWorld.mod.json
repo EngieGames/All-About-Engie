@@ -13,7 +13,9 @@
     "announceToChat": false,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "SharkoClothCraft"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",

@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/crucifixsuperdoomsday",
+  "textures": {
+    "0": "allaboutengie:blocks/crucifixsuperdoomsday",
+    "particle": "allaboutengie:items/crucifixsuperdoomsdaypixel"
+  }
+}

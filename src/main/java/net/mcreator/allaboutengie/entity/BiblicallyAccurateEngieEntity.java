@@ -33,6 +33,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.BiblicallyAccurateEngieThisEntityKillsAnotherOneProcedure;
+import net.mcreator.allaboutengie.procedures.BiblicallyAccurateEngieNaturalEntitySpawningConditionProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
 public class BiblicallyAccurateEngieEntity extends PathfinderMob {
@@ -117,7 +118,12 @@ public class BiblicallyAccurateEngieEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(AllaboutengieModEntities.BIBLICALLY_ACCURATE_ENGIE.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
+		SpawnPlacements.register(AllaboutengieModEntities.BIBLICALLY_ACCURATE_ENGIE.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return BiblicallyAccurateEngieNaturalEntitySpawningConditionProcedure.execute(world, x, y, z);
+		});
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -126,7 +132,7 @@ public class BiblicallyAccurateEngieEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MAX_HEALTH, 525);
 		builder = builder.add(Attributes.ARMOR, 100);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 250);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 525);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1000);
 		return builder;
 	}

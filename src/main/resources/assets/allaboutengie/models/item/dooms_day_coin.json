@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/doomsdaycoin",
+  "textures": {
+    "0": "allaboutengie:blocks/doomsdaycointexture",
+    "particle": "allaboutengie:items/doomsdayarmorbase"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "superdoomsday_pickaxe",
+    "customModelName": "Normal",
+    "name": "Super DoomsDay Pickaxe",
+    "specialInfo": [
+      "Congrats!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 24,
+    "efficiency": 36.0,
+    "attackSpeed": 3.8000000000000003,
+    "enchantability": 36,
+    "damageVsEntity": 275.0,
+    "usageCount": 6000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SuperDoomsDayCoin"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "MonstrosityToolObtain"
+    }
+  }
+}

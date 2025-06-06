@@ -1,0 +1,74 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "doomsdayarmorbase",
+    "enableBody": true,
+    "textureBody": "doomsdayarmorbase",
+    "enableLeggings": true,
+    "textureLeggings": "doomsdayarmorbase",
+    "enableBoots": true,
+    "textureBoots": "doomsdayarmorbase",
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsArmor"
+    },
+    "armorTextureFile": "backup_",
+    "helmetName": "DoomsDay Helmet",
+    "bodyName": "DoomsDay Chestplate",
+    "leggingsName": "DoomsDay Leggings",
+    "bootsName": "DoomsDay Boots",
+    "helmetSpecialInfo": [
+      "Congratulations!"
+    ],
+    "bodySpecialInfo": [
+      "Congratulations"
+    ],
+    "leggingsSpecialInfo": [
+      "Congratulations"
+    ],
+    "bootsSpecialInfo": [
+      "Congratulations"
+    ],
+    "helmetModelName": "Modelengiegamesarmorl1",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "doomsdayarmorlayer1.png",
+    "bodyModelName": "Modelengiegamesarmorl1",
+    "bodyModelPart": "body",
+    "armsModelPartL": "left_arm",
+    "armsModelPartR": "right_arm",
+    "bodyModelTexture": "doomsdayarmorlayer1.png",
+    "leggingsModelName": "Modelengiegamesarmorl2",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "doomsdayarmorlayer2.png",
+    "bootsModelName": "Modelengiegamesarmorl1",
+    "bootsModelPartL": "left_shoe",
+    "bootsModelPartR": "right_shoe",
+    "bootsModelTexture": "doomsdayarmorlayer1.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 250,
+    "damageValueHelmet": 250,
+    "damageValueBody": 250,
+    "damageValueLeggings": 250,
+    "damageValueBoots": 250,
+    "enchantability": 35,
+    "toughness": 8.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

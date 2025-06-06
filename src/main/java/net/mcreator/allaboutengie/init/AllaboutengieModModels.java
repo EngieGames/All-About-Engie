@@ -20,6 +20,8 @@ import net.mcreator.allaboutengie.client.model.Modelmonstrosity;
 import net.mcreator.allaboutengie.client.model.Modelmissilebombs;
 import net.mcreator.allaboutengie.client.model.Modelenragedzombie;
 import net.mcreator.allaboutengie.client.model.Modelenraged_new;
+import net.mcreator.allaboutengie.client.model.Modelengiegamesarmorl2;
+import net.mcreator.allaboutengie.client.model.Modelengiegamesarmorl1;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyozoom;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyotired;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyosit;
@@ -64,6 +66,7 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modelmonstrosity.LAYER_LOCATION, Modelmonstrosity::createBodyLayer);
 		event.registerLayerDefinition(Modelenragedzombie.LAYER_LOCATION, Modelenragedzombie::createBodyLayer);
 		event.registerLayerDefinition(Modelcosmodabigboyo.LAYER_LOCATION, Modelcosmodabigboyo::createBodyLayer);
+		event.registerLayerDefinition(Modelengiegamesarmorl1.LAYER_LOCATION, Modelengiegamesarmorl1::createBodyLayer);
 		event.registerLayerDefinition(Modelengiedaboyo.LAYER_LOCATION, Modelengiedaboyo::createBodyLayer);
 		event.registerLayerDefinition(Modeltobyzooms.LAYER_LOCATION, Modeltobyzooms::createBodyLayer);
 		event.registerLayerDefinition(Modelmissilebombs.LAYER_LOCATION, Modelmissilebombs::createBodyLayer);
@@ -90,6 +93,7 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modelboyoother.LAYER_LOCATION, Modelboyoother::createBodyLayer);
 		event.registerLayerDefinition(Modeltobytired.LAYER_LOCATION, Modeltobytired::createBodyLayer);
 		event.registerLayerDefinition(Modelenraged_new.LAYER_LOCATION, Modelenraged_new::createBodyLayer);
+		event.registerLayerDefinition(Modelengiegamesarmorl2.LAYER_LOCATION, Modelengiegamesarmorl2::createBodyLayer);
 		event.registerLayerDefinition(Modelboyoaprilfools.LAYER_LOCATION, Modelboyoaprilfools::createBodyLayer);
 		event.registerLayerDefinition(ModelBiblicallyAccurateEngie.LAYER_LOCATION, ModelBiblicallyAccurateEngie::createBodyLayer);
 	}

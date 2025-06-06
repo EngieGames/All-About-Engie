@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/doomsdayscythe",
+  "textures": {
+    "0": "allaboutengie:blocks/doomsdayscythe",
+    "particle": "allaboutengie:items/doomsdayarmorbase"
+  }
+}

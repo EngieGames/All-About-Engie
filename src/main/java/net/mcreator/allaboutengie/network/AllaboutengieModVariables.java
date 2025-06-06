@@ -219,6 +219,9 @@ public class AllaboutengieModVariables {
 		public boolean SuperDoomsdayEeriePlayOnce = false;
 		public boolean SDDAYToggle = false;
 		public boolean timecheckstop = false;
+		public boolean DayCooldownToggle = false;
+		public boolean ddayspikecooldown = false;
+		public boolean sddayspikecooldown = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -271,6 +274,9 @@ public class AllaboutengieModVariables {
 			SuperDoomsdayEeriePlayOnce = nbt.getBoolean("SuperDoomsdayEeriePlayOnce");
 			SDDAYToggle = nbt.getBoolean("SDDAYToggle");
 			timecheckstop = nbt.getBoolean("timecheckstop");
+			DayCooldownToggle = nbt.getBoolean("DayCooldownToggle");
+			ddayspikecooldown = nbt.getBoolean("ddayspikecooldown");
+			sddayspikecooldown = nbt.getBoolean("sddayspikecooldown");
 		}
 
 		@Override
@@ -319,6 +325,9 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("SuperDoomsdayEeriePlayOnce", SuperDoomsdayEeriePlayOnce);
 			nbt.putBoolean("SDDAYToggle", SDDAYToggle);
 			nbt.putBoolean("timecheckstop", timecheckstop);
+			nbt.putBoolean("DayCooldownToggle", DayCooldownToggle);
+			nbt.putBoolean("ddayspikecooldown", ddayspikecooldown);
+			nbt.putBoolean("sddayspikecooldown", sddayspikecooldown);
 			return nbt;
 		}
 

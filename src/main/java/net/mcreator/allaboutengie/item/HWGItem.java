@@ -11,7 +11,6 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.LivingEntity;
@@ -37,17 +36,17 @@ public abstract class HWGItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 300;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 200;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{300, 300, 300, 300}[slot.getIndex()];
+				return new int[]{200, 200, 200, 200}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 50;
+				return 30;
 			}
 
 			@Override
@@ -67,19 +66,19 @@ public abstract class HWGItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 10f;
+				return 7f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.6f;
+				return 0.4f;
 			}
 		}, slot, properties);
 	}
 
 	public static class Helmet extends HWGItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(null).fireResistant());
 		}
 
 		@Override
@@ -115,7 +114,7 @@ public abstract class HWGItem extends ArmorItem {
 
 	public static class Chestplate extends HWGItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(null).fireResistant());
 		}
 
 		@Override
@@ -151,7 +150,7 @@ public abstract class HWGItem extends ArmorItem {
 
 	public static class Leggings extends HWGItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(null).fireResistant());
 		}
 
 		@Override
@@ -188,7 +187,7 @@ public abstract class HWGItem extends ArmorItem {
 
 	public static class Boots extends HWGItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(null).fireResistant());
 		}
 
 		@Override

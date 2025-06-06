@@ -26,6 +26,7 @@ import net.mcreator.allaboutengie.world.features.ItemHouseXXLFeature;
 import net.mcreator.allaboutengie.world.features.ItemHouseXXLDetecFeature;
 import net.mcreator.allaboutengie.world.features.ItemHouseFeature;
 import net.mcreator.allaboutengie.world.features.ItemHouseDetectiveFeature;
+import net.mcreator.allaboutengie.world.features.DDaySpikeFeature;
 import net.mcreator.allaboutengie.world.features.CyberHouseFeature;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
@@ -48,4 +49,5 @@ public class AllaboutengieModFeatures {
 	public static final RegistryObject<Feature<?>> ITEM_HOUSE_XXL = REGISTRY.register("item_house_xxl", ItemHouseXXLFeature::feature);
 	public static final RegistryObject<Feature<?>> ITEM_HOUSE_DETECTIVE = REGISTRY.register("item_house_detective", ItemHouseDetectiveFeature::feature);
 	public static final RegistryObject<Feature<?>> ITEM_HOUSE_XXL_DETEC = REGISTRY.register("item_house_xxl_detec", ItemHouseXXLDetecFeature::feature);
+	public static final RegistryObject<Feature<?>> D_DAY_SPIKE = REGISTRY.register("d_day_spike", DDaySpikeFeature::feature);
 }

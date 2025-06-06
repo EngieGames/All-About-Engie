@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "doomsday_axe",
+    "customModelName": "Normal",
+    "name": "DoomsDay Axe",
+    "specialInfo": [
+      "Congrats!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 21,
+    "efficiency": 33.0,
+    "attackSpeed": 3.4,
+    "enchantability": 33,
+    "damageVsEntity": 250.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DoomsDayCoin"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "MonstrosityToolObtain"
+    }
+  }
+}

@@ -21,6 +21,9 @@ import net.mcreator.allaboutengie.client.renderer.TigerZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.TigerSleepRenderer;
 import net.mcreator.allaboutengie.client.renderer.TigerRenderer;
 import net.mcreator.allaboutengie.client.renderer.TigerLayRenderer;
+import net.mcreator.allaboutengie.client.renderer.SuperDoomsDayRenderer;
+import net.mcreator.allaboutengie.client.renderer.SuperDoomsDayHostileRenderer;
+import net.mcreator.allaboutengie.client.renderer.SpikeSpawnerRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoTamedZoomiesTiredRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoTamedZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.SharkoTamedAprilFoolsRenderer;
@@ -179,6 +182,8 @@ import net.mcreator.allaboutengie.client.renderer.EngieSharkoAprilFoolsRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngieGamesRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngiRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngiFRRenderer;
+import net.mcreator.allaboutengie.client.renderer.DoomsDayRenderer;
+import net.mcreator.allaboutengie.client.renderer.DoomsDayHostileRenderer;
 import net.mcreator.allaboutengie.client.renderer.CreatorRenderer;
 import net.mcreator.allaboutengie.client.renderer.CosmoSleepRenderer;
 import net.mcreator.allaboutengie.client.renderer.CosmoRenderer;
@@ -298,6 +303,11 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.OUTRAGED_ENGIE_SHARKO.get(), OutragedEngieSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MONSTROSITY_ENGIE_SHARKO.get(), MonstrosityEngieSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.INSANITY.get(), InsanityRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.PURE_INSANITY.get(), PureInsanityRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.DOOMS_DAY.get(), DoomsDayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.SUPER_DOOMS_DAY.get(), SuperDoomsDayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.DOOMS_DAY_HOSTILE.get(), DoomsDayHostileRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.SUPER_DOOMS_DAY_HOSTILE.get(), SuperDoomsDayHostileRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO.get(), SharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ALBINO_SHARKO.get(), AlbinoSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_SHARKO.get(), RareSharkoRenderer::new);
@@ -480,6 +490,11 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_SPEED_9.get(), EnragedSpeed9Renderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.HE_WHO_GAMES.get(), HeWhoGamesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.HE_WHO_GAMES_HOSTILE.get(), HeWhoGamesHostileRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.YELLOW_LIGHTNING.get(), YellowLightningRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BLUE_BURST.get(), BlueBurstRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.NORMAL.get(), NormalRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.MOAB.get(), MOABRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.SPIKE_SPAWNER.get(), SpikeSpawnerRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO_TAMED.get(), SharkTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ALBINO_SHARKO_TAMED.get(), AlbinoSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_SHARKO_TAMED.get(), RareSharkoTamedRenderer::new);
@@ -521,10 +536,5 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO.get(), CosmoRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.YELLOW_LIGHTNING.get(), YellowLightningRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BLUE_BURST.get(), BlueBurstRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.NORMAL.get(), NormalRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.MOAB.get(), MOABRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.PURE_INSANITY.get(), PureInsanityRenderer::new);
 	}
 }

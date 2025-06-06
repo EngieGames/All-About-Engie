@@ -36,6 +36,15 @@ import net.mcreator.allaboutengie.item.TrueBanHammerNCMDItem;
 import net.mcreator.allaboutengie.item.TrueBanHammerItem;
 import net.mcreator.allaboutengie.item.TesterItem;
 import net.mcreator.allaboutengie.item.TesterEngieBundleItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDaysItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayShovelItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayScytheItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayPickaxeItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayHoeItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayCrucifixPixelItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayCrucifixItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayCoinItem;
+import net.mcreator.allaboutengie.item.SuperDoomsDayAxeItem;
 import net.mcreator.allaboutengie.item.SharkosPlaqueItem;
 import net.mcreator.allaboutengie.item.SharkoClothItem;
 import net.mcreator.allaboutengie.item.SharkItem;
@@ -173,6 +182,15 @@ import net.mcreator.allaboutengie.item.EchdeathPixelItem;
 import net.mcreator.allaboutengie.item.EchdeathItem;
 import net.mcreator.allaboutengie.item.DoughWithSauceItem;
 import net.mcreator.allaboutengie.item.DoughItem;
+import net.mcreator.allaboutengie.item.DoomsDaysItem;
+import net.mcreator.allaboutengie.item.DoomsDayShovelItem;
+import net.mcreator.allaboutengie.item.DoomsDayScytheItem;
+import net.mcreator.allaboutengie.item.DoomsDayPickaxeItem;
+import net.mcreator.allaboutengie.item.DoomsDayHoeItem;
+import net.mcreator.allaboutengie.item.DoomsDayCrucifixPixelItem;
+import net.mcreator.allaboutengie.item.DoomsDayCrucifixItem;
+import net.mcreator.allaboutengie.item.DoomsDayCoinItem;
+import net.mcreator.allaboutengie.item.DoomsDayAxeItem;
 import net.mcreator.allaboutengie.item.DimensionsPlaqueItem;
 import net.mcreator.allaboutengie.item.DiamondOutragedEngiePlushItem;
 import net.mcreator.allaboutengie.item.DiamondInsanityPlushItem;
@@ -301,6 +319,16 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MONSTROSITY_ENGIE_PICKAXE = REGISTRY.register("monstrosity_engie_pickaxe", () -> new MonstrosityEngiePickaxeItem());
 	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SHOVEL = REGISTRY.register("monstrosity_engie_shovel", () -> new MonstrosityEngieShovelItem());
 	public static final RegistryObject<Item> MONSTROSITY_ENGIE_HOE = REGISTRY.register("monstrosity_engie_hoe", () -> new MonstrosityEngieHoeItem());
+	public static final RegistryObject<Item> DOOMS_DAY_SCYTHE = REGISTRY.register("dooms_day_scythe", () -> new DoomsDayScytheItem());
+	public static final RegistryObject<Item> DOOMS_DAY_PICKAXE = REGISTRY.register("dooms_day_pickaxe", () -> new DoomsDayPickaxeItem());
+	public static final RegistryObject<Item> DOOMS_DAY_AXE = REGISTRY.register("dooms_day_axe", () -> new DoomsDayAxeItem());
+	public static final RegistryObject<Item> DOOMS_DAY_SHOVEL = REGISTRY.register("dooms_day_shovel", () -> new DoomsDayShovelItem());
+	public static final RegistryObject<Item> DOOMS_DAY_HOE = REGISTRY.register("dooms_day_hoe", () -> new DoomsDayHoeItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_SCYTHE = REGISTRY.register("super_dooms_day_scythe", () -> new SuperDoomsDayScytheItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_PICKAXE = REGISTRY.register("super_dooms_day_pickaxe", () -> new SuperDoomsDayPickaxeItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_AXE = REGISTRY.register("super_dooms_day_axe", () -> new SuperDoomsDayAxeItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_SHOVEL = REGISTRY.register("super_dooms_day_shovel", () -> new SuperDoomsDayShovelItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_HOE = REGISTRY.register("super_dooms_day_hoe", () -> new SuperDoomsDayHoeItem());
 	public static final RegistryObject<Item> COMMON_SWORD = REGISTRY.register("common_sword", () -> new CommonSwordItem());
 	public static final RegistryObject<Item> COMMON_PICKAXE = REGISTRY.register("common_pickaxe", () -> new CommonPickaxeItem());
 	public static final RegistryObject<Item> COMMON_AXE = REGISTRY.register("common_axe", () -> new CommonAxeItem());
@@ -349,6 +377,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> BLOOD_BATTLE_AXE = REGISTRY.register("blood_battle_axe", () -> new BloodBattleAxeItem());
 	public static final RegistryObject<Item> CYBERBLOOD_BATTLE_AXE = REGISTRY.register("cyberblood_battle_axe", () -> new CyberbloodBattleAxeItem());
 	public static final RegistryObject<Item> CRUCIFIX = REGISTRY.register("crucifix", () -> new CrucifixItem());
+	public static final RegistryObject<Item> DOOMS_DAY_CRUCIFIX = REGISTRY.register("dooms_day_crucifix", () -> new DoomsDayCrucifixItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_CRUCIFIX = REGISTRY.register("super_dooms_day_crucifix", () -> new SuperDoomsDayCrucifixItem());
 	public static final RegistryObject<Item> UNOBTAINIUM_CHUNKLET = REGISTRY.register("unobtainium_chunklet", () -> new UnobtainiumChunkletItem());
 	public static final RegistryObject<Item> UNOBTANIUM = REGISTRY.register("unobtanium", () -> new UnobtaniumItem());
 	public static final RegistryObject<Item> METAL_CHEST = block(AllaboutengieModBlocks.METAL_CHEST, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
@@ -378,6 +408,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> CREATIVE_ENGIE_BUNDLE = REGISTRY.register("creative_engie_bundle", () -> new CreativeEngieBundleItem());
 	public static final RegistryObject<Item> ANGEL_HATTED_PRESENT = block(AllaboutengieModBlocks.ANGEL_HATTED_PRESENT, AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS);
 	public static final RegistryObject<Item> ENRAGED_COIN = REGISTRY.register("enraged_coin", () -> new EnragedCoinItem());
+	public static final RegistryObject<Item> DOOMS_DAY_COIN = REGISTRY.register("dooms_day_coin", () -> new DoomsDayCoinItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_COIN = REGISTRY.register("super_dooms_day_coin", () -> new SuperDoomsDayCoinItem());
 	public static final RegistryObject<Item> ANGRY_ENGIE_PLUSH = REGISTRY.register("angry_engie_plush", () -> new AngryEngiePlushItem());
 	public static final RegistryObject<Item> ENRAGED_ENGIE_PLUSH = REGISTRY.register("enraged_engie_plush", () -> new EnragedEngiePlushItem());
 	public static final RegistryObject<Item> OUTRAGED_ENGIE_PLUSH = REGISTRY.register("outraged_engie_plush", () -> new OutragedEngiePlushItem());
@@ -407,7 +439,6 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> GIGANTIC_BAN_HAMMER = REGISTRY.register("gigantic_ban_hammer", () -> new GiganticBanHammerItem());
 	public static final RegistryObject<Item> MASSIVE_BAN_HAMMER = REGISTRY.register("massive_ban_hammer", () -> new MassiveBanHammerItem());
 	public static final RegistryObject<Item> BIBLICALLY_ACCURATE_ENGIE_BAN_HAMMER = REGISTRY.register("biblically_accurate_engie_ban_hammer", () -> new BiblicallyAccuratEngieBanHammerItem());
-	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER = REGISTRY.register("comically_massive_ban_hammer", () -> new BahemothBanHammerItem());
 	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER = REGISTRY.register("monstrosity_ban_hammer", () -> new MonstrosityBanHammerItem());
 	public static final RegistryObject<Item> MONSTROSITY_BAN_HAMMER_PIXEL = REGISTRY.register("monstrosity_ban_hammer_pixel", () -> new MonstrosityBanHammerPixelItem());
 	public static final RegistryObject<Item> CRUCIFIX_PIXEL = REGISTRY.register("crucifix_pixel", () -> new CrucifixPixelItem());
@@ -420,7 +451,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> GIGANTIC_BAN_HAMMER_PIXEL = REGISTRY.register("gigantic_ban_hammer_pixel", () -> new GiganticBanHammerPixelItem());
 	public static final RegistryObject<Item> MASSIVE_BAN_HAMMER_PIXEL = REGISTRY.register("massive_ban_hammer_pixel", () -> new MassiveBanHammerPixelItem());
 	public static final RegistryObject<Item> BIBLICALLY_ACCURATE_ENGIE_BAN_HAMMER_PIXEL = REGISTRY.register("biblically_accurate_engie_ban_hammer_pixel", () -> new BiblicallyAccurateEngieBanHammerPixelItem());
-	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER_PIXEL = REGISTRY.register("comically_massive_ban_hammer_pixel", () -> new BahemothBanHammerPixelItem());
+	public static final RegistryObject<Item> DOOMS_DAY_CRUCIFIX_PIXEL = REGISTRY.register("dooms_day_crucifix_pixel", () -> new DoomsDayCrucifixPixelItem());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_CRUCIFIX_PIXEL = REGISTRY.register("super_dooms_day_crucifix_pixel", () -> new SuperDoomsDayCrucifixPixelItem());
 	public static final RegistryObject<Item> GOLDEN_COOKIE = REGISTRY.register("golden_cookie", () -> new GoldenCookieItem());
 	public static final RegistryObject<Item> ENCHANTED_GOLDEN_COOKIE = REGISTRY.register("enchanted_golden_cookie", () -> new EnchantedGoldenCookieItem());
 	public static final RegistryObject<Item> EXOTIC_COOKIE = REGISTRY.register("exotic_cookie", () -> new ExoticCookieItem());
@@ -491,6 +523,14 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.OUTRAGED_ENGIE_SHARKO, -16777216, -9502465, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> MONSTROSITY_ENGIE_SHARKO_SPAWN_EGG = REGISTRY.register("monstrosity_engie_sharko_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.MONSTROSITY_ENGIE_SHARKO, -16777216, -3010263, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> DOOMS_DAY_SPAWN_EGG = REGISTRY.register("dooms_day_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.DOOMS_DAY, -15329770, -602330, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_SPAWN_EGG = REGISTRY.register("super_dooms_day_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.SUPER_DOOMS_DAY, -16250872, -602330, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> DOOMS_DAY_HOSTILE_SPAWN_EGG = REGISTRY.register("dooms_day_hostile_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.DOOMS_DAY_HOSTILE, -15329770, -602330, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
+	public static final RegistryObject<Item> SUPER_DOOMS_DAY_HOSTILE_SPAWN_EGG = REGISTRY.register("super_dooms_day_hostile_spawn_egg",
+			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.SUPER_DOOMS_DAY_HOSTILE, -16250872, -602330, new Item.Properties().tab(AllaboutengieModTabs.TAB_MOBS)));
 	public static final RegistryObject<Item> ENGIES_HELMET = REGISTRY.register("engies_helmet", () -> new EngiesItem.Helmet());
 	public static final RegistryObject<Item> ENGIES_CHESTPLATE = REGISTRY.register("engies_chestplate", () -> new EngiesItem.Chestplate());
 	public static final RegistryObject<Item> ENGIES_LEGGINGS = REGISTRY.register("engies_leggings", () -> new EngiesItem.Leggings());
@@ -515,6 +555,14 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MONSTROSITY_ENGIES_CHESTPLATE = REGISTRY.register("monstrosity_engies_chestplate", () -> new MonstrosityEngiesItem.Chestplate());
 	public static final RegistryObject<Item> MONSTROSITY_ENGIES_LEGGINGS = REGISTRY.register("monstrosity_engies_leggings", () -> new MonstrosityEngiesItem.Leggings());
 	public static final RegistryObject<Item> MONSTROSITY_ENGIES_BOOTS = REGISTRY.register("monstrosity_engies_boots", () -> new MonstrosityEngiesItem.Boots());
+	public static final RegistryObject<Item> DOOMS_DAYS_HELMET = REGISTRY.register("dooms_days_helmet", () -> new DoomsDaysItem.Helmet());
+	public static final RegistryObject<Item> DOOMS_DAYS_CHESTPLATE = REGISTRY.register("dooms_days_chestplate", () -> new DoomsDaysItem.Chestplate());
+	public static final RegistryObject<Item> DOOMS_DAYS_LEGGINGS = REGISTRY.register("dooms_days_leggings", () -> new DoomsDaysItem.Leggings());
+	public static final RegistryObject<Item> DOOMS_DAYS_BOOTS = REGISTRY.register("dooms_days_boots", () -> new DoomsDaysItem.Boots());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAYS_HELMET = REGISTRY.register("super_dooms_days_helmet", () -> new SuperDoomsDaysItem.Helmet());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAYS_CHESTPLATE = REGISTRY.register("super_dooms_days_chestplate", () -> new SuperDoomsDaysItem.Chestplate());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAYS_LEGGINGS = REGISTRY.register("super_dooms_days_leggings", () -> new SuperDoomsDaysItem.Leggings());
+	public static final RegistryObject<Item> SUPER_DOOMS_DAYS_BOOTS = REGISTRY.register("super_dooms_days_boots", () -> new SuperDoomsDaysItem.Boots());
 	public static final RegistryObject<Item> SHARK_HELMET = REGISTRY.register("shark_helmet", () -> new SharkItem.Helmet());
 	public static final RegistryObject<Item> SHARK_CHESTPLATE = REGISTRY.register("shark_chestplate", () -> new SharkItem.Chestplate());
 	public static final RegistryObject<Item> SHARK_LEGGINGS = REGISTRY.register("shark_leggings", () -> new SharkItem.Leggings());
@@ -636,10 +684,6 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_TNT, -2412774, -7405568, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
 	public static final RegistryObject<Item> ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("enraged_speed_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_SPEED, -16489688, -7405568, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> HWG_HELMET = REGISTRY.register("hwg_helmet", () -> new HWGItem.Helmet());
-	public static final RegistryObject<Item> HWG_CHESTPLATE = REGISTRY.register("hwg_chestplate", () -> new HWGItem.Chestplate());
-	public static final RegistryObject<Item> HWG_LEGGINGS = REGISTRY.register("hwg_leggings", () -> new HWGItem.Leggings());
-	public static final RegistryObject<Item> HWG_BOOTS = REGISTRY.register("hwg_boots", () -> new HWGItem.Boots());
 	public static final RegistryObject<Item> TRUE_BAN_HAMMER_NCMD = REGISTRY.register("true_ban_hammer_ncmd", () -> new TrueBanHammerNCMDItem());
 	public static final RegistryObject<Item> TRUE_BAN_HAMMER_NCMD_PIXEL = REGISTRY.register("true_ban_hammer_ncmd_pixel", () -> new TrueBanHammerNCMDPixelItem());
 	public static final RegistryObject<Item> TRUE_BAN_HAMMER = REGISTRY.register("true_ban_hammer", () -> new TrueBanHammerItem());
@@ -692,6 +736,12 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> THANKS_FOR_PLAYING_4 = block(AllaboutengieModBlocks.THANKS_FOR_PLAYING_4, null);
 	public static final RegistryObject<Item> AAE_DEV_ENGIE = REGISTRY.register("aae_dev_engie", () -> new AAEDevEngieItem());
 	public static final RegistryObject<Item> BROWNIES_EMPTY = REGISTRY.register("brownies_empty", () -> new BrowniesEmptyItem());
+	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER = REGISTRY.register("comically_massive_ban_hammer", () -> new BahemothBanHammerItem());
+	public static final RegistryObject<Item> COMICALLY_MASSIVE_BAN_HAMMER_PIXEL = REGISTRY.register("comically_massive_ban_hammer_pixel", () -> new BahemothBanHammerPixelItem());
+	public static final RegistryObject<Item> HWG_HELMET = REGISTRY.register("hwg_helmet", () -> new HWGItem.Helmet());
+	public static final RegistryObject<Item> HWG_CHESTPLATE = REGISTRY.register("hwg_chestplate", () -> new HWGItem.Chestplate());
+	public static final RegistryObject<Item> HWG_LEGGINGS = REGISTRY.register("hwg_leggings", () -> new HWGItem.Leggings());
+	public static final RegistryObject<Item> HWG_BOOTS = REGISTRY.register("hwg_boots", () -> new HWGItem.Boots());
 	public static final RegistryObject<Item> HWG_SCYTHE = REGISTRY.register("hwg_scythe", () -> new HWGScytheItem());
 	public static final RegistryObject<Item> YOU_ARE_NOT_SUPPOSED_TO_HAVE_THIS = REGISTRY.register("you_are_not_supposed_to_have_this", () -> new YouAreNotSupposedToHaveThisItem());
 	public static final RegistryObject<Item> ENGIE_PLUSH = REGISTRY.register("engie_plush", () -> new EngiePlushItem());
@@ -705,6 +755,7 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGIE_PLAQUE = REGISTRY.register("engie_plaque", () -> new EngiePlaqueItem());
 	public static final RegistryObject<Item> ENGIES_BIRTHDAY_BUNDLE25 = REGISTRY.register("engies_birthday_bundle25", () -> new EngiesBirthdayBundleItem());
 	public static final RegistryObject<Item> HOTLINE_MIAMI_2_RUN = REGISTRY.register("hotline_miami_2_run", () -> new HotlineMiami2RunItem());
+	public static final RegistryObject<Item> SPIKE_PART = block(AllaboutengieModBlocks.SPIKE_PART, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -11,6 +11,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.allaboutengie.world.inventory.SuperDoomsDayTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.OutragedEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.MonstrosityEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.MetalChestUIMenu;
@@ -19,6 +20,7 @@ import net.mcreator.allaboutengie.world.inventory.EnragedEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EngiesOwnEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EngiesBirthdayBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.ETCEngieBundleUIMenu;
+import net.mcreator.allaboutengie.world.inventory.DoomsDayTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.CreativeEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.BiblicallyAccurateEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.AngryEngieBundleUIMenu;
@@ -52,4 +54,6 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<AllAboutEngieWikiToolsMenu>> ALL_ABOUT_ENGIE_WIKI_TOOLS = REGISTRY.register("all_about_engie_wiki_tools", () -> IForgeMenuType.create(AllAboutEngieWikiToolsMenu::new));
 	public static final RegistryObject<MenuType<AllAboutEngieWikiArmorMenu>> ALL_ABOUT_ENGIE_WIKI_ARMOR = REGISTRY.register("all_about_engie_wiki_armor", () -> IForgeMenuType.create(AllAboutEngieWikiArmorMenu::new));
 	public static final RegistryObject<MenuType<AllAboutEngieWikiItemsMenu>> ALL_ABOUT_ENGIE_WIKI_ITEMS = REGISTRY.register("all_about_engie_wiki_items", () -> IForgeMenuType.create(AllAboutEngieWikiItemsMenu::new));
+	public static final RegistryObject<MenuType<DoomsDayTradeUIMenu>> DOOMS_DAY_TRADE_UI = REGISTRY.register("dooms_day_trade_ui", () -> IForgeMenuType.create(DoomsDayTradeUIMenu::new));
+	public static final RegistryObject<MenuType<SuperDoomsDayTradeUIMenu>> SUPER_DOOMS_DAY_TRADE_UI = REGISTRY.register("super_dooms_day_trade_ui", () -> IForgeMenuType.create(SuperDoomsDayTradeUIMenu::new));
 }

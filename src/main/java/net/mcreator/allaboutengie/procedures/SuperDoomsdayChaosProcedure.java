@@ -30,6 +30,7 @@ import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 import net.mcreator.allaboutengie.entity.YellowLightningEntity;
+import net.mcreator.allaboutengie.entity.SpikeSpawnerEntity;
 import net.mcreator.allaboutengie.entity.NormalEntity;
 import net.mcreator.allaboutengie.entity.MOABEntity;
 import net.mcreator.allaboutengie.entity.BlueBurstEntity;
@@ -106,6 +107,13 @@ public class SuperDoomsdayChaosProcedure {
 								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect clear @a");
 					}
 				}
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "stopsound @a");
+					}
+				}
 				AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday = true;
 				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				AllaboutengieModVariables.MapVariables.get(world).sddaystart = false;
@@ -134,11 +142,11 @@ public class SuperDoomsdayChaosProcedure {
 					});
 				}
 				if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-					AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					if (world instanceof ServerLevel _level)
+						_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 					AllaboutengieMod.queueServerWork(5, () -> {
-						if (world instanceof ServerLevel _level)
-							_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+						AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					});
 				}
 				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.TRUE_HARDCORE) == false) {
@@ -151,8 +159,8 @@ public class SuperDoomsdayChaosProcedure {
 					}
 				}
 				if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).DoomsdayAlive == true) {
-					if (!(entity instanceof ServerPlayer _plr19 && _plr19.level instanceof ServerLevel
-							&& _plr19.getAdvancements().getOrStartProgress(_plr19.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"))).isDone())) {
+					if (!(entity instanceof ServerPlayer _plr20 && _plr20.level instanceof ServerLevel
+							&& _plr20.getAdvancements().getOrStartProgress(_plr20.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"))).isDone())) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -163,8 +171,8 @@ public class SuperDoomsdayChaosProcedure {
 							}
 						}
 					}
-					if (!(entity instanceof ServerPlayer _plr21 && _plr21.level instanceof ServerLevel
-							&& _plr21.getAdvancements().getOrStartProgress(_plr21.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:sdday_conqueror"))).isDone())) {
+					if (!(entity instanceof ServerPlayer _plr22 && _plr22.level instanceof ServerLevel
+							&& _plr22.getAdvancements().getOrStartProgress(_plr22.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:sdday_conqueror"))).isDone())) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:sdday_conqueror"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -351,6 +359,41 @@ public class SuperDoomsdayChaosProcedure {
 						world.addFreshEntity(entityToSpawn);
 					}
 				});
+			}
+			if (AllaboutengieModVariables.MapVariables.get(world).sddayspikecooldown == true) {
+				entity.getPersistentData().putDouble("sddaydarknesscooldown", (entity.getPersistentData().getDouble("sddaydarknesscooldown") + 0.05));
+				if (entity.getPersistentData().getDouble("sddaydarknesscooldown") >= 5) {
+					entity.getPersistentData().putDouble("sddaydarknesscooldown", 5);
+					AllaboutengieModVariables.MapVariables.get(world).sddayspikecooldown = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieMod.queueServerWork(1, () -> {
+						for (int index0 = 0; index0 < 15; index0++) {
+							if (world instanceof ServerLevel _level) {
+								Entity entityToSpawn = new SpikeSpawnerEntity(AllaboutengieModEntities.SPIKE_SPAWNER.get(), _level);
+								entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 1, 64)),
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 1, 64)),
+										world.getRandom().nextFloat() * 360F, 0);
+								if (entityToSpawn instanceof Mob _mobToSpawn)
+									_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+								world.addFreshEntity(entityToSpawn);
+							}
+							if (world instanceof ServerLevel _level) {
+								Entity entityToSpawn = new SpikeSpawnerEntity(AllaboutengieModEntities.SPIKE_SPAWNER.get(), _level);
+								entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 1, 64)),
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 1, 64)),
+										world.getRandom().nextFloat() * 360F, 0);
+								if (entityToSpawn instanceof Mob _mobToSpawn)
+									_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+								world.addFreshEntity(entityToSpawn);
+							}
+						}
+					});
+				}
+			} else {
+				AllaboutengieModVariables.MapVariables.get(world).sddayspikecooldown = true;
+				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			}
 		}
 	}

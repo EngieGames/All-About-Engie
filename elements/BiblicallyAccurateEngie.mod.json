@@ -55,8 +55,8 @@
     "movementSpeed": 0.25,
     "stepHeight": 1.0,
     "armorBaseValue": 100.0,
-    "trackingRange": 1024,
-    "followRange": 525,
+    "trackingRange": 64,
+    "followRange": 32,
     "health": 525,
     "xpAmount": 525,
     "waterMob": false,
@@ -114,6 +114,9 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "BiblicallyAccurateEngieNaturalEntitySpawningCondition"
+    },
     "spawningProbability": 1,
     "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,

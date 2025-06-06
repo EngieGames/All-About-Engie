@@ -28,6 +28,9 @@ import net.mcreator.allaboutengie.entity.TigerZoomiesEntity;
 import net.mcreator.allaboutengie.entity.TigerSleepEntity;
 import net.mcreator.allaboutengie.entity.TigerLayEntity;
 import net.mcreator.allaboutengie.entity.TigerEntity;
+import net.mcreator.allaboutengie.entity.SuperDoomsDayHostileEntity;
+import net.mcreator.allaboutengie.entity.SuperDoomsDayEntity;
+import net.mcreator.allaboutengie.entity.SpikeSpawnerEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedAprilFoolsEntity;
@@ -186,6 +189,8 @@ import net.mcreator.allaboutengie.entity.EngieSharkoAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieGamesEntity;
 import net.mcreator.allaboutengie.entity.EngiFREntity;
 import net.mcreator.allaboutengie.entity.EngiEntity;
+import net.mcreator.allaboutengie.entity.DoomsDayHostileEntity;
+import net.mcreator.allaboutengie.entity.DoomsDayEntity;
 import net.mcreator.allaboutengie.entity.CreatorEntity;
 import net.mcreator.allaboutengie.entity.CosmoSleepEntity;
 import net.mcreator.allaboutengie.entity.CosmoLayEntity;
@@ -302,7 +307,7 @@ public class AllaboutengieModEntities {
 
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<BiblicallyAccurateEngieEntity>> BIBLICALLY_ACCURATE_ENGIE = register("biblically_accurate_engie",
-			EntityType.Builder.<BiblicallyAccurateEngieEntity>of(BiblicallyAccurateEngieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(1024).setUpdateInterval(3)
+			EntityType.Builder.<BiblicallyAccurateEngieEntity>of(BiblicallyAccurateEngieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(BiblicallyAccurateEngieEntity::new).fireImmune().sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<CommonEngieEntity>> COMMON_ENGIE = register("common_engie",
 			EntityType.Builder.<CommonEngieEntity>of(CommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CommonEngieEntity::new)
@@ -383,6 +388,27 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(MonstrosityEngieSharkoEntity::new).fireImmune().sized(0.7f, 0.9f));
 	public static final RegistryObject<EntityType<InsanityEntity>> INSANITY = register("insanity",
 			EntityType.Builder.<InsanityEntity>of(InsanityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(InsanityEntity::new).fireImmune().sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<PureInsanityEntity>> PURE_INSANITY = register("pure_insanity",
+			EntityType.Builder.<PureInsanityEntity>of(PureInsanityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PureInsanityEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<DoomsDayEntity>> DOOMS_DAY = register("dooms_day",
+			EntityType.Builder.<DoomsDayEntity>of(DoomsDayEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DoomsDayEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<SuperDoomsDayEntity>> SUPER_DOOMS_DAY = register("super_dooms_day",
+			EntityType.Builder.<SuperDoomsDayEntity>of(SuperDoomsDayEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SuperDoomsDayEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<DoomsDayHostileEntity>> DOOMS_DAY_HOSTILE = register("dooms_day_hostile",
+			EntityType.Builder.<DoomsDayHostileEntity>of(DoomsDayHostileEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DoomsDayHostileEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<SuperDoomsDayHostileEntity>> SUPER_DOOMS_DAY_HOSTILE = register("super_dooms_day_hostile",
+			EntityType.Builder.<SuperDoomsDayHostileEntity>of(SuperDoomsDayHostileEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(SuperDoomsDayHostileEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<SharkoEntity>> SHARKO = register("sharko",
 			EntityType.Builder.<SharkoEntity>of(SharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoEntity::new)
 
@@ -1159,6 +1185,16 @@ public class AllaboutengieModEntities {
 			.setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HeWhoGamesEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HeWhoGamesHostileEntity>> HE_WHO_GAMES_HOSTILE = register("he_who_games_hostile", EntityType.Builder.<HeWhoGamesHostileEntity>of(HeWhoGamesHostileEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HeWhoGamesHostileEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<YellowLightningEntity>> YELLOW_LIGHTNING = register("yellow_lightning", EntityType.Builder.<YellowLightningEntity>of(YellowLightningEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(YellowLightningEntity::new).fireImmune().sized(1f, 1f));
+	public static final RegistryObject<EntityType<BlueBurstEntity>> BLUE_BURST = register("blue_burst",
+			EntityType.Builder.<BlueBurstEntity>of(BlueBurstEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueBurstEntity::new).fireImmune().sized(1f, 1f));
+	public static final RegistryObject<EntityType<NormalEntity>> NORMAL = register("normal",
+			EntityType.Builder.<NormalEntity>of(NormalEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NormalEntity::new).fireImmune().sized(1f, 1f));
+	public static final RegistryObject<EntityType<MOABEntity>> MOAB = register("moab",
+			EntityType.Builder.<MOABEntity>of(MOABEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MOABEntity::new).fireImmune().sized(1f, 1f));
+	public static final RegistryObject<EntityType<SpikeSpawnerEntity>> SPIKE_SPAWNER = register("spike_spawner", EntityType.Builder.<SpikeSpawnerEntity>of(SpikeSpawnerEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpikeSpawnerEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<SharkTamedEntity>> SHARKO_TAMED = register("sharko_tamed",
 			EntityType.Builder.<SharkTamedEntity>of(SharkTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkTamedEntity::new)
 
@@ -1351,18 +1387,6 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
 
 					.sized(1.4f, 1.8f));
-	public static final RegistryObject<EntityType<YellowLightningEntity>> YELLOW_LIGHTNING = register("yellow_lightning", EntityType.Builder.<YellowLightningEntity>of(YellowLightningEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(YellowLightningEntity::new).fireImmune().sized(1f, 1f));
-	public static final RegistryObject<EntityType<BlueBurstEntity>> BLUE_BURST = register("blue_burst",
-			EntityType.Builder.<BlueBurstEntity>of(BlueBurstEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueBurstEntity::new).fireImmune().sized(1f, 1f));
-	public static final RegistryObject<EntityType<NormalEntity>> NORMAL = register("normal",
-			EntityType.Builder.<NormalEntity>of(NormalEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NormalEntity::new).fireImmune().sized(1f, 1f));
-	public static final RegistryObject<EntityType<MOABEntity>> MOAB = register("moab",
-			EntityType.Builder.<MOABEntity>of(MOABEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MOABEntity::new).fireImmune().sized(1f, 1f));
-	public static final RegistryObject<EntityType<PureInsanityEntity>> PURE_INSANITY = register("pure_insanity",
-			EntityType.Builder.<PureInsanityEntity>of(PureInsanityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PureInsanityEntity::new)
-
-					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1399,6 +1423,11 @@ public class AllaboutengieModEntities {
 			OutragedEngieSharkoEntity.init();
 			MonstrosityEngieSharkoEntity.init();
 			InsanityEntity.init();
+			PureInsanityEntity.init();
+			DoomsDayEntity.init();
+			SuperDoomsDayEntity.init();
+			DoomsDayHostileEntity.init();
+			SuperDoomsDayHostileEntity.init();
 			SharkoEntity.init();
 			AlbinoSharkoEntity.init();
 			RareSharkoEntity.init();
@@ -1581,6 +1610,11 @@ public class AllaboutengieModEntities {
 			EnragedSpeed9Entity.init();
 			HeWhoGamesEntity.init();
 			HeWhoGamesHostileEntity.init();
+			YellowLightningEntity.init();
+			BlueBurstEntity.init();
+			NormalEntity.init();
+			MOABEntity.init();
+			SpikeSpawnerEntity.init();
 			SharkTamedEntity.init();
 			AlbinoSharkoTamedEntity.init();
 			RareSharkoTamedEntity.init();
@@ -1622,11 +1656,6 @@ public class AllaboutengieModEntities {
 			BigEngieSharkoRare2TamedEntity.init();
 			BigEpicSharkoTamedEntity.init();
 			CosmoEntity.init();
-			YellowLightningEntity.init();
-			BlueBurstEntity.init();
-			NormalEntity.init();
-			MOABEntity.init();
-			PureInsanityEntity.init();
 		});
 	}
 
@@ -1660,6 +1689,11 @@ public class AllaboutengieModEntities {
 		event.put(OUTRAGED_ENGIE_SHARKO.get(), OutragedEngieSharkoEntity.createAttributes().build());
 		event.put(MONSTROSITY_ENGIE_SHARKO.get(), MonstrosityEngieSharkoEntity.createAttributes().build());
 		event.put(INSANITY.get(), InsanityEntity.createAttributes().build());
+		event.put(PURE_INSANITY.get(), PureInsanityEntity.createAttributes().build());
+		event.put(DOOMS_DAY.get(), DoomsDayEntity.createAttributes().build());
+		event.put(SUPER_DOOMS_DAY.get(), SuperDoomsDayEntity.createAttributes().build());
+		event.put(DOOMS_DAY_HOSTILE.get(), DoomsDayHostileEntity.createAttributes().build());
+		event.put(SUPER_DOOMS_DAY_HOSTILE.get(), SuperDoomsDayHostileEntity.createAttributes().build());
 		event.put(SHARKO.get(), SharkoEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO.get(), AlbinoSharkoEntity.createAttributes().build());
 		event.put(RARE_SHARKO.get(), RareSharkoEntity.createAttributes().build());
@@ -1842,6 +1876,11 @@ public class AllaboutengieModEntities {
 		event.put(ENRAGED_SPEED_9.get(), EnragedSpeed9Entity.createAttributes().build());
 		event.put(HE_WHO_GAMES.get(), HeWhoGamesEntity.createAttributes().build());
 		event.put(HE_WHO_GAMES_HOSTILE.get(), HeWhoGamesHostileEntity.createAttributes().build());
+		event.put(YELLOW_LIGHTNING.get(), YellowLightningEntity.createAttributes().build());
+		event.put(BLUE_BURST.get(), BlueBurstEntity.createAttributes().build());
+		event.put(NORMAL.get(), NormalEntity.createAttributes().build());
+		event.put(MOAB.get(), MOABEntity.createAttributes().build());
+		event.put(SPIKE_SPAWNER.get(), SpikeSpawnerEntity.createAttributes().build());
 		event.put(SHARKO_TAMED.get(), SharkTamedEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_TAMED.get(), AlbinoSharkoTamedEntity.createAttributes().build());
 		event.put(RARE_SHARKO_TAMED.get(), RareSharkoTamedEntity.createAttributes().build());
@@ -1883,10 +1922,5 @@ public class AllaboutengieModEntities {
 		event.put(BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
 		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
-		event.put(YELLOW_LIGHTNING.get(), YellowLightningEntity.createAttributes().build());
-		event.put(BLUE_BURST.get(), BlueBurstEntity.createAttributes().build());
-		event.put(NORMAL.get(), NormalEntity.createAttributes().build());
-		event.put(MOAB.get(), MOABEntity.createAttributes().build());
-		event.put(PURE_INSANITY.get(), PureInsanityEntity.createAttributes().build());
 	}
 }

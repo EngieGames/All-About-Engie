@@ -84,7 +84,21 @@ public class SuperDoomsdayDialogueProcedure {
 							}
 							AllaboutengieModVariables.MapVariables.get(world).sddaytimenighttimerblock = true;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-							if (world instanceof Level _lvl6 && _lvl6.isDay()) {
+							{
+								boolean _setval = true;
+								entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+									capability.healthreductiondday = _setval;
+									capability.syncPlayerVariables(entity);
+								});
+							}
+							{
+								Entity _ent = entity;
+								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @p instant_health 1 28 true");
+								}
+							}
+							if (world instanceof Level _lvl7 && _lvl7.isDay()) {
 								{
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -110,8 +124,8 @@ public class SuperDoomsdayDialogueProcedure {
 												"tellraw @a [\"\",{\"text\":\" \\u0020 \\u0020 \\u0020 \\u0020 \\u0020 \\u0020 \\u0020 \\u0020\\u26a0 NEW OBJECTIVE: \\u26a0\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"\\nThe end is near. The full wrath of Mother Nature is arriving.\\n \\u0020 \\u0020 \\u0020 \\u0020 \\u0020 \\u0020The ultimate disaster. SUPER DOOMSDAY.\"}]");
 									}
 								}
-								if (!(entity instanceof ServerPlayer _plr12 && _plr12.level instanceof ServerLevel
-										&& _plr12.getAdvancements().getOrStartProgress(_plr12.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"))).isDone())) {
+								if (!(entity instanceof ServerPlayer _plr13 && _plr13.level instanceof ServerLevel
+										&& _plr13.getAdvancements().getOrStartProgress(_plr13.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"))).isDone())) {
 									if (entity instanceof ServerPlayer _player) {
 										Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"));
 										AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

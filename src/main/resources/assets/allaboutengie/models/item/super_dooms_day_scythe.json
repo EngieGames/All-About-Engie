@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/superdoomsdayscythe",
+  "textures": {
+    "0": "allaboutengie:blocks/sdoomsdayscythe",
+    "particle": "allaboutengie:items/superdoomsdayarmoritembase"
+  }
+}

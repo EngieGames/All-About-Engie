@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/superdoomsdaycoin",
+  "textures": {
+    "0": "allaboutengie:blocks/superdoomsdaycointexture",
+    "particle": "allaboutengie:items/superdoomsdayarmoritembase"
+  }
+}
