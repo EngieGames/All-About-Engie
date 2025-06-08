@@ -14,7 +14,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:SuperDoomsDayCoin"
+            "value": "CUSTOM:EngieCoin"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -32,7 +32,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:SuperDoomsDayCoin"
+            "value": "CUSTOM:EngieCoin"
           },
           "disablePlacement": {
             "fixedValue": false

@@ -33,6 +33,11 @@ public class RareChanceProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		if (world instanceof Level _level && !_level.isClientSide()) {
+			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENGIE_COIN.get()));
+			entityToSpawn.setPickUpDelay(1);
+			_level.addFreshEntity(entityToSpawn);
+		}
 		if (entity instanceof Player) {
 			if ((entity.getDisplayName().getString()).equals("Dev")) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
@@ -95,13 +100,6 @@ public class RareChanceProcedure {
 		if (AllaboutengieModVariables.MapVariables.get(world).thestart == true) {
 			if (world instanceof Level _level && !_level.isClientSide()) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.THE_END_COIN.get()));
-				entityToSpawn.setPickUpDelay(1);
-				_level.addFreshEntity(entityToSpawn);
-			}
-		}
-		if (AllaboutengieModVariables.MapVariables.get(world).EngieCoinSpawn == true) {
-			if (world instanceof Level _level && !_level.isClientSide()) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENGIE_COIN.get()));
 				entityToSpawn.setPickUpDelay(1);
 				_level.addFreshEntity(entityToSpawn);
 			}

@@ -408,6 +408,18 @@ public class AllaboutengieModEntities {
 					.setCustomClientFactory(SuperDoomsDayHostileEntity::new)
 
 					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<TheEndEntity>> THE_END = register("the_end",
+			EntityType.Builder.<TheEndEntity>of(TheEndEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheEndEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<TheEndHostileEntity>> THE_END_HOSTILE = register("the_end_hostile",
+			EntityType.Builder.<TheEndHostileEntity>of(TheEndHostileEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheEndHostileEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
+			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<SharkoEntity>> SHARKO = register("sharko",
 			EntityType.Builder.<SharkoEntity>of(SharkoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkoEntity::new)
 
@@ -1194,6 +1206,10 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<MOABEntity>of(MOABEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MOABEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<SpikeSpawnerEntity>> SPIKE_SPAWNER = register("spike_spawner", EntityType.Builder.<SpikeSpawnerEntity>of(SpikeSpawnerEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpikeSpawnerEntity::new).fireImmune().sized(1f, 1f));
+	public static final RegistryObject<EntityType<EngieGamesDetectiveEntity>> ENGIE_GAMES_DETECTIVE = register("engie_games_detective",
+			EntityType.Builder.<EngieGamesDetectiveEntity>of(EngieGamesDetectiveEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesDetectiveEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<SharkTamedEntity>> SHARKO_TAMED = register("sharko_tamed",
 			EntityType.Builder.<SharkTamedEntity>of(SharkTamedEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SharkTamedEntity::new)
 
@@ -1386,22 +1402,6 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
 
 					.sized(1.4f, 1.8f));
-	public static final RegistryObject<EntityType<TheEndEntity>> THE_END = register("the_end",
-			EntityType.Builder.<TheEndEntity>of(TheEndEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheEndEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<TheEndHostileEntity>> THE_END_HOSTILE = register("the_end_hostile",
-			EntityType.Builder.<TheEndHostileEntity>of(TheEndHostileEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheEndHostileEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<EngieGamesDetectiveEntity>> ENGIE_GAMES_DETECTIVE = register("engie_games_detective",
-			EntityType.Builder.<EngieGamesDetectiveEntity>of(EngieGamesDetectiveEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesDetectiveEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
-			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
-
-					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1442,6 +1442,9 @@ public class AllaboutengieModEntities {
 			SuperDoomsDayEntity.init();
 			DoomsDayHostileEntity.init();
 			SuperDoomsDayHostileEntity.init();
+			TheEndEntity.init();
+			TheEndHostileEntity.init();
+			EngieGamesEntity.init();
 			SharkoEntity.init();
 			AlbinoSharkoEntity.init();
 			RareSharkoEntity.init();
@@ -1629,6 +1632,7 @@ public class AllaboutengieModEntities {
 			NormalEntity.init();
 			MOABEntity.init();
 			SpikeSpawnerEntity.init();
+			EngieGamesDetectiveEntity.init();
 			SharkTamedEntity.init();
 			AlbinoSharkoTamedEntity.init();
 			RareSharkoTamedEntity.init();
@@ -1670,10 +1674,6 @@ public class AllaboutengieModEntities {
 			BigEngieSharkoRare2TamedEntity.init();
 			BigEpicSharkoTamedEntity.init();
 			CosmoEntity.init();
-			TheEndEntity.init();
-			TheEndHostileEntity.init();
-			EngieGamesDetectiveEntity.init();
-			EngieGamesEntity.init();
 		});
 	}
 
@@ -1711,6 +1711,9 @@ public class AllaboutengieModEntities {
 		event.put(SUPER_DOOMS_DAY.get(), SuperDoomsDayEntity.createAttributes().build());
 		event.put(DOOMS_DAY_HOSTILE.get(), DoomsDayHostileEntity.createAttributes().build());
 		event.put(SUPER_DOOMS_DAY_HOSTILE.get(), SuperDoomsDayHostileEntity.createAttributes().build());
+		event.put(THE_END.get(), TheEndEntity.createAttributes().build());
+		event.put(THE_END_HOSTILE.get(), TheEndHostileEntity.createAttributes().build());
+		event.put(ENGIE_GAMES.get(), EngieGamesEntity.createAttributes().build());
 		event.put(SHARKO.get(), SharkoEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO.get(), AlbinoSharkoEntity.createAttributes().build());
 		event.put(RARE_SHARKO.get(), RareSharkoEntity.createAttributes().build());
@@ -1898,6 +1901,7 @@ public class AllaboutengieModEntities {
 		event.put(NORMAL.get(), NormalEntity.createAttributes().build());
 		event.put(MOAB.get(), MOABEntity.createAttributes().build());
 		event.put(SPIKE_SPAWNER.get(), SpikeSpawnerEntity.createAttributes().build());
+		event.put(ENGIE_GAMES_DETECTIVE.get(), EngieGamesDetectiveEntity.createAttributes().build());
 		event.put(SHARKO_TAMED.get(), SharkTamedEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_TAMED.get(), AlbinoSharkoTamedEntity.createAttributes().build());
 		event.put(RARE_SHARKO_TAMED.get(), RareSharkoTamedEntity.createAttributes().build());
@@ -1939,9 +1943,5 @@ public class AllaboutengieModEntities {
 		event.put(BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
 		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
-		event.put(THE_END.get(), TheEndEntity.createAttributes().build());
-		event.put(THE_END_HOSTILE.get(), TheEndHostileEntity.createAttributes().build());
-		event.put(ENGIE_GAMES_DETECTIVE.get(), EngieGamesDetectiveEntity.createAttributes().build());
-		event.put(ENGIE_GAMES.get(), EngieGamesEntity.createAttributes().build());
 	}
 }
