@@ -25,12 +25,12 @@ public abstract class OutragedEngiesItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 100;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 200;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{100, 100, 100, 100}[slot.getIndex()];
+				return new int[]{200, 200, 200, 200}[slot.getIndex()];
 			}
 
 			@Override

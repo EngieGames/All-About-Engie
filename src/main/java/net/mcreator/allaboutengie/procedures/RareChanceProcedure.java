@@ -11,8 +11,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
@@ -80,65 +78,6 @@ public class RareChanceProcedure {
 				}
 			}
 		}
-		if (Math.random() == 0.0001) {
-			if (Mth.nextDouble(RandomSource.create(), 1, 8) == 1) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ALL_ABOUT_ENGIE_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 2) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ITEMS_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 3) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.MOBS_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 4) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.SHARKOS_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 5) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.DIMENSIONS_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 6) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENRAGED_ZOMBIES_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 7) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.EXTRAS_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			} else if (Mth.nextDouble(RandomSource.create(), 1, 8) == 8) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENGIE_PLAQUE.get()));
-					entityToSpawn.setPickUpDelay(1);
-					entityToSpawn.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn);
-				}
-			}
-		}
 		if (AllaboutengieModVariables.MapVariables.get(world).ddaystart == true) {
 			if (world instanceof Level _level && !_level.isClientSide()) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.DOOMS_DAY_COIN.get()));
@@ -149,6 +88,20 @@ public class RareChanceProcedure {
 		if (AllaboutengieModVariables.MapVariables.get(world).sddaystart == true) {
 			if (world instanceof Level _level && !_level.isClientSide()) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAY_COIN.get()));
+				entityToSpawn.setPickUpDelay(1);
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if (AllaboutengieModVariables.MapVariables.get(world).thestart == true) {
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.THE_END_COIN.get()));
+				entityToSpawn.setPickUpDelay(1);
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if (AllaboutengieModVariables.MapVariables.get(world).EngieCoinSpawn == true) {
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENGIE_COIN.get()));
 				entityToSpawn.setPickUpDelay(1);
 				_level.addFreshEntity(entityToSpawn);
 			}

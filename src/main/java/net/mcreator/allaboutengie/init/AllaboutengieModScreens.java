@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.allaboutengie.client.gui.TheEndTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.SuperDoomsDayTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.OutragedEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.MonstrosityEngieBundleUIScreen;
@@ -19,6 +20,7 @@ import net.mcreator.allaboutengie.client.gui.MetalBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.EnragedEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.EngiesOwnEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.EngiesBirthdayBundleUIScreen;
+import net.mcreator.allaboutengie.client.gui.EngieTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.ETCEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.DoomsDayTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.CreativeEngieBundleUIScreen;
@@ -57,6 +59,8 @@ public class AllaboutengieModScreens {
 			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_ITEMS.get(), AllAboutEngieWikiItemsScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.DOOMS_DAY_TRADE_UI.get(), DoomsDayTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.SUPER_DOOMS_DAY_TRADE_UI.get(), SuperDoomsDayTradeUIScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.THE_END_TRADE_UI.get(), TheEndTradeUIScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.ENGIE_TRADE_UI.get(), EngieTradeUIScreen::new);
 		});
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/crucifixtheend",
+  "textures": {
+    "0": "allaboutengie:blocks/crucifixtheend",
+    "particle": "allaboutengie:items/crucifixtheendpixel"
+  }
+}

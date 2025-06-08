@@ -8,7 +8,7 @@
     "customModelName": "engi_scythe:default",
     "name": "Engie's Scythe",
     "specialInfo": [
-      "1 of many more to come."
+      "Apparently Engie says this is owned by someone named \"Distorted\"... Who even is Distorted?"
     ],
     "creativeTab": {
       "value": "No creative tab entry"
@@ -16,7 +16,7 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 10,
     "damageVsEntity": 2000.0,
     "usageCount": 9001,
     "blocksAffected": [],

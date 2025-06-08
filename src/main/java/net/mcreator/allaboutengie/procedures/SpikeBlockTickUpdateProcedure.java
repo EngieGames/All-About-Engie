@@ -8,7 +8,7 @@ import net.mcreator.allaboutengie.AllaboutengieMod;
 
 public class SpikeBlockTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		AllaboutengieMod.queueServerWork(400, () -> {
+		AllaboutengieMod.queueServerWork(320, () -> {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 		});
 	}

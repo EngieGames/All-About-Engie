@@ -106,6 +106,7 @@ public class AllaboutengieModVariables {
 			clone.timeoverlaytoggle = original.timeoverlaytoggle;
 			clone.SharkoRideToggle = original.SharkoRideToggle;
 			clone.TrueHardcoreLifeCount = original.TrueHardcoreLifeCount;
+			clone.ShowObjectiveOverlay = original.ShowObjectiveOverlay;
 			if (!event.isWasDeath()) {
 				clone.DoomsdayAlive = original.DoomsdayAlive;
 				clone.firstplay = original.firstplay;
@@ -139,6 +140,7 @@ public class AllaboutengieModVariables {
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "allaboutengie_worldvars";
 		public boolean yeah = false;
+		public boolean theendhalf1complete = false;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -148,11 +150,13 @@ public class AllaboutengieModVariables {
 
 		public void read(CompoundTag nbt) {
 			yeah = nbt.getBoolean("yeah");
+			theendhalf1complete = nbt.getBoolean("theendhalf1complete");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("yeah", yeah);
+			nbt.putBoolean("theendhalf1complete", theendhalf1complete);
 			return nbt;
 		}
 
@@ -222,6 +226,14 @@ public class AllaboutengieModVariables {
 		public boolean DayCooldownToggle = false;
 		public boolean ddayspikecooldown = false;
 		public boolean sddayspikecooldown = false;
+		public boolean TheEndStart = false;
+		public boolean theenddialoguetimeblock = false;
+		public boolean theendtimenighttimerblock = false;
+		public boolean theendmainsongstart = false;
+		public boolean TheEndEeriePlayOnce = false;
+		public boolean theendspikecooldown = false;
+		public boolean thestart = false;
+		public boolean EngieCoinSpawn = true;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -277,6 +289,14 @@ public class AllaboutengieModVariables {
 			DayCooldownToggle = nbt.getBoolean("DayCooldownToggle");
 			ddayspikecooldown = nbt.getBoolean("ddayspikecooldown");
 			sddayspikecooldown = nbt.getBoolean("sddayspikecooldown");
+			TheEndStart = nbt.getBoolean("TheEndStart");
+			theenddialoguetimeblock = nbt.getBoolean("theenddialoguetimeblock");
+			theendtimenighttimerblock = nbt.getBoolean("theendtimenighttimerblock");
+			theendmainsongstart = nbt.getBoolean("theendmainsongstart");
+			TheEndEeriePlayOnce = nbt.getBoolean("TheEndEeriePlayOnce");
+			theendspikecooldown = nbt.getBoolean("theendspikecooldown");
+			thestart = nbt.getBoolean("thestart");
+			EngieCoinSpawn = nbt.getBoolean("EngieCoinSpawn");
 		}
 
 		@Override
@@ -328,6 +348,14 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("DayCooldownToggle", DayCooldownToggle);
 			nbt.putBoolean("ddayspikecooldown", ddayspikecooldown);
 			nbt.putBoolean("sddayspikecooldown", sddayspikecooldown);
+			nbt.putBoolean("TheEndStart", TheEndStart);
+			nbt.putBoolean("theenddialoguetimeblock", theenddialoguetimeblock);
+			nbt.putBoolean("theendtimenighttimerblock", theendtimenighttimerblock);
+			nbt.putBoolean("theendmainsongstart", theendmainsongstart);
+			nbt.putBoolean("TheEndEeriePlayOnce", TheEndEeriePlayOnce);
+			nbt.putBoolean("theendspikecooldown", theendspikecooldown);
+			nbt.putBoolean("thestart", thestart);
+			nbt.putBoolean("EngieCoinSpawn", EngieCoinSpawn);
 			return nbt;
 		}
 
@@ -448,6 +476,7 @@ public class AllaboutengieModVariables {
 		public double TrueHardcoreLifeCount = 10.0;
 		public boolean RespawnNormInstantHealth = false;
 		public boolean RespawnTrueHardcoreGraceStart = false;
+		public boolean ShowObjectiveOverlay = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -488,6 +517,7 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("TrueHardcoreLifeCount", TrueHardcoreLifeCount);
 			nbt.putBoolean("RespawnNormInstantHealth", RespawnNormInstantHealth);
 			nbt.putBoolean("RespawnTrueHardcoreGraceStart", RespawnTrueHardcoreGraceStart);
+			nbt.putBoolean("ShowObjectiveOverlay", ShowObjectiveOverlay);
 			return nbt;
 		}
 
@@ -525,6 +555,7 @@ public class AllaboutengieModVariables {
 			TrueHardcoreLifeCount = nbt.getDouble("TrueHardcoreLifeCount");
 			RespawnNormInstantHealth = nbt.getBoolean("RespawnNormInstantHealth");
 			RespawnTrueHardcoreGraceStart = nbt.getBoolean("RespawnTrueHardcoreGraceStart");
+			ShowObjectiveOverlay = nbt.getBoolean("ShowObjectiveOverlay");
 		}
 	}
 
@@ -581,6 +612,7 @@ public class AllaboutengieModVariables {
 					variables.TrueHardcoreLifeCount = message.data.TrueHardcoreLifeCount;
 					variables.RespawnNormInstantHealth = message.data.RespawnNormInstantHealth;
 					variables.RespawnTrueHardcoreGraceStart = message.data.RespawnTrueHardcoreGraceStart;
+					variables.ShowObjectiveOverlay = message.data.ShowObjectiveOverlay;
 				}
 			});
 			context.setPacketHandled(true);

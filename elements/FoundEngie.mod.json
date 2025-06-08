@@ -5,7 +5,7 @@
     "achievementName": "That took quite long.",
     "achievementDescription": "Have a chat with Engie. GG.",
     "achievementIcon": {
-      "value": "CUSTOM:AAEEngie"
+      "value": "CUSTOM:EngieGamesAdvancementIcon"
     },
     "background": "Default",
     "disableDisplay": false,

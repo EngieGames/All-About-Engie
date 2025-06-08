@@ -21,6 +21,8 @@ import net.mcreator.allaboutengie.client.renderer.TigerZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.TigerSleepRenderer;
 import net.mcreator.allaboutengie.client.renderer.TigerRenderer;
 import net.mcreator.allaboutengie.client.renderer.TigerLayRenderer;
+import net.mcreator.allaboutengie.client.renderer.TheEndRenderer;
+import net.mcreator.allaboutengie.client.renderer.TheEndHostileRenderer;
 import net.mcreator.allaboutengie.client.renderer.SuperDoomsDayRenderer;
 import net.mcreator.allaboutengie.client.renderer.SuperDoomsDayHostileRenderer;
 import net.mcreator.allaboutengie.client.renderer.SpikeSpawnerRenderer;
@@ -180,6 +182,7 @@ import net.mcreator.allaboutengie.client.renderer.EngieSharkoLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngieSharkoLayAprilFoolsRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngieSharkoAprilFoolsRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngieGamesRenderer;
+import net.mcreator.allaboutengie.client.renderer.EngieGamesDetectiveRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngiRenderer;
 import net.mcreator.allaboutengie.client.renderer.EngiFRRenderer;
 import net.mcreator.allaboutengie.client.renderer.DoomsDayRenderer;
@@ -279,7 +282,6 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGI_FR.get(), EngiFRRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.CREATOR.get(), CreatorRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.PROTOGEN.get(), ProtogenRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_GAMES.get(), EngieGamesRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.QUIZZET.get(), QuizzetRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIBLICALLY_ACCURATE_ENGIE.get(), BiblicallyAccurateEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COMMON_ENGIE.get(), CommonEngieRenderer::new);
@@ -536,5 +538,9 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO.get(), CosmoRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.THE_END.get(), TheEndRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.THE_END_HOSTILE.get(), TheEndHostileRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_GAMES_DETECTIVE.get(), EngieGamesDetectiveRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_GAMES.get(), EngieGamesRenderer::new);
 	}
 }

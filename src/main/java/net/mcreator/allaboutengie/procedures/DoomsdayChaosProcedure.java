@@ -369,7 +369,7 @@ public class DoomsdayChaosProcedure {
 					});
 				}
 			} else {
-				AllaboutengieModVariables.MapVariables.get(world).darknesscooldown = true;
+				AllaboutengieModVariables.MapVariables.get(world).ddayspikecooldown = true;
 				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			}
 		}

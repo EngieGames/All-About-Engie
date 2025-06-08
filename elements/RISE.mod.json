@@ -5,7 +5,7 @@
     "achievementName": "Rise",
     "achievementDescription": "Encounter SUPER DOOMSDAY - Doomsday that occurs due to the SUPER DOOMSDAY modifier being chosen.",
     "achievementIcon": {
-      "value": "CUSTOM:AAEEngie"
+      "value": "CUSTOM:SuperDoomsDayAdvancementIcon"
     },
     "background": "Default",
     "disableDisplay": false,

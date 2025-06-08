@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/engiecoin",
+  "textures": {
+    "0": "allaboutengie:blocks/engiecointexture",
+    "particle": "allaboutengie:items/engiebasetext"
+  }
+}

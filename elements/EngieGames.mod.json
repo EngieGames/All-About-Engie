@@ -4,9 +4,9 @@
   "definition": {
     "mobName": "EngieGames",
     "mobLabel": "",
-    "mobModelName": "ModelEngieGames",
-    "mobModelTexture": "engiegamesentity.png",
-    "mobModelGlowTexture": "engiegamesentity_e.png",
+    "mobModelName": "Biped",
+    "mobModelTexture": "c414fe22c887a913.png",
+    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
@@ -16,11 +16,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1559757,
+      "value": -2143665,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -12386431,
+      "value": -2125238,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -30,35 +30,35 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:EngieScythe"
     },
     "equipmentOffHand": {
-      "value": ""
+      "value": "CUSTOM:EngieCrucifix"
     },
     "equipmentHelmet": {
-      "value": ""
+      "value": "CUSTOM:EngieGamess.helmet"
     },
     "equipmentBody": {
-      "value": ""
+      "value": "CUSTOM:EngieGamess.body"
     },
     "equipmentLeggings": {
-      "value": ""
+      "value": "CUSTOM:EngieGamess.legs"
     },
     "equipmentBoots": {
-      "value": ""
+      "value": "CUSTOM:EngieGamess.boots"
     },
-    "mobBehaviourType": "Creature",
+    "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 50,
+    "attackStrength": 1,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.35,
+    "movementSpeed": 0.3,
     "stepHeight": 0.6,
-    "armorBaseValue": 100.0,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
     "health": 525,
-    "xpAmount": 525,
+    "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -75,14 +75,14 @@
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
-    "immuneToPlayer": true,
+    "immuneToPlayer": false,
     "immuneToExplosion": false,
     "immuneToTrident": false,
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:EngieGem"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -97,11 +97,11 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "EngieGamesRightClickedOnEntity"
+      "name": "EngieGamesRightClickedOnEntityTrade"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityMonster</field><field name=\"radius\">6</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityCreature</field><field name=\"radius\">6</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayer</field><field name=\"radius\">6</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">6</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"doors_open\"><field name=\"condition\">null,null</field><next><block type=\"doors_close\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayer</field><field name=\"radius\">12</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

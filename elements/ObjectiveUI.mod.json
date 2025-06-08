@@ -1,0 +1,108 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_u26a0_new_objective_u26a0",
+          "text": {
+            "fixedValue": "⚠️     NEW OBJECTIVE:     ⚠"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "x": 142,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_end_is_near_survive_the_end",
+          "text": {
+            "fixedValue": "The end is near. Survive the end of the world."
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DoomsDayCheck"
+          },
+          "x": 97,
+          "y": 9
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_end_is_near_the_full_wrath",
+          "text": {
+            "fixedValue": "The end is near. The full wrath of Mother Nature is arriving. The"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SuperDoomsDayCheck"
+          },
+          "x": 49,
+          "y": 9
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ultimate_disaster_super_doomsda",
+          "text": {
+            "fixedValue": "ultimate disaster. SUPER DOOMSDAY"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SuperDoomsDayCheck"
+          },
+          "x": 124,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_theres_no_disaster_theres_no",
+          "text": {
+            "fixedValue": "There's no disaster. There's no disaster. There's no disaster."
+          },
+          "color": {
+            "value": -4978150,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "TheEndCheck"
+          },
+          "x": 56,
+          "y": 9
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "ObjectiveOverlayCheck"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

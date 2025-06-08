@@ -39,7 +39,7 @@ public class EngiesOwnEngieBundleItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Thanks for the \"Happy Birthday\"! -Engie"));
+		list.add(Component.literal("For you Engie."));
 	}
 
 	@Override

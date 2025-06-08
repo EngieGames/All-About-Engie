@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.gigantic_ban_challenge_obtain.descr"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

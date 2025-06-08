@@ -32,7 +32,7 @@ public class BigBanHammerItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 128000;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

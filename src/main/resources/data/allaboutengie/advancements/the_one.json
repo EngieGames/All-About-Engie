@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "allaboutengie:the_end_advancement_icon"
+    },
+    "title": {
+      "translate": "advancements.the_one.title"
+    },
+    "description": {
+      "translate": "advancements.the_one.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_one": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "allaboutengie:new_world"
+}

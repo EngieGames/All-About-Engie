@@ -32,7 +32,7 @@ public class EngiesScytheItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
@@ -44,6 +44,6 @@ public class EngiesScytheItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("1 of many more to come."));
+		list.add(Component.literal("Apparently Engie says this is owned by someone named \"Distorted\"... Who even is Distorted?"));
 	}
 }

@@ -25,17 +25,17 @@ public abstract class BiblicallyAccurateEngiesItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 100;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 250;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{100, 100, 100, 100}[slot.getIndex()];
+				return new int[]{250, 250, 250, 250}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 20;
+				return 25;
 			}
 
 			@Override

@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/engiesscythe",
+  "textures": {
+    "0": "allaboutengie:blocks/engiesscythe",
+    "particle": "allaboutengie:items/engiebasetext"
+  }
+}

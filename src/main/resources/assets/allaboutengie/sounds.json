@@ -43,5 +43,14 @@
         "stream": true
       }
     ]
+  },
+  "theend_eerie": {
+    "subtitle": "subtitles.theend_eerie",
+    "sounds": [
+      {
+        "name": "allaboutengie:theendeerie",
+        "stream": false
+      }
+    ]
   }
 }

@@ -28,6 +28,8 @@ import net.mcreator.allaboutengie.entity.TigerZoomiesEntity;
 import net.mcreator.allaboutengie.entity.TigerSleepEntity;
 import net.mcreator.allaboutengie.entity.TigerLayEntity;
 import net.mcreator.allaboutengie.entity.TigerEntity;
+import net.mcreator.allaboutengie.entity.TheEndHostileEntity;
+import net.mcreator.allaboutengie.entity.TheEndEntity;
 import net.mcreator.allaboutengie.entity.SuperDoomsDayHostileEntity;
 import net.mcreator.allaboutengie.entity.SuperDoomsDayEntity;
 import net.mcreator.allaboutengie.entity.SpikeSpawnerEntity;
@@ -187,6 +189,7 @@ import net.mcreator.allaboutengie.entity.EngieSharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EngieGamesEntity;
+import net.mcreator.allaboutengie.entity.EngieGamesDetectiveEntity;
 import net.mcreator.allaboutengie.entity.EngiFREntity;
 import net.mcreator.allaboutengie.entity.EngiEntity;
 import net.mcreator.allaboutengie.entity.DoomsDayHostileEntity;
@@ -296,10 +299,6 @@ public class AllaboutengieModEntities {
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<ProtogenEntity>> PROTOGEN = register("protogen",
 			EntityType.Builder.<ProtogenEntity>of(ProtogenEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ProtogenEntity::new)
-
-					.sized(0.6f, 1.95f));
-	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
-			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
 
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<QuizzetEntity>> QUIZZET = register("quizzet",
@@ -1387,6 +1386,22 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
 
 					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<TheEndEntity>> THE_END = register("the_end",
+			EntityType.Builder.<TheEndEntity>of(TheEndEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheEndEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<TheEndHostileEntity>> THE_END_HOSTILE = register("the_end_hostile",
+			EntityType.Builder.<TheEndHostileEntity>of(TheEndHostileEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheEndHostileEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EngieGamesDetectiveEntity>> ENGIE_GAMES_DETECTIVE = register("engie_games_detective",
+			EntityType.Builder.<EngieGamesDetectiveEntity>of(EngieGamesDetectiveEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesDetectiveEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<EngieGamesEntity>> ENGIE_GAMES = register("engie_games",
+			EntityType.Builder.<EngieGamesEntity>of(EngieGamesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesEntity::new)
+
+					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1399,7 +1414,6 @@ public class AllaboutengieModEntities {
 			EngiFREntity.init();
 			CreatorEntity.init();
 			ProtogenEntity.init();
-			EngieGamesEntity.init();
 			QuizzetEntity.init();
 			BiblicallyAccurateEngieEntity.init();
 			CommonEngieEntity.init();
@@ -1656,6 +1670,10 @@ public class AllaboutengieModEntities {
 			BigEngieSharkoRare2TamedEntity.init();
 			BigEpicSharkoTamedEntity.init();
 			CosmoEntity.init();
+			TheEndEntity.init();
+			TheEndHostileEntity.init();
+			EngieGamesDetectiveEntity.init();
+			EngieGamesEntity.init();
 		});
 	}
 
@@ -1665,7 +1683,6 @@ public class AllaboutengieModEntities {
 		event.put(ENGI_FR.get(), EngiFREntity.createAttributes().build());
 		event.put(CREATOR.get(), CreatorEntity.createAttributes().build());
 		event.put(PROTOGEN.get(), ProtogenEntity.createAttributes().build());
-		event.put(ENGIE_GAMES.get(), EngieGamesEntity.createAttributes().build());
 		event.put(QUIZZET.get(), QuizzetEntity.createAttributes().build());
 		event.put(BIBLICALLY_ACCURATE_ENGIE.get(), BiblicallyAccurateEngieEntity.createAttributes().build());
 		event.put(COMMON_ENGIE.get(), CommonEngieEntity.createAttributes().build());
@@ -1922,5 +1939,9 @@ public class AllaboutengieModEntities {
 		event.put(BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
 		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
+		event.put(THE_END.get(), TheEndEntity.createAttributes().build());
+		event.put(THE_END_HOSTILE.get(), TheEndHostileEntity.createAttributes().build());
+		event.put(ENGIE_GAMES_DETECTIVE.get(), EngieGamesDetectiveEntity.createAttributes().build());
+		event.put(ENGIE_GAMES.get(), EngieGamesEntity.createAttributes().build());
 	}
 }

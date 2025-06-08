@@ -5,7 +5,7 @@
     "achievementName": "Overachiever",
     "achievementDescription": "Survive the full wrath of Mother Nature.",
     "achievementIcon": {
-      "value": "CUSTOM:AAEEngie"
+      "value": "CUSTOM:SuperDoomsDayAdvancementIcon"
     },
     "background": "Default",
     "disableDisplay": false,

@@ -1,9 +1,0 @@
-{
-  "_fv": 47,
-  "_type": "command",
-  "definition": {
-    "commandName": "code",
-    "permissionLevel": "No requirement",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">redeem</field><statement name=\"args\"><block type=\"message\"><field name=\"name\">code</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">CodeRedeemPro</field></block></statement></block></statement></block></next></block></xml>"
-  }
-}

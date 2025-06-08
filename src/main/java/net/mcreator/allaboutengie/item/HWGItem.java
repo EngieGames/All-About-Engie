@@ -36,17 +36,17 @@ public abstract class HWGItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 200;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 350;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{200, 200, 200, 200}[slot.getIndex()];
+				return new int[]{350, 350, 350, 350}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 30;
+				return 35;
 			}
 
 			@Override

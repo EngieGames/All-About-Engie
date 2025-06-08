@@ -30,52 +30,59 @@ public class PlaqueChanceProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if (Math.random() == 0.0001) {
-			if (Mth.nextInt(RandomSource.create(), 1, 7) == 1) {
+		if (Math.random() < 0.004) {
+			if (Mth.nextInt(RandomSource.create(), 1, 8) == 1) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ITEMS_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if (Mth.nextInt(RandomSource.create(), 1, 7) == 2) {
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 2) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.MOBS_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if (Mth.nextInt(RandomSource.create(), 1, 7) == 3) {
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 3) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.EXTRAS_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if (Mth.nextInt(RandomSource.create(), 1, 7) == 4) {
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 4) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.SHARKOS_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if (Mth.nextInt(RandomSource.create(), 1, 7) == 5) {
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 5) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.DIMENSIONS_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if (Mth.nextInt(RandomSource.create(), 1, 7) == 6) {
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 6) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENRAGED_ZOMBIES_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);
 				}
-			} else if (Mth.nextInt(RandomSource.create(), 1, 7) == 7) {
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 7) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ALL_ABOUT_ENGIE_PLAQUE.get()));
+					entityToSpawn.setPickUpDelay(10);
+					entityToSpawn.setUnlimitedLifetime();
+					_level.addFreshEntity(entityToSpawn);
+				}
+			} else if (Mth.nextInt(RandomSource.create(), 1, 8) == 8) {
+				if (world instanceof Level _level && !_level.isClientSide()) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.ENGIE_PLAQUE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);

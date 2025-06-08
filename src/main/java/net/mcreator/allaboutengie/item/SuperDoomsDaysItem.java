@@ -37,17 +37,17 @@ public abstract class SuperDoomsDaysItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 300;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 450;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{300, 300, 300, 300}[slot.getIndex()];
+				return new int[]{450, 450, 450, 450}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 40;
+				return 45;
 			}
 
 			@Override

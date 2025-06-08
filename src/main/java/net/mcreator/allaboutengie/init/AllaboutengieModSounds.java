@@ -20,4 +20,5 @@ public class AllaboutengieModSounds {
 	public static final RegistryObject<SoundEvent> DOOMSDAY_START = REGISTRY.register("doomsday_start", () -> new SoundEvent(new ResourceLocation("allaboutengie", "doomsday_start")));
 	public static final RegistryObject<SoundEvent> DOOMSDAY_EERIE_2 = REGISTRY.register("doomsday_eerie_2", () -> new SoundEvent(new ResourceLocation("allaboutengie", "doomsday_eerie_2")));
 	public static final RegistryObject<SoundEvent> HOTLINEMIAMI2_RUN = REGISTRY.register("hotlinemiami2-run", () -> new SoundEvent(new ResourceLocation("allaboutengie", "hotlinemiami2-run")));
+	public static final RegistryObject<SoundEvent> THEEND_EERIE = REGISTRY.register("theend_eerie", () -> new SoundEvent(new ResourceLocation("allaboutengie", "theend_eerie")));
 }

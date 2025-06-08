@@ -11,6 +11,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.allaboutengie.world.inventory.TheEndTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.SuperDoomsDayTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.OutragedEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.MonstrosityEngieBundleUIMenu;
@@ -19,6 +20,7 @@ import net.mcreator.allaboutengie.world.inventory.MetalBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EnragedEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EngiesOwnEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.EngiesBirthdayBundleUIMenu;
+import net.mcreator.allaboutengie.world.inventory.EngieTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.ETCEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.DoomsDayTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.CreativeEngieBundleUIMenu;
@@ -56,4 +58,6 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<AllAboutEngieWikiItemsMenu>> ALL_ABOUT_ENGIE_WIKI_ITEMS = REGISTRY.register("all_about_engie_wiki_items", () -> IForgeMenuType.create(AllAboutEngieWikiItemsMenu::new));
 	public static final RegistryObject<MenuType<DoomsDayTradeUIMenu>> DOOMS_DAY_TRADE_UI = REGISTRY.register("dooms_day_trade_ui", () -> IForgeMenuType.create(DoomsDayTradeUIMenu::new));
 	public static final RegistryObject<MenuType<SuperDoomsDayTradeUIMenu>> SUPER_DOOMS_DAY_TRADE_UI = REGISTRY.register("super_dooms_day_trade_ui", () -> IForgeMenuType.create(SuperDoomsDayTradeUIMenu::new));
+	public static final RegistryObject<MenuType<TheEndTradeUIMenu>> THE_END_TRADE_UI = REGISTRY.register("the_end_trade_ui", () -> IForgeMenuType.create(TheEndTradeUIMenu::new));
+	public static final RegistryObject<MenuType<EngieTradeUIMenu>> ENGIE_TRADE_UI = REGISTRY.register("engie_trade_ui", () -> IForgeMenuType.create(EngieTradeUIMenu::new));
 }
