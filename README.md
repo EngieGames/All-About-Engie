@@ -16,7 +16,7 @@
 - Mobs. This is not a joke, I'm being serious.
 - A Katana and a Battle Axe.
 - **~~T H E M~~** *Ahem* Sorry about that, I meant to say Sharkos.
-- A scoreboard to keep track of a certain item. [Changed as of version 1.10.25]
+- A scoreboard to keep track of a certain item. [Changed as of version 1.10.25] (Removed as of 6.8.25)
 - NPC's where you can get better armor and tools. (Best being Unobtainium.)
 - A gamerule which if it is enabled, a new command is able to be used. It's for lore sake, chill out people. (/startdetectivemode)[Changed as of version 12.18.24.]
 
