@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "crackerbowl",
+    "texture": "crackertexture",
     "customModelName": "crackersinbowl:default",
     "customProperties": {},
     "states": [],
     "name": "Crackers In Bowl",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:AAEItemsItems"
+      "value": "CUSTOM:AAEItemsFood"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -38,7 +38,7 @@
     "nutritionalValue": 3,
     "saturation": 0.3,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.BOWL"
     },
     "isMeat": false,
     "isAlwaysEdible": false,

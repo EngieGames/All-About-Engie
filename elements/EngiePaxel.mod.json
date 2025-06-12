@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "texture": "engipaxel",
+    "customModelName": "Normal",
+    "name": "Engie Paxel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 3,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 36.0,
+    "usageCount": 750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngieGem"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "EngieToolObtain"
+    }
+  }
+}

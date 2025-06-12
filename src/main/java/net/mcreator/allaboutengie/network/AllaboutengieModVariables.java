@@ -140,7 +140,6 @@ public class AllaboutengieModVariables {
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "allaboutengie_worldvars";
 		public boolean yeah = false;
-		public boolean theendhalf1complete = false;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -150,13 +149,11 @@ public class AllaboutengieModVariables {
 
 		public void read(CompoundTag nbt) {
 			yeah = nbt.getBoolean("yeah");
-			theendhalf1complete = nbt.getBoolean("theendhalf1complete");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("yeah", yeah);
-			nbt.putBoolean("theendhalf1complete", theendhalf1complete);
 			return nbt;
 		}
 
@@ -231,9 +228,13 @@ public class AllaboutengieModVariables {
 		public boolean theendtimenighttimerblock = false;
 		public boolean theendmainsongstart = false;
 		public boolean TheEndEeriePlayOnce = false;
+		public boolean theendhalf1complete = false;
 		public boolean theendspikecooldown = false;
 		public boolean thestart = false;
 		public boolean EngieCoinSpawn = true;
+		public boolean ddaywait = true;
+		public boolean sddaywait = true;
+		public boolean theendwait = true;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -294,9 +295,13 @@ public class AllaboutengieModVariables {
 			theendtimenighttimerblock = nbt.getBoolean("theendtimenighttimerblock");
 			theendmainsongstart = nbt.getBoolean("theendmainsongstart");
 			TheEndEeriePlayOnce = nbt.getBoolean("TheEndEeriePlayOnce");
+			theendhalf1complete = nbt.getBoolean("theendhalf1complete");
 			theendspikecooldown = nbt.getBoolean("theendspikecooldown");
 			thestart = nbt.getBoolean("thestart");
 			EngieCoinSpawn = nbt.getBoolean("EngieCoinSpawn");
+			ddaywait = nbt.getBoolean("ddaywait");
+			sddaywait = nbt.getBoolean("sddaywait");
+			theendwait = nbt.getBoolean("theendwait");
 		}
 
 		@Override
@@ -353,9 +358,13 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("theendtimenighttimerblock", theendtimenighttimerblock);
 			nbt.putBoolean("theendmainsongstart", theendmainsongstart);
 			nbt.putBoolean("TheEndEeriePlayOnce", TheEndEeriePlayOnce);
+			nbt.putBoolean("theendhalf1complete", theendhalf1complete);
 			nbt.putBoolean("theendspikecooldown", theendspikecooldown);
 			nbt.putBoolean("thestart", thestart);
 			nbt.putBoolean("EngieCoinSpawn", EngieCoinSpawn);
+			nbt.putBoolean("ddaywait", ddaywait);
+			nbt.putBoolean("sddaywait", sddaywait);
+			nbt.putBoolean("theendwait", theendwait);
 			return nbt;
 		}
 

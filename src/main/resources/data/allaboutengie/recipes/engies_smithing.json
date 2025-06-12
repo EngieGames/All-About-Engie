@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "allaboutengie:monstrosity_engie_paxel"
+  },
+  "addition": {
+    "item": "allaboutengie:engie_coin"
+  },
+  "result": {
+    "item": "allaboutengie:engies_paxel"
+  }
+}

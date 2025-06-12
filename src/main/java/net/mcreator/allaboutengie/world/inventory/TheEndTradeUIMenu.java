@@ -88,7 +88,7 @@ public class TheEndTradeUIMenu extends AbstractContainerMenu implements Supplier
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return AllaboutengieModItems.SUPER_DOOMS_DAY_COIN.get() == stack.getItem();
+				return AllaboutengieModItems.THE_END_COIN.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 99, 10) {
@@ -96,7 +96,7 @@ public class TheEndTradeUIMenu extends AbstractContainerMenu implements Supplier
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return AllaboutengieModItems.SUPER_DOOMS_DAY_COIN.get() == stack.getItem();
+				return AllaboutengieModItems.THE_END_COIN.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 126, 10) {

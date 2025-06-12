@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Super Doomsday",
+    "description": "Enable the full wrath of mother nature.",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

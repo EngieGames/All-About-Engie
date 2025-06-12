@@ -24,6 +24,7 @@ import net.mcreator.allaboutengie.client.gui.EngieTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.ETCEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.DoomsDayTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.CreativeEngieBundleUIScreen;
+import net.mcreator.allaboutengie.client.gui.BirthdayBundleForYoungestUIScreen;
 import net.mcreator.allaboutengie.client.gui.BiblicallyAccurateEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.AngryEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiWeaponsScreen;
@@ -61,6 +62,7 @@ public class AllaboutengieModScreens {
 			MenuScreens.register(AllaboutengieModMenus.SUPER_DOOMS_DAY_TRADE_UI.get(), SuperDoomsDayTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.THE_END_TRADE_UI.get(), TheEndTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ENGIE_TRADE_UI.get(), EngieTradeUIScreen::new);
+			MenuScreens.register(AllaboutengieModMenus.BIRTHDAY_BUNDLE_FOR_YOUNGEST_UI.get(), BirthdayBundleForYoungestUIScreen::new);
 		});
 	}
 }

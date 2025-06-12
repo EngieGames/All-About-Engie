@@ -43,7 +43,7 @@ public class SuperDoomsdayDialogueProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false && AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
+		if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
 			AllaboutengieModVariables.MapVariables.get(world).timecheckstop = true;
 			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			AllaboutengieMod.queueServerWork(1, () -> {
@@ -109,7 +109,7 @@ public class SuperDoomsdayDialogueProcedure {
 				if (AllaboutengieModVariables.MapVariables.get(world).sddaydialoguetimeblock == false) {
 					entity.getPersistentData().putDouble("SDDAYDialogueCooldownStart", (entity.getPersistentData().getDouble("SDDAYDialogueCooldownStart") + 0.05));
 					if (AllaboutengieModVariables.MapVariables.get(world).sddaydialoguetimeblock == false) {
-						if (entity.getPersistentData().getDouble("SDDAYDialogueCooldownStart") >= 36) {
+						if (entity.getPersistentData().getDouble("SDDAYDialogueCooldownStart") >= 36.1) {
 							AllaboutengieModVariables.MapVariables.get(world).sddaydialoguetimeblock = true;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							{
@@ -128,19 +128,7 @@ public class SuperDoomsdayDialogueProcedure {
 									});
 								}
 							});
-							if (!(entity instanceof ServerPlayer _plr13 && _plr13.level instanceof ServerLevel
-									&& _plr13.getAdvancements().getOrStartProgress(_plr13.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"))).isDone())) {
-								if (entity instanceof ServerPlayer _player) {
-									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"));
-									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-									if (!_ap.isDone()) {
-										Iterator _iterator = _ap.getRemainingCriteria().iterator();
-										while (_iterator.hasNext())
-											_player.getAdvancements().award(_adv, (String) _iterator.next());
-									}
-								}
-							}
-							AllaboutengieMod.queueServerWork(140, () -> {
+							AllaboutengieMod.queueServerWork(102, () -> {
 								{
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -150,7 +138,7 @@ public class SuperDoomsdayDialogueProcedure {
 														"tellraw @a {\"text\":\"We never thought this day would come. But it is finally here.\",\"bold\":true,\"color\":\"yellow\"}");
 									}
 								}
-								AllaboutengieMod.queueServerWork(200, () -> {
+								AllaboutengieMod.queueServerWork(188, () -> {
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -160,7 +148,7 @@ public class SuperDoomsdayDialogueProcedure {
 													"tellraw @a {\"text\":\"The end of humanity has arrived. Earth as we know it... is to come to an end.\",\"bold\":true,\"color\":\"yellow\"}");
 										}
 									}
-									AllaboutengieMod.queueServerWork(220, () -> {
+									AllaboutengieMod.queueServerWork(400, () -> {
 										{
 											Entity _ent = entity;
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -170,7 +158,7 @@ public class SuperDoomsdayDialogueProcedure {
 														"tellraw @a {\"text\":\"You must withstand this chaos for a long time in order to survive the end of the world.\",\"bold\":true,\"color\":\"yellow\"}");
 											}
 										}
-										AllaboutengieMod.queueServerWork(240, () -> {
+										AllaboutengieMod.queueServerWork(200, () -> {
 											{
 												Entity _ent = entity;
 												if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -181,22 +169,7 @@ public class SuperDoomsdayDialogueProcedure {
 																	"tellraw @a {\"text\":\"May Mother Nature have mercy on our souls.\",\"bold\":true,\"color\":\"yellow\"}");
 												}
 											}
-											{
-												Entity _ent = entity;
-												if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-													_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-															_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-															"stopsound @a ambient allaboutengie:doomsday_eerie");
-												}
-											}
-											if (world instanceof Level _level) {
-												if (!_level.isClientSide()) {
-													_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_eerie_2")), SoundSource.AMBIENT, 1, 1);
-												} else {
-													_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_eerie_2")), SoundSource.AMBIENT, 1, 1, false);
-												}
-											}
-											AllaboutengieMod.queueServerWork(240, () -> {
+											AllaboutengieMod.queueServerWork(200, () -> {
 												{
 													Entity _ent = entity;
 													if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -216,31 +189,33 @@ public class SuperDoomsdayDialogueProcedure {
 																	"tellraw @a [\"\",{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"S\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"U\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"P\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"E\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"R\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\" e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"D\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"O\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"O\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"M\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"S\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"D\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"A\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"},{\"text\":\"Y\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"e\",\"bold\":true,\"obfuscated\":true,\"color\":\"yellow\"}]");
 														}
 													}
-													{
-														Entity _ent = entity;
-														if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-															_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-																	_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
-																	"stopsound @a ambient allaboutengie:doomsday_eerie_2");
+													AllaboutengieMod.queueServerWork(200, () -> {
+														{
+															Entity _ent = entity;
+															if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+																_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
+																		_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent),
+																		"stopsound @a ambient allaboutengie:doomsday_eerie");
+															}
 														}
-													}
-													if (world instanceof Level _level) {
-														if (!_level.isClientSide()) {
-															_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.AMBIENT, 1, 1);
-														} else {
-															_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.AMBIENT, 1, 1, false);
+														if (world instanceof Level _level) {
+															if (!_level.isClientSide()) {
+																_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.AMBIENT, 1, 1);
+															} else {
+																_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("allaboutengie:doomsday_start")), SoundSource.AMBIENT, 1, 1, false);
+															}
 														}
-													}
-													AllaboutengieModVariables.MapVariables.get(world).sdoomsdaymainsongstart = true;
-													AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-													entity.getPersistentData().putDouble("theendmainsongtimer", 0);
-													AllaboutengieMod.queueServerWork(290, () -> {
-														AllaboutengieModVariables.MapVariables.get(world).sddaystart = true;
+														AllaboutengieModVariables.MapVariables.get(world).sdoomsdaymainsongstart = true;
 														AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-														AllaboutengieModVariables.MapVariables.get(world).BYEBYE = true;
-														AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-														if (world instanceof Level _level)
-															_level.getGameRules().getRule(GameRules.RULE_DOMOBSPAWNING).set(true, _level.getServer());
+														entity.getPersistentData().putDouble("theendmainsongtimer", 0);
+														AllaboutengieMod.queueServerWork(290, () -> {
+															AllaboutengieModVariables.MapVariables.get(world).sddaystart = true;
+															AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+															AllaboutengieModVariables.MapVariables.get(world).BYEBYE = true;
+															AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+															if (world instanceof Level _level)
+																_level.getGameRules().getRule(GameRules.RULE_DOMOBSPAWNING).set(true, _level.getServer());
+														});
 													});
 												});
 											});
@@ -248,12 +223,26 @@ public class SuperDoomsdayDialogueProcedure {
 									});
 								});
 							});
+							if (!(entity instanceof ServerPlayer _plr31 && _plr31.level instanceof ServerLevel
+									&& _plr31.getAdvancements().getOrStartProgress(_plr31.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"))).isDone())) {
+								if (entity instanceof ServerPlayer _player) {
+									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:rise"));
+									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+									if (!_ap.isDone()) {
+										Iterator _iterator = _ap.getRemainingCriteria().iterator();
+										while (_iterator.hasNext())
+											_player.getAdvancements().award(_adv, (String) _iterator.next());
+									}
+								}
+							}
 						}
 					}
 				}
 			});
-		} else {
-			if (AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday == true) {
+		} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false && AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
+			AllaboutengieMod.LOGGER.warn("Global rule \"SuperDoomsDayStart\" is enabled when it's not supposed to be enabled, this is a bug!");
+		} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false && AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == false) {
+			if (AllaboutengieModVariables.MapVariables.get(world).waittildoomsday == true) {
 				entity.getPersistentData().putDouble("sddaywaittoreset", (entity.getPersistentData().getDouble("sddaywaittoreset") + 0.05));
 				if (entity.getPersistentData().getDouble("sddaywaittoreset") >= 0.5) {
 					entity.getPersistentData().putDouble("sddaywaittoreset", 0);
@@ -263,6 +252,8 @@ public class SuperDoomsdayDialogueProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).sddaywait = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).sddaydialoguetimeblock = false;
@@ -271,12 +262,18 @@ public class SuperDoomsdayDialogueProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				}
 			} else if (AllaboutengieModVariables.MapVariables.get(world).waittildoomsday == false) {
-				entity.getPersistentData().putDouble("sddaywaittoreset2", (entity.getPersistentData().getDouble("sddaywaittoreset2") + 0.05));
-				if (entity.getPersistentData().getDouble("sddaywaittoreset2") >= 0.5) {
-					if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart == true) {
+				entity.getPersistentData().putDouble("waittoreset2", (entity.getPersistentData().getDouble("waittoreset2") + 0.05));
+				if (entity.getPersistentData().getDouble("waittoreset2") >= 0.5) {
+					entity.getPersistentData().putDouble("waittoreset2", 0);
+					if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).sddaywait == false) {
 						AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
+					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).sddaywait == true) {
+						AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+						AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					} else {
 						AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						AllaboutengieModVariables.MapVariables.get(world).SuperDoomsDayStart = false;

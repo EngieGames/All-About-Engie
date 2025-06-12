@@ -337,25 +337,7 @@ public class TheEndTradeUIWhileTHisGUIIsOpenTickProcedure {
 				((Slot) _slots.get(2)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
-		} else if (new Object() {
-			public int getAmount(int sltid) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-					if (stack != null)
-						return stack.getCount();
-				}
-				return 0;
-			}
-		}.getAmount(0) < 16 && new Object() {
-			public int getAmount(int sltid) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-					if (stack != null)
-						return stack.getCount();
-				}
-				return 0;
-			}
-		}.getAmount(1) < 16) {
+		} else {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.AIR);
 				_setstack.setCount(1);

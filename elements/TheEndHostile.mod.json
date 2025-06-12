@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "The End",
+    "mobName": "The End (Hostile)",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "theendmob.png",

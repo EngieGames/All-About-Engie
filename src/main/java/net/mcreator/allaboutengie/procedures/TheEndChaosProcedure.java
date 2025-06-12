@@ -90,7 +90,7 @@ public class TheEndChaosProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "time set midnight");
 				}
 			}
-			if (AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete == false) {
+			if (AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete == false) {
 				entity.getPersistentData().putDouble("theendtimerhalf1", (entity.getPersistentData().getDouble("theendtimerhalf1") + 0.05));
 				if (entity.getPersistentData().getDouble("theendtimerhalf1") >= 720) {
 					entity.getPersistentData().putDouble("theendtimerhalf1", 0);
@@ -103,15 +103,15 @@ public class TheEndChaosProcedure {
 									"tellraw @a [\"\",{\"text\":\"Half 1 complete! You're almost there \",\"bold\":true,\"color\":\"black\"},{\"selector\":\"@p\",\"bold\":true,\"color\":\"black\"},{\"text\":\".\",\"bold\":true,\"color\":\"black\"}]");
 						}
 					}
-					AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete = true;
-					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				}
-			} else if (AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete == true) {
+			} else if (AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete == true) {
 				entity.getPersistentData().putDouble("theendtimerhalf2", (entity.getPersistentData().getDouble("theendtimerhalf2") + 0.05));
 				if (entity.getPersistentData().getDouble("theendtimerhalf2") >= 720) {
 					entity.getPersistentData().putDouble("theendtimerhalf2", 0);
-					AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete = false;
-					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -150,10 +150,12 @@ public class TheEndChaosProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).OHBOY = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).theendwait = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).TheEndEeriePlayOnce = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-					AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete = false;
-					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).theendtimenighttimerblock = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).theenddialoguetimeblock = false;
@@ -202,7 +204,7 @@ public class TheEndChaosProcedure {
 					}
 				}
 			}
-			if (AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete == false) {
+			if (AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete == false) {
 				if (AllaboutengieModVariables.MapVariables.get(world).darknesscooldown == true) {
 					entity.getPersistentData().putDouble("darknesscooldown", (entity.getPersistentData().getDouble("darknesscooldown") + 0.05));
 					if (entity.getPersistentData().getDouble("darknesscooldown") >= 19) {
@@ -225,7 +227,7 @@ public class TheEndChaosProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).darknesscooldown = true;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				}
-			} else if (AllaboutengieModVariables.WorldVariables.get(world).theendhalf1complete == true) {
+			} else if (AllaboutengieModVariables.MapVariables.get(world).theendhalf1complete == true) {
 				{
 					Entity _ent = entity;
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -407,34 +409,38 @@ public class TheEndChaosProcedure {
 			}
 			if (AllaboutengieModVariables.MapVariables.get(world).ddayspikecooldown == true) {
 				entity.getPersistentData().putDouble("theendspikecooldown", (entity.getPersistentData().getDouble("theendspikecooldown") + 0.05));
-				if (entity.getPersistentData().getDouble("theendspikecooldown") >= 2.5) {
+				if (entity.getPersistentData().getDouble("theendspikecooldown") >= 3.2) {
 					entity.getPersistentData().putDouble("theendspikecooldown", 0);
 					AllaboutengieModVariables.MapVariables.get(world).ddayspikecooldown = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-					AllaboutengieMod.queueServerWork(1, () -> {
-						for (int index0 = 0; index0 < 15; index0++) {
+					for (int index0 = 0; index0 < 15; index0++) {
+						AllaboutengieMod.queueServerWork(5, () -> {
 							if (world instanceof ServerLevel _level) {
 								Entity entityToSpawn = new SpikeSpawnerEntity(AllaboutengieModEntities.SPIKE_SPAWNER.get(), _level);
-								entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 1, 64)),
+								entityToSpawn.moveTo(
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 1, 128)),
 										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 1, 64)),
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 1, 128)),
 										world.getRandom().nextFloat() * 360F, 0);
 								if (entityToSpawn instanceof Mob _mobToSpawn)
 									_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 								world.addFreshEntity(entityToSpawn);
 							}
+						});
+						AllaboutengieMod.queueServerWork(10, () -> {
 							if (world instanceof ServerLevel _level) {
 								Entity entityToSpawn = new SpikeSpawnerEntity(AllaboutengieModEntities.SPIKE_SPAWNER.get(), _level);
-								entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 1, 64)),
+								entityToSpawn.moveTo(
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 1, 128)),
 										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 1, 64)),
+										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 1, 128)),
 										world.getRandom().nextFloat() * 360F, 0);
 								if (entityToSpawn instanceof Mob _mobToSpawn)
 									_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 								world.addFreshEntity(entityToSpawn);
 							}
-						}
-					});
+						});
+					}
 				}
 			} else {
 				AllaboutengieModVariables.MapVariables.get(world).darknesscooldown = true;

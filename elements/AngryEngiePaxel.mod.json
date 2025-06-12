@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "texture": "angryengie_paxel",
+    "customModelName": "Normal",
+    "name": "Angry Engie Paxel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 6,
+    "efficiency": 16.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 16,
+    "damageVsEntity": 51.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AngryEngieEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "AngryEngieToolObtain"
+    }
+  }
+}

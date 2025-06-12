@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "texture": "monstrosity_paxel",
+    "customModelName": "Normal",
+    "name": "Monstrosity Engie Paxel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 18,
+    "efficiency": 30.0,
+    "attackSpeed": 3.0,
+    "enchantability": 30,
+    "damageVsEntity": 151.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "MonstrosityToolObtain"
+    }
+  }
+}

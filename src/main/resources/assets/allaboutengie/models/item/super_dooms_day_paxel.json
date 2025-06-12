@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "allaboutengie:items/superdoomsday_paxel"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "texture": "outraged_paxel",
+    "customModelName": "Normal",
+    "name": "Outraged Engie Paxel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEItemsItems"
+    },
+    "harvestLevel": 12,
+    "efficiency": 22.0,
+    "attackSpeed": 2.2,
+    "enchantability": 22,
+    "damageVsEntity": 101.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:OutragedEngieEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "OutragedEngieToolObtain"
+    }
+  }
+}

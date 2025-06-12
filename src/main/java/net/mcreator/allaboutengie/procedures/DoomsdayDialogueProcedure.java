@@ -56,7 +56,7 @@ public class DoomsdayDialogueProcedure {
 				}
 				if (AllaboutengieModVariables.MapVariables.get(world).ddaytimenighttimerblock == false) {
 					entity.getPersistentData().putDouble("TimeUntilNightDDAY", (entity.getPersistentData().getDouble("TimeUntilNightDDAY") + 0.05));
-					if (entity.getPersistentData().getDouble("TimeUntilNightDDAY") >= 42) {
+					if (entity.getPersistentData().getDouble("TimeUntilNightDDAY") >= 43) {
 						{
 							boolean _setval = true;
 							entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -107,7 +107,7 @@ public class DoomsdayDialogueProcedure {
 				if (AllaboutengieModVariables.MapVariables.get(world).ddaydialoguetimeblock == false) {
 					entity.getPersistentData().putDouble("DialogueCooldownStart", (entity.getPersistentData().getDouble("DialogueCooldownStart") + 0.05));
 					if (AllaboutengieModVariables.MapVariables.get(world).ddaydialoguetimeblock == false) {
-						if (entity.getPersistentData().getDouble("DialogueCooldownStart") >= 36) {
+						if (entity.getPersistentData().getDouble("DialogueCooldownStart") >= 36.1) {
 							AllaboutengieModVariables.MapVariables.get(world).ddaydialoguetimeblock = true;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							{
@@ -126,7 +126,7 @@ public class DoomsdayDialogueProcedure {
 									});
 								}
 							});
-							AllaboutengieMod.queueServerWork(140, () -> {
+							AllaboutengieMod.queueServerWork(102, () -> {
 								{
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -136,7 +136,7 @@ public class DoomsdayDialogueProcedure {
 														"tellraw @a {\"text\":\"We never thought this day would come. But it is finally here.\",\"bold\":true,\"color\":\"yellow\"}");
 									}
 								}
-								AllaboutengieMod.queueServerWork(200, () -> {
+								AllaboutengieMod.queueServerWork(188, () -> {
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -146,7 +146,7 @@ public class DoomsdayDialogueProcedure {
 													"tellraw @a {\"text\":\"The end of humanity has arrived. Earth as we know it... is to come to an end.\",\"bold\":true,\"color\":\"yellow\"}");
 										}
 									}
-									AllaboutengieMod.queueServerWork(220, () -> {
+									AllaboutengieMod.queueServerWork(200, () -> {
 										{
 											Entity _ent = entity;
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -156,7 +156,7 @@ public class DoomsdayDialogueProcedure {
 														"tellraw @a {\"text\":\"You must withstand this chaos for a long time in order to survive the end of the world.\",\"bold\":true,\"color\":\"yellow\"}");
 											}
 										}
-										AllaboutengieMod.queueServerWork(240, () -> {
+										AllaboutengieMod.queueServerWork(200, () -> {
 											{
 												Entity _ent = entity;
 												if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -199,7 +199,9 @@ public class DoomsdayDialogueProcedure {
 					}
 				}
 			});
-		} else {
+		} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false && AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart == true) {
+			AllaboutengieMod.LOGGER.warn("Global rule \"DoomsDayStart\" is enabled when it's not supposed to be enabled, this is a bug!");
+		} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false && AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart == false) {
 			if (AllaboutengieModVariables.MapVariables.get(world).waittildoomsday == true) {
 				entity.getPersistentData().putDouble("waittoreset", (entity.getPersistentData().getDouble("waittoreset") + 0.05));
 				if (entity.getPersistentData().getDouble("waittoreset") >= 0.5) {
@@ -209,6 +211,8 @@ public class DoomsdayDialogueProcedure {
 					AllaboutengieModVariables.MapVariables.get(world).DoomsdayEeriePlayOnce = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).waittildoomsday = false;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).ddaywait = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = false;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
@@ -220,11 +224,17 @@ public class DoomsdayDialogueProcedure {
 			} else if (AllaboutengieModVariables.MapVariables.get(world).waittildoomsday == false) {
 				entity.getPersistentData().putDouble("waittoreset2", (entity.getPersistentData().getDouble("waittoreset2") + 0.05));
 				if (entity.getPersistentData().getDouble("waittoreset2") >= 0.5) {
-					if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true) {
+					entity.getPersistentData().putDouble("waittoreset2", 0);
+					if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).ddaywait == false) {
 						AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
-						AllaboutengieModVariables.MapVariables.get(world).waittildoomsday = true;
+					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == true && AllaboutengieModVariables.MapVariables.get(world).ddaywait == true) {
+						AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+						AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = false;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					} else {
+						AllaboutengieModVariables.MapVariables.get(world).waittilsdoomsday = true;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						AllaboutengieModVariables.MapVariables.get(world).DoomsDayStart = false;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);

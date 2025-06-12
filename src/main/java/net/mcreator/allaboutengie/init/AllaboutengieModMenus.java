@@ -24,6 +24,7 @@ import net.mcreator.allaboutengie.world.inventory.EngieTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.ETCEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.DoomsDayTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.CreativeEngieBundleUIMenu;
+import net.mcreator.allaboutengie.world.inventory.BirthdayBundleForYoungestUIMenu;
 import net.mcreator.allaboutengie.world.inventory.BiblicallyAccurateEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.AngryEngieBundleUIMenu;
 import net.mcreator.allaboutengie.world.inventory.AllAboutEngieWikiWeaponsMenu;
@@ -60,4 +61,5 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<SuperDoomsDayTradeUIMenu>> SUPER_DOOMS_DAY_TRADE_UI = REGISTRY.register("super_dooms_day_trade_ui", () -> IForgeMenuType.create(SuperDoomsDayTradeUIMenu::new));
 	public static final RegistryObject<MenuType<TheEndTradeUIMenu>> THE_END_TRADE_UI = REGISTRY.register("the_end_trade_ui", () -> IForgeMenuType.create(TheEndTradeUIMenu::new));
 	public static final RegistryObject<MenuType<EngieTradeUIMenu>> ENGIE_TRADE_UI = REGISTRY.register("engie_trade_ui", () -> IForgeMenuType.create(EngieTradeUIMenu::new));
+	public static final RegistryObject<MenuType<BirthdayBundleForYoungestUIMenu>> BIRTHDAY_BUNDLE_FOR_YOUNGEST_UI = REGISTRY.register("birthday_bundle_for_youngest_ui", () -> IForgeMenuType.create(BirthdayBundleForYoungestUIMenu::new));
 }
