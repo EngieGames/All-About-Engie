@@ -8,6 +8,7 @@ import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraft.world.level.LevelAccessor;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
+import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
 
 import javax.annotation.Nullable;
 
@@ -23,35 +24,37 @@ public class OhNoProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
-		if (AllaboutengieModVariables.MapVariables.get(world).OHNO == false) {
-			if (Math.random() >= 0.25) {
-				AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-			} else if (Math.random() >= 0.5 && Math.random() < 0.25) {
-				AllaboutengieModVariables.MapVariables.get(world).Risk = 2;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-			} else if (Math.random() >= 0.75 && Math.random() < 0.5) {
-				AllaboutengieModVariables.MapVariables.get(world).Risk = 3;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-			} else if (Math.random() >= 1 && Math.random() < 0.75) {
-				AllaboutengieModVariables.MapVariables.get(world).Risk = 4;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-				AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DOOMSDAY_TOGGLE) == true) {
+			if (AllaboutengieModVariables.MapVariables.get(world).OHNO == false) {
+				if (Math.random() >= 0.25) {
+					AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (Math.random() >= 0.5 && Math.random() < 0.25) {
+					AllaboutengieModVariables.MapVariables.get(world).Risk = 2;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (Math.random() >= 0.75 && Math.random() < 0.5) {
+					AllaboutengieModVariables.MapVariables.get(world).Risk = 3;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				} else if (Math.random() >= 1 && Math.random() < 0.75) {
+					AllaboutengieModVariables.MapVariables.get(world).Risk = 4;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).OHNO = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+					AllaboutengieModVariables.MapVariables.get(world).riskcooldown = true;
+					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				}
 			}
 		}
 	}

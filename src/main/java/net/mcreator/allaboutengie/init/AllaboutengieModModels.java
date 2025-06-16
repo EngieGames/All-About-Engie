@@ -26,6 +26,7 @@ import net.mcreator.allaboutengie.client.model.Modelengiedaboyozoom;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyotired;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyosit;
 import net.mcreator.allaboutengie.client.model.Modelengiedaboyo;
+import net.mcreator.allaboutengie.client.model.Modelddayrift;
 import net.mcreator.allaboutengie.client.model.Modelcustomarmorr;
 import net.mcreator.allaboutengie.client.model.Modelcustomarmorl;
 import net.mcreator.allaboutengie.client.model.Modelcosmodabigboyotired;
@@ -65,6 +66,7 @@ public class AllaboutengieModModels {
 		event.registerLayerDefinition(Modelbigboyo.LAYER_LOCATION, Modelbigboyo::createBodyLayer);
 		event.registerLayerDefinition(Modelmonstrosity.LAYER_LOCATION, Modelmonstrosity::createBodyLayer);
 		event.registerLayerDefinition(Modelenragedzombie.LAYER_LOCATION, Modelenragedzombie::createBodyLayer);
+		event.registerLayerDefinition(Modelddayrift.LAYER_LOCATION, Modelddayrift::createBodyLayer);
 		event.registerLayerDefinition(Modelcosmodabigboyo.LAYER_LOCATION, Modelcosmodabigboyo::createBodyLayer);
 		event.registerLayerDefinition(Modelengiegamesarmorl1.LAYER_LOCATION, Modelengiegamesarmorl1::createBodyLayer);
 		event.registerLayerDefinition(Modelengiedaboyo.LAYER_LOCATION, Modelengiedaboyo::createBodyLayer);

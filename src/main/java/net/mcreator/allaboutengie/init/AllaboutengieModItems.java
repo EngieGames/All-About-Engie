@@ -109,6 +109,7 @@ import net.mcreator.allaboutengie.item.MonstrosityBanHammerItem;
 import net.mcreator.allaboutengie.item.MobsPlaqueItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MiniBanHammerItem;
+import net.mcreator.allaboutengie.item.MindscapeEngiesItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerPixelItem;
 import net.mcreator.allaboutengie.item.MassiveBanHammerItem;
 import net.mcreator.allaboutengie.item.MadEngiePlushItem;
@@ -827,12 +828,15 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> ENGIE_PLAQUE = REGISTRY.register("engie_plaque", () -> new EngiePlaqueItem());
 	public static final RegistryObject<Item> ENGIES_BIRTHDAY_BUNDLE25 = REGISTRY.register("engies_birthday_bundle25", () -> new EngiesBirthdayBundleItem());
 	public static final RegistryObject<Item> HOTLINE_MIAMI_2_RUN = REGISTRY.register("hotline_miami_2_run", () -> new HotlineMiami2RunItem());
-	public static final RegistryObject<Item> SPIKE_PART = block(AllaboutengieModBlocks.SPIKE_PART, null);
 	public static final RegistryObject<Item> DOOMS_DAY_ADVANCEMENT_ICON = REGISTRY.register("dooms_day_advancement_icon", () -> new DoomsDayAdvancementIconItem());
 	public static final RegistryObject<Item> SUPER_DOOMS_DAY_ADVANCEMENT_ICON = REGISTRY.register("super_dooms_day_advancement_icon", () -> new SuperDoomsDayAdvancementIconItem());
 	public static final RegistryObject<Item> THE_END_ADVANCEMENT_ICON = REGISTRY.register("the_end_advancement_icon", () -> new TheEndAdvancementIconItem());
 	public static final RegistryObject<Item> ENGIE_GAMES_ADVANCEMENT_ICON = REGISTRY.register("engie_games_advancement_icon", () -> new EngieGamesAdvancementIconItem());
 	public static final RegistryObject<Item> ENGIE_BIRTHDAY_BUNDLE_FOR_YOUNGEST = REGISTRY.register("engie_birthday_bundle_for_youngest", () -> new EngieBirthdayBundleForYoungestItem());
+	public static final RegistryObject<Item> MINDSCAPE_ENGIES_HELMET = REGISTRY.register("mindscape_engies_helmet", () -> new MindscapeEngiesItem.Helmet());
+	public static final RegistryObject<Item> MINDSCAPE_ENGIES_CHESTPLATE = REGISTRY.register("mindscape_engies_chestplate", () -> new MindscapeEngiesItem.Chestplate());
+	public static final RegistryObject<Item> MINDSCAPE_ENGIES_LEGGINGS = REGISTRY.register("mindscape_engies_leggings", () -> new MindscapeEngiesItem.Leggings());
+	public static final RegistryObject<Item> MINDSCAPE_ENGIES_BOOTS = REGISTRY.register("mindscape_engies_boots", () -> new MindscapeEngiesItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

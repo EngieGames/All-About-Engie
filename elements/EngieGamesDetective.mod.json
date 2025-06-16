@@ -4,9 +4,9 @@
   "definition": {
     "mobName": "EngieGames",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "ModelEngieGames",
     "mobModelTexture": "engiegamesentity.png",
-    "mobModelGlowTexture": "engiegamesentity_e.png",
+    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },

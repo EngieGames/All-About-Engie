@@ -39,7 +39,7 @@ public class ObjectiveUIOverlay {
 			z = entity.getZ();
 		}
 		if (ObjectiveOverlayCheckProcedure.execute(entity)) {
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.allaboutengie.objective_ui.label_u26a0_new_objective_u26a0"), posX + -71, posY + -120, -256);
+			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.allaboutengie.objective_ui.label_u26a0_new_objective_u26a0"), posX + -69, posY + -120, -256);
 			if (DoomsDayCheckProcedure.execute(world))
 				Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.allaboutengie.objective_ui.label_the_end_is_near_survive_the_end"), posX + -116, posY + -111, -1);
 			if (SuperDoomsDayCheckProcedure.execute(world))

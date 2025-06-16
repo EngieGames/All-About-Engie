@@ -46,9 +46,9 @@ public class MissileTickUpdateProcedure {
 					}
 				}
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 5, 5, 5, 5, 1);
+					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 1, 1, 1, 1, 1);
 				if (world instanceof Level _level && !_level.isClientSide())
-					_level.explode(null, x, y, z, 5, Explosion.BlockInteraction.BREAK);
+					_level.explode(null, x, y, z, 1, Explosion.BlockInteraction.BREAK);
 				entity.getPersistentData().putDouble("YellowLightningTimeBeforeExplosion", 0);
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -73,9 +73,9 @@ public class MissileTickUpdateProcedure {
 					}
 				}
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 10, 10, 10, 10, 1);
+					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 5, 5, 5, 5, 1);
 				if (world instanceof Level _level && !_level.isClientSide())
-					_level.explode(null, x, y, z, 10, Explosion.BlockInteraction.BREAK);
+					_level.explode(null, x, y, z, 5, Explosion.BlockInteraction.BREAK);
 				entity.getPersistentData().putDouble("BlueBurstTimeBeforeExplosion", 0);
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -100,9 +100,9 @@ public class MissileTickUpdateProcedure {
 					}
 				}
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 15, 15, 15, 15, 1);
+					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 10, 10, 10, 10, 1);
 				if (world instanceof Level _level && !_level.isClientSide())
-					_level.explode(null, x, y, z, 15, Explosion.BlockInteraction.BREAK);
+					_level.explode(null, x, y, z, 10, Explosion.BlockInteraction.BREAK);
 				entity.getPersistentData().putDouble("NormalTimeBeforeExplosion", 0);
 				if (!entity.level.isClientSide())
 					entity.discard();
@@ -120,9 +120,9 @@ public class MissileTickUpdateProcedure {
 					}
 				}
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 20, 10, 10, 10, 1);
+					_level.sendParticles(ParticleTypes.EXPLOSION, x, y, z, 15, 15, 15, 15, 1);
 				if (world instanceof Level _level && !_level.isClientSide())
-					_level.explode(null, x, y, z, 20, Explosion.BlockInteraction.BREAK);
+					_level.explode(null, x, y, z, 15, Explosion.BlockInteraction.BREAK);
 				entity.getPersistentData().putDouble("MoabTimeBeforeExplosion", 0);
 				if (!entity.level.isClientSide())
 					entity.discard();

@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "allaboutengie:d_day_spike",
-  "step": "surface_structures"
-}

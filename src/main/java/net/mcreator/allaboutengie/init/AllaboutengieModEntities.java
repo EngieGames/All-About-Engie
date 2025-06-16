@@ -32,7 +32,6 @@ import net.mcreator.allaboutengie.entity.TheEndHostileEntity;
 import net.mcreator.allaboutengie.entity.TheEndEntity;
 import net.mcreator.allaboutengie.entity.SuperDoomsDayHostileEntity;
 import net.mcreator.allaboutengie.entity.SuperDoomsDayEntity;
-import net.mcreator.allaboutengie.entity.SpikeSpawnerEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.SharkoTamedAprilFoolsEntity;
@@ -78,11 +77,13 @@ import net.mcreator.allaboutengie.entity.MythicSharkoAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.MythicEngieEntity;
 import net.mcreator.allaboutengie.entity.MonstrosityEngieSharkoEntity;
 import net.mcreator.allaboutengie.entity.MonstrosityEngieEntity;
+import net.mcreator.allaboutengie.entity.MindscapeEngieEntity;
 import net.mcreator.allaboutengie.entity.MarshalZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.MarshalZoomiesEntity;
 import net.mcreator.allaboutengie.entity.MarshalSleepEntity;
 import net.mcreator.allaboutengie.entity.MarshalLayEntity;
 import net.mcreator.allaboutengie.entity.MarshalEntity;
+import net.mcreator.allaboutengie.entity.MadEngieOldRiftedEntity;
 import net.mcreator.allaboutengie.entity.MadEngieEntity;
 import net.mcreator.allaboutengie.entity.MOABEntity;
 import net.mcreator.allaboutengie.entity.LouisZoomiesTiredEntity;
@@ -156,6 +157,7 @@ import net.mcreator.allaboutengie.entity.EnragedNormal2Entity;
 import net.mcreator.allaboutengie.entity.EnragedEngieStyle3Entity;
 import net.mcreator.allaboutengie.entity.EnragedEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.EnragedEngieSharkoEntity;
+import net.mcreator.allaboutengie.entity.EnragedEngieOldRiftedEntity;
 import net.mcreator.allaboutengie.entity.EnragedEngieEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.EngieSharkoTamedZoomiesEntity;
@@ -194,6 +196,8 @@ import net.mcreator.allaboutengie.entity.EngiFREntity;
 import net.mcreator.allaboutengie.entity.EngiEntity;
 import net.mcreator.allaboutengie.entity.DoomsDayHostileEntity;
 import net.mcreator.allaboutengie.entity.DoomsDayEntity;
+import net.mcreator.allaboutengie.entity.DDayLightningSpawnerEntity;
+import net.mcreator.allaboutengie.entity.DDAYRiftEntity;
 import net.mcreator.allaboutengie.entity.CreatorEntity;
 import net.mcreator.allaboutengie.entity.CosmoSleepEntity;
 import net.mcreator.allaboutengie.entity.CosmoLayEntity;
@@ -215,6 +219,7 @@ import net.mcreator.allaboutengie.entity.Bothan2netSleepEntity;
 import net.mcreator.allaboutengie.entity.Bothan2netLayEntity;
 import net.mcreator.allaboutengie.entity.Bothan2netEntity;
 import net.mcreator.allaboutengie.entity.BlueBurstEntity;
+import net.mcreator.allaboutengie.entity.BloodyEngieRiftedEntity;
 import net.mcreator.allaboutengie.entity.BigSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.BigSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.BigSharkoLayEntity;
@@ -268,7 +273,9 @@ import net.mcreator.allaboutengie.entity.ApolloLayEntity;
 import net.mcreator.allaboutengie.entity.ApolloEntity;
 import net.mcreator.allaboutengie.entity.AngryEngieStyle2Entity;
 import net.mcreator.allaboutengie.entity.AngryEngieSharkoEntity;
+import net.mcreator.allaboutengie.entity.AngryEngieOldRiftedEntity;
 import net.mcreator.allaboutengie.entity.AngryEngieEntity;
+import net.mcreator.allaboutengie.entity.AngryCreatorRiftedEntity;
 import net.mcreator.allaboutengie.entity.AngryCreatorEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.AlbinoSharkoTamedZoomiesEntity;
@@ -307,7 +314,9 @@ public class AllaboutengieModEntities {
 					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<BiblicallyAccurateEngieEntity>> BIBLICALLY_ACCURATE_ENGIE = register("biblically_accurate_engie",
 			EntityType.Builder.<BiblicallyAccurateEngieEntity>of(BiblicallyAccurateEngieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(BiblicallyAccurateEngieEntity::new).fireImmune().sized(0.6f, 1.95f));
+					.setCustomClientFactory(BiblicallyAccurateEngieEntity::new)
+
+					.sized(0.6f, 1.95f));
 	public static final RegistryObject<EntityType<CommonEngieEntity>> COMMON_ENGIE = register("common_engie",
 			EntityType.Builder.<CommonEngieEntity>of(CommonEngieEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CommonEngieEntity::new)
 
@@ -1204,8 +1213,6 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<NormalEntity>of(NormalEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NormalEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<MOABEntity>> MOAB = register("moab",
 			EntityType.Builder.<MOABEntity>of(MOABEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MOABEntity::new).fireImmune().sized(1f, 1f));
-	public static final RegistryObject<EntityType<SpikeSpawnerEntity>> SPIKE_SPAWNER = register("spike_spawner", EntityType.Builder.<SpikeSpawnerEntity>of(SpikeSpawnerEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpikeSpawnerEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<EngieGamesDetectiveEntity>> ENGIE_GAMES_DETECTIVE = register("engie_games_detective",
 			EntityType.Builder.<EngieGamesDetectiveEntity>of(EngieGamesDetectiveEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EngieGamesDetectiveEntity::new)
 
@@ -1402,6 +1409,33 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
 
 					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<DDayLightningSpawnerEntity>> D_DAY_LIGHTNING_SPAWNER = register("d_day_lightning_spawner", EntityType.Builder.<DDayLightningSpawnerEntity>of(DDayLightningSpawnerEntity::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DDayLightningSpawnerEntity::new).fireImmune().sized(1f, 1f));
+	public static final RegistryObject<EntityType<DDAYRiftEntity>> DDAY_RIFT = register("dday_rift",
+			EntityType.Builder.<DDAYRiftEntity>of(DDAYRiftEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DDAYRiftEntity::new).fireImmune().sized(4f, 0.1f));
+	public static final RegistryObject<EntityType<EnragedEngieOldRiftedEntity>> ENRAGED_ENGIE_OLD_RIFTED = register("enraged_engie_old_rifted",
+			EntityType.Builder.<EnragedEngieOldRiftedEntity>of(EnragedEngieOldRiftedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(EnragedEngieOldRiftedEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<MadEngieOldRiftedEntity>> MAD_ENGIE_OLD_RIFTED = register("mad_engie_old_rifted",
+			EntityType.Builder.<MadEngieOldRiftedEntity>of(MadEngieOldRiftedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MadEngieOldRiftedEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<AngryEngieOldRiftedEntity>> ANGRY_ENGIE_OLD_RIFTED = register("angry_engie_old_rifted",
+			EntityType.Builder.<AngryEngieOldRiftedEntity>of(AngryEngieOldRiftedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryEngieOldRiftedEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<AngryCreatorRiftedEntity>> ANGRY_CREATOR_RIFTED = register("angry_creator_rifted",
+			EntityType.Builder.<AngryCreatorRiftedEntity>of(AngryCreatorRiftedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AngryCreatorRiftedEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<BloodyEngieRiftedEntity>> BLOODY_ENGIE_RIFTED = register("bloody_engie_rifted",
+			EntityType.Builder.<BloodyEngieRiftedEntity>of(BloodyEngieRiftedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BloodyEngieRiftedEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<MindscapeEngieEntity>> MINDSCAPE_ENGIE = register("mindscape_engie", EntityType.Builder.<MindscapeEngieEntity>of(MindscapeEngieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MindscapeEngieEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1631,7 +1665,6 @@ public class AllaboutengieModEntities {
 			BlueBurstEntity.init();
 			NormalEntity.init();
 			MOABEntity.init();
-			SpikeSpawnerEntity.init();
 			EngieGamesDetectiveEntity.init();
 			SharkTamedEntity.init();
 			AlbinoSharkoTamedEntity.init();
@@ -1674,6 +1707,14 @@ public class AllaboutengieModEntities {
 			BigEngieSharkoRare2TamedEntity.init();
 			BigEpicSharkoTamedEntity.init();
 			CosmoEntity.init();
+			DDayLightningSpawnerEntity.init();
+			DDAYRiftEntity.init();
+			EnragedEngieOldRiftedEntity.init();
+			MadEngieOldRiftedEntity.init();
+			AngryEngieOldRiftedEntity.init();
+			AngryCreatorRiftedEntity.init();
+			BloodyEngieRiftedEntity.init();
+			MindscapeEngieEntity.init();
 		});
 	}
 
@@ -1900,7 +1941,6 @@ public class AllaboutengieModEntities {
 		event.put(BLUE_BURST.get(), BlueBurstEntity.createAttributes().build());
 		event.put(NORMAL.get(), NormalEntity.createAttributes().build());
 		event.put(MOAB.get(), MOABEntity.createAttributes().build());
-		event.put(SPIKE_SPAWNER.get(), SpikeSpawnerEntity.createAttributes().build());
 		event.put(ENGIE_GAMES_DETECTIVE.get(), EngieGamesDetectiveEntity.createAttributes().build());
 		event.put(SHARKO_TAMED.get(), SharkTamedEntity.createAttributes().build());
 		event.put(ALBINO_SHARKO_TAMED.get(), AlbinoSharkoTamedEntity.createAttributes().build());
@@ -1943,5 +1983,13 @@ public class AllaboutengieModEntities {
 		event.put(BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
 		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
+		event.put(D_DAY_LIGHTNING_SPAWNER.get(), DDayLightningSpawnerEntity.createAttributes().build());
+		event.put(DDAY_RIFT.get(), DDAYRiftEntity.createAttributes().build());
+		event.put(ENRAGED_ENGIE_OLD_RIFTED.get(), EnragedEngieOldRiftedEntity.createAttributes().build());
+		event.put(MAD_ENGIE_OLD_RIFTED.get(), MadEngieOldRiftedEntity.createAttributes().build());
+		event.put(ANGRY_ENGIE_OLD_RIFTED.get(), AngryEngieOldRiftedEntity.createAttributes().build());
+		event.put(ANGRY_CREATOR_RIFTED.get(), AngryCreatorRiftedEntity.createAttributes().build());
+		event.put(BLOODY_ENGIE_RIFTED.get(), BloodyEngieRiftedEntity.createAttributes().build());
+		event.put(MINDSCAPE_ENGIE.get(), MindscapeEngieEntity.createAttributes().build());
 	}
 }

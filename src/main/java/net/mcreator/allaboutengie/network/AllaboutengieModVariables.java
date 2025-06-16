@@ -107,6 +107,9 @@ public class AllaboutengieModVariables {
 			clone.SharkoRideToggle = original.SharkoRideToggle;
 			clone.TrueHardcoreLifeCount = original.TrueHardcoreLifeCount;
 			clone.ShowObjectiveOverlay = original.ShowObjectiveOverlay;
+			clone.RiftX = original.RiftX;
+			clone.RiftY = original.RiftY;
+			clone.RiftZ = original.RiftZ;
 			if (!event.isWasDeath()) {
 				clone.DoomsdayAlive = original.DoomsdayAlive;
 				clone.firstplay = original.firstplay;
@@ -235,6 +238,7 @@ public class AllaboutengieModVariables {
 		public boolean ddaywait = true;
 		public boolean sddaywait = true;
 		public boolean theendwait = true;
+		public boolean riftspawnoneentity = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -302,6 +306,7 @@ public class AllaboutengieModVariables {
 			ddaywait = nbt.getBoolean("ddaywait");
 			sddaywait = nbt.getBoolean("sddaywait");
 			theendwait = nbt.getBoolean("theendwait");
+			riftspawnoneentity = nbt.getBoolean("riftspawnoneentity");
 		}
 
 		@Override
@@ -365,6 +370,7 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("ddaywait", ddaywait);
 			nbt.putBoolean("sddaywait", sddaywait);
 			nbt.putBoolean("theendwait", theendwait);
+			nbt.putBoolean("riftspawnoneentity", riftspawnoneentity);
 			return nbt;
 		}
 
@@ -486,6 +492,9 @@ public class AllaboutengieModVariables {
 		public boolean RespawnNormInstantHealth = false;
 		public boolean RespawnTrueHardcoreGraceStart = false;
 		public boolean ShowObjectiveOverlay = false;
+		public double RiftX = 0;
+		public double RiftY = 0;
+		public double RiftZ = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -527,6 +536,9 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("RespawnNormInstantHealth", RespawnNormInstantHealth);
 			nbt.putBoolean("RespawnTrueHardcoreGraceStart", RespawnTrueHardcoreGraceStart);
 			nbt.putBoolean("ShowObjectiveOverlay", ShowObjectiveOverlay);
+			nbt.putDouble("RiftX", RiftX);
+			nbt.putDouble("RiftY", RiftY);
+			nbt.putDouble("RiftZ", RiftZ);
 			return nbt;
 		}
 
@@ -565,6 +577,9 @@ public class AllaboutengieModVariables {
 			RespawnNormInstantHealth = nbt.getBoolean("RespawnNormInstantHealth");
 			RespawnTrueHardcoreGraceStart = nbt.getBoolean("RespawnTrueHardcoreGraceStart");
 			ShowObjectiveOverlay = nbt.getBoolean("ShowObjectiveOverlay");
+			RiftX = nbt.getDouble("RiftX");
+			RiftY = nbt.getDouble("RiftY");
+			RiftZ = nbt.getDouble("RiftZ");
 		}
 	}
 
@@ -622,6 +637,9 @@ public class AllaboutengieModVariables {
 					variables.RespawnNormInstantHealth = message.data.RespawnNormInstantHealth;
 					variables.RespawnTrueHardcoreGraceStart = message.data.RespawnTrueHardcoreGraceStart;
 					variables.ShowObjectiveOverlay = message.data.ShowObjectiveOverlay;
+					variables.RiftX = message.data.RiftX;
+					variables.RiftY = message.data.RiftY;
+					variables.RiftZ = message.data.RiftZ;
 				}
 			});
 			context.setPacketHandled(true);

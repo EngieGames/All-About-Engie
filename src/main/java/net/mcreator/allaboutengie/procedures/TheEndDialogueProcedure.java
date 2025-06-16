@@ -126,7 +126,7 @@ public class TheEndDialogueProcedure {
 									});
 								}
 							});
-							AllaboutengieMod.queueServerWork(204, () -> {
+							AllaboutengieMod.queueServerWork(102, () -> {
 								{
 									Entity _ent = entity;
 									if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -136,7 +136,7 @@ public class TheEndDialogueProcedure {
 														"tellraw @a {\"text\":\"We never thought this day would come. But it is finally here.\",\"bold\":true,\"color\":\"yellow\"}");
 									}
 								}
-								AllaboutengieMod.queueServerWork(200, () -> {
+								AllaboutengieMod.queueServerWork(188, () -> {
 									{
 										Entity _ent = entity;
 										if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -146,7 +146,7 @@ public class TheEndDialogueProcedure {
 													"tellraw @a {\"text\":\"The end of humanity has arrived. Earth as we know it... is to come to an end.\",\"bold\":true,\"color\":\"yellow\"}");
 										}
 									}
-									AllaboutengieMod.queueServerWork(400, () -> {
+									AllaboutengieMod.queueServerWork(200, () -> {
 										{
 											Entity _ent = entity;
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -156,7 +156,7 @@ public class TheEndDialogueProcedure {
 														"tellraw @a {\"text\":\"You must withstand this chaos for a long time in order to survive the end of the world.\",\"bold\":true,\"color\":\"yellow\"}");
 											}
 										}
-										AllaboutengieMod.queueServerWork(400, () -> {
+										AllaboutengieMod.queueServerWork(200, () -> {
 											{
 												Entity _ent = entity;
 												if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -167,7 +167,7 @@ public class TheEndDialogueProcedure {
 																	"tellraw @a {\"text\":\"May Mother Nature have mercy on our souls.\",\"bold\":true,\"color\":\"yellow\"}");
 												}
 											}
-											AllaboutengieMod.queueServerWork(400, () -> {
+											AllaboutengieMod.queueServerWork(200, () -> {
 												{
 													Entity _ent = entity;
 													if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -197,7 +197,7 @@ public class TheEndDialogueProcedure {
 																		"tellraw @a {\"text\":\"THIS\",\"bold\":true,\"color\":\"black\"}");
 															}
 														}
-														AllaboutengieMod.queueServerWork(10, () -> {
+														AllaboutengieMod.queueServerWork(20, () -> {
 															{
 																Entity _ent = entity;
 																if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -207,7 +207,7 @@ public class TheEndDialogueProcedure {
 																					"tellraw @a {\"text\":\"IS\",\"bold\":true,\"color\":\"dark_gray\"}");
 																}
 															}
-															AllaboutengieMod.queueServerWork(10, () -> {
+															AllaboutengieMod.queueServerWork(20, () -> {
 																{
 																	Entity _ent = entity;
 																	if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -217,7 +217,7 @@ public class TheEndDialogueProcedure {
 																						"tellraw @a {\"text\":\"THE\",\"bold\":true,\"color\":\"dark_red\"}");
 																	}
 																}
-																AllaboutengieMod.queueServerWork(10, () -> {
+																AllaboutengieMod.queueServerWork(20, () -> {
 																	{
 																		Entity _ent = entity;
 																		if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -227,7 +227,7 @@ public class TheEndDialogueProcedure {
 																							"tellraw @a {\"text\":\"END\",\"bold\":true,\"color\":\"red\"}");
 																		}
 																	}
-																	AllaboutengieMod.queueServerWork(80, () -> {
+																	AllaboutengieMod.queueServerWork(100, () -> {
 																		{
 																			Entity _ent = entity;
 																			if (!_ent.level.isClientSide() && _ent.getServer() != null) {

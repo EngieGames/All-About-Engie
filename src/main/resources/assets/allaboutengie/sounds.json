@@ -26,15 +26,6 @@
       }
     ]
   },
-  "doomsday_eerie_2": {
-    "subtitle": "subtitles.doomsday_eerie_2",
-    "sounds": [
-      {
-        "name": "allaboutengie:doomsdayeerie2",
-        "stream": false
-      }
-    ]
-  },
   "hotlinemiami2-run": {
     "subtitle": "subtitles.hotlinemiami2-run",
     "sounds": [
@@ -49,6 +40,33 @@
     "sounds": [
       {
         "name": "allaboutengie:theendeerie",
+        "stream": false
+      }
+    ]
+  },
+  "customlightning": {
+    "subtitle": "subtitles.customlightning",
+    "sounds": [
+      {
+        "name": "allaboutengie:lightning",
+        "stream": false
+      }
+    ]
+  },
+  "customlightning2": {
+    "subtitle": "subtitles.customlightning2",
+    "sounds": [
+      {
+        "name": "allaboutengie:lightning2",
+        "stream": false
+      }
+    ]
+  },
+  "riftopens": {
+    "subtitle": "subtitles.riftopens",
+    "sounds": [
+      {
+        "name": "allaboutengie:portalopen",
         "stream": false
       }
     ]

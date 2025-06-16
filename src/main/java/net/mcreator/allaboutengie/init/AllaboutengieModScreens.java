@@ -27,13 +27,6 @@ import net.mcreator.allaboutengie.client.gui.CreativeEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.BirthdayBundleForYoungestUIScreen;
 import net.mcreator.allaboutengie.client.gui.BiblicallyAccurateEngieBundleUIScreen;
 import net.mcreator.allaboutengie.client.gui.AngryEngieBundleUIScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiWeaponsScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiToolsScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiPassiveMobsScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiItemsScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiHostileMobsScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiHomeScreen;
-import net.mcreator.allaboutengie.client.gui.AllAboutEngieWikiArmorScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AllaboutengieModScreens {
@@ -51,13 +44,6 @@ public class AllaboutengieModScreens {
 			MenuScreens.register(AllaboutengieModMenus.CREATIVE_ENGIE_BUNDLE_UI.get(), CreativeEngieBundleUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ENGIES_OWN_ENGIE_BUNDLE_UI.get(), EngiesOwnEngieBundleUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ENGIES_BIRTHDAY_BUNDLE_UI.get(), EngiesBirthdayBundleUIScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_HOME.get(), AllAboutEngieWikiHomeScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_HOSTILE_MOBS.get(), AllAboutEngieWikiHostileMobsScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_PASSIVE_MOBS.get(), AllAboutEngieWikiPassiveMobsScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_WEAPONS.get(), AllAboutEngieWikiWeaponsScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_TOOLS.get(), AllAboutEngieWikiToolsScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_ARMOR.get(), AllAboutEngieWikiArmorScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.ALL_ABOUT_ENGIE_WIKI_ITEMS.get(), AllAboutEngieWikiItemsScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.DOOMS_DAY_TRADE_UI.get(), DoomsDayTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.SUPER_DOOMS_DAY_TRADE_UI.get(), SuperDoomsDayTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.THE_END_TRADE_UI.get(), TheEndTradeUIScreen::new);

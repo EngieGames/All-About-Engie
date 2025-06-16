@@ -16,7 +16,6 @@ import net.mcreator.allaboutengie.block.ThanksForPlaying4Block;
 import net.mcreator.allaboutengie.block.ThanksForPlaying3Block;
 import net.mcreator.allaboutengie.block.ThanksForPlaying2Block;
 import net.mcreator.allaboutengie.block.TextboxyeahBlock;
-import net.mcreator.allaboutengie.block.SpikePartBlock;
 import net.mcreator.allaboutengie.block.OutragedEngieBlockBlock;
 import net.mcreator.allaboutengie.block.OldEngieOreBlock;
 import net.mcreator.allaboutengie.block.OldDeepslateEngieOreBlock;
@@ -85,5 +84,4 @@ public class AllaboutengieModBlocks {
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_3 = REGISTRY.register("thanks_for_playing_3", () -> new ThanksForPlaying3Block());
 	public static final RegistryObject<Block> TEXTBOXYEAH = REGISTRY.register("textboxyeah", () -> new TextboxyeahBlock());
 	public static final RegistryObject<Block> THANKS_FOR_PLAYING_4 = REGISTRY.register("thanks_for_playing_4", () -> new ThanksForPlaying4Block());
-	public static final RegistryObject<Block> SPIKE_PART = REGISTRY.register("spike_part", () -> new SpikePartBlock());
 }

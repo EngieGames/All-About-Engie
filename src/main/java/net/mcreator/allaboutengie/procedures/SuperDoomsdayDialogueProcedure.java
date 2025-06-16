@@ -148,7 +148,7 @@ public class SuperDoomsdayDialogueProcedure {
 													"tellraw @a {\"text\":\"The end of humanity has arrived. Earth as we know it... is to come to an end.\",\"bold\":true,\"color\":\"yellow\"}");
 										}
 									}
-									AllaboutengieMod.queueServerWork(400, () -> {
+									AllaboutengieMod.queueServerWork(200, () -> {
 										{
 											Entity _ent = entity;
 											if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -207,7 +207,7 @@ public class SuperDoomsdayDialogueProcedure {
 														}
 														AllaboutengieModVariables.MapVariables.get(world).sdoomsdaymainsongstart = true;
 														AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-														entity.getPersistentData().putDouble("theendmainsongtimer", 0);
+														entity.getPersistentData().putDouble("sdoomsdaymainsongtimer", 0);
 														AllaboutengieMod.queueServerWork(290, () -> {
 															AllaboutengieModVariables.MapVariables.get(world).sddaystart = true;
 															AllaboutengieModVariables.MapVariables.get(world).syncData(world);

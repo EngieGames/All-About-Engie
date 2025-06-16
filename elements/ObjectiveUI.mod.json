@@ -9,13 +9,13 @@
         "data": {
           "name": "label_u26a0_new_objective_u26a0",
           "text": {
-            "fixedValue": "⚠️     NEW OBJECTIVE:     ⚠"
+            "fixedValue": "⚠     NEW OBJECTIVE:     ⚠"
           },
           "color": {
             "value": -256,
             "falpha": 0.0
           },
-          "x": 142,
+          "x": 144,
           "y": 0
         }
       },

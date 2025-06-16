@@ -11,8 +11,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GameRules;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LightningBolt;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
@@ -27,12 +25,12 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
-import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 import net.mcreator.allaboutengie.entity.YellowLightningEntity;
-import net.mcreator.allaboutengie.entity.SpikeSpawnerEntity;
 import net.mcreator.allaboutengie.entity.NormalEntity;
 import net.mcreator.allaboutengie.entity.MOABEntity;
+import net.mcreator.allaboutengie.entity.DDayLightningSpawnerEntity;
+import net.mcreator.allaboutengie.entity.DDAYRiftEntity;
 import net.mcreator.allaboutengie.entity.BlueBurstEntity;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
@@ -115,6 +113,13 @@ public class DoomsdayChaosProcedure {
 					}
 				}
 				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @p instant_health 1 28 true");
+					}
+				}
+				{
 					boolean _setval = false;
 					entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.healthreductiondday = _setval;
@@ -158,18 +163,9 @@ public class DoomsdayChaosProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					});
 				}
-				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.TRUE_HARDCORE) == false) {
-					{
-						Entity _ent = entity;
-						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "effect give @p instant_health 1 28 true");
-						}
-					}
-				}
 				if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).DoomsdayAlive == true) {
-					if (!(entity instanceof ServerPlayer _plr20 && _plr20.level instanceof ServerLevel
-							&& _plr20.getAdvancements().getOrStartProgress(_plr20.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"))).isDone())) {
+					if (!(entity instanceof ServerPlayer _plr19 && _plr19.level instanceof ServerLevel
+							&& _plr19.getAdvancements().getOrStartProgress(_plr19.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"))).isDone())) {
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:conqueror"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -316,67 +312,102 @@ public class DoomsdayChaosProcedure {
 				});
 			}
 			entity.getPersistentData().putDouble("Nlightningcooldown", (entity.getPersistentData().getDouble("Nlightningcooldown") + 0.05));
-			if (entity.getPersistentData().getDouble("Nlightningcooldown") >= 1) {
+			if (entity.getPersistentData().getDouble("Nlightningcooldown") >= 0.5) {
 				entity.getPersistentData().putDouble("Nlightningcooldown", 0);
 				AllaboutengieMod.queueServerWork(1, () -> {
-					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new LightningBolt(EntityType.LIGHTNING_BOLT, _level);
-						entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 0, 128)), (-64),
-								((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 0, 128)),
-								world.getRandom().nextFloat() * 360F, 0);
-						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-						world.addFreshEntity(entityToSpawn);
-					}
-					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new LightningBolt(EntityType.LIGHTNING_BOLT, _level);
-						entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 0, 128)), (-64),
-								((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 0, 128)),
-								world.getRandom().nextFloat() * 360F, 0);
-						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-						world.addFreshEntity(entityToSpawn);
+					if (Math.random() < 0.25) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDayLightningSpawnerEntity(AllaboutengieModEntities.D_DAY_LIGHTNING_SPAWNER.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 0, 96)), y,
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
+					} else if (Math.random() >= 0.25 && Math.random() < 0.5) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDayLightningSpawnerEntity(AllaboutengieModEntities.D_DAY_LIGHTNING_SPAWNER.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 0, 96)), y,
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
+					} else if (Math.random() >= 0.5 && Math.random() < 0.75) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDayLightningSpawnerEntity(AllaboutengieModEntities.D_DAY_LIGHTNING_SPAWNER.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 0, 96)), y,
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
+					} else if (Math.random() >= 0.75) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDayLightningSpawnerEntity(AllaboutengieModEntities.D_DAY_LIGHTNING_SPAWNER.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 0, 96)), y,
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
 					}
 				});
 			}
-			if (AllaboutengieModVariables.MapVariables.get(world).ddayspikecooldown == true) {
-				entity.getPersistentData().putDouble("ddayspikecooldown", (entity.getPersistentData().getDouble("ddayspikecooldown") + 0.05));
-				if (entity.getPersistentData().getDouble("ddayspikecooldown") >= 12.2) {
-					entity.getPersistentData().putDouble("ddayspikecooldown", 0);
-					AllaboutengieModVariables.MapVariables.get(world).ddayspikecooldown = false;
-					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
-					for (int index0 = 0; index0 < 15; index0++) {
-						AllaboutengieMod.queueServerWork(10, () -> {
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = new SpikeSpawnerEntity(AllaboutengieModEntities.SPIKE_SPAWNER.get(), _level);
-								entityToSpawn.moveTo(
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 1, 128)),
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 1, 128)),
-										world.getRandom().nextFloat() * 360F, 0);
-								if (entityToSpawn instanceof Mob _mobToSpawn)
-									_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-								world.addFreshEntity(entityToSpawn);
-							}
-						});
-						AllaboutengieMod.queueServerWork(5, () -> {
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = new SpikeSpawnerEntity(AllaboutengieModEntities.SPIKE_SPAWNER.get(), _level);
-								entityToSpawn.moveTo(
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 1, 128)),
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY),
-										((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 1, 128)),
-										world.getRandom().nextFloat() * 360F, 0);
-								if (entityToSpawn instanceof Mob _mobToSpawn)
-									_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-								world.addFreshEntity(entityToSpawn);
-							}
-						});
+			entity.getPersistentData().putDouble("riftcooldown", (entity.getPersistentData().getDouble("riftcooldown") + 0.05));
+			if (entity.getPersistentData().getDouble("riftcooldown") >= 20) {
+				entity.getPersistentData().putDouble("riftcooldown", 0);
+				AllaboutengieMod.queueServerWork(1, () -> {
+					if (Math.random() < 0.25) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDAYRiftEntity(AllaboutengieModEntities.DDAY_RIFT.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 0, 96)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY + Mth.nextDouble(RandomSource.create(), 5, 40)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
+					} else if (Math.random() >= 0.25 && Math.random() < 0.5) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDAYRiftEntity(AllaboutengieModEntities.DDAY_RIFT.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX + Mth.nextDouble(RandomSource.create(), 0, 96)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY + Mth.nextDouble(RandomSource.create(), 5, 40)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
+					} else if (Math.random() >= 0.5 && Math.random() < 0.75) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDAYRiftEntity(AllaboutengieModEntities.DDAY_RIFT.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 0, 96)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY + Mth.nextDouble(RandomSource.create(), 5, 40)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ + Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
+					} else if (Math.random() >= 0.75) {
+						if (world instanceof ServerLevel _level) {
+							Entity entityToSpawn = new DDAYRiftEntity(AllaboutengieModEntities.DDAY_RIFT.get(), _level);
+							entityToSpawn.moveTo(((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerX - Mth.nextDouble(RandomSource.create(), 0, 96)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerY + Mth.nextDouble(RandomSource.create(), 5, 40)),
+									((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).PlayerZ - Mth.nextDouble(RandomSource.create(), 0, 96)),
+									world.getRandom().nextFloat() * 360F, 0);
+							if (entityToSpawn instanceof Mob _mobToSpawn)
+								_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+							world.addFreshEntity(entityToSpawn);
+						}
 					}
-				}
-			} else {
-				AllaboutengieModVariables.MapVariables.get(world).ddayspikecooldown = true;
-				AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+				});
 			}
 		}
 	}

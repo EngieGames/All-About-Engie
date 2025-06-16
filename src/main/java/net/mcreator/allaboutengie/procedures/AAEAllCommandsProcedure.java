@@ -15,6 +15,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
+import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
 import java.util.Iterator;
@@ -59,12 +60,12 @@ public class AAEAllCommandsProcedure {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("Toggle")) {
 				if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(Component.literal("Toggled pixel items on."), true);
+						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = true;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
 				} else if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(Component.literal("Toggled pixel items off."), true);
+						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = false;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
 				} else {
@@ -72,7 +73,7 @@ public class AAEAllCommandsProcedure {
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @a {\"text\":\"You do not have permission to run this command!\",\"color\":\"red\"}");
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You do not have permission to run this command!\",\"color\":\"red\"}");
 						}
 					}
 				}
@@ -81,12 +82,12 @@ public class AAEAllCommandsProcedure {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("toggle")) {
 				if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(Component.literal("Toggled pixel items on."), true);
+						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = true;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
 				} else if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(Component.literal("Toggled pixel items off."), true);
+						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = false;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
 				} else {
@@ -101,7 +102,7 @@ public class AAEAllCommandsProcedure {
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("Code")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("Redeem")) {
-				if ((StringArgumentType.getString(arguments, "Code")).equals("ByeByeThere")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("ByeByeThere")) {
 					if (AllaboutengieModVariables.WorldVariables.get(world).yeah == false) {
 						if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).coderedeemblock == false) {
 							{
@@ -196,7 +197,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("HeWhoGames")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("HeWhoGames")) {
 					if (AllaboutengieModVariables.WorldVariables.get(world).yeah == false) {
 						if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == false) {
 							{
@@ -281,7 +282,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("bigsharko")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("bigsharko")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -317,7 +318,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:code_redeemers_hammer");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("BigSharko")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("BigSharko")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -353,7 +354,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:code_redeemers_hammer");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("BIGSHARKO")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("BIGSHARKO")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -390,7 +391,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("anallaboutengiechristmas")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("anallaboutengiechristmas")) {
 					if (AllaboutengieModVariables.decembercodeblock == false) {
 						{
 							Entity _ent = entity;
@@ -400,7 +401,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("ANALLABOUTENGIECHRISTMAS")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("ANALLABOUTENGIECHRISTMAS")) {
 					if (AllaboutengieModVariables.decembercodeblock == false) {
 						{
 							Entity _ent = entity;
@@ -410,7 +411,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("AnAllAboutEngieChristmas")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("AnAllAboutEngieChristmas")) {
 					if (AllaboutengieModVariables.decembercodeblock == false) {
 						{
 							Entity _ent = entity;
@@ -421,7 +422,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("happybirthdayengie")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("happybirthdayengie")) {
 					if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 						if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true) {
 							{
@@ -628,7 +629,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HappyBirthdayEngie")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HappyBirthdayEngie")) {
 					if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 						if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true) {
 							{
@@ -835,7 +836,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HAPPYBIRTHDAYENGIE")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HAPPYBIRTHDAYENGIE")) {
 					if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 						if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true) {
 							{
@@ -1043,7 +1044,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("hotlinemiami2")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("hotlinemiami2")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1051,7 +1052,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HotlineMiami2")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HotlineMiami2")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1059,7 +1060,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HOTLINEMIAMI2")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HOTLINEMIAMI2")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1068,7 +1069,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("happybirthdaysaph")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("happybirthdaysaph")) {
 					if ((entity.getDisplayName().getString()).equals("Two_Dragons15")) {
 						{
 							Entity _ent = entity;
@@ -1085,7 +1086,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HappyBirthdaySaph")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HappyBirthdaySaph")) {
 					if ((entity.getDisplayName().getString()).equals("Two_Dragons15")) {
 						{
 							Entity _ent = entity;
@@ -1102,7 +1103,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HAPPYBIRTHDAYSAPH")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HAPPYBIRTHDAYSAPH")) {
 					if ((entity.getDisplayName().getString()).equals("Two_Dragons15")) {
 						{
 							Entity _ent = entity;
@@ -1123,7 +1124,7 @@ public class AAEAllCommandsProcedure {
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("code")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("redeem")) {
-				if ((StringArgumentType.getString(arguments, "Code")).equals("ByeByeThere")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("ByeByeThere")) {
 					if (AllaboutengieModVariables.WorldVariables.get(world).yeah == false) {
 						if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).coderedeemblock == false) {
 							{
@@ -1218,7 +1219,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("HeWhoGames")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("HeWhoGames")) {
 					if (AllaboutengieModVariables.WorldVariables.get(world).yeah == false) {
 						if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == false) {
 							{
@@ -1303,7 +1304,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("bigsharko")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("bigsharko")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1339,7 +1340,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:code_redeemers_hammer");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("BigSharko")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("BigSharko")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1375,7 +1376,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:code_redeemers_hammer");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("BIGSHARKO")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("BIGSHARKO")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -1412,7 +1413,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("anallaboutengiechristmas")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("anallaboutengiechristmas")) {
 					if (AllaboutengieModVariables.decembercodeblock == false) {
 						{
 							Entity _ent = entity;
@@ -1422,7 +1423,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("ANALLABOUTENGIECHRISTMAS")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("ANALLABOUTENGIECHRISTMAS")) {
 					if (AllaboutengieModVariables.decembercodeblock == false) {
 						{
 							Entity _ent = entity;
@@ -1432,7 +1433,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("AnAllAboutEngieChristmas")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("AnAllAboutEngieChristmas")) {
 					if (AllaboutengieModVariables.decembercodeblock == false) {
 						{
 							Entity _ent = entity;
@@ -1443,7 +1444,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("happybirthdayengie")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("happybirthdayengie")) {
 					if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 						if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true) {
 							{
@@ -1650,7 +1651,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HappyBirthdayEngie")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HappyBirthdayEngie")) {
 					if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 						if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true) {
 							{
@@ -1857,7 +1858,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HAPPYBIRTHDAYENGIE")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HAPPYBIRTHDAYENGIE")) {
 					if ((entity.getDisplayName().getString()).equals("DevEngie")) {
 						if (AllaboutengieModVariables.MapVariables.get(world).Birthday == true) {
 							{
@@ -2065,7 +2066,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("hotlinemiami2")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("hotlinemiami2")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2073,7 +2074,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HotlineMiami2")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HotlineMiami2")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2081,7 +2082,7 @@ public class AAEAllCommandsProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:hotline_miami_2_run");
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HOTLINEMIAMI2")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HOTLINEMIAMI2")) {
 					{
 						Entity _ent = entity;
 						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
@@ -2090,7 +2091,7 @@ public class AAEAllCommandsProcedure {
 						}
 					}
 				}
-				if ((StringArgumentType.getString(arguments, "Code")).equals("happybirthdaysaph")) {
+				if ((StringArgumentType.getString(arguments, "TriType")).equals("happybirthdaysaph")) {
 					if ((entity.getDisplayName().getString()).equals("Two_Dragons15")) {
 						{
 							Entity _ent = entity;
@@ -2107,7 +2108,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HappyBirthdaySaph")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HappyBirthdaySaph")) {
 					if ((entity.getDisplayName().getString()).equals("Two_Dragons15")) {
 						{
 							Entity _ent = entity;
@@ -2124,7 +2125,7 @@ public class AAEAllCommandsProcedure {
 							}
 						}
 					}
-				} else if ((StringArgumentType.getString(arguments, "Code")).equals("HAPPYBIRTHDAYSAPH")) {
+				} else if ((StringArgumentType.getString(arguments, "TriType")).equals("HAPPYBIRTHDAYSAPH")) {
 					if ((entity.getDisplayName().getString()).equals("Two_Dragons15")) {
 						{
 							Entity _ent = entity;
@@ -2212,11 +2213,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2299,11 +2300,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2386,11 +2387,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2473,11 +2474,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2560,11 +2561,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2647,11 +2648,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2754,11 +2755,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2841,11 +2842,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -2928,11 +2929,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -3015,11 +3016,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -3102,11 +3103,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -3189,11 +3190,11 @@ public class AAEAllCommandsProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).Risk = 1;
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						if (AllaboutengieModVariables.MapVariables.get(world).timecheckstop == true) {
-							AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
-							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+							if (world instanceof ServerLevel _level)
+								_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
 							AllaboutengieMod.queueServerWork(5, () -> {
-								if (world instanceof ServerLevel _level)
-									_level.setDayTime((int) AllaboutengieModVariables.MapVariables.get(world).timebeforespecial);
+								AllaboutengieModVariables.MapVariables.get(world).timecheckstop = false;
+								AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 							});
 						}
 					} else if (AllaboutengieModVariables.MapVariables.get(world).OHBOY == false) {
@@ -3244,6 +3245,154 @@ public class AAEAllCommandsProcedure {
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("risk")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("check")) {
 				RiskCheckProcedure.execute(world, entity);
+			}
+		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("Modifier")) {
+			if ((StringArgumentType.getString(arguments, "AltType")).equals("SuperDoomsday")) {
+				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE) == false && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for mass destruction and lag, you have Successfully toggled on Super Doomsday.\",\"bold\":true,\"color\":\"aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE).set(true, _level.getServer());
+				} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE) == true && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for less destruction and lag, you have Successfully toggled off Super Doomsday.\",\"bold\":true,\"color\":\"dark_aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE).set(false, _level.getServer());
+				} else {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You do not have permission to run this command!\",\"color\":\"red\"}");
+						}
+					}
+				}
+			} else if ((StringArgumentType.getString(arguments, "AltType")).equals("ExtremeDoomsdayLightning")) {
+				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING) == false && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for mass destruction and lag, you have Successfully toggled on Extreme Doomsday Lightning.\",\"bold\":true,\"color\":\"aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING).set(true, _level.getServer());
+				} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING) == true && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for less destruction and lag, you have Successfully toggled off Extreme Doomsday Lightning.\",\"bold\":true,\"color\":\"dark_aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING).set(false, _level.getServer());
+				} else {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You do not have permission to run this command!\",\"color\":\"red\"}");
+						}
+					}
+				}
+			}
+		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("modifier")) {
+			if ((StringArgumentType.getString(arguments, "AltType")).equals("superdoomsday")) {
+				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE) == false && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for mass destruction and lag, you have Successfully toggled on Super Doomsday.\",\"bold\":true,\"color\":\"aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE).set(true, _level.getServer());
+				} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE) == true && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for less destruction and lag, you have Successfully toggled off Super Doomsday.\",\"bold\":true,\"color\":\"dark_aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.SUPER_DOOMS_DAY_TOGGLE).set(false, _level.getServer());
+				} else {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You do not have permission to run this command!\",\"color\":\"red\"}");
+						}
+					}
+				}
+			} else if ((StringArgumentType.getString(arguments, "AltType")).equals("extremedoomsdaylightning")) {
+				if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING) == false && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for mass destruction and lag, you have Successfully toggled on Extreme Doomsday Lightning.\",\"bold\":true,\"color\":\"aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING).set(true, _level.getServer());
+				} else if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING) == true && entity.hasPermissions(4)) {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands()
+									.performPrefixedCommand(
+											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
+													_ent.getDisplayName(), _ent.level.getServer(), _ent),
+											"tellraw @p {\"text\":\"Getting ready for less destruction and lag, you have Successfully toggled off Extreme Doomsday Lightning.\",\"bold\":true,\"color\":\"dark_aqua\"}");
+						}
+					}
+					if (world instanceof Level _level)
+						_level.getGameRules().getRule(AllaboutengieModGameRules.EXTREME_DOOMSDAY_LIGHTNING).set(false, _level.getServer());
+				} else {
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "tellraw @p {\"text\":\"You do not have permission to run this command!\",\"color\":\"red\"}");
+						}
+					}
+				}
 			}
 		}
 	}

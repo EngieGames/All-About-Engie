@@ -36,7 +36,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.allaboutengie.procedures.TheEndRightClickedOnEntityProcedure;
-import net.mcreator.allaboutengie.procedures.DoomsDayNaturalEntitySpawningConditionProcedure;
+import net.mcreator.allaboutengie.procedures.TheEndNaturalEntitySpawningConditionProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -130,7 +130,7 @@ public class TheEndEntity extends PathfinderMob {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return DoomsDayNaturalEntitySpawningConditionProcedure.execute(world);
+			return TheEndNaturalEntitySpawningConditionProcedure.execute(world);
 		});
 	}
 

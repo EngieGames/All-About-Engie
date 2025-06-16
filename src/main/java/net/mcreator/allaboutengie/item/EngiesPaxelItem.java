@@ -110,7 +110,6 @@ public class EngiesPaxelItem extends TieredItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("First look at a paxel/"));
-		list.add(Component.literal("hope I can implement more variants of this to all the other types!"));
+		list.add(Component.literal("Congrats!"));
 	}
 }

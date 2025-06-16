@@ -28,9 +28,6 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onItemInInventoryTick": {
-      "name": "MonstrosityToolObtain"
-    }
+    "damageOnCrafting": false
   }
 }
