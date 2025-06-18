@@ -26,7 +26,9 @@
       "BiblicallyAccurateEngieHoe2",
       "BiblicallyAccurateEngieChestplate1",
       "BiblicallyAccurateEngieLeggings1",
-      "BiblicallyAccurateEngieBoots1"
+      "BiblicallyAccurateEngieBoots1",
+      "BiblicallyScytheCraft",
+      "MonstrosityScytheCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 50,

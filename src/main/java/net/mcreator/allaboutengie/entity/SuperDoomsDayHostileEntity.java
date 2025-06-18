@@ -46,7 +46,7 @@ public class SuperDoomsDayHostileEntity extends Monster {
 		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAY_SCYTHE.get()));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(AllaboutengieModItems.SUPER_DOOMSDAY_SCYTHE.get()));
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAYS_HELMET.get()));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAYS_CHESTPLATE.get()));
 		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAYS_LEGGINGS.get()));

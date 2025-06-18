@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Normal size? I want bigger.",
-    "achievementDescription": "Obtain a Ban Hammer",
+    "achievementDescription": "Obtain a Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:BanHammer"
     },

@@ -19,7 +19,7 @@ public class TheEndScytheItem extends SwordItem {
 	public TheEndScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 14000;
+				return 28000;
 			}
 
 			public float getSpeed() {
@@ -27,7 +27,7 @@ public class TheEndScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6998f;
+				return 6996f;
 			}
 
 			public int getLevel() {
@@ -41,7 +41,7 @@ public class TheEndScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModItems.THE_END_COIN.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
 	}
 
 	@Override

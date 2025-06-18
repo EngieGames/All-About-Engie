@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/ban_hammer_engie",
+  "textures": {
+    "0": "allaboutengie:blocks/engiebanhammer",
+    "particle": "allaboutengie:items/engiebasetext"
+  }
+}

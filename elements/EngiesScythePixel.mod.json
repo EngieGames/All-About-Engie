@@ -6,7 +6,7 @@
     "renderType": 1,
     "texture": "image",
     "customModelName": "engi_scythe_pixel:default",
-    "name": "Pixel Engie's Scythe",
+    "name": "Pixel \"Engie's\" Scythe",
     "specialInfo": [
       "1 of many more to come."
     ],
@@ -17,8 +17,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 10,
-    "damageVsEntity": 2000.0,
-    "usageCount": 9001,
+    "damageVsEntity": 1998.0,
+    "usageCount": 4000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

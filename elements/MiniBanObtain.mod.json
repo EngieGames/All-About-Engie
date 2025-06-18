@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "This really could've been a toy...",
-    "achievementDescription": "Obtain a Mini Ban Hammer",
+    "achievementDescription": "Obtain a Mini Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:MiniBanHammer"
     },

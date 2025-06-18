@@ -4,9 +4,9 @@
   "definition": {
     "type": 1,
     "width": 180,
-    "height": 120,
+    "height": 140,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": -25,
+    "inventoryOffsetY": -15,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -24,8 +24,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 195,
-          "y": 69
+          "x": 194,
+          "y": 80
         }
       },
       {
@@ -43,7 +43,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 69
+          "y": 80
         }
       },
       {
@@ -59,7 +59,7 @@
           },
           "dropItemsWhenNotBound": false,
           "x": 249,
-          "y": 69
+          "y": 80
         }
       },
       {
@@ -73,7 +73,7 @@
           "width": 51,
           "height": 20,
           "x": 132,
-          "y": 68
+          "y": 79
         }
       },
       {
@@ -89,7 +89,75 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 69
+          "y": 80
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "scythetrade",
+          "text": "",
+          "x": 193,
+          "y": 56
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "bantrade",
+          "text": "",
+          "x": 221,
+          "y": 56
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_check_this_to_trade_for_a_scythe",
+          "text": {
+            "fixedValue": "Check this to trade for a Scythe."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 191,
+          "y": 54
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_check_this_to_trade_for_a_ban_ha",
+          "text": {
+            "fixedValue": "Check this to trade for a Ban Hammer"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 219,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "checkmark.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Checkmarkdisplaycondition"
+          },
+          "x": 250,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "denymark.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Denymarkdisplaycondition"
+          },
+          "x": 250,
+          "y": 58
         }
       }
     ],

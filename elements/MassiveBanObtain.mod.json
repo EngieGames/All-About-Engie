@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Remember lads: NO RULEBREAKING.",
-    "achievementDescription": "Obtain a Massive Ban Hammer",
+    "achievementDescription": "Obtain a Massive Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:MassiveBanHammer"
     },

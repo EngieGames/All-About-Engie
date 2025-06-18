@@ -6,7 +6,7 @@
     "renderType": 1,
     "texture": "image",
     "customModelName": "engi_scythe:default",
-    "name": "Engie's Scythe",
+    "name": "\"Engie's\" Scythe",
     "specialInfo": [
       "Apparently Engie says this is owned by someone named \"Distorted\"... Who even is Distorted?"
     ],
@@ -17,8 +17,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 10,
-    "damageVsEntity": 2000.0,
-    "usageCount": 9001,
+    "damageVsEntity": 1998.0,
+    "usageCount": 4000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

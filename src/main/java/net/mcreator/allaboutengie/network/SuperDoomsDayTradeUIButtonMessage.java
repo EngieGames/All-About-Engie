@@ -64,7 +64,7 @@ public class SuperDoomsDayTradeUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			SuperDDayTradeButtonClickedProcedure.execute(world, entity);
+			SuperDDayTradeButtonClickedProcedure.execute(world, entity, guistate);
 		}
 	}
 

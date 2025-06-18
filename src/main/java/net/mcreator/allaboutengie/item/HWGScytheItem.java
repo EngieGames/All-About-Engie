@@ -16,7 +16,7 @@ public class HWGScytheItem extends SwordItem {
 	public HWGScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 9001;
+				return 8000;
 			}
 
 			public float getSpeed() {
@@ -24,7 +24,7 @@ public class HWGScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3998f;
+				return 3996f;
 			}
 
 			public int getLevel() {

@@ -216,18 +216,6 @@ public class AAEAllCommandsProcedure {
 											"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr52 && _plr52.level instanceof ServerLevel
-									&& _plr52.getAdvancements().getOrStartProgress(_plr52.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
-								if (entity instanceof ServerPlayer _player) {
-									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
-									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-									if (!_ap.isDone()) {
-										Iterator _iterator = _ap.getRemainingCriteria().iterator();
-										while (_iterator.hasNext())
-											_player.getAdvancements().award(_adv, (String) _iterator.next());
-									}
-								}
-							}
 							AllaboutengieModVariables.MapVariables.get(world).hewhowatches = true;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						} else if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == true) {
@@ -255,18 +243,6 @@ public class AAEAllCommandsProcedure {
 											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
 													_ent.getDisplayName(), _ent.level.getServer(), _ent),
 											"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
-								}
-							}
-							if ((entity instanceof ServerPlayer _plr57 && _plr57.level instanceof ServerLevel
-									&& _plr57.getAdvancements().getOrStartProgress(_plr57.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
-								if (entity instanceof ServerPlayer _player) {
-									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
-									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-									if (!_ap.isDone()) {
-										Iterator _iterator = _ap.getRemainingCriteria().iterator();
-										while (_iterator.hasNext())
-											_player.getAdvancements().award(_adv, (String) _iterator.next());
-									}
 								}
 							}
 							AllaboutengieModVariables.MapVariables.get(world).hewhowatches = true;
@@ -1123,7 +1099,7 @@ public class AAEAllCommandsProcedure {
 				}
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("code")) {
-			if ((StringArgumentType.getString(arguments, "AltType")).equals("redeem")) {
+			if ((StringArgumentType.getString(arguments, "AltType")).equals("Redeem")) {
 				if ((StringArgumentType.getString(arguments, "TriType")).equals("ByeByeThere")) {
 					if (AllaboutengieModVariables.WorldVariables.get(world).yeah == false) {
 						if ((entity.getCapability(AllaboutengieModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AllaboutengieModVariables.PlayerVariables())).coderedeemblock == false) {
@@ -1141,8 +1117,8 @@ public class AAEAllCommandsProcedure {
 											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:bye_bye_there");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr197 && _plr197.level instanceof ServerLevel
-									&& _plr197.getAdvancements().getOrStartProgress(_plr197.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
+							if ((entity instanceof ServerPlayer _plr193 && _plr193.level instanceof ServerLevel
+									&& _plr193.getAdvancements().getOrStartProgress(_plr193.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
 								if (entity instanceof ServerPlayer _player) {
 									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"));
 									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1187,8 +1163,8 @@ public class AAEAllCommandsProcedure {
 											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "give @p allaboutengie:bye_bye_there");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr202 && _plr202.level instanceof ServerLevel
-									&& _plr202.getAdvancements().getOrStartProgress(_plr202.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
+							if ((entity instanceof ServerPlayer _plr198 && _plr198.level instanceof ServerLevel
+									&& _plr198.getAdvancements().getOrStartProgress(_plr198.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"))).isDone()) == false) {
 								if (entity instanceof ServerPlayer _player) {
 									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:comically_massive_obtain"));
 									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -1238,18 +1214,6 @@ public class AAEAllCommandsProcedure {
 											"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
 								}
 							}
-							if ((entity instanceof ServerPlayer _plr208 && _plr208.level instanceof ServerLevel
-									&& _plr208.getAdvancements().getOrStartProgress(_plr208.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
-								if (entity instanceof ServerPlayer _player) {
-									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
-									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-									if (!_ap.isDone()) {
-										Iterator _iterator = _ap.getRemainingCriteria().iterator();
-										while (_iterator.hasNext())
-											_player.getAdvancements().award(_adv, (String) _iterator.next());
-									}
-								}
-							}
 							AllaboutengieModVariables.MapVariables.get(world).hewhowatches = true;
 							AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 						} else if (AllaboutengieModVariables.MapVariables.get(world).hewhowatches == true) {
@@ -1277,18 +1241,6 @@ public class AAEAllCommandsProcedure {
 											new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
 													_ent.getDisplayName(), _ent.level.getServer(), _ent),
 											"tellraw @p [\"\",{\"text\":\"You start to see figures...\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\n\"},{\"text\":\"Are these figures what made Engie lock the scythe behind a command?\",\"color\":\"dark_red\"}]");
-								}
-							}
-							if ((entity instanceof ServerPlayer _plr213 && _plr213.level instanceof ServerLevel
-									&& _plr213.getAdvancements().getOrStartProgress(_plr213.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"))).isDone()) == false) {
-								if (entity instanceof ServerPlayer _player) {
-									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("allaboutengie:engies_scythe_obtained"));
-									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-									if (!_ap.isDone()) {
-										Iterator _iterator = _ap.getRemainingCriteria().iterator();
-										while (_iterator.hasNext())
-											_player.getAdvancements().award(_adv, (String) _iterator.next());
-									}
 								}
 							}
 							AllaboutengieModVariables.MapVariables.get(world).hewhowatches = true;

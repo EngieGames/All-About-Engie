@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "scythe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BiblicallyAccurateBlock"
+      },
+      {
+        "value": "CUSTOM:OutragedEngieBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngieEssence"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieScythe"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MonstrosityScythe"
+    },
+    "name": "monstrosity_scythe_craft",
+    "namespace": "mod"
+  }
+}

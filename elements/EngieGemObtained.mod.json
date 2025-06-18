@@ -31,7 +31,11 @@
       "BanCraft",
       "BigBanCraft",
       "LargeBanCraft",
-      "EngieBundleCraft"
+      "EngieBundleCraft",
+      "MiniScytheCraft",
+      "ScytheCraft",
+      "BigScytheCraft",
+      "LargeScytheCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,

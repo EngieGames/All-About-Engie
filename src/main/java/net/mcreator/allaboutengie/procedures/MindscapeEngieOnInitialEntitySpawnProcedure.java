@@ -16,7 +16,7 @@ public class MindscapeEngieOnInitialEntitySpawnProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() > 0.05) {
+		if (Math.random() > 0.01) {
 			if (!entity.level.isClientSide())
 				entity.discard();
 		} else {

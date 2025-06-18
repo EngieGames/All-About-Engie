@@ -11,14 +11,14 @@
       "Congrats!"
     ],
     "creativeTab": {
-      "value": "CUSTOM:AAEItemsItems"
+      "value": "CUSTOM:BanHammers"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 10,
-    "damageVsEntity": 8000.0,
-    "usageCount": 16000,
+    "damageVsEntity": 7998.0,
+    "usageCount": 32000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

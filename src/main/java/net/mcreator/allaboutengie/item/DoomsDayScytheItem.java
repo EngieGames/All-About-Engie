@@ -19,7 +19,7 @@ public class DoomsDayScytheItem extends SwordItem {
 	public DoomsDayScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 10000;
+				return 20000;
 			}
 
 			public float getSpeed() {
@@ -27,7 +27,7 @@ public class DoomsDayScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4998f;
+				return 4996f;
 			}
 
 			public int getLevel() {
@@ -41,7 +41,7 @@ public class DoomsDayScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AllaboutengieModItems.DOOMS_DAY_COIN.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 3, -3f, new Item.Properties().tab(AllaboutengieModTabs.TAB_BAN_HAMMERS));
 	}
 
 	@Override

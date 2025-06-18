@@ -47,7 +47,9 @@
       "allaboutengie:biblically_accurate_engie_hoe_2",
       "allaboutengie:biblically_accurate_engie_chestplate_1",
       "allaboutengie:biblically_accurate_engie_leggings_1",
-      "allaboutengie:biblically_accurate_engie_boots_1"
+      "allaboutengie:biblically_accurate_engie_boots_1",
+      "allaboutengie:biblically_scythe_craft",
+      "allaboutengie:monstrosity_scythe_craft"
     ]
   },
   "parent": "allaboutengie:outraged_engie_essence_obtained"

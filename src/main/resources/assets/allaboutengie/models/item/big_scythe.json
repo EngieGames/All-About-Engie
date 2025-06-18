@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/bigscythe",
+  "textures": {
+    "0": "allaboutengie:blocks/normscythe",
+    "particle": "allaboutengie:items/image"
+  }
+}

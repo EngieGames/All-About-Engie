@@ -1,0 +1,7 @@
+{
+  "parent": "allaboutengie:custom/monstrosityscythe",
+  "textures": {
+    "0": "allaboutengie:blocks/monstrosityscythe",
+    "particle": "allaboutengie:items/image"
+  }
+}

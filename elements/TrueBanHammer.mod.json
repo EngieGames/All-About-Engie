@@ -6,9 +6,9 @@
     "renderType": 1,
     "texture": "truebanpixel",
     "customModelName": "ban_hammer_ban:default",
-    "name": "True Ban Hammer (COMMAND)",
+    "name": "True Ban Hammer",
     "specialInfo": [
-      "\"You have been banned by an operator using the True Ban Hammer.\""
+      "Toggle the modes."
     ],
     "creativeTab": {
       "value": "No creative tab entry"
@@ -16,7 +16,7 @@
     "harvestLevel": 0,
     "efficiency": 0.0,
     "attackSpeed": 1.0,
-    "enchantability": 128000,
+    "enchantability": 22,
     "damageVsEntity": 0.0,
     "usageCount": 128000,
     "blocksAffected": [],
@@ -25,6 +25,9 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "TrueBanHammerRightclicked"
+    },
     "onEntityHitWith": {
       "name": "BanFromTrueBanHammer"
     }

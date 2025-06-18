@@ -1,0 +1,32 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "image",
+    "customModelName": "monstrosityscythe:default",
+    "name": "Monstrosity Scythe",
+    "specialInfo": [
+      "You could say this scythe is a Monstrosity.. Heh? Alright I know that was a terrible joke anyway."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BanHammers"
+    },
+    "harvestLevel": 10,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 2398.0,
+    "usageCount": 12000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "MonstrosityBanObtainPro"
+    }
+  }
+}

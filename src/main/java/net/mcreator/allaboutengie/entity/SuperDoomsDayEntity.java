@@ -51,7 +51,7 @@ public class SuperDoomsDayEntity extends PathfinderMob {
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAY_SCYTHE.get()));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(AllaboutengieModItems.SUPER_DOOMSDAY_SCYTHE.get()));
 		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAY_CRUCIFIX.get()));
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAYS_HELMET.get()));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAYS_CHESTPLATE.get()));

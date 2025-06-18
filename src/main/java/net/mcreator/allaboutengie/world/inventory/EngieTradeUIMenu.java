@@ -280,7 +280,7 @@ public class EngieTradeUIMenu extends AbstractContainerMenu implements Supplier<
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			EngieTradeUITickProcedure.execute(entity);
+			EngieTradeUITickProcedure.execute(world, entity, guistate);
 		}
 	}
 }

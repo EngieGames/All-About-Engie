@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Alright, enough is enough. Take a break homie.",
-    "achievementDescription": "Obtain a Monstrosity Ban Hammer",
+    "achievementDescription": "Obtain a Monstrosity Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:MonstrosityBanHammer"
     },

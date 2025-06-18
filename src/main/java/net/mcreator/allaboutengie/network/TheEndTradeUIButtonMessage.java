@@ -64,7 +64,7 @@ public class TheEndTradeUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			TheEndTradeButtonClickedProcedure.execute(world, entity);
+			TheEndTradeButtonClickedProcedure.execute(world, entity, guistate);
 		}
 	}
 

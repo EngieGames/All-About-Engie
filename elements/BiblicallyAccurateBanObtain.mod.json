@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Take a break dude. You're gonna need it.",
-    "achievementDescription": "Obtain a Biblically Accurate Ban Hammer",
+    "achievementDescription": "Obtain a Biblically Accurate Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:BiblicallyAccuratEngieBanHammer"
     },

@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Eh, could be a bit bigger. I don't mind it.",
-    "achievementDescription": "Obtain a Big Ban Hammer",
+    "achievementDescription": "Obtain a Big Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:BigBanHammer"
     },

@@ -1,0 +1,30 @@
+{
+  "group": "scythe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "allaboutengie:biblically_accurate_block"
+    },
+    "1": {
+      "item": "allaboutengie:outraged_engie_block"
+    },
+    "2": {
+      "item": "allaboutengie:monstrosity_engie_essence"
+    },
+    "3": {
+      "item": "allaboutengie:biblically_accurate_engie_scythe"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "allaboutengie:monstrosity_scythe",
+    "count": 1
+  }
+}

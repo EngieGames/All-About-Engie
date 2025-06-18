@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Holy crap these get big...",
-    "achievementDescription": "Obtain a Enormous Ban Hammer",
+    "achievementDescription": "Obtain a Enormous Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:EnormousBanHammer"
     },

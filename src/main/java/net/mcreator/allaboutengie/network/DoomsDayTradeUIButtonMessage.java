@@ -64,7 +64,7 @@ public class DoomsDayTradeUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			TradeButtonClickedProcedure.execute(world, entity);
+			TradeButtonClickedProcedure.execute(world, entity, guistate);
 		}
 	}
 

@@ -320,6 +320,11 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.THE_END.get(), TheEndRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.THE_END_HOSTILE.get(), TheEndHostileRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_GAMES.get(), EngieGamesRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_ENGIE_OLD_RIFTED.get(), EnragedEngieOldRiftedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.MAD_ENGIE_OLD_RIFTED.get(), MadEngieOldRiftedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_ENGIE_OLD_RIFTED.get(), AngryEngieOldRiftedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_CREATOR_RIFTED.get(), AngryCreatorRiftedRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.BLOODY_ENGIE_RIFTED.get(), BloodyEngieRiftedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO.get(), SharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ALBINO_SHARKO.get(), AlbinoSharkoRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_SHARKO.get(), RareSharkoRenderer::new);
@@ -507,6 +512,9 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.NORMAL.get(), NormalRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.MOAB.get(), MOABRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ENGIE_GAMES_DETECTIVE.get(), EngieGamesDetectiveRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.D_DAY_LIGHTNING_SPAWNER.get(), DDayLightningSpawnerRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.DDAY_RIFT.get(), DDAYRiftRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.MINDSCAPE_ENGIE.get(), MindscapeEngieRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.SHARKO_TAMED.get(), SharkTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.ALBINO_SHARKO_TAMED.get(), AlbinoSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.RARE_SHARKO_TAMED.get(), RareSharkoTamedRenderer::new);
@@ -548,13 +556,5 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO.get(), CosmoRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.D_DAY_LIGHTNING_SPAWNER.get(), DDayLightningSpawnerRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.DDAY_RIFT.get(), DDAYRiftRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ENRAGED_ENGIE_OLD_RIFTED.get(), EnragedEngieOldRiftedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.MAD_ENGIE_OLD_RIFTED.get(), MadEngieOldRiftedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_ENGIE_OLD_RIFTED.get(), AngryEngieOldRiftedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.ANGRY_CREATOR_RIFTED.get(), AngryCreatorRiftedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.BLOODY_ENGIE_RIFTED.get(), BloodyEngieRiftedRenderer::new);
-		event.registerEntityRenderer(AllaboutengieModEntities.MINDSCAPE_ENGIE.get(), MindscapeEngieRenderer::new);
 	}
 }

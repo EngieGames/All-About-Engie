@@ -25,7 +25,10 @@
       "EnormousBanCraft",
       "GiganticBanCraft",
       "MassiveBanCraft",
-      "OutragedEngieBundleCraft"
+      "OutragedEngieBundleCraft",
+      "EnormousScytheCraft",
+      "GiganticScytheCraft",
+      "MassiveScytheCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 40,

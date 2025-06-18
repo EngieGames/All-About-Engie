@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Now THIS is a good Ban Hammer choice.",
-    "achievementDescription": "Obtain a Large Ban Hammer",
+    "achievementDescription": "Obtain a Large Ban Hammer/Scythe",
     "achievementIcon": {
       "value": "CUSTOM:LargeBanHammer"
     },

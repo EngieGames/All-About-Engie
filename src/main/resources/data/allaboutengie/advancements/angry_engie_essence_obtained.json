@@ -47,7 +47,11 @@
       "allaboutengie:ban_craft",
       "allaboutengie:big_ban_craft",
       "allaboutengie:large_ban_craft",
-      "allaboutengie:angry_engie_bundle_craft"
+      "allaboutengie:angry_engie_bundle_craft",
+      "allaboutengie:mini_scythe_craft",
+      "allaboutengie:scythe_craft",
+      "allaboutengie:big_scythe_craft",
+      "allaboutengie:large_scythe_craft"
     ]
   },
   "parent": "allaboutengie:engie_gem_obtained"

@@ -110,6 +110,10 @@ public class AllaboutengieModVariables {
 			clone.RiftX = original.RiftX;
 			clone.RiftY = original.RiftY;
 			clone.RiftZ = original.RiftZ;
+			clone.TBHkicktoggle = original.TBHkicktoggle;
+			clone.TBHbantoggle = original.TBHbantoggle;
+			clone.TBHdamagetoggle = original.TBHdamagetoggle;
+			clone.TBHNotoggle = original.TBHNotoggle;
 			if (!event.isWasDeath()) {
 				clone.DoomsdayAlive = original.DoomsdayAlive;
 				clone.firstplay = original.firstplay;
@@ -239,6 +243,10 @@ public class AllaboutengieModVariables {
 		public boolean sddaywait = true;
 		public boolean theendwait = true;
 		public boolean riftspawnoneentity = false;
+		public boolean checkboxbothnomarked = false;
+		public boolean checkboxbothmarked = false;
+		public boolean itemswap1 = false;
+		public boolean itemswap2 = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -307,6 +315,10 @@ public class AllaboutengieModVariables {
 			sddaywait = nbt.getBoolean("sddaywait");
 			theendwait = nbt.getBoolean("theendwait");
 			riftspawnoneentity = nbt.getBoolean("riftspawnoneentity");
+			checkboxbothnomarked = nbt.getBoolean("checkboxbothnomarked");
+			checkboxbothmarked = nbt.getBoolean("checkboxbothmarked");
+			itemswap1 = nbt.getBoolean("itemswap1");
+			itemswap2 = nbt.getBoolean("itemswap2");
 		}
 
 		@Override
@@ -371,6 +383,10 @@ public class AllaboutengieModVariables {
 			nbt.putBoolean("sddaywait", sddaywait);
 			nbt.putBoolean("theendwait", theendwait);
 			nbt.putBoolean("riftspawnoneentity", riftspawnoneentity);
+			nbt.putBoolean("checkboxbothnomarked", checkboxbothnomarked);
+			nbt.putBoolean("checkboxbothmarked", checkboxbothmarked);
+			nbt.putBoolean("itemswap1", itemswap1);
+			nbt.putBoolean("itemswap2", itemswap2);
 			return nbt;
 		}
 
@@ -495,6 +511,10 @@ public class AllaboutengieModVariables {
 		public double RiftX = 0;
 		public double RiftY = 0;
 		public double RiftZ = 0;
+		public boolean TBHkicktoggle = false;
+		public boolean TBHbantoggle = false;
+		public boolean TBHdamagetoggle = false;
+		public boolean TBHNotoggle = true;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -539,6 +559,10 @@ public class AllaboutengieModVariables {
 			nbt.putDouble("RiftX", RiftX);
 			nbt.putDouble("RiftY", RiftY);
 			nbt.putDouble("RiftZ", RiftZ);
+			nbt.putBoolean("TBHkicktoggle", TBHkicktoggle);
+			nbt.putBoolean("TBHbantoggle", TBHbantoggle);
+			nbt.putBoolean("TBHdamagetoggle", TBHdamagetoggle);
+			nbt.putBoolean("TBHNotoggle", TBHNotoggle);
 			return nbt;
 		}
 
@@ -580,6 +604,10 @@ public class AllaboutengieModVariables {
 			RiftX = nbt.getDouble("RiftX");
 			RiftY = nbt.getDouble("RiftY");
 			RiftZ = nbt.getDouble("RiftZ");
+			TBHkicktoggle = nbt.getBoolean("TBHkicktoggle");
+			TBHbantoggle = nbt.getBoolean("TBHbantoggle");
+			TBHdamagetoggle = nbt.getBoolean("TBHdamagetoggle");
+			TBHNotoggle = nbt.getBoolean("TBHNotoggle");
 		}
 	}
 
@@ -640,6 +668,10 @@ public class AllaboutengieModVariables {
 					variables.RiftX = message.data.RiftX;
 					variables.RiftY = message.data.RiftY;
 					variables.RiftZ = message.data.RiftZ;
+					variables.TBHkicktoggle = message.data.TBHkicktoggle;
+					variables.TBHbantoggle = message.data.TBHbantoggle;
+					variables.TBHdamagetoggle = message.data.TBHdamagetoggle;
+					variables.TBHNotoggle = message.data.TBHNotoggle;
 				}
 			});
 			context.setPacketHandled(true);

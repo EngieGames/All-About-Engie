@@ -11,6 +11,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.allaboutengie.world.inventory.TrueBanHammerTogglesMenu;
 import net.mcreator.allaboutengie.world.inventory.TheEndTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.SuperDoomsDayTradeUIMenu;
 import net.mcreator.allaboutengie.world.inventory.OutragedEngieBundleUIMenu;
@@ -48,4 +49,5 @@ public class AllaboutengieModMenus {
 	public static final RegistryObject<MenuType<TheEndTradeUIMenu>> THE_END_TRADE_UI = REGISTRY.register("the_end_trade_ui", () -> IForgeMenuType.create(TheEndTradeUIMenu::new));
 	public static final RegistryObject<MenuType<EngieTradeUIMenu>> ENGIE_TRADE_UI = REGISTRY.register("engie_trade_ui", () -> IForgeMenuType.create(EngieTradeUIMenu::new));
 	public static final RegistryObject<MenuType<BirthdayBundleForYoungestUIMenu>> BIRTHDAY_BUNDLE_FOR_YOUNGEST_UI = REGISTRY.register("birthday_bundle_for_youngest_ui", () -> IForgeMenuType.create(BirthdayBundleForYoungestUIMenu::new));
+	public static final RegistryObject<MenuType<TrueBanHammerTogglesMenu>> TRUE_BAN_HAMMER_TOGGLES = REGISTRY.register("true_ban_hammer_toggles", () -> IForgeMenuType.create(TrueBanHammerTogglesMenu::new));
 }

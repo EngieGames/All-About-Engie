@@ -6,19 +6,19 @@
     "renderType": 1,
     "texture": "superdoomsdayarmoritembase",
     "customModelName": "superdoomsdayscythe:default",
-    "name": "Super DoomsDay Scythe",
+    "name": "Super Doomsday Scythe",
     "specialInfo": [
       "Congrats!"
     ],
     "creativeTab": {
-      "value": "CUSTOM:AAEItemsItems"
+      "value": "CUSTOM:BanHammers"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 10,
-    "damageVsEntity": 6000.0,
-    "usageCount": 12000,
+    "damageVsEntity": 5998.0,
+    "usageCount": 24000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
