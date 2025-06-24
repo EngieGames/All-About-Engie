@@ -21,6 +21,7 @@ import net.mcreator.allaboutengie.entity.MarshalSleepEntity;
 import net.mcreator.allaboutengie.entity.LouisSleepEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoSleepAprilFoolsEntity;
+import net.mcreator.allaboutengie.entity.FinneganSleepEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoSleepEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoSleepAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EpicSharkoSleepEntity;
@@ -679,12 +680,27 @@ public class SharkoChanceForLayProcedure {
 							}
 						});
 					}
+					if (entity instanceof FinneganSleepEntity) {
+						if (!entity.level.isClientSide())
+							entity.discard();
+						AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+						AllaboutengieMod.queueServerWork(1, () -> {
+							{
+								Entity _ent = entity;
+								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:finnegan_lay ~ ~ ~");
+								}
+							}
+						});
+					}
 				} else {
 					AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = true;
 					AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 				}
 			}
-		} else if (world instanceof Level _lvl168 && _lvl168.isDay()) {
+		} else if (world instanceof Level _lvl172 && _lvl172.isDay()) {
 			if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
 				entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
 				if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {

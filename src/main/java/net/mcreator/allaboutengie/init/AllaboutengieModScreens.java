@@ -11,7 +11,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
-import net.mcreator.allaboutengie.client.gui.TrueBanHammerTogglesScreen;
 import net.mcreator.allaboutengie.client.gui.TheEndTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.SuperDoomsDayTradeUIScreen;
 import net.mcreator.allaboutengie.client.gui.OutragedEngieBundleUIScreen;
@@ -50,7 +49,6 @@ public class AllaboutengieModScreens {
 			MenuScreens.register(AllaboutengieModMenus.THE_END_TRADE_UI.get(), TheEndTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.ENGIE_TRADE_UI.get(), EngieTradeUIScreen::new);
 			MenuScreens.register(AllaboutengieModMenus.BIRTHDAY_BUNDLE_FOR_YOUNGEST_UI.get(), BirthdayBundleForYoungestUIScreen::new);
-			MenuScreens.register(AllaboutengieModMenus.TRUE_BAN_HAMMER_TOGGLES.get(), TrueBanHammerTogglesScreen::new);
 		});
 	}
 }

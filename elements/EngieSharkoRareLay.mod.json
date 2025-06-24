@@ -100,7 +100,7 @@
       "name": "EngieRareLayRC"
     },
     "onMobTickUpdate": {
-      "name": "SharkoChanceForSleep"
+      "name": "RareEngieSharkoNameCheck"
     },
     "hasAI": true,
     "aiBase": "(none)",

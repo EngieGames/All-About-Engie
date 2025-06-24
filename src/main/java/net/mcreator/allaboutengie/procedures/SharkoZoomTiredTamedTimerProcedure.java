@@ -22,6 +22,7 @@ import net.mcreator.allaboutengie.entity.MarshalZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.LouisZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoTamedEntity;
+import net.mcreator.allaboutengie.entity.FinneganZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedEntity;
 import net.mcreator.allaboutengie.entity.EpicSharkoTamedZoomiesTiredEntity;
@@ -370,6 +371,16 @@ public class SharkoZoomTiredTamedTimerProcedure {
 					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:bothan_2net ~ ~ ~");
+					}
+				}
+			} else if (entity instanceof FinneganZoomiesTiredEntity) {
+				if (!entity.level.isClientSide())
+					entity.discard();
+				{
+					Entity _ent = entity;
+					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:finnegan ~ ~ ~");
 					}
 				}
 			}

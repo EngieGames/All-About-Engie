@@ -100,7 +100,7 @@
       "name": "EngieRareTameRC"
     },
     "onMobTickUpdate": {
-      "name": "SharkTamedOnEntityTickUpdate"
+      "name": "RareEngieSharkoNameCheck"
     },
     "hasAI": true,
     "aiBase": "(none)",

@@ -1,4 +1,4 @@
-// Made with Blockbench 4.12.4
+// Made with Blockbench 4.12.5
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
@@ -89,7 +89,8 @@ public class Modelengiegamesarmorl1<T extends Entity> extends EntityModel<T> {
 				.texOffs(0, 118).addBox(4.0F, -5.675F, -4.0F, 0.1F, 1.5F, 8.0F, new CubeDeformation(0.0F))
 				.texOffs(0, 119).addBox(-1.5F, -8.075F, -3.975F, 3.0F, 0.1F, 7.975F, new CubeDeformation(0.0F))
 				.texOffs(56, 64).addBox(-1.8F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F))
-				.texOffs(55, 65).addBox(1.5F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F)),
+				.texOffs(55, 65).addBox(1.5F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F)).texOffs(0, 71)
+				.addBox(-4.4F, -1.9F, -4.4F, 8.8F, 2.3F, 8.8F, new CubeDeformation(0.025F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition cube_r1 = head.addOrReplaceChild("cube_r1",

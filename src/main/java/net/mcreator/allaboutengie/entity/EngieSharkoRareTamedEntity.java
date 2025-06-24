@@ -32,7 +32,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.allaboutengie.procedures.SharkTamedOnEntityTickUpdateProcedure;
+import net.mcreator.allaboutengie.procedures.RareEngieSharkoNameCheckProcedure;
 import net.mcreator.allaboutengie.procedures.EngieRareTameRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -121,7 +121,7 @@ public class EngieSharkoRareTamedEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SharkTamedOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		RareEngieSharkoNameCheckProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

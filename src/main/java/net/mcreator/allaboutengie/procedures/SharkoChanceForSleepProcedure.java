@@ -21,6 +21,7 @@ import net.mcreator.allaboutengie.entity.MarshalLayEntity;
 import net.mcreator.allaboutengie.entity.LouisLayEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoLayEntity;
 import net.mcreator.allaboutengie.entity.LegendarySharkoLayAprilFoolsEntity;
+import net.mcreator.allaboutengie.entity.FinneganLayEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoLayAprilFoolsEntity;
 import net.mcreator.allaboutengie.entity.EpicSharkoLayEntity;
@@ -1300,6 +1301,21 @@ public class SharkoChanceForSleepProcedure {
 								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
 											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:bothan_2net_sleep ~ ~ ~");
+								}
+							}
+						});
+					}
+					if (entity instanceof FinneganLayEntity) {
+						if (!entity.level.isClientSide())
+							entity.discard();
+						AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD = true;
+						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+						AllaboutengieMod.queueServerWork(1, () -> {
+							{
+								Entity _ent = entity;
+								if (!_ent.level.isClientSide() && _ent.getServer() != null) {
+									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+											_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:finnegan_sleep ~ ~ ~");
 								}
 							}
 						});

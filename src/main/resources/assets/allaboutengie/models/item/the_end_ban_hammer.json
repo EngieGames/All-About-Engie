@@ -1,7 +1,7 @@
 {
   "parent": "allaboutengie:custom/ban_hammer_theend",
   "textures": {
-    "0": "allaboutengie:blocks/monstrosity",
+    "0": "allaboutengie:blocks/theendbanhammer",
     "particle": "allaboutengie:items/theendbasetext"
   }
 }

@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.6",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "Downloads/sdoomsdayscythe",
-		"particle": "Downloads/sdoomsdayscythe"
+		"0": "Downloads/doomsdayscythe",
+		"particle": "Downloads/doomsdayscythe"
 	},
 	"elements": [
 		{
@@ -698,41 +699,43 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-22.5, 0, 0],
-			"translation": [0, -10.75, 5.5],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [0, -21.25, 9.5],
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [-22.5, 0, 0],
 			"translation": [0, -10.75, 5.5],
-			"scale": [1.5, 1.5, 1.5]
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 0, -30],
-			"scale": [1.25, 1.25, 1.25]
+			"translation": [0, -25, 0],
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 0, -30],
-			"scale": [1.25, 1.25, 1.25]
+			"translation": [0, -25, 0],
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"ground": {
 			"rotation": [0, 0, 90],
-			"translation": [9.75, 0, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [21, 0, 0],
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"gui": {
 			"rotation": [0, 45, -45],
-			"translation": [-4, -7, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [-10, -15, 0],
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"head": {
 			"rotation": [0, 0, 90],
 			"translation": [8.5, 8, 0],
-			"scale": [1.25, 1.25, 1.25]
+			"scale": [3.25, 3.25, 3.25]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [0, -9.5, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [0, -21, 0],
+			"scale": [3.25, 3.25, 3.25]
 		}
 	},
 	"groups": [

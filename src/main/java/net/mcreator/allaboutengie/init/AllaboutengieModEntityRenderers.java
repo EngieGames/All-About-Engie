@@ -98,6 +98,11 @@ import net.mcreator.allaboutengie.client.renderer.LegendaryEngieRenderer;
 import net.mcreator.allaboutengie.client.renderer.InsanityRenderer;
 import net.mcreator.allaboutengie.client.renderer.HeWhoGamesRenderer;
 import net.mcreator.allaboutengie.client.renderer.HeWhoGamesHostileRenderer;
+import net.mcreator.allaboutengie.client.renderer.FinneganZoomiesTiredRenderer;
+import net.mcreator.allaboutengie.client.renderer.FinneganZoomiesRenderer;
+import net.mcreator.allaboutengie.client.renderer.FinneganSleepRenderer;
+import net.mcreator.allaboutengie.client.renderer.FinneganRenderer;
+import net.mcreator.allaboutengie.client.renderer.FinneganLayRenderer;
 import net.mcreator.allaboutengie.client.renderer.ExoticSharkoTamedZoomiesTiredRenderer;
 import net.mcreator.allaboutengie.client.renderer.ExoticSharkoTamedZoomiesRenderer;
 import net.mcreator.allaboutengie.client.renderer.ExoticSharkoTamedRenderer;
@@ -556,5 +561,10 @@ public class AllaboutengieModEntityRenderers {
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedRenderer::new);
 		event.registerEntityRenderer(AllaboutengieModEntities.COSMO.get(), CosmoRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.FINNEGAN.get(), FinneganRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.FINNEGAN_LAY.get(), FinneganLayRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.FINNEGAN_SLEEP.get(), FinneganSleepRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.FINNEGAN_ZOOMIES.get(), FinneganZoomiesRenderer::new);
+		event.registerEntityRenderer(AllaboutengieModEntities.FINNEGAN_ZOOMIES_TIRED.get(), FinneganZoomiesTiredRenderer::new);
 	}
 }

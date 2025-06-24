@@ -25,7 +25,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.allaboutengie.procedures.SharkoChanceForSleepProcedure;
+import net.mcreator.allaboutengie.procedures.RareEngieSharkoNameCheckProcedure;
 import net.mcreator.allaboutengie.procedures.EngieRareLayRCProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
@@ -104,7 +104,7 @@ public class EngieSharkoRareLayEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SharkoChanceForSleepProcedure.execute(this.level, this);
+		RareEngieSharkoNameCheckProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

@@ -105,6 +105,11 @@ import net.mcreator.allaboutengie.entity.LegendaryEngieEntity;
 import net.mcreator.allaboutengie.entity.InsanityEntity;
 import net.mcreator.allaboutengie.entity.HeWhoGamesHostileEntity;
 import net.mcreator.allaboutengie.entity.HeWhoGamesEntity;
+import net.mcreator.allaboutengie.entity.FinneganZoomiesTiredEntity;
+import net.mcreator.allaboutengie.entity.FinneganZoomiesEntity;
+import net.mcreator.allaboutengie.entity.FinneganSleepEntity;
+import net.mcreator.allaboutengie.entity.FinneganLayEntity;
+import net.mcreator.allaboutengie.entity.FinneganEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesTiredEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedZoomiesEntity;
 import net.mcreator.allaboutengie.entity.ExoticSharkoTamedEntity;
@@ -1436,6 +1441,27 @@ public class AllaboutengieModEntities {
 			EntityType.Builder.<CosmoEntity>of(CosmoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CosmoEntity::new)
 
 					.sized(1.4f, 1.8f));
+	public static final RegistryObject<EntityType<FinneganEntity>> FINNEGAN = register("finnegan",
+			EntityType.Builder.<FinneganEntity>of(FinneganEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FinneganEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<FinneganLayEntity>> FINNEGAN_LAY = register("finnegan_lay",
+			EntityType.Builder.<FinneganLayEntity>of(FinneganLayEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FinneganLayEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<FinneganSleepEntity>> FINNEGAN_SLEEP = register("finnegan_sleep",
+			EntityType.Builder.<FinneganSleepEntity>of(FinneganSleepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FinneganSleepEntity::new)
+
+					.sized(0.7f, 0.6f));
+	public static final RegistryObject<EntityType<FinneganZoomiesEntity>> FINNEGAN_ZOOMIES = register("finnegan_zoomies",
+			EntityType.Builder.<FinneganZoomiesEntity>of(FinneganZoomiesEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FinneganZoomiesEntity::new)
+
+					.sized(0.7f, 0.9f));
+	public static final RegistryObject<EntityType<FinneganZoomiesTiredEntity>> FINNEGAN_ZOOMIES_TIRED = register("finnegan_zoomies_tired",
+			EntityType.Builder.<FinneganZoomiesTiredEntity>of(FinneganZoomiesTiredEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(FinneganZoomiesTiredEntity::new)
+
+					.sized(0.7f, 0.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -1715,6 +1741,11 @@ public class AllaboutengieModEntities {
 			BigEngieSharkoRare2TamedEntity.init();
 			BigEpicSharkoTamedEntity.init();
 			CosmoEntity.init();
+			FinneganEntity.init();
+			FinneganLayEntity.init();
+			FinneganSleepEntity.init();
+			FinneganZoomiesEntity.init();
+			FinneganZoomiesTiredEntity.init();
 		});
 	}
 
@@ -1991,5 +2022,10 @@ public class AllaboutengieModEntities {
 		event.put(BIG_TIGER_SHARKO_TAMED.get(), BigEngieSharkoRare2TamedEntity.createAttributes().build());
 		event.put(BIG_EPIC_SHARKO_TAMED.get(), BigEpicSharkoTamedEntity.createAttributes().build());
 		event.put(COSMO.get(), CosmoEntity.createAttributes().build());
+		event.put(FINNEGAN.get(), FinneganEntity.createAttributes().build());
+		event.put(FINNEGAN_LAY.get(), FinneganLayEntity.createAttributes().build());
+		event.put(FINNEGAN_SLEEP.get(), FinneganSleepEntity.createAttributes().build());
+		event.put(FINNEGAN_ZOOMIES.get(), FinneganZoomiesEntity.createAttributes().build());
+		event.put(FINNEGAN_ZOOMIES_TIRED.get(), FinneganZoomiesTiredEntity.createAttributes().build());
 	}
 }

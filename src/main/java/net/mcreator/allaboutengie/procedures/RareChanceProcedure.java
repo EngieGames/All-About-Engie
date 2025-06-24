@@ -14,6 +14,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.allaboutengie.network.AllaboutengieModVariables;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
+import net.mcreator.allaboutengie.init.AllaboutengieModGameRules;
 
 import javax.annotation.Nullable;
 
@@ -102,6 +103,29 @@ public class RareChanceProcedure {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.THE_END_COIN.get()));
 				entityToSpawn.setPickUpDelay(1);
 				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DOOMSDAY_TOGGLE) == false && world.getLevelData().isRaining() && !world.getLevelData().isThundering()) {
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.DOOMS_DAY_COIN.get()));
+				entityToSpawn.setPickUpDelay(1);
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DOOMSDAY_TOGGLE) == false && world.getLevelData().isRaining() && world.getLevelData().isThundering()) {
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAY_COIN.get()));
+				entityToSpawn.setPickUpDelay(1);
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if (world.getLevelData().getGameRules().getBoolean(AllaboutengieModGameRules.DOOMSDAY_TOGGLE) == false && world.getLevelData().isRaining() && world.getLevelData().isThundering()) {
+			if (Math.random() <= 0.05) {
+				if (world instanceof Level _level && !_level.isClientSide()) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AllaboutengieModItems.THE_END_COIN.get()));
+					entityToSpawn.setPickUpDelay(1);
+					_level.addFreshEntity(entityToSpawn);
+				}
 			}
 		}
 	}

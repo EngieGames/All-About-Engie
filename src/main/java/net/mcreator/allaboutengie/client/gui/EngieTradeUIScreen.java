@@ -6,10 +6,13 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.allaboutengie.world.inventory.EngieTradeUIMenu;
+import net.mcreator.allaboutengie.procedures.DenymarkdisplayconditionProcedure;
+import net.mcreator.allaboutengie.procedures.CheckmarkdisplayconditionProcedure;
 import net.mcreator.allaboutengie.network.EngieTradeUIButtonMessage;
 import net.mcreator.allaboutengie.AllaboutengieMod;
 
@@ -23,6 +26,8 @@ public class EngieTradeUIScreen extends AbstractContainerScreen<EngieTradeUIMenu
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Checkbox scythetrade;
+	Checkbox bantrade;
 	Button button_trade;
 
 	public EngieTradeUIScreen(EngieTradeUIMenu container, Inventory inventory, Component text) {
@@ -33,7 +38,7 @@ public class EngieTradeUIScreen extends AbstractContainerScreen<EngieTradeUIMenu
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 180;
-		this.imageHeight = 120;
+		this.imageHeight = 140;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("allaboutengie:textures/screens/engie_trade_ui.png");
@@ -43,6 +48,10 @@ public class EngieTradeUIScreen extends AbstractContainerScreen<EngieTradeUIMenu
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+		if (mouseX > leftPos + 68 && mouseX < leftPos + 92 && mouseY > topPos + 4 && mouseY < topPos + 28)
+			this.renderTooltip(ms, Component.translatable("gui.allaboutengie.engie_trade_ui.tooltip_click_this_to_trade_for_a_scythe"), mouseX, mouseY);
+		if (mouseX > leftPos + 95 && mouseX < leftPos + 119 && mouseY > topPos + 4 && mouseY < topPos + 28)
+			this.renderTooltip(ms, Component.translatable("gui.allaboutengie.engie_trade_ui.tooltip_click_this_to_trade_for_a_ban_ha"), mouseX, mouseY);
 	}
 
 	@Override
@@ -52,6 +61,14 @@ public class EngieTradeUIScreen extends AbstractContainerScreen<EngieTradeUIMenu
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		if (CheckmarkdisplayconditionProcedure.execute(world)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("allaboutengie:textures/screens/checkmark.png"));
+			this.blit(ms, this.leftPos + 126, this.topPos + 8, 0, 0, 16, 16, 16, 16);
+		}
+		if (DenymarkdisplayconditionProcedure.execute(world)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("allaboutengie:textures/screens/denymark.png"));
+			this.blit(ms, this.leftPos + 126, this.topPos + 8, 0, 0, 16, 16, 16, 16);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -83,7 +100,7 @@ public class EngieTradeUIScreen extends AbstractContainerScreen<EngieTradeUIMenu
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		button_trade = new Button(this.leftPos + 8, this.topPos + 8, 51, 20, Component.translatable("gui.allaboutengie.engie_trade_ui.button_trade"), e -> {
+		button_trade = new Button(this.leftPos + 8, this.topPos + 29, 51, 20, Component.translatable("gui.allaboutengie.engie_trade_ui.button_trade"), e -> {
 			if (true) {
 				AllaboutengieMod.PACKET_HANDLER.sendToServer(new EngieTradeUIButtonMessage(0, x, y, z));
 				EngieTradeUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -91,5 +108,11 @@ public class EngieTradeUIScreen extends AbstractContainerScreen<EngieTradeUIMenu
 		});
 		guistate.put("button:button_trade", button_trade);
 		this.addRenderableWidget(button_trade);
+		scythetrade = new Checkbox(this.leftPos + 70, this.topPos + 6, 20, 20, Component.translatable("gui.allaboutengie.engie_trade_ui.scythetrade"), false);
+		guistate.put("checkbox:scythetrade", scythetrade);
+		this.addRenderableWidget(scythetrade);
+		bantrade = new Checkbox(this.leftPos + 97, this.topPos + 6, 20, 20, Component.translatable("gui.allaboutengie.engie_trade_ui.bantrade"), false);
+		guistate.put("checkbox:bantrade", bantrade);
+		this.addRenderableWidget(bantrade);
 	}
 }

@@ -47,7 +47,7 @@
     "equipmentBoots": {
       "value": "CUSTOM:EngieGamess.boots"
     },
-    "mobBehaviourType": "Mob",
+    "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 1,
     "attackKnockback": 0.0,

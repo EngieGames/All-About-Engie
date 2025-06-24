@@ -97,7 +97,7 @@
       "value": ""
     },
     "onMobTickUpdate": {
-      "name": "SharkoChanceForLay"
+      "name": "RareEngieSharkoNameCheck"
     },
     "hasAI": true,
     "aiBase": "(none)",

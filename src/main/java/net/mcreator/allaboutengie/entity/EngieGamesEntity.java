@@ -21,6 +21,7 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -38,7 +39,7 @@ import net.mcreator.allaboutengie.procedures.EngieGamesRightClickedOnEntityTrade
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
-public class EngieGamesEntity extends Monster {
+public class EngieGamesEntity extends PathfinderMob {
 	public EngieGamesEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AllaboutengieModEntities.ENGIE_GAMES.get(), world);
 	}

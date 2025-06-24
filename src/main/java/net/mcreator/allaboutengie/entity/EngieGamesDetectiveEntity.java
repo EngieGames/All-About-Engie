@@ -20,6 +20,7 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -36,7 +37,7 @@ import net.mcreator.allaboutengie.procedures.EngieGamesRightClickedOnEntityProce
 import net.mcreator.allaboutengie.procedures.EngieGamesDetectiveNaturalEntitySpawningConditionProcedure;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
 
-public class EngieGamesDetectiveEntity extends Monster {
+public class EngieGamesDetectiveEntity extends PathfinderMob {
 	public EngieGamesDetectiveEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AllaboutengieModEntities.ENGIE_GAMES_DETECTIVE.get(), world);
 	}

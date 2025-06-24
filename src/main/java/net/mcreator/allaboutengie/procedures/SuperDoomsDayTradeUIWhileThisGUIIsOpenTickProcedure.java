@@ -30,6 +30,39 @@ public class SuperDoomsDayTradeUIWhileThisGUIIsOpenTickProcedure {
 			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 			AllaboutengieModVariables.MapVariables.get(world).checkboxbothmarked = true;
 			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+		} else if (!(guistate.containsKey("checkbox:scythetrade") ? ((Checkbox) guistate.get("checkbox:scythetrade")).selected() : false)
+				&& !(guistate.containsKey("checkbox:bantrade") ? ((Checkbox) guistate.get("checkbox:bantrade")).selected() : false) && new Object() {
+					public int getAmount(int sltid) {
+						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+							if (stack != null)
+								return stack.getCount();
+						}
+						return 0;
+					}
+				}.getAmount(0) >= 64 && new Object() {
+					public int getAmount(int sltid) {
+						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+							if (stack != null)
+								return stack.getCount();
+						}
+						return 0;
+					}
+				}.getAmount(1) >= 60 && new Object() {
+					public int getAmount(int sltid) {
+						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+							if (stack != null)
+								return stack.getCount();
+						}
+						return 0;
+					}
+				}.getAmount(1) < 64) {
+			AllaboutengieModVariables.MapVariables.get(world).checkboxbothnomarked = false;
+			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
+			AllaboutengieModVariables.MapVariables.get(world).checkboxbothmarked = true;
+			AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 		}
 		if (new Object() {
 			public int getAmount(int sltid) {
@@ -395,6 +428,14 @@ public class SuperDoomsDayTradeUIWhileThisGUIIsOpenTickProcedure {
 		}.getAmount(1) == 0) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(AllaboutengieModItems.SUPER_DOOMS_DAY_AXE.get());
+				_setstack.setCount(1);
+				((Slot) _slots.get(2)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if ((guistate.containsKey("checkbox:scythetrade") ? ((Checkbox) guistate.get("checkbox:scythetrade")).selected() : false)
+				&& (guistate.containsKey("checkbox:bantrade") ? ((Checkbox) guistate.get("checkbox:bantrade")).selected() : false)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(Blocks.AIR);
 				_setstack.setCount(1);
 				((Slot) _slots.get(2)).set(_setstack);
 				_player.containerMenu.broadcastChanges();

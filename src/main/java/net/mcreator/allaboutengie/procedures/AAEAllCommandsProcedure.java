@@ -58,14 +58,14 @@ public class AAEAllCommandsProcedure {
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("Pixelify")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("Toggle")) {
-				if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
+				if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
 						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = true;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
-				} else if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
+				} else if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
+						_player.displayClientMessage(Component.literal("Toggled off Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = false;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
 				} else {
@@ -80,14 +80,14 @@ public class AAEAllCommandsProcedure {
 			}
 		} else if ((StringArgumentType.getString(arguments, "MainType")).equals("pixelify")) {
 			if ((StringArgumentType.getString(arguments, "AltType")).equals("toggle")) {
-				if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
+				if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
 						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = true;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
-				} else if (BoolArgumentType.getBool(arguments, "logic") == true && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
+				} else if (BoolArgumentType.getBool(arguments, "logic") == false && (entity.hasPermissions(3) || entity.hasPermissions(4))) {
 					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(Component.literal("Toggled on Pixel Items"), true);
+						_player.displayClientMessage(Component.literal("Toggled off Pixel Items"), true);
 					AllaboutengieModVariables.WorldVariables.get(world).yeah = false;
 					AllaboutengieModVariables.WorldVariables.get(world).syncData(world);
 				} else {

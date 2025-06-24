@@ -148,32 +148,10 @@ public class EngieTradeUIButtonClickedProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			});
-		} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == AllaboutengieModItems.ENGIES_PAXEL
-				.get()) {
-			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				((Slot) _slots.get(0)).remove(64);
-				_player.containerMenu.broadcastChanges();
-			}
-			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				((Slot) _slots.get(1)).remove(0);
-				_player.containerMenu.broadcastChanges();
-			}
-			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				((Slot) _slots.get(2)).remove(1);
-				_player.containerMenu.broadcastChanges();
-			}
-			AllaboutengieMod.queueServerWork(1, () -> {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(AllaboutengieModItems.ENGIES_PAXEL.get());
-					_setstack.setCount(1);
-					((Slot) _slots.get(3)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
-			});
 		} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == AllaboutengieModItems.ENGIES_HOE
 				.get()) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				((Slot) _slots.get(0)).remove(52);
+				((Slot) _slots.get(0)).remove(64);
 				_player.containerMenu.broadcastChanges();
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {

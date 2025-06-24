@@ -97,7 +97,7 @@
       "value": ""
     },
     "onMobTickUpdate": {
-      "name": "SharkoTamedZoomTimer"
+      "name": "RareEngieSharkoNameCheck"
     },
     "hasAI": true,
     "aiBase": "(none)",

@@ -30,8 +30,6 @@ import net.mcreator.allaboutengie.item.UncommonPickaxeItem;
 import net.mcreator.allaboutengie.item.UncommonItem;
 import net.mcreator.allaboutengie.item.UncommonHoeItem;
 import net.mcreator.allaboutengie.item.UncommonAxeItem;
-import net.mcreator.allaboutengie.item.TrueBanHammerPixelItem;
-import net.mcreator.allaboutengie.item.TrueBanHammerItem;
 import net.mcreator.allaboutengie.item.TheEndsItem;
 import net.mcreator.allaboutengie.item.TheEndShovelItem;
 import net.mcreator.allaboutengie.item.TheEndScytheItem;
@@ -308,6 +306,8 @@ import net.mcreator.allaboutengie.item.AngryEngieAxeItem;
 import net.mcreator.allaboutengie.item.AllAboutEngiePlaqueItem;
 import net.mcreator.allaboutengie.item.AlbinoSharkoClothItem;
 import net.mcreator.allaboutengie.item.AlbinoSharkItem;
+import net.mcreator.allaboutengie.item.ARealBanHammerPixelItem;
+import net.mcreator.allaboutengie.item.ARealBanHammerItem;
 import net.mcreator.allaboutengie.item.AAEEngieItem;
 import net.mcreator.allaboutengie.item.AAEDevEngieItem;
 import net.mcreator.allaboutengie.AllaboutengieMod;
@@ -781,9 +781,7 @@ public class AllaboutengieModItems {
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_TNT, -2412774, -7405568, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
 	public static final RegistryObject<Item> ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("enraged_speed_spawn_egg",
 			() -> new ForgeSpawnEggItem(AllaboutengieModEntities.ENRAGED_SPEED, -16489688, -7405568, new Item.Properties().tab(AllaboutengieModTabs.TAB_ZOMBIES)));
-	public static final RegistryObject<Item> TRUE_BAN_HAMMER = REGISTRY.register("true_ban_hammer", () -> new TrueBanHammerItem());
 	public static final RegistryObject<Item> ECHDEATH = REGISTRY.register("echdeath", () -> new EchdeathItem());
-	public static final RegistryObject<Item> TRUE_BAN_HAMMER_PIXEL = REGISTRY.register("true_ban_hammer_pixel", () -> new TrueBanHammerPixelItem());
 	public static final RegistryObject<Item> ECHDEATH_PIXEL = REGISTRY.register("echdeath_pixel", () -> new EchdeathPixelItem());
 	public static final RegistryObject<Item> OPERATORS_HELMET = REGISTRY.register("operators_helmet", () -> new OperatorsItem.Helmet());
 	public static final RegistryObject<Item> OPERATORS_CHESTPLATE = REGISTRY.register("operators_chestplate", () -> new OperatorsItem.Chestplate());
@@ -857,6 +855,8 @@ public class AllaboutengieModItems {
 	public static final RegistryObject<Item> MINDSCAPE_ENGIES_CHESTPLATE = REGISTRY.register("mindscape_engies_chestplate", () -> new MindscapeEngiesItem.Chestplate());
 	public static final RegistryObject<Item> MINDSCAPE_ENGIES_LEGGINGS = REGISTRY.register("mindscape_engies_leggings", () -> new MindscapeEngiesItem.Leggings());
 	public static final RegistryObject<Item> MINDSCAPE_ENGIES_BOOTS = REGISTRY.register("mindscape_engies_boots", () -> new MindscapeEngiesItem.Boots());
+	public static final RegistryObject<Item> A_REAL_BAN_HAMMER = REGISTRY.register("a_real_ban_hammer", () -> new ARealBanHammerItem());
+	public static final RegistryObject<Item> A_REAL_BAN_HAMMER_PIXEL = REGISTRY.register("a_real_ban_hammer_pixel", () -> new ARealBanHammerPixelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

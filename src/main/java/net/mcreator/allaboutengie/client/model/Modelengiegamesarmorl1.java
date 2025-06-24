@@ -16,7 +16,7 @@ import net.minecraft.client.model.EntityModel;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-// Made with Blockbench 4.12.4
+// Made with Blockbench 4.12.5
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 public class Modelengiegamesarmorl1<T extends Entity> extends EntityModel<T> {
@@ -87,7 +87,8 @@ public class Modelengiegamesarmorl1<T extends Entity> extends EntityModel<T> {
 						.addBox(-4.1F, -5.95F, -5.0F, 8.2F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 125).mirror().addBox(-1.5F, -8.075F, 4.0F, 3.0F, 2.4F, 0.1F, new CubeDeformation(0.0F)).mirror(false).texOffs(0, 126).mirror()
 						.addBox(-4.1F, -5.675F, 4.0F, 8.2F, 1.5F, 0.1F, new CubeDeformation(0.0F)).mirror(false).texOffs(0, 118).addBox(-4.1F, -5.675F, -4.0F, 0.1F, 1.5F, 8.0F, new CubeDeformation(0.0F)).texOffs(0, 118)
 						.addBox(4.0F, -5.675F, -4.0F, 0.1F, 1.5F, 8.0F, new CubeDeformation(0.0F)).texOffs(0, 119).addBox(-1.5F, -8.075F, -3.975F, 3.0F, 0.1F, 7.975F, new CubeDeformation(0.0F)).texOffs(56, 64)
-						.addBox(-1.8F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F)).texOffs(55, 65).addBox(1.5F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F)),
+						.addBox(-1.8F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F)).texOffs(55, 65).addBox(1.5F, -6.25F, -4.5F, 0.3F, 0.3F, 0.5F, new CubeDeformation(0.0F)).texOffs(0, 71)
+						.addBox(-4.4F, -1.9F, -4.4F, 8.8F, 2.3F, 8.8F, new CubeDeformation(0.025F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 		PartDefinition cube_r1 = head.addOrReplaceChild("cube_r1", CubeListBuilder.create().texOffs(0, 125).addBox(-1.5F, -1.25F, -0.05F, 3.0F, 2.5F, 0.1F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(0.0F, -6.8393F, -4.1868F, -0.1309F, 0.0F, 0.0F));
