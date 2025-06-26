@@ -49,7 +49,7 @@ public class SuperDoomsDayPaxelItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 36;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

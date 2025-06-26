@@ -1,0 +1,168 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Echdeath"
+      },
+      {
+        "value": "CUSTOM:EchdeathPixel"
+      },
+      {
+        "value": "CUSTOM:MiniBanHammer"
+      },
+      {
+        "value": "CUSTOM:BanHammer"
+      },
+      {
+        "value": "CUSTOM:BigBanHammer"
+      },
+      {
+        "value": "CUSTOM:LargeBanHammer"
+      },
+      {
+        "value": "CUSTOM:HugeBanHammer"
+      },
+      {
+        "value": "CUSTOM:MiniBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:EnormousBanHammer"
+      },
+      {
+        "value": "CUSTOM:GiganticBanHammer"
+      },
+      {
+        "value": "CUSTOM:MassiveBanHammer"
+      },
+      {
+        "value": "CUSTOM:BanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:BigBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:LargeBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:HugeBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:EnormousBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:GiganticBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:MassiveBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemersHammer"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemersHammerPixel"
+      },
+      {
+        "value": "CUSTOM:CommonSword"
+      },
+      {
+        "value": "CUSTOM:UncommonSword"
+      },
+      {
+        "value": "CUSTOM:RareSword"
+      },
+      {
+        "value": "CUSTOM:EpicSword"
+      },
+      {
+        "value": "CUSTOM:LegendarySword"
+      },
+      {
+        "value": "CUSTOM:MythicSword"
+      },
+      {
+        "value": "CUSTOM:ExoticSword"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumSword"
+      },
+      {
+        "value": "CUSTOM:MonstrosityBanHammer"
+      },
+      {
+        "value": "CUSTOM:MonstrosityBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:HWGScythe"
+      },
+      {
+        "value": "CUSTOM:DoomsDayScythe"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsDayScythe"
+      },
+      {
+        "value": "CUSTOM:TheEndScythe"
+      },
+      {
+        "value": "CUSTOM:EngieScythe"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsdayBanHammer"
+      },
+      {
+        "value": "CUSTOM:TheEndBanHammer"
+      },
+      {
+        "value": "CUSTOM:EngiesBanHammer"
+      },
+      {
+        "value": "CUSTOM:ARealBanHammer"
+      },
+      {
+        "value": "CUSTOM:ARealBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:MiniScythe"
+      },
+      {
+        "value": "CUSTOM:Scythe"
+      },
+      {
+        "value": "CUSTOM:BigScythe"
+      },
+      {
+        "value": "CUSTOM:LargeScythe"
+      },
+      {
+        "value": "CUSTOM:HugeScythe"
+      },
+      {
+        "value": "CUSTOM:EnormousScythe"
+      },
+      {
+        "value": "CUSTOM:GiganticScythe"
+      },
+      {
+        "value": "CUSTOM:MassiveScythe"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieScythe"
+      },
+      {
+        "value": "CUSTOM:MonstrosityScythe"
+      },
+      {
+        "value": "CUSTOM:DoomsdayBanHammer"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "swordblockitems",
+    "namespace": "forge"
+  }
+}

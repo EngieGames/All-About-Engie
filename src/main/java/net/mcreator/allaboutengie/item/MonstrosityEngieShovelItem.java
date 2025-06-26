@@ -33,7 +33,7 @@ public class MonstrosityEngieShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 30;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

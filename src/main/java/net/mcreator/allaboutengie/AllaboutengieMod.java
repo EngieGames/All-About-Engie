@@ -36,6 +36,7 @@ import net.mcreator.allaboutengie.init.AllaboutengieModMenus;
 import net.mcreator.allaboutengie.init.AllaboutengieModItems;
 import net.mcreator.allaboutengie.init.AllaboutengieModFeatures;
 import net.mcreator.allaboutengie.init.AllaboutengieModEntities;
+import net.mcreator.allaboutengie.init.AllaboutengieModEnchantments;
 import net.mcreator.allaboutengie.init.AllaboutengieModBlocks;
 import net.mcreator.allaboutengie.init.AllaboutengieModBlockEntities;
 
@@ -64,6 +65,8 @@ public class AllaboutengieMod {
 		AllaboutengieModBlockEntities.REGISTRY.register(bus);
 		AllaboutengieModFeatures.REGISTRY.register(bus);
 		AllaboutengieModPaintings.REGISTRY.register(bus);
+
+		AllaboutengieModEnchantments.REGISTRY.register(bus);
 
 		AllaboutengieModMenus.REGISTRY.register(bus);
 

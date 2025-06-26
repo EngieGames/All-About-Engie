@@ -35,7 +35,7 @@ public class DoomsDayHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 33;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

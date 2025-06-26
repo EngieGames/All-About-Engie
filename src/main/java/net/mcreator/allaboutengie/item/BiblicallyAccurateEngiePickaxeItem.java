@@ -36,7 +36,7 @@ public class BiblicallyAccurateEngiePickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 25;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

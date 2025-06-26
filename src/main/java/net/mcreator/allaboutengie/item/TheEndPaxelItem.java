@@ -49,7 +49,7 @@ public class TheEndPaxelItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 39;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

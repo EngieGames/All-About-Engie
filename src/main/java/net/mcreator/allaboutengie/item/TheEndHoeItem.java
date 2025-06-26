@@ -35,7 +35,7 @@ public class TheEndHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 39;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

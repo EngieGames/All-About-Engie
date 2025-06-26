@@ -6,9 +6,11 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
@@ -314,6 +316,27 @@ public class RareEngieSharkoNameCheckProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_tamed_zoomies_tired ~ ~ ~");
 						}
 					}
+					AllaboutengieMod.queueServerWork(1, () -> {
+						if (((Entity) world.getEntitiesOfClass(EngieSharkoRareTamedZoomiesTiredEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+							}
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRareTamedZoomiesTiredEntity) {
+							if (((Entity) world.getEntitiesOfClass(EngieSharkoRareTamedZoomiesTiredEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof LivingEntity _entity)
+								_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+							if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko (Zoomies)")) {
+								((Entity) world.getEntitiesOfClass(EngieSharkoRareTamedZoomiesTiredEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+									Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+										return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+									}
+								}.compareDistOf(x, y, z)).findFirst().orElse(null)).setCustomName(Component.literal((entity.getDisplayName().getString())));
+							}
+						}
+					});
 				}
 			}
 			if ((entity.getDisplayName().getString()).equals("Finnegan")) {
@@ -340,6 +363,27 @@ public class RareEngieSharkoNameCheckProcedure {
 									_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_tamed ~ ~ ~");
 						}
 					}
+					AllaboutengieMod.queueServerWork(1, () -> {
+						if (((Entity) world.getEntitiesOfClass(EngieSharkoRareTamedEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+							}
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRareTamedEntity) {
+							if (((Entity) world.getEntitiesOfClass(EngieSharkoRareTamedEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof LivingEntity _entity)
+								_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+							if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko (Worn Out)")) {
+								((Entity) world.getEntitiesOfClass(EngieSharkoRareTamedEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+									Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+										return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+									}
+								}.compareDistOf(x, y, z)).findFirst().orElse(null)).setCustomName(Component.literal((entity.getDisplayName().getString())));
+							}
+						}
+					});
 				}
 			}
 			if ((entity.getDisplayName().getString()).equals("Finnegan")) {
@@ -354,7 +398,7 @@ public class RareEngieSharkoNameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof EngieSharkoRareLayEntity) {
-			if (!(world instanceof Level _lvl96 && _lvl96.isDay())) {
+			if (!(world instanceof Level _lvl116 && _lvl116.isDay())) {
 				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
 					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
 					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
@@ -374,6 +418,27 @@ public class RareEngieSharkoNameCheckProcedure {
 												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_sleep ~ ~ ~");
 									}
 								}
+								AllaboutengieMod.queueServerWork(1, () -> {
+									if (((Entity) world.getEntitiesOfClass(EngieSharkoRareSleepEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+										Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+											return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+										}
+									}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRareSleepEntity) {
+										if (((Entity) world.getEntitiesOfClass(EngieSharkoRareSleepEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+											Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+												return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+											}
+										}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof LivingEntity _entity)
+											_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+										if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko (Laying)")) {
+											((Entity) world.getEntitiesOfClass(EngieSharkoRareSleepEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+												Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+													return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+												}
+											}.compareDistOf(x, y, z)).findFirst().orElse(null)).setCustomName(Component.literal((entity.getDisplayName().getString())));
+										}
+									}
+								});
 							});
 						}
 					} else {
@@ -381,7 +446,7 @@ public class RareEngieSharkoNameCheckProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
-			} else if (world instanceof Level _lvl104 && _lvl104.isDay()) {
+			} else if (world instanceof Level _lvl134 && _lvl134.isDay()) {
 				if (AllaboutengieModVariables.MapVariables.get(world).SharkoLayCD == true) {
 					entity.getPersistentData().putDouble("SharkoLayCD", (entity.getPersistentData().getDouble("SharkoLayCD") + 0.05));
 					if (entity.getPersistentData().getDouble("SharkoLayCD") >= 240) {
@@ -401,6 +466,27 @@ public class RareEngieSharkoNameCheckProcedure {
 												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_sleep ~ ~ ~");
 									}
 								}
+								AllaboutengieMod.queueServerWork(1, () -> {
+									if (((Entity) world.getEntitiesOfClass(EngieSharkoRareSleepEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+										Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+											return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+										}
+									}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRareSleepEntity) {
+										if (((Entity) world.getEntitiesOfClass(EngieSharkoRareSleepEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+											Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+												return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+											}
+										}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof LivingEntity _entity)
+											_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+										if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko (Laying)")) {
+											((Entity) world.getEntitiesOfClass(EngieSharkoRareSleepEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+												Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+													return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+												}
+											}.compareDistOf(x, y, z)).findFirst().orElse(null)).setCustomName(Component.literal((entity.getDisplayName().getString())));
+										}
+									}
+								});
 							});
 						}
 					} else {
@@ -421,7 +507,7 @@ public class RareEngieSharkoNameCheckProcedure {
 				}
 			}
 		} else if (entity instanceof EngieSharkoRareSleepEntity) {
-			if (!(world instanceof Level _lvl116 && _lvl116.isDay())) {
+			if (!(world instanceof Level _lvl156 && _lvl156.isDay())) {
 				if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
 					entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
 					if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {
@@ -441,6 +527,27 @@ public class RareEngieSharkoNameCheckProcedure {
 												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_lay ~ ~ ~");
 									}
 								}
+								AllaboutengieMod.queueServerWork(1, () -> {
+									if (((Entity) world.getEntitiesOfClass(EngieSharkoRareLayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+										Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+											return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+										}
+									}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRareLayEntity) {
+										if (((Entity) world.getEntitiesOfClass(EngieSharkoRareLayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+											Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+												return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+											}
+										}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof LivingEntity _entity)
+											_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+										if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko (Sleeping)")) {
+											((Entity) world.getEntitiesOfClass(EngieSharkoRareLayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+												Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+													return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+												}
+											}.compareDistOf(x, y, z)).findFirst().orElse(null)).setCustomName(Component.literal((entity.getDisplayName().getString())));
+										}
+									}
+								});
 							});
 						}
 					} else {
@@ -448,7 +555,7 @@ public class RareEngieSharkoNameCheckProcedure {
 						AllaboutengieModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
-			} else if (world instanceof Level _lvl124 && _lvl124.isDay()) {
+			} else if (world instanceof Level _lvl174 && _lvl174.isDay()) {
 				if (AllaboutengieModVariables.MapVariables.get(world).SharkoSleepCD == true) {
 					entity.getPersistentData().putDouble("SharkoSleepCD", (entity.getPersistentData().getDouble("SharkoSleepCD") + 0.05));
 					if (entity.getPersistentData().getDouble("SharkoSleepCD") >= 240) {
@@ -468,6 +575,27 @@ public class RareEngieSharkoNameCheckProcedure {
 												4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon allaboutengie:engie_sharko_rare_lay ~ ~ ~");
 									}
 								}
+								AllaboutengieMod.queueServerWork(1, () -> {
+									if (((Entity) world.getEntitiesOfClass(EngieSharkoRareLayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+										Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+											return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+										}
+									}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof EngieSharkoRareLayEntity) {
+										if (((Entity) world.getEntitiesOfClass(EngieSharkoRareLayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+											Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+												return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+											}
+										}.compareDistOf(x, y, z)).findFirst().orElse(null)) instanceof LivingEntity _entity)
+											_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+										if (!(entity.getDisplayName().getString()).equals("[Tamed] Rare Engie Sharko (Sleeping)")) {
+											((Entity) world.getEntitiesOfClass(EngieSharkoRareLayEntity.class, AABB.ofSize(new Vec3(x, y, z), 1, 1, 1), e -> true).stream().sorted(new Object() {
+												Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+													return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+												}
+											}.compareDistOf(x, y, z)).findFirst().orElse(null)).setCustomName(Component.literal((entity.getDisplayName().getString())));
+										}
+									}
+								});
 							});
 						}
 					} else {

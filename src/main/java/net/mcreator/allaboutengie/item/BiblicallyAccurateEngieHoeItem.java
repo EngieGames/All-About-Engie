@@ -36,7 +36,7 @@ public class BiblicallyAccurateEngieHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 27;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

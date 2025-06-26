@@ -33,7 +33,7 @@ public class AngryEngieAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 16;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

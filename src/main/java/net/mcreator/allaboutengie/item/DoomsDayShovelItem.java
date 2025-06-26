@@ -35,7 +35,7 @@ public class DoomsDayShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 33;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

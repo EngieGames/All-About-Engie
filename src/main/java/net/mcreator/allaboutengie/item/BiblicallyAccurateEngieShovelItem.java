@@ -36,7 +36,7 @@ public class BiblicallyAccurateEngieShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 27;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

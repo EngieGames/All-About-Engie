@@ -47,7 +47,7 @@ public class MonstrosityEngiePaxelItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 30;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

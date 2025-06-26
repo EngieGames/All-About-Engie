@@ -35,7 +35,7 @@ public class SuperDoomsDayPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 36;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

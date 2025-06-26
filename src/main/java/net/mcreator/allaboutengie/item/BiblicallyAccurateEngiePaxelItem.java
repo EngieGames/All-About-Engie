@@ -49,7 +49,7 @@ public class BiblicallyAccurateEngiePaxelItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 27;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

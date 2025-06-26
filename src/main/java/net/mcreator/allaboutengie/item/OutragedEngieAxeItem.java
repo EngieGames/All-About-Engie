@@ -33,7 +33,7 @@ public class OutragedEngieAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

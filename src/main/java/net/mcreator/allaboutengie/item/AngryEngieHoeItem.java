@@ -33,7 +33,7 @@ public class AngryEngieHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 16;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

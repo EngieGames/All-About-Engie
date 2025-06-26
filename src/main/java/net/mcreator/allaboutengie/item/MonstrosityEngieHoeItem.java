@@ -33,7 +33,7 @@ public class MonstrosityEngieHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 30;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

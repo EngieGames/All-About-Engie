@@ -2878,6 +2878,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -24787,6 +24791,422 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "Swordblockitems",
+      "type": "tag",
+      "sortid": 1360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordblockitems",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/swordblockitems.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "EngiesBlessing",
+      "type": "enchantment",
+      "sortid": 1362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_blessing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/enchantment/EngiesBlessingEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "EngieBlessingDamages",
+      "type": "procedure",
+      "sortid": 1363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_damages",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingDamagesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking",
+      "type": "procedure",
+      "sortid": 1364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreakingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking10",
+      "type": "procedure",
+      "sortid": 1365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking15",
+      "type": "procedure",
+      "sortid": 1366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_15",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking20",
+      "type": "procedure",
+      "sortid": 1367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_20",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking25",
+      "type": "procedure",
+      "sortid": 1368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_25",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking25Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking30",
+      "type": "procedure",
+      "sortid": 1369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_30",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking30Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking35",
+      "type": "procedure",
+      "sortid": 1370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_35",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking35Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking40",
+      "type": "procedure",
+      "sortid": 1371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_40",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking40Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking45",
+      "type": "procedure",
+      "sortid": 1372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_45",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking45Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking50",
+      "type": "procedure",
+      "sortid": 1373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_50",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking50Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieBlessingBlockBreaking05",
+      "type": "procedure",
+      "sortid": 1374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_blessing_block_breaking_05",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/allaboutengie/procedures/EngieBlessingBlockBreaking05Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -26296,6 +26716,7 @@
       "block.allaboutengie.textboxyeah": "Textbox",
       "block.allaboutengie.thanks_for_playing": "Thanks for playing!",
       "painting.allaboutengie.aae_items_logo.title": "AAE Items Logo",
+      "enchantment.allaboutengie.engies_blessing": "Engies Blessing",
       "item.allaboutengie.uncooked_pizza": "Uncooked Pizza",
       "entity.allaboutengie.apollo_zoomies": "Apollo",
       "item.allaboutengie.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
@@ -26932,13 +27353,17 @@
       {
         "name": "Keybinds",
         "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "allaboutengie",
     "modName": "All About Engie",
-    "version": "6.23.25",
+    "version": "6.25.25",
     "description": "A collection of all my other mods for my 5th year of making mods! If you find issues, report them on the GitHub page for the mod please.",
     "author": "DevEngie",
     "websiteURL": "https://modrinth.com/user/DevEngie",

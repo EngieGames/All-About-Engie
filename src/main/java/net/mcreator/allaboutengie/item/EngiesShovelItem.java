@@ -35,7 +35,7 @@ public class EngiesShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 42;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

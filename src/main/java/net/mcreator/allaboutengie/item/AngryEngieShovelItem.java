@@ -33,7 +33,7 @@ public class AngryEngieShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 16;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

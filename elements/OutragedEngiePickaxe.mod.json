@@ -14,7 +14,7 @@
     "harvestLevel": 12,
     "efficiency": 22.0,
     "attackSpeed": 2.2,
-    "enchantability": 22,
+    "enchantability": 10,
     "damageVsEntity": 75.0,
     "usageCount": 2000,
     "blocksAffected": [],

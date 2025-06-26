@@ -36,7 +36,7 @@ public class BiblicallyAccurateEngieAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 27;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

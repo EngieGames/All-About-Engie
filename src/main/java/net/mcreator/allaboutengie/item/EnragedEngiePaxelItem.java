@@ -47,7 +47,7 @@ public class EnragedEngiePaxelItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

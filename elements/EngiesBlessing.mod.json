@@ -1,0 +1,734 @@
+{
+  "_fv": 47,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Engies Blessing",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 10,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "BINDING_CURSE"
+      },
+      {
+        "value": "SILK_TOUCH"
+      },
+      {
+        "value": "INFINITY"
+      },
+      {
+        "value": "LUCK_OF_THE_SEA"
+      },
+      {
+        "value": "LURE"
+      },
+      {
+        "value": "LOYALTY"
+      },
+      {
+        "value": "IMPALING"
+      },
+      {
+        "value": "RIPTIDE"
+      },
+      {
+        "value": "CHANNELING"
+      },
+      {
+        "value": "MULTISHOT"
+      },
+      {
+        "value": "QUICK_CHARGE"
+      },
+      {
+        "value": "PIERCING"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Echdeath"
+      },
+      {
+        "value": "CUSTOM:EchdeathPixel"
+      },
+      {
+        "value": "CUSTOM:EngiesScythe"
+      },
+      {
+        "value": "CUSTOM:EngiesScythePixel"
+      },
+      {
+        "value": "CUSTOM:MiniBanHammer"
+      },
+      {
+        "value": "CUSTOM:BanHammer"
+      },
+      {
+        "value": "CUSTOM:BigBanHammer"
+      },
+      {
+        "value": "CUSTOM:LargeBanHammer"
+      },
+      {
+        "value": "CUSTOM:HugeBanHammer"
+      },
+      {
+        "value": "CUSTOM:MiniBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:EnormousBanHammer"
+      },
+      {
+        "value": "CUSTOM:GiganticBanHammer"
+      },
+      {
+        "value": "CUSTOM:MassiveBanHammer"
+      },
+      {
+        "value": "CUSTOM:BanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:BigBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:LargeBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:HugeBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:EnormousBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:GiganticBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:MassiveBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemersHammer"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemersHammerPixel"
+      },
+      {
+        "value": "CUSTOM:CommonSword"
+      },
+      {
+        "value": "CUSTOM:UncommonSword"
+      },
+      {
+        "value": "CUSTOM:RareSword"
+      },
+      {
+        "value": "CUSTOM:EpicSword"
+      },
+      {
+        "value": "CUSTOM:LegendarySword"
+      },
+      {
+        "value": "CUSTOM:MythicSword"
+      },
+      {
+        "value": "CUSTOM:ExoticSword"
+      },
+      {
+        "value": "CUSTOM:UnobtainiumSword"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccuratEngieBanHammer"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:MonstrosityBanHammer"
+      },
+      {
+        "value": "CUSTOM:MonstrosityBanHammerPixel"
+      },
+      {
+        "value": "CUSTOM:HWGScythe"
+      },
+      {
+        "value": "CUSTOM:DoomsDayScythe"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsDayScythe"
+      },
+      {
+        "value": "CUSTOM:TheEndScythe"
+      },
+      {
+        "value": "CUSTOM:EngieScythe"
+      },
+      {
+        "value": "CUSTOM:MiniScythe"
+      },
+      {
+        "value": "CUSTOM:Scythe"
+      },
+      {
+        "value": "CUSTOM:BigScythe"
+      },
+      {
+        "value": "CUSTOM:LargeScythe"
+      },
+      {
+        "value": "CUSTOM:HugeScythe"
+      },
+      {
+        "value": "CUSTOM:EnormousScythe"
+      },
+      {
+        "value": "CUSTOM:GiganticScythe"
+      },
+      {
+        "value": "CUSTOM:MassiveScythe"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngieScythe"
+      },
+      {
+        "value": "CUSTOM:MonstrosityScythe"
+      },
+      {
+        "value": "CUSTOM:DoomsdayBanHammer"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsdayBanHammer"
+      },
+      {
+        "value": "CUSTOM:TheEndBanHammer"
+      },
+      {
+        "value": "CUSTOM:EngiesBanHammer"
+      },
+      {
+        "value": "CUSTOM:ARealBanHammer"
+      },
+      {
+        "value": "CUSTOM:ARealBanHammerPixel"
+      },
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "CUSTOM:Operators.helmet"
+      },
+      {
+        "value": "CUSTOM:Operators.body"
+      },
+      {
+        "value": "CUSTOM:Operators.legs"
+      },
+      {
+        "value": "CUSTOM:Operators.boots"
+      },
+      {
+        "value": "CUSTOM:Developer.helmet"
+      },
+      {
+        "value": "CUSTOM:Developer.body"
+      },
+      {
+        "value": "CUSTOM:Developer.legs"
+      },
+      {
+        "value": "CUSTOM:Developer.boots"
+      },
+      {
+        "value": "CUSTOM:Contributor.helmet"
+      },
+      {
+        "value": "CUSTOM:Contributor.body"
+      },
+      {
+        "value": "CUSTOM:Contributor.legs"
+      },
+      {
+        "value": "CUSTOM:Contributor.boots"
+      },
+      {
+        "value": "CUSTOM:Tester.helmet"
+      },
+      {
+        "value": "CUSTOM:Tester.body"
+      },
+      {
+        "value": "CUSTOM:Tester.legs"
+      },
+      {
+        "value": "CUSTOM:Tester.boots"
+      },
+      {
+        "value": "CUSTOM:Engies.helmet"
+      },
+      {
+        "value": "CUSTOM:Engies.body"
+      },
+      {
+        "value": "CUSTOM:Engies.legs"
+      },
+      {
+        "value": "CUSTOM:Engies.boots"
+      },
+      {
+        "value": "CUSTOM:AngryEngies.helmet"
+      },
+      {
+        "value": "CUSTOM:AngryEngies.body"
+      },
+      {
+        "value": "CUSTOM:AngryEngies.legs"
+      },
+      {
+        "value": "CUSTOM:AngryEngies.boots"
+      },
+      {
+        "value": "CUSTOM:EnragedEngies.helmet"
+      },
+      {
+        "value": "CUSTOM:EnragedEngies.body"
+      },
+      {
+        "value": "CUSTOM:EnragedEngies.legs"
+      },
+      {
+        "value": "CUSTOM:EnragedEngies.boots"
+      },
+      {
+        "value": "CUSTOM:Shark.helmet"
+      },
+      {
+        "value": "CUSTOM:Shark.body"
+      },
+      {
+        "value": "CUSTOM:Shark.legs"
+      },
+      {
+        "value": "CUSTOM:Shark.boots"
+      },
+      {
+        "value": "CUSTOM:AlbinoShark.helmet"
+      },
+      {
+        "value": "CUSTOM:AlbinoShark.body"
+      },
+      {
+        "value": "CUSTOM:AlbinoShark.legs"
+      },
+      {
+        "value": "CUSTOM:AlbinoShark.boots"
+      },
+      {
+        "value": "CUSTOM:RareShark.helmet"
+      },
+      {
+        "value": "CUSTOM:RareShark.body"
+      },
+      {
+        "value": "CUSTOM:RareShark.legs"
+      },
+      {
+        "value": "CUSTOM:RareShark.boots"
+      },
+      {
+        "value": "CUSTOM:LegendaryShark.helmet"
+      },
+      {
+        "value": "CUSTOM:LegendaryShark.body"
+      },
+      {
+        "value": "CUSTOM:LegendaryShark.legs"
+      },
+      {
+        "value": "CUSTOM:LegendaryShark.boots"
+      },
+      {
+        "value": "CUSTOM:MythicShark.helmet"
+      },
+      {
+        "value": "CUSTOM:MythicShark.body"
+      },
+      {
+        "value": "CUSTOM:MythicShark.legs"
+      },
+      {
+        "value": "CUSTOM:MythicShark.boots"
+      },
+      {
+        "value": "CUSTOM:ExoticShark.helmet"
+      },
+      {
+        "value": "CUSTOM:ExoticShark.body"
+      },
+      {
+        "value": "CUSTOM:ExoticShark.legs"
+      },
+      {
+        "value": "CUSTOM:ExoticShark.boots"
+      },
+      {
+        "value": "CUSTOM:EngieShark.helmet"
+      },
+      {
+        "value": "CUSTOM:EngieShark.body"
+      },
+      {
+        "value": "CUSTOM:EngieShark.legs"
+      },
+      {
+        "value": "CUSTOM:EngieShark.boots"
+      },
+      {
+        "value": "CUSTOM:Cyberblood.helmet"
+      },
+      {
+        "value": "CUSTOM:Cyberblood.body"
+      },
+      {
+        "value": "CUSTOM:Cyberblood.legs"
+      },
+      {
+        "value": "CUSTOM:Cyberblood.boots"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemers.helmet"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemers.body"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemers.legs"
+      },
+      {
+        "value": "CUSTOM:CodeRedeemers.boots"
+      },
+      {
+        "value": "CUSTOM:OutragedEngies.helmet"
+      },
+      {
+        "value": "CUSTOM:OutragedEngies.body"
+      },
+      {
+        "value": "CUSTOM:OutragedEngies.legs"
+      },
+      {
+        "value": "CUSTOM:OutragedEngies.boots"
+      },
+      {
+        "value": "CUSTOM:Common.helmet"
+      },
+      {
+        "value": "CUSTOM:Common.body"
+      },
+      {
+        "value": "CUSTOM:Common.legs"
+      },
+      {
+        "value": "CUSTOM:Common.boots"
+      },
+      {
+        "value": "CUSTOM:Uncommon.helmet"
+      },
+      {
+        "value": "CUSTOM:Uncommon.body"
+      },
+      {
+        "value": "CUSTOM:Uncommon.legs"
+      },
+      {
+        "value": "CUSTOM:Uncommon.boots"
+      },
+      {
+        "value": "CUSTOM:Rare.helmet"
+      },
+      {
+        "value": "CUSTOM:Rare.body"
+      },
+      {
+        "value": "CUSTOM:Rare.legs"
+      },
+      {
+        "value": "CUSTOM:Rare.boots"
+      },
+      {
+        "value": "CUSTOM:Epic.helmet"
+      },
+      {
+        "value": "CUSTOM:Epic.body"
+      },
+      {
+        "value": "CUSTOM:Epic.legs"
+      },
+      {
+        "value": "CUSTOM:Epic.boots"
+      },
+      {
+        "value": "CUSTOM:Legendary.helmet"
+      },
+      {
+        "value": "CUSTOM:Legendary.body"
+      },
+      {
+        "value": "CUSTOM:Legendary.legs"
+      },
+      {
+        "value": "CUSTOM:Legendary.boots"
+      },
+      {
+        "value": "CUSTOM:Mythic.helmet"
+      },
+      {
+        "value": "CUSTOM:Mythic.body"
+      },
+      {
+        "value": "CUSTOM:Mythic.legs"
+      },
+      {
+        "value": "CUSTOM:Mythic.boots"
+      },
+      {
+        "value": "CUSTOM:Exotic.helmet"
+      },
+      {
+        "value": "CUSTOM:Exotic.body"
+      },
+      {
+        "value": "CUSTOM:Exotic.legs"
+      },
+      {
+        "value": "CUSTOM:Exotic.boots"
+      },
+      {
+        "value": "CUSTOM:Unobtainium.helmet"
+      },
+      {
+        "value": "CUSTOM:Unobtainium.body"
+      },
+      {
+        "value": "CUSTOM:Unobtainium.legs"
+      },
+      {
+        "value": "CUSTOM:Unobtainium.boots"
+      },
+      {
+        "value": "CUSTOM:Cyber.helmet"
+      },
+      {
+        "value": "CUSTOM:Cyber.body"
+      },
+      {
+        "value": "CUSTOM:Cyber.legs"
+      },
+      {
+        "value": "CUSTOM:Cyber.boots"
+      },
+      {
+        "value": "CUSTOM:Blood.helmet"
+      },
+      {
+        "value": "CUSTOM:Blood.body"
+      },
+      {
+        "value": "CUSTOM:Blood.legs"
+      },
+      {
+        "value": "CUSTOM:Blood.boots"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngies.helmet"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngies.body"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngies.legs"
+      },
+      {
+        "value": "CUSTOM:BiblicallyAccurateEngies.boots"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngies.helmet"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngies.body"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngies.legs"
+      },
+      {
+        "value": "CUSTOM:MonstrosityEngies.boots"
+      },
+      {
+        "value": "CUSTOM:EpicShark.helmet"
+      },
+      {
+        "value": "CUSTOM:EpicShark.body"
+      },
+      {
+        "value": "CUSTOM:EpicShark.legs"
+      },
+      {
+        "value": "CUSTOM:EpicShark.boots"
+      },
+      {
+        "value": "CUSTOM:HWG.helmet"
+      },
+      {
+        "value": "CUSTOM:HWG.body"
+      },
+      {
+        "value": "CUSTOM:HWG.legs"
+      },
+      {
+        "value": "CUSTOM:HWG.boots"
+      },
+      {
+        "value": "CUSTOM:DoomsDays.helmet"
+      },
+      {
+        "value": "CUSTOM:DoomsDays.body"
+      },
+      {
+        "value": "CUSTOM:DoomsDays.legs"
+      },
+      {
+        "value": "CUSTOM:DoomsDays.boots"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsDays.helmet"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsDays.body"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsDays.legs"
+      },
+      {
+        "value": "CUSTOM:SuperDoomsDays.boots"
+      },
+      {
+        "value": "CUSTOM:TheEnds.helmet"
+      },
+      {
+        "value": "CUSTOM:TheEnds.body"
+      },
+      {
+        "value": "CUSTOM:TheEnds.legs"
+      },
+      {
+        "value": "CUSTOM:TheEnds.boots"
+      },
+      {
+        "value": "CUSTOM:EngieGamess.helmet"
+      },
+      {
+        "value": "CUSTOM:EngieGamess.body"
+      },
+      {
+        "value": "CUSTOM:EngieGamess.legs"
+      },
+      {
+        "value": "CUSTOM:EngieGamess.boots"
+      },
+      {
+        "value": "Items.LEATHER_HELMET"
+      },
+      {
+        "value": "Items.LEATHER_CHESTPLATE"
+      },
+      {
+        "value": "Items.LEATHER_LEGGINGS"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.CHAINMAIL_HELMET"
+      },
+      {
+        "value": "Items.CHAINMAIL_CHESTPLATE"
+      },
+      {
+        "value": "Items.CHAINMAIL_LEGGINGS"
+      },
+      {
+        "value": "Items.CHAINMAIL_BOOTS"
+      },
+      {
+        "value": "Items.TURTLE_HELMET"
+      },
+      {
+        "value": "Items.IRON_HELMET"
+      },
+      {
+        "value": "Items.IRON_CHESTPLATE"
+      },
+      {
+        "value": "Items.IRON_LEGGINGS"
+      },
+      {
+        "value": "Items.IRON_BOOTS"
+      },
+      {
+        "value": "Items.GOLDEN_HELMET"
+      },
+      {
+        "value": "Items.GOLDEN_CHESTPLATE"
+      },
+      {
+        "value": "Items.GOLDEN_LEGGINGS"
+      },
+      {
+        "value": "Items.GOLDEN_BOOTS"
+      },
+      {
+        "value": "Items.DIAMOND_HELMET"
+      },
+      {
+        "value": "Items.DIAMOND_CHESTPLATE"
+      },
+      {
+        "value": "Items.DIAMOND_LEGGINGS"
+      },
+      {
+        "value": "Items.DIAMOND_BOOTS"
+      },
+      {
+        "value": "Items.NETHERITE_HELMET"
+      },
+      {
+        "value": "Items.NETHERITE_CHESTPLATE"
+      },
+      {
+        "value": "Items.NETHERITE_LEGGINGS"
+      },
+      {
+        "value": "Items.NETHERITE_BOOTS"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
