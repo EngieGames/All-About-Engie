@@ -1,4 +1,4 @@
-# Heads up!
+![HeadsUpForDesc](https://cdn.modrinth.com/data/cached_images/7fb2213e61edffd02b9fb3001e5b618aa03679d8.png)
 - **This mod is a collection of all my other mods.**
 - **There is slight cussing. I have went in and censored parts of the cussing for your safety.**
 - **There are a lot of references to other games.**
@@ -6,8 +6,8 @@
 - **My brother was the one who gave me the idea for this mod.**
 - **There are a lot of references to real life species.**
 - **Sadly, there's not a WIKI yet.** :(
-## Thank you for reading. Now let's talk about the real stuff.
-### This mod adds:
+
+![This mod adds:](https://cdn.modrinth.com/data/cached_images/dbe6b9d77f3ea4d17a4d9d53762d7b63b32feaed.png)
 - A few structures, which 2 have a low chance to spawn, the rest have a higher chance to spawn.
 - A **TON** of advancements for you to collect. Some of them relating to me [DevEngie].
 - Armor to help you stay alive longer.
