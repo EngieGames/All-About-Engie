@@ -1,3 +1,6 @@
+# Code updates here on GitHub are currently delayed due to a certain MCreator plugin being out of date currently. I will try to update the code as soon as possible once I'm able to.
+
+
 ![HeadsUpForDesc](https://cdn.modrinth.com/data/cached_images/7fb2213e61edffd02b9fb3001e5b618aa03679d8.png)
 - **This mod is a collection of all my other mods.**
 - **There is slight cussing. I have went in and censored parts of the cussing for your safety.**
