@@ -1,14 +1,15 @@
 {
   "homepage": "https://modrinth.com/mod/all-about-engie",
   "promos": {
-    "1.20.1-latest": "8.3.25",
-    "1.20.1-recommended": "8.3.25",
-    "1.19.4-latest": "8.3.25",
-    "1.19.4-recommended": "8.3.25",
-    "1.19.2-latest": "8.3.25",
-    "1.19.2-recommended": "8.3.25",
+    "1.20.1-latest": "8.4.25",
+    "1.20.1-recommended": "8.4.25",
+    "1.19.4-latest": "8.4.25",
+    "1.19.4-recommended": "8.4.25",
+    "1.19.2-latest": "8.4.25",
+    "1.19.2-recommended": "8.4.25",
     "1.18.2-latest": "7.17.25.2",
     "1.18.2-recommended": "7.17.25.2",
   }
 }
+
 
